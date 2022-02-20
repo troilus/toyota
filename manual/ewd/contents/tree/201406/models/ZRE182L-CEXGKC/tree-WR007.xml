@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="WR007" code="B18" type="conn">
+    <name>空燃比传感器 (B1 S1)</name>
+  </text>
+  <text ewd="WR007" code="B7" type="conn">
+    <name>倒车灯开关总成</name>
+  </text>
+  <text ewd="WR007" code="B3" type="conn">
+    <name>蓄电池</name>
+  </text>
+  <text ewd="WR007" code="B38" type="conn">
+    <name>蓄电池</name>
+  </text>
+  <text ewd="WR007" code="B36" type="conn">
+    <name>蓄电池电流传感器总成</name>
+  </text>
+  <text ewd="WR007" code="B25" type="conn">
+    <name>凸轮轴正时机油控制阀总成（排气侧）</name>
+  </text>
+  <text ewd="WR007" code="B26" type="conn">
+    <name>凸轮轴正时机油控制阀总成（进气侧）</name>
+  </text>
+  <text ewd="WR007" code="B9" type="conn">
+    <name>带皮带轮的压缩机总成</name>
+  </text>
+  <text ewd="WR007" code="B16" type="conn">
+    <name>曲轴位置传感器</name>
+  </text>
+  <text ewd="WR007" code="B21" type="conn">
+    <name>CVT 电磁阀（变速器线束）</name>
+  </text>
+  <text ewd="WR007" code="B4" type="conn">
+    <name>E.F.I. 发动机冷却液温度传感器</name>
+  </text>
+  <text ewd="WR007" code="B20" type="conn">
+    <name>E.F.I. 真空传感器总成</name>
+  </text>
+  <text ewd="WR007" code="B39" type="conn">
+    <name>ECM</name>
+  </text>
+  <text ewd="WR007" code="B8" type="conn">
+    <name>发动机机油压力开关总成</name>
+  </text>
+  <text ewd="WR007" code="B11" type="conn">
+    <name>1 号喷油器总成</name>
+  </text>
+  <text ewd="WR007" code="B12" type="conn">
+    <name>2 号喷油器总成</name>
+  </text>
+  <text ewd="WR007" code="B13" type="conn">
+    <name>3 号喷油器总成</name>
+  </text>
+  <text ewd="WR007" code="B14" type="conn">
+    <name>4 号喷油器总成</name>
+  </text>
+  <text ewd="WR007" code="B1" type="conn">
+    <name>发电机总成</name>
+  </text>
+  <text ewd="WR007" code="B17" type="conn">
+    <name>发电机总成</name>
+  </text>
+  <text ewd="WR007" code="B29" type="conn">
+    <name>1 号点火线圈</name>
+  </text>
+  <text ewd="WR007" code="B30" type="conn">
+    <name>2 号点火线圈</name>
+  </text>
+  <text ewd="WR007" code="B31" type="conn">
+    <name>3 号点火线圈</name>
+  </text>
+  <text ewd="WR007" code="B32" type="conn">
+    <name>4 号点火线圈</name>
+  </text>
+  <text ewd="WR007" code="B2" type="conn">
+    <name>进气质量空气流量计分总成</name>
+  </text>
+  <text ewd="WR007" code="B33" type="conn">
+    <name>油压传感器</name>
+  </text>
+  <text ewd="WR007" code="B19" type="conn">
+    <name>油温传感器</name>
+  </text>
+  <text ewd="WR007" code="B27" type="conn">
+    <name>氧传感器 (B1 S2)</name>
+  </text>
+  <text ewd="WR007" code="B15" type="conn">
+    <name>驻车/空档位置开关总成</name>
+  </text>
+  <text ewd="WR007" code="B22" type="conn">
+    <name>净化 VSV</name>
+  </text>
+  <text ewd="WR007" code="B5" type="conn">
+    <name>起动机总成</name>
+  </text>
+  <text ewd="WR007" code="B10" type="conn">
+    <name>起动机总成</name>
+  </text>
+  <text ewd="WR007" code="B28" type="conn">
+    <name>节气门体总成</name>
+  </text>
+  <text ewd="WR007" code="B34" type="conn">
+    <name>变速器转速传感器（初级）</name>
+  </text>
+  <text ewd="WR007" code="B35" type="conn">
+    <name>变速器转速传感器（次级）</name>
+  </text>
+  <text ewd="WR007" code="B37" type="conn">
+    <name>VSV (ACIS)</name>
+  </text>
+  <text ewd="WR007" code="B23" type="conn">
+    <name>VVT 传感器（排气侧）</name>
+  </text>
+  <text ewd="WR007" code="B24" type="conn">
+    <name>VVT 传感器（进气侧）</name>
+  </text>
+  <text ewd="WR008" code="A13" type="conn">
+    <name>空调压力传感器</name>
+  </text>
+  <text ewd="WR008" code="C1" type="conn">
+    <name>蓄电池</name>
+  </text>
+  <text ewd="WR008" code="A42" type="conn">
+    <name>制动执行器总成</name>
+  </text>
+  <text ewd="WR008" code="A10" type="conn">
+    <name>制动液液位警告开关（制动总泵储液罐总成）</name>
+  </text>
+  <text ewd="WR008" code="A33" type="conn">
+    <name>冷却风扇 ECU</name>
+  </text>
+  <text ewd="WR008" code="z9" type="conn">
+    <name>冷却风扇 ECU、冷却风扇电动机</name>
+  </text>
+  <text ewd="WR008" code="A40" type="conn">
+    <name>ECM</name>
+  </text>
+  <text ewd="WR008" code="A23" type="conn">
+    <name>左侧雾灯总成</name>
+  </text>
+  <text ewd="WR008" code="A19" type="conn">
+    <name>右侧雾灯总成</name>
+  </text>
+  <text ewd="WR008" code="A8" type="conn">
+    <name>左前空气囊传感器</name>
+  </text>
+  <text ewd="WR008" code="A18" type="conn">
+    <name>右前空气囊传感器</name>
+  </text>
+  <text ewd="WR008" code="A26" type="conn">
+    <name>左前轮转速传感器</name>
+  </text>
+  <text ewd="WR008" code="A25" type="conn">
+    <name>右前轮转速传感器</name>
+  </text>
+  <text ewd="WR008" code="A7" type="conn">
+    <name>左侧大灯总成</name>
+  </text>
+  <text ewd="WR008" code="A9" type="conn">
+    <name>左侧大灯总成</name>
+  </text>
+  <text ewd="WR008" code="A43" type="conn">
+    <name>左侧大灯总成</name>
+  </text>
+  <text ewd="WR008" code="A50" type="conn">
+    <name>左侧大灯总成</name>
+  </text>
+  <text ewd="WR008" code="A16" type="conn">
+    <name>右侧大灯总成</name>
+  </text>
+  <text ewd="WR008" code="A17" type="conn">
+    <name>右侧大灯总成</name>
+  </text>
+  <text ewd="WR008" code="A45" type="conn">
+    <name>右侧大灯总成</name>
+  </text>
+  <text ewd="WR008" code="A49" type="conn">
+    <name>右侧大灯总成</name>
+  </text>
+  <text ewd="WR008" code="A24" type="conn">
+    <name>高音喇叭总成</name>
+  </text>
+  <text ewd="WR008" code="D1" type="conn">
+    <name>爆震控制传感器 (B1)</name>
+  </text>
+  <text ewd="WR008" code="A21" type="conn">
+    <name>低音喇叭总成</name>
+  </text>
+  <text ewd="WR008" code="A20" type="conn">
+    <name>车外温度传感器（热敏电阻总成）</name>
+  </text>
+  <text ewd="WR008" code="A15" type="conn">
+    <name>风挡玻璃清洗器马达和泵总成</name>
+  </text>
+  <text ewd="WR008" code="A6" type="conn">
+    <name>风挡玻璃刮水器马达总成</name>
+  </text>
+</EwdTree>

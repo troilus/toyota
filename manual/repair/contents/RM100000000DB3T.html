@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_58</span>
+<span class="globalServcatName">车辆内饰</span>
+<span class="globalSection">_024005</span>
+<span class="globalSectionName">防盗/无钥匙上车系统</span>
+<span class="globalTitle">_0116716</span>
+<span class="globalTitleName">停机系统（不带智能进入和起动系统）</span>
+<span class="globalCategory">D</span>
+</div>
+<h1>防盗/无钥匙上车系统&nbsp;&nbsp;停机系统（不带智能进入和起动系统）&nbsp;&nbsp;系统描述&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DB3T_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">停机系统描述
+</span></p>
+<br>
+<p>停机系统用于防止车辆被盗。该系统使用应答器钥匙 ECU 总成，该总成存储经认证的点火钥匙的钥匙识别码。如果试图用未经认证车门控制发射器总成来起动发动机，则应答器钥匙 ECU 总成发送信号至 ECM 以禁止燃油输送和点火，使发动机失效。
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">主要零部件的功能
+</span></p>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:35%">
+<col style="width:64%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">零部件
+</th>
+<th class="alcenter">概要
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>应答器钥匙 ECU 总成
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>将车门控制发射器总成插入点火锁芯时，应答器钥匙 ECU 总成检查从应答器钥匙线圈接收的钥匙识别码与注册的钥匙识别码是否匹配。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机起动时，应答器钥匙 ECU 总成检查存储在 ECM 和应答器钥匙 ECU 总成中的发动机识别码是否匹配。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td>应答器钥匙线圈
+</td>
+<td>将车门控制发射器总成插入点火锁芯时，应答器钥匙放大器接收来自车门控制发射器总成柄内应答器芯片的钥匙识别码并将其输出至应答器钥匙 ECU 总成。
+</td>
+</tr>
+<tr>
+<td>ECM
+</td>
+<td>ECM 接收来自应答器钥匙 ECU 总成的钥匙识别码认证结果。ECM 也认证 ECU。然后做出是否停止发动机的判断。
+</td>
+</tr>
+<tr>
+<td>未锁警告开关总成
+</td>
+<td>未锁警告开关总成检测车门控制发射器总成是否位于点火锁芯，并将结果输出至应答器钥匙 ECU 总成。
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">系统功能
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>应答器钥匙 ECU 总成检测到未锁警告开关总成打开时，应答器钥匙 ECU 总成向应答器钥匙线圈施加电流并在天线线圈周围产生磁场。 车门控制发射器总成手柄中的应答器芯片通过磁场产生的电动势输出钥匙识别码信号。 应答器钥匙线圈接收信号并将其发送至应答器钥匙 ECU 总成。 应答器钥匙 ECU 总成检查接收到的来自应答器钥匙线圈的钥匙识别码是否与注册的钥匙识别码匹配。
+</p>
+<p>发动机起动时，ECM 与应答器钥匙 ECU 总成通信并检查车门控制发射器总成认证结果。 此外，ECM 还检查存储在应答器钥匙 ECU 总成中的发动机识别码是否与 ECM 中的匹配。 如果不匹配，则 ECM 禁止发动机起动。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

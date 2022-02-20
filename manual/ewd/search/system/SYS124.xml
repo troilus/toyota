@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS124">
+    <part type="conn" code="E70">
+      <name>3 号接线连接器</name>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="conn" code="L56">
+      <name>8 号接线连接器</name>
+    </part>
+  </ttl>
+</EWDSearch>

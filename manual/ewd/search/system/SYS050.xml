@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS050">
+    <part type="conn" code="L1">
+      <name>左前车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="L41">
+      <name>右前车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="H10">
+      <text>CPU GND LIN B AUTO DOWN UP LED M</text>
+      <name>左前电动车窗升降器电动机总成</name>
+    </part>
+    <part type="conn" code="H5">
+      <text>D U M</text>
+      <name>左前电动车窗升降器电动机总成</name>
+    </part>
+    <part type="conn" code="G9">
+      <text>U D M</text>
+      <name>右前电动窗升降器马达总成</name>
+    </part>
+    <part type="conn" code="G5">
+      <text>SD SU U D B</text>
+      <name>右前电动窗升降器开关总成</name>
+      <name type="inner">下</name>
+      <name type="inner">上</name>
+    </part>
+    <part type="conn" code="E36">
+      <text>KOFF FRCY ACC IG BECU LIN2 FLCY GND1</text>
+      <name>主车身 ECU</name>
+    </part>
+    <part type="conn" code="H6">
+      <text>B LED U D A E</text>
+      <name>电动窗升降器主开关总成</name>
+    </part>
+    <part type="conn" code="K2">
+      <text>U D M</text>
+      <name>左后电动窗升降器马达总成</name>
+    </part>
+    <part type="conn" code="J2">
+      <text>U D M</text>
+      <name>右后电动窗升降器马达总成</name>
+    </part>
+    <part type="conn" code="K1">
+      <text>B D U SD SU</text>
+      <name>左后电动窗升降器开关总成</name>
+      <name type="inner">下</name>
+      <name type="inner">上</name>
+    </part>
+    <part type="conn" code="J1">
+      <text>SD SU B D U</text>
+      <name>右后电动窗升降器开关总成</name>
+      <name type="inner">下</name>
+      <name type="inner">上</name>
+    </part>
+    <part type="fuse" code="FUSE43">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE36">
+      <text>ALT</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>ECU-B NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE47">
+      <text>ECU-IG NO.4</text>
+    </part>
+    <part type="fuse" code="FUSE61">
+      <text>FR DOOR</text>
+    </part>
+    <part type="fuse" code="FUSE67">
+      <text>POWER</text>
+    </part>
+    <part type="fuse" code="FUSE62">
+      <text>RL DOOR</text>
+    </part>
+    <part type="fuse" code="FUSE63">
+      <text>RR DOOR</text>
+    </part>
+  </ttl>
+</EWDSearch>

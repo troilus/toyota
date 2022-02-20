@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS057" code="H9" type="conn" figID="6">
+    <name>带电动机的左前门锁总成</name>
+  </text>
+  <text ewd="SYS057" code="E71" type="conn" figID="3">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS057" code="E25" type="conn" figID="2">
+    <name>车外后视镜开关总成</name>
+  </text>
+  <text ewd="SYS057" code="H3" type="conn" figID="5">
+    <name>左侧车外后视镜总成</name>
+  </text>
+  <text ewd="SYS057" code="G3" type="conn" figID="4">
+    <name>右侧车外后视镜总成</name>
+  </text>
+  <text ewd="SYS057" code="FUSE6" type="fuse" figID="26">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS057" code="FUSE43" type="fuse" figID="28">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS057" code="FUSE47" type="fuse" figID="27">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS057" code="EA" type="gp" figID="23">
+    <name />
+  </text>
+  <text ewd="SYS057" code="ED" type="gp" figID="22">
+    <name />
+  </text>
+  <text ewd="SYS057" code="3" type="jb" figID="8,9">
+    <name />
+  </text>
+  <text ewd="SYS057" code="FUSE6" type="rb" figID="1">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS057" code="SP22" type="sp" figID="25">
+    <name />
+  </text>
+  <text ewd="SYS057" code="SP30" type="sp" figID="24">
+    <name />
+  </text>
+  <text ewd="SYS057" code="HE1" type="w2w" figID="15,16,17,18,19,21">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS057" code="HE3" type="w2w" figID="20">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS057" code="GE1" type="w2w" figID="10,11,12,13,14">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+</EwdTree>

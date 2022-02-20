@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS110" code="B38,C1" type="conn" figID="2">
+    <name>蓄电池</name>
+  </text>
+  <text ewd="SYS110" code="B36" type="conn" figID="12">
+    <name>蓄电池电流传感器总成</name>
+  </text>
+  <text ewd="SYS110" code="E55" type="conn" figID="8,11">
+    <name>组合仪表总成</name>
+  </text>
+  <text ewd="SYS110" code="A40,B39" type="conn" figID="9">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS110" code="B1,B17" type="conn" figID="10">
+    <name>发电机总成</name>
+  </text>
+  <text ewd="SYS110" code="A39" type="conn" figID="3">
+    <name>1 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS110" code="E74" type="conn" figID="4">
+    <name>2 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS110" code="E16" type="conn" figID="7">
+    <name>风挡玻璃刮水器开关总成</name>
+  </text>
+  <text ewd="SYS110" code="FUSE6" type="fuse" figID="35,36">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS110" code="FUSE36" type="fuse" figID="31">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS110" code="FUSE65" type="fuse" figID="32">
+    <name>25A WIP FR</name>
+  </text>
+  <text ewd="SYS110" code="FUSE39" type="fuse" figID="34,37">
+    <name>5A MET</name>
+  </text>
+  <text ewd="SYS110" code="FUSE41" type="fuse" figID="33">
+    <name>5A WIP-S</name>
+  </text>
+  <text ewd="SYS110" code="CA" type="gp" figID="28">
+    <name />
+  </text>
+  <text ewd="SYS110" code="CB" type="gp" figID="27">
+    <name />
+  </text>
+  <text ewd="SYS110" code="ED" type="gp" figID="29,30">
+    <name />
+  </text>
+  <text ewd="SYS110" code="1" type="jb" figID="18,22">
+    <name />
+  </text>
+  <text ewd="SYS110" code="3" type="jb" figID="17,19,20,21,23,24">
+    <name />
+  </text>
+  <text ewd="SYS110" code="FUSE6" type="rb" figID="5,6">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS110" code="FUSE36" type="rb" figID="1">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS110" code="AE4" type="w2w" figID="25,26">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+</EwdTree>

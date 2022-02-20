@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024004">
+<name>门锁</name>
+<ttl id="_0116197">
+<name>无线门锁控制系统（带智能进入和起动系统）</name>
+<para category="C" id="RM100000000D8MR">
+<dtccode>B1242</dtccode>
+<dtcname>遥控门锁调谐电路故障</dtcname>
+<subpara category="03" id="RM100000000D8MR_01">
+<name>描述</name>
+<content5>
+<ptxt>带接收器的车门控制 ECU 总成用于接收与电子钥匙发射器分总成的上车功能有关的无线电波。认证 ECU（智能钥匙 ECU 总成）根据由带接收器的车门控制 ECU 总成接收到的无线电波识别钥匙代码，对请求的电子钥匙发射器分总成操作进行解码。 带接收器的车门控制 ECU 总成通过认证 ECU（智能钥匙 ECU 总成）（例如：如果请求车门锁止操作，则认证 ECU（智能钥匙 ECU 总成）将车门锁止指令发送至主车身 ECU（多路网络车身 ECU））接收来自电子钥匙发射器分总成的信号，并将信号发送至主车身 ECU（多路网络车身 ECU）。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="4">
+<colspec colname="1" colwidth="1.77in"/>
+<colspec colname="2" colwidth="1.77in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B1242</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>遥控门锁调谐电路故障</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<list1 type="unordered">
+<item>
+<ptxt>认证 ECU（智能钥匙 ECU 总成）和带接收器的车门控制 ECU 总成之间的 RDAM 对接地短路。</ptxt>
+</item>
+<item>
+<ptxt>ECU 的 RCO (5 V) 输出停止时 RDAM 对接地短路。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>线束或连接器</ptxt>
+</item>
+<item>
+<ptxt>带接收器的车门控制 ECU 总成</ptxt>
+</item>
+<item>
+<ptxt>认证 ECU（智能钥匙 ECU 总成）</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D8MR_02">
+<name>电路图</name>
+<content5>
+<step1>
+<figure translate="E" type="1">
+<graphic graphicname="B265620E34" height="3.812598425in" width="7.168479331in">
+
+</graphic>
+</figure>
+</step1>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D8MR_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>更换或检查带接收器的车门控制 ECU 总成和线束时，不要改变线束的位置或长度。如果线束距离带接收器的车门控制 ECU 总成太近，则上车和遥控功能的性能可能会受到影响。</ptxt>
+</item>
+<item>
+<ptxt>将发动机开关从 ON (IG) 位置切换到 OFF 位置后，10 秒内未存储该 DTC。</ptxt>
+</item>
+<item>
+<ptxt>无线门锁控制系统使用 CAN 通信系统。根据“如何进行故障排除”检查通信功能。确认通信系统工作正常后对无线门锁控制系统进行故障排除。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8MN" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>更换认证 ECU（智能钥匙 ECU 总成）前，请参考智能进入和起动系统（上车功能）的注意事项。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8OB" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+</list1>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D8MR_06">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8MR_06_0001">
+<testtitle>检查认证 ECU（智能钥匙 ECU 总成）</testtitle>
+<content6>
+<test1>
+<ptxt>断开带接收器的车门控制 ECU 总成连接器 L52。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="B272823C12" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（连接至带接收器的车门控制 ECU 总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压和电阻并检查脉冲。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L52-4 (+5) - L52-1 (GND)</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>程序：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>发动机开关 OFF</ptxt>
+</item>
+<item>
+<ptxt>电子钥匙发射器分总成位于检测区域外，但是位于遥控功能工作范围。</ptxt>
+</item>
+<item>
+<ptxt>电子钥匙发射器分总成的锁止或开锁开关未按下 → 按下</ptxt>
+</item>
+</list1>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>产生脉冲</ptxt>
+<ptxt>（参见波形 1）</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L52-2 (CSEL) - L52-1 (GND)</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>程序：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>发动机开关 OFF</ptxt>
+</item>
+<item>
+<ptxt>所有车门关闭</ptxt>
+</item>
+</list1>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>低于 1 V → 4.5 至 6.0 V → 低于 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L52-5 (DATA) - L52-1 (GND)</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>程序：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>发动机开关 OFF</ptxt>
+</item>
+<item>
+<ptxt>所有车门锁止</ptxt>
+</item>
+<item>
+<ptxt>电子钥匙发射器分总成不在车内</ptxt>
+</item>
+<item>
+<ptxt>电子钥匙发射器分总成位于检测区域外，但是位于遥控功能工作范围。</ptxt>
+</item>
+<item>
+<ptxt>电子钥匙发射器分总成的锁止或开锁开关未按下 → 按下</ptxt>
+</item>
+</list1>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>产生脉冲</ptxt>
+<ptxt>（参见波形 2）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L52-1 (GND) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>使用示波器检查波形 1。</ptxt>
+<atten4>
+<ptxt>图中所示示波器波形仅为一个参考示例。未显示噪波、杂波等。</ptxt>
+</atten4>
+<figure translate="C" type="1">
+<graphic graphicname="B251178C12" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>按下电子钥匙发射器分总成的锁止或开锁开关前</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry>
+<ptxt>按下电子钥匙发射器分总成的锁止或开锁开关后</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<table>
+<title>波形 1（参考）</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="1.45in"/>
+<colspec colname="COL2" colwidth="2.68in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>内容</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>L52-4 (+5) - L52-1 (GND)</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>工具设定</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>2 V/格，500 ms/格</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>程序：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>发动机开关 OFF</ptxt>
+</item>
+<item>
+<ptxt>电子钥匙发射器分总成位于检测区域外，但是位于遥控功能工作范围。</ptxt>
+</item>
+<item>
+<ptxt>电子钥匙发射器分总成的锁止或开锁开关未按下 → 按下</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+<test1>
+<ptxt>使用示波器检查波形 2。</ptxt>
+<atten4>
+<ptxt>图中所示示波器波形仅为一个参考示例。未显示噪波、杂波等。</ptxt>
+</atten4>
+<figure translate="C" type="1">
+<graphic graphicname="B251177C12" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>按下电子钥匙发射器分总成的锁止或开锁开关前</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry>
+<ptxt>按下电子钥匙发射器分总成的锁止或开锁开关后</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<table>
+<title>波形 2（参考）</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="1.45in"/>
+<colspec colname="COL2" colwidth="2.68in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>内容</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>L52-5 (DATA) - L52-1 (GND)</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>工具设定</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>5 V/格，500 ms/格</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>程序：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>发动机开关 OFF</ptxt>
+</item>
+<item>
+<ptxt>所有车门锁止</ptxt>
+</item>
+<item>
+<ptxt>电子钥匙发射器分总成不在车内</ptxt>
+</item>
+<item>
+<ptxt>电子钥匙发射器分总成位于检测区域外，但是位于遥控功能工作范围。</ptxt>
+</item>
+<item>
+<ptxt>电子钥匙发射器分总成的锁止或开锁开关未按下 → 按下</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>更换带接收器的车门控制 ECU 总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8ID" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-2" label="3">
+<action actiontype="next" cellposition="2-2" childid="RM100000000D8MR_06_0003"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-2" id="RM100000000D8MR_06_0003">
+<testtitle>检查线束和连接器（带接收器的车门控制 ECU 总成 - 认证 ECU（智能钥匙 ECU 总成））</testtitle>
+<content6>
+<test1>
+<ptxt>断开认证 ECU（智能钥匙 ECU 总成）连接器 E47 和 E48。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E48-6 (CSEL) - L52-2 (CSEL)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E48-17 (RDAM) - L52-5 (DATA)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E48-5 (RCO) - L52-4 (+5)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E47-11 (E) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E48-6 (CSEL) 或 L52-2 (CSEL) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E48-17 (RDAM) 或 L52-5 (DATA) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E48-5 (RCO) 或 L52-4 (+5) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-2" label="1">
+<action actiontype="end" cellposition="3-2">
+<actiontitle>更换认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="2-3" label="2">
+<action actiontype="end" cellposition="3-3">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

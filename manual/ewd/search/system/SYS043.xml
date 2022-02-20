@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS043">
+    <part type="conn" code="A24">
+      <name>高音喇叭总成</name>
+    </part>
+    <part type="conn" code="A21">
+      <name>低音喇叭总成</name>
+    </part>
+    <part type="conn" code="z11">
+      <text>L</text>
+      <name>螺旋电缆分总成、喇叭按钮线束分总成</name>
+      <name type="inner">喇叭开关</name>
+    </part>
+    <part type="conn" code="E13,z6,z11">
+      <text>HO (*2) (*3)</text>
+      <name>螺旋电缆分总成、喇叭按钮线束分总成、方向盘衬垫开关总成</name>
+    </part>
+    <part type="conn" code="z6">
+      <text>L</text>
+      <name>螺旋电缆分总成、方向盘衬垫开关总成</name>
+      <name type="inner">喇叭开关</name>
+    </part>
+    <part type="fuse" code="FUSE14">
+      <text>HORN</text>
+    </part>
+  </ttl>
+</EWDSearch>

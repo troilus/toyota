@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <note ewd="WIRE013" code="X2" type="conn">
+    <name>导航接收器总成</name>
+  </note>
+  <note ewd="WIRE013" code="X1" type="conn">
+    <name>1 号立体声插座适配器总成</name>
+  </note>
+  <note ewd="WIRE013" code="X3" type="conn">
+    <name>无线电收音机和显示屏接收器总成</name>
+  </note>
+</EwdTree>

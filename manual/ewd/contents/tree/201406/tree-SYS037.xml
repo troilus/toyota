@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS037" code="A15" type="conn" figID="1">
+    <name>风挡玻璃清洗器马达和泵总成</name>
+  </text>
+  <text ewd="SYS037" code="A6" type="conn" figID="3">
+    <name>风挡玻璃刮水器马达总成</name>
+  </text>
+  <text ewd="SYS037" code="E16,E17" type="conn" figID="2">
+    <name>风挡玻璃刮水器开关总成</name>
+  </text>
+  <text ewd="SYS037" code="FUSE59" type="fuse" figID="13">
+    <name>15A WASHER</name>
+  </text>
+  <text ewd="SYS037" code="FUSE65" type="fuse" figID="14">
+    <name>25A WIP FR</name>
+  </text>
+  <text ewd="SYS037" code="AD" type="gp" figID="11">
+    <name />
+  </text>
+  <text ewd="SYS037" code="EA" type="gp" figID="10">
+    <name />
+  </text>
+  <text ewd="SYS037" code="3" type="jb" figID="4,5">
+    <name />
+  </text>
+  <text ewd="SYS037" code="SP9" type="sp" figID="12">
+    <name />
+  </text>
+  <text ewd="SYS037" code="AE6" type="w2w" figID="6,7,8,9">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+</EwdTree>

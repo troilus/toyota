@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS088" code="E55" type="conn" figID="4,8">
+    <name>组合仪表总成</name>
+  </text>
+  <text ewd="SYS088" code="L1" type="conn" figID="6">
+    <name>左前车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS088" code="E36" type="conn" figID="11">
+    <name>主车身 ECU</name>
+  </text>
+  <text ewd="SYS088" code="A39" type="conn" figID="9">
+    <name>1 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS088" code="E74" type="conn" figID="10">
+    <name>2 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS088" code="E71" type="conn" figID="1">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS088" code="E10" type="conn" figID="2">
+    <name>未锁警告开关总成</name>
+  </text>
+  <text ewd="SYS088" code="FUSE5" type="fuse" figID="33">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS088" code="FUSE6" type="fuse" figID="36,39">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS088" code="FUSE39" type="fuse" figID="37,38">
+    <name>5A MET</name>
+  </text>
+  <text ewd="SYS088" code="FUSE43" type="fuse" figID="35">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS088" code="FUSE47" type="fuse" figID="34">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS088" code="EA" type="gp" figID="26">
+    <name />
+  </text>
+  <text ewd="SYS088" code="EB" type="gp" figID="27">
+    <name />
+  </text>
+  <text ewd="SYS088" code="ED" type="gp" figID="28,29,30">
+    <name />
+  </text>
+  <text ewd="SYS088" code="3" type="jb" figID="15,16,17,18,19,20,21">
+    <name />
+  </text>
+  <text ewd="SYS088" code="FUSE5" type="rb" figID="5">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS088" code="FUSE6" type="rb" figID="3,7">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS088" code="SP13" type="sp" figID="32">
+    <name />
+  </text>
+  <text ewd="SYS088" code="SP36" type="sp" figID="31">
+    <name />
+  </text>
+  <text ewd="SYS088" code="AE2" type="w2w" figID="23,25">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS088" code="AE4" type="w2w" figID="22,24">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+</EwdTree>

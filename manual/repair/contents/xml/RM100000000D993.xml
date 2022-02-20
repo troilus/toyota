@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024005">
+<name>防盗/无钥匙上车系统</name>
+<ttl id="_0116338">
+<name>智能进入和起动系统（起动功能）</name>
+<para category="C" id="RM100000000D993">
+<dtccode>B2277</dtccode>
+<dtcname>检测车辆浸水</dtcname>
+<subpara category="03" id="RM100000000D993_01">
+<name>描述</name>
+<content5>
+<ptxt>检测到认证 ECU（智能钥匙 ECU 总成）内的浸水检测电路存在故障时，存储此 DTC。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B2277</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>检测车辆浸水</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>认证 ECU（智能钥匙 ECU 总成）的浸水检测电路检测浸水（单程检测逻辑*）。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>认证 ECU（智能钥匙 ECU 总成）浸入水中</ptxt>
+</item>
+<item>
+<ptxt>认证 ECU（智能钥匙 ECU 总成）</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="remark">
+<list1 type="nonmark">
+<title>DTC 输出确认操作</title>
+<item>
+<ptxt>连接蓄电池负极 (-) 端子电缆后，等待 300 秒。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*：仅存在故障时检测到。</ptxt>
+</item>
+</list1>
+<table pgwide="1">
+<title>检测到故障时的车辆状况和失效保护功能</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测到故障时的车辆状况</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测到故障时的失效保护功能</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>发动机开关不能置于 OFF 位置且发动机不能起动。</ptxt>
+</entry>
+<entry align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>相关数据表和主动测试项目</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COLSPEC0" colwidth="2.36in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>数据表项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>主动测试项目</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B2277</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D993_02">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>发动机开关置于 OFF 位置的情况下使用 GTS 时，将 GTS 连接至 DLC3 并以 1.5 秒或更短的间隔打开并关闭门控灯开关，直至 GTS 和车辆之间开始通信。然后在手动模式下选择车型代码“KEY REGIST”并进入以下菜单：Body Electrical / Entry&amp;Start(CAN)。使用 GTS 时，以 1.5 秒或更短的间隔间歇打开并关闭门控灯开关，以保持 GTS 和车辆间的通信。</ptxt>
+</item>
+<item>
+<ptxt>智能进入和起动系统（起动功能）使用 LIN 通信系统和 CAN 通信系统。根据“如何进行故障排除”检查通信功能。确认通信系统工作正常后，对智能进入和起动系统（起动功能）进行故障排除。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D990" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>更换认证 ECU（智能钥匙 ECU 总成）前，请参考智能进入和起动系统（起动功能）的注意事项。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D98R" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>进行维修后，进行完成 DTC 输出确认操作的操作，然后确认不再输出 DTC。</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>进行故障排除前，检查认证 ECU（智能钥匙 ECU 总成）是否存在因浸水而损坏的迹象。如果有任何因浸水而损坏的迹象，则更换认证 ECU（智能钥匙 ECU 总成）并采取措施防止发生浸水损坏。</ptxt>
+</item>
+<item>
+<ptxt>断开并重新连接蓄电池负极 (-) 端子电缆后，电源模式将恢复至断开电缆前的模式。</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D993_07">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D993_07_0001">
+<testtitle>检查 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; Power Source Control &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="223"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">223</app-param>
+<app-param name="ecu-name">Power Source Control</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>经过 330 秒后，检查是否再次输出 DTC。</ptxt>
+</test1>
+<atten4>
+<ptxt>如果存在水迹象，则更换认证 ECU（智能钥匙 ECU 总成）前，采取措施以防止更多的水进入。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>未输出 DTC B2277</ptxt>
+</specitem>
+</spec>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="end" cellposition="2-2">
+<actiontitle>更换认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

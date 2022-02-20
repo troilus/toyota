@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_59">
+<name>车辆外饰</name>
+<section id="_024015">
+<name>车窗/玻璃</name>
+<ttl id="_0116248">
+<name>电动窗控制系统</name>
+<para category="C" id="RM100000000D8VJ">
+<dtccode>B2311</dtccode>
+<dtcname>电动窗马达故障</dtcname>
+<subpara category="03" id="RM100000000D8VJ_01">
+<name>描述</name>
+<content5>
+<ptxt>通过电动窗升降器主开关总成可操作电动窗升降器马达总成（驾驶员车门）。电动窗升降器马达总成（驾驶员车门）具有马达、升降器和 ECU 功能。</ptxt>
+<ptxt>电动窗升降器马达总成（驾驶员车门）存在故障，或内置于电动窗升降器马达总成（驾驶员车门）的 ECU 确定完全关闭的车窗位置与正常位置存在约 20 mm (0.787 in.) 或更大的偏差时，存储该 DTC。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="4">
+<colspec colname="1" colwidth="1.77in"/>
+<colspec colname="2" colwidth="1.77in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B2311</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>电动窗马达故障</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<list1 type="nonmark">
+<item>
+<ptxt>满足下列任一条件：</ptxt>
+</item>
+<list2 type="ordered">
+<item>
+<ptxt>电动窗升降器马达总成（驾驶员车门）存在故障</ptxt>
+</item>
+<item>
+<ptxt>电动窗升降器马达总成（驾驶员车门）内的 ECU 确定完全关闭的车窗位置与正常位置有约 20 mm (0.787 in.) 或更大的偏差时</ptxt>
+</item>
+</list2>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>电动窗升降器马达总成（驾驶员车门）</ptxt>
+</item>
+<item>
+<ptxt>电动窗零部件安装错误</ptxt>
+</item>
+<item>
+<ptxt>电动窗升降器马达总成（驾驶员侧）过热</ptxt>
+</item>
+<item>
+<ptxt>线束或连接器</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D8VJ_06">
+<name>电路图</name>
+<content5>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V6" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D8VJ_02">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>DTC B2311 存储在电动窗升降器马达总成（驾驶员车门）内。</ptxt>
+</item>
+<item>
+<ptxt>如果已用新的电动窗升降器马达总成（驾驶员车门）更换，则初始化电动窗控制系统。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V8" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>如果已拆下并安装电动窗升降器马达总成（驾驶员车门）和门窗升降器分总成，或如果更换车门玻璃或车门玻璃升降槽时重复使用电动窗升降器马达总成（驾驶员车门），则初始化电动窗控制系统。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V8" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>进行下列程序前，先检查与此系统相关电路的保险丝。</ptxt>
+</item>
+</list1>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D8VJ_04">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8VJ_04_0013">
+<testtitle>检查 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V4" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; D-Door Motor &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="124"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">124</app-param>
+<app-param name="ecu-name">D-Door Motor</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V4" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; D-Door Motor &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="124"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">124</app-param>
+<app-param name="ecu-name">D-Door Motor</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>未输出 DTC B2311。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-2" label="3">
+<action actiontype="next" cellposition="2-2" childid="RM100000000D8VJ_04_0015"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-2" id="RM100000000D8VJ_04_0015">
+<testtitle>检查线束和连接器（电动窗升降器马达总成（驾驶员车门）- 蓄电池和车身接地）</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>H10-2 (B) - H10-1 (GND)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>H10-1 (GND) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-2" label="1">
+<action actiontype="next" cellposition="3-2" childid="RM100000000D8VJ_04_0001"/>
+</result>
+<result cellposition="2-4" label="2">
+<action actiontype="end" cellposition="3-4">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-2" id="RM100000000D8VJ_04_0001">
+<testtitle>使用 GTS 进行主动测试（驾驶员车门马达）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Body Electrical / D-Door Motor / Active Test。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，进行主动测试。</ptxt>
+<atten2>
+<ptxt>该测试会导致车辆零件移动，所以应小心避免受伤。主动测试中，防夹功能将不工作。</ptxt>
+</atten2>
+<gts-info category="active-test-table">
+<title>Body Electrical &gt; D-Door Motor &gt; Active Test</title>
+<table pgwide="1" type="active-test-table">
+<tgroup cols="4">
+<colspec colname="1" colwidth="1.77in"/>
+<colspec colname="2" colwidth="1.77in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>控制范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="1" name="item-name">
+<ptxt>Power Window</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="1" name="description">
+<ptxt>电动窗</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="1" name="drive-range">
+<ptxt>OFF/DOWN/UP</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="1" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">124</app-param>
+<app-param name="ecu-name">D-Door Motor</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="did-id">1</app-param>
+<app-param name="active-test-item-name">Power Window</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="active-test">
+<title>Body Electrical &gt; D-Door Motor &gt; Active Test</title>
+<table type="active-test">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="1" name="item-name">
+<ptxt>Power Window</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50004">
+<gts-ecu ecu-id="124">
+<gts-did did-id="1"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">124</app-param>
+<app-param name="ecu-name">D-Door Motor</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="use-datalist">0</app-param>
+<app-param-unit>
+<app-param name="did-id">1</app-param>
+<app-param name="active-test-item-name">Power Window</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>驾驶员车门电动窗马达工作。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-2" label="1">
+<action actiontype="next" cellposition="4-2" childid="RM100000000D8VJ_04_0002"/>
+</result>
+<result cellposition="3-3" label="2">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>更换电动窗升降器马达总成（驾驶员车门）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8WE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-2" id="RM100000000D8VJ_04_0002">
+<testtitle>进行初始化（驾驶员车门）</testtitle>
+<content6>
+<test1>
+<ptxt>初始化电动窗升降器马达总成（驾驶员车门）。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V8" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-2" label="1">
+<action actiontype="next" cellposition="5-2" childid="RM100000000D8VJ_04_0003"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-2" id="RM100000000D8VJ_04_0003">
+<testtitle>检查电动窗控制系统（驾驶员车门）</testtitle>
+<content6>
+<test1>
+<ptxt>打开和关闭车窗以检查并确认驾驶员车门电动窗工作正常。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V5" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>驾驶员车门电动窗工作正常。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-2" label="1">
+<action actiontype="next" cellposition="6-2" childid="RM100000000D8VJ_04_0004"/>
+</result>
+<result cellposition="5-5" label="2">
+<action actiontype="end" cellposition="6-5">
+<actiontitle>更换电动窗升降器马达总成（驾驶员车门）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8WE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-2" id="RM100000000D8VJ_04_0004">
+<testtitle>检查零件是否正确安装</testtitle>
+<content6>
+<test1>
+<ptxt>检查并确认电动窗零部件正确安装。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>电动窗零部件正确安装。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-2" label="1">
+<action actiontype="next" cellposition="7-2" childid="RM100000000D8VJ_04_0005"/>
+</result>
+<result cellposition="6-4" label="2">
+<action actiontype="end" cellposition="7-4">
+<actiontitle>正确安装零件</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-2" id="RM100000000D8VJ_04_0005">
+<testtitle>检查 DTC 输出</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>至少等待 10 秒，然后将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V4" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; D-Door Motor &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="124"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">124</app-param>
+<app-param name="ecu-name">D-Door Motor</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>未输出 DTC B2311。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-2" label="1">
+<action actiontype="end" cellposition="8-2">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="7-3" label="2">
+<action actiontype="end" cellposition="8-3">
+<actiontitle>更换电动窗升降器马达总成（驾驶员车门）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8WE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

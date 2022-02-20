@@ -1,0 +1,5833 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tmc-service-sakuin-index SYSTEM "./dtd/sakuin-index.dtd">
+<tmc-service-sakuin-index>
+<pub id="RM3140CG">
+<index label="1">
+<parts p-type="1" parts-id="35068E">
+<name>一档和倒档制动器回位弹簧分总成</name>
+</parts>
+<parts p-type="2" parts-id="B300014">
+<name>一档从动齿轮径向间隙</name>
+</parts>
+<parts p-type="2" parts-id="B300008">
+<name>一档从动齿轮轴向间隙</name>
+</parts>
+<parts p-type="1" parts-id="33335">
+<name>一档齿轮</name>
+</parts>
+<parts p-type="1" parts-id="33345">
+<name>一档齿轮衬套</name>
+</parts>
+<parts p-type="1" parts-id="33335C">
+<name>一档齿轮滚针轴承</name>
+</parts>
+<parts p-type="1" parts-id="33348">
+<name>一档齿轮止推垫圈</name>
+</parts>
+<parts p-type="1" parts-id="33348A">
+<name>一档齿轮止推垫圈销或钢球</name>
+</parts>
+</index>
+<index label="2">
+<parts p-type="2" parts-id="B300015">
+<name>二档从动齿轮径向间隙</name>
+</parts>
+<parts p-type="2" parts-id="B300009">
+<name>二档从动齿轮轴向间隙</name>
+</parts>
+<parts p-type="1" parts-id="33332">
+<name>二档齿轮</name>
+</parts>
+<parts p-type="1" parts-id="33356A">
+<name>二档齿轮轴承内座圈</name>
+</parts>
+<parts p-type="1" parts-id="33332B">
+<name>二档齿轮滚针轴承</name>
+</parts>
+<parts p-type="1" parts-id="33381">
+<name>二档同步器外锁环</name>
+</parts>
+</index>
+<index label="3">
+<parts p-type="1" parts-id="33423A">
+<name>三档从动齿轮</name>
+</parts>
+<parts p-type="2" parts-id="B300016">
+<name>三档从动齿轮径向间隙</name>
+</parts>
+<parts p-type="2" parts-id="B300010">
+<name>三档从动齿轮轴向间隙</name>
+</parts>
+<parts p-type="1" parts-id="33333">
+<name>三档齿轮</name>
+</parts>
+<parts p-type="1" parts-id="33333A">
+<name>三档齿轮滚针轴承</name>
+</parts>
+<parts p-type="1" parts-id="33368G">
+<name>三档齿轮同步器锁环</name>
+</parts>
+</index>
+<index label="4">
+<parts p-type="1" parts-id="33422B">
+<name>四档从动齿轮</name>
+</parts>
+<parts p-type="2" parts-id="B300017">
+<name>四档从动齿轮径向间隙</name>
+</parts>
+<parts p-type="2" parts-id="F0001ZM">
+<name>四档从动齿轮轴向间隙</name>
+</parts>
+<parts p-type="1" parts-id="33334">
+<name>四档齿轮</name>
+</parts>
+<parts p-type="1" parts-id="33334B">
+<name>四档齿轮轴承隔垫</name>
+</parts>
+<parts p-type="1" parts-id="33334A">
+<name>四档齿轮滚针轴承</name>
+</parts>
+<parts p-type="1" parts-id="33368H">
+<name>四档齿轮同步器锁环</name>
+</parts>
+</index>
+<index label="5">
+<parts p-type="1" parts-id="33428C">
+<name>五档从动齿轮</name>
+</parts>
+<parts p-type="2" parts-id="B300018">
+<name>五档从动齿轮径向间隙</name>
+</parts>
+<parts p-type="2" parts-id="B300012">
+<name>五档从动齿轮轴向间隙</name>
+</parts>
+<parts p-type="1" parts-id="33336">
+<name>五档齿轮</name>
+</parts>
+<parts p-type="1" parts-id="33359">
+<name>五档齿轮轴承内座圈</name>
+</parts>
+<parts p-type="1" parts-id="33359A">
+<name>五档齿轮轴承内座圈锁止钢球</name>
+</parts>
+<parts p-type="1" parts-id="33336A">
+<name>五档齿轮滚针轴承</name>
+</parts>
+</index>
+<index label="6">
+<parts p-type="1" parts-id="33429B">
+<name>六档从动齿轮</name>
+</parts>
+<parts p-type="2" parts-id="B300019">
+<name>六档从动齿轮径向间隙</name>
+</parts>
+<parts p-type="2" parts-id="B300013">
+<name>六档从动齿轮轴向间隙</name>
+</parts>
+<parts p-type="1" parts-id="3335AA">
+<name>六档齿轮轴承钢球内座圈齿条 (MTM)</name>
+</parts>
+<parts p-type="1" parts-id="3335A">
+<name>六档齿轮轴承内座圈 (MTM)</name>
+</parts>
+<parts p-type="1" parts-id="33337A">
+<name>六档齿轮滚针轴承</name>
+</parts>
+<parts p-type="1" parts-id="33337">
+<name>六档齿轮分总成</name>
+</parts>
+</index>
+<index label="A">
+<parts p-type="2" parts-id="F0001AM">
+<name>A</name>
+</parts>
+<parts p-type="2" parts-id="B190987">
+<name>ACC CUT 继电器</name>
+</parts>
+<parts p-type="2" parts-id="B001900">
+<name>加速踏板</name>
+</parts>
+<parts p-type="1" parts-id="78110K">
+<name>加速踏板传感器总成</name>
+</parts>
+<parts p-type="1" parts-id="31483B">
+<name>蓄压器至挠性软管的管</name>
+</parts>
+<parts p-type="3" parts-id="ZZZZZZ">
+<name>主动测试  主动测试</name>
+</parts>
+<parts p-type="2" parts-id="B000002">
+<name>执行器</name>
+</parts>
+<parts p-type="2" parts-id="B980074">
+<name>加注制动液</name>
+</parts>
+<parts p-type="2" parts-id="B400556">
+<name>调节螺母</name>
+</parts>
+<parts p-type="2" parts-id="B000005">
+<name>调节垫片</name>
+</parts>
+<parts p-type="2" parts-id="F0003NL">
+<name>受波干扰影响</name>
+</parts>
+<parts p-type="1" parts-id="89170A">
+<name>气囊 ECU 总成</name>
+</parts>
+<parts p-type="1" parts-id="89174A">
+<name>左前空气囊传感器</name>
+</parts>
+<parts p-type="1" parts-id="89173A">
+<name>右前空气囊传感器</name>
+</parts>
+<parts p-type="1" parts-id="17705">
+<name>空气滤清器盖分总成</name>
+</parts>
+<parts p-type="2" parts-id="B000007">
+<name>空气滤清器壳</name>
+</parts>
+<parts p-type="1" parts-id="17701">
+<name>空气滤清器壳分总成</name>
+</parts>
+<parts p-type="1" parts-id="17801">
+<name>空气滤清器滤芯分总成</name>
+</parts>
+<parts p-type="1" parts-id="17751">
+<name>1 号空气滤清器进气口</name>
+</parts>
+<parts p-type="2" parts-id="B800043">
+<name>空调装置总成</name>
+</parts>
+<parts p-type="2" parts-id="F00003Y">
+<name>空调系统</name>
+</parts>
+<parts p-type="2" parts-id="B909587">
+<name>空调放大器</name>
+</parts>
+<parts p-type="1" parts-id="88650N">
+<name>空调放大器总成</name>
+</parts>
+<parts p-type="1" parts-id="55900">
+<name>空调控制总成</name>
+</parts>
+<parts p-type="2" parts-id="F0000IS">
+<name>空调滤清器</name>
+</parts>
+<parts p-type="1" parts-id="82210K">
+<name>空调线束总成</name>
+</parts>
+<parts p-type="2" parts-id="F0003W3">
+<name>空调面板</name>
+</parts>
+<parts p-type="2" parts-id="B559200">
+<name>空调面板总成</name>
+</parts>
+<parts p-type="2" parts-id="F000158">
+<name>空调压力传感器</name>
+</parts>
+<parts p-type="1" parts-id="87050">
+<name>空调散热器总成</name>
+</parts>
+<parts p-type="2" parts-id="M000112">
+<name>空调系统</name>
+</parts>
+<parts p-type="2" parts-id="F0003VX">
+<name>空调装置</name>
+</parts>
+<parts p-type="1" parts-id="87212">
+<name>1 号后风管</name>
+</parts>
+<parts p-type="1" parts-id="87201B">
+<name>2 号风管分总成</name>
+</parts>
+<parts p-type="1" parts-id="87201F">
+<name>3 号风管分总成</name>
+</parts>
+<parts p-type="1" parts-id="88548B">
+<name>空气滤清器壳</name>
+</parts>
+<parts p-type="1" parts-id="89467B">
+<name>空燃比传感器</name>
+</parts>
+<parts p-type="2" parts-id="B894653">
+<name>空燃比传感器</name>
+</parts>
+<parts p-type="2" parts-id="B894670">
+<name>空燃比传感器</name>
+</parts>
+<parts p-type="2" parts-id="B400029">
+<name>空气泄漏</name>
+</parts>
+<parts p-type="2" parts-id="B004004">
+<name>气密性</name>
+</parts>
+<parts p-type="1" parts-id="17361M">
+<name>空气管</name>
+</parts>
+<parts p-type="1" parts-id="88719A">
+<name>空调压力传感器</name>
+</parts>
+<parts p-type="1" parts-id="88710">
+<name>空调管总成</name>
+</parts>
+<parts p-type="1" parts-id="55909C">
+<name>空气混合风门控制拉索分总成</name>
+</parts>
+<parts p-type="1" parts-id="87106H">
+<name>空气混合风门伺服机构分总成</name>
+</parts>
+<parts p-type="2" parts-id="B800648">
+<name>环境温度传感器</name>
+</parts>
+<parts p-type="2" parts-id="F0000C4">
+<name>放大器天线</name>
+</parts>
+<parts p-type="1" parts-id="86300B">
+<name>1 号放大器天线总成</name>
+</parts>
+<parts p-type="1" parts-id="86101">
+<name>天线芯线分总成</name>
+</parts>
+<parts p-type="2" parts-id="B801004">
+<name>天线型</name>
+</parts>
+<parts p-type="1" parts-id="04945">
+<name>前消音垫片组件</name>
+</parts>
+<parts p-type="2" parts-id="B400613">
+<name>后消音垫片组件</name>
+</parts>
+<parts p-type="2" parts-id="B980194">
+<name>输出任何其他 DTC</name>
+</parts>
+<parts p-type="1" parts-id="88897P">
+<name>吸气器</name>
+</parts>
+<parts p-type="1" parts-id="74630E">
+<name>左后辅助拉手总成</name>
+</parts>
+<parts p-type="1" parts-id="74620C">
+<name>右后辅助拉手总成</name>
+</parts>
+<parts p-type="1" parts-id="74610A">
+<name>辅助拉手分总成</name>
+</parts>
+<parts p-type="2" parts-id="F000295">
+<name>助力图写入</name>
+</parts>
+<parts p-type="2" parts-id="D12040Z">
+<name>音频/视频系统</name>
+</parts>
+<parts p-type="2" parts-id="M000180">
+<name>音频和视频系统</name>
+</parts>
+<parts p-type="2" parts-id="F0001V7">
+<name>音响设定</name>
+</parts>
+<parts p-type="2" parts-id="B002955">
+<name>Auto LSD Switch</name>
+</parts>
+<parts p-type="1" parts-id="89120A">
+<name>自动灯光控制传感器</name>
+</parts>
+<parts p-type="2" parts-id="F0003ZD">
+<name>自动灯光控制传感器</name>
+</parts>
+<parts p-type="2" parts-id="D1002BZ">
+<name>自动传动桥</name>
+</parts>
+<parts p-type="2" parts-id="F0000HG">
+<name>自动传动桥“驻车”机构</name>
+</parts>
+<parts p-type="2" parts-id="F000018">
+<name>车桥系统</name>
+</parts>
+</index>
+<index label="B">
+<parts p-type="2" parts-id="F00015G">
+<name>背门门控灯开关</name>
+</parts>
+<parts p-type="1" parts-id="84490A">
+<name>后声纳或侦测声纳开关总成</name>
+</parts>
+<parts p-type="1" parts-id="81550N">
+<name>倒车灯灯泡</name>
+</parts>
+<parts p-type="1" parts-id="64811">
+<name>背窗玻璃</name>
+</parts>
+<parts p-type="2" parts-id="F0000CR">
+<name>背窗玻璃</name>
+</parts>
+<parts p-type="1" parts-id="64813D">
+<name>背窗玻璃粘合剂密封条</name>
+</parts>
+<parts p-type="2" parts-id="B681018">
+<name>背窗玻璃隔垫</name>
+</parts>
+<parts p-type="1" parts-id="56115B">
+<name>背窗玻璃 1 号挡块</name>
+</parts>
+<parts p-type="1" parts-id="56116D">
+<name>背窗玻璃 2 号挡块</name>
+</parts>
+<parts p-type="1" parts-id="84210">
+<name>倒车灯开关总成</name>
+</parts>
+<parts p-type="2" parts-id="B009032">
+<name>倒车灯开关</name>
+</parts>
+<parts p-type="2" parts-id="F0000IO">
+<name>球节和防尘罩</name>
+</parts>
+<parts p-type="2" parts-id="B980030">
+<name>基本功能</name>
+</parts>
+<parts p-type="2" parts-id="A288000">
+<name>蓄电池</name>
+</parts>
+<parts p-type="2" parts-id="B000016">
+<name>蓄电池</name>
+</parts>
+<parts p-type="1" parts-id="74411">
+<name>蓄电池托架</name>
+</parts>
+<parts p-type="1" parts-id="74404A">
+<name>蓄电池卡夹分总成</name>
+</parts>
+<parts p-type="2" parts-id="F00007A">
+<name>蓄电池电流传感器</name>
+</parts>
+<parts p-type="1" parts-id="28850">
+<name>蓄电池电流传感器总成</name>
+</parts>
+<parts p-type="2" parts-id="B000017">
+<name>蓄电池电解液液位</name>
+</parts>
+<parts p-type="1" parts-id="28800J">
+<name>蓄电池负极端子</name>
+</parts>
+<parts p-type="2" parts-id="B001850">
+<name>蓄电池端子</name>
+</parts>
+<parts p-type="2" parts-id="F0001SI">
+<name>蓄电池电压</name>
+</parts>
+<parts p-type="1" parts-id="33326">
+<name>轴承锁止板</name>
+</parts>
+<parts p-type="2" parts-id="B300040">
+<name>轴承位置</name>
+</parts>
+<parts p-type="1" parts-id="33151D">
+<name>后轴承护圈 (MTM)</name>
+</parts>
+<parts p-type="2" parts-id="F0002PF">
+<name>向传动桥加注油液前</name>
+</parts>
+<parts p-type="1" parts-id="71077B">
+<name>长条式后排座椅座背护面</name>
+</parts>
+<parts p-type="1" parts-id="71075B">
+<name>长条式后排座椅座垫护面</name>
+</parts>
+<parts p-type="2" parts-id="F00040X">
+<name>遮光胶带</name>
+</parts>
+<parts p-type="1" parts-id="75922M">
+<name>左侧 1 号遮光胶带</name>
+</parts>
+<parts p-type="1" parts-id="75924C">
+<name>左侧 2 号遮光胶带</name>
+</parts>
+<parts p-type="2" parts-id="B400039">
+<name>对制动管路进行放气</name>
+</parts>
+<parts p-type="1" parts-id="31483">
+<name>离合器分离放气装置管</name>
+</parts>
+<parts p-type="1" parts-id="87130D">
+<name>鼓风机总成</name>
+</parts>
+<parts p-type="1" parts-id="87130K">
+<name>1 号空气混合风门伺服机构分总成</name>
+</parts>
+<parts p-type="1" parts-id="87138C">
+<name>鼓风机电阻器</name>
+</parts>
+<parts p-type="2" parts-id="F000155">
+<name>鼓风机电阻器</name>
+</parts>
+<parts p-type="2" parts-id="F0000AZ">
+<name>鼓风机单元</name>
+</parts>
+<parts p-type="1" parts-id="87103B">
+<name>带风扇的鼓风机马达分总成</name>
+</parts>
+<parts p-type="2" parts-id="J000028">
+<name>车身</name>
+</parts>
+<parts p-type="2" parts-id="M000233">
+<name>车身 ECU</name>
+</parts>
+<parts p-type="2" parts-id="B300031">
+<name>螺栓</name>
+</parts>
+<parts p-type="2" parts-id="J000026">
+<name>制动系统</name>
+</parts>
+<parts p-type="2" parts-id="B400433">
+<name>制动执行器</name>
+</parts>
+<parts p-type="1" parts-id="44510">
+<name>制动执行器总成</name>
+</parts>
+<parts p-type="1" parts-id="44590">
+<name>制动执行器支架总成</name>
+</parts>
+<parts p-type="2" parts-id="B400056">
+<name>带支架的制动执行器</name>
+</parts>
+<parts p-type="1" parts-id="44610">
+<name>制动助力器总成</name>
+</parts>
+<parts p-type="1" parts-id="44785">
+<name>制动助力器衬垫</name>
+</parts>
+<parts p-type="2" parts-id="B400055">
+<name>制动助力器推杆</name>
+</parts>
+<parts p-type="1" parts-id="4476B">
+<name>制动助力器真空喷射器</name>
+</parts>
+<parts p-type="2" parts-id="D12030Z">
+<name>制动控制/动态控制系统</name>
+</parts>
+<parts p-type="2" parts-id="B400044">
+<name>制动缸和活塞</name>
+</parts>
+<parts p-type="1" parts-id="35681B">
+<name>1 号制动盘</name>
+</parts>
+<parts p-type="2" parts-id="J400009">
+<name>制动液</name>
+</parts>
+<parts p-type="2" parts-id="F0000HK">
+<name>制动液液位</name>
+</parts>
+<parts p-type="2" parts-id="B002947">
+<name>制动液储液罐</name>
+</parts>
+<parts p-type="2" parts-id="B400198">
+<name>制动管路</name>
+</parts>
+<parts p-type="2" parts-id="F0000HV">
+<name>制动管路和软管</name>
+</parts>
+<parts p-type="1" parts-id="47220D">
+<name>制动总泵储液罐总成</name>
+</parts>
+<parts p-type="1" parts-id="47230">
+<name>制动总泵储液罐加注口盖总成</name>
+</parts>
+<parts p-type="1" parts-id="47299">
+<name>制动总泵储液罐滤网</name>
+</parts>
+<parts p-type="1" parts-id="47201">
+<name>制动总泵分总成</name>
+</parts>
+<parts p-type="2" parts-id="B400478">
+<name>制动踏板</name>
+</parts>
+<parts p-type="2" parts-id="B450011">
+<name>制动踏板和刹车灯开关安装</name>
+</parts>
+<parts p-type="2" parts-id="F0002T2">
+<name>制动踏板自由行程</name>
+</parts>
+<parts p-type="2" parts-id="B002026">
+<name>制动踏板高度</name>
+</parts>
+<parts p-type="1" parts-id="47121">
+<name>制动踏板垫</name>
+</parts>
+<parts p-type="2" parts-id="F0002T3">
+<name>制动踏板行程余量</name>
+</parts>
+<parts p-type="1" parts-id="47101A">
+<name>制动踏板回位弹簧</name>
+</parts>
+<parts p-type="1" parts-id="47110">
+<name>制动踏板支架总成</name>
+</parts>
+<parts p-type="2" parts-id="B400058">
+<name>制动系统</name>
+</parts>
+<parts p-type="2" parts-id="F0003SZ">
+<name>制动系统</name>
+</parts>
+<parts p-type="1" parts-id="47373B">
+<name>制动管 3 号卡夹</name>
+</parts>
+<parts p-type="1" parts-id="44730">
+<name>制动器真空单向阀总成</name>
+</parts>
+<parts p-type="2" parts-id="B800939">
+<name>制动警告灯</name>
+</parts>
+<parts p-type="2" parts-id="F0000HF">
+<name>制动器</name>
+</parts>
+<parts p-type="2" parts-id="B320051">
+<name>通气软管</name>
+</parts>
+<parts p-type="1" parts-id="33101J">
+<name>通气塞</name>
+</parts>
+<parts p-type="2" parts-id="B800203">
+<name>蜂鸣器</name>
+</parts>
+</index>
+<index label="C">
+<parts p-type="2" parts-id="F00022E">
+<name>车厢</name>
+</parts>
+<parts p-type="2" parts-id="B861214">
+<name>将车厢设定至适宜温度</name>
+</parts>
+<parts p-type="2" parts-id="J000183">
+<name>电缆和线束</name>
+</parts>
+<parts p-type="2" parts-id="B002086">
+<name>蓄电池负极端子电缆</name>
+</parts>
+<parts p-type="2" parts-id="B002087">
+<name>蓄电池负极端子电缆</name>
+</parts>
+<parts p-type="2" parts-id="B000181">
+<name>外倾角</name>
+</parts>
+<parts p-type="2" parts-id="B000180">
+<name>外倾角、后倾角和转向轴线内倾角</name>
+</parts>
+<parts p-type="1" parts-id="13511">
+<name>凸轮轴</name>
+</parts>
+<parts p-type="2" parts-id="B000022">
+<name>凸轮轴</name>
+</parts>
+<parts p-type="2" parts-id="B200064">
+<name>凸轮轴轴承盖</name>
+</parts>
+<parts p-type="1" parts-id="11811">
+<name>1 号凸轮轴轴承</name>
+</parts>
+<parts p-type="1" parts-id="11821">
+<name>2 号凸轮轴轴承</name>
+</parts>
+<parts p-type="1" parts-id="11103">
+<name>凸轮轴壳分总成</name>
+</parts>
+<parts p-type="2" parts-id="F0002R1">
+<name>凸轮轴机油控制阀</name>
+</parts>
+<parts p-type="2" parts-id="J909190">
+<name>凸轮轴位置传感器</name>
+</parts>
+<parts p-type="1" parts-id="13070A">
+<name>排气凸轮轴正时齿轮总成</name>
+</parts>
+<parts p-type="1" parts-id="13050">
+<name>凸轮轴正时齿轮总成</name>
+</parts>
+<parts p-type="1" parts-id="11101J">
+<name>凸轮轴正时机油控制阀总成</name>
+</parts>
+<parts p-type="2" parts-id="F00023H">
+<name>连接到 DLC3 的 CAN 支线</name>
+</parts>
+<parts p-type="2" parts-id="F0002YD">
+<name>CAN 总线支线或连接器</name>
+</parts>
+<parts p-type="2" parts-id="B001923">
+<name>CAN 总线主线或连接器</name>
+</parts>
+<parts p-type="2" parts-id="B001961">
+<name>CAN 总线</name>
+</parts>
+<parts p-type="2" parts-id="D10033Z">
+<name>CAN 通信系统</name>
+</parts>
+<parts p-type="2" parts-id="B009102">
+<name>CAN 接线连接器</name>
+</parts>
+<parts p-type="2" parts-id="F00023G">
+<name>CAN 主线或连接器</name>
+</parts>
+<parts p-type="2" parts-id="F00004G">
+<name>炭罐</name>
+</parts>
+<parts p-type="1" parts-id="73949">
+<name>盖</name>
+</parts>
+<parts p-type="2" parts-id="B861210">
+<name>CD</name>
+</parts>
+<parts p-type="2" parts-id="B803113">
+<name>蜂窝电话</name>
+</parts>
+<parts p-type="2" parts-id="F0000AM">
+<name>中央空气囊传感器总成</name>
+</parts>
+<parts p-type="1" parts-id="72868B">
+<name>中央扶手铰链盖</name>
+</parts>
+<parts p-type="1" parts-id="62414A">
+<name>左侧中柱下装饰板</name>
+</parts>
+<parts p-type="1" parts-id="62413A">
+<name>右侧中柱下装饰板</name>
+</parts>
+<parts p-type="1" parts-id="62412B">
+<name>左侧中柱上装饰板</name>
+</parts>
+<parts p-type="1" parts-id="62411B">
+<name>右侧中柱上装饰板</name>
+</parts>
+<parts p-type="1" parts-id="81570">
+<name>中央刹车灯总成</name>
+</parts>
+<parts p-type="2" parts-id="F0001G6">
+<name>认证 ECU</name>
+</parts>
+<parts p-type="1" parts-id="13506">
+<name>链条分总成</name>
+</parts>
+<parts p-type="1" parts-id="13540">
+<name>1 号链条张紧器总成</name>
+</parts>
+<parts p-type="1" parts-id="13549">
+<name>链条张紧器盖板</name>
+</parts>
+<parts p-type="1" parts-id="13559">
+<name>链条张紧器导板</name>
+</parts>
+<parts p-type="1" parts-id="13561">
+<name>1 号链条振动阻尼器</name>
+</parts>
+<parts p-type="1" parts-id="13562">
+<name>2 号链条振动阻尼器</name>
+</parts>
+<parts p-type="2" parts-id="B803004">
+<name>切换屏幕模式</name>
+</parts>
+<parts p-type="2" parts-id="B800761">
+<name>炭罐</name>
+</parts>
+<parts p-type="1" parts-id="77754">
+<name>1 号炭罐出口软管</name>
+</parts>
+<parts p-type="2" parts-id="D10025Z">
+<name>充电系统</name>
+</parts>
+<parts p-type="2" parts-id="J100007">
+<name>充电系统</name>
+</parts>
+<parts p-type="2" parts-id="B980066">
+<name>充电系统和蓄电池</name>
+</parts>
+<parts p-type="2" parts-id="J000027">
+<name>底盘</name>
+</parts>
+<parts p-type="2" parts-id="B000215">
+<name>检查座椅滑动调节器锁止情况</name>
+</parts>
+<parts p-type="1" parts-id="44772">
+<name>单向阀至连接管软管</name>
+</parts>
+<parts p-type="2" parts-id="F000167">
+<name>儿童乘员保护座椅锚定器支架</name>
+</parts>
+<parts p-type="1" parts-id="73706">
+<name>左侧儿童乘员保护座椅锚定器支架分总成</name>
+</parts>
+<parts p-type="2" parts-id="B006019">
+<name>儿童乘员保护座椅系带锚定器</name>
+</parts>
+<parts p-type="1" parts-id="73719">
+<name>儿童乘员保护座椅系带锚定器支架</name>
+</parts>
+<parts p-type="2" parts-id="J855000">
+<name>点烟器</name>
+</parts>
+<parts p-type="1" parts-id="85500">
+<name>点烟器总成</name>
+</parts>
+<parts p-type="1" parts-id="85515">
+<name>点烟器框支架</name>
+</parts>
+<parts p-type="1" parts-id="85513">
+<name>点烟器盖</name>
+</parts>
+<parts p-type="2" parts-id="B001371">
+<name>电路开路继电器</name>
+</parts>
+<parts p-type="2" parts-id="F0001XB">
+<name>输出 DTC 指示的电路</name>
+</parts>
+<parts p-type="1" parts-id="87139C">
+<name>空气净化滤清器</name>
+</parts>
+<parts p-type="2" parts-id="B908498">
+<name>清洁或更换转速传感器</name>
+</parts>
+<parts p-type="2" parts-id="B486027">
+<name>清除 DTC</name>
+</parts>
+<parts p-type="1" parts-id="81610F">
+<name>示宽灯灯泡</name>
+</parts>
+<parts p-type="2" parts-id="B980182">
+<name>侦测声纳主开关</name>
+</parts>
+<parts p-type="2" parts-id="B009084">
+<name>间隙警告蜂鸣器</name>
+</parts>
+<parts p-type="1" parts-id="89343C">
+<name>1 号间隙警告蜂鸣器</name>
+</parts>
+<parts p-type="2" parts-id="B980186">
+<name>间隙警告 ECU</name>
+</parts>
+<parts p-type="1" parts-id="89340A">
+<name>间隙警告 ECU 总成</name>
+</parts>
+<parts p-type="2" parts-id="F000130">
+<name>间隙警告指示灯</name>
+</parts>
+<parts p-type="2" parts-id="J839100">
+<name>时钟</name>
+</parts>
+<parts p-type="1" parts-id="83910G">
+<name>时钟总成</name>
+</parts>
+<parts p-type="1" parts-id="31210">
+<name>离合器盖总成</name>
+</parts>
+<parts p-type="1" parts-id="31250">
+<name>离合器盘总成</name>
+</parts>
+<parts p-type="1" parts-id="31485">
+<name>离合器挠性软管支架</name>
+</parts>
+<parts p-type="2" parts-id="B300065">
+<name>离合器油</name>
+</parts>
+<parts p-type="1" parts-id="31418">
+<name>离合器软管</name>
+</parts>
+<parts p-type="1" parts-id="31121">
+<name>1 号离合器壳盖</name>
+</parts>
+<parts p-type="1" parts-id="33362A">
+<name>2 号离合器毂固定轴卡环</name>
+</parts>
+<parts p-type="2" parts-id="B330014">
+<name>离合器管路</name>
+</parts>
+<parts p-type="2" parts-id="J720013">
+<name>离合器总泵</name>
+</parts>
+<parts p-type="1" parts-id="31410">
+<name>离合器总泵总成</name>
+</parts>
+<parts p-type="1" parts-id="31453B">
+<name>离合器总泵推杆 U 形夹衬套</name>
+</parts>
+<parts p-type="1" parts-id="31453A">
+<name>带孔的离合器总泵推杆 U 形夹销</name>
+</parts>
+<parts p-type="2" parts-id="B001222">
+<name>离合器踏板</name>
+</parts>
+<parts p-type="1" parts-id="31301C">
+<name>离合器踏板衬套</name>
+</parts>
+<parts p-type="1" parts-id="31301B">
+<name>离合器踏板 1 号缓冲垫</name>
+</parts>
+<parts p-type="1" parts-id="31321">
+<name>离合器踏板垫</name>
+</parts>
+<parts p-type="1" parts-id="31301A">
+<name>离合器踏板弹簧</name>
+</parts>
+<parts p-type="1" parts-id="31301F">
+<name>离合器踏板限位螺栓</name>
+</parts>
+<parts p-type="1" parts-id="31301">
+<name>离合器踏板分总成</name>
+</parts>
+<parts p-type="1" parts-id="55107A">
+<name>离合器踏板支架分总成</name>
+</parts>
+<parts p-type="2" parts-id="F0003P3">
+<name>离合器踏板开关</name>
+</parts>
+<parts p-type="2" parts-id="A31F001">
+<name>离合器管路</name>
+</parts>
+<parts p-type="2" parts-id="F0001Z0">
+<name>离合器皮带轮是否磨损</name>
+</parts>
+<parts p-type="1" parts-id="31230">
+<name>离合器分离轴承总成</name>
+</parts>
+<parts p-type="1" parts-id="31407B">
+<name>离合器分离放气装置分总成</name>
+</parts>
+<parts p-type="2" parts-id="B001541">
+<name>离合器分离缸</name>
+</parts>
+<parts p-type="1" parts-id="31470">
+<name>离合器分离缸总成</name>
+</parts>
+<parts p-type="1" parts-id="04313">
+<name>离合器分离缸组件</name>
+</parts>
+<parts p-type="1" parts-id="31126">
+<name>离合器分离叉防尘套</name>
+</parts>
+<parts p-type="1" parts-id="31204">
+<name>离合器分离叉分总成</name>
+</parts>
+<parts p-type="1" parts-id="31400">
+<name>带轴承的离合器分离缸总成</name>
+</parts>
+<parts p-type="1" parts-id="31434">
+<name>离合器储液罐管</name>
+</parts>
+<parts p-type="1" parts-id="84520">
+<name>离合器起动开关总成</name>
+</parts>
+<parts p-type="2" parts-id="J300002">
+<name>离合器单元</name>
+</parts>
+<parts p-type="2" parts-id="B000301">
+<name>CO/HC</name>
+</parts>
+<parts p-type="1" parts-id="48231B">
+<name>左后螺旋弹簧</name>
+</parts>
+<parts p-type="1" parts-id="48231A">
+<name>右后螺旋弹簧</name>
+</parts>
+<parts p-type="1" parts-id="45259A">
+<name>转向柱孔盖消音板</name>
+</parts>
+<parts p-type="2" parts-id="J838000">
+<name>组合仪表</name>
+</parts>
+<parts p-type="1" parts-id="83100">
+<name>组合仪表总成</name>
+</parts>
+<parts p-type="2" parts-id="B800048">
+<name>组合仪表总成</name>
+</parts>
+<parts p-type="1" parts-id="83138G">
+<name>组合仪表玻璃</name>
+</parts>
+<parts p-type="2" parts-id="B009065">
+<name>通信线路</name>
+</parts>
+<parts p-type="2" parts-id="B803029">
+<name>与另一相同车型的车辆进行比较</name>
+</parts>
+<parts p-type="2" parts-id="F00028S">
+<name>子代码所示零部件</name>
+</parts>
+<parts p-type="2" parts-id="B000034">
+<name>压缩压力</name>
+</parts>
+<parts p-type="2" parts-id="A883200">
+<name>压缩机</name>
+</parts>
+<parts p-type="2" parts-id="B800004">
+<name>压缩机机油</name>
+</parts>
+<parts p-type="2" parts-id="B800178">
+<name>冷凝器</name>
+</parts>
+<parts p-type="2" parts-id="F00022H">
+<name>条件</name>
+</parts>
+<parts p-type="2" parts-id="BAAAAAE">
+<name>确认故障是否已成功排除</name>
+</parts>
+<parts p-type="2" parts-id="B000247">
+<name>确认行驶模式</name>
+</parts>
+<parts p-type="1" parts-id="13041">
+<name>连杆轴承</name>
+</parts>
+<parts p-type="1" parts-id="13265">
+<name>连杆螺栓</name>
+</parts>
+<parts p-type="2" parts-id="B000037">
+<name>连杆油膜间隙</name>
+</parts>
+<parts p-type="1" parts-id="13201A">
+<name>连杆小头衬套</name>
+</parts>
+<parts p-type="1" parts-id="13201">
+<name>连杆分总成</name>
+</parts>
+<parts p-type="2" parts-id="B000038">
+<name>连杆轴向间隙</name>
+</parts>
+<parts p-type="2" parts-id="B000039">
+<name>连接器</name>
+</parts>
+<parts p-type="2" parts-id="B001290">
+<name>连接器连接情况</name>
+</parts>
+<parts p-type="2" parts-id="F0001YD">
+<name>连接器正确</name>
+</parts>
+<parts p-type="2" parts-id="B000448">
+<name>连接器</name>
+</parts>
+<parts p-type="2" parts-id="B500015">
+<name>地板控制台总成</name>
+</parts>
+<parts p-type="1" parts-id="58910C">
+<name>后地板控制台总成</name>
+</parts>
+<parts p-type="1" parts-id="58815C">
+<name>地板控制台毡垫</name>
+</parts>
+<parts p-type="1" parts-id="58816B">
+<name>地板控制台嵌入件</name>
+</parts>
+<parts p-type="1" parts-id="58817A">
+<name>前地板控制台 2 号嵌入件</name>
+</parts>
+<parts p-type="1" parts-id="58823B">
+<name>地板控制台箱</name>
+</parts>
+<parts p-type="1" parts-id="58905">
+<name>地板控制台箱盖分总成</name>
+</parts>
+<parts p-type="1" parts-id="55389A">
+<name>控制台左安装支架</name>
+</parts>
+<parts p-type="1" parts-id="55388C">
+<name>控制台右安装支架</name>
+</parts>
+<parts p-type="2" parts-id="B550025">
+<name>地板控制台面板分总成</name>
+</parts>
+<parts p-type="1" parts-id="58804A">
+<name>地板控制台上面板分总成</name>
+</parts>
+<parts p-type="1" parts-id="58821C">
+<name>控制台上面板</name>
+</parts>
+<parts p-type="2" parts-id="B500037">
+<name>地板控制台后端板分总成</name>
+</parts>
+<parts p-type="1" parts-id="30400">
+<name>无级变速传动桥总成</name>
+</parts>
+<parts p-type="2" parts-id="J300066">
+<name>无级变速传动桥油</name>
+</parts>
+<parts p-type="1" parts-id="335A0">
+<name>控制拉索支架总成</name>
+</parts>
+<parts p-type="1" parts-id="33528B">
+<name>控制轴罩</name>
+</parts>
+<parts p-type="1" parts-id="33528C">
+<name>控制轴罩油封</name>
+</parts>
+<parts p-type="2" parts-id="J100022">
+<name>冷却液</name>
+</parts>
+<parts p-type="2" parts-id="B001011">
+<name>冷却液泄漏</name>
+</parts>
+<parts p-type="1" parts-id="88625Q">
+<name>冷却器（车内温度传感器）热敏电阻</name>
+</parts>
+<parts p-type="1" parts-id="88625H">
+<name>冷却器（阳光传感器）热敏电阻</name>
+</parts>
+<parts p-type="1" parts-id="88460">
+<name>冷却器冷凝器总成</name>
+</parts>
+<parts p-type="1" parts-id="88467">
+<name>1 号冷却器冷凝器缓冲垫</name>
+</parts>
+<parts p-type="1" parts-id="88474">
+<name>冷却器干燥器</name>
+</parts>
+<parts p-type="1" parts-id="88501">
+<name>冷却器 1 号蒸发器分总成</name>
+</parts>
+<parts p-type="1" parts-id="88515">
+<name>冷却器膨胀阀</name>
+</parts>
+<parts p-type="2" parts-id="F0004GO">
+<name>冷却器膨胀阀</name>
+</parts>
+<parts p-type="1" parts-id="88625">
+<name>冷却器 1 号热敏电阻</name>
+</parts>
+<parts p-type="1" parts-id="89257">
+<name>冷却风扇 ECU</name>
+</parts>
+<parts p-type="2" parts-id="B100128">
+<name>冷却风扇 ECU</name>
+</parts>
+<parts p-type="1" parts-id="16363">
+<name>冷却风扇马达</name>
+</parts>
+<parts p-type="2" parts-id="F0001CW">
+<name>冷却风扇马达</name>
+</parts>
+<parts p-type="1" parts-id="85927">
+<name>冷却风扇继电器</name>
+</parts>
+<parts p-type="2" parts-id="J100020">
+<name>冷却风扇系统</name>
+</parts>
+<parts p-type="2" parts-id="J100021">
+<name>冷却系统</name>
+</parts>
+<parts p-type="2" parts-id="F000246">
+<name>相应的通信终止模式</name>
+</parts>
+<parts p-type="2" parts-id="F0001TK">
+<name>相应 ECU 或传感器</name>
+</parts>
+<parts p-type="2" parts-id="F000245">
+<name>相应 ECU 或传感器支线或连接器</name>
+</parts>
+<parts p-type="1" parts-id="81230">
+<name>门控灯总成</name>
+</parts>
+<parts p-type="1" parts-id="81230B">
+<name>门控灯灯泡</name>
+</parts>
+<parts p-type="1" parts-id="62112">
+<name>左前围侧饰板</name>
+</parts>
+<parts p-type="1" parts-id="62111C">
+<name>右前围侧饰板</name>
+</parts>
+<parts p-type="1" parts-id="55711">
+<name>前围上外板</name>
+</parts>
+<parts p-type="1" parts-id="55781E">
+<name>前围板上通风栅板分总成</name>
+</parts>
+<parts p-type="1" parts-id="11401G">
+<name>曲轴位置传感器</name>
+</parts>
+<parts p-type="2" parts-id="B001578">
+<name>曲轴位置传感器</name>
+</parts>
+<parts p-type="1" parts-id="11101W">
+<name>1 号曲轴位置传感器</name>
+</parts>
+<parts p-type="2" parts-id="B800481">
+<name>起动</name>
+</parts>
+<parts p-type="1" parts-id="13411">
+<name>曲轴</name>
+</parts>
+<parts p-type="1" parts-id="11711">
+<name>曲轴轴承</name>
+</parts>
+<parts p-type="1" parts-id="11416">
+<name>曲轴轴承盖固定螺栓</name>
+</parts>
+<parts p-type="2" parts-id="B000045">
+<name>曲轴油膜间隙</name>
+</parts>
+<parts p-type="2" parts-id="J909191">
+<name>曲轴位置传感器</name>
+</parts>
+<parts p-type="2" parts-id="B800400">
+<name>曲轴位置传感器电路</name>
+</parts>
+<parts p-type="1" parts-id="19315">
+<name>1 号曲轴位置信号盘</name>
+</parts>
+<parts p-type="1" parts-id="13471">
+<name>曲轴皮带轮</name>
+</parts>
+<parts p-type="2" parts-id="B000048">
+<name>曲轴轴向间隙</name>
+</parts>
+<parts p-type="1" parts-id="11791">
+<name>曲轴上止推垫圈</name>
+</parts>
+<parts p-type="1" parts-id="13521A">
+<name>曲轴正时齿轮键</name>
+</parts>
+<parts p-type="1" parts-id="13521">
+<name>曲轴正时齿轮或链轮</name>
+</parts>
+<parts p-type="1" parts-id="84632">
+<name>巡航控制主开关</name>
+</parts>
+<parts p-type="2" parts-id="B005107">
+<name>巡航控制主开关</name>
+</parts>
+<parts p-type="1" parts-id="84633">
+<name>巡航控制开关线束</name>
+</parts>
+<parts p-type="1" parts-id="62180A">
+<name>左侧帘式空气囊总成</name>
+</parts>
+<parts p-type="1" parts-id="62170A">
+<name>右侧帘式空气囊总成</name>
+</parts>
+<parts p-type="2" parts-id="B988168">
+<name>帘式空气囊总成</name>
+</parts>
+<parts p-type="3" parts-id="ZZZZZZ">
+<name>定制  定制</name>
+</parts>
+<parts p-type="2" parts-id="B800317">
+<name>定制信息</name>
+</parts>
+<parts p-type="2" parts-id="B800234">
+<name>定制程序</name>
+</parts>
+<parts p-type="2" parts-id="D12020Z">
+<name>CVT</name>
+</parts>
+<parts p-type="1" parts-id="30400E">
+<name>CVT 油泵式 T 型油封</name>
+</parts>
+<parts p-type="2" parts-id="B000049">
+<name>气缸体</name>
+</parts>
+<parts p-type="2" parts-id="B002536">
+<name>气缸体的翘曲度</name>
+</parts>
+<parts p-type="1" parts-id="11401">
+<name>气缸体分总成</name>
+</parts>
+<parts p-type="2" parts-id="B400040">
+<name>制动缸防尘罩</name>
+</parts>
+<parts p-type="2" parts-id="B000050">
+<name>气缸孔</name>
+</parts>
+<parts p-type="2" parts-id="B000654">
+<name>气缸压缩压力</name>
+</parts>
+<parts p-type="2" parts-id="B002053">
+<name>气缸盖</name>
+</parts>
+<parts p-type="1" parts-id="11213">
+<name>气缸盖罩衬垫</name>
+</parts>
+<parts p-type="1" parts-id="11212">
+<name>2 号气缸盖罩</name>
+</parts>
+<parts p-type="1" parts-id="11201">
+<name>气缸盖罩分总成</name>
+</parts>
+<parts p-type="1" parts-id="11115">
+<name>气缸盖衬垫</name>
+</parts>
+<parts p-type="2" parts-id="B200062">
+<name>气缸盖衬垫</name>
+</parts>
+<parts p-type="1" parts-id="11101A">
+<name>气缸盖固定螺栓</name>
+</parts>
+<parts p-type="1" parts-id="11101">
+<name>气缸盖分总成</name>
+</parts>
+</index>
+<index label="D">
+<parts p-type="1" parts-id="55213B">
+<name>1 号前围板隔热垫</name>
+</parts>
+<parts p-type="2" parts-id="B002430">
+<name>数据表</name>
+</parts>
+<parts p-type="3" parts-id="ZZZZZZ">
+<name>数据监视数据表</name>
+</parts>
+<parts p-type="1" parts-id="82642B">
+<name>日间行车灯 1 号继电器</name>
+</parts>
+<parts p-type="1" parts-id="85912">
+<name>除雾器继电器</name>
+</parts>
+<parts p-type="1" parts-id="55906A">
+<name>除霜风门控制拉索分总成</name>
+</parts>
+<parts p-type="1" parts-id="55950G">
+<name>除霜器喷嘴总成</name>
+</parts>
+<parts p-type="1" parts-id="23807V">
+<name>1 号输油管隔垫</name>
+</parts>
+<parts p-type="2" parts-id="F00024Z">
+<name>描述</name>
+</parts>
+<parts p-type="2" parts-id="B988227">
+<name>目的地</name>
+</parts>
+<parts p-type="2" parts-id="B004309">
+<name>诊断故障码表</name>
+</parts>
+<parts p-type="2" parts-id="B400311">
+<name>差速器壳</name>
+</parts>
+<parts p-type="2" parts-id="J300032">
+<name>差速器壳总成</name>
+</parts>
+<parts p-type="1" parts-id="35882E">
+<name>差速器齿轮润滑油供油管</name>
+</parts>
+<parts p-type="2" parts-id="F00005V">
+<name>差速器油封</name>
+</parts>
+<parts p-type="2" parts-id="B400009">
+<name>差速器半轴轴承预紧力</name>
+</parts>
+<parts p-type="2" parts-id="B400310">
+<name>差速器半轴齿轮</name>
+</parts>
+<parts p-type="2" parts-id="B400014">
+<name>差速器半轴齿轮齿隙</name>
+</parts>
+<parts p-type="1" parts-id="47750">
+<name>左盘式制动器制动缸总成</name>
+</parts>
+<parts p-type="1" parts-id="47850">
+<name>左后盘式制动器制动缸总成</name>
+</parts>
+<parts p-type="1" parts-id="47822">
+<name>左盘式制动缸固定架</name>
+</parts>
+<parts p-type="1" parts-id="04465">
+<name>前盘式制动器衬块组件</name>
+</parts>
+<parts p-type="1" parts-id="04466">
+<name>后盘式制动器衬块组件</name>
+</parts>
+<parts p-type="2" parts-id="B400050">
+<name>制动盘径向跳动</name>
+</parts>
+<parts p-type="2" parts-id="B400048">
+<name>制动盘厚度</name>
+</parts>
+<parts p-type="2" parts-id="B100050">
+<name>燃油系统卸压</name>
+</parts>
+<parts p-type="1" parts-id="88703">
+<name>排放软管分总成</name>
+</parts>
+<parts p-type="2" parts-id="B803003">
+<name>显示屏设定</name>
+</parts>
+<parts p-type="2" parts-id="B895019">
+<name>DLC3</name>
+</parts>
+<parts p-type="2" parts-id="B001912">
+<name>DLC3 支线</name>
+</parts>
+<parts p-type="1" parts-id="74646">
+<name>左侧车门辅助拉手盖</name>
+</parts>
+<parts p-type="1" parts-id="89070F">
+<name>车门控制（切断钥匙）发射器总成</name>
+</parts>
+<parts p-type="1" parts-id="89741">
+<name>车门控制接收器</name>
+</parts>
+<parts p-type="2" parts-id="B981001">
+<name>车门控制接收器</name>
+</parts>
+<parts p-type="2" parts-id="B988340">
+<name>车门控制开关</name>
+</parts>
+<parts p-type="2" parts-id="J909871">
+<name>车门控制发射器</name>
+</parts>
+<parts p-type="2" parts-id="F0003XN">
+<name>门控灯</name>
+</parts>
+<parts p-type="1" parts-id="67664D">
+<name>左门框装饰条</name>
+</parts>
+<parts p-type="2" parts-id="F0001G7">
+<name>门锁工作情况</name>
+</parts>
+<parts p-type="1" parts-id="75792">
+<name>门窗框防护条卡子</name>
+</parts>
+<parts p-type="2" parts-id="F0000H5">
+<name>车门和发动机罩</name>
+</parts>
+<parts p-type="1" parts-id="33104">
+<name>放油螺塞分总成 (MTM)</name>
+</parts>
+<parts p-type="2" parts-id="B100001">
+<name>传动皮带</name>
+</parts>
+<parts p-type="2" parts-id="F00049K">
+<name>传动板</name>
+</parts>
+<parts p-type="1" parts-id="32101B">
+<name>传动板和齿圈分总成</name>
+</parts>
+<parts p-type="1" parts-id="32101G">
+<name>传动板和变矩器离合器固定螺栓</name>
+</parts>
+<parts p-type="2" parts-id="D1002GZ">
+<name>半轴</name>
+</parts>
+<parts p-type="2" parts-id="F0000IP">
+<name>驱动轴防尘套</name>
+</parts>
+<parts p-type="1" parts-id="12321B">
+<name>驱动轴隔热垫分总成</name>
+</parts>
+<parts p-type="2" parts-id="F000019">
+<name>半轴系统</name>
+</parts>
+<parts p-type="2" parts-id="B000375">
+<name>行驶测试</name>
+</parts>
+<parts p-type="2" parts-id="B898428">
+<name>驾驶员座椅安全带警告灯</name>
+</parts>
+<parts p-type="1" parts-id="82730A">
+<name>驾驶员侧接线盒总成</name>
+</parts>
+<parts p-type="2" parts-id="B800737">
+<name>DTC</name>
+</parts>
+<parts p-type="2" parts-id="B980206">
+<name>由于燃油耗尽引起的 DTC</name>
+</parts>
+<parts p-type="2" parts-id="F0001SJ">
+<name>DTC 表</name>
+</parts>
+<parts p-type="2" parts-id="B000284">
+<name>输出 DTC</name>
+</parts>
+<parts p-type="2" parts-id="B000764">
+<name>输出 DTC</name>
+</parts>
+<parts p-type="1" parts-id="17650G">
+<name>占空比控制型真空开关阀</name>
+</parts>
+<parts p-type="2" parts-id="F00011Z">
+<name>虚设</name>
+</parts>
+</index>
+<index label="E">
+<parts p-type="1" parts-id="89422">
+<name>E.F.I. 发动机冷却液温度传感器</name>
+</parts>
+<parts p-type="1" parts-id="89421">
+<name>E.F.I. 真空传感器总成</name>
+</parts>
+<parts p-type="1" parts-id="89661">
+<name>ECM</name>
+</parts>
+<parts p-type="2" parts-id="B000057">
+<name>ECM</name>
+</parts>
+<parts p-type="1" parts-id="89667">
+<name>ECM 支架</name>
+</parts>
+<parts p-type="1" parts-id="89668">
+<name>ECM 2 号支架</name>
+</parts>
+<parts p-type="2" parts-id="B001346">
+<name>ECM 电源电路</name>
+</parts>
+<parts p-type="2" parts-id="B801243">
+<name>ECU</name>
+</parts>
+<parts p-type="2" parts-id="B800355">
+<name>ECU 端子电压</name>
+</parts>
+<parts p-type="2" parts-id="B800838">
+<name>EFI 主继电器</name>
+</parts>
+<parts p-type="2" parts-id="F00049I">
+<name>喷射器管</name>
+</parts>
+<parts p-type="1" parts-id="4520A">
+<name>电动转向柱分总成</name>
+</parts>
+<parts p-type="1" parts-id="89650E">
+<name>电动转向继电器</name>
+</parts>
+<parts p-type="1" parts-id="89997">
+<name>电子钥匙天线</name>
+</parts>
+<parts p-type="2" parts-id="B009069">
+<name>电子钥匙天线</name>
+</parts>
+<parts p-type="2" parts-id="F000379">
+<name>电子钥匙振荡器</name>
+</parts>
+<parts p-type="1" parts-id="89904B">
+<name>电子钥匙发射器分总成</name>
+</parts>
+<parts p-type="2" parts-id="F000126">
+<name>电子钥匙发射器（智能钥匙）</name>
+</parts>
+<parts p-type="2" parts-id="J100014">
+<name>排放控制系统</name>
+</parts>
+<parts p-type="2" parts-id="B898409">
+<name>结束</name>
+</parts>
+<parts p-type="2" parts-id="A11A001">
+<name>发动机</name>
+</parts>
+<parts p-type="2" parts-id="J000025">
+<name>发动机</name>
+</parts>
+<parts p-type="2" parts-id="B009016">
+<name>发动机和传动桥</name>
+</parts>
+<parts p-type="2" parts-id="A111000">
+<name>发动机总成</name>
+</parts>
+<parts p-type="2" parts-id="B000055">
+<name>发动机总成</name>
+</parts>
+<parts p-type="2" parts-id="D12005Z">
+<name>发动机控制系统</name>
+</parts>
+<parts p-type="2" parts-id="B001610">
+<name>发动机冷却液</name>
+</parts>
+<parts p-type="2" parts-id="F0000HI">
+<name>发动机冷却液液位</name>
+</parts>
+<parts p-type="2" parts-id="J894220">
+<name>发动机冷却液温度传感器</name>
+</parts>
+<parts p-type="1" parts-id="51425A">
+<name>发动机前悬置支架下加强件</name>
+</parts>
+<parts p-type="2" parts-id="B160025">
+<name>发动机吊架</name>
+</parts>
+<parts p-type="2" parts-id="B005076">
+<name>发动机罩门控灯开关</name>
+</parts>
+<parts p-type="2" parts-id="B000059">
+<name>发动机怠速转速</name>
+</parts>
+<parts p-type="2" parts-id="D1002OZ">
+<name>发动机停机系统</name>
+</parts>
+<parts p-type="2" parts-id="D12007Z">
+<name>发动机机械部分</name>
+</parts>
+<parts p-type="1" parts-id="12371A">
+<name>发动机后悬置隔振垫</name>
+</parts>
+<parts p-type="1" parts-id="12305">
+<name>发动机右侧悬置隔振垫分总成</name>
+</parts>
+<parts p-type="2" parts-id="B000703">
+<name>发动机机油</name>
+</parts>
+<parts p-type="2" parts-id="F0000HQ">
+<name>发动机机油和机油滤清器</name>
+</parts>
+<parts p-type="2" parts-id="B000062">
+<name>发动机机油油位</name>
+</parts>
+<parts p-type="1" parts-id="83530">
+<name>发动机机油压力开关总成</name>
+</parts>
+<parts p-type="1" parts-id="11401L">
+<name>发动机后油封</name>
+</parts>
+<parts p-type="1" parts-id="82111">
+<name>发动机室主线束</name>
+</parts>
+<parts p-type="1" parts-id="82741">
+<name>发动机室继电器盒</name>
+</parts>
+<parts p-type="2" parts-id="B000063">
+<name>发动机台架</name>
+</parts>
+<parts p-type="2" parts-id="B000884">
+<name>发动机起动</name>
+</parts>
+<parts p-type="2" parts-id="B840014">
+<name>发动机开关</name>
+</parts>
+<parts p-type="2" parts-id="F00028D">
+<name>车辆完全停止时，将发动机开关置于 ON (IG) 位置</name>
+</parts>
+<parts p-type="2" parts-id="F0001XY">
+<name>发动机以确定压缩压力低的原因</name>
+</parts>
+<parts p-type="1" parts-id="51441">
+<name>发动机 1 号底罩</name>
+</parts>
+<parts p-type="1" parts-id="51447D">
+<name>发动机中央 4 号底罩</name>
+</parts>
+<parts p-type="1" parts-id="51444A">
+<name>发动机后部左侧底罩</name>
+</parts>
+<parts p-type="1" parts-id="51443C">
+<name>发动机后部右侧底罩</name>
+</parts>
+<parts p-type="2" parts-id="F000044">
+<name>发动机单元</name>
+</parts>
+<parts p-type="1" parts-id="16100">
+<name>发动机水泵总成</name>
+</parts>
+<parts p-type="1" parts-id="82121">
+<name>发动机线束</name>
+</parts>
+<parts p-type="2" parts-id="F0002RW">
+<name>上车功能探测区域</name>
+</parts>
+<parts p-type="2" parts-id="F0001T9">
+<name>上车锁止和开锁开关</name>
+</parts>
+<parts p-type="2" parts-id="F000253">
+<name>EVAP 系统</name>
+</parts>
+<parts p-type="1" parts-id="77196">
+<name>蒸发通风管 1 号卡夹</name>
+</parts>
+<parts p-type="2" parts-id="X010010">
+<name>排气系统</name>
+</parts>
+<parts p-type="2" parts-id="B000366">
+<name>废气泄漏</name>
+</parts>
+<parts p-type="1" parts-id="17141">
+<name>排气歧管</name>
+</parts>
+<parts p-type="2" parts-id="J100024">
+<name>排气歧管</name>
+</parts>
+<parts p-type="1" parts-id="17167">
+<name>排气歧管 1 号隔热罩</name>
+</parts>
+<parts p-type="1" parts-id="17168">
+<name>排气歧管 2 号隔热罩</name>
+</parts>
+<parts p-type="2" parts-id="B171180">
+<name>排气歧管撑条</name>
+</parts>
+<parts p-type="2" parts-id="J100016">
+<name>排气管</name>
+</parts>
+<parts p-type="1" parts-id="17420">
+<name>中央排气管总成</name>
+</parts>
+<parts p-type="1" parts-id="17410">
+<name>前排气管总成</name>
+</parts>
+<parts p-type="1" parts-id="17430">
+<name>排气尾管总成</name>
+</parts>
+<parts p-type="2" parts-id="F0000HU">
+<name>排气管和安装件</name>
+</parts>
+<parts p-type="2" parts-id="J100055">
+<name>排气系统</name>
+</parts>
+<parts p-type="1" parts-id="13715">
+<name>排气门</name>
+</parts>
+<parts p-type="1" parts-id="11126">
+<name>排气门导管衬套</name>
+</parts>
+<parts p-type="2" parts-id="B002394">
+<name>实际空燃比过浓或过稀</name>
+</parts>
+</index>
+<index label="F">
+<parts p-type="3" parts-id="ZZZZZZ">
+<name>失效保护  失效保护</name>
+</parts>
+<parts p-type="1" parts-id="16361">
+<name>风扇</name>
+</parts>
+<parts p-type="1" parts-id="16361A">
+<name>风扇和发电机三角带</name>
+</parts>
+<parts p-type="1" parts-id="16712">
+<name>2 号风扇罩</name>
+</parts>
+<parts p-type="2" parts-id="B898516">
+<name>注油螺塞</name>
+</parts>
+<parts p-type="1" parts-id="58510D">
+<name>前地板地毯总成</name>
+</parts>
+<parts p-type="1" parts-id="33557F">
+<name>地板式换档控制直角杠杆防尘罩</name>
+</parts>
+<parts p-type="1" parts-id="33524F">
+<name>地板式换档控制杆壳支架</name>
+</parts>
+<parts p-type="1" parts-id="33520A">
+<name>地板式换档控制轴总成</name>
+</parts>
+<parts p-type="1" parts-id="33527">
+<name>地板式换档控制杆</name>
+</parts>
+<parts p-type="1" parts-id="35907">
+<name>地板式换档杆位置指示灯壳体分总成</name>
+</parts>
+<parts p-type="1" parts-id="33530F">
+<name>地板式换档杆总成</name>
+</parts>
+<parts p-type="1" parts-id="58398H">
+<name>地板 1 号底罩</name>
+</parts>
+<parts p-type="1" parts-id="82161">
+<name>地板线束</name>
+</parts>
+<parts p-type="2" parts-id="B400083">
+<name>油液泄漏</name>
+</parts>
+<parts p-type="2" parts-id="F0002Q4">
+<name>油位</name>
+</parts>
+<parts p-type="2" parts-id="F0002PI">
+<name>传动桥油温度</name>
+</parts>
+<parts p-type="1" parts-id="11363A">
+<name>飞轮壳侧盖</name>
+</parts>
+<parts p-type="1" parts-id="11361J">
+<name>飞轮壳底罩</name>
+</parts>
+<parts p-type="1" parts-id="13405">
+<name>飞轮分总成</name>
+</parts>
+<parts p-type="1" parts-id="81220">
+<name>左侧雾灯总成</name>
+</parts>
+<parts p-type="1" parts-id="81210A">
+<name>右侧雾灯总成</name>
+</parts>
+<parts p-type="1" parts-id="81210B">
+<name>雾灯灯泡</name>
+</parts>
+<parts p-type="1" parts-id="81482C">
+<name>左侧雾灯盖</name>
+</parts>
+<parts p-type="1" parts-id="81481E">
+<name>右侧雾灯盖</name>
+</parts>
+<parts p-type="1" parts-id="52126D">
+<name>左雾灯安装支架</name>
+</parts>
+<parts p-type="1" parts-id="52125A">
+<name>右雾灯安装支架</name>
+</parts>
+<parts p-type="1" parts-id="85916D">
+<name>雾灯继电器</name>
+</parts>
+<parts p-type="2" parts-id="F00021K">
+<name>雾灯对光</name>
+</parts>
+<parts p-type="2" parts-id="F0003YU">
+<name>雾灯总成</name>
+</parts>
+<parts p-type="2" parts-id="B800018">
+<name>异物</name>
+</parts>
+<parts p-type="2" parts-id="F0001E2">
+<name>前言</name>
+</parts>
+<parts p-type="1" parts-id="35612D">
+<name>前进档离合器活塞</name>
+</parts>
+<parts p-type="1" parts-id="35603E">
+<name>前进档离合器回位弹簧分总成</name>
+</parts>
+<parts p-type="1" parts-id="35633H">
+<name>前进档多片式离合器盘</name>
+</parts>
+<parts p-type="1" parts-id="85222A">
+<name>左前刮水器刮水片</name>
+</parts>
+<parts p-type="2" parts-id="B000991">
+<name>定格数据</name>
+</parts>
+<parts p-type="2" parts-id="F0000AN">
+<name>前空气囊传感器</name>
+</parts>
+<parts p-type="2" parts-id="B818011">
+<name>左前空气囊传感器电路</name>
+</parts>
+<parts p-type="2" parts-id="B818012">
+<name>右前空气囊传感器电路</name>
+</parts>
+<parts p-type="1" parts-id="74220">
+<name>左前扶手总成</name>
+</parts>
+<parts p-type="1" parts-id="74210">
+<name>右前扶手总成</name>
+</parts>
+<parts p-type="2" parts-id="B430002">
+<name>左前桥总成</name>
+</parts>
+<parts p-type="2" parts-id="J435000">
+<name>前桥轮毂</name>
+</parts>
+<parts p-type="2" parts-id="B401001">
+<name>前桥轮毂轴承松弛度</name>
+</parts>
+<parts p-type="2" parts-id="B300155">
+<name>前桥轮毂螺栓</name>
+</parts>
+<parts p-type="2" parts-id="B400386">
+<name>前桥轮毂径向跳动</name>
+</parts>
+<parts p-type="1" parts-id="43502C">
+<name>左前桥轮毂分总成</name>
+</parts>
+<parts p-type="1" parts-id="43448F">
+<name>左前桥内侧万向节防尘罩卡夹</name>
+</parts>
+<parts p-type="1" parts-id="43448G">
+<name>左前桥内侧万向节防尘罩 2 号卡夹</name>
+</parts>
+<parts p-type="1" parts-id="43502D">
+<name>左前桥轮毂螺栓</name>
+</parts>
+<parts p-type="1" parts-id="43447E">
+<name>左前桥外侧万向节防尘罩卡夹</name>
+</parts>
+<parts p-type="1" parts-id="43447F">
+<name>左前桥外侧万向节防尘罩 2 号卡夹</name>
+</parts>
+<parts p-type="1" parts-id="43502H">
+<name>前桥左半轴螺母</name>
+</parts>
+<parts p-type="2" parts-id="F0003VZ">
+<name>前鼓风机马达</name>
+</parts>
+<parts p-type="2" parts-id="J400010">
+<name>前轮制动器</name>
+</parts>
+<parts p-type="2" parts-id="F00014L">
+<name>前轮制动器挠性软管</name>
+</parts>
+<parts p-type="1" parts-id="47311B">
+<name>前制动管 1 号通路</name>
+</parts>
+<parts p-type="2" parts-id="F0003ZO">
+<name>前保险杠</name>
+</parts>
+<parts p-type="1" parts-id="52618">
+<name>前保险杠下减振器</name>
+</parts>
+<parts p-type="2" parts-id="B000072">
+<name>前保险杠总成</name>
+</parts>
+<parts p-type="1" parts-id="52611">
+<name>前保险杠能量吸收器</name>
+</parts>
+<parts p-type="1" parts-id="52114A">
+<name>前保险杠延伸段安装支架</name>
+</parts>
+<parts p-type="1" parts-id="52127C">
+<name>前保险杠孔盖</name>
+</parts>
+<parts p-type="1" parts-id="52040">
+<name>前保险杠左侧孔盖总成</name>
+</parts>
+<parts p-type="1" parts-id="52030">
+<name>前保险杠右侧孔盖总成</name>
+</parts>
+<parts p-type="1" parts-id="52128B">
+<name>前保险杠左侧孔盖</name>
+</parts>
+<parts p-type="1" parts-id="52127D">
+<name>前保险杠右侧孔盖</name>
+</parts>
+<parts p-type="1" parts-id="52711">
+<name>前保险杠防护条</name>
+</parts>
+<parts p-type="1" parts-id="52021">
+<name>前保险杠加强件分总成</name>
+</parts>
+<parts p-type="1" parts-id="52116A">
+<name>前保险杠左侧支架</name>
+</parts>
+<parts p-type="1" parts-id="52115A">
+<name>前保险杠右侧支架</name>
+</parts>
+<parts p-type="1" parts-id="48158C">
+<name>左前螺旋弹簧下隔振垫</name>
+</parts>
+<parts p-type="1" parts-id="48157C">
+<name>左前螺旋弹簧上隔振垫</name>
+</parts>
+<parts p-type="1" parts-id="48132">
+<name>左前螺旋弹簧</name>
+</parts>
+<parts p-type="1" parts-id="48471C">
+<name>左前螺旋弹簧上座</name>
+</parts>
+<parts p-type="2" parts-id="F00033U">
+<name>前地板控制台</name>
+</parts>
+<parts p-type="2" parts-id="F0003AN">
+<name>曲轴前油封</name>
+</parts>
+<parts p-type="1" parts-id="57104E">
+<name>前横梁分总成</name>
+</parts>
+<parts p-type="2" parts-id="F0000IX">
+<name>前差速器</name>
+</parts>
+<parts p-type="1" parts-id="41300">
+<name>带齿圈的前差速器壳总成</name>
+</parts>
+<parts p-type="1" parts-id="41311E">
+<name>前差速器壳前滚锥轴承</name>
+</parts>
+<parts p-type="1" parts-id="41311F">
+<name>前差速器壳后滚锥轴承</name>
+</parts>
+<parts p-type="1" parts-id="41302F">
+<name>前差速器壳分总成</name>
+</parts>
+<parts p-type="2" parts-id="J300003">
+<name>前差速器油封</name>
+</parts>
+<parts p-type="1" parts-id="41342F">
+<name>前差速器 1 号行星齿轮轴</name>
+</parts>
+<parts p-type="1" parts-id="41342A">
+<name>前差速器行星齿轮轴直销</name>
+</parts>
+<parts p-type="1" parts-id="41351F">
+<name>前差速器行星齿轮止推垫圈</name>
+</parts>
+<parts p-type="1" parts-id="41221">
+<name>前差速器齿圈</name>
+</parts>
+<parts p-type="1" parts-id="41331F">
+<name>前差速器半轴齿轮</name>
+</parts>
+<parts p-type="1" parts-id="43512">
+<name>前制动盘</name>
+</parts>
+<parts p-type="1" parts-id="47547B">
+<name>前盘式制动器放气螺塞</name>
+</parts>
+<parts p-type="1" parts-id="31478B">
+<name>前盘式制动器放气螺塞盖</name>
+</parts>
+<parts p-type="2" parts-id="B400298">
+<name>前盘式制动器衬套防尘罩</name>
+</parts>
+<parts p-type="2" parts-id="B400020">
+<name>左前盘式制动器制动钳总成</name>
+</parts>
+<parts p-type="1" parts-id="47722">
+<name>左前盘式制动器制动缸固定架</name>
+</parts>
+<parts p-type="1" parts-id="47715A">
+<name>前盘式制动器制动缸滑销</name>
+</parts>
+<parts p-type="1" parts-id="47715D">
+<name>前盘式制动器制动缸 2 号滑销</name>
+</parts>
+<parts p-type="2" parts-id="B400550">
+<name>前盘式制动器衬块支撑板</name>
+</parts>
+<parts p-type="1" parts-id="47731">
+<name>前盘式制动器活塞</name>
+</parts>
+<parts p-type="2" parts-id="F0005BQ">
+<name>前门</name>
+</parts>
+<parts p-type="2" parts-id="J500002">
+<name>前门</name>
+</parts>
+<parts p-type="2" parts-id="F0003ZZ">
+<name>前门腰线防护条</name>
+</parts>
+<parts p-type="1" parts-id="75720">
+<name>左前车门腰线防护条总成</name>
+</parts>
+<parts p-type="1" parts-id="68610">
+<name>前门开度限位器总成</name>
+</parts>
+<parts p-type="1" parts-id="84233">
+<name>前门门控灯开关总成</name>
+</parts>
+<parts p-type="2" parts-id="B009057">
+<name>前门门控灯开关总成</name>
+</parts>
+<parts p-type="2" parts-id="F00015E">
+<name>前门门控灯开关</name>
+</parts>
+<parts p-type="1" parts-id="67404F">
+<name>左前车门后下门框分总成</name>
+</parts>
+<parts p-type="1" parts-id="68151C">
+<name>左前车门玻璃升降槽</name>
+</parts>
+<parts p-type="1" parts-id="68141C">
+<name>右前车门玻璃升降槽</name>
+</parts>
+<parts p-type="1" parts-id="68102">
+<name>左前车门玻璃分总成</name>
+</parts>
+<parts p-type="1" parts-id="68172A">
+<name>左前车门玻璃内密封条</name>
+</parts>
+<parts p-type="1" parts-id="69210">
+<name>右前车门外把手总成</name>
+</parts>
+<parts p-type="1" parts-id="69206B">
+<name>左前车门内把手分总成</name>
+</parts>
+<parts p-type="1" parts-id="69760C">
+<name>左前车门内侧锁止拉索总成</name>
+</parts>
+<parts p-type="2" parts-id="F00016B">
+<name>前门门锁</name>
+</parts>
+<parts p-type="1" parts-id="69036A">
+<name>左前车门锁止器盖分总成</name>
+</parts>
+<parts p-type="1" parts-id="69312">
+<name>左前车门门锁开启杆</name>
+</parts>
+<parts p-type="1" parts-id="69720B">
+<name>左前车门锁止遥控拉索总成</name>
+</parts>
+<parts p-type="1" parts-id="67492A">
+<name>左前车门下门框支架装饰条</name>
+</parts>
+<parts p-type="1" parts-id="67762">
+<name>前门下装饰罩</name>
+</parts>
+<parts p-type="1" parts-id="75072A">
+<name>左前车门外防护条分总成</name>
+</parts>
+<parts p-type="1" parts-id="62312B">
+<name>左前车门开口装饰密封条</name>
+</parts>
+<parts p-type="1" parts-id="62311B">
+<name>右前车门开口装饰密封条</name>
+</parts>
+<parts p-type="1" parts-id="69220">
+<name>左前车门外把手总成</name>
+</parts>
+<parts p-type="2" parts-id="J500064">
+<name>前门外把手盖</name>
+</parts>
+<parts p-type="1" parts-id="69217F">
+<name>左前车门外把手盖</name>
+</parts>
+<parts p-type="1" parts-id="69217E">
+<name>右前车门外把手盖</name>
+</parts>
+<parts p-type="1" parts-id="69202A">
+<name>左前车门外把手框分总成</name>
+</parts>
+<parts p-type="1" parts-id="69241H">
+<name>前门前外把手垫</name>
+</parts>
+<parts p-type="1" parts-id="69242E">
+<name>前门后外把手垫</name>
+</parts>
+<parts p-type="1" parts-id="67001A">
+<name>前门板缓冲垫</name>
+</parts>
+<parts p-type="1" parts-id="67914">
+<name>左前车门防磨板</name>
+</parts>
+<parts p-type="1" parts-id="67913">
+<name>右前车门防磨板</name>
+</parts>
+<parts p-type="1" parts-id="67832">
+<name>左前车门检修孔盖</name>
+</parts>
+<parts p-type="2" parts-id="F00037V">
+<name>前门扬声器</name>
+</parts>
+<parts p-type="1" parts-id="67602">
+<name>左前车门装饰板分总成</name>
+</parts>
+<parts p-type="1" parts-id="67838A">
+<name>左前车门通风口密封</name>
+</parts>
+<parts p-type="1" parts-id="69040A">
+<name>带马达的左前车门门锁总成</name>
+</parts>
+<parts p-type="1" parts-id="69030A">
+<name>带马达的右前车门门锁总成</name>
+</parts>
+<parts p-type="1" parts-id="67862">
+<name>左前车门密封条</name>
+</parts>
+<parts p-type="2" parts-id="F000408">
+<name>前门窗框防护条</name>
+</parts>
+<parts p-type="1" parts-id="75756C">
+<name>左前车门后窗框防护条</name>
+</parts>
+<parts p-type="2" parts-id="F00017U">
+<name>前门窗升降器</name>
+</parts>
+<parts p-type="1" parts-id="43040B">
+<name>前桥左半轴内侧万向节孔卡环</name>
+</parts>
+<parts p-type="1" parts-id="41211A">
+<name>前主动小齿轮前滚锥轴承</name>
+</parts>
+<parts p-type="1" parts-id="41211B">
+<name>前主动小齿轮后滚锥轴承</name>
+</parts>
+<parts p-type="2" parts-id="F000088">
+<name>前桥半轴总成</name>
+</parts>
+<parts p-type="1" parts-id="43420">
+<name>前桥左半轴总成</name>
+</parts>
+<parts p-type="1" parts-id="43410">
+<name>前桥右半轴总成</name>
+</parts>
+<parts p-type="1" parts-id="43474E">
+<name>前桥左半轴减振器</name>
+</parts>
+<parts p-type="1" parts-id="41336E">
+<name>前桥左半轴防尘罩</name>
+</parts>
+<parts p-type="1" parts-id="43420H">
+<name>前桥左半轴油封</name>
+</parts>
+<parts p-type="1" parts-id="43410M">
+<name>前桥右半轴油封</name>
+</parts>
+<parts p-type="2" parts-id="F0001D0">
+<name>前蒸发器温度传感器</name>
+</parts>
+<parts p-type="1" parts-id="53876A">
+<name>左前翼子板内衬</name>
+</parts>
+<parts p-type="1" parts-id="53879H">
+<name>前翼子板内衬固定器</name>
+</parts>
+<parts p-type="1" parts-id="53875A">
+<name>右前翼子板内衬</name>
+</parts>
+<parts p-type="1" parts-id="75361A">
+<name>前翼子板 1 号铭牌</name>
+</parts>
+<parts p-type="1" parts-id="75362">
+<name>前翼子板 2 号铭牌</name>
+</parts>
+<parts p-type="1" parts-id="53828K">
+<name>左前翼子板侧护板</name>
+</parts>
+<parts p-type="1" parts-id="47313J">
+<name>前挠性软管</name>
+</parts>
+<parts p-type="1" parts-id="57501C">
+<name>前地板中央支架分总成</name>
+</parts>
+<parts p-type="1" parts-id="58151">
+<name>前地板 1 号隔热垫</name>
+</parts>
+<parts p-type="1" parts-id="58153">
+<name>前地板 2 号隔热垫</name>
+</parts>
+<parts p-type="2" parts-id="F000091">
+<name>前下球节</name>
+</parts>
+<parts p-type="2" parts-id="J400080">
+<name>前悬架下臂</name>
+</parts>
+<parts p-type="1" parts-id="86160">
+<name>前 1 号扬声器总成</name>
+</parts>
+<parts p-type="1" parts-id="86160P">
+<name>前 2 号扬声器总成</name>
+</parts>
+<parts p-type="1" parts-id="35310A">
+<name>前油泵总成</name>
+</parts>
+<parts p-type="2" parts-id="B980087">
+<name>前排乘客空气囊总成</name>
+</parts>
+<parts p-type="2" parts-id="B988181">
+<name>前排乘客座椅安全带警告灯</name>
+</parts>
+<parts p-type="2" parts-id="J909875">
+<name>前排乘客侧电动窗开关</name>
+</parts>
+<parts p-type="1" parts-id="60118">
+<name>左侧前柱上盖分总成</name>
+</parts>
+<parts p-type="1" parts-id="62212">
+<name>左侧前柱装饰板</name>
+</parts>
+<parts p-type="1" parts-id="62211">
+<name>右侧前柱装饰板</name>
+</parts>
+<parts p-type="2" parts-id="F00040T">
+<name>前柱上盖</name>
+</parts>
+<parts p-type="1" parts-id="35075D">
+<name>前行星齿圈分总成</name>
+</parts>
+<parts p-type="2" parts-id="M000125">
+<name>前排电动座椅控制系统</name>
+</parts>
+<parts p-type="1" parts-id="84922C">
+<name>前排左侧电动座椅开关</name>
+</parts>
+<parts p-type="1" parts-id="73920A">
+<name>前排左侧座椅空气囊总成</name>
+</parts>
+<parts p-type="1" parts-id="73910A">
+<name>前排右侧座椅空气囊总成</name>
+</parts>
+<parts p-type="2" parts-id="B001401">
+<name>前排座椅总成</name>
+</parts>
+<parts p-type="2" parts-id="B000076">
+<name>前排左侧座椅总成</name>
+</parts>
+<parts p-type="2" parts-id="B700003">
+<name>前排右侧座椅总成</name>
+</parts>
+<parts p-type="1" parts-id="71862">
+<name>前排左侧座椅座垫内护板</name>
+</parts>
+<parts p-type="1" parts-id="71868A">
+<name>前排左侧座椅座垫 1 号内护板</name>
+</parts>
+<parts p-type="1" parts-id="71861">
+<name>前排右侧座椅座垫内护板</name>
+</parts>
+<parts p-type="1" parts-id="71812D">
+<name>前排左侧座椅座垫护板</name>
+</parts>
+<parts p-type="1" parts-id="71873A">
+<name>前排座椅座垫下护板</name>
+</parts>
+<parts p-type="1" parts-id="71874A">
+<name>前排左侧座椅座垫下护板</name>
+</parts>
+<parts p-type="1" parts-id="71811D">
+<name>前排右侧座椅座垫护板</name>
+</parts>
+<parts p-type="1" parts-id="71910A">
+<name>前排座椅头枕总成</name>
+</parts>
+<parts p-type="1" parts-id="71931">
+<name>前排座椅头枕支架</name>
+</parts>
+<parts p-type="2" parts-id="B700017">
+<name>前排座椅内安全带总成</name>
+</parts>
+<parts p-type="1" parts-id="73240">
+<name>前排左侧座椅内安全带总成</name>
+</parts>
+<parts p-type="2" parts-id="A732400">
+<name>前排左侧座椅内安全带总成</name>
+</parts>
+<parts p-type="1" parts-id="73230">
+<name>前排右侧座椅内安全带总成</name>
+</parts>
+<parts p-type="2" parts-id="A732300">
+<name>前排右侧座椅内安全带总成</name>
+</parts>
+<parts p-type="2" parts-id="B988177">
+<name>前排座椅外安全带总成</name>
+</parts>
+<parts p-type="1" parts-id="73220">
+<name>前排左侧座椅外安全带总成</name>
+</parts>
+<parts p-type="1" parts-id="73210">
+<name>前排右侧座椅外安全带总成</name>
+</parts>
+<parts p-type="2" parts-id="B988169">
+<name>前排座椅侧空气囊总成</name>
+</parts>
+<parts p-type="1" parts-id="82192">
+<name>前排左侧座椅线束</name>
+</parts>
+<parts p-type="1" parts-id="8219B">
+<name>前排左侧座椅 2 号线束</name>
+</parts>
+<parts p-type="2" parts-id="B700082">
+<name>前排座椅靠背卡钩</name>
+</parts>
+<parts p-type="2" parts-id="J485100">
+<name>前减振器</name>
+</parts>
+<parts p-type="2" parts-id="J400026">
+<name>带螺旋弹簧的前减振器</name>
+</parts>
+<parts p-type="1" parts-id="73200A">
+<name>前肩式安全带锚定器调节器总成</name>
+</parts>
+<parts p-type="1" parts-id="53824D">
+<name>左前 2 号侧护板</name>
+</parts>
+<parts p-type="1" parts-id="53823G">
+<name>右前 2 号侧护板</name>
+</parts>
+<parts p-type="2" parts-id="B800259">
+<name>前轮转速传感器</name>
+</parts>
+<parts p-type="2" parts-id="F0000D0">
+<name>前扰流器</name>
+</parts>
+<parts p-type="1" parts-id="76084">
+<name>前扰流器组件</name>
+</parts>
+<parts p-type="1" parts-id="48331C">
+<name>左前弹簧缓冲块</name>
+</parts>
+<parts p-type="2" parts-id="J488110">
+<name>前稳定杆</name>
+</parts>
+<parts p-type="1" parts-id="48815E">
+<name>左前稳定杆衬套</name>
+</parts>
+<parts p-type="1" parts-id="48815D">
+<name>右前稳定杆衬套</name>
+</parts>
+<parts p-type="1" parts-id="48810">
+<name>左前稳定杆连杆总成</name>
+</parts>
+<parts p-type="1" parts-id="48820B">
+<name>右前稳定杆连杆总成</name>
+</parts>
+<parts p-type="1" parts-id="48680A">
+<name>前支座至前减振器螺母</name>
+</parts>
+<parts p-type="1" parts-id="48069">
+<name>左前悬架 1 号下臂分总成</name>
+</parts>
+<parts p-type="1" parts-id="48068">
+<name>右前悬架 1 号下臂分总成</name>
+</parts>
+<parts p-type="1" parts-id="51201">
+<name>前悬架横梁分总成</name>
+</parts>
+<parts p-type="2" parts-id="B002131">
+<name>前悬架横梁</name>
+</parts>
+<parts p-type="1" parts-id="52256">
+<name>左前悬架横梁前支架</name>
+</parts>
+<parts p-type="1" parts-id="52255">
+<name>右前悬架横梁前支架</name>
+</parts>
+<parts p-type="1" parts-id="52258A">
+<name>左前悬架横梁后支架</name>
+</parts>
+<parts p-type="1" parts-id="52257">
+<name>右前悬架横梁后支架</name>
+</parts>
+<parts p-type="1" parts-id="51218A">
+<name>左前悬架横梁加强件</name>
+</parts>
+<parts p-type="1" parts-id="51217A">
+<name>右前悬架横梁加强件</name>
+</parts>
+<parts p-type="1" parts-id="48684B">
+<name>左前悬架支座防尘罩</name>
+</parts>
+<parts p-type="1" parts-id="48609D">
+<name>左前悬架支座防尘密封圈</name>
+</parts>
+<parts p-type="1" parts-id="48609">
+<name>左前悬架支座分总成</name>
+</parts>
+<parts p-type="2" parts-id="J400016">
+<name>前悬架系统</name>
+</parts>
+<parts p-type="1" parts-id="31105D">
+<name>前传动桥壳油封</name>
+</parts>
+<parts p-type="1" parts-id="81510C">
+<name>前转向信号灯灯泡</name>
+</parts>
+<parts p-type="2" parts-id="B001506">
+<name>前轮</name>
+</parts>
+<parts p-type="2" parts-id="B000078">
+<name>前轮定位</name>
+</parts>
+<parts p-type="2" parts-id="B400060">
+<name>左前轮</name>
+</parts>
+<parts p-type="1" parts-id="53852B">
+<name>左前翼子板外接板衬块</name>
+</parts>
+<parts p-type="1" parts-id="53851D">
+<name>右前翼子板外接板衬块</name>
+</parts>
+<parts p-type="2" parts-id="B400053">
+<name>右前轮</name>
+</parts>
+<parts p-type="2" parts-id="B460001">
+<name>前轮</name>
+</parts>
+<parts p-type="2" parts-id="B000176">
+<name>前轮朝向正前方</name>
+</parts>
+<parts p-type="1" parts-id="85292B">
+<name>前刮水器臂端盖</name>
+</parts>
+<parts p-type="2" parts-id="F0003Y7">
+<name>前刮水器马达</name>
+</parts>
+<parts p-type="2" parts-id="F0003Y8">
+<name>前刮水器橡胶条</name>
+</parts>
+<parts p-type="2" parts-id="B000315">
+<name>燃油</name>
+</parts>
+<parts p-type="2" parts-id="D12008Z">
+<name>燃油</name>
+</parts>
+<parts p-type="2" parts-id="X010006">
+<name>燃油</name>
+</parts>
+<parts p-type="2" parts-id="F000594">
+<name>燃油切断操作</name>
+</parts>
+<parts p-type="2" parts-id="B200043">
+<name>燃油输油管</name>
+</parts>
+<parts p-type="1" parts-id="23807">
+<name>燃油输油管分总成</name>
+</parts>
+<parts p-type="1" parts-id="77026A">
+<name>1 号燃油蒸发管分总成</name>
+</parts>
+<parts p-type="2" parts-id="B000321">
+<name>燃油软管</name>
+</parts>
+<parts p-type="2" parts-id="F000046">
+<name>喷油器</name>
+</parts>
+<parts p-type="1" parts-id="23250">
+<name>喷油器总成</name>
+</parts>
+<parts p-type="2" parts-id="B700278">
+<name>喷油器总成</name>
+</parts>
+<parts p-type="2" parts-id="B000816">
+<name>燃油泄漏</name>
+</parts>
+<parts p-type="2" parts-id="F0001HB">
+<name>燃油加注口盖锁控制拉索总成</name>
+</parts>
+<parts p-type="1" parts-id="77035">
+<name>燃油加注口盖锁控制拉索分总成</name>
+</parts>
+<parts p-type="1" parts-id="77306">
+<name>燃油加注口盖锁开启杆分总成</name>
+</parts>
+<parts p-type="2" parts-id="B001054">
+<name>燃油管路</name>
+</parts>
+<parts p-type="2" parts-id="F0001XV">
+<name>燃油压力</name>
+</parts>
+<parts p-type="2" parts-id="B200044">
+<name>燃油压力调节器</name>
+</parts>
+<parts p-type="1" parts-id="23280J">
+<name>燃油压力调节器总成</name>
+</parts>
+<parts p-type="1" parts-id="23221">
+<name>燃油泵</name>
+</parts>
+<parts p-type="2" parts-id="B005009">
+<name>燃油泵</name>
+</parts>
+<parts p-type="1" parts-id="89570A">
+<name>燃油泵控制 ECU 总成</name>
+</parts>
+<parts p-type="2" parts-id="F0003KG">
+<name>燃油泵 ECU</name>
+</parts>
+<parts p-type="1" parts-id="77144">
+<name>燃油泵仪表挡圈</name>
+</parts>
+<parts p-type="2" parts-id="F000003">
+<name>燃油表</name>
+</parts>
+<parts p-type="2" parts-id="B800379">
+<name>燃油表总成</name>
+</parts>
+<parts p-type="1" parts-id="83320">
+<name>燃油表传感器总成</name>
+</parts>
+<parts p-type="2" parts-id="B833200">
+<name>燃油表传感器总成</name>
+</parts>
+<parts p-type="2" parts-id="B000537">
+<name>带泵和仪表的燃油吸油管总成</name>
+</parts>
+<parts p-type="2" parts-id="M000115">
+<name>燃油系统</name>
+</parts>
+<parts p-type="2" parts-id="B800775">
+<name>燃油箱</name>
+</parts>
+<parts p-type="1" parts-id="77100">
+<name>燃油箱总成</name>
+</parts>
+<parts p-type="2" parts-id="B000547">
+<name>燃油箱通气管</name>
+</parts>
+<parts p-type="2" parts-id="F00019W">
+<name>燃油箱盖</name>
+</parts>
+<parts p-type="1" parts-id="77310A">
+<name>燃油箱盖总成</name>
+</parts>
+<parts p-type="1" parts-id="77651A">
+<name>燃油箱 1 号衬垫</name>
+</parts>
+<parts p-type="1" parts-id="77652A">
+<name>燃油箱 2 号衬垫</name>
+</parts>
+<parts p-type="1" parts-id="77654A">
+<name>燃油箱 4 号衬垫</name>
+</parts>
+<parts p-type="1" parts-id="77209F">
+<name>燃油箱主管分总成</name>
+</parts>
+<parts p-type="1" parts-id="77606">
+<name>燃油箱 1 号保护壳分总成</name>
+</parts>
+<parts p-type="1" parts-id="77213E">
+<name>燃油箱至加油管软管</name>
+</parts>
+<parts p-type="1" parts-id="23901">
+<name>燃油管分总成</name>
+</parts>
+<parts p-type="1" parts-id="23829A">
+<name>燃油蒸汽供给软管</name>
+</parts>
+<parts p-type="1" parts-id="23826">
+<name>1 号燃油蒸汽供给软管</name>
+</parts>
+<parts p-type="1" parts-id="23220A">
+<name>带滤清器的燃油泵总成</name>
+</parts>
+<parts p-type="2" parts-id="B000452">
+<name>全关位置</name>
+</parts>
+<parts p-type="2" parts-id="B000083">
+<name>保险丝</name>
+</parts>
+</index>
+<index label="G">
+<parts p-type="2" parts-id="D1002RZ">
+<name>LEXUS G-BOOK（智能副驾）</name>
+</parts>
+<parts p-type="2" parts-id="M000332">
+<name>G-BOOK 系统</name>
+</parts>
+<parts p-type="1" parts-id="33214G">
+<name>3 号换档拨叉</name>
+</parts>
+<parts p-type="1" parts-id="33243A">
+<name>2 号换档拨叉轴</name>
+</parts>
+<parts p-type="1" parts-id="33244G">
+<name>3 号换档拨叉轴</name>
+</parts>
+<parts p-type="1" parts-id="33205H">
+<name>1 号换档拨叉轴分总成</name>
+</parts>
+<parts p-type="2" parts-id="F0000H0">
+<name>一般注意事项</name>
+</parts>
+<parts p-type="2" parts-id="J000029">
+<name>发电机</name>
+</parts>
+<parts p-type="1" parts-id="27020">
+<name>发电机总成</name>
+</parts>
+<parts p-type="1" parts-id="12511">
+<name>1 号发电机支架</name>
+</parts>
+<parts p-type="1" parts-id="12512C">
+<name>2 号发电机支架</name>
+</parts>
+<parts p-type="1" parts-id="27370">
+<name>发电机电刷架总成</name>
+</parts>
+<parts p-type="1" parts-id="27360">
+<name>发电机线圈总成</name>
+</parts>
+<parts p-type="1" parts-id="27310B">
+<name>发电机驱动端端盖轴承</name>
+</parts>
+<parts p-type="1" parts-id="27416">
+<name>发电机皮带轮盖</name>
+</parts>
+<parts p-type="1" parts-id="27039">
+<name>发电机后端盖</name>
+</parts>
+<parts p-type="1" parts-id="27330">
+<name>发电机转子总成</name>
+</parts>
+<parts p-type="2" parts-id="B003008">
+<name>发电机端子绝缘垫</name>
+</parts>
+<parts p-type="1" parts-id="27415">
+<name>带离合器皮带轮的发电机</name>
+</parts>
+<parts p-type="1" parts-id="55550">
+<name>手套箱盖总成</name>
+</parts>
+<parts p-type="1" parts-id="55054">
+<name>手套箱盖挡块分总成</name>
+</parts>
+<parts p-type="2" parts-id="B800280">
+<name>转至故障症状表</name>
+</parts>
+<parts p-type="2" parts-id="F0004L9">
+<name>GTS</name>
+</parts>
+</index>
+<index label="H">
+<parts p-type="2" parts-id="B000324">
+<name>线束和连接器</name>
+</parts>
+<parts p-type="2" parts-id="B000700">
+<name>线束和连接器</name>
+</parts>
+<parts p-type="2" parts-id="B000701">
+<name>线束或连接器</name>
+</parts>
+<parts p-type="2" parts-id="F00025W">
+<name>线束或连接器或各 ECU</name>
+</parts>
+<parts p-type="1" parts-id="84330">
+<name>危险警告信号开关总成</name>
+</parts>
+<parts p-type="2" parts-id="F0003Z7">
+<name>危险警告开关</name>
+</parts>
+<parts p-type="1" parts-id="81165">
+<name>左侧大灯导线</name>
+</parts>
+<parts p-type="1" parts-id="53182E">
+<name>左侧大灯盖</name>
+</parts>
+<parts p-type="1" parts-id="85926">
+<name>大灯变光器继电器</name>
+</parts>
+<parts p-type="1" parts-id="84140">
+<name>大灯变光器开关总成</name>
+</parts>
+<parts p-type="1" parts-id="84152">
+<name>大灯水平开关</name>
+</parts>
+<parts p-type="1" parts-id="85916P">
+<name>大灯继电器</name>
+</parts>
+<parts p-type="1" parts-id="81139">
+<name>大灯灯座盖</name>
+</parts>
+<parts p-type="1" parts-id="81110B">
+<name>大灯 1 号灯泡</name>
+</parts>
+<parts p-type="1" parts-id="81110D">
+<name>大灯 2 号灯泡</name>
+</parts>
+<parts p-type="2" parts-id="B002079">
+<name>大灯对光</name>
+</parts>
+<parts p-type="2" parts-id="F0000B8">
+<name>大灯总成</name>
+</parts>
+<parts p-type="2" parts-id="F0003YM">
+<name>大灯总成</name>
+</parts>
+<parts p-type="2" parts-id="B811022">
+<name>左侧大灯总成</name>
+</parts>
+<parts p-type="2" parts-id="F0003Z6">
+<name>大灯变光器开关</name>
+</parts>
+<parts p-type="2" parts-id="F0003Z9">
+<name>大灯水平开关</name>
+</parts>
+<parts p-type="2" parts-id="B001349">
+<name>加热型氧传感器</name>
+</parts>
+<parts p-type="1" parts-id="55738D">
+<name>加热器 2 号风管挡泥板密封</name>
+</parts>
+<parts p-type="1" parts-id="55901D">
+<name>1 号加热器控制分总成</name>
+</parts>
+<parts p-type="1" parts-id="55902E">
+<name>加热器控制器 2 号分总成</name>
+</parts>
+<parts p-type="1" parts-id="55903A">
+<name>加热器控制器 3 号分总成</name>
+</parts>
+<parts p-type="1" parts-id="87114C">
+<name>加热器盖</name>
+</parts>
+<parts p-type="1" parts-id="87107A">
+<name>加热器散热装置分总成</name>
+</parts>
+<parts p-type="1" parts-id="87299">
+<name>加热器继电器</name>
+</parts>
+<parts p-type="1" parts-id="55084E">
+<name>加热器至调风器 1 号风管分总成</name>
+</parts>
+<parts p-type="1" parts-id="55085">
+<name>加热器至调风器 2 号风管分总成</name>
+</parts>
+<parts p-type="1" parts-id="87245A">
+<name>加热器进水软管 A</name>
+</parts>
+<parts p-type="1" parts-id="87246A">
+<name>加热器出水软管 A</name>
+</parts>
+<parts p-type="2" parts-id="F0003YZ">
+<name>高位刹车灯总成</name>
+</parts>
+<parts p-type="1" parts-id="86510">
+<name>高音喇叭总成</name>
+</parts>
+<parts p-type="2" parts-id="J500001">
+<name>发动机罩</name>
+</parts>
+<parts p-type="1" parts-id="53301B">
+<name>发动机罩保险杠缓冲垫</name>
+</parts>
+<parts p-type="1" parts-id="53341B">
+<name>发动机罩隔垫</name>
+</parts>
+<parts p-type="1" parts-id="53510">
+<name>发动机罩锁总成</name>
+</parts>
+<parts p-type="1" parts-id="53630">
+<name>发动机罩锁控制拉索总成</name>
+</parts>
+<parts p-type="2" parts-id="F0001C4">
+<name>发动机罩锁控制拉索总成</name>
+</parts>
+<parts p-type="1" parts-id="53601">
+<name>发动机罩锁控制杆分总成</name>
+</parts>
+<parts p-type="1" parts-id="53301">
+<name>发动机罩分总成</name>
+</parts>
+<parts p-type="1" parts-id="53395H">
+<name>发动机罩至散热器格栅密封</name>
+</parts>
+<parts p-type="1" parts-id="53381E">
+<name>发动机罩至散热器支架密封</name>
+</parts>
+<parts p-type="2" parts-id="D10021Z">
+<name>喇叭</name>
+</parts>
+<parts p-type="1" parts-id="45130">
+<name>喇叭按钮总成</name>
+</parts>
+<parts p-type="1" parts-id="86530">
+<name>HORN 继电器总成</name>
+</parts>
+<parts p-type="2" parts-id="M000183">
+<name>喇叭系统</name>
+</parts>
+<parts p-type="2" parts-id="B000496">
+<name>喇叭</name>
+</parts>
+<parts p-type="2" parts-id="B001105">
+<name>软管和管</name>
+</parts>
+<parts p-type="2" parts-id="B000995">
+<name>软管卡夹</name>
+</parts>
+<parts p-type="1" parts-id="44763A">
+<name>软管至软管 1 号连接管</name>
+</parts>
+<parts p-type="2" parts-id="J000042">
+<name>软管</name>
+</parts>
+<parts p-type="2" parts-id="B811027">
+<name>外壳</name>
+</parts>
+</index>
+<index label="I">
+<parts p-type="2" parts-id="F0003O1">
+<name>ID 代码箱</name>
+</parts>
+<parts p-type="2" parts-id="J000002">
+<name>识别信息</name>
+</parts>
+<parts p-type="2" parts-id="F000278">
+<name>识别 DTC 对应的发射器</name>
+</parts>
+<parts p-type="2" parts-id="F0001XX">
+<name>车辆是否曾耗尽燃油</name>
+</parts>
+<parts p-type="2" parts-id="B000634">
+<name>点火线圈</name>
+</parts>
+<parts p-type="2" parts-id="F0003AK">
+<name>点火线圈和火花塞</name>
+</parts>
+<parts p-type="1" parts-id="19500">
+<name>点火线圈总成</name>
+</parts>
+<parts p-type="2" parts-id="B002078">
+<name>点火锁芯照明灯</name>
+</parts>
+<parts p-type="1" parts-id="84450">
+<name>点火或起动机开关总成</name>
+</parts>
+<parts p-type="2" parts-id="B898410">
+<name>2 号点火继电器</name>
+</parts>
+<parts p-type="2" parts-id="M000248">
+<name>点火开关</name>
+</parts>
+<parts p-type="1" parts-id="69057A">
+<name>点火开关锁芯和钥匙组件</name>
+</parts>
+<parts p-type="2" parts-id="M000023">
+<name>点火系统</name>
+</parts>
+<parts p-type="2" parts-id="B000084">
+<name>点火正时</name>
+</parts>
+<parts p-type="2" parts-id="B800395">
+<name>照明</name>
+</parts>
+<parts p-type="2" parts-id="B803005">
+<name>图像质量设定</name>
+</parts>
+<parts p-type="1" parts-id="89784">
+<name>停机系统代码 ECU</name>
+</parts>
+<parts p-type="2" parts-id="B430010">
+<name>内侧万向节</name>
+</parts>
+<parts p-type="2" parts-id="B400001">
+<name>内侧万向节防尘罩</name>
+</parts>
+<parts p-type="1" parts-id="35906">
+<name>指示灯线束分总成</name>
+</parts>
+<parts p-type="1" parts-id="899A0">
+<name>车内 1 号电子钥匙天线总成</name>
+</parts>
+<parts p-type="1" parts-id="899A0A">
+<name>车内 2 号电子钥匙天线总成</name>
+</parts>
+<parts p-type="1" parts-id="899A0B">
+<name>车内 3 号电子钥匙天线总成</name>
+</parts>
+<parts p-type="2" parts-id="B980128">
+<name>信息代码</name>
+</parts>
+<parts p-type="2" parts-id="B800806">
+<name>初始化</name>
+</parts>
+<parts p-type="3" parts-id="ZZZZZZ">
+<name>初始化  初始化</name>
+</parts>
+<parts p-type="1" parts-id="13711B">
+<name>内压缩弹簧</name>
+</parts>
+<parts p-type="2" parts-id="F0003Y5">
+<name>车内后视镜</name>
+</parts>
+<parts p-type="1" parts-id="87810">
+<name>车内后视镜总成</name>
+</parts>
+<parts p-type="1" parts-id="33311">
+<name>输入轴</name>
+</parts>
+<parts p-type="2" parts-id="J300020">
+<name>输入轴</name>
+</parts>
+<parts p-type="2" parts-id="J300029">
+<name>输入轴总成</name>
+</parts>
+<parts p-type="1" parts-id="33311A">
+<name>输入轴前轴承</name>
+</parts>
+<parts p-type="1" parts-id="33311X">
+<name>输入轴后轴承孔卡环</name>
+</parts>
+<parts p-type="1" parts-id="33311Y">
+<name>输入轴后轴承轴卡环</name>
+</parts>
+<parts p-type="1" parts-id="33311K">
+<name>输入轴后轴承垫片</name>
+</parts>
+<parts p-type="1" parts-id="33311E">
+<name>输入轴后径向滚珠轴承</name>
+</parts>
+<parts p-type="2" parts-id="B320049">
+<name>输入轴分总成</name>
+</parts>
+<parts p-type="1" parts-id="33137">
+<name>输入轴 (MTM) 盖</name>
+</parts>
+<parts p-type="2" parts-id="F0003XT">
+<name>内把手灯</name>
+</parts>
+<parts p-type="2" parts-id="J000023">
+<name>车内</name>
+</parts>
+<parts p-type="2" parts-id="F000238">
+<name>与输出 DTC 相关的检查程序</name>
+</parts>
+<parts p-type="2" parts-id="B988240">
+<name>正确安装零件</name>
+</parts>
+<parts p-type="1" parts-id="55410C">
+<name>仪表组装饰板总成</name>
+</parts>
+<parts p-type="2" parts-id="B500035">
+<name>仪表组装饰板总成</name>
+</parts>
+<parts p-type="1" parts-id="55420A">
+<name>中央仪表组装饰板总成</name>
+</parts>
+<parts p-type="1" parts-id="55470">
+<name>仪表组装饰板装饰件总成</name>
+</parts>
+<parts p-type="1" parts-id="55405B">
+<name>中央仪表组装饰板分总成</name>
+</parts>
+<parts p-type="2" parts-id="B500001">
+<name>仪表板总成</name>
+</parts>
+<parts p-type="1" parts-id="55306A">
+<name>仪表板 1 号支架分总成</name>
+</parts>
+<parts p-type="1" parts-id="55307C">
+<name>仪表板 2 号支架分总成</name>
+</parts>
+<parts p-type="1" parts-id="55355">
+<name>仪表板 1 号缓冲垫</name>
+</parts>
+<parts p-type="1" parts-id="55356C">
+<name>仪表板 2 号缓冲垫</name>
+</parts>
+<parts p-type="1" parts-id="55434B">
+<name>中央仪表板下装饰板</name>
+</parts>
+<parts p-type="1" parts-id="55045">
+<name>仪表板下装饰板分总成</name>
+</parts>
+<parts p-type="2" parts-id="B500070">
+<name>仪表板装饰板分总成</name>
+</parts>
+<parts p-type="1" parts-id="55011A">
+<name>仪表板 1 号装饰条分总成</name>
+</parts>
+<parts p-type="1" parts-id="55012A">
+<name>仪表板 2 号装饰条分总成</name>
+</parts>
+<parts p-type="2" parts-id="B002021">
+<name>仪表板接线盒总成</name>
+</parts>
+<parts p-type="1" parts-id="73960A">
+<name>不带盖的仪表板乘客空气囊总成</name>
+</parts>
+<parts p-type="1" parts-id="55670A">
+<name>中央仪表板调风器总成</name>
+</parts>
+<parts p-type="1" parts-id="55331">
+<name>仪表板加强件</name>
+</parts>
+<parts p-type="1" parts-id="55303B">
+<name>下仪表板分总成</name>
+</parts>
+<parts p-type="1" parts-id="55343B">
+<name>中央仪表板至前围支架</name>
+</parts>
+<parts p-type="1" parts-id="55606">
+<name>仪表板 1 号底罩分总成</name>
+</parts>
+<parts p-type="1" parts-id="55607">
+<name>仪表板 2 号底罩分总成</name>
+</parts>
+<parts p-type="1" parts-id="82141">
+<name>仪表板线束</name>
+</parts>
+<parts p-type="1" parts-id="82142">
+<name>仪表板 2 号线束</name>
+</parts>
+<parts p-type="1" parts-id="82142A">
+<name>仪表板 2 号线束</name>
+</parts>
+<parts p-type="1" parts-id="55318C">
+<name>仪表板左侧板</name>
+</parts>
+<parts p-type="1" parts-id="55317A">
+<name>仪表板右侧板</name>
+</parts>
+<parts p-type="2" parts-id="D10009Z">
+<name>进气</name>
+</parts>
+<parts p-type="2" parts-id="B001887">
+<name>进气控制阀</name>
+</parts>
+<parts p-type="1" parts-id="17111">
+<name>进气歧管</name>
+</parts>
+<parts p-type="2" parts-id="J171671">
+<name>进气歧管</name>
+</parts>
+<parts p-type="1" parts-id="17177">
+<name>进气歧管至气缸盖 1 号衬垫</name>
+</parts>
+<parts p-type="1" parts-id="22204">
+<name>进气质量空气流量计分总成</name>
+</parts>
+<parts p-type="2" parts-id="F00004J">
+<name>进气系统</name>
+</parts>
+<parts p-type="1" parts-id="13711">
+<name>进气门</name>
+</parts>
+<parts p-type="1" parts-id="11122">
+<name>进气门导管衬套</name>
+</parts>
+<parts p-type="2" parts-id="B009081">
+<name>集成继电器总成</name>
+</parts>
+<parts p-type="2" parts-id="B000239">
+<name>间歇性故障</name>
+</parts>
+<parts p-type="2" parts-id="F0001XQ">
+<name>间歇性故障</name>
+</parts>
+</index>
+<index label="K">
+<parts p-type="2" parts-id="F0001V3">
+<name>钥匙</name>
+</parts>
+<parts p-type="2" parts-id="F000234">
+<name>钥匙取消功能</name>
+</parts>
+<parts p-type="1" parts-id="81870D">
+<name>锁芯照明灯总成</name>
+</parts>
+<parts p-type="1" parts-id="85432">
+<name>钥匙互锁电磁阀</name>
+</parts>
+<parts p-type="2" parts-id="F0004K3">
+<name>钥匙互锁操作</name>
+</parts>
+<parts p-type="2" parts-id="B000899">
+<name>钥匙注册</name>
+</parts>
+<parts p-type="2" parts-id="M000247">
+<name>钥匙提醒警告系统</name>
+</parts>
+<parts p-type="2" parts-id="B009017">
+<name>钥匙</name>
+</parts>
+<parts p-type="1" parts-id="89615">
+<name>爆震控制传感器</name>
+</parts>
+<parts p-type="2" parts-id="J896150">
+<name>爆震传感器</name>
+</parts>
+<parts p-type="2" parts-id="B000555">
+<name>爆震传感器电路</name>
+</parts>
+</index>
+<index label="L">
+<parts p-type="1" parts-id="84270Q">
+<name>LAMP CUT 继电器</name>
+</parts>
+<parts p-type="1" parts-id="73233">
+<name>腰式安全带外锚定器盖</name>
+</parts>
+<parts p-type="1" parts-id="81150">
+<name>左侧大灯总成</name>
+</parts>
+<parts p-type="1" parts-id="87961">
+<name>左侧车外后视镜</name>
+</parts>
+<parts p-type="1" parts-id="71537H">
+<name>前排左侧座椅座垫护框</name>
+</parts>
+<parts p-type="1" parts-id="71538B">
+<name>前排左侧座椅座垫护框</name>
+</parts>
+<parts p-type="1" parts-id="74320">
+<name>左侧遮阳板总成</name>
+</parts>
+<parts p-type="1" parts-id="81270">
+<name>牌照灯总成</name>
+</parts>
+<parts p-type="1" parts-id="81270B">
+<name>牌照灯灯泡</name>
+</parts>
+<parts p-type="1" parts-id="81271">
+<name>牌照灯透镜</name>
+</parts>
+<parts p-type="1" parts-id="81274B">
+<name>牌照灯密封件</name>
+</parts>
+<parts p-type="2" parts-id="F0000BB">
+<name>牌照灯总成</name>
+</parts>
+<parts p-type="2" parts-id="D1001AZ">
+<name>照明系统</name>
+</parts>
+<parts p-type="2" parts-id="D12069Z">
+<name>照明系统（车外）</name>
+</parts>
+<parts p-type="2" parts-id="D12053Z">
+<name>照明系统（车内）</name>
+</parts>
+<parts p-type="2" parts-id="F0003YL">
+<name>照明系统</name>
+</parts>
+<parts p-type="2" parts-id="F0000H6">
+<name>车灯</name>
+</parts>
+<parts p-type="2" parts-id="B001526">
+<name>线路保险丝</name>
+</parts>
+<parts p-type="1" parts-id="33290">
+<name>1 号锁止钢球总成</name>
+</parts>
+<parts p-type="1" parts-id="33292A">
+<name>锁止钢球销</name>
+</parts>
+<parts p-type="2" parts-id="J000146">
+<name>锁止钢球螺纹塞和密封件</name>
+</parts>
+<parts p-type="2" parts-id="B399505">
+<name>锁紧螺母</name>
+</parts>
+<parts p-type="1" parts-id="86520">
+<name>低音喇叭总成</name>
+</parts>
+<parts p-type="1" parts-id="43340A">
+<name>左前下球节总成</name>
+</parts>
+<parts p-type="2" parts-id="B500045">
+<name>下仪表板</name>
+</parts>
+<parts p-type="2" parts-id="J100017">
+<name>润滑系统</name>
+</parts>
+<parts p-type="2" parts-id="J500004">
+<name>行李厢门</name>
+</parts>
+<parts p-type="1" parts-id="74649">
+<name>行李厢门辅助拉手</name>
+</parts>
+<parts p-type="1" parts-id="64719A">
+<name>行李厢门装饰罩</name>
+</parts>
+<parts p-type="1" parts-id="64459">
+<name>行李厢门缓冲垫</name>
+</parts>
+<parts p-type="1" parts-id="75431">
+<name>行李厢门标牌</name>
+</parts>
+<parts p-type="1" parts-id="76801A">
+<name>行李厢门外装饰条分总成</name>
+</parts>
+<parts p-type="2" parts-id="J500093">
+<name>行李厢门锁</name>
+</parts>
+<parts p-type="1" parts-id="64610">
+<name>行李厢门锁总成</name>
+</parts>
+<parts p-type="1" parts-id="75441A">
+<name>行李厢门 1 号铭牌</name>
+</parts>
+<parts p-type="1" parts-id="75441D">
+<name>行李厢门 1 号铭牌</name>
+</parts>
+<parts p-type="1" parts-id="75442">
+<name>行李厢门 2 号铭牌</name>
+</parts>
+<parts p-type="2" parts-id="F00025X">
+<name>行李厢门外部开启开关</name>
+</parts>
+<parts p-type="2" parts-id="F00002G">
+<name>行李厢门外装饰条</name>
+</parts>
+<parts p-type="1" parts-id="76821A">
+<name>行李厢门外装饰条防护罩</name>
+</parts>
+<parts p-type="1" parts-id="75443A">
+<name>行李厢门 3 号铭牌</name>
+</parts>
+<parts p-type="1" parts-id="75444">
+<name>行李厢门 4 号铭牌</name>
+</parts>
+<parts p-type="1" parts-id="64127B">
+<name>行李厢门扭杆支架</name>
+</parts>
+<parts p-type="1" parts-id="81330">
+<name>1 号行李厢灯总成</name>
+</parts>
+<parts p-type="1" parts-id="81330B">
+<name>行李厢灯灯泡</name>
+</parts>
+<parts p-type="2" parts-id="F0003XM">
+<name>行李厢灯</name>
+</parts>
+<parts p-type="1" parts-id="64720A">
+<name>行李厢左侧装饰罩总成</name>
+</parts>
+<parts p-type="1" parts-id="76824A">
+<name>行李厢门外装饰条左侧防护罩</name>
+</parts>
+<parts p-type="1" parts-id="76823A">
+<name>行李厢门外装饰条右侧防护罩</name>
+</parts>
+<parts p-type="2" parts-id="F0001KG">
+<name>行李厢门铰链扭杆</name>
+</parts>
+<parts p-type="1" parts-id="64532">
+<name>行李厢门左侧铰链扭杆</name>
+</parts>
+<parts p-type="1" parts-id="64531">
+<name>行李厢门右侧铰链扭杆</name>
+</parts>
+<parts p-type="2" parts-id="F0004IV">
+<name>行李厢门锁控制拉索总成</name>
+</parts>
+<parts p-type="1" parts-id="64607">
+<name>行李厢门锁控制拉索分总成</name>
+</parts>
+<parts p-type="2" parts-id="F00019M">
+<name>行李厢门开启开关</name>
+</parts>
+<parts p-type="1" parts-id="84945">
+<name>行李厢电子钥匙开关</name>
+</parts>
+<parts p-type="1" parts-id="82182">
+<name>行李厢 2 号线束</name>
+</parts>
+<parts p-type="1" parts-id="84922A">
+<name>前排电动座椅腰部开关</name>
+</parts>
+<parts p-type="2" parts-id="F0003XB">
+<name>腰部开关</name>
+</parts>
+</index>
+<index label="M">
+<parts p-type="2" parts-id="B281501">
+<name>磁力起动机开关总成</name>
+</parts>
+<parts p-type="2" parts-id="F000444">
+<name>主车身 ECU</name>
+</parts>
+<parts p-type="2" parts-id="F0000GJ">
+<name>主继电器</name>
+</parts>
+<parts p-type="2" parts-id="F0003R2">
+<name>故障零件</name>
+</parts>
+<parts p-type="2" parts-id="F000223">
+<name>故障零件、零部件和部位</name>
+</parts>
+<parts p-type="1" parts-id="17118">
+<name>歧管撑条</name>
+</parts>
+<parts p-type="2" parts-id="F0004IZ">
+<name>大灯水平手动控制系统</name>
+</parts>
+<parts p-type="2" parts-id="D1002CZ">
+<name>手动传动桥</name>
+</parts>
+<parts p-type="1" parts-id="30300">
+<name>手动传动桥总成</name>
+</parts>
+<parts p-type="2" parts-id="F0004FE">
+<name>手动传动桥总成</name>
+</parts>
+<parts p-type="2" parts-id="J300028">
+<name>手动传动桥总成</name>
+</parts>
+<parts p-type="1" parts-id="33125">
+<name>手动传动桥壳集油槽</name>
+</parts>
+<parts p-type="2" parts-id="J300019">
+<name>手动传动桥油</name>
+</parts>
+<parts p-type="2" parts-id="B300377">
+<name>手动传动桥油油位</name>
+</parts>
+<parts p-type="2" parts-id="J300018">
+<name>手动传动桥系统</name>
+</parts>
+<parts p-type="2" parts-id="F00006O">
+<name>手动传动桥单元</name>
+</parts>
+<parts p-type="1" parts-id="33111">
+<name>手动变速器壳</name>
+</parts>
+<parts p-type="1" parts-id="33102">
+<name>手动变速箱盖分总成</name>
+</parts>
+<parts p-type="1" parts-id="33101B">
+<name>手动变速器放油螺塞</name>
+</parts>
+<parts p-type="1" parts-id="33101A">
+<name>手动变速器注油螺塞</name>
+</parts>
+<parts p-type="1" parts-id="33109C">
+<name>手动变速器油分离器分总成</name>
+</parts>
+<parts p-type="1" parts-id="33321G">
+<name>手动变速器输出轴后固定螺母</name>
+</parts>
+<parts p-type="2" parts-id="F00022W">
+<name>手动上升/下降功能</name>
+</parts>
+<parts p-type="1" parts-id="81260A">
+<name>阅读灯总成</name>
+</parts>
+<parts p-type="1" parts-id="81260C">
+<name>阅读灯灯泡</name>
+</parts>
+<parts p-type="1" parts-id="81265C">
+<name>1 号阅读灯透镜</name>
+</parts>
+<parts p-type="1" parts-id="81266D">
+<name>2 号阅读灯透镜</name>
+</parts>
+<parts p-type="2" parts-id="B850022">
+<name>阅读灯总成</name>
+</parts>
+<parts p-type="2" parts-id="B001325">
+<name>质量空气流量计</name>
+</parts>
+<parts p-type="1" parts-id="47255">
+<name>总泵储液罐密封垫</name>
+</parts>
+<parts p-type="2" parts-id="D12054Z">
+<name>仪表/显示屏</name>
+</parts>
+<parts p-type="2" parts-id="B803082">
+<name>话筒</name>
+</parts>
+<parts p-type="2" parts-id="B000727">
+<name>MIL</name>
+</parts>
+<parts p-type="2" parts-id="B988256">
+<name>MIL 状态</name>
+</parts>
+<parts p-type="1" parts-id="87106J">
+<name>模式风门伺服机构分总成</name>
+</parts>
+<parts p-type="2" parts-id="B800724">
+<name>车型</name>
+</parts>
+<parts p-type="2" parts-id="M000011">
+<name>MONET</name>
+</parts>
+<parts p-type="2" parts-id="M000335">
+<name>多功能显示屏</name>
+</parts>
+<parts p-type="2" parts-id="B802002">
+<name>多功能显示屏</name>
+</parts>
+<parts p-type="1" parts-id="89221">
+<name>多路网络车身 ECU</name>
+</parts>
+<parts p-type="2" parts-id="B900860">
+<name>多路网络车身 ECU</name>
+</parts>
+</index>
+<index label="N">
+<parts p-type="2" parts-id="F0003ZT">
+<name>铭牌</name>
+</parts>
+<parts p-type="2" parts-id="D1002QZ">
+<name>导航系统</name>
+</parts>
+<parts p-type="2" parts-id="F0000C5">
+<name>导航天线</name>
+</parts>
+<parts p-type="1" parts-id="86860">
+<name>导航天线总成</name>
+</parts>
+<parts p-type="1" parts-id="86808">
+<name>1 号导航天线芯线分总成</name>
+</parts>
+<parts p-type="2" parts-id="B802003">
+<name>导航 ECU</name>
+</parts>
+<parts p-type="2" parts-id="F0000BQ">
+<name>导航接收器</name>
+</parts>
+<parts p-type="1" parts-id="86120L">
+<name>导航接收器总成</name>
+</parts>
+<parts p-type="2" parts-id="B803044">
+<name>导航设定</name>
+</parts>
+<parts p-type="2" parts-id="B001516">
+<name>未检测到故障</name>
+</parts>
+<parts p-type="2" parts-id="B000142">
+<name>1 号气缸至 TDC/压缩</name>
+</parts>
+<parts p-type="2" parts-id="B001120">
+<name>发动机 1 号吊架</name>
+</parts>
+<parts p-type="1" parts-id="13512">
+<name>2 号凸轮轴</name>
+</parts>
+<parts p-type="1" parts-id="13507">
+<name>2 号链条分总成</name>
+</parts>
+<parts p-type="2" parts-id="F0001V4">
+<name>噪音情况</name>
+</parts>
+<parts p-type="2" parts-id="F0004A1">
+<name>静噪滤波器</name>
+</parts>
+<parts p-type="2" parts-id="F0001V5">
+<name>噪音源</name>
+</parts>
+</index>
+<index label="O">
+<parts p-type="2" parts-id="B850000">
+<name>乘员检测传感器</name>
+</parts>
+<parts p-type="2" parts-id="F00030I">
+<name>机油和机油滤清器</name>
+</parts>
+<parts p-type="1" parts-id="35394D">
+<name>油滤清器 (CVT) 磁铁</name>
+</parts>
+<parts p-type="1" parts-id="15678A">
+<name>机油控制阀滤清器</name>
+</parts>
+<parts p-type="1" parts-id="12108A">
+<name>机油加注口盖衬垫</name>
+</parts>
+<parts p-type="1" parts-id="12108">
+<name>机油加注口盖分总成</name>
+</parts>
+<parts p-type="2" parts-id="A156010">
+<name>机油滤清器</name>
+</parts>
+<parts p-type="1" parts-id="15620">
+<name>机油滤清器盖总成</name>
+</parts>
+<parts p-type="1" parts-id="15601">
+<name>机油滤清器分总成</name>
+</parts>
+<parts p-type="1" parts-id="15600A">
+<name>机油滤清器座</name>
+</parts>
+<parts p-type="2" parts-id="B000104">
+<name>漏油</name>
+</parts>
+<parts p-type="1" parts-id="11452">
+<name>油位计导管</name>
+</parts>
+<parts p-type="1" parts-id="15708">
+<name>1 号机油喷嘴分总成</name>
+</parts>
+<parts p-type="1" parts-id="12101A">
+<name>油底壳放油螺塞</name>
+</parts>
+<parts p-type="1" parts-id="12102A">
+<name>2 号油底壳分总成</name>
+</parts>
+<parts p-type="2" parts-id="B000106">
+<name>机油压力</name>
+</parts>
+<parts p-type="1" parts-id="89637K">
+<name>油压传感器</name>
+</parts>
+<parts p-type="2" parts-id="B000109">
+<name>机油压力开关</name>
+</parts>
+<parts p-type="2" parts-id="B000110">
+<name>油泵</name>
+</parts>
+<parts p-type="1" parts-id="15100">
+<name>油泵总成</name>
+</parts>
+<parts p-type="1" parts-id="15012">
+<name>机油泵盖分总成</name>
+</parts>
+<parts p-type="1" parts-id="13519">
+<name>机油泵主动齿轮</name>
+</parts>
+<parts p-type="1" parts-id="15163">
+<name>机油泵主动轴齿轮</name>
+</parts>
+<parts p-type="1" parts-id="15131">
+<name>机油泵减压阀</name>
+</parts>
+<parts p-type="2" parts-id="B001596">
+<name>机油泵转子</name>
+</parts>
+<parts p-type="1" parts-id="33124C">
+<name>1 号集油管 (MTM)</name>
+</parts>
+<parts p-type="1" parts-id="33124D">
+<name>2 号集油管 (MTM)</name>
+</parts>
+<parts p-type="1" parts-id="35174B">
+<name>储油罐锁止板</name>
+</parts>
+<parts p-type="1" parts-id="35330D">
+<name>滤油网总成</name>
+</parts>
+<parts p-type="2" parts-id="B002219">
+<name>CAN 总线主线开路</name>
+</parts>
+<parts p-type="2" parts-id="B001898">
+<name>CAN 总线开路</name>
+</parts>
+<parts p-type="2" parts-id="B002937">
+<name>CAN 支线一侧开路</name>
+</parts>
+<parts p-type="2" parts-id="F000214">
+<name>工作情况</name>
+</parts>
+<parts p-type="2" parts-id="F0001V0">
+<name>选装件</name>
+</parts>
+<parts p-type="2" parts-id="B001358">
+<name>其他故障</name>
+</parts>
+<parts p-type="2" parts-id="B400002">
+<name>外侧万向节防尘罩</name>
+</parts>
+<parts p-type="1" parts-id="87945">
+<name>左侧车外后视镜盖</name>
+</parts>
+<parts p-type="2" parts-id="F0003Y3">
+<name>车外后视镜开关</name>
+</parts>
+<parts p-type="1" parts-id="84870A">
+<name>车外后视镜开关总成</name>
+</parts>
+<parts p-type="2" parts-id="F0003XZ">
+<name>车外后视镜</name>
+</parts>
+<parts p-type="1" parts-id="87940">
+<name>左侧车外后视镜总成</name>
+</parts>
+<parts p-type="1" parts-id="87910">
+<name>右侧车外后视镜总成</name>
+</parts>
+<parts p-type="2" parts-id="F0004FZ">
+<name>车外后视镜盖</name>
+</parts>
+<parts p-type="2" parts-id="F0001YF">
+<name>车外后视镜玻璃</name>
+</parts>
+<parts p-type="2" parts-id="F0003Y0">
+<name>车外后视镜玻璃</name>
+</parts>
+<parts p-type="2" parts-id="A879400">
+<name>左侧车外后视镜</name>
+</parts>
+<parts p-type="1" parts-id="33257C">
+<name>外选档杆油封</name>
+</parts>
+<parts p-type="1" parts-id="33431C">
+<name>输出齿轮隔垫</name>
+</parts>
+<parts p-type="1" parts-id="33321">
+<name>输出轴</name>
+</parts>
+<parts p-type="2" parts-id="J000206">
+<name>输出轴</name>
+</parts>
+<parts p-type="2" parts-id="B330002">
+<name>输出轴轴承预紧力</name>
+</parts>
+<parts p-type="1" parts-id="33321N">
+<name>输出轴前轴承</name>
+</parts>
+<parts p-type="1" parts-id="33321A">
+<name>输出轴后轴承</name>
+</parts>
+<parts p-type="1" parts-id="33111R">
+<name>输出轴后轴承孔卡环</name>
+</parts>
+<parts p-type="1" parts-id="33134B">
+<name>输出轴盖 (MTM)</name>
+</parts>
+<parts p-type="2" parts-id="J000022">
+<name>车外</name>
+</parts>
+<parts p-type="2" parts-id="B802036">
+<name>顶置接线盒</name>
+</parts>
+<parts p-type="1" parts-id="89465">
+<name>氧传感器</name>
+</parts>
+</index>
+<index label="P">
+<parts p-type="1" parts-id="64353">
+<name>后窗台板装饰板安全带孔盖</name>
+</parts>
+<parts p-type="1" parts-id="64330">
+<name>后窗台板装饰板总成</name>
+</parts>
+<parts p-type="2" parts-id="B400047">
+<name>衬块厚度</name>
+</parts>
+<parts p-type="2" parts-id="B800434">
+<name>面板开关</name>
+</parts>
+<parts p-type="1" parts-id="84540">
+<name>驻车/空档位置开关总成</name>
+</parts>
+<parts p-type="2" parts-id="B009117">
+<name>驻车/空档位置开关或驻车制动开关</name>
+</parts>
+<parts p-type="2" parts-id="D1000OZ">
+<name>驻车制动系统</name>
+</parts>
+<parts p-type="2" parts-id="D12034Z">
+<name>驻车制动系统</name>
+</parts>
+<parts p-type="2" parts-id="B001572">
+<name>驻车制动器拉索</name>
+</parts>
+<parts p-type="1" parts-id="46410">
+<name>1 号驻车制动器拉索总成</name>
+</parts>
+<parts p-type="1" parts-id="46420">
+<name>2 号驻车制动器拉索总成</name>
+</parts>
+<parts p-type="1" parts-id="46430">
+<name>3 号驻车制动器拉索总成</name>
+</parts>
+<parts p-type="1" parts-id="46135">
+<name>驻车制动器拉索末端止动器</name>
+</parts>
+<parts p-type="1" parts-id="46420A">
+<name>1 号驻车制动器拉索卡夹</name>
+</parts>
+<parts p-type="1" parts-id="46201E">
+<name>驻车制动杠杆分总成</name>
+</parts>
+<parts p-type="2" parts-id="B400063">
+<name>驻车制动杠杆行程</name>
+</parts>
+<parts p-type="2" parts-id="B908497">
+<name>驻车制动开关</name>
+</parts>
+<parts p-type="1" parts-id="84550">
+<name>驻车制动开关总成</name>
+</parts>
+<parts p-type="2" parts-id="J400006">
+<name>驻车制动系统</name>
+</parts>
+<parts p-type="2" parts-id="B980211">
+<name>输出 DTC 指示的零件和零部件</name>
+</parts>
+<parts p-type="1" parts-id="84720J">
+<name>模式选择开关总成</name>
+</parts>
+<parts p-type="2" parts-id="J000041">
+<name>PCV 软管</name>
+</parts>
+<parts p-type="2" parts-id="J002000">
+<name>PCV 阀</name>
+</parts>
+<parts p-type="1" parts-id="31394A">
+<name>带钩的踏板弹簧</name>
+</parts>
+<parts p-type="2" parts-id="B800118">
+<name>执行扭矩传感器零点校准</name>
+</parts>
+<parts p-type="2" parts-id="F0004BO">
+<name>执行紧急制动信号学习</name>
+</parts>
+<parts p-type="2" parts-id="B000622">
+<name>活塞油膜间隙</name>
+</parts>
+<parts p-type="2" parts-id="B000120">
+<name>活塞销油膜间隙</name>
+</parts>
+<parts p-type="2" parts-id="B000124">
+<name>活塞环端隙</name>
+</parts>
+<parts p-type="1" parts-id="13011">
+<name>活塞环组件</name>
+</parts>
+<parts p-type="2" parts-id="B400042">
+<name>活塞密封</name>
+</parts>
+<parts p-type="2" parts-id="F0001X3">
+<name>带连杆的活塞分总成</name>
+</parts>
+<parts p-type="1" parts-id="35720M">
+<name>行星齿轮总成</name>
+</parts>
+<parts p-type="1" parts-id="35974">
+<name>位置指示灯下壳体</name>
+</parts>
+<parts p-type="1" parts-id="35953">
+<name>位置指示灯导向装置</name>
+</parts>
+<parts p-type="1" parts-id="35975">
+<name>位置指示灯滑盖</name>
+</parts>
+<parts p-type="1" parts-id="35976">
+<name>位置指示灯滑盖</name>
+</parts>
+<parts p-type="2" parts-id="J600001">
+<name>电动门锁控制系统</name>
+</parts>
+<parts p-type="2" parts-id="F0000J5">
+<name>电动门锁工作情况</name>
+</parts>
+<parts p-type="2" parts-id="F0003XY">
+<name>电动后视镜控制系统</name>
+</parts>
+<parts p-type="2" parts-id="B720131">
+<name>电动座椅开关</name>
+</parts>
+<parts p-type="1" parts-id="84921D">
+<name>左侧电动座椅开关旋钮</name>
+</parts>
+<parts p-type="1" parts-id="84921K">
+<name>左侧电动座椅开关旋钮</name>
+</parts>
+<parts p-type="2" parts-id="B000813">
+<name>电源电路</name>
+</parts>
+<parts p-type="2" parts-id="F000231">
+<name>电源模式不改变</name>
+</parts>
+<parts p-type="2" parts-id="F00009Z">
+<name>动力转向 ECU</name>
+</parts>
+<parts p-type="1" parts-id="89650">
+<name>动力转向 ECU 总成</name>
+</parts>
+<parts p-type="1" parts-id="80960">
+<name>动力转向马达总成</name>
+</parts>
+<parts p-type="2" parts-id="B400036">
+<name>动力转向马达总成</name>
+</parts>
+<parts p-type="2" parts-id="B600003">
+<name>电动窗</name>
+</parts>
+<parts p-type="2" parts-id="M000110">
+<name>电动窗控制系统</name>
+</parts>
+<parts p-type="2" parts-id="J800024">
+<name>电动窗主开关</name>
+</parts>
+<parts p-type="2" parts-id="B009058">
+<name>电动窗升降器</name>
+</parts>
+<parts p-type="2" parts-id="B690004">
+<name>左侧电动窗升降器总成</name>
+</parts>
+<parts p-type="1" parts-id="84820">
+<name>电动窗升降器主开关总成</name>
+</parts>
+<parts p-type="2" parts-id="F00042P">
+<name>带前门扶手座面板的电动窗升降器主开关总成</name>
+</parts>
+<parts p-type="2" parts-id="B000436">
+<name>电动窗升降器马达</name>
+</parts>
+<parts p-type="2" parts-id="B980034">
+<name>电动窗升降器马达总成</name>
+</parts>
+<parts p-type="1" parts-id="85720D">
+<name>左侧电动窗升降器马达总成</name>
+</parts>
+<parts p-type="1" parts-id="85720E">
+<name>左侧电动窗升降器马达总成</name>
+</parts>
+<parts p-type="2" parts-id="B009043">
+<name>左侧电动窗升降器马达总成</name>
+</parts>
+<parts p-type="1" parts-id="85710E">
+<name>右侧电动窗升降器马达总成</name>
+</parts>
+<parts p-type="1" parts-id="85710F">
+<name>右侧电动窗升降器马达总成</name>
+</parts>
+<parts p-type="1" parts-id="84810">
+<name>电动窗升降器开关总成</name>
+</parts>
+<parts p-type="1" parts-id="84810D">
+<name>后电动窗升降器开关总成</name>
+</parts>
+<parts p-type="2" parts-id="F00042Q">
+<name>带前门扶手座面板的电动窗升降器开关总成</name>
+</parts>
+<parts p-type="2" parts-id="F00017Q">
+<name>碰撞预测</name>
+</parts>
+<parts p-type="2" parts-id="B001391">
+<name>注意事项</name>
+</parts>
+<parts p-type="2" parts-id="B300057">
+<name>预紧力</name>
+</parts>
+<parts p-type="2" parts-id="F0004HT">
+<name>准备工作</name>
+</parts>
+<parts p-type="2" parts-id="B000201">
+<name>检查准备</name>
+</parts>
+<parts p-type="2" parts-id="F00022J">
+<name>转至故障症状表中所示的下一个检查程序</name>
+</parts>
+<parts p-type="2" parts-id="F000463">
+<name>转至故障症状表中所示的下一个可疑部位</name>
+</parts>
+<parts p-type="2" parts-id="B000888">
+<name>程序卡</name>
+</parts>
+<parts p-type="2" parts-id="D1002FZ">
+<name>传动轴</name>
+</parts>
+<parts p-type="2" parts-id="B900101">
+<name>PTC 加热器总成</name>
+</parts>
+<parts p-type="1" parts-id="87346K">
+<name>PTC 加热器继电器</name>
+</parts>
+<parts p-type="2" parts-id="B003120">
+<name>皮带轮固定发电机</name>
+</parts>
+<parts p-type="2" parts-id="F0003NF">
+<name>净化阀</name>
+</parts>
+<parts p-type="1" parts-id="47264A">
+<name>推杆销</name>
+</parts>
+<parts p-type="1" parts-id="89611">
+<name>按钮起动开关</name>
+</parts>
+<parts p-type="2" parts-id="F0004HX">
+<name>按钮起动</name>
+</parts>
+</index>
+<index label="Q">
+<parts p-type="1" parts-id="87710G">
+<name>快速加热器总成</name>
+</parts>
+</index>
+<index label="R">
+<parts p-type="2" parts-id="F0000HJ">
+<name>散热器和软管</name>
+</parts>
+<parts p-type="1" parts-id="16400">
+<name>散热器总成</name>
+</parts>
+<parts p-type="1" parts-id="53141F">
+<name>散热器盖</name>
+</parts>
+<parts p-type="1" parts-id="16400B">
+<name>散热器放水螺塞</name>
+</parts>
+<parts p-type="1" parts-id="53155C">
+<name>散热器格栅 1 号密封</name>
+</parts>
+<parts p-type="1" parts-id="53111">
+<name>散热器格栅</name>
+</parts>
+<parts p-type="2" parts-id="F0003ZS">
+<name>散热器格栅</name>
+</parts>
+<parts p-type="1" parts-id="75311">
+<name>散热器格栅（或前面板）徽标</name>
+</parts>
+<parts p-type="1" parts-id="53112E">
+<name>1 号散热器下格栅</name>
+</parts>
+<parts p-type="1" parts-id="53126A">
+<name>中央散热器左侧格栅防护条</name>
+</parts>
+<parts p-type="1" parts-id="53125A">
+<name>中央散热器右侧格栅防护条</name>
+</parts>
+<parts p-type="1" parts-id="53124C">
+<name>散热器左上格栅防护条</name>
+</parts>
+<parts p-type="1" parts-id="53121F">
+<name>散热器右上格栅防护条</name>
+</parts>
+<parts p-type="1" parts-id="53102A">
+<name>散热器下格栅分总成</name>
+</parts>
+<parts p-type="1" parts-id="16571C">
+<name>散热器 1 号软管</name>
+</parts>
+<parts p-type="1" parts-id="16572D">
+<name>散热器 2 号软管</name>
+</parts>
+<parts p-type="1" parts-id="16573B">
+<name>散热器 3 号软管</name>
+</parts>
+<parts p-type="2" parts-id="B160015">
+<name>散热器储液罐总成</name>
+</parts>
+<parts p-type="1" parts-id="53205">
+<name>散热器上支架分总成</name>
+</parts>
+<parts p-type="1" parts-id="86140A">
+<name>无线电收音机和显示屏接收器总成</name>
+</parts>
+<parts p-type="2" parts-id="B803084">
+<name>无线电收音机和显示屏总成</name>
+</parts>
+<parts p-type="2" parts-id="B889442">
+<name>无线电收音机和接收器总成</name>
+</parts>
+<parts p-type="2" parts-id="J810012">
+<name>无线电收音机天线芯线</name>
+</parts>
+<parts p-type="1" parts-id="86211">
+<name>无线电收音机 1 号支架</name>
+</parts>
+<parts p-type="1" parts-id="86212">
+<name>无线电收音机 2 号支架</name>
+</parts>
+<parts p-type="2" parts-id="B909878">
+<name>无线电收音机</name>
+</parts>
+<parts p-type="1" parts-id="86120">
+<name>无线电收音机总成</name>
+</parts>
+<parts p-type="1" parts-id="86011A">
+<name>无线电设定电容器</name>
+</parts>
+<parts p-type="2" parts-id="F0000BV">
+<name>无线电收音机线束</name>
+</parts>
+<parts p-type="2" parts-id="F000251">
+<name>读取 VIN</name>
+</parts>
+<parts p-type="2" parts-id="F0000AO">
+<name>后空气囊传感器</name>
+</parts>
+<parts p-type="1" parts-id="42110F">
+<name>后桥横梁总成</name>
+</parts>
+<parts p-type="1" parts-id="48725G">
+<name>后桥左侧支架衬套</name>
+</parts>
+<parts p-type="1" parts-id="48725F">
+<name>后桥右侧支架衬套</name>
+</parts>
+<parts p-type="2" parts-id="B424110">
+<name>后桥轮毂</name>
+</parts>
+<parts p-type="1" parts-id="42450B">
+<name>左后桥轮毂和轴承总成</name>
+</parts>
+<parts p-type="1" parts-id="42450A">
+<name>右后桥轮毂和轴承总成</name>
+</parts>
+<parts p-type="2" parts-id="B400175">
+<name>后桥轮毂和轴承总成</name>
+</parts>
+<parts p-type="2" parts-id="B401003">
+<name>后桥轮毂轴承松弛度</name>
+</parts>
+<parts p-type="2" parts-id="B300157">
+<name>后桥轮毂螺栓</name>
+</parts>
+<parts p-type="2" parts-id="B400387">
+<name>后桥轮毂径向跳动</name>
+</parts>
+<parts p-type="1" parts-id="42312E">
+<name>左后桥轮毂螺栓</name>
+</parts>
+<parts p-type="2" parts-id="J400029">
+<name>后轮制动器</name>
+</parts>
+<parts p-type="2" parts-id="F00014M">
+<name>后轮制动器挠性软管</name>
+</parts>
+<parts p-type="1" parts-id="47316A">
+<name>后轮制动管挠性软管</name>
+</parts>
+<parts p-type="1" parts-id="47323">
+<name>3 号后制动管</name>
+</parts>
+<parts p-type="1" parts-id="47324">
+<name>4 号后制动管</name>
+</parts>
+<parts p-type="2" parts-id="F0003ZP">
+<name>后保险杠</name>
+</parts>
+<parts p-type="1" parts-id="52182">
+<name>后保险杠左臂</name>
+</parts>
+<parts p-type="1" parts-id="52181">
+<name>后保险杠右臂</name>
+</parts>
+<parts p-type="2" parts-id="B700153">
+<name>后保险杠总成</name>
+</parts>
+<parts p-type="1" parts-id="52451">
+<name>后保险杠防护装置</name>
+</parts>
+<parts p-type="1" parts-id="52461F">
+<name>后保险杠衬板</name>
+</parts>
+<parts p-type="1" parts-id="52023">
+<name>后保险杠加强件分总成</name>
+</parts>
+<parts p-type="1" parts-id="52563A">
+<name>后保险杠左上固定架</name>
+</parts>
+<parts p-type="1" parts-id="52562B">
+<name>后保险杠右上固定架</name>
+</parts>
+<parts p-type="1" parts-id="52576">
+<name>后保险杠左侧固定架</name>
+</parts>
+<parts p-type="1" parts-id="52575">
+<name>后保险杠右侧固定架</name>
+</parts>
+<parts p-type="1" parts-id="52592">
+<name>后保险杠左侧密封</name>
+</parts>
+<parts p-type="1" parts-id="52591">
+<name>后保险杠右侧密封</name>
+</parts>
+<parts p-type="1" parts-id="48258C">
+<name>左后螺旋弹簧下隔振垫</name>
+</parts>
+<parts p-type="1" parts-id="48258B">
+<name>右后螺旋弹簧下隔振垫</name>
+</parts>
+<parts p-type="1" parts-id="48259A">
+<name>左后螺旋弹簧上隔振垫</name>
+</parts>
+<parts p-type="1" parts-id="48257C">
+<name>右后螺旋弹簧上隔振垫</name>
+</parts>
+<parts p-type="1" parts-id="81560">
+<name>左后组合灯总成</name>
+</parts>
+<parts p-type="1" parts-id="81550">
+<name>右后组合灯总成</name>
+</parts>
+<parts p-type="1" parts-id="81564">
+<name>左后组合灯车身衬垫</name>
+</parts>
+<parts p-type="1" parts-id="81125B">
+<name>后组合灯导线</name>
+</parts>
+<parts p-type="1" parts-id="81565">
+<name>左后组合灯灯座和线束分总成</name>
+</parts>
+<parts p-type="2" parts-id="F0003YV">
+<name>后组合灯总成</name>
+</parts>
+<parts p-type="2" parts-id="B800536">
+<name>左后组合灯总成</name>
+</parts>
+<parts p-type="2" parts-id="B800535">
+<name>右后组合灯总成</name>
+</parts>
+<parts p-type="2" parts-id="F0003AO">
+<name>曲轴后油封</name>
+</parts>
+<parts p-type="1" parts-id="42431">
+<name>后制动盘</name>
+</parts>
+<parts p-type="1" parts-id="04946">
+<name>后盘式制动器消音垫片组件</name>
+</parts>
+<parts p-type="2" parts-id="B400617">
+<name>后盘式制动器放气螺塞</name>
+</parts>
+<parts p-type="1" parts-id="31478C">
+<name>后盘式制动器放气螺塞盖</name>
+</parts>
+<parts p-type="2" parts-id="B400607">
+<name>后盘式制动器衬套防尘罩</name>
+</parts>
+<parts p-type="2" parts-id="B400023">
+<name>左后盘式制动器制动钳总成</name>
+</parts>
+<parts p-type="2" parts-id="B001218">
+<name>右后盘式制动器制动钳总成</name>
+</parts>
+<parts p-type="2" parts-id="B400234">
+<name>左后盘式制动器制动缸总成</name>
+</parts>
+<parts p-type="1" parts-id="47835">
+<name>后盘式制动器衬块导向销</name>
+</parts>
+<parts p-type="2" parts-id="F0002SN">
+<name>后盘式制动器衬块支撑板</name>
+</parts>
+<parts p-type="1" parts-id="47831">
+<name>后盘式制动器活塞</name>
+</parts>
+<parts p-type="2" parts-id="F0005BR">
+<name>后门</name>
+</parts>
+<parts p-type="2" parts-id="J500003">
+<name>后门</name>
+</parts>
+<parts p-type="2" parts-id="F000400">
+<name>后门腰线防护条</name>
+</parts>
+<parts p-type="1" parts-id="75740">
+<name>左后车门腰线防护条总成</name>
+</parts>
+<parts p-type="1" parts-id="68630">
+<name>后门开度限位器总成</name>
+</parts>
+<parts p-type="1" parts-id="84234">
+<name>后门门控灯开关总成</name>
+</parts>
+<parts p-type="2" parts-id="F00015F">
+<name>后门门控灯开关</name>
+</parts>
+<parts p-type="1" parts-id="67674B">
+<name>左后车门门框装饰条</name>
+</parts>
+<parts p-type="1" parts-id="69975A">
+<name>后门玻璃槽填充条</name>
+</parts>
+<parts p-type="1" parts-id="69906B">
+<name>左后车门玻璃槽分总成</name>
+</parts>
+<parts p-type="1" parts-id="68152C">
+<name>左后车门玻璃升降槽</name>
+</parts>
+<parts p-type="2" parts-id="J500077">
+<name>后门玻璃分总成</name>
+</parts>
+<parts p-type="1" parts-id="68104">
+<name>左后车门玻璃分总成</name>
+</parts>
+<parts p-type="1" parts-id="68174A">
+<name>左后车门玻璃内密封条</name>
+</parts>
+<parts p-type="1" parts-id="69206C">
+<name>左后车门内把手分总成</name>
+</parts>
+<parts p-type="1" parts-id="69780B">
+<name>左后车门内侧锁止拉索总成</name>
+</parts>
+<parts p-type="2" parts-id="B000914">
+<name>后门门锁</name>
+</parts>
+<parts p-type="1" parts-id="69038A">
+<name>左后车门锁止器盖分总成</name>
+</parts>
+<parts p-type="1" parts-id="69740D">
+<name>左后车门锁止遥控拉索总成</name>
+</parts>
+<parts p-type="1" parts-id="75076">
+<name>左后车门外防护条分总成</name>
+</parts>
+<parts p-type="1" parts-id="62332A">
+<name>左后车门开口装饰密封条</name>
+</parts>
+<parts p-type="1" parts-id="62331A">
+<name>右后车门开口装饰密封条</name>
+</parts>
+<parts p-type="1" parts-id="69240">
+<name>左后车门外把手总成</name>
+</parts>
+<parts p-type="1" parts-id="69227L">
+<name>左后车门外把手盖</name>
+</parts>
+<parts p-type="1" parts-id="69204A">
+<name>左后车门外把手框分总成</name>
+</parts>
+<parts p-type="1" parts-id="69241G">
+<name>后门前外把手垫</name>
+</parts>
+<parts p-type="1" parts-id="69242G">
+<name>后门后外把手垫</name>
+</parts>
+<parts p-type="1" parts-id="67003C">
+<name>后门板缓冲垫</name>
+</parts>
+<parts p-type="1" parts-id="68124B">
+<name>左后车门角窗玻璃</name>
+</parts>
+<parts p-type="1" parts-id="67918A">
+<name>左后车门防磨板</name>
+</parts>
+<parts p-type="1" parts-id="67917A">
+<name>右后车门防磨板</name>
+</parts>
+<parts p-type="1" parts-id="67842E">
+<name>左后车门检修孔盖</name>
+</parts>
+<parts p-type="1" parts-id="67604">
+<name>左后车门装饰板分总成</name>
+</parts>
+<parts p-type="1" parts-id="67848A">
+<name>左后车门 1 号通风口密封</name>
+</parts>
+<parts p-type="1" parts-id="69060A">
+<name>带马达的左后车门门锁总成</name>
+</parts>
+<parts p-type="1" parts-id="69050A">
+<name>带马达的右后车门门锁总成</name>
+</parts>
+<parts p-type="1" parts-id="67872">
+<name>左后车门密封条</name>
+</parts>
+<parts p-type="2" parts-id="F000409">
+<name>后门窗框防护条</name>
+</parts>
+<parts p-type="1" parts-id="75762A">
+<name>左后车门前窗框防护条</name>
+</parts>
+<parts p-type="1" parts-id="67408F">
+<name>左后车门后下窗框分总成</name>
+</parts>
+<parts p-type="2" parts-id="J500078">
+<name>后门窗升降器分总成</name>
+</parts>
+<parts p-type="1" parts-id="58387">
+<name>后地板装饰板</name>
+</parts>
+<parts p-type="1" parts-id="58325E">
+<name>后地板检修孔盖</name>
+</parts>
+<parts p-type="1" parts-id="53605C">
+<name>后地板纵梁支架分总成</name>
+</parts>
+<parts p-type="1" parts-id="57628C">
+<name>后地板左侧纵梁盖</name>
+</parts>
+<parts p-type="1" parts-id="57627A">
+<name>后地板右侧纵梁盖</name>
+</parts>
+<parts p-type="1" parts-id="81550Q">
+<name>1 号后雾灯灯泡</name>
+</parts>
+<parts p-type="1" parts-id="81590A">
+<name>左后灯总成</name>
+</parts>
+<parts p-type="1" parts-id="81580D">
+<name>右后组合灯总成</name>
+</parts>
+<parts p-type="1" parts-id="81586">
+<name>后灯导线</name>
+</parts>
+<parts p-type="1" parts-id="81594A">
+<name>左后灯衬垫</name>
+</parts>
+<parts p-type="1" parts-id="81594B">
+<name>左后灯密封件</name>
+</parts>
+<parts p-type="1" parts-id="74260">
+<name>后排左侧座椅扶手总成</name>
+</parts>
+<parts p-type="1" parts-id="47319F">
+<name>左后挠性软管</name>
+</parts>
+<parts p-type="2" parts-id="B815800">
+<name>后灯总成</name>
+</parts>
+<parts p-type="2" parts-id="F0003YW">
+<name>后灯总成</name>
+</parts>
+<parts p-type="2" parts-id="F000383">
+<name>后窗台板扬声器</name>
+</parts>
+<parts p-type="2" parts-id="F00042R">
+<name>带后门扶手座面板的后电动窗升降器开关总成</name>
+</parts>
+<parts p-type="2" parts-id="F00017T">
+<name>后电动窗开关</name>
+</parts>
+<parts p-type="1" parts-id="73370">
+<name>后排左侧座椅三点式外安全带总成</name>
+</parts>
+<parts p-type="1" parts-id="73360">
+<name>后排右侧座椅三点式外安全带总成</name>
+</parts>
+<parts p-type="1" parts-id="72830">
+<name>后排座椅中央扶手总成</name>
+</parts>
+<parts p-type="2" parts-id="B700057">
+<name>后排座椅总成</name>
+</parts>
+<parts p-type="1" parts-id="72640A">
+<name>后排左侧座椅靠背锁总成</name>
+</parts>
+<parts p-type="1" parts-id="72630C">
+<name>后排右侧座椅靠背锁总成</name>
+</parts>
+<parts p-type="1" parts-id="72661C">
+<name>后排座椅靠背锁释放按钮</name>
+</parts>
+<parts p-type="1" parts-id="72646A">
+<name>后排座椅靠背停止按钮密封垫</name>
+</parts>
+<parts p-type="2" parts-id="J700028">
+<name>后排座椅座垫总成</name>
+</parts>
+<parts p-type="1" parts-id="72693">
+<name>后排座椅座垫锁钩</name>
+</parts>
+<parts p-type="1" parts-id="71940A">
+<name>后排座椅头枕总成</name>
+</parts>
+<parts p-type="1" parts-id="71960B">
+<name>后排中央座椅头枕总成</name>
+</parts>
+<parts p-type="1" parts-id="71931A">
+<name>后排座椅头枕支架</name>
+</parts>
+<parts p-type="2" parts-id="F0003XC">
+<name>后排座椅内安全带总成</name>
+</parts>
+<parts p-type="1" parts-id="73480">
+<name>带中央安全带的后排左侧座椅内安全带总成</name>
+</parts>
+<parts p-type="1" parts-id="73470B">
+<name>带中央安全带的后排右侧座椅内安全带总成</name>
+</parts>
+<parts p-type="2" parts-id="F0003XD">
+<name>后排座椅外安全带总成</name>
+</parts>
+<parts p-type="1" parts-id="73345">
+<name>后排中央座椅肩式安全带导环</name>
+</parts>
+<parts p-type="1" parts-id="73344">
+<name>后排左侧座椅肩式安全带导环</name>
+</parts>
+<parts p-type="1" parts-id="73343">
+<name>后排右侧座椅肩式安全带导环</name>
+</parts>
+<parts p-type="1" parts-id="62552F">
+<name>后排左侧座椅侧饰板</name>
+</parts>
+<parts p-type="1" parts-id="62551F">
+<name>后排右侧座椅侧饰板</name>
+</parts>
+<parts p-type="2" parts-id="J700023">
+<name>后排座椅靠背总成</name>
+</parts>
+<parts p-type="2" parts-id="B714900">
+<name>后排左侧座椅靠背总成</name>
+</parts>
+<parts p-type="2" parts-id="B714800">
+<name>后排右侧座椅靠背总成</name>
+</parts>
+<parts p-type="1" parts-id="48541E">
+<name>左后减振器缓冲垫挡片</name>
+</parts>
+<parts p-type="1" parts-id="86160B">
+<name>后扬声器总成</name>
+</parts>
+<parts p-type="2" parts-id="B800261">
+<name>后轮转速传感器</name>
+</parts>
+<parts p-type="1" parts-id="48341B">
+<name>左后 1 号弹簧缓冲块</name>
+</parts>
+<parts p-type="1" parts-id="48755">
+<name>后悬架支座</name>
+</parts>
+<parts p-type="2" parts-id="J400013">
+<name>后悬架系统</name>
+</parts>
+<parts p-type="1" parts-id="81550L">
+<name>后转向信号灯灯泡</name>
+</parts>
+<parts p-type="2" parts-id="F0000HA">
+<name>后视镜</name>
+</parts>
+<parts p-type="2" parts-id="M000369">
+<name>后视野监视系统</name>
+</parts>
+<parts p-type="2" parts-id="B400054">
+<name>后轮</name>
+</parts>
+<parts p-type="2" parts-id="B000130">
+<name>后轮定位</name>
+</parts>
+<parts p-type="2" parts-id="F0003SY">
+<name>后轮</name>
+</parts>
+<parts p-type="2" parts-id="F0004HU">
+<name>重新作业</name>
+</parts>
+<parts p-type="1" parts-id="72526A">
+<name>左侧座椅靠背倾角调节器释放手柄</name>
+</parts>
+<parts p-type="1" parts-id="72526E">
+<name>左侧座椅靠背倾角调节器释放手柄</name>
+</parts>
+<parts p-type="1" parts-id="72525A">
+<name>右侧座椅靠背倾角调节器释放手柄</name>
+</parts>
+<parts p-type="2" parts-id="B001422">
+<name>重新确认输出 DTC</name>
+</parts>
+<parts p-type="1" parts-id="35759A">
+<name>减速从动齿轮</name>
+</parts>
+<parts p-type="2" parts-id="F0005SR">
+<name>降低从动齿轮半轴轴承预紧力</name>
+</parts>
+<parts p-type="1" parts-id="81920">
+<name>左侧反射器总成</name>
+</parts>
+<parts p-type="1" parts-id="81910">
+<name>右侧反射器总成</name>
+</parts>
+<parts p-type="2" parts-id="F0001XH">
+<name>制冷剂</name>
+</parts>
+<parts p-type="2" parts-id="J800003">
+<name>制冷剂</name>
+</parts>
+<parts p-type="2" parts-id="F0001XI">
+<name>制冷剂泄漏</name>
+</parts>
+<parts p-type="2" parts-id="J800001">
+<name>制冷剂管路</name>
+</parts>
+<parts p-type="2" parts-id="B417002">
+<name>制冷剂压力</name>
+</parts>
+<parts p-type="2" parts-id="B000485">
+<name>注册识别码</name>
+</parts>
+<parts p-type="2" parts-id="F000200">
+<name>注册</name>
+</parts>
+<parts p-type="2" parts-id="B000719">
+<name>识别码注册</name>
+</parts>
+<parts p-type="2" parts-id="F000279">
+<name>发射器 ID 注册</name>
+</parts>
+<parts p-type="2" parts-id="B800199">
+<name>继电器</name>
+</parts>
+<parts p-type="2" parts-id="B800633">
+<name>继电器</name>
+</parts>
+<parts p-type="2" parts-id="B980040">
+<name>继电器电路</name>
+</parts>
+<parts p-type="1" parts-id="31232A">
+<name>分离轴承毂卡子</name>
+</parts>
+<parts p-type="1" parts-id="31477">
+<name>分离缸放气螺塞</name>
+</parts>
+<parts p-type="2" parts-id="B300175">
+<name>分离缸放气螺塞</name>
+</parts>
+<parts p-type="1" parts-id="31478">
+<name>分离缸放气螺塞盖</name>
+</parts>
+<parts p-type="1" parts-id="31236B">
+<name>分离叉支撑件</name>
+</parts>
+<parts p-type="1" parts-id="33237D">
+<name>锁止解除导块直销</name>
+</parts>
+<parts p-type="2" parts-id="F00022Y">
+<name>遥控手动升/降功能</name>
+</parts>
+<parts p-type="2" parts-id="B800023">
+<name>清除异物</name>
+</parts>
+<parts p-type="2" parts-id="J000003">
+<name>维修说明</name>
+</parts>
+<parts p-type="1" parts-id="16471B">
+<name>储液罐盖</name>
+</parts>
+<parts p-type="1" parts-id="35623L">
+<name>倒档制动器活塞</name>
+</parts>
+<parts p-type="1" parts-id="33331">
+<name>倒档齿轮</name>
+</parts>
+<parts p-type="1" parts-id="33451H">
+<name>倒档惰轮轴螺栓</name>
+</parts>
+<parts p-type="1" parts-id="33402">
+<name>倒档惰轮分总成</name>
+</parts>
+<parts p-type="1" parts-id="33280">
+<name>倒档定位销总成</name>
+</parts>
+<parts p-type="1" parts-id="33295A">
+<name>倒档定位轴</name>
+</parts>
+<parts p-type="1" parts-id="33240">
+<name>倒档换档臂支架总成</name>
+</parts>
+<parts p-type="1" parts-id="33260">
+<name>倒档换档拨叉 (MTM) 轴总成</name>
+</parts>
+<parts p-type="1" parts-id="81110">
+<name>右侧大灯总成</name>
+</parts>
+<parts p-type="1" parts-id="87931">
+<name>右侧车外后视镜</name>
+</parts>
+<parts p-type="1" parts-id="71537G">
+<name>前排右侧座椅座垫护框</name>
+</parts>
+<parts p-type="1" parts-id="71538A">
+<name>前排右侧座椅座垫护框</name>
+</parts>
+<parts p-type="1" parts-id="74310">
+<name>右侧遮阳板总成</name>
+</parts>
+<parts p-type="2" parts-id="B000135">
+<name>环槽间隙</name>
+</parts>
+<parts p-type="2" parts-id="B100016">
+<name>环销</name>
+</parts>
+<parts p-type="1" parts-id="11155A">
+<name>带头环销</name>
+</parts>
+<parts p-type="2" parts-id="F000403">
+<name>车门槛板防护条</name>
+</parts>
+<parts p-type="1" parts-id="75852">
+<name>左侧车门槛板防护条</name>
+</parts>
+<parts p-type="2" parts-id="F00040F">
+<name>车顶排水槽侧装饰条</name>
+</parts>
+<parts p-type="1" parts-id="75556C">
+<name>左侧车顶中段排水槽侧装饰条</name>
+</parts>
+<parts p-type="1" parts-id="75561">
+<name>车顶排水槽 1 号侧装饰条卡子</name>
+</parts>
+<parts p-type="2" parts-id="J600019">
+<name>车顶内衬</name>
+</parts>
+<parts p-type="2" parts-id="J600007">
+<name>车顶内衬总成</name>
+</parts>
+<parts p-type="1" parts-id="63318B">
+<name>车顶内衬 1 号安装组件</name>
+</parts>
+<parts p-type="1" parts-id="62480A">
+<name>车顶左侧内饰板总成</name>
+</parts>
+<parts p-type="1" parts-id="62470A">
+<name>车顶右侧内饰板总成</name>
+</parts>
+<parts p-type="1" parts-id="63341">
+<name>车顶 1 号消声垫</name>
+</parts>
+<parts p-type="1" parts-id="63342">
+<name>车顶 2 号消声垫</name>
+</parts>
+<parts p-type="1" parts-id="63343">
+<name>车顶 3 号消声垫</name>
+</parts>
+<parts p-type="2" parts-id="F00049P">
+<name>车顶遮阳帘</name>
+</parts>
+<parts p-type="1" parts-id="82171">
+<name>车顶 1 号线束</name>
+</parts>
+<parts p-type="1" parts-id="81240">
+<name>1 号车内灯总成</name>
+</parts>
+<parts p-type="1" parts-id="81240B">
+<name>1 号车内灯灯泡</name>
+</parts>
+<parts p-type="2" parts-id="F0003XL">
+<name>车厢照明灯</name>
+</parts>
+<parts p-type="2" parts-id="B909939">
+<name>车内温度传感器</name>
+</parts>
+<parts p-type="2" parts-id="F0000IQ">
+<name>轮胎换位</name>
+</parts>
+</index>
+<index label="S">
+<parts p-type="2" parts-id="F000289">
+<name>屏幕切换至“SCREEN ON”模式</name>
+</parts>
+<parts p-type="2" parts-id="F000248">
+<name>座椅安全带警告蜂鸣器</name>
+</parts>
+<parts p-type="2" parts-id="M001027">
+<name>座椅安全带警告系统</name>
+</parts>
+<parts p-type="2" parts-id="F0000HE">
+<name>座椅安全带</name>
+</parts>
+<parts p-type="2" parts-id="B002964">
+<name>带软垫的座垫护面</name>
+</parts>
+<parts p-type="2" parts-id="B700065">
+<name>座椅加热器</name>
+</parts>
+<parts p-type="1" parts-id="84751">
+<name>座椅加热器开关</name>
+</parts>
+<parts p-type="1" parts-id="84751F">
+<name>座椅加热器开关</name>
+</parts>
+<parts p-type="2" parts-id="F000188">
+<name>座椅加热器开关</name>
+</parts>
+<parts p-type="1" parts-id="72211C">
+<name>座椅滑轨调节手柄</name>
+</parts>
+<parts p-type="1" parts-id="72158">
+<name>左侧座椅内滑轨支架盖</name>
+</parts>
+<parts p-type="1" parts-id="72138D">
+<name>左侧座椅内滑轨盖</name>
+</parts>
+<parts p-type="2" parts-id="B002965">
+<name>带软垫的座椅靠背护面</name>
+</parts>
+<parts p-type="2" parts-id="F0000HD">
+<name>座椅</name>
+</parts>
+<parts p-type="1" parts-id="86510A">
+<name>警报喇叭总成</name>
+</parts>
+<parts p-type="2" parts-id="B009092">
+<name>警报喇叭总成</name>
+</parts>
+<parts p-type="2" parts-id="B000494">
+<name>安全指示灯</name>
+</parts>
+<parts p-type="2" parts-id="B008829">
+<name>安全指示灯</name>
+</parts>
+<parts p-type="2" parts-id="F0001SQ">
+<name>安全指示灯总成</name>
+</parts>
+<parts p-type="1" parts-id="89730A">
+<name>安全警告继电器</name>
+</parts>
+<parts p-type="1" parts-id="33256">
+<name>内选档杆</name>
+</parts>
+<parts p-type="1" parts-id="33257">
+<name>外选档杆</name>
+</parts>
+<parts p-type="1" parts-id="33276H">
+<name>1 号选档弹簧座轴卡环</name>
+</parts>
+<parts p-type="1" parts-id="33277">
+<name>选档 2 号弹簧座</name>
+</parts>
+<parts p-type="1" parts-id="33288">
+<name>选档挡块</name>
+</parts>
+<parts p-type="2" parts-id="B300022">
+<name>选档直角杠杆总成</name>
+</parts>
+<parts p-type="1" parts-id="33534">
+<name>选档直角杠杆</name>
+</parts>
+<parts p-type="1" parts-id="33557A">
+<name>选档直角杠杆 1 号防尘罩</name>
+</parts>
+<parts p-type="1" parts-id="33558">
+<name>选档直角杠杆 2 号防尘罩</name>
+</parts>
+<parts p-type="1" parts-id="33534F">
+<name>选档直角杠杆 2 号衬套</name>
+</parts>
+<parts p-type="2" parts-id="B000139">
+<name>自诊断模式</name>
+</parts>
+<parts p-type="2" parts-id="B800454">
+<name>传感器</name>
+</parts>
+<parts p-type="1" parts-id="71440S">
+<name>分离式前排座椅靠背总成</name>
+</parts>
+<parts p-type="1" parts-id="71073S">
+<name>分离式前排座椅靠背护面</name>
+</parts>
+<parts p-type="1" parts-id="71074S">
+<name>分离式前排座椅靠背护面</name>
+</parts>
+<parts p-type="1" parts-id="71420S">
+<name>分离式前排座椅座垫总成</name>
+</parts>
+<parts p-type="2" parts-id="J700201">
+<name>分离式前排左侧座椅座垫总成</name>
+</parts>
+<parts p-type="2" parts-id="B711003">
+<name>分离式前排右侧座椅座垫总成</name>
+</parts>
+<parts p-type="1" parts-id="71072S">
+<name>分离式前排座椅座垫护面</name>
+</parts>
+<parts p-type="1" parts-id="71511S">
+<name>分离式前排座椅座垫软垫</name>
+</parts>
+<parts p-type="2" parts-id="J700116">
+<name>分离式前排座椅靠背总成</name>
+</parts>
+<parts p-type="2" parts-id="B711002">
+<name>分离式前排右侧座椅靠背总成</name>
+</parts>
+<parts p-type="1" parts-id="71077S">
+<name>分离式后排座椅靠背护面</name>
+</parts>
+<parts p-type="1" parts-id="71078S">
+<name>分离式后排座椅靠背护面</name>
+</parts>
+<parts p-type="2" parts-id="B880004">
+<name>伺服马达</name>
+</parts>
+<parts p-type="2" parts-id="B803147">
+<name>正确设定 CD</name>
+</parts>
+<parts p-type="2" parts-id="B803127">
+<name>设定</name>
+</parts>
+<parts p-type="2" parts-id="M000235">
+<name>SFI 系统</name>
+</parts>
+<parts p-type="1" parts-id="33261K">
+<name>换档和选档杆轴滚针轴承</name>
+</parts>
+<parts p-type="1" parts-id="33261H">
+<name>换档和选档杆轴油封</name>
+</parts>
+<parts p-type="2" parts-id="F00006P">
+<name>换档和选档杆轴</name>
+</parts>
+<parts p-type="2" parts-id="J300031">
+<name>换档和选档杆轴总成</name>
+</parts>
+<parts p-type="1" parts-id="33275C">
+<name>换档锁止钢球</name>
+</parts>
+<parts p-type="1" parts-id="33242E">
+<name>换档拨叉轴卡环</name>
+</parts>
+<parts p-type="2" parts-id="F0002QY">
+<name>换档杆</name>
+</parts>
+<parts p-type="2" parts-id="J335000">
+<name>换档杆</name>
+</parts>
+<parts p-type="2" parts-id="F0001FM">
+<name>换档杆总成</name>
+</parts>
+<parts p-type="1" parts-id="33544C">
+<name>换档杆减振器</name>
+</parts>
+<parts p-type="1" parts-id="33251A">
+<name>1 号内换档杆</name>
+</parts>
+<parts p-type="1" parts-id="33252A">
+<name>2 号内换档杆</name>
+</parts>
+<parts p-type="1" parts-id="33504F">
+<name>换档杆把手分总成</name>
+</parts>
+<parts p-type="2" parts-id="B300039">
+<name>换档杆位置</name>
+</parts>
+<parts p-type="1" parts-id="33560">
+<name>换档锁止控制单元总成</name>
+</parts>
+<parts p-type="1" parts-id="33554C">
+<name>换档锁止解除按钮盖</name>
+</parts>
+<parts p-type="1" parts-id="33253F">
+<name>外换档杆 E 形圈</name>
+</parts>
+<parts p-type="1" parts-id="33253">
+<name>1 号外换档杆</name>
+</parts>
+<parts p-type="1" parts-id="33253H">
+<name>外换档杆油封</name>
+</parts>
+<parts p-type="2" parts-id="F00020D">
+<name>换档拨板装置</name>
+</parts>
+<parts p-type="1" parts-id="58843">
+<name>换档杆孔框</name>
+</parts>
+<parts p-type="1" parts-id="58808">
+<name>换档杆孔盖分总成</name>
+</parts>
+<parts p-type="1" parts-id="48520">
+<name>左前减振器总成</name>
+</parts>
+<parts p-type="1" parts-id="48540">
+<name>左后减振器总成</name>
+</parts>
+<parts p-type="2" parts-id="B001899">
+<name>CAN 总线短路</name>
+</parts>
+<parts p-type="2" parts-id="B001910">
+<name>CAN 总线对 B+ 短路</name>
+</parts>
+<parts p-type="2" parts-id="B001911">
+<name>CAN 总线对接地短路</name>
+</parts>
+<parts p-type="1" parts-id="89860A">
+<name>左侧侧空气囊传感器总成</name>
+</parts>
+<parts p-type="1" parts-id="89860B">
+<name>2 号侧空气囊传感器总成</name>
+</parts>
+<parts p-type="1" parts-id="89860C">
+<name>2 号侧空气囊传感器总成</name>
+</parts>
+<parts p-type="1" parts-id="89860">
+<name>右侧侧空气囊传感器总成</name>
+</parts>
+<parts p-type="2" parts-id="B988171">
+<name>侧空气囊传感器</name>
+</parts>
+<parts p-type="1" parts-id="66423">
+<name>左前纵梁隔垫</name>
+</parts>
+<parts p-type="1" parts-id="66413B">
+<name>右前纵梁隔垫</name>
+</parts>
+<parts p-type="1" parts-id="66424">
+<name>左后纵梁隔垫</name>
+</parts>
+<parts p-type="1" parts-id="66425B">
+<name>2 号左后纵梁隔垫</name>
+</parts>
+<parts p-type="1" parts-id="66415B">
+<name>2 号右后纵梁隔垫</name>
+</parts>
+<parts p-type="1" parts-id="66414A">
+<name>右后纵梁隔垫</name>
+</parts>
+<parts p-type="1" parts-id="81740">
+<name>左侧转向信号灯总成</name>
+</parts>
+<parts p-type="1" parts-id="81730">
+<name>右侧转向信号灯总成</name>
+</parts>
+<parts p-type="2" parts-id="F0003YS">
+<name>侧转向信号灯总成</name>
+</parts>
+<parts p-type="2" parts-id="B817400">
+<name>左侧转向信号灯总成</name>
+</parts>
+<parts p-type="2" parts-id="B817300">
+<name>右侧转向信号灯总成</name>
+</parts>
+<parts p-type="2" parts-id="B000297">
+<name>模拟测试</name>
+</parts>
+<parts p-type="2" parts-id="B988261">
+<name>防滑控制 ECU</name>
+</parts>
+<parts p-type="2" parts-id="B895045">
+<name>防滑控制 ECU 连接器是否连接牢固</name>
+</parts>
+<parts p-type="1" parts-id="89516D">
+<name>左侧防滑控制传感器线束</name>
+</parts>
+<parts p-type="1" parts-id="89516C">
+<name>右侧防滑控制传感器线束</name>
+</parts>
+<parts p-type="2" parts-id="D1002ZZ">
+<name>滑动天窗</name>
+</parts>
+<parts p-type="1" parts-id="63205A">
+<name>滑动天窗传动拉索分总成</name>
+</parts>
+<parts p-type="2" parts-id="B632600">
+<name>滑动天窗主动齿轮总成</name>
+</parts>
+<parts p-type="1" parts-id="63260A">
+<name>滑动天窗主动齿轮分总成</name>
+</parts>
+<parts p-type="1" parts-id="63201G">
+<name>滑动天窗玻璃分总成</name>
+</parts>
+<parts p-type="2" parts-id="J600075">
+<name>滑动天窗架</name>
+</parts>
+<parts p-type="2" parts-id="B000143">
+<name>滑动天窗架总成</name>
+</parts>
+<parts p-type="2" parts-id="B100059">
+<name>滑动天窗马达总成</name>
+</parts>
+<parts p-type="1" parts-id="63218G">
+<name>滑动天窗左侧饰板</name>
+</parts>
+<parts p-type="1" parts-id="63217G">
+<name>滑动天窗右侧饰板</name>
+</parts>
+<parts p-type="2" parts-id="B200250">
+<name>滑动天窗开关总成</name>
+</parts>
+<parts p-type="2" parts-id="M000083">
+<name>滑动天窗系统</name>
+</parts>
+<parts p-type="2" parts-id="F00016V">
+<name>带按钮起动的智能进入系统</name>
+</parts>
+<parts p-type="1" parts-id="89740A">
+<name>智能车门控制接收器总成</name>
+</parts>
+<parts p-type="2" parts-id="M001029">
+<name>智能门锁</name>
+</parts>
+<parts p-type="2" parts-id="B002067">
+<name>智能 ECU</name>
+</parts>
+<parts p-type="2" parts-id="B844301">
+<name>智能进入和起动系统</name>
+</parts>
+<parts p-type="1" parts-id="89990A">
+<name>智能钥匙 ECU 总成</name>
+</parts>
+<parts p-type="2" parts-id="B800650">
+<name>阳光传感器</name>
+</parts>
+<parts p-type="1" parts-id="64771">
+<name>备胎罩</name>
+</parts>
+<parts p-type="1" parts-id="19100P">
+<name>火花塞</name>
+</parts>
+<parts p-type="2" parts-id="B000144">
+<name>火花塞</name>
+</parts>
+<parts p-type="2" parts-id="B000425">
+<name>火花塞套管</name>
+</parts>
+<parts p-type="1" parts-id="11193">
+<name>火花塞套管衬垫</name>
+</parts>
+<parts p-type="2" parts-id="F0000HO">
+<name>火花塞</name>
+</parts>
+<parts p-type="2" parts-id="F0001XW">
+<name>火花和点火</name>
+</parts>
+<parts p-type="2" parts-id="B800014">
+<name>扬声器</name>
+</parts>
+<parts p-type="2" parts-id="B800324">
+<name>转速传感器</name>
+</parts>
+<parts p-type="1" parts-id="89543">
+<name>左前轮转速传感器</name>
+</parts>
+<parts p-type="1" parts-id="89542">
+<name>右前轮转速传感器</name>
+</parts>
+<parts p-type="1" parts-id="33481">
+<name>车速表主动齿轮 (MTM)</name>
+</parts>
+<parts p-type="1" parts-id="33403K">
+<name>车速表从动齿轮孔盖分总成</name>
+</parts>
+<parts p-type="2" parts-id="B000213">
+<name>螺旋电缆</name>
+</parts>
+<parts p-type="1" parts-id="84306">
+<name>螺旋电缆分总成</name>
+</parts>
+<parts p-type="2" parts-id="B802010">
+<name>螺旋电缆分总成</name>
+</parts>
+<parts p-type="1" parts-id="84307">
+<name>带传感器的螺旋电缆分总成</name>
+</parts>
+<parts p-type="2" parts-id="B800000">
+<name>SRS 警告灯</name>
+</parts>
+<parts p-type="1" parts-id="48811">
+<name>前稳定杆</name>
+</parts>
+<parts p-type="2" parts-id="B000145">
+<name>起动机</name>
+</parts>
+<parts p-type="1" parts-id="28160">
+<name>起动机电枢总成</name>
+</parts>
+<parts p-type="1" parts-id="28100">
+<name>起动机总成</name>
+</parts>
+<parts p-type="2" parts-id="B200032">
+<name>起动机电刷架总成</name>
+</parts>
+<parts p-type="1" parts-id="28021">
+<name>起动机中间轴承离合器分总成</name>
+</parts>
+<parts p-type="2" parts-id="B200048">
+<name>起动机换向器端架总成</name>
+</parts>
+<parts p-type="1" parts-id="28300">
+<name>起动机继电器总成</name>
+</parts>
+<parts p-type="2" parts-id="B009014">
+<name>起动机信号电路</name>
+</parts>
+<parts p-type="2" parts-id="B281200">
+<name>起动机磁轭总成</name>
+</parts>
+<parts p-type="2" parts-id="J100006">
+<name>起动系统</name>
+</parts>
+<parts p-type="2" parts-id="B895100">
+<name>转向角传感器</name>
+</parts>
+<parts p-type="2" parts-id="B980041">
+<name>转向角传感器</name>
+</parts>
+<parts p-type="2" parts-id="A452500">
+<name>转向柱总成</name>
+</parts>
+<parts p-type="1" parts-id="45287">
+<name>转向柱下罩</name>
+</parts>
+<parts p-type="1" parts-id="45286B">
+<name>转向柱上罩</name>
+</parts>
+<parts p-type="1" parts-id="45025D">
+<name>转向柱 1 号孔盖分总成</name>
+</parts>
+<parts p-type="2" parts-id="F00009X">
+<name>转向机</name>
+</parts>
+<parts p-type="1" parts-id="45510">
+<name>转向机总成</name>
+</parts>
+<parts p-type="1" parts-id="45221">
+<name>转向中间轴</name>
+</parts>
+<parts p-type="1" parts-id="45260">
+<name>2 号转向中间轴总成</name>
+</parts>
+<parts p-type="2" parts-id="B432110">
+<name>转向节</name>
+</parts>
+<parts p-type="1" parts-id="43212">
+<name>左转向节</name>
+</parts>
+<parts p-type="2" parts-id="B500170">
+<name>转向拉杆总成</name>
+</parts>
+<parts p-type="2" parts-id="J400033">
+<name>转向传动机构</name>
+</parts>
+<parts p-type="2" parts-id="B002935">
+<name>转向锁</name>
+</parts>
+<parts p-type="1" parts-id="45020A">
+<name>转向锁执行器总成</name>
+</parts>
+<parts p-type="2" parts-id="B400273">
+<name>转向锁 ECU</name>
+</parts>
+<parts p-type="2" parts-id="M000204">
+<name>转向锁止系统</name>
+</parts>
+<parts p-type="2" parts-id="F0003W2">
+<name>方向盘衬垫</name>
+</parts>
+<parts p-type="2" parts-id="F0004AS">
+<name>方向盘衬垫开关</name>
+</parts>
+<parts p-type="1" parts-id="84250A">
+<name>方向盘衬垫开关总成</name>
+</parts>
+<parts p-type="1" parts-id="45535A">
+<name>转向齿条防尘套卡夹</name>
+</parts>
+<parts p-type="1" parts-id="45535B">
+<name>转向齿条防尘套卡子</name>
+</parts>
+<parts p-type="1" parts-id="45535">
+<name>转向齿条 1 号防尘套</name>
+</parts>
+<parts p-type="1" parts-id="45536">
+<name>转向齿条 2 号防尘套</name>
+</parts>
+<parts p-type="2" parts-id="M000079">
+<name>转向系统</name>
+</parts>
+<parts p-type="2" parts-id="F0000HC">
+<name>方向盘</name>
+</parts>
+<parts p-type="1" parts-id="45100">
+<name>方向盘总成</name>
+</parts>
+<parts p-type="2" parts-id="B451998">
+<name>方向盘总成</name>
+</parts>
+<parts p-type="2" parts-id="B400093">
+<name>方向盘中心点</name>
+</parts>
+<parts p-type="1" parts-id="45186">
+<name>方向盘 2 号下盖</name>
+</parts>
+<parts p-type="1" parts-id="45116">
+<name>方向盘 1 号装饰件</name>
+</parts>
+<parts p-type="2" parts-id="A45A001">
+<name>方向盘位置</name>
+</parts>
+<parts p-type="2" parts-id="F0002IQ">
+<name>立体声插座适配器总成</name>
+</parts>
+<parts p-type="1" parts-id="86190C">
+<name>1 号立体声插座适配器总成</name>
+</parts>
+<parts p-type="1" parts-id="11420">
+<name>加强曲轴箱总成</name>
+</parts>
+<parts p-type="1" parts-id="84340">
+<name>刹车灯开关总成</name>
+</parts>
+<parts p-type="1" parts-id="84345">
+<name>刹车灯开关座调节器</name>
+</parts>
+<parts p-type="2" parts-id="F0003ZB">
+<name>刹车灯开关</name>
+</parts>
+<parts p-type="2" parts-id="B843100">
+<name>刹车灯开关总成</name>
+</parts>
+<parts p-type="2" parts-id="F0001X9">
+<name>刹车灯开关工作情况</name>
+</parts>
+<parts p-type="2" parts-id="B000147">
+<name>直销</name>
+</parts>
+<parts p-type="2" parts-id="B000148">
+<name>双头螺栓</name>
+</parts>
+<parts p-type="1" parts-id="88704">
+<name>吸入软管分总成</name>
+</parts>
+<parts p-type="1" parts-id="88707">
+<name>吸入管分总成</name>
+</parts>
+<parts p-type="2" parts-id="F0000HB">
+<name>遮阳板</name>
+</parts>
+<parts p-type="1" parts-id="63306">
+<name>遮阳帘饰板分总成</name>
+</parts>
+<parts p-type="2" parts-id="F00022I">
+<name>周围环境</name>
+</parts>
+<parts p-type="2" parts-id="D1002IZ">
+<name>悬架</name>
+</parts>
+<parts p-type="2" parts-id="B480000">
+<name>悬架零件</name>
+</parts>
+<parts p-type="2" parts-id="B800093">
+<name>开关</name>
+</parts>
+<parts p-type="1" parts-id="55446A">
+<name>1 号开关孔座</name>
+</parts>
+<parts p-type="1" parts-id="55447C">
+<name>2 号开关孔座</name>
+</parts>
+<parts p-type="1" parts-id="84523A">
+<name>开关 2 号线束</name>
+</parts>
+<parts p-type="1" parts-id="75741E">
+<name>徽标</name>
+</parts>
+<parts p-type="2" parts-id="B090002">
+<name>症状</name>
+</parts>
+<parts p-type="1" parts-id="33365">
+<name>1 号同步啮合换档键</name>
+</parts>
+<parts p-type="1" parts-id="33366">
+<name>2 号同步啮合换档键</name>
+</parts>
+<parts p-type="1" parts-id="33394">
+<name>3 号同步啮合换档键</name>
+</parts>
+<parts p-type="2" parts-id="B898510">
+<name>同步器锁环</name>
+</parts>
+<parts p-type="1" parts-id="33369">
+<name>同步器 3 号锁环</name>
+</parts>
+<parts p-type="1" parts-id="33396C">
+<name>同步器 5 号锁环 (MTM)</name>
+</parts>
+<parts p-type="1" parts-id="33037B">
+<name>同步器 1 号锁环组件</name>
+</parts>
+<parts p-type="1" parts-id="33038E">
+<name>同步器 2 号锁环组件</name>
+</parts>
+<parts p-type="2" parts-id="B800849">
+<name>系统检查</name>
+</parts>
+<parts p-type="2" parts-id="B803111">
+<name>系统初始化</name>
+</parts>
+</index>
+<index label="T">
+<parts p-type="1" parts-id="81550H">
+<name>尾灯和刹车灯灯泡</name>
+</parts>
+<parts p-type="1" parts-id="81550F">
+<name>尾灯灯泡</name>
+</parts>
+<parts p-type="2" parts-id="F0003SJ">
+<name>TECHSTREAM</name>
+</parts>
+<parts p-type="1" parts-id="86730A">
+<name>电话话筒总成</name>
+</parts>
+<parts p-type="2" parts-id="F00002I">
+<name>电视摄像机</name>
+</parts>
+<parts p-type="1" parts-id="86790D">
+<name>右后电视摄像机总成</name>
+</parts>
+<parts p-type="1" parts-id="83950M">
+<name>警告灯总成</name>
+</parts>
+<parts p-type="1" parts-id="89429F">
+<name>温度传感器</name>
+</parts>
+<parts p-type="2" parts-id="B895029">
+<name>端子电压</name>
+</parts>
+<parts p-type="2" parts-id="B009114">
+<name>测试模式检查</name>
+</parts>
+<parts p-type="1" parts-id="88790B">
+<name>热敏电阻总成</name>
+</parts>
+<parts p-type="1" parts-id="16331A">
+<name>节温器</name>
+</parts>
+<parts p-type="2" parts-id="J100026">
+<name>节温器</name>
+</parts>
+<parts p-type="2" parts-id="B191019">
+<name>节气门体</name>
+</parts>
+<parts p-type="1" parts-id="22210">
+<name>节气门体总成</name>
+</parts>
+<parts p-type="2" parts-id="J000054">
+<name>节气门体总成</name>
+</parts>
+<parts p-type="1" parts-id="22271">
+<name>节气门体衬垫</name>
+</parts>
+<parts p-type="1" parts-id="45047">
+<name>左侧横拉杆接头分总成</name>
+</parts>
+<parts p-type="1" parts-id="45046">
+<name>右侧横拉杆接头分总成</name>
+</parts>
+<parts p-type="2" parts-id="A113020">
+<name>正时链条盖分总成</name>
+</parts>
+<parts p-type="1" parts-id="11302A">
+<name>正时链条或正时皮带盖油封</name>
+</parts>
+<parts p-type="1" parts-id="11302">
+<name>正时链条或正时皮带盖分总成</name>
+</parts>
+<parts p-type="2" parts-id="D1000JZ">
+<name>轮胎和车轮</name>
+</parts>
+<parts p-type="2" parts-id="J400020">
+<name>轮胎和车轮系统</name>
+</parts>
+<parts p-type="2" parts-id="F0000H2">
+<name>轮胎换位</name>
+</parts>
+<parts p-type="2" parts-id="B486052">
+<name>轮胎</name>
+</parts>
+<parts p-type="2" parts-id="B895079">
+<name>4 个轮胎尺寸相同</name>
+</parts>
+<parts p-type="2" parts-id="B000179">
+<name>前束</name>
+</parts>
+<parts p-type="1" parts-id="73219">
+<name>舌片挡块</name>
+</parts>
+<parts p-type="2" parts-id="F0004CU">
+<name>舌片挡块</name>
+</parts>
+<parts p-type="1" parts-id="32000A">
+<name>变矩器离合器总成</name>
+</parts>
+<parts p-type="2" parts-id="B000236">
+<name>总预紧力</name>
+</parts>
+<parts p-type="2" parts-id="B803010">
+<name>触摸式面板</name>
+</parts>
+<parts p-type="2" parts-id="B800435">
+<name>触摸式开关</name>
+</parts>
+<parts p-type="2" parts-id="F00034B">
+<name>丰田驻车辅助传感器系统</name>
+</parts>
+<parts p-type="1" parts-id="35145D">
+<name>传动桥壳衬垫</name>
+</parts>
+<parts p-type="2" parts-id="F0005QR">
+<name>传动桥壳螺塞</name>
+</parts>
+<parts p-type="2" parts-id="B980011">
+<name>传动桥油油位</name>
+</parts>
+<parts p-type="1" parts-id="35111C">
+<name>传动桥外壳</name>
+</parts>
+<parts p-type="2" parts-id="F0005QS">
+<name>传动桥壳塞</name>
+</parts>
+<parts p-type="2" parts-id="B000341">
+<name>传动桥油</name>
+</parts>
+<parts p-type="1" parts-id="35106L">
+<name>传动桥油 (CVT) 底壳分总成</name>
+</parts>
+<parts p-type="2" parts-id="F0002PG">
+<name>带传动桥油的传动桥油底壳</name>
+</parts>
+<parts p-type="2" parts-id="F0002PH">
+<name>带传动桥油的传动桥</name>
+</parts>
+<parts p-type="1" parts-id="35165B">
+<name>变速器壳 1 号挡片</name>
+</parts>
+<parts p-type="2" parts-id="B320021">
+<name>变速器壳塞</name>
+</parts>
+<parts p-type="1" parts-id="35150B">
+<name>变速器壳塞总成</name>
+</parts>
+<parts p-type="1" parts-id="33361">
+<name>变速器 1 号离合器毂</name>
+</parts>
+<parts p-type="1" parts-id="33362">
+<name>变速器 2 号离合器毂</name>
+</parts>
+<parts p-type="1" parts-id="33393">
+<name>变速器 3 号离合器毂</name>
+</parts>
+<parts p-type="1" parts-id="33820B">
+<name>变速器控制拉索总成</name>
+</parts>
+<parts p-type="1" parts-id="33823">
+<name>变速器 1 号控制拉索支架</name>
+</parts>
+<parts p-type="2" parts-id="B338300">
+<name>变速器控制选档拉索总成</name>
+</parts>
+<parts p-type="2" parts-id="B500165">
+<name>变速器控制换档拉索</name>
+</parts>
+<parts p-type="2" parts-id="F00005J">
+<name>变速器控制开关</name>
+</parts>
+<parts p-type="1" parts-id="33364">
+<name>变速器 2 号接合套</name>
+</parts>
+<parts p-type="1" parts-id="33395">
+<name>变速器 3 号接合套</name>
+</parts>
+<parts p-type="1" parts-id="33449">
+<name>变速器磁铁</name>
+</parts>
+<parts p-type="1" parts-id="33449B">
+<name>变速器磁铁</name>
+</parts>
+<parts p-type="1" parts-id="33493C">
+<name>变速器油冷却器</name>
+</parts>
+<parts p-type="1" parts-id="33176B">
+<name>变速器油 (MTM) 分离器</name>
+</parts>
+<parts p-type="1" parts-id="89413B">
+<name>变速器转速传感器</name>
+</parts>
+<parts p-type="1" parts-id="84610F">
+<name>变速器换档开关总成</name>
+</parts>
+<parts p-type="1" parts-id="35410J">
+<name>变速器阀体总成</name>
+</parts>
+<parts p-type="1" parts-id="82125M">
+<name>变速器线束</name>
+</parts>
+<parts p-type="1" parts-id="89745A">
+<name>发射器电池</name>
+</parts>
+<parts p-type="1" parts-id="89745C">
+<name>发射器电池</name>
+</parts>
+<parts p-type="2" parts-id="J909872">
+<name>发射器电池</name>
+</parts>
+<parts p-type="2" parts-id="F0003HZ">
+<name>应答器钥匙放大器</name>
+</parts>
+<parts p-type="1" parts-id="89782">
+<name>应答器钥匙线圈</name>
+</parts>
+<parts p-type="1" parts-id="89780">
+<name>应答器钥匙 ECU 总成</name>
+</parts>
+<parts p-type="1" parts-id="12311A">
+<name>横置发动机悬置支架</name>
+</parts>
+<parts p-type="1" parts-id="12321A">
+<name>横置发动机悬置支架</name>
+</parts>
+<parts p-type="1" parts-id="12325A">
+<name>横置发动机悬置支架</name>
+</parts>
+<parts p-type="1" parts-id="12361A">
+<name>横置发动机悬置隔振垫</name>
+</parts>
+<parts p-type="1" parts-id="12372A">
+<name>横置发动机悬置隔振垫</name>
+</parts>
+<parts p-type="2" parts-id="B000286">
+<name>对缺火进行故障排除</name>
+</parts>
+</index>
+<index label="U">
+<parts p-type="2" parts-id="B009085">
+<name>超声波传感器</name>
+</parts>
+<parts p-type="1" parts-id="89348D">
+<name>超声波传感器卡子</name>
+</parts>
+<parts p-type="1" parts-id="89341A">
+<name>1 号超声波传感器</name>
+</parts>
+<parts p-type="1" parts-id="89348">
+<name>1 号超声波传感器固定架</name>
+</parts>
+<parts p-type="1" parts-id="84052">
+<name>未锁警告开关总成</name>
+</parts>
+<parts p-type="2" parts-id="J000024">
+<name>发动机罩下部</name>
+</parts>
+<parts p-type="1" parts-id="44774">
+<name>连接管软管接头</name>
+</parts>
+<parts p-type="2" parts-id="B850520">
+<name>未锁警告开关</name>
+</parts>
+<parts p-type="2" parts-id="B840520">
+<name>未锁警告开关总成</name>
+</parts>
+<parts p-type="2" parts-id="B500030">
+<name>上仪表板</name>
+</parts>
+<parts p-type="2" parts-id="F00026A">
+<name>上仪表板</name>
+</parts>
+<parts p-type="2" parts-id="B800243">
+<name>使用模拟法进行检查</name>
+</parts>
+<parts p-type="2" parts-id="F00028K">
+<name>使用另一辆蓝牙兼容车辆</name>
+</parts>
+</index>
+<index label="V">
+<parts p-type="2" parts-id="B100032">
+<name>多楔带</name>
+</parts>
+<parts p-type="1" parts-id="16620">
+<name>多楔带张紧器总成</name>
+</parts>
+<parts p-type="1" parts-id="25761B">
+<name>1 号真空传输软管</name>
+</parts>
+<parts p-type="2" parts-id="B000161">
+<name>真空传感器</name>
+</parts>
+<parts p-type="2" parts-id="F00049Q">
+<name>真空传感器</name>
+</parts>
+<parts p-type="1" parts-id="89426">
+<name>真空传感器支架</name>
+</parts>
+<parts p-type="1" parts-id="25719">
+<name>真空稳压罐</name>
+</parts>
+<parts p-type="1" parts-id="17650E">
+<name>真空开关阀</name>
+</parts>
+<parts p-type="2" parts-id="B001051">
+<name>真空开关阀</name>
+</parts>
+<parts p-type="1" parts-id="25860">
+<name>1 号真空开关阀总成</name>
+</parts>
+<parts p-type="2" parts-id="B000909">
+<name>真空罐</name>
+</parts>
+<parts p-type="2" parts-id="B100006">
+<name>阀</name>
+</parts>
+<parts p-type="2" parts-id="B001374">
+<name>气门导管衬套油膜间隙</name>
+</parts>
+<parts p-type="1" parts-id="13750">
+<name>气门间隙调节器总成</name>
+</parts>
+<parts p-type="1" parts-id="13801">
+<name>1 号气门摇臂分总成</name>
+</parts>
+<parts p-type="2" parts-id="B100044">
+<name>气门座</name>
+</parts>
+<parts p-type="2" parts-id="B000166">
+<name>气门座</name>
+</parts>
+<parts p-type="1" parts-id="13734">
+<name>气门弹簧座</name>
+</parts>
+<parts p-type="1" parts-id="13716">
+<name>气门杆盖</name>
+</parts>
+<parts p-type="1" parts-id="13711A">
+<name>气门杆油封或 O 形圈</name>
+</parts>
+<parts p-type="2" parts-id="B163361">
+<name>气门杆油封</name>
+</parts>
+<parts p-type="1" parts-id="81340">
+<name>梳妆灯总成</name>
+</parts>
+<parts p-type="1" parts-id="81340B">
+<name>梳妆灯灯泡</name>
+</parts>
+<parts p-type="2" parts-id="F0000UZ">
+<name>梳妆灯</name>
+</parts>
+<parts p-type="2" parts-id="F000254">
+<name>VC 输出电路</name>
+</parts>
+<parts p-type="2" parts-id="B800515">
+<name>车辆</name>
+</parts>
+<parts p-type="2" parts-id="B872002">
+<name>车身</name>
+</parts>
+<parts p-type="2" parts-id="B000870">
+<name>车辆状况</name>
+</parts>
+<parts p-type="2" parts-id="B001934">
+<name>车辆高度</name>
+</parts>
+<parts p-type="2" parts-id="B800680">
+<name>车辆信号</name>
+</parts>
+<parts p-type="2" parts-id="B700227">
+<name>车辆型号</name>
+</parts>
+<parts p-type="1" parts-id="12261">
+<name>通风软管</name>
+</parts>
+<parts p-type="1" parts-id="12262">
+<name>2 号通风软管</name>
+</parts>
+<parts p-type="1" parts-id="12204">
+<name>通风阀分总成</name>
+</parts>
+<parts p-type="1" parts-id="12211">
+<name>1 号通风箱</name>
+</parts>
+<parts p-type="1" parts-id="72495">
+<name>左侧垂直调节手柄</name>
+</parts>
+<parts p-type="2" parts-id="F00026X">
+<name>VIN</name>
+</parts>
+<parts p-type="2" parts-id="F00028I">
+<name>语音识别引导“ON”</name>
+</parts>
+<parts p-type="1" parts-id="84988L">
+<name>VSC OFF 开关</name>
+</parts>
+<parts p-type="2" parts-id="B898421">
+<name>VSC OFF 开关</name>
+</parts>
+</index>
+<index label="W">
+<parts p-type="1" parts-id="11432A">
+<name>1 号带头锥螺纹塞</name>
+</parts>
+<parts p-type="1" parts-id="11117B">
+<name>2 号带头锥螺纹塞</name>
+</parts>
+<parts p-type="1" parts-id="13101">
+<name>带销的活塞分总成</name>
+</parts>
+<parts p-type="1" parts-id="88310">
+<name>带皮带轮压缩机总成</name>
+</parts>
+<parts p-type="2" parts-id="F0000H7">
+<name>警告灯和蜂鸣器</name>
+</parts>
+<parts p-type="2" parts-id="F00017W">
+<name>清洗器马达</name>
+</parts>
+<parts p-type="2" parts-id="F0003YD">
+<name>清洗器喷嘴</name>
+</parts>
+<parts p-type="1" parts-id="85035">
+<name>清洗器喷嘴分总成</name>
+</parts>
+<parts p-type="1" parts-id="16261">
+<name>水旁通软管</name>
+</parts>
+<parts p-type="1" parts-id="16267">
+<name>3 号水旁通软管</name>
+</parts>
+<parts p-type="1" parts-id="16267K">
+<name>3 号水旁通软管</name>
+</parts>
+<parts p-type="1" parts-id="16282">
+<name>5 号水旁通软管</name>
+</parts>
+<parts p-type="1" parts-id="16268">
+<name>1 号水旁通管</name>
+</parts>
+<parts p-type="1" parts-id="55735A">
+<name>左侧防水片</name>
+</parts>
+<parts p-type="1" parts-id="16575C">
+<name>1 号水软管卡夹支架</name>
+</parts>
+<parts p-type="1" parts-id="16321">
+<name>进水口</name>
+</parts>
+<parts p-type="1" parts-id="16262">
+<name>进水软管</name>
+</parts>
+<parts p-type="1" parts-id="16323">
+<name>进水口壳</name>
+</parts>
+<parts p-type="2" parts-id="B001460">
+<name>水泄漏</name>
+</parts>
+<parts p-type="2" parts-id="B001342">
+<name>水泵</name>
+</parts>
+<parts p-type="2" parts-id="F0003NK">
+<name>波环境</name>
+</parts>
+<parts p-type="2" parts-id="B000183">
+<name>车轮转角</name>
+</parts>
+<parts p-type="2" parts-id="F0005R3">
+<name>方向盘总成</name>
+</parts>
+<parts p-type="2" parts-id="B400106">
+<name>车轮平衡</name>
+</parts>
+<parts p-type="2" parts-id="F0000H1">
+<name>车轮螺母</name>
+</parts>
+<parts p-type="2" parts-id="B980195">
+<name>是否再次输出 DTC</name>
+</parts>
+<parts p-type="2" parts-id="F000232">
+<name>发动机是否起动</name>
+</parts>
+<parts p-type="2" parts-id="F000235">
+<name>零件是否正确安装</name>
+</parts>
+<parts p-type="2" parts-id="J600010">
+<name>车窗除雾器系统</name>
+</parts>
+<parts p-type="2" parts-id="F00015K">
+<name>车窗除雾器加热丝</name>
+</parts>
+<parts p-type="1" parts-id="56117A">
+<name>车窗玻璃粘合剂密封条</name>
+</parts>
+<parts p-type="2" parts-id="J800009">
+<name>车窗玻璃天线引线</name>
+</parts>
+<parts p-type="2" parts-id="B100511">
+<name>左侧风挡玻璃刮水器臂和刮水片总成</name>
+</parts>
+<parts p-type="2" parts-id="B100512">
+<name>右侧风挡玻璃刮水器臂和刮水片总成</name>
+</parts>
+<parts p-type="2" parts-id="F0000H9">
+<name>风挡玻璃除霜器</name>
+</parts>
+<parts p-type="1" parts-id="56111">
+<name>风挡玻璃</name>
+</parts>
+<parts p-type="2" parts-id="B800967">
+<name>风挡玻璃</name>
+</parts>
+<parts p-type="2" parts-id="F0003W6">
+<name>风挡玻璃</name>
+</parts>
+<parts p-type="1" parts-id="56115A">
+<name>风挡玻璃 1 号挡块</name>
+</parts>
+<parts p-type="1" parts-id="56116C">
+<name>风挡玻璃 2 号挡块</name>
+</parts>
+<parts p-type="1" parts-id="75533G">
+<name>风挡玻璃外防护条</name>
+</parts>
+<parts p-type="2" parts-id="F0000HH">
+<name>风挡玻璃清洗液</name>
+</parts>
+<parts p-type="1" parts-id="85310">
+<name>风挡玻璃清洗器马达和泵总成</name>
+</parts>
+<parts p-type="2" parts-id="F0000H8">
+<name>风挡玻璃刮水器和清洗器</name>
+</parts>
+<parts p-type="2" parts-id="F0000H3">
+<name>风挡玻璃刮水器刮水片</name>
+</parts>
+<parts p-type="2" parts-id="B851000">
+<name>风挡玻璃刮水器马达及连杆</name>
+</parts>
+<parts p-type="1" parts-id="85110">
+<name>风挡玻璃刮水器马达总成</name>
+</parts>
+<parts p-type="1" parts-id="84650">
+<name>风挡玻璃刮水器开关总成</name>
+</parts>
+<parts p-type="1" parts-id="85214B">
+<name>左侧刮水器橡胶条</name>
+</parts>
+<parts p-type="2" parts-id="F0003YB">
+<name>刮水器开关</name>
+</parts>
+<parts p-type="1" parts-id="46441A">
+<name>2 号线束调节螺母</name>
+</parts>
+<parts p-type="2" parts-id="B000204">
+<name>线束</name>
+</parts>
+<parts p-type="2" parts-id="B810017">
+<name>线束</name>
+</parts>
+<parts p-type="2" parts-id="B980067">
+<name>线束和每个 ECU</name>
+</parts>
+<parts p-type="2" parts-id="B001362">
+<name>线束卡夹支架</name>
+</parts>
+<parts p-type="2" parts-id="B720156">
+<name>遥控门锁</name>
+</parts>
+<parts p-type="2" parts-id="F0001PN">
+<name>无线门锁蜂鸣器</name>
+</parts>
+<parts p-type="2" parts-id="B908512">
+<name>无线门锁控制功能</name>
+</parts>
+<parts p-type="2" parts-id="J800006">
+<name>无线门锁控制系统</name>
+</parts>
+<parts p-type="2" parts-id="F0004HS">
+<name>工作流程</name>
+</parts>
+<parts p-type="2" parts-id="F000252">
+<name>写入 VIN</name>
+</parts>
+</index>
+<index label="Z">
+<parts p-type="2" parts-id="F0001X6">
+<name>零点校准</name>
+</parts>
+</index>
+</pub>
+</tmc-service-sakuin-index>

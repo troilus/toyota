@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS102">
+    <part type="conn" code="E19,L15,L49">
+      <text>D+ SFR- D- IG2 P+ P- E2 ICL+ ICL- +SL ICR+ ICR- -SL +SR SFL+ BBL+ BBL- -SR BBR+ BBR- PLR+ PRR+ PLR- PRR- SFL- PL+ PL- PR+ PR- CANH CANL E1 SFR+</text>
+      <name>空气囊 ECU 总成</name>
+    </part>
+    <part type="conn" code="E55">
+      <text>CPU ET CAN I/F CANL 5V+B SRS 5V IC IG+ B CANH 5V +B 5V CANH CANL ET IG+ B 5V IC CAN I/F CPU SRS I/F</text>
+      <name>组合仪表总成</name>
+      <name type="inner">LED 驱动器</name>
+      <name type="inner">CAN 控制器</name>
+      <name type="inner">CAN 控制器</name>
+      <name type="inner">LED 驱动器</name>
+    </part>
+    <part type="conn" code="L14">
+      <text>ICL+ ICL-</text>
+      <name>左侧帘式空气囊总成</name>
+    </part>
+    <part type="conn" code="L48">
+      <text>ICR+ ICR-</text>
+      <name>右侧帘式空气囊总成</name>
+    </part>
+    <part type="conn" code="E18">
+      <text>DLC3 CANH CANL</text>
+    </part>
+    <part type="conn" code="A40">
+      <text>ECM CANH CANL</text>
+    </part>
+    <part type="conn" code="A8">
+      <text>+SL -SL</text>
+      <name>左前空气囊传感器</name>
+    </part>
+    <part type="conn" code="A18">
+      <text>+SR -SR</text>
+      <name>右前空气囊传感器</name>
+    </part>
+    <part type="conn" code="e1">
+      <text>SFL+ SFL-</text>
+      <name>前排左侧座椅空气囊总成</name>
+    </part>
+    <part type="conn" code="f1">
+      <text>SFR+ SFR-</text>
+      <name>前排右侧座椅空气囊总成</name>
+    </part>
+    <part type="conn" code="L10">
+      <text>L- L+</text>
+      <name>前排左侧座椅外安全带总成</name>
+      <name type="inner">预紧器</name>
+    </part>
+    <part type="conn" code="L44">
+      <text>R- R+</text>
+      <name>前排右侧座椅外安全带总成</name>
+      <name type="inner">预紧器</name>
+    </part>
+    <part type="conn" code="d1">
+      <text>P- P+</text>
+      <name>不带车门空气囊的仪表板乘客空气囊总成</name>
+    </part>
+    <part type="conn" code="A39">
+      <name>1 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E74">
+      <name>2 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="L13">
+      <text>BCL+ BCL-</text>
+      <name>左后空气囊传感器</name>
+    </part>
+    <part type="conn" code="L47">
+      <text>BCR+ BCR-</text>
+      <name>右后空气囊传感器</name>
+    </part>
+    <part type="conn" code="L40">
+      <text>RL- RL+</text>
+      <name>后排左侧座椅外安全带总成</name>
+      <name type="inner">预紧器</name>
+    </part>
+    <part type="conn" code="L53">
+      <text>RR- RR+</text>
+      <name>后排右侧座椅外安全带总成</name>
+      <name type="inner">预紧器</name>
+    </part>
+    <part type="conn" code="L11,L12">
+      <text>BBL+ BCL+ BBL- BCL-</text>
+      <name>左侧侧空气囊传感器总成</name>
+    </part>
+    <part type="conn" code="L45,L46">
+      <text>BBR+ BCR+ BBR- BCR-</text>
+      <name>右侧侧空气囊传感器总成</name>
+    </part>
+    <part type="conn" code="z2">
+      <name>螺旋电缆分总成、驾驶员侧点火管（喇叭按钮总成）</name>
+    </part>
+    <part type="conn" code="E14,z2">
+      <text>D- D+</text>
+      <name>螺旋电缆分总成、驾驶员侧点火管（喇叭按钮总成）</name>
+    </part>
+    <part type="fuse" code="FUSE42">
+      <text>A/B</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>MET</text>
+    </part>
+  </ttl>
+</EWDSearch>

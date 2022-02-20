@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <connector type="conn" code="E71" figID="3">
+    <pin no="12">
+      <line id="1" color="W-B">
+        <connector type="gp" code="ED" figID="10">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E71" figID="3">
+    <pin no="18">
+      <line id="2" color="W-B">
+        <connector type="w2w" code="EF1" sex="female" figID="7">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="EF1" sex="male" figID="7">
+    <pin no="6">
+      <line id="3" color="W-B">
+        <connector type="conn" code="F3" figID="1">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="EF1" sex="male" figID="8">
+    <pin no="5">
+      <line id="4" color="SB">
+        <connector type="conn" code="F3" figID="1">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3C" figID="6">
+    <pin no="50">
+      <line id="5" color="SB">
+        <connector type="w2w" code="EF1" sex="female" figID="8">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE5" figID="2">
+    <pin>
+      <line id="6" color="G">
+        <connector type="jbc" code="3A" figID="6">
+          <pin no="43"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="EF1" sex="male" figID="9">
+    <pin no="4">
+      <line id="7" color="GR">
+        <connector type="conn" code="F3" figID="1">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3D" figID="5">
+    <pin no="31">
+      <line id="8" color="GR">
+        <connector type="w2w" code="EF1" sex="female" figID="9">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

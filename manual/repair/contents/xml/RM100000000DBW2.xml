@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_57">
+<name>电源/网络</name>
+<section id="_024003">
+<name>网络</name>
+<ttl id="_0116996">
+<name>LIN 通信系统</name>
+<para category="C" id="RM100000000DBW2">
+<dtccode>B2325</dtccode>
+<dtcname>LIN 通信总线故障</dtcname>
+<subpara category="03" id="RM100000000DBW2_01">
+<name>描述</name>
+<content5>
+<ptxt>主车身 ECU（多路网络车身 ECU）监视所有连接到车门总线的 ECU 之间的通信。主车身 ECU（多路网络车身 ECU）以 2.6 秒间隔连续 3 次检测到所有连接到车门总线的 ECU 出现通信故障时，将存储 DTC B2325。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="4">
+<colspec colname="1" colwidth="1.77in"/>
+<colspec colname="2" colwidth="1.77in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B2325</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>LIN 通信总线故障</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>主车身 ECU（多路网络车身 ECU）连续 3 次检测到连接到车门总线的 ECU 通信故障。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>电动窗升降器马达总成（驾驶员车门）*1</ptxt>
+</item>
+<item>
+<ptxt>滑动天窗 ECU（滑动天窗主动齿轮分总成）*2</ptxt>
+</item>
+<item>
+<ptxt>主车身 ECU（多路网络车身 ECU）</ptxt>
+</item>
+<item>
+<ptxt>驾驶员侧接线盒总成</ptxt>
+</item>
+<item>
+<ptxt>线束或连接器</ptxt>
+</item>
+<item>
+<ptxt>FR DOOR 保险丝*1</ptxt>
+</item>
+<item>
+<ptxt>S/ROOF 保险丝*2</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*1：带防夹功能</ptxt>
+</item>
+<item>
+<ptxt>*2：带滑动天窗系统</ptxt>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DBW2_02">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="B352025E36" height="6.850762795in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DBW2_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>进行下列程序前，先检查与此系统相关电路的保险丝。</ptxt>
+</item>
+<item>
+<ptxt>更换或拆下并重新安装电动窗升降器马达总成（驾驶员车门）时，需要初始化。*</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V8" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<list2 type="nonmark">
+<item>
+<ptxt>*：带防夹功能</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>更换或拆下并重新安装滑动天窗 ECU（滑动天窗主动齿轮分总成）时，需要初始化。*</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBEL" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<list2 type="nonmark">
+<item>
+<ptxt>*：带滑动天窗系统</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>执行此检查前，检查并确认未输出 DTC B1273*1 或 B2321*2。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBVX" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<list2 type="nonmark">
+<item>
+<ptxt>*1：带滑动天窗系统</ptxt>
+<ptxt>*2：带防夹功能</ptxt>
+</item>
+</list2>
+</list1>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DBW2_08">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DBW2_08_0050">
+<testtitle>确认车型</testtitle>
+<content6>
+<test1>
+<ptxt>选择要检查的车型。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>带防夹功能和滑动天窗系统的车型</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>带滑动天窗系统但不带防夹功能的车型。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>不带防夹功能和滑动天窗系统的车型</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DBW2_08_0006"/>
+</result>
+<result cellposition="1-6" label="2">
+<action actiontype="next" cellposition="2-6" childid="RM100000000DBW2_08_0051"/>
+</result>
+<result cellposition="1-11" label="3">
+<action actiontype="next" cellposition="2-11" childid="RM100000000DBW2_08_0061"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DBW2_08_0006">
+<testtitle>检查驾驶员侧接线盒总成</testtitle>
+<content6>
+<test1>
+<ptxt>拆下驾驶员侧接线盒总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="B330524C13" height="2.799876969in" width="7.168479331in"/>
+<callout>
+<table pgwide="1" type="caption-table">
+<tgroup cols="4">
+<colspec colname="col1" colnum="1" colwidth="0.72in"/>
+<colspec colname="col2" colnum="2" colwidth="2.87in"/>
+<colspec colname="col3" colnum="3" colwidth="0.72in"/>
+<colspec colname="col4" colnum="4" colwidth="2.87in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>未连接线束的零部件</ptxt>
+<ptxt>（驾驶员侧接线盒总成）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>从驾驶员侧接线盒总成上拆下主车身 ECU（多路网络车身 ECU）。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<atten4>
+<ptxt>该检查用来检查驾驶员侧接线盒总成内用于将线束连接到内置主车身 ECU（多路网络车身 ECU）的 LIN 通信线路。</ptxt>
+</atten4>
+<spec type="resistance">
+<title>标准电阻</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.36in"/>
+<colspec colname="col2" colwidth="2.36in"/>
+<colspec colname="col3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>3C-23 - MB-16 (LIN2)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>3C-22 - MB-16 (LIN2)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000DBW2_08_0008"/>
+</result>
+<result cellposition="2-5" label="2">
+<action actiontype="end" cellposition="3-5">
+<actiontitle>更换驾驶员侧接线盒总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000DBW2_08_0008">
+<testtitle>检查线束和连接器（驾驶员侧接线盒总成 - 各 ECU）</testtitle>
+<content6>
+<test1>
+<ptxt>断开电动窗升降器马达总成（驾驶员车门）连接器 H10。</ptxt>
+</test1>
+<test1>
+<ptxt>断开滑动天窗 ECU（滑动天窗主动齿轮分总成）连接器 O3。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<atten3>
+<ptxt>进行检查前，确保各 ECU 处于休眠模式。 在不操作任何开关的情况下将点火开关从 ON 位置切换至 OFF 位置并等待 180 秒或更长时间，以进入休眠模式。</ptxt>
+</atten3>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>3C-23 - H10-9 (LIN)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>3C-22 - O3-11 (MPX1)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>3C-23 或 H10-9 (LIN) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>3C-22 或 O3-11 (MPX1) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000DBW2_08_0018"/>
+</result>
+<result cellposition="3-4" label="2">
+<action actiontype="end" cellposition="4-4">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000DBW2_08_0018">
+<testtitle>检查电动窗升降器马达总成（驾驶员车门）</testtitle>
+<content6>
+<test1>
+<ptxt>将主车身 ECU（多路网络车身 ECU）安装到驾驶员侧接线盒总成上。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTF" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>安装驾驶员侧接线盒总成。</ptxt>
+</test1>
+<test1>
+<ptxt>重新连接滑动天窗 ECU（滑动天窗主动齿轮分总成）连接器 O3。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBVX" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; Main Body &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="123"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">123</app-param>
+<app-param name="ecu-name">Main Body</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>经过 10 秒后，检查是否再次输出相同 DTC。</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Main Body &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="123"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">123</app-param>
+<app-param name="ecu-name">Main Body</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出 DTC B2325</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>未输出 DTC B2325</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="4">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000DBW2_08_0023"/>
+</result>
+<result cellposition="4-3" label="4">
+<action actiontype="end" cellposition="5-3">
+<actiontitle>更换电动窗升降器马达总成（驾驶员车门）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8WE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000DBW2_08_0023">
+<testtitle>检查滑动天窗 ECU（滑动天窗主动齿轮分总成）</testtitle>
+<content6>
+<test1>
+<ptxt>重新连接电动窗升降器马达总成（驾驶员车门）连接器 H10。</ptxt>
+</test1>
+<test1>
+<ptxt>断开滑动天窗 ECU（滑动天窗主动齿轮分总成）连接器 O3。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBVX" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; Main Body &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="123"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">123</app-param>
+<app-param name="ecu-name">Main Body</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>经过 10 秒后，检查是否再次输出相同 DTC。</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Main Body &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="123"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">123</app-param>
+<app-param name="ecu-name">Main Body</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出 DTC B2325</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>未输出 DTC B2325</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="end" cellposition="6-1">
+<actiontitle>更换主车身 ECU（多路网络车身 ECU）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="5-2" label="3">
+<action actiontype="end" cellposition="6-2">
+<actiontitle>更换滑动天窗 ECU（滑动天窗主动齿轮分总成）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCZO" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-6" id="RM100000000DBW2_08_0051">
+<testtitle>检查驾驶员侧接线盒总成</testtitle>
+<content6>
+<test1>
+<ptxt>拆下驾驶员侧接线盒总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="B330524C13" height="2.799876969in" width="7.168479331in"/>
+<callout>
+<table pgwide="1" type="caption-table">
+<tgroup cols="4">
+<colspec colname="col1" colnum="1" colwidth="0.72in"/>
+<colspec colname="col2" colnum="2" colwidth="2.87in"/>
+<colspec colname="col3" colnum="3" colwidth="0.72in"/>
+<colspec colname="col4" colnum="4" colwidth="2.87in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>未连接线束的零部件</ptxt>
+<ptxt>（驾驶员侧接线盒总成）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>从驾驶员侧接线盒总成上拆下主车身 ECU（多路网络车身 ECU）。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<atten4>
+<ptxt>该检查用来检查驾驶员侧接线盒总成内用于将线束连接到内置主车身 ECU（多路网络车身 ECU）的 LIN 通信线路。</ptxt>
+</atten4>
+<spec type="resistance">
+<title>标准电阻</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.36in"/>
+<colspec colname="col2" colwidth="2.36in"/>
+<colspec colname="col3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>3C-22 - MB-16 (LIN2)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-6" label="1">
+<action actiontype="next" cellposition="3-6" childid="RM100000000DBW2_08_0052"/>
+</result>
+<result cellposition="2-10" label="2">
+<action actiontype="end" cellposition="3-10">
+<actiontitle>更换驾驶员侧接线盒总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-6" id="RM100000000DBW2_08_0052">
+<testtitle>检查线束和连接器（驾驶员侧接线盒总成 - 滑动天窗 ECU（滑动天窗主动齿轮分总成））</testtitle>
+<content6>
+<test1>
+<ptxt>断开滑动天窗 ECU（滑动天窗主动齿轮分总成）连接器 O3。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<atten3>
+<ptxt>进行检查前，确保各 ECU 处于休眠模式。 在不操作任何开关的情况下将点火开关从 ON 位置切换至 OFF 位置并等待 180 秒或更长时间，以进入休眠模式。</ptxt>
+</atten3>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>3C-22 - O3-11 (MPX1)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>3C-22 或 O3-11 (MPX1) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-6" label="1">
+<action actiontype="next" cellposition="4-6" childid="RM100000000DBW2_08_0063"/>
+</result>
+<result cellposition="3-9" label="2">
+<action actiontype="end" cellposition="4-9">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-6" id="RM100000000DBW2_08_0063">
+<testtitle>检查滑动天窗 ECU（滑动天窗主动齿轮分总成）</testtitle>
+<content6>
+<test1>
+<ptxt>将主车身 ECU（多路网络车身 ECU）安装到驾驶员侧接线盒总成上。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTF" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>安装驾驶员侧接线盒总成。</ptxt>
+</test1>
+<test1>
+<ptxt>重新连接滑动天窗 ECU（滑动天窗主动齿轮分总成）连接器 O3。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBVX" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; Main Body &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="123"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">123</app-param>
+<app-param name="ecu-name">Main Body</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>经过 10 秒后，检查是否再次输出相同 DTC。</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Main Body &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="123"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">123</app-param>
+<app-param name="ecu-name">Main Body</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出 DTC B2325</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>未输出 DTC B2325</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="4">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-6" label="1">
+<action actiontype="end" cellposition="5-6">
+<actiontitle>更换主车身 ECU（多路网络车身 ECU）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="4-7" label="4">
+<action actiontype="end" cellposition="5-7">
+<actiontitle>更换滑动天窗 ECU（滑动天窗主动齿轮分总成）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCZO" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-11" id="RM100000000DBW2_08_0061">
+<testtitle>检查 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBVX" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Main Body &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="123"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">123</app-param>
+<app-param name="ecu-name">Main Body</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>未输出 DTC B2325。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-11" label="1">
+<action actiontype="end" cellposition="3-11">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="2-12" label="2">
+<action actiontype="end" cellposition="3-12">
+<actiontitle>更换主车身 ECU（多路网络车身 ECU）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

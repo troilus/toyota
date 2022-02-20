@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS088">
+    <part type="conn" code="E55">
+      <text>I/F CPU ET CAN I/F CANH CANL 5V IC IG+ B 5V+B 5V +B 5V CANH CANL ET IG+ B 5V IC I/F CAN I/F CPU</text>
+      <name>组合仪表总成</name>
+      <name type="inner">蜂鸣器</name>
+      <name type="inner">CAN 控制器</name>
+      <name type="inner">CAN 控制器</name>
+      <name type="inner">蜂鸣器</name>
+    </part>
+    <part type="conn" code="L1">
+      <name>左前车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="E36">
+      <text>KSW CANH CANL ACC IG BECU GND1 FLCY</text>
+      <name>主车身 ECU</name>
+    </part>
+    <part type="conn" code="A39">
+      <name>1 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E74">
+      <name>2 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="conn" code="E10">
+      <name>未锁警告开关总成</name>
+    </part>
+    <part type="fuse" code="FUSE43">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>ECU-B NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE47">
+      <text>ECU-IG NO.4</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>MET</text>
+    </part>
+  </ttl>
+</EWDSearch>

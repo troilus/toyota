@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_54">
+<name>制动</name>
+<section id="_023990">
+<name>制动控制/动态控制系统</name>
+<ttl id="_0116081">
+<name>防抱死制动系统</name>
+<para category="J" id="RM100000000D7XP">
+<dtccode/>
+<dtcname>TS 和 CG 端子电路</dtcname>
+<subpara category="03" id="RM100000000D7XP_01">
+<name>描述</name>
+<content5>
+<ptxt>连接 DLC3 的端子 TS 和 CG 使 ECU 通过闪烁 ABS 警告灯的方式显示测试模式 DTC。</ptxt>
+<ptxt>测试模式（信号检查）中，车辆停止时不能检测到的转速传感器故障可在车辆行驶时检测。</ptxt>
+<ptxt>通过连接 DLC3 的端子 TS 和 CG，并将点火开关从 OFF 位置切换至 ON 位置，可进入传感器检查模式。</ptxt>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D7XP_04">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="C270527E60" height="4.825319882in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D7XP_06">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D7XP_06_0008">
+<testtitle>检查 CAN 通信系统</testtitle>
+<content6>
+<test1>
+<ptxt>检查是否输出 CAN 通信系统 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UU" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D7XP_06_0010"/>
+</result>
+<result cellposition="1-4" label="2">
+<action actiontype="end" cellposition="2-4">
+<actiontitle>检查 CAN 通信系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D7XP_06_0010">
+<testtitle>检查 DLC3</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C303108C06" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>DLC3 前视图</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E18-12 (TS) - E18-4 (CG)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D7XP_06_0011"/>
+</result>
+<result cellposition="2-3" label="2">
+<action actiontype="next" cellposition="3-3" childid="RM100000000D7XP_06_0002"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D7XP_06_0011">
+<testtitle>检查动力转向 ECU 总成（DLC3 的端子 TS 输入）</testtitle>
+<content6>
+<figure translate="C" type="1">
+<graphic graphicname="C303108C06" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>DLC3 前视图</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>使用 SST 连接 DLC3 的端子 TS 和 CG。</ptxt>
+</test1>
+<sst>
+<sstitem>
+<s-number>09843-18040</s-number>
+</sstitem>
+</sst>
+<test1>
+<ptxt>检查并确认 EPS 警告灯闪烁。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>EPS 警告灯闪烁。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>如果根据故障症状表已进行了故障排除，则在更换零件前请再次参考该表并转至下一步。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7X9" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="end" cellposition="4-1">
+<actiontitle>更换制动执行器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9DF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-2" label="2">
+<action actiontype="end" cellposition="4-2">
+<actiontitle>维修或更换线束或动力转向 ECU 总成</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-3" id="RM100000000D7XP_06_0002">
+<testtitle>检查线束和连接器（DLC3 的端子 TS - 动力转向 ECU 总成）</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开动力转向 ECU 总成连接器 E45。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E18-12 (TS) - E45-6 (TS)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E18-12 (TS) 或 E45-6 (TS) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-3" label="1">
+<action actiontype="next" cellposition="4-3" childid="RM100000000D7XP_06_0004"/>
+</result>
+<result cellposition="3-6" label="2">
+<action actiontype="end" cellposition="4-6">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-3" id="RM100000000D7XP_06_0004">
+<testtitle>检查线束和连接器（DLC3 端子 CG - 车身接地）</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E18-4 (CG) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<figure translate="C" type="1">
+<graphic graphicname="C303108C07" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>DLC3 前视图</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-3" label="1">
+<action actiontype="next" cellposition="5-3" childid="RM100000000D7XP_06_0015"/>
+</result>
+<result cellposition="4-5" label="2">
+<action actiontype="end" cellposition="5-5">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-3" id="RM100000000D7XP_06_0015">
+<testtitle>检查动力转向 ECU 总成（DLC3 的端子 TS 输入）</testtitle>
+<content6>
+<figure translate="C" type="1">
+<graphic graphicname="C303108C06" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>DLC3 前视图</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<test1>
+<ptxt>重新连接动力转向 ECU 总成连接器 E45。</ptxt>
+</test1>
+<test1>
+<ptxt>使用 SST 连接 DLC3 的端子 TS 和 CG。</ptxt>
+</test1>
+<sst>
+<sstitem>
+<s-number>09843-18040</s-number>
+</sstitem>
+</sst>
+<test1>
+<ptxt>检查并确认 EPS 警告灯闪烁。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>EPS 警告灯闪烁。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>如果根据故障症状表已进行了故障排除，则在更换零件前请再次参考该表并转至下一步。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7X9" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-3" label="1">
+<action actiontype="end" cellposition="6-3">
+<actiontitle>更换制动执行器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9DF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="5-4" label="2">
+<action actiontype="end" cellposition="6-4">
+<actiontitle>更换动力转向 ECU 总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D81H" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

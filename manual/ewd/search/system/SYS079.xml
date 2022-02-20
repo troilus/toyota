@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS079">
+    <part type="conn" code="E20">
+      <text>ILL- ILL+</text>
+      <name>空调控制总成</name>
+    </part>
+    <part type="conn" code="E65">
+      <text>ILL+ ILL-</text>
+      <name>后声纳或侦测声纳开关总成</name>
+    </part>
+    <part type="conn" code="E49">
+      <text>CANL CANH SWIL AGND</text>
+      <name>认证 ECU</name>
+    </part>
+    <part type="conn" code="F3">
+      <text>E ILL+</text>
+      <name>时钟总成</name>
+    </part>
+    <part type="conn" code="E55">
+      <text>B IG+ 12V 5V +B 5V CANL CANH ET 5V IC CAN I/F CPU 5V+B CPU ET CAN I/F CANL CANH 5V IC IG+ B</text>
+      <name>组合仪表总成</name>
+      <name type="inner">LCD B/L 照明控制</name>
+      <name type="inner">旋钮照明控制</name>
+      <name type="inner">指针照明控制</name>
+      <name type="inner">CAN 控制器</name>
+      <name type="inner">照明</name>
+      <name type="inner">尾灯</name>
+      <name type="inner">LED 驱动器</name>
+      <name type="inner">CAN 控制器</name>
+    </part>
+    <part type="conn" code="E50">
+      <text>AGND SWIL</text>
+      <name>发动机开关</name>
+    </part>
+    <part type="conn" code="E53">
+      <text>ILL+ ILL-</text>
+      <name>危险警告信号开关总成</name>
+    </part>
+    <part type="conn" code="A7,A44">
+      <text>E B</text>
+      <name>左侧大灯总成</name>
+      <name type="inner">示宽灯</name>
+    </part>
+    <part type="conn" code="A17,A46">
+      <text>B E</text>
+      <name>右侧大灯总成</name>
+      <name type="inner">示宽灯</name>
+    </part>
+    <part type="conn" code="E15">
+      <text>A H AUTO (*21) T EL</text>
+      <name>大灯变光器开关总成</name>
+      <name type="inner">大灯</name>
+      <name type="inner">关闭</name>
+      <name type="inner">灯光控制开关</name>
+      <name type="inner">尾灯</name>
+    </part>
+    <part type="conn" code="E54">
+      <text>ILL+ E</text>
+      <name>大灯水平开关</name>
+    </part>
+    <part type="conn" code="L6">
+      <text>E B</text>
+      <name>左侧牌照灯总成</name>
+    </part>
+    <part type="conn" code="L7">
+      <text>E B</text>
+      <name>右侧牌照灯总成</name>
+    </part>
+    <part type="conn" code="E36">
+      <text>CANH TAIL CANL GND1 ACC IG BECU TRLY</text>
+      <name>主车身 ECU</name>
+    </part>
+    <part type="conn" code="E1,E2,E3,E32,E33">
+      <text>GND1 ILL+ SWG</text>
+      <name>导航接收器总成、无线电收音机和显示屏接收器总成、无线电收音机总成</name>
+    </part>
+    <part type="conn" code="A39">
+      <name>1 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E57">
+      <text>ILL+ ILL-</text>
+      <name>1 号加热器控制装置分总成</name>
+    </part>
+    <part type="conn" code="E74">
+      <name>2 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E58">
+      <text>E ILL- ILL+</text>
+      <name>2 号加热器控制装置分总成</name>
+    </part>
+    <part type="conn" code="E22">
+      <text>ILL+ ILL-</text>
+      <name>3 号加热器控制装置分总成</name>
+    </part>
+    <part type="conn" code="E70">
+      <name>3 号接线连接器</name>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="conn" code="E72">
+      <name>5 号接线连接器</name>
+    </part>
+    <part type="conn" code="L54,L55">
+      <name>7 号接线连接器</name>
+    </part>
+    <part type="conn" code="L56">
+      <name>8 号接线连接器</name>
+    </part>
+    <part type="conn" code="E75">
+      <text>ILL- ILL+</text>
+      <name>车外后视镜开关总成</name>
+    </part>
+    <part type="conn" code="E52">
+      <text>MSW+ MSW-</text>
+      <name>模式选择开关总成</name>
+    </part>
+    <part type="conn" code="L3">
+      <text>E TL</text>
+      <name>左后组合灯总成</name>
+      <name type="inner">尾灯</name>
+      <name type="inner">停止</name>
+    </part>
+    <part type="conn" code="L27">
+      <text>E TL</text>
+      <name>左后组合灯总成</name>
+      <name type="inner">停止</name>
+      <name type="inner">尾灯</name>
+    </part>
+    <part type="conn" code="L4">
+      <text>E TL</text>
+      <name>右后组合灯总成</name>
+      <name type="inner">尾灯</name>
+      <name type="inner">停止</name>
+    </part>
+    <part type="conn" code="L26">
+      <text>E TL</text>
+      <name>右后组合灯总成</name>
+      <name type="inner">停止</name>
+      <name type="inner">尾灯</name>
+    </part>
+    <part type="conn" code="L57">
+      <text>B E</text>
+      <name>左后灯总成</name>
+      <name type="inner">尾灯</name>
+    </part>
+    <part type="conn" code="L58">
+      <text>B E</text>
+      <name>右后灯总成</name>
+      <name type="inner">尾灯</name>
+    </part>
+    <part type="conn" code="E42">
+      <text>ILL- ILL+</text>
+      <name>换档杆位置指示灯</name>
+    </part>
+    <part type="conn" code="z6">
+      <text>R B</text>
+      <name>螺旋电缆分总成、方向盘衬垫开关总成</name>
+      <name type="inner">方向盘左开关</name>
+      <name type="inner">方向盘右开关</name>
+    </part>
+    <part type="conn" code="E13,z6">
+      <text>EAU IL+2</text>
+      <name>螺旋电缆分总成、方向盘衬垫开关总成</name>
+    </part>
+    <part type="conn" code="E60">
+      <text>ILL+ ILL-</text>
+      <name>VSC OFF 开关</name>
+    </part>
+    <part type="fuse" code="FUSE43">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE36">
+      <text>ALT</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>ECU-B NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE47">
+      <text>ECU-IG NO.4</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE52">
+      <text>PANEL</text>
+    </part>
+    <part type="fuse" code="FUSE56">
+      <text>TAIL</text>
+    </part>
+  </ttl>
+</EWDSearch>

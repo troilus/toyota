@@ -1,0 +1,2426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_54">
+<name>制动</name>
+<section id="_023990">
+<name>制动控制/动态控制系统</name>
+<ttl id="_0116081">
+<name>防抱死制动系统</name>
+<para category="C" id="RM100000000D7XG">
+<dtccode>C1237</dtccode>
+<dtcname>转速传感器转子故障</dtcname>
+<dtccode>C1275</dtccode>
+<dtcname>右前轮转速传感器输出信号变化异常（测试模式 DTC）</dtcname>
+<dtccode>C1276</dtccode>
+<dtcname>左前轮转速传感器输出信号变化异常（测试模式 DTC）</dtcname>
+<dtccode>C1277</dtccode>
+<dtcname>右后轮转速传感器输出信号变化异常（测试模式 DTC）</dtcname>
+<dtccode>C1278</dtccode>
+<dtcname>左后轮转速传感器输出信号变化异常（测试模式 DTC）</dtcname>
+<subpara category="03" id="RM100000000D7XG_01">
+<name>描述</name>
+<content5>
+<ptxt>防滑控制 ECU（制动执行器总成）通过接收来自各转速传感器的信号测量各车轮的转速。</ptxt>
+<ptxt>这些信号用于确认 4 个车轮均正常工作。</ptxt>
+<ptxt>因此，所有的车轮信号必须相同。</ptxt>
+<ptxt>转速传感器发送车速信号或测试模式结束时，将清除 DTC C1275 至 C1278。DTC C1275 至 C1278 仅在测试模式下输出。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="4">
+<colspec colname="1" colwidth="0.71in"/>
+<colspec colname="2" colwidth="1.77in"/>
+<colspec colname="3" colwidth="2.83in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>C1237</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>转速传感器转子故障</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>检测到以下任一条件时：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>4 个车轮转速传感器输出间的差异。</ptxt>
+</item>
+<item>
+<ptxt>自 3 个或更多传感器的异常脉冲信号。</ptxt>
+</item>
+<item>
+<ptxt>ABS 控制持续进行 60 秒或更长时间。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>轮胎和车轮尺寸</ptxt>
+</item>
+<item>
+<ptxt>轮胎变形</ptxt>
+</item>
+<item>
+<ptxt>转速传感器转子</ptxt>
+</item>
+<item>
+<ptxt>转速传感器</ptxt>
+</item>
+<item>
+<ptxt>转速传感器电路</ptxt>
+</item>
+<item>
+<ptxt>防滑控制 ECU（制动执行器总成）</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>C1275</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>右前轮转速传感器输出信号变化异常（测试模式 DTC）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>仅在测试模式下检测到。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<ptxt>右前轮转速传感器转子（右前桥轮毂分总成）</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>C1276</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>左前轮转速传感器输出信号变化异常（测试模式 DTC）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>仅在测试模式下检测到。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<ptxt>左前轮转速传感器转子（左前桥轮毂分总成）</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>C1277</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>右后轮转速传感器输出信号变化异常（测试模式 DTC）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>仅在测试模式下检测到。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<ptxt>右后轮转速传感器转子（右后桥轮毂和轴承总成）</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>C1278</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>左后轮转速传感器输出信号变化异常（测试模式 DTC）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>仅在测试模式下检测到。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<ptxt>左后轮转速传感器转子（左后桥轮毂和轴承总成）</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>DTC C1275 针对右前轮转速传感器。</ptxt>
+</item>
+<item>
+<ptxt>DTC C1276 针对左前轮转速传感器。</ptxt>
+</item>
+<item>
+<ptxt>DTC C1277 针对右后轮转速传感器。</ptxt>
+</item>
+<item>
+<ptxt>DTC C1278 针对左后轮转速传感器。</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D7XG_02">
+<name>电路图</name>
+<content5>
+<ptxt>请参见 DTC C1330、C1331、C1332、C1333、C1464、C1465、C1466 和 C1467。</ptxt>
+<ptxt>前轮：单击此处 <mlink><xref href="RM100000000D7XH" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>后轮：单击此处 <mlink><xref href="RM100000000D7XI" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D7XG_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten4>
+<ptxt>C1330、C1331、C1332、C1333、C1464、C1465、C1466 和/或 C1467 与 C1237 同时输出时，应首先检查并维修 C1330、C1331、C1332、C1333、C1464、C1465、C1466 和/或 C1467 指示的故障部位。</ptxt>
+<ptxt>C1330、C1331、C1464 和 C1465：单击此处 <mlink><xref href="RM100000000D7XH" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>C1332、C1333、C1466 和 C1467：单击此处 <mlink><xref href="RM100000000D7XI" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D7XG_06">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D7XG_06_0010">
+<testtitle>检查轮胎</testtitle>
+<content6>
+<test1>
+<ptxt>检查 4 个轮胎的尺寸和状况。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D88R" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>检测到轮胎变形或轮胎尺寸不同时，输出该 DTC。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>4 个轮胎的直径和气压相同。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D7XG_06_0012"/>
+</result>
+<result cellposition="1-11" label="2">
+<action actiontype="end" cellposition="2-11">
+<actiontitle>更换轮胎使 4 个轮胎尺寸相同</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D7XG_06_0012">
+<testtitle>使用 GTS 读取值（转速传感器）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>使用 GTS 选择数据表。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7XC" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="data-list-table">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="1" name="item-name">
+<ptxt>FR Wheel Speed</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="1" name="description">
+<ptxt>右前轮转速传感器读数</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="1" name="range">
+<ptxt>最低：0 km/h (0 mph)，最高：326 km/h (202 mph)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="1" name="standard-value">
+<ptxt>车辆停止：0 km/h (0 mph)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="1" name="remark">
+<ptxt>定速行驶时：无较大的波动</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="2" name="item-name">
+<ptxt>FL Wheel Speed</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="2" name="description">
+<ptxt>左前轮转速传感器读数</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="2" name="range">
+<ptxt>最低：0 km/h (0 mph)，最高：326 km/h (202 mph)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="2" name="standard-value">
+<ptxt>车辆停止：0 km/h (0 mph)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="2" name="remark">
+<ptxt>定速行驶时：无较大的波动</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="3" name="item-name">
+<ptxt>RR Wheel Speed</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="3" name="description">
+<ptxt>右后轮转速传感器读数</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="3" name="range">
+<ptxt>最低：0 km/h (0 mph)，最高：326 km/h (202 mph)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="3" name="standard-value">
+<ptxt>车辆停止：0 km/h (0 mph)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="3" name="remark">
+<ptxt>定速行驶时：无较大的波动</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="4" name="item-name">
+<ptxt>RL Wheel Speed</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="4" name="description">
+<ptxt>左后轮转速传感器读数</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="4" name="range">
+<ptxt>最低：0 km/h (0 mph)，最高：326 km/h (202 mph)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="4" name="standard-value">
+<ptxt>车辆停止：0 km/h (0 mph)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="4" name="remark">
+<ptxt>定速行驶时：无较大的波动</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">1</app-param>
+<app-param name="data-list-item-name">FR Wheel Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">2</app-param>
+<app-param name="data-list-item-name">FL Wheel Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">3</app-param>
+<app-param name="data-list-item-name">RR Wheel Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">4</app-param>
+<app-param name="data-list-item-name">RL Wheel Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="1" name="item-name">
+<ptxt>FR Wheel Speed</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="2" name="item-name">
+<ptxt>FL Wheel Speed</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="3" name="item-name">
+<ptxt>RR Wheel Speed</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="4" name="item-name">
+<ptxt>RL Wheel Speed</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="105">
+<gts-pid pid-id="1"/>
+<gts-pid pid-id="2"/>
+<gts-pid pid-id="3"/>
+<gts-pid pid-id="4"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">1</app-param>
+<app-param name="data-list-item-name">FR Wheel Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">2</app-param>
+<app-param name="data-list-item-name">FL Wheel Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">3</app-param>
+<app-param name="data-list-item-name">RR Wheel Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">4</app-param>
+<app-param name="data-list-item-name">RL Wheel Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>检查 GTS 上显示的转速传感器输出的速度值。</ptxt>
+<atten4>
+<ptxt>对显示的车速有影响的因素包括：轮胎尺寸、轮胎压力和轮胎磨损情况。允许车速表上显示的车速在一定范围内有误差。可使用车速表检测台（已校准的底盘测功机）进行测试。有关测试和误差范围的详情，请参见参考表。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9CM" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>GTS 上显示的转速传感器输出的速度值与车速表上显示的速度接近。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.95in"/>
+<colspec colname="col2" colwidth="2.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>正常</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>异常（前轮）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>异常（后轮）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D7XG_06_0013"/>
+</result>
+<result cellposition="2-6" label="2">
+<action actiontype="next" cellposition="3-6" childid="RM100000000D7XG_06_0016"/>
+</result>
+<result cellposition="2-10" label="3">
+<action actiontype="next" cellposition="3-10" childid="RM100000000D7XG_06_0029"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D7XG_06_0013">
+<testtitle>进行测试模式检查（信号检查）</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>使用测试模式程序进行传感器检查。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7X8" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="utility-normal">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Utility</title>
+<table type="utility">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="3" name="item-name">
+<ptxt>Signal Check</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50005">
+<gts-ecu ecu-id="105">
+<gts-util util-id="3"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">4</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="utility-id">3</app-param>
+<app-param name="function-name">Signal Check</app-param>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>清除所有测试模式 DTC。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.95in"/>
+<colspec colname="col2" colwidth="2.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>正常</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>异常（前轮）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>异常（后轮）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D7XG_06_0014"/>
+</result>
+<result cellposition="3-4" label="2">
+<action actiontype="jump" cellposition="4-4" childid="RM100000000D7XG_06_0016">
+<actiontitle>转至步骤 5</actiontitle>
+</action>
+</result>
+<result cellposition="3-5" label="3">
+<action actiontype="jump" cellposition="4-5" childid="RM100000000D7XG_06_0029">
+<actiontitle>转至步骤 12</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D7XG_06_0014">
+<testtitle>重新确认 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7XC" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>以 54 km/h (34 mph) 或更高的速度驾驶车辆至少 120 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>检查是否输出相同 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7XC" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.95in"/>
+<colspec colname="col2" colwidth="2.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC C1237。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC C1237（前轮）。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC C1237（后轮）。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="end" cellposition="5-1">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="4-2" label="2">
+<action actiontype="jump" cellposition="5-2" childid="RM100000000D7XG_06_0021">
+<actiontitle>转至步骤 8</actiontitle>
+</action>
+</result>
+<result cellposition="4-3" label="3">
+<action actiontype="jump" cellposition="5-3" childid="RM100000000D7XG_06_0035">
+<actiontitle>转至步骤 15</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-6" id="RM100000000D7XG_06_0016">
+<testtitle>检查前轮转速传感器和传感器转子</testtitle>
+<content6>
+<test1>
+<ptxt>拆下前轮转速传感器和带传感器转子的零部件。</ptxt>
+<ptxt>转速传感器：单击此处 <mlink><xref href="RM100000000D9DI" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>传感器转子：单击此处 <mlink><xref href="RM100000000D844" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>检查转速传感器端部和转速传感器转子。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>传感器端部和转子无划痕、油污或异物。</ptxt>
+</specitem>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>如果该检查过程中没有损坏转速传感器端部，则不要更换转速传感器。</ptxt>
+<ptxt>如果有任何含铁的金属锉屑粘附在转子上，则会导致发生故障，因此更换传感器前确认没有异物粘附在转子上。</ptxt>
+</item>
+<item>
+<ptxt>清洁或更换后，检查转速传感器信号。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7X8" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+</list1>
+</atten3>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-6" label="1">
+<action actiontype="next" cellposition="4-6" childid="RM100000000D7XG_06_0018"/>
+</result>
+<result cellposition="3-9" label="2">
+<action actiontype="end" cellposition="4-9">
+<actiontitle>清洁或更换前轮转速传感器或带传感器转子的零部件</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-6" id="RM100000000D7XG_06_0018">
+<testtitle>检查线束和连接器（制动执行器总成 - 前轮转速传感器）</testtitle>
+<content6>
+<test1>
+<ptxt>安装前轮转速传感器和带传感器转子的零部件。</ptxt>
+</test1>
+<test1>
+<ptxt>确保连接器的锁止件和连接部件没有松动。</ptxt>
+</test1>
+<test1>
+<ptxt>断开防滑控制 ECU（制动执行器总成）连接器 A41 和前轮转速传感器连接器 A25 或 A26。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<title>右侧</title>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A41-16 (FR+) - A25-2 (FR+)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A41-16 (FR+) 或 A25-2 (FR+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A41-4 (FR-) - A25-1 (FR-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A41-4 (FR-) 或 A25-1 (FR-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table>
+<title>左侧</title>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A41-19 (FL+) - A26-2 (FL+)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A41-19 (FL+) 或 A26-2 (FL+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A41-8 (FL-) - A26-1 (FL-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A41-8 (FL-) 或 A26-1 (FL-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-6" label="1">
+<action actiontype="next" cellposition="5-6" childid="RM100000000D7XG_06_0020"/>
+</result>
+<result cellposition="4-8" label="2">
+<action actiontype="end" cellposition="5-8">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-6" id="RM100000000D7XG_06_0020">
+<testtitle>重新确认 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>重新连接防滑控制 ECU（制动执行器总成）连接器 A41 和前轮转速传感器连接器 A25 或 A26。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7XC" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>以 54 km/h (34 mph) 或更高的速度驾驶车辆至少 120 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>检查是否输出相同 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7XC" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.95in"/>
+<colspec colname="col2" colwidth="2.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC C1237。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC C1237。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-6" label="1">
+<action actiontype="next" cellposition="6-6" childid="RM100000000D7XG_06_0021"/>
+</result>
+<result cellposition="5-7" label="2">
+<action actiontype="end" cellposition="6-7">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-6" id="RM100000000D7XG_06_0021">
+<testtitle>更换前轮转速传感器</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>更换前轮转速传感器。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9DI" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<atten3>
+<ptxt>更换后，检查转速传感器信号。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7X8" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten3>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-6" label="1">
+<action actiontype="next" cellposition="7-6" childid="RM100000000D7XG_06_0022"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-6" id="RM100000000D7XG_06_0022">
+<testtitle>重新确认 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7XC" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>以 54 km/h (34 mph) 或更高的速度驾驶车辆至少 120 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>检查是否输出相同 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7XC" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.95in"/>
+<colspec colname="col2" colwidth="2.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC C1237。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC C1237。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-6" label="1">
+<action actiontype="next" cellposition="8-6" childid="RM100000000D7XG_06_0025"/>
+</result>
+<result cellposition="7-7" label="2">
+<action actiontype="end" cellposition="8-7">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-6" id="RM100000000D7XG_06_0025">
+<testtitle>更换前桥轮毂分总成</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>更换前轮转速传感器转子（前桥轮毂分总成）。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D844" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>前轮转速传感器转子集成在前桥轮毂分总成中。</ptxt>
+<ptxt>如果需要更换前轮转速传感器转子，则更换前桥轮毂分总成。</ptxt>
+</atten4>
+<atten3>
+<ptxt>更换后，检查转速传感器信号。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7X8" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten3>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-6" label="1">
+<action actiontype="next" cellposition="9-6" childid="RM100000000D7XG_06_0026"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-6" id="RM100000000D7XG_06_0026">
+<testtitle>重新确认 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7XC" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>以 54 km/h (34 mph) 或更高的速度驾驶车辆至少 120 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>检查是否输出相同 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7XC" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.95in"/>
+<colspec colname="col2" colwidth="2.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC C1237。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC C1237。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-6" label="1">
+<action actiontype="end" cellposition="10-6">
+<actiontitle>更换制动执行器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9DF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="9-7" label="2">
+<action actiontype="end" cellposition="10-7">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-10" id="RM100000000D7XG_06_0029">
+<testtitle>检查防滑控制传感器线束</testtitle>
+<content6>
+<test1>
+<ptxt>确保连接器的锁止件和连接部件没有松动。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C273725C07" height="2.799876969in" width="7.168479331in"/>
+<callout>
+<table pgwide="1" type="caption-table">
+<tgroup cols="4">
+<colspec colname="col1" colnum="1" colwidth="0.72in"/>
+<colspec colname="col2" colnum="2" colwidth="2.87in"/>
+<colspec colname="col3" colnum="3" colwidth="0.72in"/>
+<colspec colname="col4" colnum="4" colwidth="2.87in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*A</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>右侧</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*B</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>左侧</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>防滑控制传感器线束前视图</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至传感器侧连接器）</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*c</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至车辆侧连接器）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>拆下防滑控制传感器线束。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<title>右侧</title>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>h1-2 (RR+) - hL1-1 (RR+)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>h1-2 (RR+) - hL1-2 (RR-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>h1-2 (RR+) 或 hL1-1 (RR+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>h1-1 (RR-) - hL1-2 (RR-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>h1-1 (RR-) - hL1-1 (RR+)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>h1-1 (RR-) 或 hL1-2 (RR-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table>
+<title>左侧</title>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>j1-2 (RL+) - jL1-1 (RL+)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>j1-2 (RL+) - jL1-2 (RL-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>j1-2 (RL+) 或 jL1-1 (RL+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>j1-1 (RL-) - jL1-2 (RL-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>j1-1 (RL-) - jL1-1 (RL+)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>j1-1 (RL-) 或 jL1-2 (RL-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>更换后，检查转速传感器信号。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7X8" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten3>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-10" label="1">
+<action actiontype="next" cellposition="4-10" childid="RM100000000D7XG_06_0031"/>
+</result>
+<result cellposition="3-13" label="2">
+<action actiontype="end" cellposition="4-13">
+<actiontitle>更换防滑控制传感器线束</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9DL" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-10" id="RM100000000D7XG_06_0031">
+<testtitle>检查线束和连接器（制动执行器总成 - 防滑控制传感器线束）</testtitle>
+<content6>
+<test1>
+<ptxt>确保连接器的锁止件和连接部件没有松动。</ptxt>
+</test1>
+<test1>
+<ptxt>断开防滑控制 ECU（制动执行器总成）连接器 A41。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<title>右侧</title>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A41-17 (RR+) - hL1-1 (RR+)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A41-17 (RR+) 或 hL1-1 (RR+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A41-29 (RR-) - hL1-2 (RR-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A41-29 (RR-) 或 hL1-2 (RR-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table>
+<title>左侧</title>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A41-31 (RL+) - jL1-1 (RL+)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A41-31 (RL+) 或 jL1-1 (RL+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A41-18 (RL-) - jL1-2 (RL-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A41-18 (RL-) 或 jL1-2 (RL-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-10" label="1">
+<action actiontype="next" cellposition="5-10" childid="RM100000000D7XG_06_0033"/>
+</result>
+<result cellposition="4-12" label="2">
+<action actiontype="end" cellposition="5-12">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-10" id="RM100000000D7XG_06_0033">
+<testtitle>重新确认 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>安装防滑控制传感器线束。</ptxt>
+</test1>
+<test1>
+<ptxt>重新连接防滑控制 ECU（制动执行器总成）连接器 A41。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7XC" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>以 54 km/h (34 mph) 或更高的速度驾驶车辆至少 120 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>检查是否输出相同 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7XC" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.95in"/>
+<colspec colname="col2" colwidth="2.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC C1237。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC C1237。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-10" label="1">
+<action actiontype="next" cellposition="6-10" childid="RM100000000D7XG_06_0035"/>
+</result>
+<result cellposition="5-11" label="2">
+<action actiontype="end" cellposition="6-11">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-10" id="RM100000000D7XG_06_0035">
+<testtitle>更换后桥轮毂和轴承总成</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>更换带后轮转速传感器的后轮转速传感器转子（后桥轮毂和轴承总成）。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCM1" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>后轮转速传感器转子集成在后桥轮毂和轴承总成中。</ptxt>
+<ptxt>如果需要更换后轮转速传感器转子，则更换带后轮转速传感器的后桥轮毂和轴承总成。</ptxt>
+</atten4>
+<atten3>
+<ptxt>更换后，检查转速传感器信号。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7X8" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten3>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-10" label="1">
+<action actiontype="next" cellposition="7-10" childid="RM100000000D7XG_06_0036"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-10" id="RM100000000D7XG_06_0036">
+<testtitle>重新确认 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7XC" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>以 54 km/h (34 mph) 或更高的速度驾驶车辆至少 120 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>检查是否输出相同 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7XC" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.95in"/>
+<colspec colname="col2" colwidth="2.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC C1237。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC C1237。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-10" label="1">
+<action actiontype="end" cellposition="8-10">
+<actiontitle>更换制动执行器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9DF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="7-11" label="2">
+<action actiontype="end" cellposition="8-11">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

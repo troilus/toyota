@@ -1,0 +1,460 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">发动机/混合动力系统</span>
+<span class="globalSection">_023981</span>
+<span class="globalSectionName">巡航控制系统</span>
+<span class="globalTitle">_0119997</span>
+<span class="globalTitleName">巡航控制系统</span>
+<span class="globalCategory">U</span>
+</div>
+<h1>巡航控制系统&nbsp;&nbsp;巡航控制系统&nbsp;&nbsp;数据表/主动测试&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DPVB_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">读取数据表
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 读取数据表，无需拆下任何零件，即可读取开关、传感器、执行器及其他项目的值或状态。这种非侵入式检查非常有用，可在零件或配线受到干扰之前发现间歇性状况或信号。故障排除时，尽早读取数据表信息是节省诊断时间的一种方法。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>进入以下菜单：Powertrain / Cruise Control / Data List。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>根据 GTS 上的显示，读取数据表。
+</p>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Cruise Control &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:25%">
+<col style="width:14%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">CCS Vehicle Spd
+</td>
+<td class="alleft">车速
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：255 km/h (158 mph)
+</td>
+<td class="alleft">实际车速
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">CCS Mem Vehicle Spd
+</td>
+<td class="alleft">存储车速
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：255 km/h (158 mph)
+</td>
+<td class="alleft">实际存储车速
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Opening Angle
+</td>
+<td class="alleft">所需节气门开度
+</td>
+<td class="alleft">最小：0%，最大：100%
+</td>
+<td class="alleft">实际所需节气门开度
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Cruise Control
+</td>
+<td class="alleft">巡航控制系统激活状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：巡航控制已激活
+<br>
+OFF：巡航控制未激活
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Main SW M-CPU
+</td>
+<td class="alleft">巡航控制主开关信号（主 CPU）
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：按住巡航控制主开关（ON-OFF 按钮）
+<br>
+OFF：松开巡航控制主开关（ON-OFF 按钮）
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">CCS Ready M-CPU
+</td>
+<td class="alleft">巡航控制系统备用状态（主 CPU）
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">每次按下巡航控制主开关（ON-OFF 按钮），ON 或 OFF 切换
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">CCS Indicator M-CPU
+</td>
+<td class="alleft">巡航控制指示灯信号（主 CPU）
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">每次按下巡航控制主开关（ON-OFF 按钮），ON 或 OFF 切换
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Cancel Switch
+</td>
+<td class="alleft">CANCEL 开关信号
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：操作 CANCEL 开关
+<br>
+OFF：松开 CANCEL 开关
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">SET/COAST Switch
+</td>
+<td class="alleft">-/SET 开关信号
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：操作 -/SET 开关
+<br>
+OFF：松开 -/SET 开关
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">RES/ACC Switch
+</td>
+<td class="alleft">+/RES 开关信号
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：操作 +/RES 开关
+<br>
+OFF：松开 +/RES 开关
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Stop Light Switch 1
+</td>
+<td class="alleft">刹车灯开关信号
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：踩下制动踏板
+<br>
+OFF：松开制动踏板
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Stop Light Switch 2
+</td>
+<td class="alleft">刹车灯开关信号
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：踩下制动踏板
+<br>
+OFF：松开制动踏板
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Cruise Operation Status
+</td>
+<td class="alleft">变速器档位传感器信号
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：巡航控制工作
+<br>
+OFF：巡航控制工作停止
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Brake Cancel Switch
+</td>
+<td class="alleft">制动取消信号
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：踩下制动踏板
+<br>
+OFF：松开制动踏板
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果输出任何 DTC，则测量项目的数值可能不正确。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果输出任何 DTC，则执行相关的故障排除。维修后，使用数据表确认相关数值。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">进行主动测试
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 进行主动测试，无需拆下任何零件即可操作继电器、VSV、执行器及其他项目。这种非侵入式功能检查非常有用，可在零件或配线受到干扰之前发现间歇性工作。故障排除时，尽早进行主动测试是节省诊断时间的一种方法。进行主动测试时可以显示数据表信息。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>进入以下菜单：Body Electrical / Combination Meter / Active Test。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>根据 GTS 上的显示，进行&ldquo;主动测试&rdquo;。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>发动机开关必须置于 ON 位置以使用 GTS 进行主动测试。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="gtsActiveTestTable hasAllTable">
+<dt class="gtsActiveTestTable">Body Electrical &gt; Combination Meter &gt; Active Test</dt>
+<dd class="gtsActiveTestTable">
+<table summary="active-test-table">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">控制范围
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Meter Display 1
+</td>
+<td class="alleft">多信息显示屏
+</td>
+<td class="alleft">OFF 或 All
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

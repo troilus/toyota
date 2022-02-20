@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024005">
+<name>防盗/无钥匙上车系统</name>
+<ttl id="_0116338">
+<name>智能进入和起动系统（起动功能）</name>
+<para category="J" id="RM100000000D997">
+<dtccode/>
+<dtcname>电源模式不能切换至 ON (ACC)</dtcname>
+<subpara category="03" id="RM100000000D997_01">
+<name>描述</name>
+<content5>
+<ptxt>如果电子钥匙发射器分总成在车厢内时按下发动机开关，则认证 ECU（智能钥匙 ECU 总成）接收信号并切换电源模式。</ptxt>
+<table pgwide="1">
+<title>相关数据表和主动测试项目</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COLSPEC0" colwidth="2.36in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>故障症状</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>数据表项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>主动测试项目</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>电源模式不能切换至 ON (ACC) 但能切换至 ON (IG)</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<title>电源控制</title>
+<item>
+<ptxt>Power Supply Condition</ptxt>
+</item>
+<item>
+<ptxt>ACC Relay Monitor</ptxt>
+</item>
+</list1>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D997_02">
+<name>电路图</name>
+<content5>
+<ptxt>单击此处 <mlink><xref href="RM100000000D99F" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D997_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>发动机开关置于 OFF 位置的情况下使用 GTS 时，将 GTS 连接至 DLC3 并以 1.5 秒或更短的间隔打开并关闭门控灯开关，直至 GTS 和车辆之间开始通信。然后在手动模式下选择车型代码“KEY REGIST”并进入以下菜单：Body Electrical / Entry&amp;Start(CAN)。使用 GTS 时，以 1.5 秒或更短的间隔间歇打开并关闭门控灯开关，以保持 GTS 和车辆间的通信。</ptxt>
+</item>
+<item>
+<ptxt>智能进入和起动系统（起动功能）使用 LIN 通信系统和 CAN 通信系统。根据“如何进行故障排除”检查通信功能。确认通信系统工作正常后，对智能进入和起动系统（起动功能）进行故障排除。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D990" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>确保未输出 DTC。如果输出任何 DTC，则转至诊断故障码表。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D98S" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>如果通过定制功能禁用智能进入和起动系统，则进行故障排除前激活该系统。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D998" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>更换认证 ECU（智能钥匙 ECU 总成）前，请参考智能进入和起动系统（起动功能）的注意事项。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D98R" label="Seep00004" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>进行下列程序前，先检查与此系统相关电路的保险丝。</ptxt>
+</item>
+<item>
+<ptxt>完成维修后，确认故障未出现。</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<ptxt>断开并重新连接蓄电池负极 (-) 端子电缆后，电源模式将恢复至断开电缆前的模式。</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D997_05">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D997_05_0016">
+<testtitle>检查线束和连接器（认证 ECU（智能钥匙 ECU 总成）- 驾驶员侧接线盒总成）</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D992_08_0003" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D997_05_0017"/>
+</result>
+<result cellposition="1-4" label="2">
+<action actiontype="end" cellposition="2-4">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D997_05_0017">
+<testtitle>检查驾驶员侧接线盒总成</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D992_08_0004" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D997_05_0019"/>
+</result>
+<result cellposition="2-3" label="2">
+<action actiontype="end" cellposition="3-3">
+<actiontitle>更换驾驶员侧接线盒总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D997_05_0019">
+<testtitle>检查认证 ECU（智能钥匙 ECU 总成）</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D991_08_0002" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="end" cellposition="4-1">
+<actiontitle>检查继电器触点侧电路</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-2" label="2">
+<action actiontype="end" cellposition="4-2">
+<actiontitle>更换认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

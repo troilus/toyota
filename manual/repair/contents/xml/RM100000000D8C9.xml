@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_56">
+<name>音频/视频/车载通信系统</name>
+<section id="_023999">
+<name>导航/多信息显示屏</name>
+<ttl id="_0116139">
+<name>导航系统</name>
+<para category="J" id="RM100000000D8C9">
+<dtccode/>
+<dtcname>车辆停止时光标或地图旋转</dtcname>
+<subpara category="01" id="RM100000000D8C9_03">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8C9_03_0001">
+<testtitle>检查情况</testtitle>
+<content6>
+<test1>
+<ptxt>与客户确认车辆是否在转车台上转过。</ptxt>
+<figure translate="I" type="1">
+<graphic graphicname="E106418" height="2.192421260in" width="3.434793307in"/>
+</figure>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>车辆未在转车台上转过。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>将点火开关置于 ACC 或 ON 位置时，如果车辆在转车台上转动，则系统可能存储其角速度。这样，车辆位置光标就可能发生偏移。 在这种情况下，在车辆完全停止的情况下，通过将点火开关置于 OFF 位置再返回至 ACC 或 ON 位置，车辆位置光标将恢复正常。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>转至故障症状表中所示的下一个可疑部位</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D3" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="end" cellposition="2-2">
+<actiontitle>车辆完全停止时，将点火开关置于 ACC 或 ON 位置</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

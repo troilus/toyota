@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <note ewd="WIRE016" code="G4" type="conn">
+    <name>右侧门控灯总成</name>
+  </note>
+  <note ewd="WIRE016" code="G8" type="conn">
+    <name>带电动机的右前门锁总成</name>
+  </note>
+  <note ewd="WIRE016" code="G7" type="conn">
+    <name>右前车门外把手总成</name>
+  </note>
+  <note ewd="WIRE016" code="G1" type="conn">
+    <name>右前 1 号扬声器总成</name>
+  </note>
+  <note ewd="WIRE016" code="G6" type="conn">
+    <name>右前 2 号扬声器总成</name>
+  </note>
+  <note ewd="WIRE016" code="G9" type="conn">
+    <name>右前电动窗升降器马达总成</name>
+  </note>
+  <note ewd="WIRE016" code="G5" type="conn">
+    <name>右前电动窗升降器开关总成</name>
+  </note>
+  <note ewd="WIRE016" code="G2" type="conn">
+    <name>右侧车外后视镜总成</name>
+  </note>
+  <note ewd="WIRE016" code="G3" type="conn">
+    <name>右侧车外后视镜总成</name>
+  </note>
+  <note ewd="WIRE016" code="G10" type="conn">
+    <name>右侧车外后视镜总成</name>
+  </note>
+</EwdTree>

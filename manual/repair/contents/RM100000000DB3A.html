@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_58</span>
+<span class="globalServcatName">车辆内饰</span>
+<span class="globalSection">_024005</span>
+<span class="globalSectionName">防盗/无钥匙上车系统</span>
+<span class="globalTitle">_0116715</span>
+<span class="globalTitleName">停机系统（带智能进入和起动系统）</span>
+<span class="globalCategory">D</span>
+</div>
+<h1>防盗/无钥匙上车系统&nbsp;&nbsp;停机系统（带智能进入和起动系统）&nbsp;&nbsp;系统描述&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DB3A_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">停机系统描述
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>停机系统通过比较钥匙识别码和车辆预注册码，确定是否允许 SFI 系统起动。停机系统将车辆认证 ECU（智能钥匙 ECU 总成）的预注册识别码和钥匙嵌入应答器芯片的识别码进行比较。如果识别码不匹配，则停机系统激活，SFI 系统不能起动。认证 ECU（智能钥匙 ECU 总成）管理与 SFI 系统、ID 代码箱 ECU（停机系统代码 ECU）和转向锁 ECU（转向锁执行器总成）的通信。应答器芯片和认证 ECU（智能钥匙 ECU 总成）的识别码匹配时，认证 ECU（智能钥匙 ECU 总成）允许 SFI 系统起动。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">系统功能
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>按钮起动功能
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>驾驶员（或乘员）携带电子钥匙发射器分总成进入车辆并踩下制动踏板*1 或离合器踏板*2 时，认证 ECU（智能钥匙 ECU 总成）产生请求信号并将其发送至车内电子钥匙振荡器。一旦接收到请求信号，车内电子钥匙振荡器即发送另一个请求信号，以检测电子钥匙发射器分总成是否在车厢内。电子钥匙发射器分总成接收到此请求信号时，即发回一个带响应码的识别码。电子钥匙发射器分总成发出的识别码通过带接收器的车门控制 ECU 总成发送至认证 ECU（智能钥匙 ECU 总成）。一旦接收到识别码，认证 ECU（智能钥匙 ECU 总成）即分析该代码。
+</p>
+<p>如果认证结果正常，则多信息显示屏上显示钥匙警告灯。显示钥匙警告灯且驾驶员按下发动机开关时，认证 ECU（智能钥匙 ECU 总成）识别发动机起动信号，接通 ACC 继电器，并在 0.025 秒后依次接通 IG1 和 IG2 继电器。此时，认证 ECU（智能钥匙 ECU 总成）确认电源模式已切换并向转向锁止执行器供电。然后转向锁 ECU（转向锁执行器总成）确认认证 ECU（智能钥匙 ECU 总成）正确并操作转向锁止执行器，直至转向锁开锁。转向锁开锁后，转向锁 ECU（转向锁执行器总成）向认证 ECU（智能钥匙 ECU 总成）发送开锁完成信号。接收到此信号时，确认认证 ECU（智能钥匙 ECU 总成）正确后，ID 代码箱（停机系统代码 ECU）即向 SFI 系统发送停机系统解除指令信号。然后认证 ECU（智能钥匙 ECU 总成）向安全指示灯（警告灯总成）发送安全指示灯熄灭信号。
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*1：自动传动桥
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*2：手动传动桥
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

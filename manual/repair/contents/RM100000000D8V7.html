@@ -1,0 +1,462 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_59</span>
+<span class="globalServcatName">车辆外饰</span>
+<span class="globalSection">_024015</span>
+<span class="globalSectionName">车窗/玻璃</span>
+<span class="globalTitle">_0116248</span>
+<span class="globalTitleName">电动窗控制系统</span>
+<span class="globalCategory">U</span>
+</div>
+<h1>车窗/玻璃&nbsp;&nbsp;电动窗控制系统&nbsp;&nbsp;数据表/主动测试&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D8V7_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">数据表
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 读取数据表，无需拆下任何零件，即可读取开关、传感器、执行器及其他项目的值或状态。这种非侵入式检查非常有用，可在零件或配线受到干扰之前发现间歇性状况或信号。故障排除时，尽早读取数据表信息是节省诊断时间的一种方法。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>在下表中，&ldquo;正常状态&rdquo;下列出的值为参考值。确定零件是否出现故障时，不要仅仅依赖这些参考值。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>进入以下菜单：Body Electrical / D-Door Motor* or Main Body / Data List。
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*：带防夹功能
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>根据 GTS 上的显示，读取数据表。
+</p>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Body Electrical &gt; D-Door Motor &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">D Door P/W Auto SW
+</td>
+<td class="alleft">驾驶员车门电动窗自动开关信号
+</td>
+<td class="alcenter">OFF 或 ON
+</td>
+<td class="alleft">OFF：无法操作驾驶员车门电动窗自动开关
+<br>
+ON：可操作驾驶员车门电动窗自动开关
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">D Door P/W Up SW
+</td>
+<td class="alleft">驾驶员车门电动窗手动上升开关信号
+</td>
+<td class="alcenter">OFF 或 ON
+</td>
+<td class="alleft">OFF：无法操作驾驶员车门电动窗手动上升开关
+<br>
+ON：可操作驾驶员车门电动窗手动上升开关
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">D Door P/W Down SW
+</td>
+<td class="alleft">驾驶员车门电动窗手动下降开关信号
+</td>
+<td class="alcenter">OFF 或 ON
+</td>
+<td class="alleft">OFF：无法操作驾驶员车门电动窗手动下降开关
+<br>
+ON：可操作驾驶员车门电动窗手动下降开关
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Number of Trouble Codes
+</td>
+<td class="alleft">DTC 数量
+</td>
+<td class="alcenter">最少：0 或最多：255
+</td>
+<td class="alleft">显示 DTC 的数量
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Body Electrical &gt; Main Body &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">IG SW
+</td>
+<td class="alleft">点火开关状态
+</td>
+<td class="alcenter">OFF 或 ON
+</td>
+<td class="alleft">OFF：点火开关置于 OFF 位置
+<br>
+ON：点火开关置于 ON 位置
+</td>
+<td class="alleft">即使将点火开关置于 ACC 位置也显示&ldquo;OFF&rdquo;。
+</td>
+</tr>
+<tr>
+<td class="alleft">FR Door Courtesy SW
+</td>
+<td class="alleft">右前车门门控灯开关
+</td>
+<td class="alcenter">OFF 或 ON
+</td>
+<td class="alleft">OFF：右前车门关闭
+<br>
+ON：右前车门打开
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">FL Door Courtesy SW
+</td>
+<td class="alleft">左前车门门控灯开关
+</td>
+<td class="alcenter">OFF 或 ON
+</td>
+<td class="alleft">OFF：左前车门关闭
+<br>
+ON：左前车门打开
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Communication D-Door Motor
+</td>
+<td class="alleft">电动窗升降器马达总成（驾驶员车门）和主车身 ECU（多路网络车身 ECU）之间的连接状态*
+</td>
+<td class="alcenter">OK 或 STOP
+</td>
+<td class="alleft">OK：通信正常
+<br>
+STOP：通信终止
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*：带防夹功能
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">主动测试
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 进行主动测试，无需拆下任何零件即可操作继电器、VSV、执行器及其他项目。这种非侵入式功能检查非常有用，可在零件或配线受到干扰之前发现间歇性工作。故障排除时，尽早进行主动测试是节省诊断时间的一种方法。进行主动测试时可以显示数据表信息。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>进入以下菜单：Body Electrical / D-Door Motor* or Main Body / Active Test。
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*：带防夹功能
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>根据 GTS 上的显示，进行主动测试。
+</p>
+<dl class="atten2">
+<dt class="atten2">注意事项：</dt>
+<dd class="atten2">
+<p>该测试会导致车辆零件移动，所以应小心避免受伤。主动测试中，防夹功能将不工作。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="gtsActiveTestTable hasAllTable">
+<dt class="gtsActiveTestTable">Body Electrical &gt; D-Door Motor &gt; Active Test</dt>
+<dd class="gtsActiveTestTable">
+<table summary="active-test-table">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">控制范围
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Power Window
+</td>
+<td class="alcenter">电动窗
+</td>
+<td class="alcenter">OFF/DOWN/UP
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="gtsActiveTestTable hasAllTable">
+<dt class="gtsActiveTestTable">Body Electrical &gt; Main Body &gt; Active Test</dt>
+<dd class="gtsActiveTestTable">
+<table summary="active-test-table">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">控制范围
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">IG OFF P/W Control Permission Output
+</td>
+<td class="alcenter">电动窗
+</td>
+<td class="alcenter">OFF/ON
+</td>
+<td class="alleft">点火开关置于 OFF 位置时进行该主动测试
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

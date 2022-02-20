@@ -1,0 +1,408 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_57</span>
+<span class="globalServcatName">电源/网络</span>
+<span class="globalSection">_023957</span>
+<span class="globalSectionName">1ZR-FE 蓄电池/充电系统</span>
+<span class="globalTitle">_0116645</span>
+<span class="globalTitleName">充电系统</span>
+<span class="globalCategory">U</span>
+</div>
+<h1>1ZR-FE 蓄电池/充电系统&nbsp;&nbsp;充电系统&nbsp;&nbsp;数据表/主动测试&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DATO_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">数据表
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 读取数据表，无需拆下任何零件，即可读取开关、传感器、执行器及其他项目的值或状态。这种非侵入式检查非常有用，可在零件或配线受到干扰之前发现间歇性状况或信号。故障排除时，尽早读取数据表信息是节省诊断时间的一种方法。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>在下表中，&ldquo;正常状态&rdquo;下列出的值为参考值。确定零件是否出现故障时，不要仅仅依赖这些参考值。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>使发动机暖机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">f.</div>
+<div class="step2Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Data List。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">g.</div>
+<div class="step2Body">
+<p>根据 GTS 上的显示，读取数据表。
+</p>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Battery Voltage
+</td>
+<td class="alleft">蓄电池电压
+</td>
+<td class="alleft">最低：0 V，最高：65.535 V
+</td>
+<td class="alleft">11 至 14 V：怠速运转
+</td>
+<td class="alleft">如果结果不符合规定，则可能是蓄电池电压异常。
+</td>
+</tr>
+<tr>
+<td class="alleft">Battery Current
+</td>
+<td class="alleft">蓄电池电流
+</td>
+<td class="alleft">最小：-125 A，最大：124.9 A
+</td>
+<td class="alleft">根据交流发电机输出变化：
+<br>
+发动机暖机后驾驶时
+</td>
+<td class="alleft">如果结果不符合规定，则可能是充电控制系统故障。
+</td>
+</tr>
+<tr>
+<td class="alleft">Battery Temperature
+</td>
+<td class="alleft">蓄电池温度
+</td>
+<td class="alleft">最低：-40&deg;C (-40&deg;F)，最高：6,513.5&deg;C (11,756.3&deg;F)
+</td>
+<td class="alleft">根据实际温度变化：
+<br>
+发动机暖机后驾驶时
+</td>
+<td class="alleft">如果结果不符合规定，则可能是充电控制系统故障。
+</td>
+</tr>
+<tr>
+<td class="alleft">Alternator Output Duty
+</td>
+<td class="alleft">发电机输出占空比
+</td>
+<td class="alleft">最小：0%，最大：399.9%
+</td>
+<td class="alleft">根据交流发电机输出变化：
+<br>
+充电控制期间
+</td>
+<td class="alleft">如果结果不符合规定，则可能是充电控制系统故障。
+</td>
+</tr>
+<tr>
+<td class="alleft">Alt Vol - Non Active Test
+</td>
+<td class="alleft">稳压器未强制激活时的请求电压
+</td>
+<td class="alleft">最低：0 V，最高：79.998 V
+</td>
+<td class="alleft">14.5 至 14.8 V：
+<br>
+发动机起动后（随蓄电池温度或驾驶条件的变化而变化）
+</td>
+<td class="alleft">主动测试支持数据
+</td>
+</tr>
+<tr>
+<td class="alleft">Alt Vol - Active Test
+</td>
+<td class="alleft">稳压器强制激活时的请求电压
+</td>
+<td class="alleft">最低：0 V，最高：79.998 V
+</td>
+<td class="alleft">进行主动测试项目&ldquo;Control the Voltage of Alternator&rdquo;时，约与请求输出电压相同：
+<br>
+发动机起动后
+</td>
+<td class="alleft">主动测试支持数据
+</td>
+</tr>
+<tr>
+<td class="alleft">Previous Trip Alternator Max Output Time
+</td>
+<td class="alleft">上一行程交流发电机的累计发电时间
+</td>
+<td class="alleft">最短：0 秒，最长：65,535 秒
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Initial Engine Battery Minimum Voltage
+</td>
+<td class="alleft">发动机起动时的最低蓄电池电压
+</td>
+<td class="alleft">最低：0 V，最高：25.5 V
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Previous Trip Charge Control Time
+</td>
+<td class="alleft">上一行程充电控制的累计时间
+</td>
+<td class="alleft">最短：0 秒，最长：65,535 秒
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Previous Trip Average Battery Temperature
+</td>
+<td class="alleft">上一行程的平均蓄电池温度
+</td>
+<td class="alleft">最低：-40&deg;C (-40&deg;F)，最高：215&deg;C (419&deg;F)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>正常状态：如果没有规定怠速运转条件，则换档杆应置于 N（空档）或 P 位置，且空调开关和所有附件开关应关闭。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">主动测试
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 进行主动测试，无需拆下任何零件即可操作继电器、VSV、执行器及其他项目。这种非侵入式功能检查非常有用，可在零件或配线受到干扰之前发现间歇性工作。故障排除时，尽早进行主动测试是节省诊断时间的一种方法。进行主动测试时可以显示数据表信息。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Active Test。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>根据 GTS 上的显示，进行主动测试。
+</p>
+<dl class="gtsActiveTestTable hasAllTable">
+<dt class="gtsActiveTestTable">Powertrain &gt; Engine and ECT &gt; Active Test</dt>
+<dd class="gtsActiveTestTable">
+<table summary="active-test-table">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">控制范围
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Control the Voltage of Alternator
+</td>
+<td class="alleft">强制激活期间发电机稳压器的请求输出电压
+</td>
+<td class="alleft">12.5 和 14.8 V 之间
+</td>
+<td class="alleft">发动机起动后可以进行测试
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

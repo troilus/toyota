@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_56">
+<name>音频/视频/车载通信系统</name>
+<section id="_023998">
+<name>音频/视频系统</name>
+<ttl id="_0116391">
+<name>音频和视频系统（无线电收音机和显示屏型）</name>
+<para category="Y" id="RM100000000D9HK">
+<dtccode/>
+<dtcname>如何进行故障排除</dtcname>
+<subpara category="10" id="RM100000000D9HK_02">
+<name>注意/小心/提示</name>
+<content5>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>按照以下程序对音频和视频系统进行故障排除。</ptxt>
+</item>
+<item>
+<ptxt>*：使用 GTS。</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D9HK_01">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D9HK_01_0001">
+<testtitle>车辆送入修理车间</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D9HK_01_0002"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D9HK_01_0002">
+<testtitle>客户故障分析</testtitle>
+<content6>
+<list1 type="unordered">
+<item>
+<ptxt>进行故障排除时，应确认故障症状已准确判明。应摒弃臆断以便作出准确的判断。为了查明故障症状，向客户询问故障发生时的症状和条件非常重要。</ptxt>
+</item>
+<item>
+<ptxt>收集尽可能多的信息以供参考。过去看似无关的故障可能也会有所帮助。</ptxt>
+</item>
+<item>
+<ptxt>以下 5 项是故障分析的要点：</ptxt>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.06in"/>
+<colspec colname="col2" colwidth="2.07in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>何物</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>车型、系统名称</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>何时</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>日期、时间、发生频率</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>何地</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>路况</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>在什么条件下？</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>驾驶条件、天气条件</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>如何发生？</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>故障症状</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+</list1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D9HK_01_0003"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D9HK_01_0003">
+<testtitle>检查蓄电池电压</testtitle>
+<content6>
+<test1>
+<ptxt>测量蓄电池电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<specitem>
+<ptxt>11 至 14 V</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>如果电压低于 11 V，则在转至下一步前对蓄电池再充电或更换蓄电池。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D9HK_01_0004"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D9HK_01_0004">
+<testtitle>检查车厢</testtitle>
+<content6>
+<test1>
+<ptxt>检查并确认车厢内不会出现冷凝现象，且车厢内温度没有过高或过低。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>不会出现冷凝现象且温度没有过高或过低。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>车厢潮湿和温度急剧变化可能导致出现冷凝现象。如果车厢内出现冷凝现象，则可能导致短路。</ptxt>
+</item>
+<item>
+<ptxt>温度低于 -20°C (-4°F) 或高于 65°C (149°F) 时，音频和视频系统可能无法正常工作。</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000D9HK_01_0006"/>
+</result>
+<result cellposition="4-4" label="2">
+<action actiontype="end" cellposition="5-4">
+<actiontitle>将车厢设定到适宜的温度</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000D9HK_01_0006">
+<testtitle>检查 CAN 通信系统*</testtitle>
+<content6>
+<test1>
+<ptxt>检查是否输出 CAN 通信系统 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UU" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 CAN DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 CAN DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="next" cellposition="6-1" childid="RM100000000D9HK_01_0007"/>
+</result>
+<result cellposition="5-3" label="2">
+<action actiontype="end" cellposition="6-3">
+<actiontitle>转至 CAN 通信系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-1" id="RM100000000D9HK_01_0007">
+<testtitle>检查 DTC*</testtitle>
+<content6>
+<test1>
+<ptxt>请参考 DTC 检查/清除。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9GV" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="6-1" label="1">
+<action actiontype="next" cellposition="7-1" childid="RM100000000D9HK_01_0008"/>
+</result>
+<result cellposition="6-2" label="2">
+<action actiontype="jump" cellposition="7-2" childid="RM100000000D9HK_01_0011">
+<actiontitle>转至步骤 10</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-1" id="RM100000000D9HK_01_0008">
+<testtitle>清除 DTC*</testtitle>
+<content6>
+<test1>
+<ptxt>请参考 DTC 检查/清除。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9GV" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>根据不同的车辆运行情况，当前 DTC 可能并不表示存在故障。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-1" label="1">
+<action actiontype="next" cellposition="8-1" childid="RM100000000D9HK_01_0009"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-1" id="RM100000000D9HK_01_0009">
+<testtitle>重新检查 DTC*</testtitle>
+<content6>
+<test1>
+<ptxt>请参考 DTC 检查/清除。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9GV" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>即使未确认故障症状，也要检查 DTC。这是因为系统存储了历史 DTC。</ptxt>
+</item>
+<item>
+<ptxt>如果需要更多信息，则使用 GTS 重新检查 DTC 后，使用“系统检查模式”画面重新检查。</ptxt>
+</item>
+<item>
+<ptxt>检查 DTC 和该代码指示的部位。</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+</content6>
+<results>
+<result cellposition="8-1" label="1">
+<action actiontype="next" cellposition="9-1" childid="RM100000000D9HK_01_0010"/>
+</result>
+<result cellposition="8-2" label="2">
+<action actiontype="next" cellposition="9-2" childid="RM100000000D9HK_01_0011"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-1" id="RM100000000D9HK_01_0010">
+<testtitle>诊断故障码表</testtitle>
+<content6>
+<test1>
+<ptxt>在诊断故障码表中查找输出的代码。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9GN" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-1" label="1">
+<action actiontype="jump" cellposition="10-1" childid="RM100000000D9HK_01_0013">
+<actiontitle>转至步骤 12</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-2" id="RM100000000D9HK_01_0011">
+<testtitle>故障症状表</testtitle>
+<content6>
+<test1>
+<ptxt>请参考故障症状表。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9GO" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>故障未列于故障症状表中。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>故障列于故障症状表中。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>如果症状未重现并且未输出 DTC，则设法重现症状。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+</content6>
+<results>
+<result cellposition="9-2" label="1">
+<action actiontype="next" cellposition="10-2" childid="RM100000000D9HK_01_0012"/>
+</result>
+<result cellposition="9-3" label="2">
+<action actiontype="jump" cellposition="10-3" childid="RM100000000D9HK_01_0013">
+<actiontitle>转至步骤 12</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="10-2" id="RM100000000D9HK_01_0012">
+<testtitle>根据故障症状进行故障排除</testtitle>
+<content6>
+<test1>
+<ptxt>请参考 ECU 的端子。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9HX" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="10-2" label="1">
+<action actiontype="next" cellposition="11-2" childid="RM100000000D9HK_01_0013"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="11-2" id="RM100000000D9HK_01_0013">
+<testtitle>检查电路</testtitle>
+<content6>
+<test1>
+<ptxt>必要时进行调节、维修或更换。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="11-2" label="1">
+<action actiontype="next" cellposition="12-2" childid="RM100000000D9HK_01_0014"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="12-2" id="RM100000000D9HK_01_0014">
+<testtitle>重新检查 DTC*</testtitle>
+<content6>
+<test1>
+<ptxt>清除 DTC 后，重新检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9GV" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; Navigation System &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="212"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">212</app-param>
+<app-param name="ecu-name">Navigation System</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Navigation System &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="212"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">212</app-param>
+<app-param name="ecu-name">Navigation System</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="12-2" label="1">
+<action actiontype="next" cellposition="13-2" childid="RM100000000D9HK_01_0015"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="13-2" id="RM100000000D9HK_01_0015">
+<testtitle>进行确认测试</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="13-2" label="1">
+<action actiontype="end" cellposition="14-2">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

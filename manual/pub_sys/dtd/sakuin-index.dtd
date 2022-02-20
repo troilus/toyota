@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.5  UPDATE May. 22, 2013    -->
+<!ELEMENT tmc-service-sakuin-index (pub)>
+<!ELEMENT pub (index+)>
+<!ATTLIST pub
+	id ID #REQUIRED
+>
+<!ELEMENT index (parts+)>
+<!ATTLIST index
+	label CDATA #REQUIRED
+>
+<!ELEMENT parts (name)>
+<!ATTLIST parts
+	parts-id CDATA #REQUIRED
+	p-type CDATA #REQUIRED
+>
+<!ELEMENT name (#PCDATA)>

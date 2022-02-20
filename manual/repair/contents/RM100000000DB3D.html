@@ -1,0 +1,2571 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_58</span>
+<span class="globalServcatName">车辆内饰</span>
+<span class="globalSection">_024005</span>
+<span class="globalSectionName">防盗/无钥匙上车系统</span>
+<span class="globalTitle">_0116715</span>
+<span class="globalTitleName">停机系统（带智能进入和起动系统）</span>
+<span class="globalCategory">U</span>
+</div>
+<h1>防盗/无钥匙上车系统&nbsp;&nbsp;停机系统（带智能进入和起动系统）&nbsp;&nbsp;ECU 端子&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DB3D_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">检查发动机开关
+</span></p>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B271001.png" alt="B271001" title="B271001">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">3.396,0.292 3.75,0.51</span>
+<span class="rectangleSize">0.354,0.219</span>
+</span>
+<span class="caption">
+<span class="points">3.448,0.323 3.719,0.5</span>
+<span class="captionSize">0.271,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E50</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>根据下表中的值测量电压和电阻。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">输入/输出
+</th>
+<th class="alcenter">配线颜色
+</th>
+<th class="alcenter">端子描述
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+<th class="alcenter">相关数据表项目/DTC
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E50-6 (AGND) - 车身接地
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">BR - 车身接地
+</td>
+<td class="alcenter">应答器钥匙放大器接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">E50-7 (TXCT) - E50-6 (AGND)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">L - BR
+</td>
+<td class="alcenter">停机系统通信输入
+</td>
+<td class="alcenter">发动机开关置于 OFF 位置、未踩下制动踏板*1 或离合器踏板*2、驾驶员车门打开然后关闭后经过 30 秒或更长时间
+</td>
+<td class="alcenter">低于 1 V
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">E50-8 (CODE) - E50-6 (AGND)
+</td>
+<td class="alcenter">输出
+</td>
+<td class="alcenter">P - BR
+</td>
+<td class="alcenter">停机系统通信输出
+</td>
+<td class="alcenter">发动机开关置于 OFF 位置、未踩下制动踏板*1 或离合器踏板*2、驾驶员车门打开然后关闭后经过 30 秒或更长时间
+</td>
+<td class="alcenter">低于 1 V
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">E50-10 (VC5) - E50-6 (AGND)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">W - BR
+</td>
+<td class="alcenter">应答器钥匙放大器电源
+</td>
+<td class="alcenter">发动机开关置于 OFF 位置、未踩下制动踏板*1 或离合器踏板*2、驾驶员车门打开然后关闭后经过 30 秒或更长时间
+</td>
+<td class="alcenter">低于 1 V
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*1：自动传动桥
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*2：手动传动桥
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>根据下表中的值检查脉冲。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">输入/输出
+</th>
+<th class="alcenter">配线颜色
+</th>
+<th class="alcenter">端子描述
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+<th class="alcenter">相关数据表项目/DTC
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E50-7 (TXCT) - E50-6 (AGND)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">L - BR
+</td>
+<td class="alcenter">自认证 ECU（智能钥匙 ECU 总成）的信号输入
+<br>
+（代码从认证 ECU（智能钥匙 ECU 总成）发送至内置于发动机开关的应答器钥匙放大器，然后作为无线电波通过应答器钥匙放大器的天线发射）
+</td>
+<td class="alcenter">发动机开关置于 OFF 位置、电子钥匙发射器分总成不在车厢内、按下发动机开关后 30 秒内
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 1）
+</td>
+<td rowspan="3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>BCC Malfunction
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Abnormal Status
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Different Encrypt Code
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Different Serial Number
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Frame Error
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Response
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果停机系统钥匙代码认证通信不能正常进行，则故障可能由上述数据表项目中的一个或多个指示
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">E50-8 (CODE) - E50-6 (AGND)
+</td>
+<td class="alcenter">输出
+</td>
+<td class="alcenter">P - BR
+</td>
+<td class="alcenter">至认证 ECU（智能钥匙 ECU 总成）的信号输出
+<br>
+（来自内置于发动机开关的应答器钥匙放大器的无线电波用于检测钥匙信息。然后钥匙信息发送至认证 ECU（智能钥匙 ECU 总成））
+</td>
+<td class="alcenter">发动机开关置于 OFF 位置、手持电子钥匙发射器分总成接近发动机开关并按下发动机开关*
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 2）
+</td>
+</tr>
+<tr>
+<td class="alcenter">E50-10 (VC5) - E50-6 (AGND)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">W - BR
+</td>
+<td class="alcenter">应答器钥匙放大器电源
+<br>
+（激活内置于发动机开关的应答器钥匙放大器时，认证 ECU（智能钥匙 ECU 总成）输送电源）
+</td>
+<td class="alcenter">发动机开关置于 OFF 位置、电子钥匙发射器分总成不在车厢内、按下发动机开关后 30 秒内
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 3）
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>*：进行该检查前拆下发射器电池。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>使用示波器检查波形。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>图中所示波形仅为一个参考示例。未显示噪波、杂波等。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/B051052.png" alt="B051052" title="B051052">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">2.802,0.781 3.156,0.969</span>
+<span class="captionSize">0.354,0.188</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>波形 1（参考）
+</p>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td>E50-7 (TXCT) - E50-6 (AGND)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，20 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>发动机开关置于 OFF 位置、电子钥匙发射器分总成不在车厢内、按下发动机开关后 30 秒内
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/B251418.png" alt="B251418" title="B251418">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">1.844,0.802 2.635,1.542</span>
+<span class="points">2.635,1.542 2.75,1.542</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="caption">
+<span class="points">2.781,1 3.219,1.167</span>
+<span class="captionSize">0.438,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">2.781,1.458 2.958,1.625</span>
+<span class="captionSize">0.177,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>手持电子钥匙发射器分总成接近发动机开关
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>波形 2（参考）
+</p>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td>E50-8 (CODE) - E50-6 (AGND)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，20 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>发动机开关置于 OFF 位置、手持电子钥匙发射器分总成接近发动机开关并按下发动机开关*
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>*：进行该检查前拆下发射器电池。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/B216007.png" alt="B216007" title="B216007">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">2.885,1.031 3.427,1.375</span>
+<span class="captionSize">0.542,0.344</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>波形 3（参考）
+</p>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td>E50-10 (VC5) - E50-6 (AGND)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，200 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>发动机开关置于 OFF 位置、电子钥匙发射器分总成不在车厢内、按下发动机开关后 30 秒内
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">检查认证 ECU（智能钥匙 ECU 总成）
+</span></p>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B264892.png" alt="B264892" title="B264892">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">1.958,0.729 2.354,0.969</span>
+<span class="rectangleSize">0.396,0.24</span>
+</span>
+<span class="rectangle">
+<span class="points">3.344,0.729 3.74,0.969</span>
+<span class="rectangleSize">0.396,0.24</span>
+</span>
+<span class="rectangle">
+<span class="points">4.917,0.729 5.313,0.969</span>
+<span class="rectangleSize">0.396,0.24</span>
+</span>
+<span class="caption">
+<span class="points">2.052,0.781 2.417,0.969</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E47</span>
+</span>
+<span class="caption">
+<span class="points">3.427,0.781 3.885,0.938</span>
+<span class="captionSize">0.458,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E48</span>
+</span>
+<span class="caption">
+<span class="points">5,0.781 5.479,0.969</span>
+<span class="captionSize">0.479,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E49</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>断开认证 ECU（智能钥匙 ECU 总成）连接器 E47。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>根据下表中的值测量电压和电阻。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">输入/输出
+</th>
+<th class="alcenter">配线颜色
+</th>
+<th class="alcenter">端子描述
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+<th class="alcenter">相关数据表项目/DTC
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E47-2 (+B) - E47-11 (E)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">L - W-B
+</td>
+<td class="alcenter">+B 电源
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">E47-10 (CUTB) - E47-11 (E)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">LG - W-B
+</td>
+<td class="alcenter">备用电源
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">E47-11 (E) - 车身接地
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">W-B - 车身接地
+</td>
+<td class="alcenter">接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>重新连接认证 ECU（智能钥匙 ECU 总成）连接器 E47。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>根据下表中的值测量电压和电阻。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">输入/输出
+</th>
+<th class="alcenter">配线颜色
+</th>
+<th class="alcenter">端子描述
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+<th class="alcenter">相关数据表项目/DTC
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E49-5 (IG) - E47-11 (E)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">GR - W-B
+</td>
+<td class="alcenter">点火电源
+</td>
+<td class="alcenter">发动机开关 OFF &rarr; ON (IG)
+</td>
+<td class="alcenter">低于 1 V &rarr; 11 至 14 V
+</td>
+<td class="alcenter">Ignition Switch
+</td>
+</tr>
+<tr>
+<td class="alcenter">E49-9 (TXCT) - E49-24 (AGND)
+</td>
+<td class="alcenter">输出
+</td>
+<td class="alcenter">L - BR
+</td>
+<td class="alcenter">信号输出至应答器钥匙放大器
+</td>
+<td class="alcenter">发动机开关置于 OFF 位置、未踩下制动踏板*1 或离合器踏板*2、驾驶员车门打开然后关闭后经过 30 秒或更长时间
+</td>
+<td class="alcenter">低于 1 V
+</td>
+<td class="alleft" rowspan="4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>BCC Malfunction
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Abnormal Status
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Different Encrypt Code
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Different Serial Number
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Frame Error
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Response
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">E49-7 (CODE) - E49-24 (AGND)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">P - BR
+</td>
+<td class="alcenter">从应答器钥匙放大器输入的信号
+</td>
+<td class="alcenter">发动机开关置于 OFF 位置、未踩下制动踏板*1 或离合器踏板*2、驾驶员车门打开然后关闭后经过 30 秒或更长时间
+</td>
+<td class="alcenter">低于 1 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">E49-1 (VC5) - E49-24 (AGND)
+</td>
+<td class="alcenter">输出
+</td>
+<td class="alcenter">W - BR
+</td>
+<td class="alcenter">应答器钥匙放大器电源
+</td>
+<td class="alcenter">发动机开关置于 OFF 位置、未踩下制动踏板*1 或离合器踏板*2、驾驶员车门打开然后关闭后经过 30 秒或更长时间
+</td>
+<td class="alcenter">低于 1 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">E49-24 (AGND) - 车身接地
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">BR - 车身接地
+</td>
+<td class="alcenter">应答器钥匙放大器接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*1：自动传动桥
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*2：手动传动桥
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>根据下表中的值测量电压并检查脉冲。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">输入/输出
+</th>
+<th class="alcenter">配线颜色
+</th>
+<th class="alcenter">端子描述
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+<th class="alcenter">相关数据表项目/DTC
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E49-18 (IND) - E47-11 (E)
+</td>
+<td class="alcenter">输出
+</td>
+<td class="alcenter">Y - W-B
+</td>
+<td class="alcenter">安全指示灯输出
+</td>
+<td class="alcenter">发动机开关 OFF &rarr; ON (IG)
+</td>
+<td class="alcenter">产生脉冲
+<br>
+&rarr; 低于 2 V
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">E49-9 (TXCT) - E49-24 (AGND)
+</td>
+<td class="alcenter">输出
+</td>
+<td class="alcenter">L - BR
+</td>
+<td class="alcenter">信号输出至应答器钥匙放大器
+<br>
+（代码从认证 ECU（智能钥匙 ECU 总成）发送至内置于发动机开关的应答器钥匙放大器，然后作为无线电波通过应答器钥匙放大器的天线发射）
+</td>
+<td class="alcenter">发动机开关置于 OFF 位置、电子钥匙发射器分总成不在车厢内、按下发动机开关后 30 秒内
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 1）
+</td>
+<td class="alleft" rowspan="3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>BCC Malfunction
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Abnormal Status
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Different Encrypt Code
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Different Serial Number
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Frame Error
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Response
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">E49-7 (CODE) - E49-24 (AGND)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">P - BR
+</td>
+<td class="alcenter">从应答器钥匙放大器输入的信号
+<br>
+（来自内置于发动机开关的应答器钥匙放大器的无线电波用于检测钥匙信息。然后钥匙信息发送至认证 ECU（智能钥匙 ECU 总成））
+</td>
+<td class="alcenter">发动机开关置于 OFF 位置、手持电子钥匙发射器分总成接近发动机开关并按下发动机开关*
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 2）
+</td>
+</tr>
+<tr>
+<td class="alcenter">E49-1 (VC5) - E49-24 (AGND)
+</td>
+<td class="alcenter">输出
+</td>
+<td class="alcenter">W - BR
+</td>
+<td class="alcenter">应答器钥匙放大器电源
+<br>
+（激活内置于发动机开关的应答器钥匙放大器时，认证 ECU（智能钥匙 ECU 总成）输送电源）
+</td>
+<td class="alcenter">发动机开关置于 OFF 位置、电子钥匙发射器分总成不在车厢内、按下发动机开关后 30 秒内
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 3）
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>*：进行该检查前拆下发射器电池。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">f.</div>
+<div class="step2Body">
+<p>使用示波器检查波形。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>图中所示波形仅为一个参考示例。未显示噪波、杂波等。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/B051052.png" alt="B051052" title="B051052">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">2.802,0.781 3.156,0.969</span>
+<span class="captionSize">0.354,0.188</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>波形 1（参考）
+</p>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td>E49-9 (TXCT) - E49-24 (AGND)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，20 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>发动机开关置于 OFF 位置、电子钥匙发射器分总成不在车厢内、按下发动机开关后 30 秒内
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/B251418.png" alt="B251418" title="B251418">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">1.844,0.802 2.635,1.542</span>
+<span class="points">2.635,1.542 2.75,1.542</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="caption">
+<span class="points">2.781,1 3.219,1.167</span>
+<span class="captionSize">0.438,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">2.781,1.458 2.958,1.625</span>
+<span class="captionSize">0.177,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>手持电子钥匙发射器分总成接近发动机开关
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>波形 2（参考）
+</p>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td>E49-7 (CODE) - E49-24 (AGND)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，20 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>发动机开关置于 OFF 位置、手持电子钥匙发射器分总成接近发动机开关并按下发动机开关*
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>*：进行该检查前拆下发射器电池。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/B216007.png" alt="B216007" title="B216007">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">2.885,1.031 3.427,1.375</span>
+<span class="captionSize">0.542,0.344</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>波形 3（参考）
+</p>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td>E49-1 (VC5) - E49-24 (AGND)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，200 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>发动机开关置于 OFF 位置、电子钥匙发射器分总成不在车厢内、按下发动机开关后 30 秒内
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">检查转向锁 ECU（转向锁执行器总成）
+</span></p>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B118684.png" alt="B118684" title="B118684">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">3.438,0.26 3.802,0.521</span>
+<span class="rectangleSize">0.365,0.26</span>
+</span>
+<span class="caption">
+<span class="points">3.51,0.313 3.875,0.51</span>
+<span class="captionSize">0.365,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E51</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>根据下表中的值测量电阻和电压并检查脉冲。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:13%">
+<col style="width:14%">
+<col style="width:14%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">输入/输出
+</th>
+<th class="alcenter">配线颜色
+</th>
+<th class="alcenter">端子描述
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+<th class="alcenter">相关数据表项目/DTC
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E51-1 (GND) - 车身接地
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">W-B - 车身接地
+</td>
+<td class="alcenter">接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">E51-3 (IGE) - E51-1 (GND)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">P - W-B
+</td>
+<td class="alcenter">转向锁止马达工作许可信号（认证 ECU（智能钥匙 ECU 总成）提供的马达工作许可信号）
+</td>
+<td>满足下列所有条件时转向锁止马达工作，然后车门打开：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>换档杆置于 P
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向开锁
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关 OFF
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 1）
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Power Supply Short
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Unlock Request Receive
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Lock Request Receive
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">E51-4 (SLP1) - E51-1 (GND)
+</td>
+<td class="alcenter">输出
+</td>
+<td class="alcenter">G - W-B
+</td>
+<td class="alcenter">转向锁杆位置信号（从转向开锁传感器输出的信号）
+</td>
+<td class="alcenter">转向锁止 &rarr; 开锁*
+</td>
+<td class="alcenter">11 至 14 V &rarr; 低于 1.2 V
+</td>
+<td class="alcenter">Sensor Value
+</td>
+</tr>
+<tr>
+<td class="alcenter">E51-6 (IG2) - E51-1 (GND)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">GR - W-B
+</td>
+<td class="alcenter">IG 信号（转向锁止马达 IG2 电源输入）
+</td>
+<td class="alcenter">发动机开关 OFF &rarr; ON (IG)
+</td>
+<td class="alcenter">低于 1 V &rarr; 11 至 14 V
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>B2788
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Ignition Switch
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">E51-7 (B) - 车身接地
+</td>
+<td class="alcenter">输出
+</td>
+<td class="alcenter">L - 车身接地
+</td>
+<td class="alcenter">稳压电源
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+<td class="alcenter">B2788
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>*：换档杆置于 P 且发动机开关置于 OFF 位置的情况下打开任一车门时，转向锁止。发动机开关置于 ON (ACC) 位置时转向开锁。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>使用示波器检查波形。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>图中所示波形仅为一个参考示例。未显示噪波、杂波等。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C259594.png" alt="C259594" title="C259594">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">1.052,0.344 2.958,0.219</span>
+<span class="points">2.958,0.219 2.521,0.396</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="line">
+<span class="points">2.031,1.802 2.292,1.969</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="caption">
+<span class="points">3.01,0.135 3.323,0.292</span>
+<span class="captionSize">0.313,0.156</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">2.344,1.938 2.667,2.104</span>
+<span class="captionSize">0.323,0.167</span>
+<span class="fontsize">10</span>
+<span class="captionText">*b</span>
+</span>
+<span class="caption">
+<span class="points">2.938,1.594 3.302,1.792</span>
+<span class="captionSize">0.365,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>转向锁止马达不工作
+</td>
+</tr>
+<tr>
+<td class="alcenter">*b
+</td>
+<td>转向锁止马达工作
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>波形 1（参考）
+</p>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td>E51-3 (IGE) - E51-1 (GND)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，200 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>满足下列两个条件时转向锁止马达工作，然后车门打开：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>换档杆置于 P
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>携带电子钥匙发射器分总成、发动机开关置于 ON (IG) 位置、转向开锁，然后将发动机开关置于 OFF 位置
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">检查 ID 代码箱（停机系统代码 ECU）
+</span></p>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B278917.png" alt="B278917" title="B278917">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">3.406,0.177 3.74,0.396</span>
+<span class="rectangleSize">0.333,0.219</span>
+</span>
+<span class="caption">
+<span class="points">3.458,0.208 3.906,0.469</span>
+<span class="captionSize">0.448,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E28</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>断开 ID 代码箱（停机系统代码 ECU）连接器 E28。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>根据下表中的值测量电阻和电压。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">输入/输出
+</th>
+<th class="alcenter">配线颜色
+</th>
+<th class="alcenter">端子描述
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+<th class="alcenter">相关数据表项目/DTC
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E28-1 (+B) - E28-5 (GND)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">W - BR
+</td>
+<td class="alcenter">+B 电源
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+<td class="alcenter">B2789
+</td>
+</tr>
+<tr>
+<td class="alcenter">E28-5 (GND) - 车身接地
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">BR - 车身接地
+</td>
+<td class="alcenter">接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+<td class="alcenter">B2789
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>重新连接 ID 代码箱（停机系统代码 ECU）连接器 E28。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>根据下表中的值测量电压并检查脉冲。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">输入/输出
+</th>
+<th class="alcenter">配线颜色
+</th>
+<th class="alcenter">端子描述
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+<th class="alcenter">相关数据表项目/DTC
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E28-3 (EFII) - E28-5 (GND)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">LG - BR
+</td>
+<td class="alcenter">EFI 通信输入
+<br>
+（信号自 ECM 输入至 ID 代码箱（停机系统代码 ECU））
+</td>
+<td class="alcenter">发动机起动后 3 秒内，或断开并重新连接蓄电池电缆后将发动机开关置于 ON (IG) 位置 3 秒内
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 1）
+</td>
+<td rowspan="4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>B2799
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>B279A
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Engine Start Request
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>EFI Code Receive
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">E28-3 (EFII) - E28-5 (GND)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">LG - BR
+</td>
+<td class="alcenter">EFI 通信输入
+<br>
+（信号自 ECM 输入至 ID 代码箱（停机系统代码 ECU））
+</td>
+<td class="alcenter">发动机开关 OFF
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">E28-4 (EFIO) - E28-5 (GND)
+</td>
+<td class="alcenter">输出
+</td>
+<td class="alcenter">P - BR
+</td>
+<td class="alcenter">EFI 通信输出
+<br>
+（信号自ID 代码箱（停机系统代码 ECU）输出至 ECM）
+</td>
+<td class="alcenter">发动机起动后 3 秒内，或断开并重新连接蓄电池电缆后将发动机开关置于 ON (IG) 位置 3 秒内
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 2）
+</td>
+</tr>
+<tr>
+<td class="alcenter">E28-4 (EFIO) - E28-5 (GND)
+</td>
+<td class="alcenter">输出
+</td>
+<td class="alcenter">P - BR
+</td>
+<td class="alcenter">EFI 通信输出
+<br>
+（信号自ID 代码箱（停机系统代码 ECU）输出至 ECM）
+</td>
+<td class="alcenter">发动机开关 OFF
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>使用示波器检查波形。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>图中所示波形仅为一个参考示例。未显示噪波、杂波等。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>波形 1（参考）
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B325134.png" alt="B325134" title="B325134">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.917,1.271 1.375,1.469</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">2.719,1.354 3.177,1.552</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">2.906,1.354 3.365,1.552</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">*b</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>约 160 ms
+</td>
+<td class="alcenter">*b
+</td>
+<td>约 270 ms
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td>E28-3 (EFII) - E28-5 (GND)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，500 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>发动机起动后 3 秒内，或断开并重新连接蓄电池电缆后将发动机开关置于 ON (IG) 位置 3 秒内
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>波形 2（参考）
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B333259.png" alt="B333259" title="B333259">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.844,1.24 1.302,1.438</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">3.115,1.323 3.344,1.531</span>
+<span class="captionSize">0.229,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">3.313,1.323 3.542,1.531</span>
+<span class="captionSize">0.229,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">*b</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">约 160 ms
+</td>
+<td class="alcenter">*b
+</td>
+<td class="alleft">约 270 ms
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td>E28-4 (EFIO) - E28-5 (GND)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，500 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>发动机起动后 3 秒内，或断开并重新连接蓄电池电缆后将发动机开关置于 ON (IG) 位置 3 秒内
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">检查 ECM
+</span></p>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B318518.png" alt="B318518" title="B318518">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">2.333,0.198 2.688,0.417</span>
+<span class="rectangleSize">0.354,0.219</span>
+</span>
+<span class="rectangle">
+<span class="points">5.917,0.208 6.271,0.427</span>
+<span class="rectangleSize">0.354,0.219</span>
+</span>
+<span class="caption">
+<span class="points">2.385,0.208 2.708,0.396</span>
+<span class="captionSize">0.323,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B39</span>
+</span>
+<span class="caption">
+<span class="points">5.969,0.219 6.26,0.406</span>
+<span class="captionSize">0.292,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A40</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>根据下表中的值测量电压和电阻并检查脉冲。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">输入/输出
+</th>
+<th class="alcenter">配线颜色
+</th>
+<th class="alcenter">端子描述
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+<th class="alcenter">相关数据表项目/DTC
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">B39-59 (E1) - 车身接地
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">BR - 车身接地
+</td>
+<td class="alcenter">接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">A40-1 (BATT) - B39-59 (E1)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">P - BR
+</td>
+<td class="alcenter">+B 电源
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">A40-2 (+B) - B39-59 (E1)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">B - BR
+</td>
+<td class="alcenter">+B 电源
+</td>
+<td class="alcenter">发动机开关 ON (IG)
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">A40-3 (+B2) - B39-59 (E1)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">B - BR
+</td>
+<td class="alcenter">+B 电源
+</td>
+<td class="alcenter">发动机开关 ON (IG)
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">A40-45 (IMO) - B39-59 (E1)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">LG - BR
+</td>
+<td class="alcenter">ID 代码箱（停机系统代码 ECU）通信输入
+</td>
+<td class="alcenter">发动机起动后 3 秒内，或断开并重新连接蓄电池电缆后将发动机开关置于 ON (IG) 位置 3 秒内
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 1）
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">A40-45 (IMO) - B39-59 (E1)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">LG - BR
+</td>
+<td class="alcenter">ID 代码箱（停机系统代码 ECU）通信输入
+</td>
+<td class="alcenter">发动机开关 OFF
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">A40-28 (IMI) - B39-59 (E1)
+</td>
+<td class="alcenter">输出
+</td>
+<td class="alcenter">P - BR
+</td>
+<td class="alcenter">ID 代码箱（停机系统代码 ECU）通信输出
+</td>
+<td class="alcenter">发动机起动后 3 秒内，或断开并重新连接蓄电池电缆后将发动机开关置于 ON (IG) 位置 3 秒内
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 2）
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">A40-28 (IMI) - B39-59 (E1)
+</td>
+<td class="alcenter">输出
+</td>
+<td class="alcenter">P - BR
+</td>
+<td class="alcenter">ID 代码箱（停机系统代码 ECU）通信输出
+</td>
+<td class="alcenter">发动机开关 OFF
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>使用示波器检查波形。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>图中所示波形仅为一个参考示例。未显示噪波、杂波等。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>波形 1（参考）
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B325134.png" alt="B325134" title="B325134">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.917,1.271 1.375,1.469</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">2.719,1.354 3.177,1.552</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">2.906,1.354 3.365,1.552</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">*b</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>约 160 ms
+</td>
+<td class="alcenter">*b
+</td>
+<td>约 270 ms
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td>A40-45 (IMO) - B39-59 (E1)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，500 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>发动机起动后 3 秒内，或断开并重新连接蓄电池电缆后将发动机开关置于 ON (IG) 位置 3 秒内
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>波形 2（参考）
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B333259.png" alt="B333259" title="B333259">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.844,1.24 1.302,1.438</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">3.115,1.323 3.344,1.531</span>
+<span class="captionSize">0.229,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">3.313,1.323 3.542,1.531</span>
+<span class="captionSize">0.229,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">*b</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">约 160 ms
+</td>
+<td class="alcenter">*b
+</td>
+<td class="alleft">约 270 ms
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td>A40-28 (IMI) - B39-59 (E1)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，500 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>发动机起动后 3 秒内，或断开并重新连接蓄电池电缆后将发动机开关置于 ON (IG) 位置 3 秒内
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

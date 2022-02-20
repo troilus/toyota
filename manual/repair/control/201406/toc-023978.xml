@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="RM3140CG"><servcat id="_V1"><name>概述</name><section id="_023978">
+<name>准备工作</name>
+<ttl id="_0115887">
+<name>1ZR-FE 发动机控制系统</name>
+<para category="B" id="RM100000000DE8Y" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DE8Z" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DE90" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115896">
+<name>2ZR-FE 发动机控制系统</name>
+<para category="B" id="RM100000000ETOX" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000ETOY" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ETOZ" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115905">
+<name>4ZR-FE 发动机控制系统</name>
+<para category="B" id="RM100000000ETP0" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000ETP1" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ETP2" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0120044">
+<name>7ZR-FE 发动机控制系统</name>
+<para category="B" id="RM100000000ETPC" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000ETPD" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ETPE" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115888">
+<name>1ZR-FE 发动机机械部分</name>
+<para category="B" id="RM100000000DGH3" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DGH4" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DGH5" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DGH6" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115897">
+<name>2ZR-FE 发动机机械部分</name>
+<para category="B" id="RM100000000DE1G" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DE1H" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DE1I" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DE1J" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115906">
+<name>4ZR-FE 发动机机械部分</name>
+<para category="B" id="RM100000000ETTD" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000ETTE" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ETTF" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000ETTG" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0120045">
+<name>7ZR-FE 发动机机械部分</name>
+<para category="B" id="RM100000000DQC2" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DQC3" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DQC4" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DQC5" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115889">
+<name>1ZR-FE 燃油系统</name>
+<para category="B" id="RM100000000DEFD" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DEFE" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DEFF" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DEFG" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115898">
+<name>2ZR-FE 燃油系统</name>
+<para category="B" id="RM100000000DEFH" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DEFI" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DEFJ" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DEFK" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115907">
+<name>4ZR-FE 燃油系统</name>
+<para category="B" id="RM100000000E8HY" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000E8HZ" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000E8I0" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000E8I1" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0120046">
+<name>7ZR-FE 燃油系统</name>
+<para category="B" id="RM100000000E8I2" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000E8I3" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000E8I4" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000E8I5" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115890">
+<name>1ZR-FE 排放控制系统</name>
+<para category="B" id="RM100000000DCP4" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DCP5" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DCP6" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115899">
+<name>2ZR-FE 排放控制系统</name>
+<para category="B" id="RM100000000DVAP" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DVAQ" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DVAR" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115908">
+<name>4ZR-FE 排放控制系统</name>
+<para category="B" id="RM100000000DVAS" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DVAT" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DVAU" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0120047">
+<name>7ZR-FE 排放控制系统</name>
+<para category="B" id="RM100000000DVAV" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DVAW" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DVAX" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115891">
+<name>1ZR-FE 进气/排气系统</name>
+<para category="B" id="RM100000000DCP7" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DCP8" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115900">
+<name>2ZR-FE 进气/排气系统</name>
+<para category="B" id="RM100000000DVBZ" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DVC0" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115909">
+<name>4ZR-FE 进气/排气系统</name>
+<para category="B" id="RM100000000EU0G" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000EU0H" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0120048">
+<name>7ZR-FE 进气/排气系统</name>
+<para category="B" id="RM100000000EU0I" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000EU0J" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115892">
+<name>1ZR-FE 冷却系统</name>
+<para category="B" id="RM100000000DFH2" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DFH3" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="F" id="RM100000000DFH4" term-id-from="001">
+<name>冷却液</name>
+</para>
+</ttl>
+<ttl id="_0115901">
+<name>2ZR-FE 冷却系统</name>
+<para category="B" id="RM100000000ET3Z" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ET40" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="F" id="RM100000000ET41" term-id-from="001">
+<name>冷却液</name>
+</para>
+</ttl>
+<ttl id="_0115910">
+<name>4ZR-FE 冷却系统</name>
+<para category="B" id="RM100000000ET42" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ET43" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="F" id="RM100000000ET44" term-id-from="001">
+<name>冷却液</name>
+</para>
+</ttl>
+<ttl id="_0120049">
+<name>7ZR-FE 冷却系统</name>
+<para category="B" id="RM100000000ET45" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ET46" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="F" id="RM100000000ET47" term-id-from="001">
+<name>冷却液</name>
+</para>
+</ttl>
+<ttl id="_0115893">
+<name>1ZR-FE 润滑系统</name>
+<para category="B" id="RM100000000ENSO" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000ENSP" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ENSQ" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000ENSR" term-id-from="001">
+<name>润滑油</name>
+</para>
+<para category="B" id="RM100000000ENSS" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115902">
+<name>2ZR-FE 润滑系统</name>
+<para category="B" id="RM100000000ENST" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000ENSU" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ENSV" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000ENSW" term-id-from="001">
+<name>润滑油</name>
+</para>
+<para category="B" id="RM100000000ENSX" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115911">
+<name>4ZR-FE 润滑系统</name>
+<para category="B" id="RM100000000ENSY" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000ENSZ" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ENT0" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000ENT1" term-id-from="001">
+<name>润滑油</name>
+</para>
+<para category="B" id="RM100000000ENT2" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0120050">
+<name>7ZR-FE 润滑系统</name>
+<para category="B" id="RM100000000ENT4" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000ENT5" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ENT6" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000ENT7" term-id-from="001">
+<name>润滑油</name>
+</para>
+<para category="B" id="RM100000000ENT8" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115894">
+<name>1ZR-FE 起动系统</name>
+<para category="B" id="RM100000000ENT9" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ENTA" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115903">
+<name>2ZR-FE 起动系统</name>
+<para category="B" id="RM100000000ENTC" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ENTD" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115912">
+<name>4ZR-FE 起动系统</name>
+<para category="B" id="RM100000000ENTE" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ENTF" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0120051">
+<name>7ZR-FE 起动系统</name>
+<para category="B" id="RM100000000ENTH" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ENTI" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115917">
+<name>巡航控制系统</name>
+<para category="B" id="RM100000000DDUH" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DDUI" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115918">
+<name>离合器</name>
+<para category="B" id="RM100000000DC4F" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DC4G" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DC4H" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DC4I" term-id-from="001">
+<name>润滑油</name>
+</para>
+<para category="B" id="RM100000000DC4J" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115914">
+<name>C51 手动变速器/传动桥</name>
+<para category="B" id="RM100000000DC4K" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DC4L" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DC4M" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DC4N" term-id-from="001">
+<name>润滑油</name>
+</para>
+<para category="B" id="RM100000000DC4O" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115915">
+<name>EC60 手动变速器/传动桥</name>
+<para category="B" id="RM100000000DC4P" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DC4Q" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DC4R" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DC4S" term-id-from="001">
+<name>润滑油</name>
+</para>
+<para category="B" id="RM100000000DC4T" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115916">
+<name>K313 CVT</name>
+<para category="B" id="RM100000000DA36" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DA37" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DA38" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DA39" term-id-from="001">
+<name>润滑油</name>
+</para>
+<para category="B" id="RM100000000DA3A" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115919">
+<name>半轴/传动轴</name>
+<para category="B" id="RM100000000DCYF" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DCYG" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DCYH" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DCYI" term-id-from="001">
+<name>润滑油</name>
+</para>
+</ttl>
+<ttl id="_0115920">
+<name>车桥和差速器</name>
+<para category="B" id="RM100000000DCML" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DCMM" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DCMN" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115921">
+<name>定位/操纵诊断</name>
+<para category="B" id="RM100000000DCMH" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115922">
+<name>前悬架</name>
+<para category="B" id="RM100000000D7WU" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000D7WV" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000D7WW" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115923">
+<name>后悬架</name>
+<para category="B" id="RM100000000DCMI" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DCMJ" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DCMK" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115925">
+<name>轮胎/车轮</name>
+<para category="B" id="RM100000000D8FX" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115926">
+<name>制动控制/动态控制系统</name>
+<para category="B" id="RM100000000D9EU" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000D9EV" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000D9EW" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115927">
+<name>制动系统（其他）</name>
+<para category="B" id="RM100000000D9EX" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000D9EY" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000D9EZ" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000D9F0" term-id-from="001">
+<name>润滑油</name>
+</para>
+</ttl>
+<ttl id="_0115928">
+<name>制动器（前轮）</name>
+<para category="B" id="RM100000000D838" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000D839" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000D83A" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115929">
+<name>制动器（后轮）</name>
+<para category="B" id="RM100000000D83D" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000D83E" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000D83F" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115930">
+<name>驻车制动系统</name>
+<para category="B" id="RM100000000DCFY" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DCFZ" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115931">
+<name>助力系统</name>
+<para category="B" id="RM100000000DE8B" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000D83I" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000D83J" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115932">
+<name>转向柱</name>
+<para category="B" id="RM100000000D83N" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000D83O" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000D83P" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115933">
+<name>转向机/转向传动机构</name>
+<para category="B" id="RM100000000DCL4" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DCL5" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115934">
+<name>音频/视频系统</name>
+<para category="B" id="RM100000000DD9J" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DD9K" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115935">
+<name>导航/多信息显示屏</name>
+<para category="B" id="RM100000000DD8D" term-id-from="001">
+<name>推荐工具</name>
+</para>
+</ttl>
+<ttl id="_0115936">
+<name>LEXUS G-BOOK（智能副驾）</name>
+<para category="B" id="RM100000000F7DJ" term-id-from="001">
+<name>推荐工具</name>
+</para>
+</ttl>
+<ttl id="_0115937">
+<name>驻车辅助/监视系统</name>
+<para category="B" id="RM100000000DCY7" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DCY8" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115895">
+<name>1ZR-FE 蓄电池/充电系统</name>
+<para category="B" id="RM100000000ENTJ" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000ENTK" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ENTL" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115904">
+<name>2ZR-FE 蓄电池/充电系统</name>
+<para category="B" id="RM100000000ENTN" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000ENTO" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ENTP" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115913">
+<name>4ZR-FE 蓄电池/充电系统</name>
+<para category="B" id="RM100000000ENTQ" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000ENTR" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ENTS" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0120052">
+<name>7ZR-FE 蓄电池/充电系统</name>
+<para category="B" id="RM100000000ENTT" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000ENTU" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000ENTV" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115938">
+<name>动力分配系统</name>
+<para category="B" id="RM100000000DCTH" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115939">
+<name>网络</name>
+<para category="B" id="RM100000000D86I" term-id-from="001">
+<name>推荐工具</name>
+</para>
+</ttl>
+<ttl id="_0115940">
+<name>门锁</name>
+<para category="B" id="RM100000000E850" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000E851" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115941">
+<name>防盗/无钥匙上车系统</name>
+<para category="B" id="RM100000000DDZH" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DDZI" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115942">
+<name>照明系统（车内）</name>
+<para category="B" id="RM100000000DELM" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DELN" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115943">
+<name>仪表/显示屏</name>
+<para category="B" id="RM100000000DDUJ" term-id-from="001">
+<name>推荐工具</name>
+</para>
+</ttl>
+<ttl id="_0115944">
+<name>后视镜（车内）</name>
+<para category="B" id="RM100000000E852" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000E853" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115945">
+<name>辅助乘员保护系统</name>
+<para category="B" id="RM100000000DD7R" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DD7S" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DD7T" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115946">
+<name>座椅</name>
+<para category="B" id="RM100000000D8PO" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000D8PP" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115947">
+<name>座椅安全带</name>
+<para category="B" id="RM100000000DDUL" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DDUM" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DDUN" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115948">
+<name>暖风/空调</name>
+<para category="B" id="RM100000000DCT3" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DCT4" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DCT5" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DCT6" term-id-from="001">
+<name>润滑油</name>
+</para>
+</ttl>
+<ttl id="_0115949">
+<name>电源插座（车内）</name>
+<para category="B" id="RM100000000DDUK" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115950">
+<name>内饰板/装饰件</name>
+<para category="B" id="RM100000000DCZS" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DCZT" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115951">
+<name>车窗/玻璃</name>
+<para category="B" id="RM100000000E854" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000E855" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000E856" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115952">
+<name>滑动天窗/活顶</name>
+<para category="B" id="RM100000000DCZU" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DCZV" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115953">
+<name>车门/舱门</name>
+<para category="B" id="RM100000000DEF4" term-id-from="001">
+<name>SST</name>
+</para>
+<para category="B" id="RM100000000DEF5" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DEF6" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DEF7" term-id-from="001">
+<name>润滑油</name>
+</para>
+<para category="B" id="RM100000000DEF8" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+<ttl id="_0115954">
+<name>后视镜（车外）</name>
+<para category="B" id="RM100000000E857" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000E858" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115955">
+<name>刮水器/清洗器</name>
+<para category="B" id="RM100000000DCTI" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DCTJ" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115956">
+<name>照明系统（车外）</name>
+<para category="B" id="RM100000000DDBY" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DDBZ" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115957">
+<name>喇叭</name>
+<para category="B" id="RM100000000DE58" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DE59" term-id-from="001">
+<name>设备</name>
+</para>
+</ttl>
+<ttl id="_0115958">
+<name>外饰板/装饰件</name>
+<para category="B" id="RM100000000DE5A" term-id-from="001">
+<name>推荐工具</name>
+</para>
+<para category="B" id="RM100000000DE5B" term-id-from="001">
+<name>设备</name>
+</para>
+<para category="B" id="RM100000000DE5C" term-id-from="001">
+<name>SSM</name>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

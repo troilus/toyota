@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_51">
+<name>发动机/混合动力系统</name>
+<section id="_023958">
+<name>2ZR-FE 发动机控制系统</name>
+<ttl id="_0117858">
+<name>SFI 系统</name>
+<para category="Y" id="RM100000000DEQW">
+<dtccode/>
+<dtcname>基本检查</dtcname>
+<subpara category="10" id="RM100000000DEQW_02">
+<name>注意/小心/提示</name>
+<content5>
+<ptxt>通过 DTC 检查未能确认故障时，对所有可能引起故障的电路进行故障排除。大多数情况下，按以下程序进行发动机基本检查可以快速有效地找出故障部位。因此，对发动机进行故障排除时，务必进行该检查。</ptxt>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DEQW_01">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DEQW_01_0001">
+<testtitle>检查蓄电池电压</testtitle>
+<content6>
+<atten3>
+<ptxt>发动机停止且发动机开关置于 OFF 位置时，进行此检查。</ptxt>
+</atten3>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>11 V 或更高</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>低于 11 V</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DEQW_01_0002"/>
+</result>
+<result cellposition="1-8" label="2">
+<action actiontype="end" cellposition="2-8">
+<actiontitle>对蓄电池充电或更换蓄电池</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DEQW_01_0002">
+<testtitle>检查发动机曲轴是否转动</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000DEQW_01_0003"/>
+</result>
+<result cellposition="2-7" label="2">
+<action actiontype="end" cellposition="3-7">
+<actiontitle>转至故障症状表</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DERE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000DEQW_01_0003">
+<testtitle>检查发动机是否起动</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000DEQW_01_0004"/>
+</result>
+<result cellposition="3-6" label="2">
+<action actiontype="jump" cellposition="4-6" childid="RM100000000DEQW_01_0006">
+<actiontitle>转至步骤 6</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000DEQW_01_0004">
+<testtitle>检查空气滤清器滤芯分总成</testtitle>
+<content6>
+<test1>
+<ptxt>目视检查并确认空气滤清器滤芯分总成没有被污物或油污过度污染。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000DEQW_01_0005"/>
+</result>
+<result cellposition="4-5" label="2">
+<action actiontype="end" cellposition="5-5">
+<actiontitle>更换空气滤清器滤芯分总成</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000DEQW_01_0005">
+<testtitle>检查怠速转速</testtitle>
+<content6>
+<test1>
+<ptxt>检查发动机怠速转速。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBN7_01_0016" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="next" cellposition="6-1" childid="RM100000000DEQW_01_0006"/>
+</result>
+<result cellposition="5-4" label="2">
+<action actiontype="end" cellposition="6-4">
+<actiontitle>对怠速转速进行故障排除并转至下一步</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-1" id="RM100000000DEQW_01_0006">
+<testtitle>检查燃油压力</testtitle>
+<content6>
+<test1>
+<ptxt>检查燃油压力。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000E8FT_01_0002" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-1" label="1">
+<action actiontype="next" cellposition="7-1" childid="RM100000000DEQW_01_0007"/>
+</result>
+<result cellposition="6-3" label="2">
+<action actiontype="end" cellposition="7-3">
+<actiontitle>对燃油压力进行故障排除并转至下一步</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-1" id="RM100000000DEQW_01_0007">
+<testtitle>检查火花</testtitle>
+<content6>
+<test1>
+<ptxt>进行火花测试。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETKA" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-1" label="1">
+<action actiontype="end" cellposition="8-1">
+<actiontitle>转至故障症状表</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DERE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="7-2" label="2">
+<action actiontype="end" cellposition="8-2">
+<actiontitle>对火花进行故障排除并转至下一步</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

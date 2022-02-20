@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <note ewd="WIRE002" code="B18" type="conn">
+    <name>空燃比传感器 (B1 S1)</name>
+  </note>
+  <note ewd="WIRE002" code="B6" type="conn">
+    <name>倒车灯开关总成</name>
+  </note>
+  <note ewd="WIRE002" code="B7" type="conn">
+    <name>倒车灯开关总成</name>
+  </note>
+  <note ewd="WIRE002" code="B3" type="conn">
+    <name>蓄电池</name>
+  </note>
+  <note ewd="WIRE002" code="B38" type="conn">
+    <name>蓄电池</name>
+  </note>
+  <note ewd="WIRE002" code="B36" type="conn">
+    <name>蓄电池电流传感器总成</name>
+  </note>
+  <note ewd="WIRE002" code="B25" type="conn">
+    <name>凸轮轴正时机油控制阀总成（排气侧）</name>
+  </note>
+  <note ewd="WIRE002" code="B26" type="conn">
+    <name>凸轮轴正时机油控制阀总成（进气侧）</name>
+  </note>
+  <note ewd="WIRE002" code="B9" type="conn">
+    <name>带皮带轮的压缩机总成</name>
+  </note>
+  <note ewd="WIRE002" code="B16" type="conn">
+    <name>曲轴位置传感器</name>
+  </note>
+  <note ewd="WIRE002" code="B21" type="conn">
+    <name>CVT 电磁阀（变速器线束）</name>
+  </note>
+  <note ewd="WIRE002" code="B4" type="conn">
+    <name>E.F.I. 发动机冷却液温度传感器</name>
+  </note>
+  <note ewd="WIRE002" code="B20" type="conn">
+    <name>E.F.I. 真空传感器总成</name>
+  </note>
+  <note ewd="WIRE002" code="B39" type="conn">
+    <name>ECM</name>
+  </note>
+  <note ewd="WIRE002" code="B8" type="conn">
+    <name>发动机机油压力开关总成</name>
+  </note>
+  <note ewd="WIRE002" code="B11" type="conn">
+    <name>1 号喷油器总成</name>
+  </note>
+  <note ewd="WIRE002" code="B12" type="conn">
+    <name>2 号喷油器总成</name>
+  </note>
+  <note ewd="WIRE002" code="B13" type="conn">
+    <name>3 号喷油器总成</name>
+  </note>
+  <note ewd="WIRE002" code="B14" type="conn">
+    <name>4 号喷油器总成</name>
+  </note>
+  <note ewd="WIRE002" code="B1" type="conn">
+    <name>发电机总成</name>
+  </note>
+  <note ewd="WIRE002" code="B17" type="conn">
+    <name>发电机总成</name>
+  </note>
+  <note ewd="WIRE002" code="B29" type="conn">
+    <name>1 号点火线圈</name>
+  </note>
+  <note ewd="WIRE002" code="B30" type="conn">
+    <name>2 号点火线圈</name>
+  </note>
+  <note ewd="WIRE002" code="B31" type="conn">
+    <name>3 号点火线圈</name>
+  </note>
+  <note ewd="WIRE002" code="B32" type="conn">
+    <name>4 号点火线圈</name>
+  </note>
+  <note ewd="WIRE002" code="B2" type="conn">
+    <name>进气质量空气流量计分总成</name>
+  </note>
+  <note ewd="WIRE002" code="B33" type="conn">
+    <name>油压传感器</name>
+  </note>
+  <note ewd="WIRE002" code="B19" type="conn">
+    <name>油温传感器</name>
+  </note>
+  <note ewd="WIRE002" code="B27" type="conn">
+    <name>氧传感器 (B1 S2)</name>
+  </note>
+  <note ewd="WIRE002" code="B15" type="conn">
+    <name>驻车/空档位置开关总成</name>
+  </note>
+  <note ewd="WIRE002" code="B22" type="conn">
+    <name>净化 VSV</name>
+  </note>
+  <note ewd="WIRE002" code="B5" type="conn">
+    <name>起动机总成</name>
+  </note>
+  <note ewd="WIRE002" code="B10" type="conn">
+    <name>起动机总成</name>
+  </note>
+  <note ewd="WIRE002" code="B28" type="conn">
+    <name>节气门体总成</name>
+  </note>
+  <note ewd="WIRE002" code="B34" type="conn">
+    <name>变速器转速传感器（初级）</name>
+  </note>
+  <note ewd="WIRE002" code="B35" type="conn">
+    <name>变速器转速传感器（次级）</name>
+  </note>
+  <note ewd="WIRE002" code="B37" type="conn">
+    <name>VSV (ACIS)</name>
+  </note>
+  <note ewd="WIRE002" code="B23" type="conn">
+    <name>VVT 传感器（排气侧）</name>
+  </note>
+  <note ewd="WIRE002" code="B24" type="conn">
+    <name>VVT 传感器（进气侧）</name>
+  </note>
+  <note ewd="WIRE002" code="1G" type="jbc">
+    <name>发动机线束和发动机室接线盒</name>
+  </note>
+  <note ewd="WIRE002" code="1H" type="jbc">
+    <name>发动机线束和发动机室接线盒</name>
+  </note>
+  <note ewd="WIRE002" code="BA1" type="w2w">
+    <name>发动机线束和发动机室主线束</name>
+  </note>
+  <note ewd="WIRE002" code="BA2" type="w2w">
+    <name>发动机线束和发动机室主线束</name>
+  </note>
+  <note ewd="WIRE002" code="BA3" type="w2w">
+    <name>发动机线束和发动机室主线束</name>
+  </note>
+  <note ewd="WIRE002" code="BD1" type="w2w">
+    <name>发动机线束和发动机 4 号线束</name>
+  </note>
+</EwdTree>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS077">
+    <part type="conn" code="A41,A42">
+      <text>CANL CANH</text>
+      <name>制动执行器总成</name>
+    </part>
+    <part type="conn" code="L1">
+      <name>左前车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="L41">
+      <name>右前车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="H9">
+      <text>M E UL L LSSR</text>
+      <name>带电动机的左前门锁总成</name>
+      <name type="inner">开锁检测</name>
+      <name type="inner">钥匙锁止</name>
+      <name type="inner">钥匙开锁</name>
+    </part>
+    <part type="conn" code="G8">
+      <text>UL L M E LSSR</text>
+      <name>带电动机的右前门锁总成</name>
+      <name type="inner">开锁检测</name>
+    </part>
+    <part type="conn" code="L16">
+      <name>前排左侧座椅内安全带总成</name>
+    </part>
+    <part type="conn" code="L30">
+      <text>E D+</text>
+      <name>行李厢门锁总成</name>
+      <name type="inner">门控灯</name>
+    </part>
+    <part type="conn" code="E36">
+      <text>RCTY LCTY L1 UL1 L2 KSW UL2 LSFR LSFL CANL CANH FRCY ACC IG BECU FLCY LGCY GND1 ACT+ ACT- LSR DBKL</text>
+      <name>主车身 ECU</name>
+    </part>
+    <part type="conn" code="A39">
+      <name>1 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="conn" code="L54,L55">
+      <name>7 号接线连接器</name>
+    </part>
+    <part type="conn" code="H6">
+      <text>E L UL</text>
+      <name>电动窗升降器主开关总成</name>
+      <name type="inner">门锁控制开关</name>
+    </part>
+    <part type="conn" code="L2">
+      <name>左后车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="L42">
+      <name>右后车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="K3">
+      <text>M UL L E LSSR</text>
+      <name>带电动机的左后门锁总成</name>
+      <name type="inner">开锁检测</name>
+    </part>
+    <part type="conn" code="J3">
+      <text>M UL L E LSSR</text>
+      <name>带电动机的右后门锁总成</name>
+      <name type="inner">开锁检测</name>
+    </part>
+    <part type="conn" code="E10">
+      <name>未锁警告开关总成</name>
+    </part>
+    <part type="fuse" code="FUSE43">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE60">
+      <text>D/L NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>ECU-B NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE47">
+      <text>ECU-IG NO.4</text>
+    </part>
+  </ttl>
+</EWDSearch>

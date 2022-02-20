@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS060">
+    <part type="conn" code="E55">
+      <text>5V+B B IG+ 5V IC CANL CANH CAN I/F ET CPU</text>
+      <name>组合仪表总成</name>
+      <name type="inner">CAN 控制器</name>
+      <name type="inner">显示屏驱动器</name>
+    </part>
+    <part type="conn" code="L1">
+      <name>左前车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="L41">
+      <name>右前车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="E36">
+      <text>FRCY CANH CANL ACC BECU LIN2 GND1 FLCY IG</text>
+      <name>主车身 ECU</name>
+    </part>
+    <part type="conn" code="O4">
+      <text>GND OPN DOWN UP CLS</text>
+      <name>阅读灯总成</name>
+      <name type="inner">滑动天窗开关</name>
+      <name type="inner">上</name>
+      <name type="inner">闭合</name>
+      <name type="inner">断开</name>
+      <name type="inner">下</name>
+    </part>
+    <part type="conn" code="A39">
+      <name>1 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E74">
+      <name>2 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="O3">
+      <text>DWN UP M IG B E CLS OPN MPX1</text>
+      <name>滑动天窗控制 ECU（滑动天窗主动齿轮分总成）</name>
+    </part>
+    <part type="fuse" code="FUSE43">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>ECU-B NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE46">
+      <text>ECU-IG NO.3</text>
+    </part>
+    <part type="fuse" code="FUSE47">
+      <text>ECU-IG NO.4</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE64">
+      <text>S/ROOF</text>
+    </part>
+  </ttl>
+</EWDSearch>

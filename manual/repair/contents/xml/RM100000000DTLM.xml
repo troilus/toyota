@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_51">
+<name>发动机/混合动力系统</name>
+<section id="_025035">
+<name>7ZR-FE 发动机控制系统</name>
+<ttl id="_0120895">
+<name>SFI 系统</name>
+<para category="J" id="RM100000000DTLM">
+<dtccode/>
+<dtcname>制动优先系统</dtcname>
+<subpara category="03" id="RM100000000DTLM_01">
+<name>描述</name>
+<content5>
+<ptxt>驾驶车辆时，踩下加速踏板传感器总成和制动踏板将激活制动优先系统以限制驱动转矩。如下所述为激活制动优先系统的条件和控制的项目。</ptxt>
+<figure translate="E" type="1">
+<graphic graphicname="A286034E12" height="3.812598425in" width="7.168479331in">
+
+</graphic>
+</figure>
+<topic>
+<title>激活条件：</title>
+<list1 type="unordered">
+<item>
+<ptxt>车辆以规定速度或更高速度行驶。</ptxt>
+</item>
+<item>
+<ptxt>踩下加速踏板和制动踏板时。</ptxt>
+</item>
+</list1>
+<atten3>
+<ptxt>由于加速踏板角度与车辆速度的关联，车辆可能不能进入制动优先系统控制。</ptxt>
+</atten3>
+</topic>
+<topic>
+<title>控制项目：</title>
+<list1 type="unordered">
+<item>
+<ptxt>驱动转矩受到限制。</ptxt>
+</item>
+</list1>
+<atten4>
+<ptxt>该控制激活时，加速踏板开度值会强制减小至固定值。 因此，无论加速踏板实际开度值 (Accel Sens.No.1 Volt %) 如何，数据表中的 Accelerator Position 值固定不变。 </ptxt>
+</atten4>
+</topic>
+<topic>
+<title>解除条件：</title>
+<list1 type="unordered">
+<item>
+<ptxt>制动踏板或加速踏板返回至某角度时。</ptxt>
+</item>
+</list1>
+</topic>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DTLM_02">
+<name>注意/小心/提示</name>
+<content5>
+<topic>
+<title>检查方法</title>
+<ptxt>示例：</ptxt>
+<ptxt>以 10 km/h (6.25 mph) 的速度驾驶车辆，踩下加速踏板 1/2 至 3/4，并使其保持在该位置。在这些条件下，如果踩下制动踏板时发动机转速降至 1,000 rpm，则激活制动优先系统。</ptxt>
+</topic>
+<atten2>
+<ptxt>进行检查时，应在能确保安全的区域进行，同时密切注意周围情况。</ptxt>
+<ptxt>此外，驾驶车辆时，确保严格遵守所有的道路交通法规，如车速限制。</ptxt>
+</atten2>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>正常情况下，Accelerator Position 的值根据 Accel Sens. No. 1 Volt % 的值发生变化。 有关数值的更多信息，请参考数据表。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DTGS" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt> 如果即使 Accel Sens. No.1 Volt % 改变而数据表中的 Accelerator Position 和 Accel Sens. No.1 Volt % 值仍存在偏离并且数据表中的 Accelerator Position 值固定，则检查并确认该控制激活（行驶车辆时使用 GTS 数据保存功能记录数据，然后在行驶完成后进行确认）。  </ptxt>
+</item>
+</list1>
+</atten4>
+<atten3>
+<ptxt>如果在踩下加速踏板行驶时踩下制动踏板，则制动优先系统将限制驱动转矩。如果客户反映专门踩下加速踏板和制动踏板后发现转矩损失，则向客户解释这并非故障，并告知客户应避免同时踩下加速踏板和制动踏板。</ptxt>
+<ptxt>示例：操作加速踏板时，客户用左脚操作制动踏板。</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DTLM_04">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DTLM_04_0001">
+<testtitle>检查 DTC 输出</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置并打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：System Select / Health Check。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>未输出 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DTLM_04_0018"/>
+</result>
+<result cellposition="1-8" label="2">
+<action actiontype="end" cellposition="2-8">
+<actiontitle>转至 DTC 表</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DTLM_04_0018">
+<testtitle>使用 GTS 读取值（总泵传感器）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机，并打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Chassis / ABS/VSC/TRC / Data List / Master Cylinder Sensor。</ptxt>
+<gts-info category="data-list">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="9" name="item-name">
+<ptxt>Master Cylinder Sensor</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="105">
+<gts-pid pid-id="9"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">9</app-param>
+<app-param name="data-list-item-name">Master Cylinder Sensor</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>读取 GTS 上显示的值。</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.34in"/>
+<colspec colname="col2" colwidth="2.34in"/>
+<colspec colname="col3" colwidth="2.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>GTS 显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目/范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>Master Cylinder Sensor</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>总泵压力传感器读数/</ptxt>
+<ptxt>最低：0.00 V，最高：5.00 V</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>松开制动踏板：0.20 至 0.40 V</ptxt>
+</item>
+<item>
+<ptxt>踩下制动踏板时读数增大</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+<test1>
+<ptxt>观察 GTS 上“Maser Cylinder Sensor”的制动液压力值，检查并确认踩下制动踏板时此值发生变化。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>踩下踏板时，GTS 上显示的电压升高。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000DTLM_04_0002"/>
+</result>
+<result cellposition="2-7" label="2">
+<action actiontype="end" cellposition="3-7">
+<actiontitle>检查制动执行器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9DD" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000DTLM_04_0002">
+<testtitle>使用 GTS 读取值（刹车灯开关和 ST1）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置并打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / Stop Light Switch and ST1。</ptxt>
+<gts-info category="data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="117" name="item-name">
+<ptxt>Stop Light Switch</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="294" name="item-name">
+<ptxt>ST1</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="234">
+<gts-pid pid-id="117"/>
+<gts-pid pid-id="294"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">117</app-param>
+<app-param name="data-list-item-name">Stop Light Switch</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">294</app-param>
+<app-param name="data-list-item-name">ST1</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>踩下和松开制动踏板时检查数据表指示。</ptxt>
+<spec type="other">
+<title>正常</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.34in"/>
+<colspec colname="col2" colwidth="2.34in"/>
+<colspec colname="col3" colwidth="2.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>GTS 显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>Stop Light Switch</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>松开制动踏板</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>OFF</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>踩下制动踏板</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>ON</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>ST1</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>松开制动踏板</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>OFF</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>踩下制动踏板</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>ON</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000DTLM_04_0003"/>
+</result>
+<result cellposition="3-6" label="2">
+<action actiontype="end" cellposition="4-6">
+<actiontitle>检查刹车灯开关总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCC0" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000DTLM_04_0003">
+<testtitle>检查制动踏板分总成</testtitle>
+<content6>
+<test1>
+<ptxt>检查并调节制动踏板分总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9DU" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>如果刹车灯开关总成打开过迟，则制动优先系统控制可能开始过迟，如果打开过早，则制动优先系统控制可能开始过早，因此应检查制动踏板分总成和刹车灯开关总成。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000DTLM_04_0004"/>
+</result>
+<result cellposition="4-5" label="2">
+<action actiontype="end" cellposition="5-5">
+<actiontitle>维修或更换制动踏板分总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9DV" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000DTLM_04_0004">
+<testtitle>使用 GTS 读取值（加速踏板传感器）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置并打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / Accel Sens。No.1 Volt % 和 Accel Sens.No.2 Volt %。</ptxt>
+<gts-info category="data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="15" name="item-name">
+<ptxt>Accel Sens.No.1 Volt %</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="16" name="item-name">
+<ptxt>Accel Sens.No.2 Volt %</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="234">
+<gts-pid pid-id="15"/>
+<gts-pid pid-id="16"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">15</app-param>
+<app-param name="data-list-item-name">Accel Sens.No.1 Volt %</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">16</app-param>
+<app-param name="data-list-item-name">Accel Sens.No.2 Volt %</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>读取 GTS 上显示的值。</ptxt>
+<spec type="other">
+<title>正常</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.34in"/>
+<colspec colname="col2" colwidth="2.34in"/>
+<colspec colname="col3" colwidth="2.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>GTS 显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>Accel Sens.No.1 Volt %</ptxt>
+</entry>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>加速踏板</ptxt>
+<ptxt>松开 → 踩下 → 松开</ptxt>
+</entry>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>值根据加速踏板操作平稳变化</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>Accel Sens.No.2 Volt %</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>有关 Accel Sens.No.1 Volt % 和 Accel Sens.No.2 Volt % 的数值，请参考数据表。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DTGS" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="next" cellposition="6-1" childid="RM100000000DTLM_04_0005"/>
+</result>
+<result cellposition="5-4" label="2">
+<action actiontype="end" cellposition="6-4">
+<actiontitle>更换加速踏板传感器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETNV" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-1" id="RM100000000DTLM_04_0005">
+<testtitle>使用 GTS 读取值（车速）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置并打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / Vehicle Speed。</ptxt>
+<gts-info category="data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="10" name="item-name">
+<ptxt>Vehicle Speed</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="234">
+<gts-pid pid-id="10"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">10</app-param>
+<app-param name="data-list-item-name">Vehicle Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>读取 GTS 上显示的值。</ptxt>
+<spec type="other">
+<title>标准</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.34in"/>
+<colspec colname="col2" colwidth="2.34in"/>
+<colspec colname="col3" colwidth="2.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>GTS 显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>Vehicle Speed</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>车辆停止，发动机运转</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>0 km/h (0 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>车辆以 16.1 至 64.4 km/h（10 至 40 mph）之间的速度定速行驶</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>定速行驶时无较大波动</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten2>
+<ptxt>执行驾驶测试时，应遵守限速要求和交通法规。</ptxt>
+</atten2>
+<atten4>
+<ptxt>通过使用数据表中的快照功能可以相对容易地获取数据。进行行驶测试后确认数据。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-1" label="1">
+<action actiontype="next" cellposition="7-1" childid="RM100000000DTLM_04_0006"/>
+</result>
+<result cellposition="6-3" label="2">
+<action actiontype="end" cellposition="7-3">
+<actiontitle>转至仪表系统（转速信号电路）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9CY" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-1" id="RM100000000DTLM_04_0006">
+<testtitle>使用 GTS 读取值（右前、左前、右后、左后车轮转速）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置并打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Chassis / ABS/VSC/TRC / Data List / FR Wheel Speed, FL Wheel Speed, RR Wheel Speed and RL Wheel Speed。</ptxt>
+<gts-info category="data-list">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="1" name="item-name">
+<ptxt>FR Wheel Speed</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="2" name="item-name">
+<ptxt>FL Wheel Speed</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="3" name="item-name">
+<ptxt>RR Wheel Speed</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="4" name="item-name">
+<ptxt>RL Wheel Speed</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="105">
+<gts-pid pid-id="1"/>
+<gts-pid pid-id="2"/>
+<gts-pid pid-id="3"/>
+<gts-pid pid-id="4"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">1</app-param>
+<app-param name="data-list-item-name">FR Wheel Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">2</app-param>
+<app-param name="data-list-item-name">FL Wheel Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">3</app-param>
+<app-param name="data-list-item-name">RR Wheel Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">4</app-param>
+<app-param name="data-list-item-name">RL Wheel Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>读取 GTS 上显示的值。</ptxt>
+<spec type="other">
+<title>标准</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.34in"/>
+<colspec colname="col2" colwidth="2.34in"/>
+<colspec colname="col3" colwidth="2.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>GTS 显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>FR Wheel Speed</ptxt>
+<ptxt>FL Wheel Speed</ptxt>
+<ptxt>RR Wheel Speed</ptxt>
+<ptxt>RL Wheel Speed</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>车辆停止，发动机运转</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>0 km/h (0 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>车辆以 16.1 至 64.4 km/h（10 至 40 mph）之间的速度定速行驶</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>定速行驶时无较大波动</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten2>
+<ptxt>执行驾驶测试时，应遵守限速要求和交通法规。</ptxt>
+</atten2>
+<atten4>
+<ptxt>通过使用数据表中的快照功能可以相对容易地获取数据。进行行驶测试后确认数据。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-1" label="1">
+<action actiontype="end" cellposition="8-1">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="7-2" label="2">
+<action actiontype="end" cellposition="8-2">
+<actiontitle>检查前轮或后轮转速传感器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts ver="2.1.2.6F" lang="zh" pubno="EM3140CG" style="font-size:6px;font-family:'NSimSun'">
+  <text textID="1">（屏蔽）</text>
+  <text textID="2">* 1 : 带 VSC</text>
+  <text textID="3">* 2 : 不带 VSC</text>
+  <text textID="4">* 3 : 带 TFT 显示屏</text>
+  <text textID="5">* 4 : 不带 TFT 显示屏</text>
+  <text textID="6">* 9 : LED 型刹车灯</text>
+  <text textID="7">* 10 : 灯泡型刹车灯</text>
+  <text textID="8">空气囊 ECU 总成</text>
+  <text textID="9">制动器</text>
+  <text textID="10">制动执行器总成</text>
+  <text textID="11">CAN 控制器</text>
+  <text textID="12">组合仪表总成</text>
+  <text textID="13">曲轴位置传感器</text>
+  <text textID="14">显示屏驱动器</text>
+  <text textID="15">左前轮转速传感器</text>
+  <text textID="16">右前轮转速传感器</text>
+  <text textID="17">LED 驱动器</text>
+  <text textID="18">主车身 ECU</text>
+  <text textID="19">1 号 CAN 接线连接器</text>
+  <text textID="20">2 号 CAN 接线连接器</text>
+  <text textID="21">4 号接线连接器</text>
+  <text textID="22">驻车/空档位置开关总成</text>
+  <text textID="23">驻车制动开关总成</text>
+  <text textID="24">左后轮转速传感器（左侧防滑控制传感器线束）</text>
+  <text textID="25">右后轮转速传感器（右侧防滑控制传感器线束）</text>
+  <text textID="26">滑动 (*1)</text>
+  <text textID="27">转向传感器</text>
+  <text textID="28">刹车灯开关总成</text>
+  <text textID="29">节气门体总成</text>
+  <text textID="30">VSC OFF 开关</text>
+  <text textID="31">横摆率传感器</text>
+</texts>

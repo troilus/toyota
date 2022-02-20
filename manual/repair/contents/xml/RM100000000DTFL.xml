@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_51">
+<name>发动机/混合动力系统</name>
+<section id="_025035">
+<name>7ZR-FE 发动机控制系统</name>
+<ttl id="_0120895">
+<name>SFI 系统</name>
+<para category="C" id="RM100000000DTFL">
+<dtccode>P0327</dtccode>
+<dtcname>1 号爆震传感器电路低输入（B1 或单个传感器）</dtcname>
+<dtccode>P0328</dtccode>
+<dtcname>1 号爆震传感器电路高输入（B1 或单个传感器）</dtcname>
+<subpara category="03" id="RM100000000DTFL_01">
+<name>描述</name>
+<content5>
+<ptxt>平面型爆震控制传感器（非谐振型）具有可检测约在 5 kHZ 和 15 kHZ 之间振动的结构。</ptxt>
+<ptxt>爆震控制传感器安装在发动机缸体上，用于检测发动机爆震。</ptxt>
+<ptxt>爆震控制传感器内装有压电元件，其在变形时产生电压。</ptxt>
+<ptxt>发动机缸体因爆震而振动时，就会产生电压。发动机爆震的发生都可以通过延迟点火正时加以抑制。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="6">
+<colspec colname="1" colwidth="0.71in"/>
+<colspec colname="2" colwidth="1.06in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="2.12in"/>
+<colspec colname="5" colwidth="0.71in"/>
+<colspec colname="6" colwidth="0.71in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>MIL</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P0327</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>1 号爆震传感器电路低输入（B1 或单个传感器）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>爆震控制传感器的输出电压低于 0.5 V 持续 1 秒或更长时间（单程检测逻辑）。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>爆震控制传感器电路短路</ptxt>
+</item>
+<item>
+<ptxt>爆震控制传感器</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P0328</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>1 号爆震传感器电路高输入（B1 或单个传感器）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>爆震控制传感器的输出电压高于 4.5 V 持续 1 秒或更长时间（单程检测逻辑）。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>爆震控制传感器电路开路</ptxt>
+</item>
+<item>
+<ptxt>爆震控制传感器</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>存储 DTC P0327 或 P0328 时，ECM 进入失效保护模式。失效保护模式下，点火正时推迟至其最大延迟时间。失效保护模式持续直至将点火开关置于 OFF 位置。</ptxt>
+</atten4>
+<figure translate="E" type="1">
+<graphic graphicname="A283572E06" height="2.192421260in" width="3.434793307in">
+
+</graphic>
+</figure>
+<ptxt>参考：使用示波器进行检查</ptxt>
+<atten4>
+<ptxt>正确的波形如图所示。</ptxt>
+</atten4>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="1.65in"/>
+<colspec colname="COL2" colwidth="2.48in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>ECM 端子名称</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>KNK1 和 EKNK 之间</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪分度值</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1 V/格，1 ms/格</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>发动机暖机后，保持发动机转速 4,000 rpm</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DTFL_11">
+<name>监视描述</name>
+<content5>
+<ptxt>如果爆震控制传感器传输的输出电压偏低或偏高持续 1 秒或更长时间，则 ECM 将此视为传感器电路故障并存储 DTC。</ptxt>
+<ptxt>发动机起动 5 秒后，DTC P0327 和 P0328 的监视开始运行。</ptxt>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DTFL_12">
+<name>监视策略</name>
+<content5>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>工作频率</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>持续</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DTFL_16">
+<name>确认行驶模式</name>
+<content5>
+<list1 type="ordered">
+<item>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</item>
+<item>
+<ptxt>将点火开关置于 ON 位置并打开 GTS。</ptxt>
+</item>
+<item>
+<ptxt>清除 DTC（即使未存储 DTC，也应执行清除 DTC 程序）。</ptxt>
+</item>
+<item>
+<ptxt>将点火开关置于 OFF 位置并等待至少 30 秒。</ptxt>
+</item>
+<item>
+<ptxt>将点火开关置于 ON 位置并打开 GTS。</ptxt>
+</item>
+<item>
+<ptxt>起动发动机并等待 5 分钟。</ptxt>
+</item>
+<item>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。</ptxt>
+</item>
+<item>
+<ptxt>读取待定 DTC。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果输出待定 DTC，则系统发生故障。</ptxt>
+</item>
+<item>
+<ptxt>如果未输出待定 DTC，则执行以下程序。</ptxt>
+</item>
+</list1>
+</atten4>
+</item>
+<item>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。</ptxt>
+</item>
+<item>
+<ptxt>输入 DTC：P0327 或 P0328。</ptxt>
+</item>
+<item>
+<ptxt>检查 DTC 判断结果。</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>GTS 显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>描述</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>NORMAL</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断完成</ptxt>
+</item>
+<item>
+<ptxt>系统正常</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>ABNORMAL</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断完成</ptxt>
+</item>
+<item>
+<ptxt>系统异常</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>INCOMPLETE</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断未完成</ptxt>
+</item>
+<item>
+<ptxt>确认 DTC 启动条件后，执行行驶模式</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>N/A</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>无法执行 DTC 判断</ptxt>
+</item>
+<item>
+<ptxt>不满足 DTC 前提条件的 DTC 数量达到 ECU 存储器极限</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果判断结果显示 NORMAL，则系统正常。</ptxt>
+</item>
+<item>
+<ptxt>如果判断结果显示 ABNORMAL，则系统存在故障。</ptxt>
+</item>
+<item>
+<ptxt>如果判断结果显示为 INCOMPLETE 或 N/A，则使发动机怠速运转 5 分钟并再次检查 DTC 判断结果。</ptxt>
+</item>
+</list1>
+</atten4>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DTFL_06">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="A296669E20" height="3.812598425in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DTFL_07">
+<name>注意/小心/提示</name>
+<content5>
+<atten4>
+<ptxt>使用 GTS 读取定格数据。存储 DTC 时，ECM 将车辆和驾驶条件信息记录为定格数据。进行故障排除时，定格数据有助于确定故障出现时车辆是运行还是停止，发动机是暖机还是未暖机，空燃比是浓还是稀，以及其他数据。</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DTFL_17">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DTFL_17_0001">
+<testtitle>使用 GTS 读取值（爆震反馈值）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>使发动机暖机。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / Knock Feedback Value。</ptxt>
+<gts-info category="data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="192" name="item-name">
+<ptxt>Knock Feedback Value</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="234">
+<gts-pid pid-id="192"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">192</app-param>
+<app-param name="data-list-item-name">Knock Feedback Value</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>驾驶车辆时读取值。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>值改变。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="3.55in"/>
+<colspec colname="col2" colwidth="3.53in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>未出现故障</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>爆震反馈值改变</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>出现故障</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>爆震反馈值不变</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>通过高负载运转发动机（如激活空调系统和高速空转发动机）可以确认爆震反馈值的变化。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>检查是否存在间歇性故障</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DTGK" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="next" cellposition="2-2" childid="RM100000000DTFL_17_0010"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-2" id="RM100000000DTFL_17_0010">
+<testtitle>检查端子电压（爆震控制传感器电源）</testtitle>
+<content6>
+<figure translate="C" type="1">
+<graphic graphicname="A194105C14" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至爆震控制传感器）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<test1>
+<ptxt>断开爆震控制传感器连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>D1-2 - D1-1</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>4.5 至 5.5 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-2" label="1">
+<action actiontype="next" cellposition="3-2" childid="RM100000000DTFL_17_0003"/>
+</result>
+<result cellposition="2-4" label="2">
+<action actiontype="next" cellposition="3-4" childid="RM100000000DTFL_17_0011"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-2" id="RM100000000DTFL_17_0003">
+<testtitle>检查爆震控制传感器</testtitle>
+<content6>
+<test1>
+<ptxt>检查爆震控制传感器。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETOK" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>更换爆震控制传感器后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DTGM" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-2" label="1">
+<action actiontype="end" cellposition="4-2">
+<actiontitle>更换 ECM</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETNS" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-3" label="2">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>更换爆震控制传感器</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETON" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-4" id="RM100000000DTFL_17_0011">
+<testtitle>检查线束和连接器（爆震控制传感器 - ECM）</testtitle>
+<content6>
+<test1>
+<ptxt>断开爆震控制传感器连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>断开 ECM 连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.34in"/>
+<colspec colname="col2" colwidth="2.34in"/>
+<colspec colname="col3" colwidth="2.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>D1-2 - B39-122 (KNK1)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>D1-1 - B39-121 (EKNK)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>D1-2 或 B39-122 (KNK1) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-4" label="1">
+<action actiontype="end" cellposition="4-4">
+<actiontitle>更换 ECM</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETNS" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-5" label="2">
+<action actiontype="end" cellposition="4-5">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

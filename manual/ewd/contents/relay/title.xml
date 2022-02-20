@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TitleList SYSTEM "../../dtd/title.dtd">
+<TitleList ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <Relay type="location">
+    <term from="201406" to="" />
+    <name code="RL001">发动机室</name>
+    <note>SDEngine-R</note>
+    <fig type="svgz">SDEngine-R</fig>
+  </Relay>
+  <Relay type="location">
+    <term from="201406" to="" />
+    <name code="RL002">仪表板</name>
+    <note>SDInpaneL-R</note>
+    <fig type="svgz">SDInpaneL-R</fig>
+  </Relay>
+  <Relay type="location">
+    <term from="201406" to="" />
+    <name code="RL003">车身</name>
+    <note>SDBody-R</note>
+    <fig type="svgz">SDBody-R</fig>
+  </Relay>
+  <Relay type="object" location="SDEngine-R" inner="RL004-Inn">
+    <term from="201406" to="" />
+    <name code="RL004">发动机室继电器盒和发动机室接线盒</name>
+    <note>1</note>
+    <fig type="svgz">ERJB</fig>
+  </Relay>
+  <Relay type="inner" object="RL004" location="SDEngine-R">
+    <term from="201406" to="" />
+    <name code="RL004-Inn">发动机室继电器盒和发动机室接线盒内部电路</name>
+    <note>1-Inn</note>
+    <fig type="svgz">ERJB-Inn</fig>
+  </Relay>
+  <Relay type="object" location="SDInpaneL-R" inner="RL005-Inn">
+    <term from="201406" to="" />
+    <name code="RL005">4 号继电器盒</name>
+    <note>4</note>
+    <fig type="svgz">RBNO4</fig>
+  </Relay>
+  <Relay type="inner" object="RL005" location="SDInpaneL-R">
+    <term from="201406" to="" />
+    <name code="RL005-Inn">4 号 R/B 内部电路</name>
+    <note>4-Inn</note>
+    <fig type="svgz">RBNO4-Inn</fig>
+  </Relay>
+  <Relay type="object" location="SDInpaneL-R" inner="RL006-Inn">
+    <term from="201406" to="" />
+    <name code="RL006">仪表板接线盒总成</name>
+    <note>3</note>
+    <fig type="svgz">IJB</fig>
+  </Relay>
+  <Relay type="inner" object="RL006" location="SDInpaneL-R">
+    <term from="201406" to="" />
+    <name code="RL006-Inn">仪表板接线盒总成内部电路</name>
+    <note>3-Inn</note>
+    <fig type="svgz">IJB-Inn</fig>
+  </Relay>
+</TitleList>

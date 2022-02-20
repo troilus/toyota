@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_54">
+<name>制动</name>
+<section id="_023990">
+<name>制动控制/动态控制系统</name>
+<ttl id="_0116082">
+<name>车辆稳定性控制系统</name>
+<para category="C" id="RM100000000D7Z4">
+<dtccode>C146C</dtccode>
+<dtcname>ABS 马达继电器电路开路</dtcname>
+<subpara category="03" id="RM100000000D7Z4_01">
+<name>描述</name>
+<content5>
+<ptxt>ABS 马达继电器向泵马达供电。 激活 ABS 时，防滑控制 ECU 接通 ABS 马达继电器以使泵马达运行。</ptxt>
+<ptxt>如果因为蓄电池或交流发电机电压低而导致提供给 ABS 马达继电器 (+BM) 的电压过低，则可能会存储该 DTC。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="4">
+<colspec colname="1" colwidth="0.71in"/>
+<colspec colname="2" colwidth="1.77in"/>
+<colspec colname="3" colwidth="2.83in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>C146C</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>ABS 马达继电器电路开路</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>检测到以下任一条件时：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>启动 ABS 马达继电器时，未向泵马达施加电压。</ptxt>
+</item>
+<item>
+<ptxt>不启动 ABS 马达继电器时，泵马达中的电压高。</ptxt>
+</item>
+<item>
+<ptxt>防滑控制 ECU 判定泵马达工作异常。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>1 号 ABS 保险丝</ptxt>
+</item>
+<item>
+<ptxt>ABS 马达继电器电路</ptxt>
+</item>
+<item>
+<ptxt>ABS 马达继电器（制动执行器总成）</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D7Z4_08">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="C278167E19" height="5.838041339in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D7Z4_09">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>更换防滑控制 ECU（制动执行器总成）时，执行系统校准学习。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7YG" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>进行下列程序前，先检查与此系统相关电路的保险丝。</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<ptxt>C1241 和/或 C1417 与 C146C 同时输出时，应首先检查并维修 C1241 和/或 C1417 指示的故障部位。</ptxt>
+<ptxt>C1241：单击此处 <mlink><xref href="RM100000000D7ZQ" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>C1417：单击此处 <mlink><xref href="RM100000000D7ZI" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D7Z4_07">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D7Z4_07_0001">
+<testtitle>使用 GTS 进行主动测试（ABS 马达继电器）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>使用 GTS 选择主动测试。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7YF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="active-test-table">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Active Test</title>
+<table pgwide="1" type="active-test-table">
+<tgroup cols="4">
+<colspec colname="1" colwidth="1.77in"/>
+<colspec colname="2" colwidth="1.77in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>控制范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="2" name="item-name">
+<ptxt>Motor Relay</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="2" name="description">
+<ptxt>ABS 马达继电器</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="2" name="drive-range">
+<ptxt>继电器 ON/OFF</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="2" name="remark">
+<ptxt>可以听到马达的工作声音</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="did-id">2</app-param>
+<app-param name="active-test-item-name">Motor Relay</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="active-test">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Active Test</title>
+<table type="active-test">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="2" name="item-name">
+<ptxt>Motor Relay</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50004">
+<gts-ecu ecu-id="105">
+<gts-did did-id="2"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="use-datalist">0</app-param>
+<app-param-unit>
+<app-param name="did-id">2</app-param>
+<app-param name="active-test-item-name">Motor Relay</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>使用 GTS 操作时，检查泵马达的工作声音。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>听到工作声音。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未听到工作声音。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D7Z4_07_0002"/>
+</result>
+<result cellposition="1-3" label="2">
+<action actiontype="next" cellposition="2-3" childid="RM100000000D7Z4_07_0005"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D7Z4_07_0002">
+<testtitle>重新确认 DTC</testtitle>
+<content6>
+<atten4>
+<ptxt>确定防滑控制 ECU（制动执行器总成）中出现故障时，将存储该 DTC。</ptxt>
+<ptxt>ABS 马达继电器位于防滑控制 ECU（制动执行器总成）内。</ptxt>
+<ptxt>因此，无法进行 ABS 马达继电器检查和 ABS 马达继电器单元检查。更换防滑控制 ECU（制动执行器总成）前，一定要检查是否再次输出该 DTC。</ptxt>
+</atten4>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7YE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>以 40 km/h (25 mph) 或更高的速度驾驶车辆 30 秒或更长时间。</ptxt>
+</test1>
+<test1>
+<ptxt>检查是否输出相同 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7YE" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC C146C。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC C146C。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>点火开关置于 ON 位置时，如果防滑控制 ECU（制动执行器总成）接收到 40 km/h (25 mph) 或更高的车速信号，则防滑控制 ECU（制动执行器总成）将执行马达电路的自诊断。</ptxt>
+</item>
+<item>
+<ptxt>如果输出正常系统代码（未输出 DTC），则轻轻晃动防滑控制 ECU（制动执行器总成）的连接器、线束和保险丝。</ptxt>
+</item>
+<item>
+<ptxt>如果在晃动防滑控制 ECU（制动执行器总成）的连接器或线束时输出任何 DTC，则检查并维修连接器或线束。</ptxt>
+</item>
+<item>
+<ptxt>如果重新确认 DTC 时没有 DTC 输出，则有必要检查间歇性故障，因为可能是由于连接器端子连接不良而存储原始 DTC。</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="end" cellposition="3-1">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="2-2" label="2">
+<action actiontype="end" cellposition="3-2">
+<actiontitle>更换制动执行器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9DF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-3" id="RM100000000D7Z4_07_0005">
+<testtitle>检查线束和连接器（端子 +BM）</testtitle>
+<content6>
+<test1>
+<ptxt>确保连接器的锁止件和连接部件没有松动。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C302056C21" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至防滑控制 ECU（制动执行器总成））</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>断开防滑控制 ECU（制动执行器总成）连接器 A42。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A42-1 (+BM) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-3" label="1">
+<action actiontype="next" cellposition="3-3" childid="RM100000000D7Z4_07_0007"/>
+</result>
+<result cellposition="2-5" label="2">
+<action actiontype="end" cellposition="3-5">
+<actiontitle>维修或更换线束或连接器（+BM 电路）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-3" id="RM100000000D7Z4_07_0007">
+<testtitle>检查线束和连接器（端子 GND2）</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C302056C22" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至防滑控制 ECU（制动执行器总成））</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A42-13 (GND2) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-3" label="1">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>更换制动执行器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9DF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-4" label="2">
+<action actiontype="end" cellposition="4-4">
+<actiontitle>维修或更换线束或连接器（GND2 电路）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

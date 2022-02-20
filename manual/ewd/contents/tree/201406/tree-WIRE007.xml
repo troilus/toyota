@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <note ewd="WIRE007" code="E11" type="conn">
+    <name>空调放大器总成</name>
+  </note>
+  <note ewd="WIRE007" code="E43" type="conn">
+    <name>空调放大器总成</name>
+  </note>
+  <note ewd="WIRE007" code="E20" type="conn">
+    <name>空调控制总成</name>
+  </note>
+  <note ewd="WIRE007" code="E19" type="conn">
+    <name>空气囊 ECU 总成</name>
+  </note>
+  <note ewd="WIRE007" code="E65" type="conn">
+    <name>后声纳或侦测声纳开关总成</name>
+  </note>
+  <note ewd="WIRE007" code="E21" type="conn">
+    <name>带风扇的鼓风机马达分总成</name>
+  </note>
+  <note ewd="WIRE007" code="E30" type="conn">
+    <name>带风扇的鼓风机马达分总成</name>
+  </note>
+  <note ewd="WIRE007" code="E23" type="conn">
+    <name>鼓风机电阻器</name>
+  </note>
+  <note ewd="WIRE007" code="E47" type="conn">
+    <name>认证 ECU</name>
+  </note>
+  <note ewd="WIRE007" code="E48" type="conn">
+    <name>认证 ECU</name>
+  </note>
+  <note ewd="WIRE007" code="E49" type="conn">
+    <name>认证 ECU</name>
+  </note>
+  <note ewd="WIRE007" code="E26" type="conn">
+    <name>点烟器总成</name>
+  </note>
+  <note ewd="WIRE007" code="E63" type="conn">
+    <name>间隙警告 ECU 总成</name>
+  </note>
+  <note ewd="WIRE007" code="E55" type="conn">
+    <name>组合仪表总成</name>
+  </note>
+  <note ewd="WIRE007" code="E59" type="conn">
+    <name>组合仪表总成</name>
+  </note>
+  <note ewd="WIRE007" code="E31" type="conn">
+    <name>冷却器（车内温度传感器）热敏电阻</name>
+  </note>
+  <note ewd="WIRE007" code="E67" type="conn">
+    <name>二极管（左侧门控灯总成）</name>
+  </note>
+  <note ewd="WIRE007" code="E68" type="conn">
+    <name>二极管（右侧门控灯总成）</name>
+  </note>
+  <note ewd="WIRE007" code="E18" type="conn">
+    <name>DLC3</name>
+  </note>
+  <note ewd="WIRE007" code="E50" type="conn">
+    <name>发动机开关</name>
+  </note>
+  <note ewd="WIRE007" code="E53" type="conn">
+    <name>危险警告信号开关总成</name>
+  </note>
+  <note ewd="WIRE007" code="E15" type="conn">
+    <name>大灯变光器开关总成</name>
+  </note>
+  <note ewd="WIRE007" code="E54" type="conn">
+    <name>大灯水平开关</name>
+  </note>
+  <note ewd="WIRE007" code="E28" type="conn">
+    <name>ID 代码箱</name>
+  </note>
+  <note ewd="WIRE007" code="E9" type="conn">
+    <name>点火或起动开关总成</name>
+  </note>
+  <note ewd="WIRE007" code="E66" type="conn">
+    <name>车内照明灯总成</name>
+  </note>
+  <note ewd="WIRE007" code="E41" type="conn">
+    <name>钥匙锁芯照明灯总成</name>
+  </note>
+  <note ewd="WIRE007" code="E12" type="conn">
+    <name>钥匙互锁电磁阀</name>
+  </note>
+  <note ewd="WIRE007" code="E36" type="conn">
+    <name>主车身 ECU</name>
+  </note>
+  <note ewd="WIRE007" code="E37" type="conn">
+    <name>主车身 ECU</name>
+  </note>
+  <note ewd="WIRE007" code="E1" type="conn">
+    <name>导航接收器总成</name>
+  </note>
+  <note ewd="WIRE007" code="E4" type="conn">
+    <name>导航接收器总成</name>
+  </note>
+  <note ewd="WIRE007" code="E32" type="conn">
+    <name>导航接收器总成</name>
+  </note>
+  <note ewd="WIRE007" code="E34" type="conn">
+    <name>导航接收器总成</name>
+  </note>
+  <note ewd="WIRE007" code="E64" type="conn">
+    <name>1 号间隙警告蜂鸣器</name>
+  </note>
+  <note ewd="WIRE007" code="E40" type="conn">
+    <name>1 号冷却器热敏电阻</name>
+  </note>
+  <note ewd="WIRE007" code="E56" type="conn">
+    <name>1 号风门伺服机构分总成</name>
+  </note>
+  <note ewd="WIRE007" code="E57" type="conn">
+    <name>1 号加热器控制装置分总成</name>
+  </note>
+  <note ewd="WIRE007" code="E74" type="conn">
+    <name>2 号 CAN 接线连接器</name>
+  </note>
+  <note ewd="WIRE007" code="E58" type="conn">
+    <name>2 号加热器控制装置分总成</name>
+  </note>
+  <note ewd="WIRE007" code="E22" type="conn">
+    <name>3 号加热器控制装置分总成</name>
+  </note>
+  <note ewd="WIRE007" code="E70" type="conn">
+    <name>3 号接线连接器</name>
+  </note>
+  <note ewd="WIRE007" code="E71" type="conn">
+    <name>4 号接线连接器</name>
+  </note>
+  <note ewd="WIRE007" code="E72" type="conn">
+    <name>5 号接线连接器</name>
+  </note>
+  <note ewd="WIRE007" code="E73" type="conn">
+    <name>6 号接线连接器</name>
+  </note>
+  <note ewd="WIRE007" code="E25" type="conn">
+    <name>车外后视镜开关总成</name>
+  </note>
+  <note ewd="WIRE007" code="E75" type="conn">
+    <name>车外后视镜开关总成</name>
+  </note>
+  <note ewd="WIRE007" code="E52" type="conn">
+    <name>模式选择开关总成</name>
+  </note>
+  <note ewd="WIRE007" code="E76" type="conn">
+    <name>模式选择开关总成</name>
+  </note>
+  <note ewd="WIRE007" code="E45" type="conn">
+    <name>动力转向 ECU 总成</name>
+  </note>
+  <note ewd="WIRE007" code="E46" type="conn">
+    <name>动力转向 ECU 总成</name>
+  </note>
+  <note ewd="WIRE007" code="E2" type="conn">
+    <name>无线电收音机和显示屏接收器总成</name>
+  </note>
+  <note ewd="WIRE007" code="E5" type="conn">
+    <name>无线电收音机和显示屏接收器总成</name>
+  </note>
+  <note ewd="WIRE007" code="E33" type="conn">
+    <name>无线电收音机和显示屏接收器总成</name>
+  </note>
+  <note ewd="WIRE007" code="E35" type="conn">
+    <name>无线电收音机和显示屏接收器总成</name>
+  </note>
+  <note ewd="WIRE007" code="E3" type="conn">
+    <name>无线电收音机总成</name>
+  </note>
+  <note ewd="WIRE007" code="E6" type="conn">
+    <name>无线电收音机总成</name>
+  </note>
+  <note ewd="WIRE007" code="E39" type="conn">
+    <name>左侧座椅加热器开关</name>
+  </note>
+  <note ewd="WIRE007" code="E38" type="conn">
+    <name>右侧座椅加热器开关</name>
+  </note>
+  <note ewd="WIRE007" code="E7" type="conn">
+    <name>换档锁止控制 ECU（变速器地板式换档总成）</name>
+  </note>
+  <note ewd="WIRE007" code="E8" type="conn">
+    <name>换档锁止控制 ECU（变速器地板式换档总成）</name>
+  </note>
+  <note ewd="WIRE007" code="E42" type="conn">
+    <name>换档杆位置指示灯</name>
+  </note>
+  <note ewd="WIRE007" code="E13" type="conn">
+    <name>螺旋电缆分总成</name>
+  </note>
+  <note ewd="WIRE007" code="E14" type="conn">
+    <name>螺旋电缆分总成</name>
+  </note>
+  <note ewd="WIRE007" code="E51" type="conn">
+    <name>转向锁执行器总成</name>
+  </note>
+  <note ewd="WIRE007" code="E62" type="conn">
+    <name>转向传感器</name>
+  </note>
+  <note ewd="WIRE007" code="E61" type="conn">
+    <name>警告灯总成</name>
+  </note>
+  <note ewd="WIRE007" code="E44" type="conn">
+    <name>变速器控制开关（变速器地板式换档总成）</name>
+  </note>
+  <note ewd="WIRE007" code="E27" type="conn">
+    <name>收发器钥匙线圈</name>
+  </note>
+  <note ewd="WIRE007" code="E29" type="conn">
+    <name>应答器钥匙 ECU 总成</name>
+  </note>
+  <note ewd="WIRE007" code="E10" type="conn">
+    <name>未锁警告开关总成</name>
+  </note>
+  <note ewd="WIRE007" code="E60" type="conn">
+    <name>VSC OFF 开关</name>
+  </note>
+  <note ewd="WIRE007" code="E16" type="conn">
+    <name>风挡玻璃刮水器开关总成</name>
+  </note>
+  <note ewd="WIRE007" code="E17" type="conn">
+    <name>风挡玻璃刮水器开关总成</name>
+  </note>
+  <note ewd="WIRE007" code="3C" type="jbc">
+    <name>仪表板线束和仪表板接线盒总成</name>
+  </note>
+  <note ewd="WIRE007" code="3D" type="jbc">
+    <name>仪表板线束和仪表板接线盒总成</name>
+  </note>
+  <note ewd="WIRE007" code="EL1" type="w2w">
+    <name>仪表板线束和地板线束</name>
+  </note>
+  <note ewd="WIRE007" code="EL2" type="w2w">
+    <name>仪表板线束和地板线束</name>
+  </note>
+  <note ewd="WIRE007" code="EL3" type="w2w">
+    <name>仪表板线束和地板线束</name>
+  </note>
+  <note ewd="WIRE007" code="EL4" type="w2w">
+    <name>仪表板线束和地板线束</name>
+  </note>
+  <note ewd="WIRE007" code="EL5" type="w2w">
+    <name>仪表板线束和地板线束</name>
+  </note>
+  <note ewd="WIRE007" code="EL6" type="w2w">
+    <name>仪表板线束和地板线束</name>
+  </note>
+  <note ewd="WIRE007" code="EL7" type="w2w">
+    <name>仪表板线束和地板线束</name>
+  </note>
+  <note ewd="WIRE007" code="EL8" type="w2w">
+    <name>仪表板线束和地板线束</name>
+  </note>
+  <note ewd="WIRE007" code="Ed1" type="w2w">
+    <name>仪表板线束和仪表板线束总成</name>
+  </note>
+  <note ewd="WIRE007" code="EX1" type="w2w">
+    <name>仪表板线束和立体声部件 1 号线束</name>
+  </note>
+  <note ewd="WIRE007" code="EF1" type="w2w">
+    <name>仪表板线束和立体声部件 2 号线束</name>
+  </note>
+</EwdTree>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024012">
+<name>暖风/空调</name>
+<ttl id="_0116102">
+<name>空调系统（自动空调系统）</name>
+<para category="C" id="RM100000000D854">
+<dtccode>B14B2</dtccode>
+<dtcname>与前面板 LIN 失去通信</dtcname>
+<subpara category="03" id="RM100000000D854_01">
+<name>描述</name>
+<content5>
+<ptxt>空调控制总成通过 LIN 通信与空调放大器总成进行通信。</ptxt>
+<ptxt>如果 LIN 通信系统出现故障，则即使操作空调控制总成空调放大器总成也不工作。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B14B2</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与前面板 LIN 失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>与空调控制总成失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>空调控制总成和 IG 电源之间的线束或连接器</ptxt>
+</item>
+<item>
+<ptxt>空调控制总成和车身接地之间的线束或连接器</ptxt>
+</item>
+<item>
+<ptxt>LIN 通信系统</ptxt>
+</item>
+<item>
+<ptxt>空调控制总成</ptxt>
+</item>
+<item>
+<ptxt>空调放大器总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="memory">
+<ptxt>存储</ptxt>
+<ptxt>（10 秒或更长时间）*</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*：如果在括号所示的时间内出现故障，则空调放大器总成将存储该 DTC。</ptxt>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D854_04">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="E226613E45" height="3.812598425in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D854_02">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>进行下列程序前，先检查与此系统相关电路的保险丝。</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D854_06">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D854_06_0001">
+<testtitle>检查线束和连接器（空调控制总成 - IG 电源）</testtitle>
+<content6>
+<test1>
+<ptxt>断开空调控制总成连接器 E20。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E20-8 (IG+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>低于 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E20-8 (IG+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D854_06_0003"/>
+</result>
+<result cellposition="1-6" label="2">
+<action actiontype="end" cellposition="2-6">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D854_06_0003">
+<testtitle>检查线束和连接器（空调控制总成 - 车身接地）</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E20-5 (GND) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D854_06_0004"/>
+</result>
+<result cellposition="2-5" label="2">
+<action actiontype="end" cellposition="3-5">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D854_06_0004">
+<testtitle>检查线束和连接器（空调放大器总成 - 空调控制总成）</testtitle>
+<content6>
+<test1>
+<ptxt>断开空调放大器总成连接器 E43。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E20-6 (LIN1) - E43-37 (LIN1)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E20-6 (LIN1) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D854_06_0005"/>
+</result>
+<result cellposition="3-4" label="2">
+<action actiontype="end" cellposition="4-4">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D854_06_0005">
+<testtitle>更换空调控制总成</testtitle>
+<content6>
+<test1>
+<ptxt>更换空调控制总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCS6" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>由于从车辆上拆下空调控制总成时不能对其进行检查，因此应使用新的或确认正常的空调控制总成更换，检查并确认状态恢复正常。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>空调控制总成工作恢复正常。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="5.66in"/>
+<colspec colname="col2" colwidth="1.42in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>正常</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>异常（根据故障症状表进行故障排除时）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>异常（根据 DTC 进行故障排除时）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="end" cellposition="5-1">
+<actiontitle>结束（空调控制总成故障）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="4-2" label="2">
+<action actiontype="end" cellposition="5-2">
+<actiontitle>转至故障症状表中所示的下一个可疑部位</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D85H" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="4-3" label="3">
+<action actiontype="end" cellposition="5-3">
+<actiontitle>更换空调放大器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCSG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

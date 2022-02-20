@@ -1,0 +1,2419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_51">
+<name>发动机/混合动力系统</name>
+<section id="_023949">
+<name>1ZR-FE 发动机控制系统</name>
+<ttl id="_0116049">
+<name>SFI 系统</name>
+<para category="C" id="RM100000000D7QF">
+<dtccode>P2195</dtccode>
+<dtcname>氧 (A/F) 传感器信号始终偏稀 (B1 S1)</dtcname>
+<dtccode>P2196</dtccode>
+<dtcname>氧 (A/F) 传感器信号始终偏浓 (B1 S1)</dtcname>
+<subpara category="03" id="RM100000000D7QF_01">
+<name>描述</name>
+<content5>
+<atten4>
+<ptxt>尽管 DTC 标题中提及氧传感器，但这些 DTC 与空燃比传感器有关。</ptxt>
+</atten4>
+<ptxt>空燃比传感器产生与实际空燃比相对应的电压*。此传感器电压用来向 ECM 提供反馈信号，以便 ECM 能够控制空燃比。ECM 判定与理论空燃比的偏差，然后调节燃油喷射时间。如果空燃比传感器出现故障，则 ECM 将无法对空燃比进行准确控制。</ptxt>
+<ptxt>空燃比传感器为平面型，与用来加热固体电解质（氧化锆元件）的加热器集成为一体。此加热器由 ECM 控制。进气量小（废气温度偏低）时，电流流向加热器以加热传感器，从而便于准确检测氧浓度。此外，传感器和加热器部分为窄型。加热器产生的热量通过氧化铝传导至固体电解质，从而加速了传感器的激活。</ptxt>
+<ptxt>三元催化转化器用于提高废气中一氧化碳 (CO)、碳氢化合物 (HC) 和氮氧化物 (NOx) 的净化率。为了最有效地利用三元催化转化器，必须精确控制空燃比，使其务必接近理论值。</ptxt>
+<ptxt>*：ECM 中的值发生变化。空燃比传感器是电流输出元件，因而电流在 ECM 内转换成电压。在空燃比传感器或 ECM 连接器上测量电压时将始终显示恒定的电压值。</ptxt>
+<figure translate="E" type="1">
+<graphic graphicname="A234900E21" height="3.812598425in" width="7.168479331in">
+
+</graphic>
+</figure>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="6">
+<colspec colname="1" colwidth="0.71in"/>
+<colspec colname="2" colwidth="1.06in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="2.12in"/>
+<colspec colname="5" colwidth="0.71in"/>
+<colspec colname="6" colwidth="0.71in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>MIL</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P2195</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>氧 (A/F) 传感器信号始终偏稀 (B1 S1)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>满足下列任一条件：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>满足条件 (a) 和 (b) 持续 5 秒或更长时间（双程检测逻辑）：</ptxt>
+<ptxt>(a) 空燃比传感器电压高于 3.8 V。</ptxt>
+<ptxt>(b) 加热型氧传感器电压为 0.21 V 或更高。</ptxt>
+</item>
+<item>
+<ptxt>进行燃油切断操作（车辆减速过程中）时，空燃比传感器电流为 2.2 mA 或更大持续 3 秒（双程检测逻辑）。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>空燃比传感器 (S1) 电路开路或短路</ptxt>
+</item>
+<item>
+<ptxt>空燃比传感器 (S1)</ptxt>
+</item>
+<item>
+<ptxt>废气泄漏</ptxt>
+</item>
+<item>
+<ptxt>进气系统</ptxt>
+</item>
+<item>
+<ptxt>燃油压力</ptxt>
+</item>
+<item>
+<ptxt>喷油器总成</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P2196</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>氧 (A/F) 传感器信号始终偏浓 (B1 S1)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>满足下列任一条件：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>满足条件 (a) 和 (b) 持续 5 秒或更长时间（双程检测逻辑）：</ptxt>
+<ptxt>(a) 空燃比传感器电压低于 2.8 V。</ptxt>
+<ptxt>(b) 加热型氧传感器电压低于 0.59 V。</ptxt>
+</item>
+<item>
+<ptxt>进行燃油切断操作（车辆减速过程中）时，空燃比传感器电流小于 0.7 mA 持续 3 秒（双程检测逻辑）。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>空燃比传感器 (S1) 电路开路或短路</ptxt>
+</item>
+<item>
+<ptxt>空燃比传感器 (S1)</ptxt>
+</item>
+<item>
+<ptxt>废气泄漏</ptxt>
+</item>
+<item>
+<ptxt>进气系统</ptxt>
+</item>
+<item>
+<ptxt>燃油压力</ptxt>
+</item>
+<item>
+<ptxt>喷油器总成</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>存储这些 DTC 中的任一个时，进入 GTS 上的以下菜单以检查空燃比传感器的输出电压：Powertrain / Engine and ECT / Data List / All Data / AFS Voltage B1S1。</ptxt>
+</item>
+<item>
+<ptxt>使用 GTS 也可读取短期燃油修正值。</ptxt>
+</item>
+<item>
+<ptxt>ECM 将其端子 A1A+ 和 A1A- 处的电压调节为一个恒定值。因此，如果不使用 GTS，则无法确认空燃比传感器的输出电压。</ptxt>
+</item>
+<item>
+<ptxt>如果检测到空燃比传感器故障，则 ECM 存储 DTC。</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D7QF_12">
+<name>监视描述</name>
+<content5>
+<topic>
+<title>传感器电压检测监视</title>
+<ptxt>在空燃比反馈控制下，如果尽管加热型氧传感器输出电压低于 0.59 V，但空燃比传感器输出电压低于 2.8 V（过浓状态）持续 5 秒，则 ECM 存储 DTC P2196。或者，如果尽管加热型氧传感器输出电压为 0.21 V 或更高，但空燃比传感器输出电压高于 3.8 V（过稀状态）持续 5 秒，则存储 DTC P2195。</ptxt>
+</topic>
+<topic>
+<title>传感器电流检测监视</title>
+<ptxt>混合气浓导致空燃比传感器电流小，而混合气稀导致空燃比传感器电流大。因此，节气门全关时，加速期间传感器输出变小，而减速期间变大。ECM 监视燃油切断期间空燃比传感器电流，并检测所有异常电流值。</ptxt>
+<ptxt>如果空燃比传感器输出为 2.2 mA 或更大累计超过 3 秒，则 ECM 将此视为空燃比传感器故障并存储 DTC P2195（卡在高电流侧）。如果空燃比传感器输出小于 0.7 mA 累计超过 3 秒，则 ECM 存储 DTC P2196（卡在低电流侧）。</ptxt>
+</topic>
+<figure translate="E" type="1">
+<graphic graphicname="A283591E01" height="4.825319882in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D7QF_13">
+<name>监视策略</name>
+<content5>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec align="left" colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>所需传感器/零部件（主要）</ptxt>
+</entry>
+<entry>
+<ptxt>空燃比传感器</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>所需传感器/零部件（相关）</ptxt>
+</entry>
+<entry>
+<ptxt>加热型氧传感器</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>工作频率</ptxt>
+</entry>
+<entry>
+<ptxt>连续：传感器电压检测监视</ptxt>
+<ptxt>每个驾驶循环一次：传感器电流检测监视</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>持续时间</ptxt>
+</entry>
+<entry>
+<ptxt>5 秒：传感器电压检测监视</ptxt>
+<ptxt>3 秒：传感器电流检测监视</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D7QF_14">
+<name>典型启动条件</name>
+<content5>
+<table pgwide="1">
+<title>传感器电压检测监视</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>发动机起动后的时间</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>30 秒或更长时间</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>燃油系统状态</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>闭环</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>传感器电流检测监视</title>
+<tgroup align="left" cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>蓄电池电压</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 V 或更高</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>大气压力</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>76 kPa(abs) [570 mmHg(abs)] 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>空燃比传感器状态</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>激活</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>发动机冷却液温度</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>75°C (167°F) 或更高</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>燃油切断持续时间</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3 秒或更长时间，且小于 10 秒</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D7QF_15">
+<name>典型故障阈值</name>
+<content5>
+<table pgwide="1">
+<title>P2195：传感器电压检测监视（偏稀故障）</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>加热型氧传感器电压</ptxt>
+</entry>
+<entry>
+<ptxt>0.21 V 或更高</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>空燃比传感器电压</ptxt>
+</entry>
+<entry>
+<ptxt>高于 3.8 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>P2196：传感器电压检测监视（偏浓故障）</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>加热型氧传感器电压</ptxt>
+</entry>
+<entry>
+<ptxt>低于 0.59 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>空燃比传感器电压</ptxt>
+</entry>
+<entry>
+<ptxt>低于 2.8 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>P2195：传感器电流检测监视（高电流侧故障）</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>空燃比传感器电流</ptxt>
+</entry>
+<entry>
+<ptxt>2.2 mA 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>P2196：传感器电流检测监视（低电流侧故障）</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>空燃比传感器电流</ptxt>
+</entry>
+<entry>
+<ptxt>小于 0.7 mA</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D7QF_08">
+<name>确认行驶模式</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="A283818E03" height="3.812598425in" width="7.168479331in">
+
+</graphic>
+</figure>
+<figure translate="E" type="1">
+<graphic graphicname="A234868E32" height="3.812598425in" width="7.168479331in">
+
+</graphic>
+</figure>
+<list1 type="ordered">
+<item>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</item>
+<item>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</item>
+<item>
+<ptxt>打开 GTS。</ptxt>
+</item>
+<item>
+<ptxt>清除 DTC（即使未存储 DTC，也应执行清除 DTC 程序）。</ptxt>
+</item>
+<item>
+<ptxt>将点火开关置于 OFF 位置并等待至少 30 秒。</ptxt>
+</item>
+<item>
+<ptxt>将点火开关置于 ON 位置并打开 GTS。</ptxt>
+</item>
+<item>
+<ptxt>起动发动机并暖机，直至发动机冷却液温度达到 75°C (167°F) 或更高 [A]。</ptxt>
+</item>
+<item>
+<ptxt>在 GTS 上，进入以下菜单以检查燃油切断状态：Powertrain / Engine and ECT / Data List / All Data / Idle Fuel Cut。</ptxt>
+</item>
+<item>
+<ptxt>以 60 和 100 km/h（37 和 62 mph）之间的速度驾驶车辆至少 10 分钟 [B]。</ptxt>
+<atten2>
+<ptxt>执行确认行驶模式时，应遵守限速要求和交通法规。</ptxt>
+</atten2>
+</item>
+<item>
+<ptxt>换档杆置于 M 或二档 [C] 的情况下，踩下加速踏板至少 10 秒以将车辆加速至 60 km/h (37 mph) 或更高 [D]。</ptxt>
+<atten2>
+<ptxt>执行确认行驶模式时，应遵守限速要求和交通法规。</ptxt>
+</atten2>
+</item>
+<item>
+<ptxt>执行上述步骤 [D] 后不久，松开加速踏板至少 4 秒且不要踩下制动踏板，以执行燃油切断控制 [E]。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>数据表上的“Idle Fuel Cut”为 ON 时，进行燃油切断控制。</ptxt>
+</item>
+<item>
+<ptxt>满足以下条件时，执行燃油切断：</ptxt>
+</item>
+<list2 type="unordered">
+<item>
+<ptxt>完全松开加速踏板。</ptxt>
+</item>
+<item>
+<ptxt>发动机转速为 2,050 rpm 或更高（燃油喷射在 1,050 rpm 或 15 km/h (9 mph) 时恢复）（M/T 车型）。</ptxt>
+</item>
+<item>
+<ptxt>发动机转速为 1,400 rpm 或更高（燃油喷射在 1,200 rpm 时恢复）（CVT 车型锁止关闭情况下）。</ptxt>
+</item>
+<item>
+<ptxt>发动机转速为 950 rpm 或更高（燃油喷射在 16 km/h (10 mph) 时恢复）（CVT 车型锁止打开情况下）。</ptxt>
+</item>
+</list2>
+</list1>
+</atten4>
+</item>
+<item>
+<ptxt>将车辆减速，直到车速降至 10 km/h (6 mph) 以下。</ptxt>
+</item>
+<item>
+<ptxt>在一个行驶循环内，重复上述步骤 [C] 至 [E] 至少 3 次。</ptxt>
+</item>
+<item>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes [F]。</ptxt>
+</item>
+<item>
+<ptxt>读取待定 DTC。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果输出待定 DTC，则系统发生故障。</ptxt>
+</item>
+<item>
+<ptxt>如果未输出待定 DTC，则执行以下程序。</ptxt>
+</item>
+</list1>
+</atten4>
+</item>
+<item>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。</ptxt>
+</item>
+<item>
+<ptxt>输入 DTC：P2195 或 P2196。</ptxt>
+</item>
+<item>
+<ptxt>检查 DTC 判断结果。</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>GTS 显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>描述</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>NORMAL</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断完成</ptxt>
+</item>
+<item>
+<ptxt>系统正常</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>ABNORMAL</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断完成</ptxt>
+</item>
+<item>
+<ptxt>系统异常</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>INCOMPLETE</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断未完成</ptxt>
+</item>
+<item>
+<ptxt>确认 DTC 启动条件后，执行行驶模式</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>N/A</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>无法执行 DTC 判断</ptxt>
+</item>
+<item>
+<ptxt>不满足 DTC 前提条件的 DTC 数量达到 ECU 存储器极限</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果判断结果显示 NORMAL，则系统正常。</ptxt>
+</item>
+<item>
+<ptxt>如果判断结果显示 ABNORMAL，则系统存在故障。</ptxt>
+</item>
+<item>
+<ptxt>如果判断结果显示为 INCOMPLETE 或 N/A，则再次执行步骤 [B] 至 [F]。</ptxt>
+</item>
+</list1>
+</atten4>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D7QF_07">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="A298566E12" height="4.825319882in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D7QF_09">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>进行下列程序前，先检查与此系统相关电路的保险丝。</ptxt>
+</atten3>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>S1 指距发动机总成最近的传感器。</ptxt>
+</item>
+<item>
+<ptxt>S2 指距发动机总成最远的传感器。</ptxt>
+</item>
+<item>
+<ptxt>使用 GTS 读取定格数据。存储 DTC 时，ECM 将车辆和驾驶条件信息记录为定格数据。进行故障排除时，定格数据有助于确定故障出现时车辆是运行还是停止，发动机是暖机还是未暖机，空燃比是浓还是稀，以及其他数据。</ptxt>
+</item>
+<item>
+<ptxt>空气燃油混合气过浓可能会导致空燃比传感器电压低。检查是否存在导致发动机在混合气浓的情况下运行的条件。</ptxt>
+</item>
+<item>
+<ptxt>空气燃油混合气过稀可能会导致空燃比传感器电压高。检查是否存在导致发动机在混合气稀的情况下运行的条件。</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D7QF_17">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D7QF_17_0001">
+<testtitle>检查是否输出其他 DTC（除 DTC P2195 或 P2196 外）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。</ptxt>
+</test1>
+<test1>
+<ptxt>读取 DTC。</ptxt>
+<gts-info category="dtc-read">
+<title>Powertrain &gt; Engine and ECT &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出 DTC P2195 或 P2196</ptxt>
+</entry>
+<entry align="center" morerows="1" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出 DTC P2195 或 P2196 和 P0136、P0137 或 P0138</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出 DTC P2195 或 P2196 和其他 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>如果输出和空燃比传感器相关的任何 DTC（空燃比传感器加热器或空燃比传感器导纳 DTC），则首先对这些 DTC 进行故障排除。</ptxt>
+</atten4>
+</test1>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D7QF_17_0002"/>
+</result>
+<result cellposition="1-4" label="2">
+<action actiontype="end" cellposition="2-4">
+<actiontitle>转至 DTC 表</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7QP" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D7QF_17_0002">
+<testtitle>确认车辆是否曾耗尽燃油</testtitle>
+<content6>
+<test1>
+<ptxt>车辆是否曾耗尽燃油？</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>是</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>否</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D7QF_17_0032"/>
+</result>
+<result cellposition="2-3" label="2">
+<action actiontype="jump" cellposition="3-3" childid="RM100000000D7QF_17_0037">
+<actiontitle>转至步骤 4</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D7QF_17_0032">
+<testtitle>检查是否再次输出 DTC（DTC P2195 或 P2196）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Powertrain &gt; Engine and ECT &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置并等待至少 30 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机并暖机。</ptxt>
+</test1>
+<test1>
+<ptxt>按照确认行驶模式中所述的行驶模式驾驶车辆。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。</ptxt>
+<gts-info category="utility-normal">
+<title>Powertrain &gt; Engine and ECT &gt; Utility</title>
+<table type="utility">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="20" name="item-name">
+<ptxt>All Readiness</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50005">
+<gts-ecu ecu-id="234">
+<gts-util util-id="20"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">4</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="utility-id">20</app-param>
+<app-param name="function-name">All Readiness</app-param>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>输入 DTC：P2195 或 P2196。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC 判断情况。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>NORMAL（未输出 DTC）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>ABNORMAL（输出 DTC P2195 或 P2196）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="end" cellposition="4-1">
+<actiontitle>由于燃油耗尽引起的 DTC</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="3-2" label="2">
+<action actiontype="next" cellposition="4-2" childid="RM100000000D7QF_17_0037"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-2" id="RM100000000D7QF_17_0037">
+<testtitle>使用 GTS 读取值（AFS 电流 B1S1）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Powertrain &gt; Engine and ECT &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / AFS Current B1S1。</ptxt>
+<gts-info category="data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="39" name="item-name">
+<ptxt>AFS Current B1S1</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="234">
+<gts-pid pid-id="39"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">39</app-param>
+<app-param name="data-list-item-name">AFS Current B1S1</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>在燃油切断过程中，检查空燃比传感器输出电流的测试值，请参考确认行驶模式中 [C] 至 [E] 的行驶模式详情。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>为精确测量空燃比传感器电流，应尽可能长时间地进行燃油切断操作。</ptxt>
+</item>
+<item>
+<ptxt>如果很难测量空燃比传感器电流，则使用 GTS 的快照功能。</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>在正常范围内（0.7 mA 或更大，且小于 2.2 mA）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>超出正常范围（小于 0.7 mA，或 2.2 mA 或更大）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-2" label="1">
+<action actiontype="next" cellposition="5-2" childid="RM100000000D7QF_17_0038"/>
+</result>
+<result cellposition="4-8" label="2">
+<action actiontype="next" cellposition="5-8" childid="RM100000000D7QF_17_0015"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-2" id="RM100000000D7QF_17_0038">
+<testtitle>使用 GTS 进行主动测试（控制 A/F 传感器的喷油量）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>使发动机以 2,500 rpm 转速持续运转 90 秒，预热空燃比传感器。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Active Test / Control the Injection Volume for A/F Sensor / All Data / AFS Voltage B1S1 and O2S B1S2。</ptxt>
+<gts-info category="active-test-data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Active Test</title>
+<table type="active-test">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>主动测试显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="2" name="item-name">
+<ptxt>Control the Injection Volume for A/F Sensor</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>数据表显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="35" name="item-name">
+<ptxt>AFS Voltage B1S1</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="44" name="item-name">
+<ptxt>O2S B1S2</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50004">
+<gts-ecu ecu-id="234">
+<gts-did did-id="2"/>
+<gts-pid pid-id="35"/>
+<gts-pid pid-id="44"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="use-datalist">1</app-param>
+<app-param-unit>
+<app-param name="did-id">2</app-param>
+<app-param name="active-test-item-name">Control the Injection Volume for A/F Sensor</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">35</app-param>
+<app-param name="data-list-item-name">AFS Voltage B1S1</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">44</app-param>
+<app-param name="data-list-item-name">O2S B1S2</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>发动机怠速运转时，进行控制 A/F 传感器喷油量操作。</ptxt>
+</test1>
+<test1>
+<ptxt>监视 GTS 上显示的空燃比和加热型氧传感器（AFS Voltage B1S1 和 O2S B1S2）的输出电压。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>控制 A/F 传感器喷油量操作可以使燃油喷射量减少 12.5% 或增加 12.5%。</ptxt>
+</item>
+<item>
+<ptxt>空燃比传感器存在数秒的输出延迟，加热型氧传感器的输出延迟最长可达约 20 秒。</ptxt>
+</item>
+<item>
+<ptxt>进行主动测试时，如果传感器的输出电压不改变（几乎无反应），则传感器可能有故障。</ptxt>
+</item>
+</list1>
+</atten4>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="col1" colwidth="1.77in"/>
+<colspec colname="col2" colwidth="1.77in"/>
+<colspec colname="col3" colwidth="1.77in"/>
+<colspec colname="col4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>GTS 显示（传感器）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>喷油量</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>电压</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>AFS Voltage B1S1</ptxt>
+<ptxt>（空燃比）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>12.5%</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>浓</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>低于 3.1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>-12.5%</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>稀</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>高于 3.4 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>O2S B1S2</ptxt>
+<ptxt>（加热型氧）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>12.5%</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>浓</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>高于 0.55 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>-12.5%</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>稀</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>低于 0.4 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="col1" colwidth="1.77in"/>
+<colspec colname="col2" colwidth="1.77in"/>
+<colspec colname="col3" colwidth="2.62in"/>
+<colspec colname="col4" colwidth="0.92in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>‎AFS Voltage B1S1 状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>O2S B1S2 状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>空燃比状态和空燃比传感器状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>稀</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>稀</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>实际空燃比偏稀</ptxt>
+</entry>
+<entry align="center" morerows="1" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>浓</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>浓</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>实际空燃比偏浓</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>稀</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>稀/浓</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>空燃比传感器故障</ptxt>
+</entry>
+<entry align="center" morerows="2" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>浓</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>稀/浓</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>空燃比传感器故障</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>稀/浓</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>稀/浓</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>稀：控制 A/F 传感器喷油量主动测试期间，空燃比传感器输出电压 (AFS Voltage B1S1) 始终高于 3.4 V，加热型氧传感器输出电压 (O2S B1S2) 始终低于 0.4 V。</ptxt>
+</item>
+<item>
+<ptxt>浓：控制 A/F 传感器喷油量主动测试期间，AFS Voltage B1S1 始终低于 3.1 V，O2S B1S2 始终高于 0.55 V。</ptxt>
+</item>
+<item>
+<ptxt>稀/浓：控制 A/F 传感器喷油量主动测试期间，空燃比传感器和加热型氧传感器的输出电压正确地交替变化。</ptxt>
+</item>
+</list1>
+<atten4>
+<ptxt>请参考“数据表/主动测试”[AFS Voltage B1S1 和 O2S B1S2]。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7Q8" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+</content6>
+<results>
+<result cellposition="5-2" label="1">
+<action actiontype="next" cellposition="6-2" childid="RM100000000D7QF_17_0006"/>
+</result>
+<result cellposition="5-7" label="2">
+<action actiontype="jump" cellposition="6-7" childid="RM100000000D7QF_17_0015">
+<actiontitle>转至步骤 15</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-2" id="RM100000000D7QF_17_0006">
+<testtitle>检查进气系统</testtitle>
+<content6>
+<test1>
+<ptxt>检查进气系统是否存在真空泄漏。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCNA" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>进气系统无泄漏。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>维修或更换进气系统后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7Q2" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-2" label="1">
+<action actiontype="next" cellposition="7-2" childid="RM100000000D7QF_17_0008"/>
+</result>
+<result cellposition="6-6" label="2">
+<action actiontype="end" cellposition="7-6">
+<actiontitle>维修或更换进气系统</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-2" id="RM100000000D7QF_17_0008">
+<testtitle>检查废气是否泄漏</testtitle>
+<content6>
+<test1>
+<ptxt>检查废气是否泄漏。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>无漏气。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>维修或更换排气系统后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7Q2" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-2" label="1">
+<action actiontype="next" cellposition="8-2" childid="RM100000000D7QF_17_0009"/>
+</result>
+<result cellposition="7-5" label="2">
+<action actiontype="end" cellposition="8-5">
+<actiontitle>维修或更换排气系统</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-2" id="RM100000000D7QF_17_0009">
+<testtitle>检查燃油压力</testtitle>
+<content6>
+<test1>
+<ptxt>检查燃油压力。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD0C_01_0002" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-2" label="1">
+<action actiontype="next" cellposition="9-2" childid="RM100000000D7QF_17_0010"/>
+</result>
+<result cellposition="8-4" label="2">
+<action actiontype="next" cellposition="9-4" childid="RM100000000D7QF_17_0017"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-2" id="RM100000000D7QF_17_0010">
+<testtitle>检查喷油器总成</testtitle>
+<content6>
+<test1>
+<ptxt>检查喷油器总成的喷油情况（喷油量是高还是低，喷油方式是否不良）。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD11" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>更换喷油器总成后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7Q2" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-2" label="1">
+<action actiontype="next" cellposition="10-2" childid="RM100000000D7QF_17_0011"/>
+</result>
+<result cellposition="9-3" label="2">
+<action actiontype="end" cellposition="10-3">
+<actiontitle>更换喷油器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD0I" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="10-2" id="RM100000000D7QF_17_0011">
+<testtitle>更换空燃比传感器</testtitle>
+<content6>
+<test1>
+<ptxt>更换空燃比传感器。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DE7U" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>更换空燃比传感器后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7Q2" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="10-2" label="1">
+<action actiontype="next" cellposition="11-2" childid="RM100000000D7QF_17_0034"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="11-2" id="RM100000000D7QF_17_0034">
+<testtitle>检查是否再次输出 DTC（DTC P2195 或 P2196）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Powertrain &gt; Engine and ECT &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置并等待至少 30 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机并暖机。</ptxt>
+</test1>
+<test1>
+<ptxt>按照确认行驶模式中所述的行驶模式驾驶车辆。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。</ptxt>
+<gts-info category="utility-normal">
+<title>Powertrain &gt; Engine and ECT &gt; Utility</title>
+<table type="utility">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="20" name="item-name">
+<ptxt>All Readiness</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50005">
+<gts-ecu ecu-id="234">
+<gts-util util-id="20"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">4</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="utility-id">20</app-param>
+<app-param name="function-name">All Readiness</app-param>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>输入 DTC：P2195 或 P2196。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC 判断结果。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>ABNORMAL（输出 DTC P2195 或 P2196）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>NORMAL（未输出 DTC）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="11-2" label="1">
+<action actiontype="next" cellposition="12-2" childid="RM100000000D7QF_17_0013"/>
+</result>
+<result cellposition="11-3" label="2">
+<action actiontype="end" cellposition="12-3">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="12-2" id="RM100000000D7QF_17_0013">
+<testtitle>更换 ECM</testtitle>
+<content6>
+<test1>
+<ptxt>更换 ECM。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DE6Z" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="12-2" label="1">
+<action actiontype="next" cellposition="13-2" childid="RM100000000D7QF_17_0036"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="13-2" id="RM100000000D7QF_17_0036">
+<testtitle>确认故障是否已成功排除</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Powertrain &gt; Engine and ECT &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置并等待至少 30 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机并暖机。</ptxt>
+</test1>
+<test1>
+<ptxt>按照确认行驶模式中所述的行驶模式驾驶车辆。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。</ptxt>
+<gts-info category="utility-normal">
+<title>Powertrain &gt; Engine and ECT &gt; Utility</title>
+<table type="utility">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="20" name="item-name">
+<ptxt>All Readiness</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50005">
+<gts-ecu ecu-id="234">
+<gts-util util-id="20"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">4</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="utility-id">20</app-param>
+<app-param name="function-name">All Readiness</app-param>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>输入 DTC：P2195 或 P2196。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC 判断结果。</ptxt>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.12in"/>
+<colspec colname="col2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>GTS 显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>描述</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>NORMAL</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断完成</ptxt>
+</item>
+<item>
+<ptxt>系统正常</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>ABNORMAL</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断完成</ptxt>
+</item>
+<item>
+<ptxt>系统异常</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>INCOMPLETE</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断未完成</ptxt>
+</item>
+<item>
+<ptxt>确认 DTC 启动条件后，执行行驶模式</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>N/A</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>无法执行 DTC 判断</ptxt>
+</item>
+<item>
+<ptxt>不满足 DTC 前提条件的 DTC 数量达到 ECU 存储器极限</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="13-2" label="1">
+<action actiontype="end" cellposition="14-2">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-4" id="RM100000000D7QF_17_0017">
+<testtitle>检查燃油管路</testtitle>
+<content6>
+<test1>
+<ptxt>检查燃油管路是否泄漏或堵塞。</ptxt>
+<atten4>
+<ptxt>更换燃油泵后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7Q2" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-4" label="1">
+<action actiontype="end" cellposition="10-4">
+<actiontitle>更换燃油泵</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD19" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="9-5" label="2">
+<action actiontype="end" cellposition="10-5">
+<actiontitle>维修或更换燃油管路</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-8" id="RM100000000D7QF_17_0015">
+<testtitle>更换空燃比传感器</testtitle>
+<content6>
+<test1>
+<ptxt>更换空燃比传感器。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DE7U" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>更换空燃比传感器后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7Q2" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-8" label="1">
+<action actiontype="next" cellposition="6-8" childid="RM100000000D7QF_17_0035"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-8" id="RM100000000D7QF_17_0035">
+<testtitle>检查是否再次输出 DTC（DTC P2195 或 P2196）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Powertrain &gt; Engine and ECT &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置并等待至少 30 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机并暖机。</ptxt>
+</test1>
+<test1>
+<ptxt>按照确认行驶模式中所述的行驶模式驾驶车辆。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。</ptxt>
+<gts-info category="utility-normal">
+<title>Powertrain &gt; Engine and ECT &gt; Utility</title>
+<table type="utility">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="20" name="item-name">
+<ptxt>All Readiness</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50005">
+<gts-ecu ecu-id="234">
+<gts-util util-id="20"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">4</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="utility-id">20</app-param>
+<app-param name="function-name">All Readiness</app-param>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>输入 DTC：P2195 或 P2196。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC 判断结果。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>NORMAL（未输出 DTC）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>ABNORMAL（输出 DTC P2195 或 P2196）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-8" label="1">
+<action actiontype="end" cellposition="7-8">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="6-9" label="2">
+<action actiontype="end" cellposition="7-9">
+<actiontitle>更换 ECM</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DE6Z" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS091">
+    <part type="conn" code="T2">
+      <text>M</text>
+      <name>前排电动座椅升降位置电动机</name>
+    </part>
+    <part type="conn" code="W1">
+      <text>M</text>
+      <name>前排电动座椅靠背倾角位置电动机</name>
+    </part>
+    <part type="conn" code="T1">
+      <text>M</text>
+      <name>前排电动座椅升降位置电动机</name>
+    </part>
+    <part type="conn" code="T3">
+      <text>B LDWN LUP SLDF SLDR E RCLF RCLR</text>
+      <name>前排电动座椅开关</name>
+      <name type="inner">后</name>
+      <name type="inner">前</name>
+      <name type="inner">上</name>
+      <name type="inner">下</name>
+      <name type="inner">座椅靠背倾角调节开关</name>
+      <name type="inner">滑动开关</name>
+      <name type="inner">升降开关</name>
+    </part>
+    <part type="fuse" code="FUSE66">
+      <text>P-SEAT</text>
+    </part>
+  </ttl>
+</EWDSearch>

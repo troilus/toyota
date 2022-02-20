@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_51">
+<name>发动机/混合动力系统</name>
+<section id="_023966">
+<name>4ZR-FE 发动机控制系统</name>
+<ttl id="_0120142">
+<name>SFI 系统</name>
+<para category="C" id="RM100000000DQFI">
+<dtccode>P0335</dtccode>
+<dtcname>曲轴位置传感器“A”电路</dtcname>
+<dtccode>P0339</dtccode>
+<dtcname>曲轴位置传感器“A”电路间歇性故障</dtcname>
+<subpara category="03" id="RM100000000DQFI_01">
+<name>描述</name>
+<content5>
+<ptxt>曲轴位置传感器系统由 1 号曲轴位置信号盘和拾波线圈组成。</ptxt>
+<ptxt>1 号曲轴位置信号盘有 34 个齿，并安装在曲轴上。拾波线圈由缠绕的铜线、铁芯和磁铁组成。1 号曲轴位置信号盘旋转时，随着每个齿经过拾波线圈，便产生一个脉冲信号。发动机每转一圈，拾波线圈产生 34 个信号。ECM 根据这些信号计算出曲轴位置和发动机转速。利用这些计算结果控制喷油持续时间和点火正时。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="6">
+<colspec colname="1" colwidth="0.71in"/>
+<colspec colname="2" colwidth="1.06in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="2.12in"/>
+<colspec colname="5" colwidth="0.71in"/>
+<colspec colname="6" colwidth="0.71in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>MIL</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P0335</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>曲轴位置传感器“A”电路</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>满足以下任一条件（单程检测逻辑）：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>起动时无曲轴位置传感器信号发送至 ECM。</ptxt>
+</item>
+<item>
+<ptxt>发动机运转时，无曲轴位置传感器信号发送至 ECM。</ptxt>
+</item>
+<item>
+<ptxt>发动机运转后，曲轴位置传感器信号输入正常，但曲轴位置传感器信号丢失。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>曲轴位置传感器电路开路或短路</ptxt>
+</item>
+<item>
+<ptxt>曲轴位置传感器</ptxt>
+</item>
+<item>
+<ptxt>1 号曲轴位置信号盘</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P0339</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>曲轴位置传感器“A”电路间歇性故障</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>在条件 (a)、(b) 和 (c) 下，无曲轴位置传感器信号发送至 ECM 持续 0.05 秒或更长时间（单程检测逻辑）：</ptxt>
+<ptxt>(a) 发动机转速为 1,000 rpm 或更高。</ptxt>
+<ptxt>(b) 起动机信号为 OFF。</ptxt>
+<ptxt>(c) 起动机信号从 ON 切换至 OFF 后经过 3 秒或更长时间。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>曲轴位置传感器电路开路或短路</ptxt>
+</item>
+<item>
+<ptxt>曲轴位置传感器</ptxt>
+</item>
+<item>
+<ptxt>1 号曲轴位置信号盘</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>不亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>参考：使用示波器进行检查。</ptxt>
+<figure translate="E" type="1">
+<graphic graphicname="A254145E01" height="2.192421260in" width="3.434793307in">
+
+</graphic>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>正确的波形如图所示。</ptxt>
+</item>
+<item>
+<ptxt>屏蔽线接地故障可能导致波形中出现噪音。</ptxt>
+</item>
+</list1>
+</atten4>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="1.24in"/>
+<colspec colname="COL2" colwidth="2.89in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>ECM 端子名称</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>NE+ 和 NE- 之间</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪分度值</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5 V/格，20 ms/格</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>发动机暖机时怠速运转</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DQFI_11">
+<name>监视描述</name>
+<content5>
+<ptxt>如果尽管曲轴转动但没有来自曲轴位置传感器的信号，则 ECM 将此视为传感器故障。</ptxt>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DQFI_12">
+<name>监视策略</name>
+<content5>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>所需传感器/零部件（主要）</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>曲轴位置传感器</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>所需传感器/零部件（相关）</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>凸轮轴位置传感器</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>工作频率</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>持续</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DQFI_15">
+<name>零部件工作范围</name>
+<content5>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>曲轴位置传感器</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>曲轴转动时，曲轴位置传感器输出电压波动</ptxt>
+</item>
+<item>
+<ptxt>曲轴每转动一圈，曲轴位置传感器产生 34 个信号</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DQFI_16">
+<name>确认行驶模式</name>
+<content5>
+<list1 type="ordered">
+<item>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</item>
+<item>
+<ptxt>将点火开关置于 ON 位置并打开 GTS。</ptxt>
+</item>
+<item>
+<ptxt>清除 DTC（即使未存储 DTC，也应执行清除 DTC 程序）。</ptxt>
+</item>
+<item>
+<ptxt>将点火开关置于 OFF 位置并等待至少 30 秒。</ptxt>
+</item>
+<item>
+<ptxt>将点火开关置于 ON 位置并打开 GTS。</ptxt>
+</item>
+<item>
+<ptxt>起动发动机。</ptxt>
+</item>
+<item>
+<ptxt>怠速运转发动机 20 秒或更长时间。</ptxt>
+</item>
+<item>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。</ptxt>
+</item>
+<item>
+<ptxt>读取待定 DTC。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果输出待定 DTC，则系统发生故障。</ptxt>
+</item>
+<item>
+<ptxt>如果未输出待定 DTC，则执行以下程序。</ptxt>
+</item>
+</list1>
+</atten4>
+</item>
+<item>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。</ptxt>
+</item>
+<item>
+<ptxt>输入 DTC：P0335 或 P0339。</ptxt>
+</item>
+<item>
+<ptxt>检查 DTC 判断结果。</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>GTS 显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>描述</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>NORMAL</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断完成</ptxt>
+</item>
+<item>
+<ptxt>系统正常</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>ABNORMAL</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断完成</ptxt>
+</item>
+<item>
+<ptxt>系统异常</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>INCOMPLETE</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断未完成</ptxt>
+</item>
+<item>
+<ptxt>确认 DTC 启动条件后，执行行驶模式</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>N/A</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>无法执行 DTC 判断</ptxt>
+</item>
+<item>
+<ptxt>不满足 DTC 前提条件的 DTC 数量达到 ECU 存储器极限</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果判断结果显示 NORMAL，则系统正常。</ptxt>
+</item>
+<item>
+<ptxt>如果判断结果显示 ABNORMAL，则系统存在故障。</ptxt>
+</item>
+<item>
+<ptxt>如果判断结果显示为 INCOMPLETE 或 N/A，则执行确认行驶模式并再次检查 DTC 判断结果。</ptxt>
+</item>
+</list1>
+</atten4>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DQFI_07">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="A296670E12" height="2.799876969in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DQFI_08">
+<name>注意/小心/提示</name>
+<content5>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>执行曲轴位置传感器的检查程序后，如果再次输出 DTC P0335，则检查以下与凸轮轴位置传感器相关的项目。</ptxt>
+</item>
+<list2 type="unordered">
+<item>
+<ptxt>凸轮轴位置传感器的安装情况</ptxt>
+</item>
+<item>
+<ptxt>凸轮轴的安装情况</ptxt>
+</item>
+<item>
+<ptxt>凸轮轴位置传感器连接器连接情况</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>如果在该诊断故障排除程序中未发现故障，则请参考发动机机械部分检查是否出现故障。</ptxt>
+</item>
+<item>
+<ptxt>可使用 GTS 检查发动机转速。按照以下程序进行检查：</ptxt>
+</item>
+<list2 type="ordered">
+<item>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</item>
+<item>
+<ptxt>起动发动机。</ptxt>
+</item>
+<item>
+<ptxt>打开 GTS。</ptxt>
+</item>
+<item>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / Engine Speed。</ptxt>
+</item>
+</list2>
+<list2 type="nonmark">
+<item>
+<ptxt>即使发动机正常运转，发动机转速也可能显示为零。这是因未收到曲轴位置传感器的 NE 信号而导致的。或者，如果曲轴位置传感器输出电压不足，则发动机转速可能显示为低于实际发动机转速的值。</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>使用 GTS 读取定格数据。存储 DTC 时，ECM 将车辆和驾驶条件信息记录为定格数据。进行故障排除时，定格数据有助于确定故障出现时车辆是运行还是停止，发动机是暖机还是未暖机，空燃比是浓还是稀，以及其他数据。</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DQFI_17">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DQFI_17_0001">
+<testtitle>使用 GTS 读取值（发动机转速）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / Engine Speed。</ptxt>
+<gts-info category="data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="9" name="item-name">
+<ptxt>Engine Speed</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="234">
+<gts-pid pid-id="9"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">9</app-param>
+<app-param name="data-list-item-name">Engine Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>发动机运转时读取显示在 GTS 上的值。</ptxt>
+<spec type="other">
+<title>标准</title>
+<specitem>
+<ptxt>显示正确的值。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>显示 GTS 上的图表以检查发动机转速的变化。</ptxt>
+</item>
+<item>
+<ptxt>如果发动机不起动，则在曲轴转动时检查发动机转速。</ptxt>
+</item>
+<item>
+<ptxt>如果显示在 GTS 上的发动机转速始终为零 (0)，则曲轴位置传感器电路可能开路或短路。</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>检查是否存在间歇性故障</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DQGG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="next" cellposition="2-2" childid="RM100000000DQFI_17_0002"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-2" id="RM100000000DQFI_17_0002">
+<testtitle>检查曲轴位置传感器</testtitle>
+<content6>
+<test1>
+<ptxt>检查曲轴位置传感器。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETML" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-2" label="1">
+<action actiontype="next" cellposition="3-2" childid="RM100000000DQFI_17_0012"/>
+</result>
+<result cellposition="2-6" label="2">
+<action actiontype="end" cellposition="3-6">
+<actiontitle>更换曲轴位置传感器</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETMN" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-2" id="RM100000000DQFI_17_0012">
+<testtitle>检查线束和连接器（曲轴位置传感器 - ECM）</testtitle>
+<content6>
+<test1>
+<ptxt>断开曲轴位置传感器连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>断开 ECM 连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.34in"/>
+<colspec colname="col2" colwidth="2.34in"/>
+<colspec colname="col3" colwidth="2.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B16-1 - B39-114 (NE+)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B16-2 - B39-113 (NE-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B16-1 或 B39-114 (NE+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B16-2 或 B39-113 (NE-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-2" label="1">
+<action actiontype="next" cellposition="4-2" childid="RM100000000DQFI_17_0004"/>
+</result>
+<result cellposition="3-5" label="2">
+<action actiontype="end" cellposition="4-5">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-2" id="RM100000000DQFI_17_0004">
+<testtitle>检查传感器的安装情况（曲轴位置传感器）</testtitle>
+<content6>
+<figure translate="C" type="1">
+<graphic graphicname="B319222C02" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>间隙</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<test1>
+<ptxt>检查曲轴位置传感器的安装情况。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>正确安装曲轴位置传感器。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-2" label="1">
+<action actiontype="next" cellposition="5-2" childid="RM100000000DQFI_17_0013"/>
+</result>
+<result cellposition="4-4" label="2">
+<action actiontype="end" cellposition="5-4">
+<actiontitle>重新牢固安装曲轴位置传感器</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETMK" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-2" id="RM100000000DQFI_17_0013">
+<testtitle>检查 1 号曲轴位置信号盘（信号盘齿）</testtitle>
+<content6>
+<test1>
+<ptxt>检查 1 号曲轴位置信号盘齿。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>1 号曲轴位置信号盘无破裂或变形。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-2" label="1">
+<action actiontype="next" cellposition="6-2" childid="RM100000000DQFI_17_0015"/>
+</result>
+<result cellposition="5-3" label="2">
+<action actiontype="end" cellposition="6-3">
+<actiontitle>更换 1 号曲轴位置信号盘</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETSW" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-2" id="RM100000000DQFI_17_0015">
+<testtitle>更换曲轴位置传感器</testtitle>
+<content6>
+<test1>
+<ptxt>更换曲轴位置传感器。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETMN" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-2" label="1">
+<action actiontype="next" cellposition="7-2" childid="RM100000000DQFI_17_0016"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-2" id="RM100000000DQFI_17_0016">
+<testtitle>检查是否再次输出 DTC（DTC P0335 和/或 P0339）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Powertrain &gt; Engine and ECT &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置并等待至少 30 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>按照确认行驶模式中所述的行驶模式驾驶车辆。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。</ptxt>
+</test1>
+<test1>
+<ptxt>读取 DTC。</ptxt>
+<gts-info category="dtc-read">
+<title>Powertrain &gt; Engine and ECT &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>未输出 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出 DTC P0335 和/或 P0339</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>如果发动机不起动，则更换 ECM。</ptxt>
+</atten4>
+</test1>
+</content6>
+<results>
+<result cellposition="7-2" label="1">
+<action actiontype="end" cellposition="8-2">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="7-3" label="2">
+<action actiontype="end" cellposition="8-3">
+<actiontitle>更换 ECM</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETM7" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_55">
+<name>转向</name>
+<section id="_023995">
+<name>助力系统</name>
+<ttl id="_0116094">
+<name>动力转向系统（电刷型马达）</name>
+<para category="C" id="RM100000000DEJ2">
+<dtccode>C1531</dtccode>
+<dtcname>ECU 故障</dtcname>
+<dtccode>C1532</dtccode>
+<dtcname>ECU 故障</dtcname>
+<dtccode>C1533</dtccode>
+<dtcname>温度传感器电路低电位或高电位</dtcname>
+<dtccode>C1534</dtccode>
+<dtcname>EEPROM</dtcname>
+<dtccode>C1535</dtccode>
+<dtcname>ECU 故障</dtcname>
+<subpara category="03" id="RM100000000DEJ2_02">
+<name>描述</name>
+<content5>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="7">
+<colspec colname="1" colwidth="0.71in"/>
+<colspec colname="2" colwidth="0.85in"/>
+<colspec colname="3" colwidth="0.99in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.27in"/>
+<colspec colname="6" colwidth="0.99in"/>
+<colspec colname="7" colwidth="0.85in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>警告指示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>恢复到正常状态的条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>C1531</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>ECU 故障</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>ECU 内部故障</ptxt>
+<ptxt>（CPU 故障）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<ptxt>动力转向 ECU 总成</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="w-indicate">
+<ptxt>EPS 警告灯：点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="normal-recovery">
+<ptxt>点火开关再次 ON</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>C1532</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>ECU 故障</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>ECU 内部故障（外围电路故障）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<ptxt>动力转向 ECU 总成</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="w-indicate">
+<ptxt>EPS 警告灯：点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="normal-recovery">
+<ptxt>点火开关再次 ON</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>C1533</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>温度传感器电路低电位或高电位</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>ECU 内部故障</ptxt>
+<ptxt>（基板温度传感器故障）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<ptxt>动力转向 ECU 总成</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="w-indicate">
+<ptxt>EPS 警告灯：点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="normal-recovery">
+<ptxt>确认正常后</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>C1534</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>EEPROM</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>ECU 内部故障</ptxt>
+<ptxt>（EEPROM 故障）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<ptxt>动力转向 ECU 总成</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="w-indicate">
+<ptxt>EPS 警告灯：点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="normal-recovery">
+<ptxt>点火开关再次 ON</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>C1535</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>ECU 故障</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>ECU 内部故障（方向盘位置数据错误）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<ptxt>动力转向 ECU 总成</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="w-indicate">
+<ptxt>EPS 警告灯：点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="normal-recovery">
+<ptxt>点火开关再次 ON</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DEJ2_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>更换动力转向 ECU 总成后，执行助力图写入和扭矩传感器零点校准。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEIP" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DEJ2_04">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DEJ2_04_0001">
+<testtitle>检查 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEIT" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Chassis &gt; EMPS &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="142"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">142</app-param>
+<app-param name="ecu-name">EMPS</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEIT" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Chassis &gt; EMPS &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="142"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">142</app-param>
+<app-param name="ecu-name">EMPS</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="3.30in"/>
+<colspec colname="col2" colwidth="0.83in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 C1531、C1532、C1533、C1534 或 C1535 以外的 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 C1531、C1532、C1533、C1534 或 C1535 以外的 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>更换动力转向 ECU 总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D81H" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="end" cellposition="2-2">
+<actiontitle>转至诊断故障码表</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEIX" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

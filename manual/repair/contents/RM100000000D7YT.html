@@ -1,0 +1,1066 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_54</span>
+<span class="globalServcatName">制动</span>
+<span class="globalSection">_023990</span>
+<span class="globalSectionName">制动控制/动态控制系统</span>
+<span class="globalTitle">_0116082</span>
+<span class="globalTitleName">车辆稳定性控制系统</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>制动控制/动态控制系统&nbsp;&nbsp;车辆稳定性控制系统&nbsp;&nbsp;C1434&nbsp;&nbsp;转向角传感器输出故障&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D7YT_01" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<p>防滑控制 ECU（制动执行器总成）通过 CAN 通信接收来自转向角传感器的信号。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果转向角传感器和 CAN 通信系统之间的总线出现故障，则输出 DTC U0126（与转向角传感器模块失去通信）。U0126 与 C1434 同时输出时，先检查并维修 U0126 指示的故障部位。
+</p>
+</dd>
+</dl>
+<br>
+<p>如果发生以下任一情况时，则可能存储 DTC：
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向角传感器零点值故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向角传感器信号故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向角传感器信号卡滞故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向角传感器和横摆率传感器值不一致。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向角传感器安装异常。
+</p>
+</div>
+</div>
+</div>
+<br>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:25%">
+<col style="width:39%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">C1434
+</td>
+<td class="alleft">转向角传感器输出故障
+</td>
+<td class="alleft">检测到以下任一条件时：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>转向角传感器存储的零点和估算的零点差值超过 15 度。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>转向角传感器的补偿值为 -13.5 度或更低或 -13.5 度或更高。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>转向角传感器值超过规定值 0.3 秒或更长时间。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>转向角传感器值在 0.02 秒内的变化异常。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">5.</div>
+<div class="list1Body"><p>转向角传感器值变化小于 5 度且左右转向都可以识别。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">6.</div>
+<div class="list1Body"><p>由于异常的转向角传感器值，防滑控制 ECU（制动执行器总成）估算值和转向角传感器值之间存在差异。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>传感器安装
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向角传感器电源
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向角传感器
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>防滑控制 ECU（制动执行器总成）
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000D7YT_02" class="category no03">
+<h2>电路图</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/C270521.png" alt="C270521" title="C270521">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.344,4.177 1.229,4.344</span>
+<span class="captionSize">0.885,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">转向角传感器</span>
+</span>
+<span class="caption">
+<span class="points">0.188,4.021 0.646,4.219</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E62</span>
+</span>
+<span class="caption">
+<span class="points">2.99,3.552 5.156,3.771</span>
+<span class="captionSize">2.167,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">：CAN 通信线路</span>
+</span>
+<span class="caption">
+<span class="points">0.813,0.667 1.26,0.917</span>
+<span class="captionSize">0.448,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">CANL</span>
+</span>
+<span class="caption">
+<span class="points">6.094,0.635 6.708,0.833</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">CANL</span>
+</span>
+<span class="caption">
+<span class="points">0.781,1.26 1.229,1.531</span>
+<span class="captionSize">0.448,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">CANH</span>
+</span>
+<span class="caption">
+<span class="points">6.073,1.198 6.688,1.396</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">CANH</span>
+</span>
+<span class="caption">
+<span class="points">0.885,1.969 1.219,2.25</span>
+<span class="captionSize">0.333,0.281</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">BAT</span>
+</span>
+<span class="caption">
+<span class="points">1.01,2.625 1.208,2.854</span>
+<span class="captionSize">0.198,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG</span>
+</span>
+<span class="caption">
+<span class="points">0.865,3.292 1.24,3.521</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ESS</span>
+</span>
+<span class="caption">
+<span class="points">1.292,0.51 1.448,0.708</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">1.302,1.094 1.458,1.292</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">1.313,1.833 1.469,2.031</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5</span>
+</span>
+<span class="caption">
+<span class="points">1.313,2.531 1.469,2.729</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4</span>
+</span>
+<span class="caption">
+<span class="points">1.313,3.198 1.469,3.396</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">5.76,0.51 6.073,0.708</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">14</span>
+</span>
+<span class="caption">
+<span class="points">5.781,1.094 6.094,1.292</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">26</span>
+</span>
+<span class="caption">
+<span class="points">2.083,2.104 3.25,2.333</span>
+<span class="captionSize">1.167,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1 号 ECU-B</span>
+</span>
+<span class="caption">
+<span class="points">2.188,1.854 2.344,2.073</span>
+<span class="captionSize">0.156,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">2.615,1.854 2.771,2.052</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">2.021,2.802 3.083,3.052</span>
+<span class="captionSize">1.063,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1 号 ECU-IG</span>
+</span>
+<span class="caption">
+<span class="points">5.719,4.115 7.01,4.417</span>
+<span class="captionSize">1.292,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">防滑控制 ECU（制动 执行器总成）</span>
+</span>
+<span class="caption">
+<span class="points">5.542,3.917 6,4.115</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A42</span>
+</span>
+<span class="caption">
+<span class="points">3.917,2.625 5.25,2.792</span>
+<span class="captionSize">1.333,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">自 1 号 IG1 继电器</span>
+</span>
+<span class="caption">
+<span class="points">2.208,2.49 2.365,2.708</span>
+<span class="captionSize">0.156,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">2.615,2.49 2.771,2.688</span>
+<span class="captionSize">0.156,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">3.917,1.938 4.583,2.104</span>
+<span class="captionSize">0.667,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">自蓄电池</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000D7YT_03" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>进行下列程序前，先检查与此系统相关电路的保险丝。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>U0073、U0123 和/或 U0126 与 C1434 同时输出时，先检查并维修 U0073、U0123 和/或 U0126 指示的故障部位。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;U0073<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7ZJ_10_0001,U0073</span></a>
+
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转速传感器或横摆率和加速度传感器（空气囊 ECU 总成）有故障时，即使转向角传感器正常，也可能存储转向角传感器 DTC。转速传感器或横摆率和加速度传感器（空气囊 ECU 总成）DTC 和转向角传感器 DTC 同时输出时，首先检查并维修转速传感器或横摆率和加速度传感器（空气囊 ECU 总成），然后检查并维修转向角传感器。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000D7YT_06" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000D7YT_06_0001">
+<div class="testtitle"><span class="titleText">1.检查 DTC</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7YE,</span></a>
+
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>再次将点火开关置于 ON 位置，检查并确认未输出 CAN 通信系统 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;诊断系统<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UU,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>以 50 km/h (31 mph) 的速度驾驶车辆并左右转动方向盘，然后检查并确认未输出转速传感器或横摆率和加速度传感器（空气囊 ECU 总成）DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7YE,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7YT_06_0001_1" summary="">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">未输出 CAN 通信系统、转速传感器或横摆率和加速度传感器（空气囊 ECU 总成）DTC。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">输出 CAN 通信系统 DTC。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+<tr>
+<td class="alleft">输出转速传感器和/或横摆率和加速度传感器（空气囊 ECU 总成）DTC。
+</td>
+<td class="alcenter">C
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果转速传感器或横摆率和加速度传感器（空气囊 ECU 总成）有故障，则即使转向角传感器正常，也可能存储转向角传感器 DTC。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果同时输出转速传感器以及横摆率和加速度传感器（空气囊 ECU 总成）DTC，则维修这些故障，然后检查转向角传感器。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.检查转向角传感器的安装情况</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">检查 CAN 通信系统</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;如何进行故障排除<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UM,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>C
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修输出 DTC 指示的电路</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;诊断故障码表<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7ZS,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7YT_06_0002">
+<div class="testtitle"><span class="titleText">2.检查转向角传感器的安装情况</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>检查并确认转向角传感器已正确安装。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;转向角传感器&gt;安装<span class="invisible">201406,999999,_54,_023990,_0116366,RM100000000D9ER,</span></a>
+
+</p>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>转向角传感器的安装情况正常。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7YT_06_0002_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">3.检查线束和连接器（电源端子）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">正确安装转向角传感器</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;转向角传感器&gt;安装<span class="invisible">201406,999999,_54,_023990,_0116366,RM100000000D9ER,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7YT_06_0003">
+<div class="testtitle"><span class="titleText">3.检查线束和连接器（电源端子）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C156493.png" alt="C156493" title="C156493">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.323,1.063 0.792,1.365</span>
+<span class="rectangleSize">0.469,0.302</span>
+</span>
+<span class="line">
+<span class="points">2.146,2.688 2.583,3.104</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.917,2.563 2.583,2.146</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.26,0.24 0.49,0.427</span>
+<span class="captionSize">0.229,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.448,1.125 0.74,1.313</span>
+<span class="captionSize">0.292,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E62</span>
+</span>
+<span class="caption">
+<span class="points">2.563,1.958 2.854,2.146</span>
+<span class="captionSize">0.292,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG</span>
+</span>
+<span class="caption">
+<span class="points">2.479,3.125 2.771,3.313</span>
+<span class="captionSize">0.292,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">BAT</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>线束连接器前视图
+<br>
+（至转向角传感器）
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>拆下方向盘和转向柱罩。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>确保连接器的锁止件和连接部件没有松动。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>断开转向角传感器连接器 E62。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E62-5 (BAT) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">E62-4 (IG) - 车身接地
+</td>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7YT_06_0003_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">4.检查线束和连接器（接地端子）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器（电源电路）</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7YT_06_0009">
+<div class="testtitle"><span class="titleText">4.检查线束和连接器（接地端子）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C156493.png" alt="C156493" title="C156493">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.302,1.146 0.771,1.448</span>
+<span class="rectangleSize">0.469,0.302</span>
+</span>
+<span class="line">
+<span class="points">1.281,2.677 0.792,3.063</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.281,0.208 0.479,0.406</span>
+<span class="captionSize">0.198,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.438,1.208 0.729,1.396</span>
+<span class="captionSize">0.292,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E62</span>
+</span>
+<span class="caption">
+<span class="points">0.656,3.104 1.021,3.292</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ESS</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>线束连接器前视图
+<br>
+（至转向角传感器）
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>测量转向角传感器电阻前，将点火开关置于 OFF 位置，在不操作钥匙或开关，或打开或关闭车门的情况下使车辆静置 1 分钟或更长时间。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E62-1 (ESS) - 车身接地
+</td>
+<td class="alcenter">将点火开关置于 OFF 位置 1 分钟后
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果根据故障症状表已进行了故障排除，则在更换零件前请再次参考该表并转至下一步。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;故障症状表<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7ZC,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7YT_06_0009_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>正常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换转向角传感器</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;转向角传感器&gt;拆卸<span class="invisible">201406,999999,_54,_023990,_0116366,RM100000000D9EQ,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器（接地电路）</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

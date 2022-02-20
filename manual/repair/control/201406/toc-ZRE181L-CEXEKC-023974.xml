@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="RM3140CG"><servcat id="_57"><name>电源/网络</name><section id="_023974">
+<name>4ZR-FE 蓄电池/充电系统</name>
+<ttl id="_0116651">
+<name>充电系统</name><para category="C" dtccode="P0516" id="RM100000000EZFZ" term-id-from="001"><dtccode>
+<name>P0516</name>
+<subpara id="RM100000000EZFZ_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000EZFZ_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0517" id="RM100000000EZFZ" term-id-from="001"><dtccode>
+<name>P0517</name>
+<subpara id="RM100000000EZFZ_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000EZFZ_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P1550" id="RM100000000EZG0" term-id-from="001"><dtccode>
+<name>P1550</name>
+<subpara id="RM100000000EZG0_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000EZG0_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P1551" id="RM100000000EZG0" term-id-from="001"><dtccode>
+<name>P1551</name>
+<subpara id="RM100000000EZG0_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000EZG0_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P1552" id="RM100000000EZG0" term-id-from="001"><dtccode>
+<name>P1552</name>
+<subpara id="RM100000000EZG0_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000EZG0_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P1602" id="RM100000000EZG1" term-id-from="001"><dtccode>
+<name>P1602</name>
+<subpara id="RM100000000EZG1_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000EZG1_04">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P161A" id="RM100000000EZG2" term-id-from="001"><dtccode>
+<name>P161A</name>
+<subpara id="RM100000000EZG2_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000EZG2_04">
+<name>电路图</name>
+</subpara>
+</dtccode></para>
+<para category="L" id="RM100000000DAV8" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="R" id="RM100000000DAUX" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000DAV5" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="Y" id="RM100000000EZFR" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="T" id="RM100000000EZFS" term-id-from="001">
+<name>故障症状表</name>
+</para>
+<para category="U" id="RM100000000EZFT" term-id-from="001">
+<name>ECM 端子</name>
+</para>
+<para category="D" id="RM100000000EZFU" term-id-from="001">
+<name>诊断系统</name>
+</para>
+<para category="D" id="RM100000000EZFV" term-id-from="001">
+<name>DTC 检查/清除</name>
+</para>
+<para category="U" id="RM100000000EZFW" term-id-from="001">
+<name>失效保护表</name>
+</para>
+<para category="U" id="RM100000000EZFX" term-id-from="001">
+<name>数据表/主动测试</name>
+</para>
+<para category="S" id="RM100000000EZFY" term-id-from="001">
+<name>诊断故障码表</name>
+</para>
+<para category="G" id="RM100000000DAV9" term-id-from="001">
+<name>车上检查</name>
+</para>
+
+
+
+
+<para category="J" id="RM100000000DAVA" term-id-from="001">
+<name>充电失败</name>
+</para>
+<para category="J" id="RM100000000DAVB" term-id-from="001">
+<name>多楔带或发电机总成发出噪音</name>
+</para>
+</ttl>
+<ttl id="_0128081">
+<name>发电机</name>
+<para category="K" id="RM100000000ENRF" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000ENRG" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000ENRH" term-id-from="001">
+<name>拆解</name>
+</para>
+<para category="G" id="RM100000000ENRI" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000ENRJ" term-id-from="001">
+<name>重新装配</name>
+</para>
+<para category="A" id="RM100000000ENRK" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116653">
+<name>蓄电池电流传感器</name>
+<para category="K" id="RM100000000DAVK" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DAVL" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DAVM" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DAVJ" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS115" code="B38,C1" type="conn" figID="7">
+    <name>蓄电池</name>
+  </text>
+  <text ewd="SYS115" code="E47,E49" type="conn" figID="3">
+    <name>认证 ECU</name>
+  </text>
+  <text ewd="SYS115" code="E50" type="conn" figID="4">
+    <name>发动机开关</name>
+  </text>
+  <text ewd="SYS115" code="E9" type="conn" figID="2">
+    <name>点火或起动开关总成</name>
+  </text>
+  <text ewd="SYS115" code="E16" type="conn" figID="1">
+    <name>风挡玻璃刮水器开关总成</name>
+  </text>
+  <text ewd="SYS115" code="FUSE55" type="fuse" figID="110">
+    <name>10A DOOR BACK</name>
+  </text>
+  <text ewd="SYS115" code="FUSE4" type="fuse" figID="97">
+    <name>10A DRL</name>
+  </text>
+  <text ewd="SYS115" code="FUSE5" type="fuse" figID="94">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS115" code="FUSE6" type="fuse" figID="74">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS115" code="FUSE7" type="fuse" figID="88">
+    <name>10A EFI NO.1</name>
+  </text>
+  <text ewd="SYS115" code="FUSE8" type="fuse" figID="87">
+    <name>10A EFI NO.2</name>
+  </text>
+  <text ewd="SYS115" code="FUSE9" type="fuse" figID="73">
+    <name>10A ETCS</name>
+  </text>
+  <text ewd="SYS115" code="FUSE10" type="fuse" figID="92">
+    <name>10A H-LP LH-HI</name>
+  </text>
+  <text ewd="SYS115" code="FUSE11" type="fuse" figID="89">
+    <name>10A H-LP LH-LO</name>
+  </text>
+  <text ewd="SYS115" code="FUSE12" type="fuse" figID="93">
+    <name>10A H-LP RH-HI</name>
+  </text>
+  <text ewd="SYS115" code="FUSE13" type="fuse" figID="90">
+    <name>10A H-LP RH-LO</name>
+  </text>
+  <text ewd="SYS115" code="FUSE14" type="fuse" figID="77">
+    <name>10A HORN</name>
+  </text>
+  <text ewd="SYS115" code="FUSE15" type="fuse" figID="103">
+    <name>10A MIR HTR</name>
+  </text>
+  <text ewd="SYS115" code="FUSE16" type="fuse" figID="96">
+    <name>10A S-HORN</name>
+  </text>
+  <text ewd="SYS115" code="FUSE56" type="fuse" figID="136">
+    <name>10A TAIL</name>
+  </text>
+  <text ewd="SYS115" code="FUSE17" type="fuse" figID="76">
+    <name>10A TURN&amp;HAZ</name>
+  </text>
+  <text ewd="SYS115" code="FUSE36" type="fuse" figID="86">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS115" code="FUSE57" type="fuse" figID="121">
+    <name>15A CIG</name>
+  </text>
+  <text ewd="SYS115" code="FUSE18" type="fuse" figID="83">
+    <name>15A EFI-B</name>
+  </text>
+  <text ewd="SYS115" code="FUSE19" type="fuse" figID="78">
+    <name>15A IG2</name>
+  </text>
+  <text ewd="SYS115" code="FUSE58" type="fuse" figID="123">
+    <name>15A SEAT HTR</name>
+  </text>
+  <text ewd="SYS115" code="FUSE59" type="fuse" figID="129">
+    <name>15A WASHER</name>
+  </text>
+  <text ewd="SYS115" code="FUSE60" type="fuse" figID="118">
+    <name>20A D/L NO.2</name>
+  </text>
+  <text ewd="SYS115" code="FUSE61" type="fuse" figID="124">
+    <name>20A FR DOOR</name>
+  </text>
+  <text ewd="SYS115" code="FUSE20" type="fuse" figID="91">
+    <name>20A RADIO</name>
+  </text>
+  <text ewd="SYS115" code="FUSE62" type="fuse" figID="125">
+    <name>20A RL DOOR</name>
+  </text>
+  <text ewd="SYS115" code="FUSE63" type="fuse" figID="122">
+    <name>20A RR DOOR</name>
+  </text>
+  <text ewd="SYS115" code="FUSE64" type="fuse" figID="115">
+    <name>20A S/ROOF</name>
+  </text>
+  <text ewd="SYS115" code="FUSE21" type="fuse" figID="75">
+    <name>20A STRG LOCK</name>
+  </text>
+  <text ewd="SYS115" code="FUSE22" type="fuse" figID="84">
+    <name>25A EFI-MAIN</name>
+  </text>
+  <text ewd="SYS115" code="FUSE65" type="fuse" figID="130">
+    <name>25A WIP FR</name>
+  </text>
+  <text ewd="SYS115" code="FUSE23" type="fuse" figID="99">
+    <name>30A ABS NO.2</name>
+  </text>
+  <text ewd="SYS115" code="FUSE24" type="fuse" figID="85">
+    <name>30A D/C CUT</name>
+  </text>
+  <text ewd="SYS115" code="FUSE67" type="fuse" figID="126">
+    <name>30A POWER</name>
+  </text>
+  <text ewd="SYS115" code="FUSE66" type="fuse" figID="114">
+    <name>30A P-SEAT</name>
+  </text>
+  <text ewd="SYS115" code="FUSE25" type="fuse" figID="106">
+    <name>30A PTC HTR NO.1</name>
+  </text>
+  <text ewd="SYS115" code="FUSE26" type="fuse" figID="105">
+    <name>30A PTC HTR NO.2</name>
+  </text>
+  <text ewd="SYS115" code="FUSE27" type="fuse" figID="104">
+    <name>30A PTC HTR NO.3</name>
+  </text>
+  <text ewd="SYS115" code="FUSE28" type="fuse" figID="82">
+    <name>30A ST</name>
+  </text>
+  <text ewd="SYS115" code="FUSE29" type="fuse" figID="81">
+    <name>40A H-LP-MAIN</name>
+  </text>
+  <text ewd="SYS115" code="FUSE30" type="fuse" figID="100">
+    <name>40A RDI</name>
+  </text>
+  <text ewd="SYS115" code="FUSE31" type="fuse" figID="101">
+    <name>50A ABS NO.1</name>
+  </text>
+  <text ewd="SYS115" code="FUSE32" type="fuse" figID="98">
+    <name>50A DEF</name>
+  </text>
+  <text ewd="SYS115" code="FUSE33" type="fuse" figID="102">
+    <name>50A HTR</name>
+  </text>
+  <text ewd="SYS115" code="FUSE37" type="fuse" figID="113">
+    <name>5A AM1</name>
+  </text>
+  <text ewd="SYS115" code="FUSE1" type="fuse" figID="80">
+    <name>5A ECU-B NO.3</name>
+  </text>
+  <text ewd="SYS115" code="FUSE38" type="fuse" figID="128">
+    <name>5A ECU-IG NO.5</name>
+  </text>
+  <text ewd="SYS115" code="FUSE39" type="fuse" figID="108">
+    <name>5A MET</name>
+  </text>
+  <text ewd="SYS115" code="FUSE40" type="fuse" figID="119">
+    <name>5A SFT LOCK-ACC</name>
+  </text>
+  <text ewd="SYS115" code="FUSE41" type="fuse" figID="131">
+    <name>5A WIP-S</name>
+  </text>
+  <text ewd="SYS115" code="FUSE34,FUSE35" type="fuse" figID="72">
+    <name>60A EPS,80A EPS</name>
+  </text>
+  <text ewd="SYS115" code="FUSE42" type="fuse" figID="107">
+    <name>7.5A A/B</name>
+  </text>
+  <text ewd="SYS115" code="FUSE43" type="fuse" figID="120">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS115" code="FUSE2" type="fuse" figID="79">
+    <name>7.5A AM2</name>
+  </text>
+  <text ewd="SYS115" code="FUSE3" type="fuse" figID="95">
+    <name>7.5A DOME</name>
+  </text>
+  <text ewd="SYS115" code="FUSE44" type="fuse" figID="133">
+    <name>7.5A ECU-IG NO.1</name>
+  </text>
+  <text ewd="SYS115" code="FUSE45" type="fuse" figID="132">
+    <name>7.5A ECU-IG NO.2</name>
+  </text>
+  <text ewd="SYS115" code="FUSE46" type="fuse" figID="134">
+    <name>7.5A ECU-IG NO.3</name>
+  </text>
+  <text ewd="SYS115" code="FUSE47" type="fuse" figID="127">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS115" code="FUSE48" type="fuse" figID="112">
+    <name>7.5A FR FOG</name>
+  </text>
+  <text ewd="SYS115" code="FUSE49" type="fuse" figID="135">
+    <name>7.5A HTR-IG</name>
+  </text>
+  <text ewd="SYS115" code="FUSE50" type="fuse" figID="109">
+    <name>7.5A IGN</name>
+  </text>
+  <text ewd="SYS115" code="FUSE51" type="fuse" figID="117">
+    <name>7.5A OBD</name>
+  </text>
+  <text ewd="SYS115" code="FUSE52" type="fuse" figID="137">
+    <name>7.5A PANEL</name>
+  </text>
+  <text ewd="SYS115" code="FUSE53" type="fuse" figID="111">
+    <name>7.5A RR FOG</name>
+  </text>
+  <text ewd="SYS115" code="FUSE54" type="fuse" figID="116">
+    <name>7.5A STOP</name>
+  </text>
+  <text ewd="SYS115" code="AB" type="gp" figID="68">
+    <name />
+  </text>
+  <text ewd="SYS115" code="CA" type="gp" figID="67">
+    <name />
+  </text>
+  <text ewd="SYS115" code="CB" type="gp" figID="66">
+    <name />
+  </text>
+  <text ewd="SYS115" code="EA" type="gp" figID="69">
+    <name />
+  </text>
+  <text ewd="SYS115" code="1" type="jb" figID="58,59,61,62">
+    <name />
+  </text>
+  <text ewd="SYS115" code="3" type="jb" figID="60,63">
+    <name />
+  </text>
+  <text ewd="SYS115" code="1" type="rb" figID="17,19,21,27,44">
+    <name />
+  </text>
+  <text ewd="SYS115" code="FUSE4" type="rb" figID="42">
+    <name>10A DRL</name>
+  </text>
+  <text ewd="SYS115" code="FUSE5" type="rb" figID="32">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS115" code="FUSE6" type="rb" figID="15">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS115" code="FUSE7" type="rb" figID="23">
+    <name>10A EFI NO.1</name>
+  </text>
+  <text ewd="SYS115" code="FUSE8" type="rb" figID="25">
+    <name>10A EFI NO.2</name>
+  </text>
+  <text ewd="SYS115" code="FUSE9" type="rb" figID="16">
+    <name>10A ETCS</name>
+  </text>
+  <text ewd="SYS115" code="FUSE10" type="rb" figID="5">
+    <name>10A H-LP LH-HI</name>
+  </text>
+  <text ewd="SYS115" code="FUSE11" type="rb" figID="9">
+    <name>10A H-LP LH-LO</name>
+  </text>
+  <text ewd="SYS115" code="FUSE12" type="rb" figID="10">
+    <name>10A H-LP RH-HI</name>
+  </text>
+  <text ewd="SYS115" code="FUSE13" type="rb" figID="29">
+    <name>10A H-LP RH-LO</name>
+  </text>
+  <text ewd="SYS115" code="FUSE14" type="rb" figID="8">
+    <name>10A HORN</name>
+  </text>
+  <text ewd="SYS115" code="FUSE15" type="rb" figID="36">
+    <name>10A MIR HTR</name>
+  </text>
+  <text ewd="SYS115" code="FUSE16" type="rb" figID="43">
+    <name>10A S-HORN</name>
+  </text>
+  <text ewd="SYS115" code="FUSE17" type="rb" figID="11">
+    <name>10A TURN&amp;HAZ</name>
+  </text>
+  <text ewd="SYS115" code="FUSE36" type="rb" figID="20">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS115" code="FUSE18" type="rb" figID="26">
+    <name>15A EFI-B</name>
+  </text>
+  <text ewd="SYS115" code="FUSE19" type="rb" figID="39">
+    <name>15A IG2</name>
+  </text>
+  <text ewd="SYS115" code="FUSE20" type="rb" figID="12">
+    <name>20A RADIO</name>
+  </text>
+  <text ewd="SYS115" code="FUSE21" type="rb" figID="13">
+    <name>20A STRG LOCK</name>
+  </text>
+  <text ewd="SYS115" code="FUSE22" type="rb" figID="24">
+    <name>25A EFI-MAIN</name>
+  </text>
+  <text ewd="SYS115" code="FUSE23" type="rb" figID="40">
+    <name>30A ABS NO.2</name>
+  </text>
+  <text ewd="SYS115" code="FUSE24" type="rb" figID="22">
+    <name>30A D/C CUT</name>
+  </text>
+  <text ewd="SYS115" code="FUSE25" type="rb" figID="45">
+    <name>30A PTC HTR NO.1</name>
+  </text>
+  <text ewd="SYS115" code="FUSE26" type="rb" figID="30">
+    <name>30A PTC HTR NO.2</name>
+  </text>
+  <text ewd="SYS115" code="FUSE27" type="rb" figID="33">
+    <name>30A PTC HTR NO.3</name>
+  </text>
+  <text ewd="SYS115" code="FUSE28" type="rb" figID="28">
+    <name>30A ST</name>
+  </text>
+  <text ewd="SYS115" code="FUSE29" type="rb" figID="31">
+    <name>40A H-LP-MAIN</name>
+  </text>
+  <text ewd="SYS115" code="FUSE30" type="rb" figID="14">
+    <name>40A RDI</name>
+  </text>
+  <text ewd="SYS115" code="FUSE31" type="rb" figID="38">
+    <name>50A ABS NO.1</name>
+  </text>
+  <text ewd="SYS115" code="FUSE32" type="rb" figID="41">
+    <name>50A DEF</name>
+  </text>
+  <text ewd="SYS115" code="FUSE33" type="rb" figID="35">
+    <name>50A HTR</name>
+  </text>
+  <text ewd="SYS115" code="FUSE1" type="rb" figID="34">
+    <name>5A ECU-B NO.3</name>
+  </text>
+  <text ewd="SYS115" code="FUSE34,FUSE35" type="rb" figID="18">
+    <name>60A EPS,80A EPS</name>
+  </text>
+  <text ewd="SYS115" code="FUSE2" type="rb" figID="37">
+    <name>7.5A AM2</name>
+  </text>
+  <text ewd="SYS115" code="FUSE3" type="rb" figID="6">
+    <name>7.5A DOME</name>
+  </text>
+  <text ewd="SYS115" code="SP3" type="sp" figID="70">
+    <name />
+  </text>
+  <text ewd="SYS115" code="SP5" type="sp" figID="71">
+    <name />
+  </text>
+  <text ewd="SYS115" code="AE3" type="w2w" figID="64,65">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+</EwdTree>

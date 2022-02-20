@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'NSimSun';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st11 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st12 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st19 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st20 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED
+		ewd:horAlign CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 2397.308 710.000" viewBox="0 0 2405.104 710.000" height="710.000" width="2405.104" xml:space="preserve" ewd:ver="2.1.2.6F" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  541.8  499.5 )">R</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  599.7  317.84 )">R</text><path style="stroke-width: 1.42 ;&st7;  " d=" M   955.37,   443.71  L   960.34,   438.74  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   897.32,   358.73  L   892.35,   363.70  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   943.34,   438.74  L   948.31,   443.71  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   909.35,   363.70  L   904.38,   358.73  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   892.35,   370.75  L   897.32,   375.72  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   904.38,   375.72  L   909.35,   370.75  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   948.31,   426.71  L   943.34,   431.69  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   960.34,   431.69  L   955.37,   426.71  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  812.17  351.84 )">R</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  863.16  352.19 )">G</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  948.15  472.76 )">BR</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  948.15  396.27 )">BR</text><g ewd:figtype="conn" ewd:figID="12" ewd:code="A40,B39"><path style="stroke-width: 1.42 ;&st7;  " d=" M   586.40,   197.25  L   586.40,   256.74  L  1325.78,   256.74  L  1325.78,   197.25  L   586.40,   197.25  " /><g ewd:lineID="10"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  851.96  263.24 )">113</text><path style="stroke-width: 1.42 ;&st7;   " d=" M   871.39,   261.27  C   871.39    258.77    869.36    256.74    866.86    256.74  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   866.86,   256.74  C   864.35    256.74    862.32    258.77    862.32    261.27  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   862.32,   261.27  C   862.32    263.78    864.35    265.81    866.86    265.81  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   866.86,   265.81  C   869.36    265.81    871.39    263.78    871.39    261.27  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  864.67  263.24 )">B</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  861.14  253.05 )">NE-</text></g><g ewd:lineID="8"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  591.6  263.24 )">60</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  601.09  263.24 )">A</text><path style="stroke-width: 1.42 ;&st7;   " d=" M   607.93,   261.27  C   607.93    258.77    605.90    256.74    603.40    256.74  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   603.40,   256.74  C   600.90    256.74    598.87    258.77    598.87    261.27  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   598.87,   261.27  C   598.87    263.78    600.90    265.81    603.40    265.81  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   603.40,   265.81  C   605.90    265.81    607.93    263.78    607.93    261.27  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  597.26  253.05 )">RFC</text></g><g ewd:lineID="9"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  800.97  263.24 )">114</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  813.68  263.24 )">B</text><path style="stroke-width: 1.42 ;&st7;   " d=" M   820.40,   261.27  C   820.40    258.77    818.37    256.74    815.86    256.74  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   815.86,   256.74  C   813.36    256.74    811.33    258.77    811.33    261.27  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   811.33,   261.27  C   811.33    263.78    813.36    265.81    815.86    265.81  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   815.86,   265.81  C   818.37    265.81    820.40    263.78    820.40    261.27  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  810.15  253.05 )">NE+</text></g><g ewd:figtype="title"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  582.99  186.73 )">A40(A),B39(B)</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  583.0  193.56 )">ECM</text></g></g><g ewd:figtype="conn" ewd:figID="14" ewd:code="B16"><path style="stroke-width: 1.42 ;&st7;  " d=" M   858.36,   409.72  L   858.36,   418.22  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   875.35,   409.72  L   875.35,   418.22  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   858.36,   426.71  L   858.36,   418.22  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   875.35,   426.71  L   875.35,   418.22  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M   866.86,   426.71  L   866.86,   435.21  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M   866.86,   401.22  L   866.86,   409.72  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   875.35,   409.72  C   875.35    405.02    871.55    401.22    866.86    401.22  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   866.86,   401.22  C   862.16    401.22    858.36    405.02    858.36    409.72  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   858.36,   426.71  C   858.36    431.41    862.16    435.21    866.86    435.21  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   866.86,   435.21  C   871.55    435.21    875.35    431.41    875.35    426.71  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M   866.86,   426.71  C   868.81    426.71    870.40    425.13    870.40    423.17  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M   870.40,   423.17  C   870.40    421.22    868.81    419.63    866.86    419.63  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M   866.86,   419.63  C   865.86    419.63    865.02    419.99    864.33    420.69  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M   864.33,   420.69  C   865.69    422.09    867.94    422.11    869.33    420.75  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M   869.33,   420.75  C   870.73    419.38    870.75    417.13    869.38    415.74  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M   869.38,   415.74  C   868.02    414.34    865.77    414.32    864.38    415.69  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M   864.38,   415.69  C   864.36    415.70    864.34    415.72    864.33    415.74  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M   864.33,   415.74  C   865.69    417.13    867.94    417.16    869.33    415.79  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M   869.33,   415.79  C   870.73    414.42    870.75    412.18    869.38    410.78  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M   869.38,   410.78  C   868.69    410.07    867.85    409.72    866.86    409.72  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  860.67  397.53 )">2</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  860.67  443.41 )">1</text><g ewd:figtype="title"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  877.61  418.77 )" ewd:textID="13">曲轴位置传感器<tspan x="0 " dy="6.0" /></text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  877.61  411.66 )">B16</text></g></g><g ewd:figtype="gp" ewd:figID="27" ewd:code="BA"><path style="stroke-width: 0.85 ;&st7;  " d=" M   951.84,   697.25  L   951.84,   701.50  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M   943.34,   701.50  L   960.34,   701.50  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M   949.01,   707.17  L   954.67,   707.17  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M   947.59,   704.33  L   956.09,   704.33  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M   950.42,   710.00  L   953.26,   710.00  " /></g><g ewd:code=" " ewd:figID="38" ewd:comment=" " ewd:figtype="sh"><path style="stroke-width: 0.85 ;&st7; stroke-dasharray:3, 1.5;" d=" M   900.85,   358.73  L   900.85,   333.23  L   790.37,   333.23  L   790.37,   367.22  L   892.35,   367.22  " /><g ewd:code="" ewd:figID="37" ewd:comment=" " ewd:figtype="commref"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  786.67  362.46 )" ewd:textID="1">（屏蔽）</text></g></g></svg>

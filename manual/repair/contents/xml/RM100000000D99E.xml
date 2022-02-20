@@ -1,0 +1,4290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024005">
+<name>防盗/无钥匙上车系统</name>
+<ttl id="_0116338">
+<name>智能进入和起动系统（起动功能）</name>
+<para category="J" id="RM100000000D99E">
+<dtccode/>
+<dtcname>发动机不起动</dtcname>
+<subpara category="03" id="RM100000000D99E_01">
+<name>描述</name>
+<content5>
+<ptxt>钥匙在车内且按下发动机开关时，认证 ECU（智能钥匙 ECU 总成）接收信号并切换电源模式。此外，换档杆置于 P*1 且踩下制动踏板*1 或离合器踏板*2 时，通过按下发动机开关能够起动发动机。</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>*1：除手动传动桥外</ptxt>
+</item>
+<item>
+<ptxt>*2：手动传动桥</ptxt>
+</item>
+</list1>
+<table pgwide="1">
+<title>相关数据表和主动测试项目</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COLSPEC0" colwidth="2.36in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>故障症状</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>数据表项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>主动测试项目</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>发动机不起动</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<title>电源控制</title>
+<item>
+<ptxt>Stop Light Switch1</ptxt>
+</item>
+<item>
+<ptxt>Steering Unlock Switch</ptxt>
+</item>
+<item>
+<ptxt>Power Supply Condition</ptxt>
+</item>
+<item>
+<ptxt>IG1 Relay Monitor(Inside)</ptxt>
+</item>
+<item>
+<ptxt>IG2 Relay Monitor(Inside)</ptxt>
+</item>
+<item>
+<ptxt>IG1 Relay Monitor(Outside)</ptxt>
+</item>
+<item>
+<ptxt>IG2 Relay Monitor(Outside)</ptxt>
+</item>
+<item>
+<ptxt>Latch Circuit</ptxt>
+</item>
+<item>
+<ptxt>Shift P Signal</ptxt>
+</item>
+<item>
+<ptxt>Neutral SW/ Clutch SW</ptxt>
+</item>
+<item>
+<ptxt>Starter Request Signal</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<title>上车和起动</title>
+<item>
+<ptxt>S Code Check</ptxt>
+</item>
+<item>
+<ptxt>L Code Check</ptxt>
+</item>
+<item>
+<ptxt>Engine Start Request</ptxt>
+</item>
+<item>
+<ptxt>Immobiliser</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<title>起动控制</title>
+<item>
+<ptxt>Ignition</ptxt>
+</item>
+<item>
+<ptxt>Starter SW</ptxt>
+</item>
+<item>
+<ptxt>Shift Position P or N</ptxt>
+</item>
+</list1>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>如果发动机停机期间反复踩下制动踏板，则制动助力器压力将释放，且踩下制动踏板以点亮刹车灯所需的力增加。</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D99E_02">
+<name>电路图</name>
+<content5>
+<ptxt>单击此处 <mlink><xref href="RM100000000D99A" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D99E_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>发动机开关置于 OFF 位置的情况下使用 GTS 时，将 GTS 连接至 DLC3 并以 1.5 秒或更短的间隔打开并关闭门控灯开关，直至 GTS 和车辆之间开始通信。然后在手动模式下选择车型代码“KEY REGIST”并进入以下菜单：Body Electrical / Entry&amp;Start(CAN)。使用 GTS 时，以 1.5 秒或更短的间隔间歇打开并关闭门控灯开关，以保持 GTS 和车辆间的通信。</ptxt>
+</item>
+<item>
+<ptxt>智能进入和起动系统（起动功能）使用 LIN 通信系统和 CAN 通信系统。根据“如何进行故障排除”检查通信功能。确认通信系统工作正常后，对智能进入和起动系统（起动功能）进行故障排除。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D990" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>如果通过定制功能禁用智能进入和起动系统，则进行故障排除前激活该系统。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D998" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>更换认证 ECU（智能钥匙 ECU 总成）、ID 代码箱（停机系统代码 ECU）或转向锁 ECU（转向锁执行器总成）前，请参考智能进入和起动系统（起动功能）的注意事项。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D98R" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>进行下列程序前，先检查与此系统相关电路的保险丝。</ptxt>
+</item>
+<item>
+<ptxt>如果更换转向锁 ECU（转向锁执行器总成），则务必在起动发动机前通过左右转动方向盘使转向开锁。如果由于任何原因转向锁止，则在发动机开关置于 OFF 位置时打开和关闭车门，然后通过按下发动机开关使转向开锁。这样可防止转向锁止时发动机起动。</ptxt>
+</item>
+<item>
+<ptxt>完成维修后，确认故障未出现。</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>用新的认证 ECU（智能钥匙 ECU 总成）更换并连接蓄电池负极 (-) 端子电缆时，电源模式切换为 ON (IG)。</ptxt>
+</item>
+<item>
+<ptxt>断开并重新连接蓄电池电缆后，电源模式将恢复至断开蓄电池电缆前的模式。</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D99E_41">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D99E_41_0051">
+<testtitle>检查蓄电池</testtitle>
+<content6>
+<test1>
+<ptxt>测量蓄电池电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<specitem>
+<ptxt>11 至 14 V</ptxt>
+</specitem>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>可通过操作喇叭判断车辆蓄电池电量是否耗尽。</ptxt>
+</item>
+<item>
+<ptxt>如果蓄电池电压低于 11 V，则对蓄电池再充电或更换蓄电池。</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D99E_41_0052"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D99E_41_0052">
+<testtitle>检查 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>使用 GTS，确认所有系统的 DTC 输出。</ptxt>
+<atten3>
+<ptxt>确保未输出 DTC。如果输出任何 DTC，则转至诊断故障码表。</ptxt>
+</atten3>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>未输出 DTC。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D99E_41_0054"/>
+</result>
+<result cellposition="2-3" label="2">
+<action actiontype="end" cellposition="3-3">
+<actiontitle>转至 DTC 表</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D99E_41_0054">
+<testtitle>检查波环境</testtitle>
+<content6>
+<test1>
+<ptxt>如果故障在某些位置或时间出现，则波干扰的可能性很大。</ptxt>
+<atten4>
+<ptxt>手持电子钥匙发射器分总成接近带接收器的车门控制 ECU 总成（RF 波段）来检查故障是否由波干扰引起。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>发动机起动。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="end" cellposition="4-1">
+<actiontitle>受波干扰影响</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="3-2" label="2">
+<action actiontype="next" cellposition="4-2" childid="RM100000000D99E_41_0055"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-2" id="RM100000000D99E_41_0055">
+<testtitle>检查发动机开关状态</testtitle>
+<content6>
+<test1>
+<ptxt>携带电子钥匙发射器分总成进入车辆。</ptxt>
+</test1>
+<test1>
+<ptxt>将换档杆移至 P。*1</ptxt>
+</test1>
+<test1>
+<ptxt>松开制动踏板时，检查并确认按下发动机开关导致电源模式切换。*1</ptxt>
+</test1>
+<test1>
+<ptxt>松开离合器踏板时，检查并确认按下发动机开关导致电源模式切换。*2</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>*1：除手动传动桥外</ptxt>
+</item>
+<item>
+<ptxt>*2：手动传动桥</ptxt>
+</item>
+</list1>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>电源模式切换：OFF → ON (ACC) → ON (IG) → OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>电源模式不能切换至 ON (ACC) 或 ON (IG)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>电源模式切换至 ON (IG)，但不切换至 ON (ACC)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>电源模式切换至 ON (ACC)，但不切换至 ON (IG)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="4">
+<ptxt>D</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-2" label="1">
+<action actiontype="next" cellposition="5-2" childid="RM100000000D99E_41_0130"/>
+</result>
+<result cellposition="4-4" label="2">
+<action actiontype="end" cellposition="5-4">
+<actiontitle>转至电源模式不能切换至 ON（IG 和 ACC）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D99F" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="4-5" label="3">
+<action actiontype="end" cellposition="5-5">
+<actiontitle>转至电源模式不能切换至 ON（IG）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D996" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="4-6" label="4">
+<action actiontype="end" cellposition="5-6">
+<actiontitle>转至电源模式不能切换至 ON（ACC）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D997" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-2" id="RM100000000D99E_41_0130">
+<testtitle>检查起动功能</testtitle>
+<content6>
+<test1>
+<ptxt>携带电子钥匙发射器分总成进入车辆。</ptxt>
+</test1>
+<test1>
+<ptxt>将换档杆移至 P。*1</ptxt>
+</test1>
+<test1>
+<ptxt>踩下制动踏板。*1</ptxt>
+</test1>
+<test1>
+<ptxt>踩下离合器踏板。*2</ptxt>
+</test1>
+<test1>
+<ptxt>确认显示钥匙警告灯，然后按下发动机开关，检查并确认发动机起动。</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>*1：除手动传动桥外</ptxt>
+</item>
+<item>
+<ptxt>*2：手动传动桥</ptxt>
+</item>
+</list1>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>发动机起动。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-2" label="1">
+<action actiontype="end" cellposition="6-2">
+<actiontitle>转至 SFI 系统（故障症状表）</actiontitle>
+<content6>
+<ptxt>1ZR-FE：单击此处 <mlink><xref href="RM100000000D7QK" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>2ZR-FE：单击此处 <mlink><xref href="RM100000000DERE" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>7ZR-FE：单击此处 <mlink><xref href="RM100000000DTH2" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="5-3" label="2">
+<action actiontype="next" cellposition="6-3" childid="RM100000000D99E_41_0057"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-3" id="RM100000000D99E_41_0057">
+<testtitle>检查安全指示灯（停机系统解除）</testtitle>
+<content6>
+<test1>
+<ptxt>携带电子钥匙发射器分总成进入车辆。</ptxt>
+</test1>
+<test1>
+<ptxt>将换档杆移至 P。*</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>*：除手动传动桥外</ptxt>
+</item>
+</list1>
+</test1>
+<test1>
+<ptxt>松开制动踏板的情况下按下发动机开关，检查并确认安全指示灯在电源模式切换至 ON (ACC) 的同时停止闪烁并熄灭。</ptxt>
+<atten4>
+<ptxt>如果安全指示灯在电源模式切换至 ON (ACC) 的同时由闪烁变为熄灭，则可以判定停机系统功能工作正常。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>安全指示灯在电源模式切换至 ON（ACC）的同时由闪烁变为熄灭。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-3" label="1">
+<action actiontype="next" cellposition="7-3" childid="RM100000000D99E_41_0131"/>
+</result>
+<result cellposition="6-20" label="2">
+<action actiontype="next" cellposition="7-20" childid="RM100000000D99E_41_0091"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-3" id="RM100000000D99E_41_0131">
+<testtitle>检查组合仪表总成</testtitle>
+<content6>
+<test1>
+<ptxt>携带电子钥匙发射器分总成进入车内、将换档杆移至 P*1、踩下制动踏板*1 或离合器踏板*2，检查并确认组合仪表指示灯改变。</ptxt>
+<atten4>
+<ptxt>如果进行上一步骤时显示钥匙警告灯，则可认为 P、N 位置检测信号*1 和刹车灯开关信号*1 或离合器起动开关信号*2 正常。</ptxt>
+</atten4>
+<list1 type="unordered">
+<item>
+<ptxt>*1：除手动传动桥外</ptxt>
+</item>
+<item>
+<ptxt>*2：手动传动桥</ptxt>
+</item>
+</list1>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>显示钥匙警告灯。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>正常</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>异常（除手动传动桥外）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>异常（手动传动桥）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-3" label="1">
+<action actiontype="next" cellposition="8-3" childid="RM100000000D99E_41_0059"/>
+</result>
+<result cellposition="7-9" label="2">
+<action actiontype="next" cellposition="8-9" childid="RM100000000D99E_41_0074"/>
+</result>
+<result cellposition="7-16" label="3">
+<action actiontype="next" cellposition="8-16" childid="RM100000000D99E_41_0132"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-3" id="RM100000000D99E_41_0059">
+<testtitle>使用 GTS 读取值（起动机开关）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Body Electrical / Starting Control / Data List。</ptxt>
+</test1>
+<test1>
+<ptxt>携带电子钥匙发射器分总成进入车内，将换档杆移至 P*1，踩下制动踏板*1 或离合器踏板*2 的情况下按下发动机开关，检查并确认数据表项目改变。</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>*1：除手动传动桥外</ptxt>
+</item>
+<item>
+<ptxt>*2：手动传动桥</ptxt>
+</item>
+</list1>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Starting Control &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="1" name="item-name">
+<ptxt>Starter SW</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="1" name="description">
+<ptxt>起动机工作请求</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="1" name="range">
+<ptxt>ON 或 OFF</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="1" name="standard-value">
+<ptxt>ON：请求起动机工作</ptxt>
+<ptxt>OFF：未请求起动机工作</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="1" name="remark">
+<ptxt>出现故障时，发动机将不起动。</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">221</app-param>
+<app-param name="ecu-name">Starting Control</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">1</app-param>
+<app-param name="data-list-item-name">Starter SW</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Starting Control &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="1" name="item-name">
+<ptxt>Starter SW</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="221">
+<gts-pid pid-id="1"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">221</app-param>
+<app-param name="ecu-name">Starting Control</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">1</app-param>
+<app-param name="data-list-item-name">Starter SW</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>GTS 显示根据车辆状态正确变化。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-3" label="1">
+<action actiontype="next" cellposition="9-3" childid="RM100000000D99E_41_0113"/>
+</result>
+<result cellposition="8-8" label="2">
+<action actiontype="end" cellposition="9-8">
+<actiontitle>更换认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-3" id="RM100000000D99E_41_0113">
+<testtitle>检查 1 号 ST 继电器</testtitle>
+<content6>
+<ptxt>1ZR-FE：单击此处 <mlink><xref href="RM100000000DASL" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>2ZR-FE：单击此处 <mlink><xref href="RM100000000E68U" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>7ZR-FE：单击此处 <mlink><xref href="RM100000000E69O" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-3" label="1">
+<action actiontype="next" cellposition="10-3" childid="RM100000000D99E_41_0063"/>
+</result>
+<result cellposition="9-7" label="2">
+<action actiontype="end" cellposition="10-7">
+<actiontitle>更换 1 号 ST 继电器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="10-3" id="RM100000000D99E_41_0063">
+<testtitle>检查线束和连接器（认证 ECU（智能钥匙 ECU 总成）- 车身接地）</testtitle>
+<content6>
+<test1>
+<ptxt>将 1 号 ST 继电器安装到发动机室继电器盒和接线盒总成上。</ptxt>
+</test1>
+<test1>
+<ptxt>断开认证 ECU（智能钥匙 ECU 总成）连接器 E47。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="B268625C51" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>线束连接器后视图</ptxt>
+<ptxt>（至认证 ECU（智能钥匙 ECU 总成））</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>将换档杆移至 P 或 N。*1</ptxt>
+</test1>
+<test1>
+<ptxt>踩下离合器踏板。*2</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>*1：除手动传动桥外</ptxt>
+</item>
+<item>
+<ptxt>*2：手动传动桥</ptxt>
+</item>
+</list1>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E47-5 (STAR) - 车身接地</ptxt>
+</entry>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>98 至 146 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E47-7 (STA) - 车身接地</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="10-3" label="1">
+<action actiontype="next" cellposition="11-3" childid="RM100000000D99E_41_0065"/>
+</result>
+<result cellposition="10-6" label="2">
+<action actiontype="end" cellposition="11-6">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="11-3" id="RM100000000D99E_41_0065">
+<testtitle>检查起动机总成</testtitle>
+<content6>
+<test1>
+<ptxt>拆下起动机总成。</ptxt>
+<ptxt>1ZR-FE：单击此处 <mlink><xref href="RM100000000DARL" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>2ZR-FE：单击此处 <mlink><xref href="RM100000000E68H" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>7ZR-FE：单击此处 <mlink><xref href="RM100000000E69B" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>检查起动机总成。</ptxt>
+<ptxt>1ZR-FE：单击此处 <mlink><xref href="RM100000000DARO" label="Seep00004" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>2ZR-FE：单击此处 <mlink><xref href="RM100000000E68K" label="Seep00005" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>7ZR-FE：单击此处 <mlink><xref href="RM100000000E69E" label="Seep00006" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="11-3" label="1">
+<action actiontype="next" cellposition="12-3" childid="RM100000000D99E_41_0068"/>
+</result>
+<result cellposition="11-5" label="2">
+<action actiontype="end" cellposition="12-5">
+<actiontitle>更换起动机总成</actiontitle>
+<content6>
+<ptxt>1ZR-FE：单击此处 <mlink><xref href="RM100000000DARO" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>2ZR-FE：单击此处 <mlink><xref href="RM100000000E68K" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>7ZR-FE：单击此处 <mlink><xref href="RM100000000E69E" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="12-3" id="RM100000000D99E_41_0068">
+<testtitle>检查线束和连接器（蓄电池 - 起动机总成和发动机室继电器盒和接线盒总成）</testtitle>
+<content6>
+<test1>
+<ptxt>从发动机室继电器盒和接线盒总成上拆下 1 号 ST 继电器。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B5-1 - 车身接地</ptxt>
+</entry>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>1 号 ST 继电器端子 5 - 车身接地</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>1 号 ST 继电器端子 3 - B10-1</ptxt>
+</entry>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>1 号 ST 继电器端子 3 或 B10-1 - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="12-3" label="1">
+<action actiontype="end" cellposition="13-3">
+<actiontitle>更换认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="12-4" label="2">
+<action actiontype="end" cellposition="13-4">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-9" id="RM100000000D99E_41_0074">
+<testtitle>使用 GTS 读取值（空档开关/离合器开关、换档杆位置 P 或 N）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Body Electrical / Power Source Control or Starting Control / Data List。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Power Source Control &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="6" name="item-name">
+<ptxt>Neutral SW/ Clutch SW</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="6" name="description">
+<ptxt>换档杆位置（P 和 N）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="6" name="range">
+<ptxt>ON 或 OFF</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="6" name="standard-value">
+<ptxt>ON：换档杆置于 P 或 N</ptxt>
+<ptxt>OFF：换档杆置于 P 或 N 以外的任何位置</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="6" name="remark">
+<list1 type="unordered">
+<item>
+<ptxt>使用此项目可确定驻车/空档位置开关总成是否存在故障。</ptxt>
+</item>
+<item>
+<ptxt>由于驻车/空档位置开关总成故障无法起动发动机时，显示 OFF。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">223</app-param>
+<app-param name="ecu-name">电源控制</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">6</app-param>
+<app-param name="data-list-item-name">Neutral SW/ Clutch SW</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Power Source Control &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="6" name="item-name">
+<ptxt>Neutral SW/ Clutch SW</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="223">
+<gts-pid pid-id="6"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">223</app-param>
+<app-param name="ecu-name">Power Source Control</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">6</app-param>
+<app-param name="data-list-item-name">Neutral SW/ Clutch SW</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Starting Control &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="2" name="item-name">
+<ptxt>Shift Position P or N</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="2" name="description">
+<ptxt>驻车/空档位置开关状态</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="2" name="range">
+<ptxt>ON 或 OFF</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="2" name="standard-value">
+<ptxt>ON：换档杆置于 P 或 N</ptxt>
+<ptxt>OFF：换档杆未置于 P 或 N</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="2" name="remark">
+<ptxt>出现故障时，发动机将不起动。</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">221</app-param>
+<app-param name="ecu-name">Starting Control</app-param>
+<app-param name="gts-order">2</app-param>
+<app-param-unit>
+<app-param name="pid-id">2</app-param>
+<app-param name="data-list-item-name">Shift Position P or N</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Starting Control &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="2" name="item-name">
+<ptxt>Shift Position P or N</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="221">
+<gts-pid pid-id="2"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">221</app-param>
+<app-param name="ecu-name">Starting Control</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">2</app-param>
+<app-param name="data-list-item-name">Shift Position P or N</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>GTS 显示根据换档杆位置正确变化。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-9" label="1">
+<action actiontype="next" cellposition="9-9" childid="RM100000000D99E_41_0075"/>
+</result>
+<result cellposition="8-13" label="2">
+<action actiontype="next" cellposition="9-13" childid="RM100000000D99E_41_0005"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-9" id="RM100000000D99E_41_0075">
+<testtitle>使用 GTS 读取值（刹车灯开关 1）</testtitle>
+<content6>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Power Source Control &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="3" name="item-name">
+<ptxt>Stop Light Switch1</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="3" name="description">
+<ptxt>制动踏板状态</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="3" name="range">
+<ptxt>ON 或 OFF</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="3" name="standard-value">
+<ptxt>ON：踩下制动踏板</ptxt>
+<ptxt>OFF：松开制动踏板</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="3" name="remark">
+<list1 type="unordered">
+<item>
+<ptxt>使用此项目可确定刹车灯开关是否出现故障。</ptxt>
+</item>
+<item>
+<ptxt>此项目为“OFF”时，发动机不能起动。</ptxt>
+</item>
+<item>
+<ptxt>该项目出现故障时，按住发动机开关一段时间即可起动发动机。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">223</app-param>
+<app-param name="ecu-name">Power Source Control</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">3</app-param>
+<app-param name="data-list-item-name">Stop Light Switch1</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Power Source Control &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="3" name="item-name">
+<ptxt>Stop Light Switch1</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="223">
+<gts-pid pid-id="3"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">223</app-param>
+<app-param name="ecu-name">Power Source Control</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">3</app-param>
+<app-param name="data-list-item-name">Stop Light Switch1</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>GTS 显示根据制动踏板操作正确变化。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-9" label="1">
+<action actiontype="end" cellposition="10-9">
+<actiontitle>更换认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="9-10" label="2">
+<action actiontype="next" cellposition="10-10" childid="RM100000000D99E_41_0100"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="10-10" id="RM100000000D99E_41_0100">
+<testtitle>检查刹车灯开关总成</testtitle>
+<content6>
+<test1>
+<ptxt>拆下刹车灯开关总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCBZ" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>检查刹车灯开关总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCC0" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="10-10" label="1">
+<action actiontype="next" cellposition="11-10" childid="RM100000000D99E_41_0101"/>
+</result>
+<result cellposition="10-12" label="2">
+<action actiontype="end" cellposition="11-12">
+<actiontitle>更换刹车灯开关总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCBZ" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="11-10" id="RM100000000D99E_41_0101">
+<testtitle>检查线束和连接器（认证 ECU（智能钥匙 ECU 总成）- 刹车灯开关总成）</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D99C_07_0004" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="11-10" label="1">
+<action actiontype="end" cellposition="12-10">
+<actiontitle>更换认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="11-11" label="2">
+<action actiontype="end" cellposition="12-11">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-13" id="RM100000000D99E_41_0005">
+<testtitle>检查驻车/空档位置开关总成</testtitle>
+<content6>
+<test1>
+<ptxt>拆下驻车/空档位置开关总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DA2K" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>检查驻车/空档位置开关总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DA2L" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-13" label="1">
+<action actiontype="next" cellposition="10-13" childid="RM100000000D99E_41_0079"/>
+</result>
+<result cellposition="9-15" label="2">
+<action actiontype="end" cellposition="10-15">
+<actiontitle>更换驻车/空档位置开关总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DA2K" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="10-13" id="RM100000000D99E_41_0079">
+<testtitle>检查线束和连接器（认证 ECU（智能钥匙 ECU 总成）- 驻车/空档位置开关总成）</testtitle>
+<content6>
+<test1>
+<ptxt>断开认证 ECU（智能钥匙 ECU 总成）连接器 E47。</ptxt>
+</test1>
+<test1>
+<ptxt>断开驻车/空档位置开关总成连接器 B15。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E47-5 (STAR) - B15-4 (B)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E47-5 (STAR) 或 B15-4 (B) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>重新连接驻车/空档位置开关总成连接器 B15。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E47-5 (STAR) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>踩下制动踏板时按住发动机开关（起动机打开）→ 经过约 1 秒后松开发动机开关（起动机关闭）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>9.5 V 或更高* → 1 V 或更低</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<figure translate="C" type="1">
+<graphic graphicname="B268625C52" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器后视图</ptxt>
+<ptxt>（至认证 ECU（智能钥匙 ECU 总成））</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<atten4>
+<ptxt>*：发动机起动时，蓄电池电压可能会暂时下降至约 6 V。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="10-13" label="1">
+<action actiontype="end" cellposition="11-13">
+<actiontitle>更换认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="10-14" label="2">
+<action actiontype="end" cellposition="11-14">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-16" id="RM100000000D99E_41_0132">
+<testtitle>使用 GTS 读取值（空档开关/离合器开关）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Body Electrical / Power Source Control / Data List。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Power Source Control &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="6" name="item-name">
+<ptxt>Neutral SW/ Clutch SW</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="6" name="description">
+<ptxt>离合器踏板状态</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="6" name="range">
+<ptxt>ON 或 OFF</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="6" name="standard-value">
+<ptxt>ON：踩下离合器踏板</ptxt>
+<ptxt>OFF：松开离合器踏板</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="6" name="remark">
+<list1 type="unordered">
+<item>
+<ptxt>使用此项目可确定离合器起动开关总成是否存在故障。</ptxt>
+</item>
+<item>
+<ptxt>此项目为“OFF”时，发动机不能起动。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">223</app-param>
+<app-param name="ecu-name">Power Source Control</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">6</app-param>
+<app-param name="data-list-item-name">Neutral SW/ Clutch SW</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Power Source Control &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="6" name="item-name">
+<ptxt>Neutral SW/ Clutch SW</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="223">
+<gts-pid pid-id="6"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">223</app-param>
+<app-param name="ecu-name">Power Source Control</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">6</app-param>
+<app-param name="data-list-item-name">Neutral SW/ Clutch SW</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>GTS 显示根据离合器踏板操作正确变化。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-16" label="1">
+<action actiontype="end" cellposition="9-16">
+<actiontitle>更换认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="8-17" label="2">
+<action actiontype="next" cellposition="9-17" childid="RM100000000D99E_41_0134"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-17" id="RM100000000D99E_41_0134">
+<testtitle>检查离合器起动开关总成</testtitle>
+<content6>
+<test1>
+<ptxt>拆下离合器起动开关总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DC4D" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>检查离合器起动开关总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DC4A" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-17" label="1">
+<action actiontype="next" cellposition="10-17" childid="RM100000000D99E_41_0136"/>
+</result>
+<result cellposition="9-19" label="2">
+<action actiontype="end" cellposition="10-19">
+<actiontitle>更换离合器起动开关总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DC4D" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="10-17" id="RM100000000D99E_41_0136">
+<testtitle>检查线束和连接器（认证 ECU（智能钥匙 ECU 总成）- 离合器起动开关总成）</testtitle>
+<content6>
+<test1>
+<ptxt>断开认证 ECU（智能钥匙 ECU 总成）连接器 E47。</ptxt>
+</test1>
+<test1>
+<ptxt>断开离合器起动开关总成连接器 A5。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E47-5 (STAR) - A5-2</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E47-5 (STAR) 或 A5-2 - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>重新连接离合器起动开关总成连接器 A5。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E47-5 (STAR) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>踩下离合器踏板时按住发动机开关（起动机打开）→ 经过约 1 秒后松开发动机开关（起动机关闭）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>9.5 V 或更高* → 1 V 或更低</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<figure translate="C" type="1">
+<graphic graphicname="B268625C53" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>线束连接器后视图</ptxt>
+<ptxt>（至认证 ECU（智能钥匙 ECU 总成））</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<atten4>
+<ptxt>*：发动机起动时，蓄电池电压可能会暂时下降至约 6 V。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="10-17" label="1">
+<action actiontype="end" cellposition="11-17">
+<actiontitle>更换认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="10-18" label="2">
+<action actiontype="end" cellposition="11-18">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-20" id="RM100000000D99E_41_0091">
+<testtitle>使用 GTS 读取值（S 代码检查）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Body Electrical / Entry&amp;Start / Data List。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="65" name="item-name">
+<ptxt>S Code Check</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="65" name="description">
+<ptxt>认证 ECU（智能钥匙 ECU 总成）和 ID 代码箱（停机系统代码 ECU）之间的认证结果</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="65" name="range">
+<ptxt>OK 或 NG</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="65" name="standard-value">
+<ptxt>OK：认证结果正常</ptxt>
+<ptxt>NG：认证结果异常</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="65" name="remark">
+<ptxt>显示 NG 时：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>认证 ECU（智能钥匙 ECU 总成）或 ID 代码箱（停机系统代码 ECU）的识别码未注册或认证 ECU（智能钥匙 ECU 总成）或 ID 代码箱（停机系统代码 ECU）存在故障。</ptxt>
+</item>
+<item>
+<ptxt>转向不能锁止。</ptxt>
+</item>
+<item>
+<ptxt>转向不能开锁（发动机不能起动）。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">65</app-param>
+<app-param name="data-list-item-name">S Code Check</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="65" name="item-name">
+<ptxt>S Code Check</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="125">
+<gts-pid pid-id="65"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">65</app-param>
+<app-param name="data-list-item-name">S Code Check</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<atten4>
+<ptxt>认证故障原因：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>认证 ECU（智能钥匙 ECU 总成）或 ID 代码箱（停机系统代码 ECU）存在故障。</ptxt>
+</item>
+<item>
+<ptxt>ECU 之间的通信存在故障。</ptxt>
+</item>
+<item>
+<ptxt>更换了 ECU，但没有注册。</ptxt>
+</item>
+<item>
+<ptxt>用已存储代码的 ECU 更换。</ptxt>
+</item>
+</list1>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>屏幕上显示 OK（S 代码认证结果正常）。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-20" label="1">
+<action actiontype="next" cellposition="8-20" childid="RM100000000D99E_41_0010"/>
+</result>
+<result cellposition="7-25" label="2">
+<action actiontype="next" cellposition="8-25" childid="RM100000000D99E_41_0095"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-20" id="RM100000000D99E_41_0010">
+<testtitle>检查转向锁</testtitle>
+<content6>
+<test1>
+<ptxt>发动机开关置于 ON (ACC) 位置时，检查并确认转向开锁。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>转向开锁。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-20" label="1">
+<action actiontype="next" cellposition="9-20" childid="RM100000000D99E_41_0011"/>
+</result>
+<result cellposition="8-23" label="2">
+<action actiontype="next" cellposition="9-23" childid="RM100000000D99E_41_0083"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-20" id="RM100000000D99E_41_0011">
+<testtitle>使用 GTS 读取值（停机系统）</testtitle>
+<content6>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="34" name="item-name">
+<ptxt>Immobiliser</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="34" name="description">
+<ptxt>停机系统由认证 ECU（智能钥匙 ECU 总成）确定</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="34" name="range">
+<ptxt>Set 或 Unset</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="34" name="standard-value">
+<ptxt>Set：停机系统设定（禁止发动机起动）（发动机开关置于 OFF 位置）</ptxt>
+<ptxt>Unset：停机系统解除（允许发动机起动）（发动机开关置于 ON (ACC) 或 ON (IG) 位置）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="34" name="remark">
+<ptxt>显示 Set 时无法起动发动机。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>显示 Set 时安全指示灯闪烁。</ptxt>
+</item>
+<item>
+<ptxt>安全指示灯与停机系统的设定/解除联动，未与转向锁止/开锁联动。</ptxt>
+</item>
+</list1>
+</atten4>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">34</app-param>
+<app-param name="data-list-item-name">Immobiliser</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="34" name="item-name">
+<ptxt>Immobiliser</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="125">
+<gts-pid pid-id="34"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">34</app-param>
+<app-param name="data-list-item-name">Immobiliser</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>GTS 显示根据停机系统状态正确变化。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-20" label="1">
+<action actiontype="next" cellposition="10-20" childid="RM100000000D99E_41_0012"/>
+</result>
+<result cellposition="9-22" label="3">
+<action actiontype="end" cellposition="10-22">
+<actiontitle>更换认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="10-20" id="RM100000000D99E_41_0012">
+<testtitle>使用 GTS 读取值（起动机请求信号）</testtitle>
+<content6>
+<test1>
+<ptxt>进入以下菜单：Body Electrical / Power Source Control / Data List。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Power Source Control &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="12" name="item-name">
+<ptxt>Starter Request Signal</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="12" name="description">
+<ptxt>发动机起动请求信号状态</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="12" name="range">
+<ptxt>ON 或 OFF</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="12" name="standard-value">
+<list1 type="nonmark">
+<title>除手动传动桥外：</title>
+<item>
+<ptxt>ON：换档杆置于 P 且踩下制动踏板的情况下，按住发动机开关</ptxt>
+<ptxt>OFF：经过约 1 秒后，松开发动机开关</ptxt>
+</item>
+</list1>
+<list1 type="nonmark">
+<title>手动传动桥：</title>
+<item>
+<ptxt>ON：踩下离合器踏板，按住发动机开关</ptxt>
+<ptxt>OFF：经过约 1 秒后，松开发动机开关</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="12" name="remark">
+<list1 type="unordered">
+<item>
+<ptxt>由于起动请求信号故障无法起动发动机时，显示 OFF。</ptxt>
+</item>
+<item>
+<ptxt>按下发动机开关时，显示 ON 的持续时间非常短。因此，需按住发动机开关一定的时间。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">223</app-param>
+<app-param name="ecu-name">Power Source Control</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">12</app-param>
+<app-param name="data-list-item-name">Starter Request Signal</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Power Source Control &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="12" name="item-name">
+<ptxt>Starter Request Signal</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="223">
+<gts-pid pid-id="12"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">223</app-param>
+<app-param name="ecu-name">Power Source Control</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">12</app-param>
+<app-param name="data-list-item-name">Starter Request Signal</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>检查并确认组合仪表总成中的多信息显示屏上显示钥匙警告灯，然后按下发动机开关。</ptxt>
+</item>
+<item>
+<ptxt>检查并确认组合仪表总成中的多信息显示屏上显示钥匙警告灯，然后按下发动机开关。</ptxt>
+</item>
+</list1>
+</atten3>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>GTS 显示根据发动机开关的操作改变。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="10-20" label="1">
+<action actiontype="end" cellposition="11-20">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="10-21" label="2">
+<action actiontype="jump" cellposition="11-21" childid="RM100000000D99E_41_0093">
+<actiontitle>转至步骤 30</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-23" id="RM100000000D99E_41_0083">
+<testtitle>使用 GTS 读取值（转向开锁开关）</testtitle>
+<content6>
+<test1>
+<ptxt>进入以下菜单：Body Electrical / Power Source Control / Data List。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Power Source Control &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="2" name="item-name">
+<ptxt>Steering Unlock Switch</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="2" name="description">
+<ptxt>自转向锁执行器总成输出的转向开锁传感器信号状态</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="2" name="range">
+<ptxt>ON 或 OFF</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="2" name="standard-value">
+<ptxt>ON：转向开锁</ptxt>
+<ptxt>OFF：转向锁止</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="2" name="remark">
+<list1 type="unordered">
+<item>
+<ptxt>换档杆置于 P* 且发动机开关置于 OFF 位置时，如果打开或关闭任一车门，则转向锁止。</ptxt>
+</item>
+<item>
+<ptxt>电子钥匙发射器分总成在车内且发动机开关置于 ON (ACC) 或 ON (IG) 位置时，转向开锁。</ptxt>
+</item>
+<item>
+<ptxt>转向开锁信号为 OFF 时，发动机不能起动。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">223</app-param>
+<app-param name="ecu-name">Power Source Control</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">2</app-param>
+<app-param name="data-list-item-name">Steering Unlock Switch</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Power Source Control &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="2" name="item-name">
+<ptxt>Steering Unlock Switch</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="223">
+<gts-pid pid-id="2"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">223</app-param>
+<app-param name="ecu-name">Power Source Control</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">2</app-param>
+<app-param name="data-list-item-name">Steering Unlock Switch</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<list1 type="nonmark">
+<item>
+<ptxt>*：除手动传动桥外</ptxt>
+</item>
+</list1>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>GTS 显示根据转向状态正确变化。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-23" label="1">
+<action actiontype="end" cellposition="10-23">
+<actiontitle>转至转向锁止系统（无法开锁方向盘）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DF2T" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="9-24" label="2">
+<action actiontype="next" cellposition="10-24" childid="RM100000000D99E_41_0085"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="10-24" id="RM100000000D99E_41_0085">
+<testtitle>使用 GTS 读取值（L 代码检查）</testtitle>
+<content6>
+<test1>
+<ptxt>进入以下菜单：Body Electrical / Entry&amp;Start / Data List。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="66" name="item-name">
+<ptxt>L Code Check</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="66" name="description">
+<ptxt>ID 代码箱（停机系统代码 ECU）和转向锁 ECU（转向锁执行器总成）之间的认证结果</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="66" name="range">
+<ptxt>OK 或 NG</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="66" name="standard-value">
+<ptxt>OK：认证结果正常</ptxt>
+<ptxt>NG：认证结果异常</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="66" name="remark">
+<ptxt>显示 NG 时：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>ID 代码箱（停机系统代码 ECU）或转向锁 ECU（转向锁执行器总成）的识别码未注册或 ID 代码箱（停机系统代码 ECU）或转向锁 ECU（转向锁执行器总成）存在故障。</ptxt>
+</item>
+<item>
+<ptxt>转向不能锁止。</ptxt>
+</item>
+<item>
+<ptxt>转向不能开锁（发动机不能起动）。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">66</app-param>
+<app-param name="data-list-item-name">L Code Check</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="66" name="item-name">
+<ptxt>L Code Check</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="125">
+<gts-pid pid-id="66"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">66</app-param>
+<app-param name="data-list-item-name">L Code Check</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<atten4>
+<ptxt>认证故障原因：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>转向锁 ECU（转向锁执行器总成）或 ID 代码箱（停机系统代码 ECU）存在故障。</ptxt>
+</item>
+<item>
+<ptxt>ECU 之间的通信存在故障。</ptxt>
+</item>
+<item>
+<ptxt>更换了 ECU，但没有注册。</ptxt>
+</item>
+<item>
+<ptxt>用已存储代码的 ECU 更换。</ptxt>
+</item>
+</list1>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>屏幕上显示 OK（L 代码认证结果正常）。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="10-24" label="1">
+<action actiontype="end" cellposition="11-24">
+<actiontitle>更换转向锁 ECU（转向锁执行器总成）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D81R" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="10-25" label="2">
+<action actiontype="next" cellposition="11-25" childid="RM100000000D99E_41_0088"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-25" id="RM100000000D99E_41_0095">
+<testtitle>更换认证 ECU（智能钥匙 ECU 总成）</testtitle>
+<content6>
+<test1>
+<ptxt>用新的认证 ECU（智能钥匙 ECU 总成）更换。</ptxt>
+</test1>
+<test1>
+<ptxt>执行注册程序。</ptxt>
+<atten4>
+<ptxt>请参考《服务快讯》。</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>使用数据表，再次检查 S 代码认证是否正常工作。</ptxt>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="65" name="item-name">
+<ptxt>S Code Check</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="65" name="description">
+<ptxt>认证 ECU（智能钥匙 ECU 总成）和 ID 代码箱（停机系统代码 ECU）之间的认证结果</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="65" name="range">
+<ptxt>OK 或 NG</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="65" name="standard-value">
+<ptxt>OK：认证结果正常</ptxt>
+<ptxt>NG：认证结果异常</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="65" name="remark">
+<ptxt>显示 NG 时：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>认证 ECU（智能钥匙 ECU 总成）或 ID 代码箱（停机系统代码 ECU）的识别码未注册或认证 ECU（智能钥匙 ECU 总成）或 ID 代码箱（停机系统代码 ECU）存在故障。</ptxt>
+</item>
+<item>
+<ptxt>转向不能锁止。</ptxt>
+</item>
+<item>
+<ptxt>转向不能开锁（发动机不能起动）。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">65</app-param>
+<app-param name="data-list-item-name">S Code Check</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="65" name="item-name">
+<ptxt>S Code Check</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="125">
+<gts-pid pid-id="65"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">65</app-param>
+<app-param name="data-list-item-name">S Code Check</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>屏幕上显示 OK（S 代码认证结果正常）。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-25" label="1">
+<action actiontype="end" cellposition="9-25">
+<actiontitle>结束（认证 ECU（智能钥匙 ECU 总成））</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="8-26" label="2">
+<action actiontype="next" cellposition="9-26" childid="RM100000000D99E_41_0093"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="11-25" id="RM100000000D99E_41_0088">
+<testtitle>更换转向锁 ECU（转向锁执行器总成）</testtitle>
+<content6>
+<test1>
+<ptxt>用新的转向锁 ECU（转向锁执行器总成）更换。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D81R" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>执行注册程序。</ptxt>
+<atten4>
+<ptxt>请参考《服务快讯》。</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>使用数据表，再次检查 L 代码认证是否正常工作。</ptxt>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="66" name="item-name">
+<ptxt>L Code Check</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="66" name="description">
+<ptxt>ID 代码箱（停机系统代码 ECU）和转向锁 ECU（转向锁执行器总成）之间的认证结果</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="66" name="range">
+<ptxt>OK 或 NG</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="66" name="standard-value">
+<ptxt>OK：认证结果正常</ptxt>
+<ptxt>NG：认证结果异常</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="66" name="remark">
+<ptxt>显示 NG 时：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>ID 代码箱（停机系统代码 ECU）或转向锁 ECU（转向锁执行器总成）的识别码未注册或 ID 代码箱（停机系统代码 ECU）或转向锁 ECU（转向锁执行器总成）存在故障。</ptxt>
+</item>
+<item>
+<ptxt>转向不能锁止。</ptxt>
+</item>
+<item>
+<ptxt>转向不能开锁（发动机不能起动）。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">66</app-param>
+<app-param name="data-list-item-name">L Code Check</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="66" name="item-name">
+<ptxt>L Code Check</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="125">
+<gts-pid pid-id="66"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">66</app-param>
+<app-param name="data-list-item-name">L Code Check</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>屏幕上显示 OK（L 代码认证结果正常）。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="11-25" label="1">
+<action actiontype="end" cellposition="12-25">
+<actiontitle>结束（转向锁 ECU（转向锁执行器总成）故障）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="11-26" label="2">
+<action actiontype="end" cellposition="12-26">
+<actiontitle>更换 ID 代码箱（停机系统代码 ECU）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-26" id="RM100000000D99E_41_0093">
+<testtitle>更换 ID 代码箱（停机系统代码 ECU）</testtitle>
+<content6>
+<test1>
+<ptxt>用新的 ID 代码箱（停机系统代码 ECU）更换。</ptxt>
+<atten4>
+<ptxt>请参考《服务快讯》。</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>执行注册程序。</ptxt>
+<atten4>
+<ptxt>请参考《服务快讯》。</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>使用数据表，再次检查 S 代码认证是否正常工作。</ptxt>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="65" name="item-name">
+<ptxt>S Code Check</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="65" name="description">
+<ptxt>认证 ECU（智能钥匙 ECU 总成）和 ID 代码箱（停机系统代码 ECU）之间的认证结果</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="65" name="range">
+<ptxt>OK 或 NG</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="65" name="standard-value">
+<ptxt>OK：认证结果正常</ptxt>
+<ptxt>NG：认证结果异常</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="65" name="remark">
+<ptxt>显示 NG 时：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>认证 ECU（智能钥匙 ECU 总成）或 ID 代码箱（停机系统代码 ECU）的识别码未注册或认证 ECU（智能钥匙 ECU 总成）或 ID 代码箱（停机系统代码 ECU）存在故障。</ptxt>
+</item>
+<item>
+<ptxt>转向不能锁止。</ptxt>
+</item>
+<item>
+<ptxt>转向不能开锁（发动机不能起动）。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">65</app-param>
+<app-param name="data-list-item-name">S Code Check</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="65" name="item-name">
+<ptxt>S Code Check</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="125">
+<gts-pid pid-id="65"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">65</app-param>
+<app-param name="data-list-item-name">S Code Check</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>屏幕上显示 OK（S 代码认证结果正常）。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-26" label="1">
+<action actiontype="end" cellposition="10-26">
+<actiontitle>结束（ID 代码箱（停机系统代码 ECU）故障）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

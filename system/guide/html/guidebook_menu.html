@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312">
+<title>帮助菜单</title>
+<style type="text/css"><!--
+h1 {
+	font-size: 14px;
+	padding-left: 19px;
+	margin: 0px;
+	padding-bottom: 5px;
+	font-weight: normal;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    list-style-position: outside;
+    list-style-type: none;
+}
+li {
+    font-size: 11px;
+    margin-left: 15px;
+    list-style-position: outside;
+    list-style-type: none;
+}
+li p.page{
+	background: url(common/images/page.gif) no-repeat scroll left center transparent;
+	height: 21px;
+	line-height: 21px;
+	padding-left: 19px;
+	margin: 0pc;
+}
+li p.folder_o{
+	background: url(common/images/book_open.jpg) no-repeat scroll left center transparent;
+	height: 21px;
+	line-height: 21px;
+	padding-left: 33px;
+	margin: 0pc;
+	cursor: pointer;
+}
+li p.folder_c{
+	background: url(common/images/book_close.jpg) no-repeat scroll left center transparent;
+	height: 21px;
+	line-height: 21px;
+	padding-left: 33px;
+	margin: 0pc;
+	cursor: pointer;
+}
+
+ul ul {
+	display: block;
+	display: none;
+}
+a {
+    color: #333333;
+    text-decoration: underline;
+}
+a:visited {
+    color: #333333;
+    text-decoration: underline;
+}
+a:hover {
+    color: #B30000;
+    text-decoration: underline;
+}
+body,td,th {
+	font-size: 14px;
+}
+body {
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style1 {font-family: Verdana}
+--></style> <script type="text/javascript"><!--
+document.onclick = function(event){
+	if(! event) event=window.event;
+	var traget = event.srcElement || event.target ;
+	if(traget.tagName == 'UL'){
+	}else{
+		obj_ul.showHide(traget);
+	}
+}
+
+var obj_ul = {
+    showHide: function(element) {
+
+		var traget = element;
+		var objUL = null;
+		var objLI = null;
+		var objP = null;
+
+		do{
+			if (traget.tagName=='HTML') {
+				break ;
+			}
+
+			if (traget.tagName == 'LI') {
+				var objLI = traget;
+				objLI.style.display = "block"
+				for (var i=1;i<objLI.childNodes.length;i=i+1){
+						if(objLI.childNodes.item(i).tagName =='UL'){
+							var objUL = objLI.childNodes.item(i);
+						}
+				}
+				break ;
+			}
+			if (traget.tagName == 'P') {
+				var objP = traget;
+			}
+			traget = traget.parentNode;
+		}while(traget)
+
+		if(objUL){
+	        var styleDisplay = objUL.style.display;
+	        if (styleDisplay == 'none' || styleDisplay == '') {
+				objUL.style.display = "block";
+				if(objP) objP.className = "folder_o";
+			}else{
+				objUL.style.display = "none";
+				if(objP) objP.className = "folder_c";
+			}
+		}
+        return false;
+    }
+}
+
+
+//--></script>
+</head>
+<body>
+<h1 class="style1">菜单</h1>
+<ul class="style1">
+<li><p class="folder_c"><a href="javascript:void(0);">使用本网站</a></p>
+    <ul>
+<li><p class="page"><a href="guidebook_001.html#a002" target="H-main">版权和商标</a></p></li>
+<li><p class="page"><a href="guidebook_001.html#a006" target="H-main">JavaScript</a></p></li>
+<li><p class="page"><a href="guidebook_001.html#a007" target="H-main">插件</a></p></li>
+      <li><p class="page"><a href="guidebook_001.html#a008" target="H-main">手册显示的内容</a></p></li>
+<li><p class="page"><a href="guidebook_001.html#a012" target="H-main">推荐环境</a></p></li>
+    </ul>
+  </li>
+<li><p class="folder_c"><a href="javascript:void(0);">首页</a></p>
+    <ul>
+<li><p class="page"><a href="guidebook_007.html#a001" target="H-main">概述</a></p></li>
+<li><p class="page"><a href="guidebook_007.html#a004" target="H-main">首页</a></p></li>
+	  <li><p class="page"><a href="guidebook_007.html#a002" target="H-main">适合的产品日期</a></p></li>
+    </ul>
+  </li>
+<li><p class="folder_c"><a href="javascript:void(0);">打开手册</a></p>
+    <ul>
+<li><p class="page"><a href="guidebook_002.html#a001" target="H-main">概述</a></p></li>
+	  <li><p class="page"><a href="guidebook_002.html#a002" target="H-main">选择并打开适用的产品日期</a></p></li>
+    </ul>
+  </li>
+<li><p class="folder_c"><a href="javascript:void(0);">搜索手册</a></p>
+    <ul>
+<li><p class="page"><a href="guidebook_003.html#a001" target="H-main">概述</a></p></li>
+<li><p class="page"><a href="guidebook_003.html#a007" target="H-main">关键词搜索</a></p>
+        <ul>
+<li><p class="page"><a href="guidebook_003.html#a002" target="H-main">输入关键词</a></p></li>
+<li><p class="page"><a href="guidebook_003.html#a003" target="H-main">输入辅助功能</a></p></li>
+        </ul>
+      </li>
+<li><p class="page"><a href="guidebook_003.html#a005" target="H-main">使用 YOKOGUSHI</a></p></li>
+<li><p class="page"><a href="guidebook_003.html#a006" target="H-main">如何读取搜索结果</a></p></li>
+    </ul>
+  </li>
+<li><p class="folder_c"><a href="javascript:void(0);">查看手册</a></p>
+    <ul>
+<li><p class="page"><a href="guidebook_004.html" target="H-main">手册（服务信息）画面说明</a></p></li>
+<li><p class="folder_c"><a href="javascript:void(0);">修理手册</a></p>
+        <ul>
+<li><p class="page"><a href="guidebook_011.html#a001" target="H-main">概述</a></p></li>
+<li><p class="page"><a href="guidebook_011.html#a003" target="H-main">流程图阅读说明</a></p></li>
+<li><p class="page"><a href="guidebook_011.html#a002" target="H-main">启动 GTS</a></p></li>
+        </ul>
+      </li>
+<li><p class="folder_c"><a href="javascript:void(0);">新车特征</a></p>
+        <ul>
+<li><p class="page"><a href="guidebook_012.html#a001" target="H-main">概述</a></p></li>
+<li><p class="page"><a href="guidebook_012.html#a002" target="H-main">显示 PDF 数据</a></p></li>
+<li><p class="page"><a href="guidebook_012.html#a003" target="H-main">放大视频显示</a></p></li>
+        </ul>
+      </li>
+<li><p class="folder_c"><a href="javascript:void(0);">电路图</a></p>
+        <ul>
+<li><p class="page"><a href="guidebook_013.html#a001" target="H-main">概述</a></p></li>
+<li><p class="page"><a href="guidebook_013.html#a009" target="H-main">电路图画面的说明</a></p></li>
+<li><p class="page"><a href="guidebook_013.html#a002" target="H-main">系统电路图</a></p></li>
+<li><p class="page"><a href="guidebook_013.html#a003" target="H-main">保险丝列表</a></p></li>
+<li><p class="page"><a href="guidebook_013.html#a004" target="H-main">连接器和其他详情</a></p></li>
+<li><p class="page"><a href="guidebook_013.html#a005" target="H-main">线路图</a></p></li>
+<li><p class="page"><a href="guidebook_013.html#a006" target="H-main">接线盒和继电器盒图</a></p></li>
+<li><p class="page"><a href="guidebook_013.html#a007" target="H-main">内部电路图</a></p></li>
+<li><p class="page"><a href="guidebook_013.html#a008" target="H-main">安装位置图</a></p></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+<li><p class="folder_c"><a href="javascript:void(0);">连通 GTS</a></p>
+    <ul>
+<li><p class="page"><a href="guidebook_010.html#a001" target="H-main">概述</a></p></li>
+<li><p class="page"><a href="guidebook_010.html#a004" target="H-main">从修理手册启动 GTS 功能</a></p></li>
+    </ul>
+  </li>
+</ul>
+<p class="style1">&nbsp;</p>
+</body>
+</html>
+

@@ -1,0 +1,1266 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_54</span>
+<span class="globalServcatName">制动</span>
+<span class="globalSection">_023990</span>
+<span class="globalSectionName">制动控制/动态控制系统</span>
+<span class="globalTitle">_0116081</span>
+<span class="globalTitleName">防抱死制动系统</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>制动控制/动态控制系统&nbsp;&nbsp;防抱死制动系统&nbsp;&nbsp;C1241&nbsp;&nbsp;低电源电压故障&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D7XY_01" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<p>如果在电源电路中检测到故障，则防滑控制 ECU（制动执行器总成）存储该 DTC，且失效保护功能禁止 ABS 工作。 由于电源或充电电路（如蓄电池或交流发电机电路等）出现故障，+BS 或 IG1 端子电压满足任一 DTC 检测条件时，存储该 DTC。+BS 或 IG1 端子电压恢复正常时清除该 DTC。
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:25%">
+<col style="width:39%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">C1241
+</td>
+<td class="alleft">低电源电压故障
+</td>
+<td class="alleft">检测到以下任一条件时：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>车速为 6 km/h (4 mph) 或更高且 +BS 端子电压（弱低电压）低于 9.6 V 持续 1 秒或更长时间。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>车速为 6 km/h (4 mph) 或更高且 +BS 或 IG1 端子电压（强低电压）低于 6.9 V 持续 1 秒或更长时间。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>车速为 15 km/h (9 mph) 或更高、+BS 端子电压为 9.6 V 或更高、防滑控制 ECU（制动执行器总成）在短时间内同时打开多于 1 个阀门且阀门继电器电源电压降至阈值以外。*
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>+BS 端子电压低于 6.7 V 且防滑控制 ECU（制动执行器总成）判定电源电压异常持续 0.06 秒或更长时间。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>1 号 ECU-IG 保险丝
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>2 号 ABS 保险丝
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>蓄电池
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>充电系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>电源电路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>接地电路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>防滑控制 ECU（制动执行器总成）内部电源电路
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>*：防滑控制 ECU（制动执行器总成）监视电源线路 +BS 端子的电阻。 +BS 端子线束或其连接出现异常时检测到故障，且防滑控制 ECU（制动执行器总成）判定 +BS 端子处的线束电阻超出规定电阻。
+</p>
+</div>
+</div>
+<div id="RM100000000D7XY_02" class="category no03">
+<h2>电路图</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/C278422.png" alt="C278422" title="C278422">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">4.021,0.958 4.948,1.125</span>
+<span class="captionSize">0.927,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1 号 ECU-IG</span>
+</span>
+<span class="caption">
+<span class="points">4.094,0.698 4.292,0.875</span>
+<span class="captionSize">0.198,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">4.604,0.698 4.802,0.875</span>
+<span class="captionSize">0.198,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">5.865,0.698 6.094,0.885</span>
+<span class="captionSize">0.229,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">28</span>
+</span>
+<span class="caption">
+<span class="points">6.156,0.802 6.469,1</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG1</span>
+</span>
+<span class="caption">
+<span class="points">5.865,3.385 6.094,3.573</span>
+<span class="captionSize">0.229,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">25</span>
+</span>
+<span class="caption">
+<span class="points">6.146,3.479 6.5,3.688</span>
+<span class="captionSize">0.354,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+BS</span>
+</span>
+<span class="caption">
+<span class="points">5.865,5.823 6.094,6.01</span>
+<span class="captionSize">0.229,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">38</span>
+</span>
+<span class="caption">
+<span class="points">6.146,5.938 6.583,6.156</span>
+<span class="captionSize">0.438,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND1</span>
+</span>
+<span class="caption">
+<span class="points">2.125,1.625 2.75,1.792</span>
+<span class="captionSize">0.625,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1 号 IG1</span>
+</span>
+<span class="caption">
+<span class="points">1.479,2.573 1.875,2.802</span>
+<span class="captionSize">0.396,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">AM1</span>
+</span>
+<span class="caption">
+<span class="points">2.083,2.302 2.479,2.531</span>
+<span class="captionSize">0.396,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1</span>
+</span>
+<span class="caption">
+<span class="points">2.51,2.302 2.719,2.5</span>
+<span class="captionSize">0.208,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5</span>
+</span>
+<span class="caption">
+<span class="points">2.677,2.531 3.031,2.719</span>
+<span class="captionSize">0.354,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">AM1</span>
+</span>
+<span class="caption">
+<span class="points">3.49,2.531 3.844,2.719</span>
+<span class="captionSize">0.354,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG1</span>
+</span>
+<span class="caption">
+<span class="points">3.802,2.302 4.01,2.5</span>
+<span class="captionSize">0.208,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">8</span>
+</span>
+<span class="caption">
+<span class="points">4.094,2.302 4.49,2.531</span>
+<span class="captionSize">0.396,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1</span>
+</span>
+<span class="caption">
+<span class="points">2.469,2.813 2.823,3</span>
+<span class="captionSize">0.354,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E9</span>
+</span>
+<span class="caption">
+<span class="points">2.469,2.958 3.615,3.135</span>
+<span class="captionSize">1.146,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">点火或起动机开关</span>
+</span>
+<span class="caption">
+<span class="points">0.615,2.917 0.823,3.115</span>
+<span class="captionSize">0.208,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">0.469,3.167 0.677,3.365</span>
+<span class="captionSize">0.208,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1E</span>
+</span>
+<span class="caption">
+<span class="points">0.656,3.625 1.292,3.792</span>
+<span class="captionSize">0.635,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2 号 ABS</span>
+</span>
+<span class="caption">
+<span class="points">0.635,4.115 1.01,4.313</span>
+<span class="captionSize">0.375,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ALT</span>
+</span>
+<span class="caption">
+<span class="points">0.865,4.896 1.24,5.094</span>
+<span class="captionSize">0.375,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">AM2</span>
+</span>
+<span class="caption">
+<span class="points">0.469,5.271 0.677,5.469</span>
+<span class="captionSize">0.208,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1G</span>
+</span>
+<span class="caption">
+<span class="points">0.625,5.729 1.396,5.938</span>
+<span class="captionSize">0.771,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">FL MAIN</span>
+</span>
+<span class="caption">
+<span class="points">0.75,6.271 1.26,6.469</span>
+<span class="captionSize">0.51,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">蓄电池</span>
+</span>
+<span class="caption">
+<span class="points">1.594,3.49 1.802,3.688</span>
+<span class="captionSize">0.208,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">1.594,4.76 1.802,4.969</span>
+<span class="captionSize">0.208,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">1.979,4.656 2.188,4.833</span>
+<span class="captionSize">0.208,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*2</span>
+</span>
+<span class="caption">
+<span class="points">2.406,4.531 2.615,4.708</span>
+<span class="captionSize">0.208,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">2.323,4.76 2.625,4.948</span>
+<span class="captionSize">0.302,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E47</span>
+</span>
+<span class="caption">
+<span class="points">2.708,4.76 3.01,4.948</span>
+<span class="captionSize">0.302,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+B</span>
+</span>
+<span class="caption">
+<span class="points">3.396,4.76 3.76,4.938</span>
+<span class="captionSize">0.365,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG1D</span>
+</span>
+<span class="caption">
+<span class="points">3.844,4.76 4.208,4.938</span>
+<span class="captionSize">0.365,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E49</span>
+</span>
+<span class="caption">
+<span class="points">3.938,4.531 4.302,4.708</span>
+<span class="captionSize">0.365,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">6</span>
+</span>
+<span class="caption">
+<span class="points">4.26,4.667 4.625,4.844</span>
+<span class="captionSize">0.365,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*2</span>
+</span>
+<span class="caption">
+<span class="points">1.938,5.156 3.969,5.323</span>
+<span class="captionSize">2.031,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">认证 ECU（智能钥匙 ECU 总成）</span>
+</span>
+<span class="caption">
+<span class="points">1.948,3.833 3.927,4.01</span>
+<span class="captionSize">1.979,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">发动机室继电器盒和接线盒总成</span>
+</span>
+<span class="caption">
+<span class="points">0.823,5.271 1.031,5.469</span>
+<span class="captionSize">0.208,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">5.563,6.781 5.948,6.969</span>
+<span class="captionSize">0.385,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A41</span>
+</span>
+<span class="caption">
+<span class="points">5.073,7.031 7.167,7.198</span>
+<span class="captionSize">2.094,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">防滑控制 ECU（制动执行器总成）</span>
+</span>
+<span class="caption">
+<span class="points">1.594,6.781 3.469,6.948</span>
+<span class="captionSize">1.875,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1：不带智能进入和起动系统</span>
+</span>
+<span class="caption">
+<span class="points">1.573,7.125 3.302,7.292</span>
+<span class="captionSize">1.729,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*2：带智能进入和起动系统</span>
+</span>
+<span class="caption">
+<span class="points">1.146,3.365 1.354,3.563</span>
+<span class="captionSize">0.208,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">0.792,3.365 1,3.563</span>
+<span class="captionSize">0.208,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000D7XY_03" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>进行下列程序前，先检查与此系统相关电路的保险丝。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000D7XY_06" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000D7XY_06_0015">
+<div class="testtitle"><span class="titleText">1.检查蓄电池</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查蓄电池电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><p>11 至 14 V
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XY_06_0015_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">2.检查线束和连接器（电源端子）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">检查或更换充电系统零部件或蓄电池</span></div>
+<div class="content6">
+<p>1ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;1ZR-FE 蓄电池/充电系统&gt;充电系统&gt;车上检查<span class="invisible">201406,999999,_57,_023957,_0116645,RM100000000DATR,</span></a>
+
+</p>
+<p>4ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;4ZR-FE 蓄电池/充电系统&gt;充电系统&gt;车上检查<span class="invisible">201406,999999,_57,_023974,_0116651,RM100000000DAV9,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XY_06_0016">
+<div class="testtitle"><span class="titleText">2.检查线束和连接器（电源端子）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C278421.png" alt="C278421" title="C278421">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.104,0.833 0.51,1.063</span>
+<span class="rectangleSize">0.406,0.229</span>
+</span>
+<span class="line">
+<span class="points">1.167,1.51 0.885,0.813</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.719,1.469 2.938,0.76</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">0.313,2.396 0.625,1.615</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.125,0.135 0.438,0.333</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.667,0.646 0.979,0.844</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG1</span>
+</span>
+<span class="caption">
+<span class="points">2.979,0.667 3.375,0.854</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND1</span>
+</span>
+<span class="caption">
+<span class="points">0.188,0.844 0.563,1.052</span>
+<span class="captionSize">0.375,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A41</span>
+</span>
+<span class="caption">
+<span class="points">0.073,2.406 0.448,2.615</span>
+<span class="captionSize">0.375,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+BS</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>线束连接器前视图
+<br>
+（至防滑控制 ECU（制动执行器总成））
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>确保连接器的锁止件和连接部件没有松动。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>断开防滑控制 ECU（制动执行器总成）连接器 A41。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A41-25 (+BS) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">A41-25 (+BS) - A41-38 (GND1)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">A41-28 (IG1) - 车身接地
+</td>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">A41-28 (IG1) - A41-38 (GND1)
+</td>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XY_06_0016_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">正常
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">异常（+BS 电路）
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+<tr>
+<td class="alleft">异常（IG1 电路）
+</td>
+<td class="alcenter">C
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">3.检查线束和连接器（端子 GND1）</span></div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">5.检查线束和连接器（制动执行器总成 - 发动机室继电器盒和接线盒总成）</span></div>
+<div class="judgeValueEnd"><p>C
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器（IG1 电路）</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XY_06_0019">
+<div class="testtitle"><span class="titleText">3.检查线束和连接器（端子 GND1）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C278421.png" alt="C278421" title="C278421">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.094,0.823 0.542,1.083</span>
+<span class="rectangleSize">0.448,0.26</span>
+</span>
+<span class="line">
+<span class="points">2.719,1.469 2.552,0.771</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.125,0.135 0.438,0.333</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">2.167,0.615 2.563,0.802</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND1</span>
+</span>
+<span class="caption">
+<span class="points">0.198,0.844 0.573,1.052</span>
+<span class="captionSize">0.375,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A41</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>线束连接器前视图
+<br>
+（至防滑控制 ECU（制动执行器总成））
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A41-38 (GND1) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XY_06_0019_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">4.重新确认 DTC</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器（GND1 电路）</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XY_06_0020">
+<div class="testtitle"><span class="titleText">4.重新确认 DTC</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>重新连接防滑控制 ECU（制动执行器总成）连接器 A41。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XC,</span></a>
+
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>进行路试。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>检查是否输出相同 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XC,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XY_06_0020_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">未输出 DTC C1241。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">输出 DTC C1241。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果根据故障症状表已进行了故障排除，则在更换零件前请再次参考该表并转至下一步。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;故障症状表<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7X9,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">使用模拟法进行检查</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;如何对 ECU 控制系统进行故障排除&gt;如何进行故障排除<span class="invisible">201406,999999,_V1,_023977,_0116737,RM100000000DB86,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换制动执行器总成</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;制动执行器&gt;拆卸<span class="invisible">201406,999999,_54,_023990,_0116355,RM100000000D9DF,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XY_06_0024">
+<div class="testtitle"><span class="titleText">5.检查线束和连接器（制动执行器总成 - 发动机室继电器盒和接线盒总成）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>断开发动机室继电器盒和接线盒总成连接器 1G。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A41-25 (+BS) - 1G-1
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>即使防滑控制 ECU（制动执行器总成）和发动机室继电器盒和接线盒总成之间的电阻正常，蓄电池和发动机室继电器盒和接线盒总成之间线束的电阻也可能异常。 因此，更换防滑控制 ECU（制动执行器总成）前，确保检查蓄电池和发动机室继电器盒和接线盒总成之间的电路。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果根据故障症状表已进行了故障排除，则在更换零件前请再次参考该表并转至下一步。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;故障症状表<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7X9,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XY_06_0024_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>正常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换制动执行器总成</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;制动执行器&gt;拆卸<span class="invisible">201406,999999,_54,_023990,_0116355,RM100000000D9DF,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或发动机室继电器盒和接线盒总成</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

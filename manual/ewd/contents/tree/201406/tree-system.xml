@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <book id="S-EG">
+    <name>发动机/混合动力系统</name>
+    <note id="SYS019" icon="P" file="T">
+      <name>冷却风扇（GTMC 制造）</name>
+    </note>
+    <note id="SYS020" icon="P" file="T">
+      <name>冷却风扇（TFTM 制造）</name>
+    </note>
+    <note id="SYS021" icon="P" file="T">
+      <name>巡航控制（GTMC 制造）</name>
+    </note>
+    <note id="SYS022" icon="P" file="T">
+      <name>巡航控制（TFTM 制造）</name>
+    </note>
+    <note id="SYS023" icon="P" file="T">
+      <name>发动机控制（GTMC 制造）</name>
+    </note>
+    <note id="SYS024" icon="P" file="T">
+      <name>发动机控制（TFTM 制造）</name>
+    </note>
+    <note id="SYS025" icon="P" file="T">
+      <name>点火（GTMC 制造）</name>
+    </note>
+    <note id="SYS026" icon="P" file="T">
+      <name>点火（TFTM 制造）</name>
+    </note>
+    <note id="SYS027" icon="P" file="T">
+      <name>起动（带智能进入和起动系统）（GTMC 制造）</name>
+    </note>
+    <note id="SYS028" icon="P" file="T">
+      <name>起动（带智能进入和起动系统）（TFTM 制造）</name>
+    </note>
+    <note id="SYS029" icon="P" file="T">
+      <name>起动（不带智能进入和起动系统）（GTMC 制造）</name>
+    </note>
+    <note id="SYS030" icon="P" file="T">
+      <name>起动（不带智能进入和起动系统）（TFTM 制造）</name>
+    </note>
+  </book>
+  <book id="S-DR">
+    <name>动力传动系</name>
+    <note id="SYS015" icon="P" file="T">
+      <name>CVT 和换档指示灯（GTMC 制造）</name>
+    </note>
+    <note id="SYS016" icon="P" file="T">
+      <name>CVT 和换档指示灯（TFTM 制造）</name>
+    </note>
+    <note id="SYS017" icon="P" file="T">
+      <name>换档锁止（GTMC 制造）</name>
+    </note>
+    <note id="SYS018" icon="P" file="T">
+      <name>换档锁止（TFTM 制造）</name>
+    </note>
+  </book>
+  <book id="S-BK">
+    <name>制动器</name>
+    <note id="SYS009" icon="P" file="T">
+      <name>ABS（GTMC 制造）</name>
+    </note>
+    <note id="SYS010" icon="P" file="T">
+      <name>ABS（TFTM 制造）</name>
+    </note>
+    <note id="SYS011" icon="P" file="T">
+      <name>TRC（GTMC 制造）</name>
+    </note>
+    <note id="SYS012" icon="P" file="T">
+      <name>TRC（TFTM 制造）</name>
+    </note>
+    <note id="SYS013" icon="P" file="T">
+      <name>VSC（GTMC 制造）</name>
+    </note>
+    <note id="SYS014" icon="P" file="T">
+      <name>VSC（TFTM 制造）</name>
+    </note>
+  </book>
+  <book id="S-ST">
+    <name>转向</name>
+    <note id="SYS117" icon="P" file="T">
+      <name>EPS (1ZR-FE)（TFTM 制造）</name>
+    </note>
+    <note id="SYS118" icon="P" file="T">
+      <name>EPS (2ZR-FE)（TFTM 制造）</name>
+    </note>
+    <note id="SYS119" icon="P" file="T">
+      <name>EPS (4ZR-FE)（GTMC 制造）</name>
+    </note>
+    <note id="SYS120" icon="P" file="T">
+      <name>EPS (7ZR-FE)（GTMC 制造）</name>
+    </note>
+    <note id="SYS121" icon="P" file="T">
+      <name>转向锁（GTMC 制造）</name>
+    </note>
+    <note id="SYS122" icon="P" file="T">
+      <name>转向锁（TFTM 制造）</name>
+    </note>
+  </book>
+  <book id="S-AV">
+    <name>音频/视频/车载通信系统</name>
+    <note id="SYS001" icon="P" file="T">
+      <name>音响系统（GTMC 制造）</name>
+    </note>
+    <note id="SYS002" icon="P" file="T">
+      <name>音响系统（TFTM 制造）</name>
+    </note>
+    <note id="SYS003" icon="P" file="T">
+      <name>导航系统（GTMC 制造）</name>
+    </note>
+    <note id="SYS004" icon="P" file="T">
+      <name>导航系统（TFTM 制造）</name>
+    </note>
+    <note id="SYS005" icon="P" file="T">
+      <name>后视野监视系统（GTMC 制造）</name>
+    </note>
+    <note id="SYS006" icon="P" file="T">
+      <name>后视野监视系统（TFTM 制造）</name>
+    </note>
+    <note id="SYS007" icon="P" file="T">
+      <name>丰田驻车辅助传感器系统（GTMC 制造）</name>
+    </note>
+    <note id="SYS008" icon="P" file="T">
+      <name>丰田驻车辅助传感器系统（TFTM 制造）</name>
+    </note>
+  </book>
+  <book id="S-PS">
+    <name>电源/网络</name>
+    <note id="SYS109" icon="P" file="T">
+      <name>充电（GTMC 制造）</name>
+    </note>
+    <note id="SYS110" icon="P" file="T">
+      <name>充电（TFTM 制造）</name>
+    </note>
+    <note id="SYS111" icon="P" file="T">
+      <name>DLC3（GTMC 制造）</name>
+    </note>
+    <note id="SYS112" icon="P" file="T">
+      <name>DLC3（TFTM 制造）</name>
+    </note>
+    <note id="SYS113" icon="P" file="T">
+      <name>多路通信系统 (CAN)（GTMC 制造）</name>
+    </note>
+    <note id="SYS114" icon="P" file="T">
+      <name>多路通信系统 (CAN)（TFTM 制造）</name>
+    </note>
+    <note id="SYS115" icon="P" file="T">
+      <name>电源（GTMC 制造）</name>
+    </note>
+    <note id="SYS116" icon="P" file="T">
+      <name>电源（TFTM 制造）</name>
+    </note>
+    <note id="SYS123" icon="P" file="T">
+      <name>接地点（TFTM 制造）</name>
+    </note>
+    <note id="SYS124" icon="P" file="T">
+      <name>接地点（GTMC 制造）</name>
+    </note>
+  </book>
+  <book id="S-IN">
+    <name>车辆内饰</name>
+    <note id="SYS067" icon="P" file="T">
+      <name>自动空调（GTMC 制造）</name>
+    </note>
+    <note id="SYS068" icon="P" file="T">
+      <name>自动空调（TFTM 制造）</name>
+    </note>
+    <note id="SYS069" icon="P" file="T">
+      <name>点烟器（GTMC 制造）</name>
+    </note>
+    <note id="SYS070" icon="P" file="T">
+      <name>点烟器（TFTM 制造）</name>
+    </note>
+    <note id="SYS071" icon="P" file="T">
+      <name>时钟（GTMC 制造）</name>
+    </note>
+    <note id="SYS072" icon="P" file="T">
+      <name>时钟（TFTM 制造）</name>
+    </note>
+    <note id="SYS073" icon="P" file="T">
+      <name>组合仪表（带 TFT 显示屏）（GTMC 制造）</name>
+    </note>
+    <note id="SYS074" icon="P" file="T">
+      <name>组合仪表（带 TFT 显示屏）（TFTM 制造）</name>
+    </note>
+    <note id="SYS075" icon="P" file="T">
+      <name>组合仪表（不带 TFT 显示屏）（GTMC 制造）</name>
+    </note>
+    <note id="SYS076" icon="P" file="T">
+      <name>组合仪表（不带 TFT 显示屏）（TFTM 制造）</name>
+    </note>
+    <note id="SYS077" icon="P" file="T">
+      <name>门锁控制（GTMC 制造）</name>
+    </note>
+    <note id="SYS078" icon="P" file="T">
+      <name>门锁控制（TFTM 制造）</name>
+    </note>
+    <note id="SYS079" icon="P" file="T">
+      <name>照明（GTMC 制造）</name>
+    </note>
+    <note id="SYS080" icon="P" file="T">
+      <name>照明（TFTM 制造）</name>
+    </note>
+    <note id="SYS081" icon="P" file="T">
+      <name>停机系统（带智能进入和起动系统）（GTMC 制造）</name>
+    </note>
+    <note id="SYS082" icon="P" file="T">
+      <name>停机系统（带智能进入和起动系统）（TFTM 制造）</name>
+    </note>
+    <note id="SYS083" icon="P" file="T">
+      <name>停机系统（不带智能进入和起动系统）（GTMC 制造）</name>
+    </note>
+    <note id="SYS084" icon="P" file="T">
+      <name>停机系统（不带智能进入和起动系统）（TFTM 制造）</name>
+    </note>
+    <note id="SYS085" icon="P" file="T">
+      <name>车内照明灯（GTMC 制造）</name>
+    </note>
+    <note id="SYS086" icon="P" file="T">
+      <name>车内照明灯（TFTM 制造）</name>
+    </note>
+    <note id="SYS087" icon="P" file="T">
+      <name>钥匙提醒（不带智能进入和起动系统）（GTMC 制造）</name>
+    </note>
+    <note id="SYS088" icon="P" file="T">
+      <name>钥匙提醒（不带智能进入和起动系统）（TFTM 制造）</name>
+    </note>
+    <note id="SYS089" icon="P" file="T">
+      <name>手动空调（GTMC 制造）</name>
+    </note>
+    <note id="SYS090" icon="P" file="T">
+      <name>手动空调（TFTM 制造）</name>
+    </note>
+    <note id="SYS091" icon="P" file="T">
+      <name>电动座椅（GTMC 制造）</name>
+    </note>
+    <note id="SYS092" icon="P" file="T">
+      <name>电动座椅（TFTM 制造）</name>
+    </note>
+    <note id="SYS093" icon="P" file="T">
+      <name>PTC 加热器（带自动空调）（GTMC 制造）</name>
+    </note>
+    <note id="SYS094" icon="P" file="T">
+      <name>PTC 加热器（带自动空调）（TFTM 制造）</name>
+    </note>
+    <note id="SYS095" icon="P" file="T">
+      <name>PTC 加热器（带手动空调）（GTMC 制造）</name>
+    </note>
+    <note id="SYS096" icon="P" file="T">
+      <name>PTC 加热器（带手动空调）（TFTM 制造）</name>
+    </note>
+    <note id="SYS097" icon="P" file="T">
+      <name>座椅安全带警告（GTMC 制造）</name>
+    </note>
+    <note id="SYS098" icon="P" file="T">
+      <name>座椅安全带警告（TFTM 制造）</name>
+    </note>
+    <note id="SYS099" icon="P" file="T">
+      <name>座椅加热器（TFTM 制造）</name>
+    </note>
+    <note id="SYS100" icon="P" file="T">
+      <name>智能进入和起动系统（GTMC 制造）</name>
+    </note>
+    <note id="SYS101" icon="P" file="T">
+      <name>智能进入和起动系统（TFTM 制造）</name>
+    </note>
+    <note id="SYS102" icon="P" file="T">
+      <name>SRS（GTMC 制造）</name>
+    </note>
+    <note id="SYS103" icon="P" file="T">
+      <name>SRS（TFTM 制造）</name>
+    </note>
+    <note id="SYS104" icon="P" file="T">
+      <name>防盗（TFTM 制造）</name>
+    </note>
+    <note id="SYS105" icon="P" file="T">
+      <name>无线门锁控制（带智能进入和起动系统）（GTMC 制造）</name>
+    </note>
+    <note id="SYS106" icon="P" file="T">
+      <name>无线门锁控制（带智能进入和起动系统）（TFTM 制造）</name>
+    </note>
+    <note id="SYS107" icon="P" file="T">
+      <name>无线门锁控制（不带智能进入和起动系统）（GTMC 制造）</name>
+    </note>
+    <note id="SYS108" icon="P" file="T">
+      <name>无线门锁控制（不带智能进入和起动系统）（TFTM 制造）</name>
+    </note>
+  </book>
+  <book id="S-EX">
+    <name>车辆外饰</name>
+    <note id="SYS031" icon="P" file="T">
+      <name>自动灯光控制（GTMC 制造）</name>
+    </note>
+    <note id="SYS032" icon="P" file="T">
+      <name>自动灯光控制（TFTM 制造）</name>
+    </note>
+    <note id="SYS033" icon="P" file="T">
+      <name>倒车灯（GTMC 制造）</name>
+    </note>
+    <note id="SYS034" icon="P" file="T">
+      <name>倒车灯（TFTM 制造）</name>
+    </note>
+    <note id="SYS035" icon="P" file="T">
+      <name>前雾灯（GTMC 制造）</name>
+    </note>
+    <note id="SYS036" icon="P" file="T">
+      <name>前雾灯（TFTM 制造）</name>
+    </note>
+    <note id="SYS037" icon="P" file="T">
+      <name>前刮水器和清洗器（GTMC 制造）</name>
+    </note>
+    <note id="SYS038" icon="P" file="T">
+      <name>前刮水器和清洗器（TFTM 制造）</name>
+    </note>
+    <note id="SYS039" icon="P" file="T">
+      <name>大灯（GTMC 制造）</name>
+    </note>
+    <note id="SYS040" icon="P" file="T">
+      <name>大灯（TFTM 制造）</name>
+    </note>
+    <note id="SYS041" icon="P" file="T">
+      <name>大灯光束高度控制（GTMC 制造）</name>
+    </note>
+    <note id="SYS042" icon="P" file="T">
+      <name>大灯光束高度控制（TFTM 制造）</name>
+    </note>
+    <note id="SYS043" icon="P" file="T">
+      <name>喇叭（GTMC 制造）</name>
+    </note>
+    <note id="SYS044" icon="P" file="T">
+      <name>喇叭（TFTM 制造）</name>
+    </note>
+    <note id="SYS045" icon="P" file="T">
+      <name>车灯自动熄灭系统（GTMC 制造）</name>
+    </note>
+    <note id="SYS046" icon="P" file="T">
+      <name>车灯自动熄灭系统（TFTM 制造）</name>
+    </note>
+    <note id="SYS047" icon="P" file="T">
+      <name>车灯提醒器（GTMC 制造）</name>
+    </note>
+    <note id="SYS048" icon="P" file="T">
+      <name>车灯提醒器（TFTM 制造）</name>
+    </note>
+    <note id="SYS049" icon="P" file="T">
+      <name>后视镜加热器（TFTM 制造）</name>
+    </note>
+    <note id="SYS050" icon="P" file="T">
+      <name>电动车窗（GTMC 制造）</name>
+    </note>
+    <note id="SYS051" icon="P" file="T">
+      <name>电动车窗（TFTM 制造）</name>
+    </note>
+    <note id="SYS052" icon="P" file="T">
+      <name>后雾灯（GTMC 制造）</name>
+    </note>
+    <note id="SYS053" icon="P" file="T">
+      <name>后雾灯（TFTM 制造）</name>
+    </note>
+    <note id="SYS054" icon="P" file="T">
+      <name>后窗除雾器（GTMC 制造）</name>
+    </note>
+    <note id="SYS055" icon="P" file="T">
+      <name>后窗除雾器（TFTM 制造）</name>
+    </note>
+    <note id="SYS056" icon="P" file="T">
+      <name>遥控后视镜（GTMC 制造）</name>
+    </note>
+    <note id="SYS057" icon="P" file="T">
+      <name>遥控后视镜（带卷收器）（TFTM 制造）</name>
+    </note>
+    <note id="SYS058" icon="P" file="T">
+      <name>遥控后视镜（不带卷收器）（TFTM 制造）</name>
+    </note>
+    <note id="SYS059" icon="P" file="T">
+      <name>滑动天窗（GTMC 制造）</name>
+    </note>
+    <note id="SYS060" icon="P" file="T">
+      <name>滑动天窗（TFTM 制造）</name>
+    </note>
+    <note id="SYS061" icon="P" file="T">
+      <name>刹车灯（GTMC 制造）</name>
+    </note>
+    <note id="SYS062" icon="P" file="T">
+      <name>刹车灯（TFTM 制造）</name>
+    </note>
+    <note id="SYS063" icon="P" file="T">
+      <name>尾灯（GTMC 制造）</name>
+    </note>
+    <note id="SYS064" icon="P" file="T">
+      <name>尾灯（TFTM 制造）</name>
+    </note>
+    <note id="SYS065" icon="P" file="T">
+      <name>转向信号和危险警告灯（GTMC 制造）</name>
+    </note>
+    <note id="SYS066" icon="P" file="T">
+      <name>转向信号和危险警告灯（TFTM 制造）</name>
+    </note>
+  </book>
+</EwdTree>

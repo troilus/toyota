@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="WR012">
+    <part type="conn" code="A3">
+      <name>加速踏板传感器总成</name>
+    </part>
+    <part type="conn" code="L49">
+      <name>空气囊 ECU 总成</name>
+    </part>
+    <part type="conn" code="L15">
+      <name>空气囊 ECU 总成</name>
+    </part>
+    <part type="conn" code="F2">
+      <name>自动灯光控制传感器</name>
+    </part>
+    <part type="conn" code="F3">
+      <name>时钟总成</name>
+    </part>
+    <part type="conn" code="A5">
+      <name>离合器起动开关总成</name>
+    </part>
+    <part type="conn" code="A4">
+      <name>离合器起动开关总成</name>
+    </part>
+    <part type="conn" code="F1">
+      <name>冷却器（阳光传感器）热敏电阻</name>
+    </part>
+    <part type="conn" code="A39">
+      <name>1 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="L21">
+      <name>车内 1 号电子钥匙天线总成</name>
+    </part>
+    <part type="conn" code="A37">
+      <name>1 号接线连接器</name>
+    </part>
+    <part type="conn" code="A38">
+      <name>2 号接线连接器</name>
+    </part>
+    <part type="conn" code="L19">
+      <name>驻车制动开关总成</name>
+    </part>
+    <part type="conn" code="A27">
+      <name>动力转向 ECU 总成</name>
+    </part>
+    <part type="conn" code="A28">
+      <name>动力转向 ECU 总成</name>
+    </part>
+    <part type="conn" code="A12">
+      <name>快速加热器总成</name>
+    </part>
+    <part type="conn" code="A11">
+      <name>快速加热器总成</name>
+    </part>
+    <part type="conn" code="A1">
+      <name>刹车灯开关总成</name>
+    </part>
+    <part type="conn" code="A2">
+      <name>刹车灯开关总成</name>
+    </part>
+  </ttl>
+</EWDSearch>

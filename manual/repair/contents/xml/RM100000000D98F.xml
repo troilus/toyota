@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_59">
+<name>车辆外饰</name>
+<section id="_024019">
+<name>刮水器/清洗器</name>
+<ttl id="_0116336">
+<name>刮水器和清洗器系统</name>
+<para category="Y" id="RM100000000D98F">
+<dtccode/>
+<dtcname>如何进行故障排除</dtcname>
+<subpara category="10" id="RM100000000D98F_02">
+<name>注意/小心/提示</name>
+<content5>
+<atten4>
+<ptxt>按照以下程序对刮水器和清洗器系统进行故障排除。</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D98F_01">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D98F_01_0001">
+<testtitle>车辆送入修理车间</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D98F_01_0002"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D98F_01_0002">
+<testtitle>客户故障分析和症状检查</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D98F_01_0013"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D98F_01_0013">
+<testtitle>检查蓄电池电压</testtitle>
+<content6>
+<test1>
+<ptxt>测量蓄电池电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<specitem>
+<ptxt>11 至 14 V</ptxt>
+</specitem>
+</spec>
+<ptxt>如果电压低于 11 V，则在转至下一步前对蓄电池再充电或更换蓄电池。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D98F_01_0004"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D98F_01_0004">
+<testtitle>故障症状表</testtitle>
+<content6>
+<test1>
+<ptxt>请参考故障症状表。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D98G" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>故障未列于故障症状表中</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>故障列于故障症状表中</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000D98F_01_0008"/>
+</result>
+<result cellposition="4-2" label="2">
+<action actiontype="end" cellposition="5-2">
+<actiontitle>转至故障症状表</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D98G" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000D98F_01_0008">
+<testtitle>总体分析和故障排除</testtitle>
+<content6>
+<test1>
+<ptxt>检查</ptxt>
+</test1>
+<test1>
+<ptxt>车上检查</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="next" cellposition="6-1" childid="RM100000000D98F_01_0009"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-1" id="RM100000000D98F_01_0009">
+<testtitle>调节、维修或更换</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-1" label="1">
+<action actiontype="next" cellposition="7-1" childid="RM100000000D98F_01_0010"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-1" id="RM100000000D98F_01_0010">
+<testtitle>确认测试</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-1" label="1">
+<action actiontype="end" cellposition="8-1">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

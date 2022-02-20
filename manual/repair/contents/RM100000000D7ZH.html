@@ -1,0 +1,377 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_54</span>
+<span class="globalServcatName">制动</span>
+<span class="globalSection">_023990</span>
+<span class="globalSectionName">制动控制/动态控制系统</span>
+<span class="globalTitle">_0116082</span>
+<span class="globalTitleName">车辆稳定性控制系统</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>制动控制/动态控制系统&nbsp;&nbsp;车辆稳定性控制系统&nbsp;&nbsp;C1288&nbsp;&nbsp;ECU 匹配错误&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D7ZH_01" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<p>VSC 系统中的先前学习值与来自 ECM 的发动机信息不一致时，或用新的防滑控制 ECU（制动执行器总成）更换后未完成学习时，防滑控制 ECU（制动执行器总成）存储该 DTC。
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:25%">
+<col style="width:39%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">C1288
+</td>
+<td class="alleft">ECU 匹配错误
+</td>
+<td class="alleft">ECM 不匹配。
+</td>
+<td class="alleft">ECM
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000D7ZH_07" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000D7ZH_07_0001">
+<div class="testtitle"><span class="titleText">1.检查 CAN 通信系统</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查是否输出 CAN 通信系统 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;诊断系统<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UU,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7ZH_07_0001_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">未输出 DTC。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">输出 DTC。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.执行系统校准学习</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">检查 CAN 通信系统</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;如何进行故障排除<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UM,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7ZH_07_0003">
+<div class="testtitle"><span class="titleText">2.执行系统校准学习</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>执行系统校准学习。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;校准<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7YG,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进入测试模式后立即自动执行系统校准学习。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果尚未进行学习，则打滑指示灯将一直亮且存储 DTC C1288。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果系统校准学习失败，则警告灯将不以测试模式下的闪烁模式闪烁且不会清除 DTC C1288。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7ZH_07_0003_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">3.重新确认 DTC</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7ZH_07_0004">
+<div class="testtitle"><span class="titleText">3.重新确认 DTC</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7YE,</span></a>
+
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>检查是否输出相同 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7YE,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7ZH_07_0004_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">未输出 DTC C1288。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td>输出 DTC C1288。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果根据故障症状表已进行了故障排除，则在更换零件前请再次参考该表并转至下一步。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;故障症状表<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7ZC,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">结束</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换 ECM</span></div>
+<div class="content6">
+<p>2ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;ECM&gt;拆卸<span class="invisible">201406,999999,_51,_023958,_0129805,RM100000000ETKN,</span></a>
+
+</p>
+<p>7ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;7ZR-FE 发动机控制系统&gt;ECM&gt;拆卸<span class="invisible">201406,999999,_51,_025035,_0129835,RM100000000ETNS,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

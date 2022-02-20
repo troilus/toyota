@@ -1,0 +1,455 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">发动机/混合动力系统</span>
+<span class="globalSection">_023966</span>
+<span class="globalSectionName">4ZR-FE 发动机控制系统</span>
+<span class="globalTitle">_0120142</span>
+<span class="globalTitleName">SFI 系统</span>
+<span class="globalCategory">D</span>
+</div>
+<h1>4ZR-FE 发动机控制系统&nbsp;&nbsp;SFI 系统&nbsp;&nbsp;诊断系统&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DQGJ_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">EURO-OBD（欧洲技术规范）
+</span></p>
+<br>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/F102324.png" alt="F102324" title="F102324">
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>对配备欧洲车载诊断系统 (Euro-OBD) 的车辆进行故障排除时，必须将车辆连接到 OBD 扫描工具上（符合 ISO 15765-4 标准）。然后即可读取自车辆 ECM 输出的各种数据。
+</p>
+<p>Euro-OBD 规范要求车辆的车载计算机在检测到下列部位出现故障时，点亮仪表板上的故障指示灯 (MIL)：
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>排放控制系统和零部件。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>影响车辆排放的传动系控制零部件。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>计算机本身。
+</p>
+</div>
+</div>
+</div>
+<br>
+<p>此外，ISO 15765-4 规定的相应诊断故障码 (DTC) 存储在 ECM 存储器中。如果在 3 个连续行程中故障未重复出现，则 MIL 会自动熄灭，但 DTC 仍存储在 ECM 存储器中。
+</p>
+<p>将 GTS 或 OBD 扫描工具连接到车辆上的数据链路连接器 3 (DLC3)，以检查 DTC。
+</p>
+<p>扫描工具显示 DTC、定格数据和各种发动机数据。
+</p>
+<p>可使用扫描工具清除 DTC 和定格数据。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 发动机控制系统&gt;SFI 系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_51,_023966,_0120142,RM100000000DQGK,</span></a>
+
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">正常模式和检查模式
+</span></p>
+<br>
+<p>在车辆正常使用过程中，诊断系统以正常模式运行。在正常模式下，使用双程检测逻辑以确保进行准确的故障检测。技师还可以选择检查模式。在检查模式下，单程检测逻辑用于再现故障症状并增强系统检测故障（包括间歇性故障）的能力（仅 GTS）。
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">双程检测逻辑
+</span></p>
+<br>
+<p>首次检测到故障时，该故障暂时存储在 ECM 存储器中（第一程）。如果在接下来的驾驶循环中检测出同样的故障，则 MIL 将会点亮（第二程）。
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">DLC3（数据链路连接器 3）
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>检查 DLC3。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;如何对 ECU 控制系统进行故障排除&gt;一般信息<span class="invisible">201406,999999,_V1,_023977,_0116737,RM100000000DB84,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">定格数据
+</span></p>
+<br>
+<p>存储 DTC 时，ECM 将车辆和驾驶条件信息记录为定格数据。进行故障排除时，定格数据有助于确定故障出现时车辆是运行还是停止，发动机是暖机还是未暖机，空燃比是浓还是稀，以及其他数据。
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">蓄电池电压
+</span></p>
+<br>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><p>11 至 14 V
+</p>
+</dd>
+</dl>
+<br>
+<p>如果电压低于 11 V，则在继续操作前对蓄电池再充电或更换蓄电池。
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">MIL（故障指示灯）
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>将点火开关置于 ON 位置（发动机未运转）时，MIL 点亮。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>发动机起动时 MIL 熄灭。如果 MIL 持续点亮，则诊断系统检测到系统故障或异常。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果点火开关置于 ON 位置时 MIL 不亮，则检查 MIL 电路。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 发动机控制系统&gt;SFI 系统&gt;MIL 电路<span class="invisible">201406,999999,_51,_023966,_0120142,RM100000000DQGS,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">一切就绪
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>出现&ldquo;一切就绪&rdquo;后，可以使用 GTS 检查 DTC 判断是否已完成。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>在模拟故障症状后检查&ldquo;一切就绪&rdquo;，或在完成修理后进行检查确认。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>清除 DTC。
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>将点火开关置于 OFF 位置并等待至少 30 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">f.</div>
+<div class="step2Body">
+<p>将点火开关置于 ON 位置并打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">g.</div>
+<div class="step2Body">
+<p>执行 DTC 判断行驶模式以运行 DTC 判断。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">h.</div>
+<div class="step2Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Powertrain &gt; Engine and ECT &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">All Readiness
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">234</span>
+<span class="gtsUtil">20</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">i.</div>
+<div class="step2Body">
+<p>输入待确认的 DTC。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">j.</div>
+<div class="step2Body">
+<p>检查 DTC 判断结果。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:29%">
+<col style="width:70%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS 显示
+</th>
+<th class="alcenter">描述
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>系统正常
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>系统异常
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">INCOMPLETE
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断未完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>确认 DTC 启动条件后，执行行驶模式
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">N/A
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>无法执行 DTC 判断
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>不满足 DTC 前提条件的 DTC 数量达到 ECU 存储器极限
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

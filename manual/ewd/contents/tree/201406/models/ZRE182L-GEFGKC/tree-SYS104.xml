@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS104" code="E48,E49" type="conn" figID="27">
+    <name>认证 ECU</name>
+  </text>
+  <text ewd="SYS104" code="L51" type="conn" figID="1">
+    <name>车门控制接收器</name>
+  </text>
+  <text ewd="SYS104" code="L1" type="conn" figID="17">
+    <name>左前车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS104" code="L41" type="conn" figID="16">
+    <name>右前车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS104" code="H9" type="conn" figID="11">
+    <name>带电动机的左前门锁总成</name>
+  </text>
+  <text ewd="SYS104" code="G8" type="conn" figID="12">
+    <name>带电动机的右前门锁总成</name>
+  </text>
+  <text ewd="SYS104" code="A24" type="conn" figID="22">
+    <name>高音喇叭总成</name>
+  </text>
+  <text ewd="SYS104" code="A34" type="conn" figID="9">
+    <name>发动机罩门控灯开关（发动机罩锁总成）</name>
+  </text>
+  <text ewd="SYS104" code="A21" type="conn" figID="8">
+    <name>低音喇叭总成</name>
+  </text>
+  <text ewd="SYS104" code="L30" type="conn" figID="13">
+    <name>行李厢门锁总成</name>
+  </text>
+  <text ewd="SYS104" code="E36,E37" type="conn" figID="3">
+    <name>主车身 ECU</name>
+  </text>
+  <text ewd="SYS104" code="A39" type="conn" figID="6">
+    <name>1 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS104" code="E74" type="conn" figID="25">
+    <name>2 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS104" code="L54,L55" type="conn" figID="26">
+    <name>7 号接线连接器</name>
+  </text>
+  <text ewd="SYS104" code="L2" type="conn" figID="14">
+    <name>左后车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS104" code="L42" type="conn" figID="15">
+    <name>右后车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS104" code="K3" type="conn" figID="2">
+    <name>带电动机的左后门锁总成</name>
+  </text>
+  <text ewd="SYS104" code="J3" type="conn" figID="10">
+    <name>带电动机的右后门锁总成</name>
+  </text>
+  <text ewd="SYS104" code="A22" type="conn" figID="7">
+    <name>警报喇叭总成</name>
+  </text>
+  <text ewd="SYS104" code="L52" type="conn" figID="24">
+    <name>智能车门控制接收器总成</name>
+  </text>
+  <text ewd="SYS104" code="E61" type="conn" figID="21">
+    <name>警告灯总成</name>
+  </text>
+  <text ewd="SYS104" code="FUSE5" type="fuse" figID="83,87">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS104" code="FUSE14" type="fuse" figID="86">
+    <name>10A HORN</name>
+  </text>
+  <text ewd="SYS104" code="FUSE16" type="fuse" figID="88">
+    <name>10A S-HORN</name>
+  </text>
+  <text ewd="SYS104" code="FUSE43" type="fuse" figID="85">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS104" code="FUSE47" type="fuse" figID="84">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS104" code="AC" type="gp" figID="71">
+    <name />
+  </text>
+  <text ewd="SYS104" code="EA" type="gp" figID="65,68">
+    <name />
+  </text>
+  <text ewd="SYS104" code="EB" type="gp" figID="64">
+    <name />
+  </text>
+  <text ewd="SYS104" code="EC" type="gp" figID="67">
+    <name />
+  </text>
+  <text ewd="SYS104" code="ED" type="gp" figID="72">
+    <name />
+  </text>
+  <text ewd="SYS104" code="LA" type="gp" figID="66">
+    <name />
+  </text>
+  <text ewd="SYS104" code="LB" type="gp" figID="70">
+    <name />
+  </text>
+  <text ewd="SYS104" code="LC" type="gp" figID="73,74">
+    <name />
+  </text>
+  <text ewd="SYS104" code="LD" type="gp" figID="69">
+    <name />
+  </text>
+  <text ewd="SYS104" code="3" type="jb" figID="34,35,36,37,38,39,40">
+    <name />
+  </text>
+  <text ewd="SYS104" code="1" type="rb" figID="5">
+    <name />
+  </text>
+  <text ewd="SYS104" code="4" type="rb" figID="4">
+    <name />
+  </text>
+  <text ewd="SYS104" code="FUSE5" type="rb" figID="20,23">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS104" code="FUSE14" type="rb" figID="19">
+    <name>10A HORN</name>
+  </text>
+  <text ewd="SYS104" code="FUSE16" type="rb" figID="18">
+    <name>10A S-HORN</name>
+  </text>
+  <text ewd="SYS104" code="SP4" type="sp" figID="81">
+    <name />
+  </text>
+  <text ewd="SYS104" code="SP16" type="sp" figID="76">
+    <name />
+  </text>
+  <text ewd="SYS104" code="SP20" type="sp" figID="82">
+    <name />
+  </text>
+  <text ewd="SYS104" code="SP22" type="sp" figID="79">
+    <name />
+  </text>
+  <text ewd="SYS104" code="SP29" type="sp" figID="78">
+    <name />
+  </text>
+  <text ewd="SYS104" code="SP30" type="sp" figID="80">
+    <name />
+  </text>
+  <text ewd="SYS104" code="SP36" type="sp" figID="75">
+    <name />
+  </text>
+  <text ewd="SYS104" code="SP37" type="sp" figID="77">
+    <name />
+  </text>
+  <text ewd="SYS104" code="AE2" type="w2w" figID="54,56">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS104" code="AE3" type="w2w" figID="52,62,63">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS104" code="AE4" type="w2w" figID="53,55">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS104" code="HE1" type="w2w" figID="47">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS104" code="HE3" type="w2w" figID="46">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS104" code="GE1" type="w2w" figID="45">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS104" code="GE3" type="w2w" figID="44">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS104" code="EL2" type="w2w" figID="43,57,58,59,60,61">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS104" code="EL4" type="w2w" figID="41,42">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS104" code="JL1" type="w2w" figID="48,49">
+    <name>后门 1 号线束和地板线束</name>
+  </text>
+  <text ewd="SYS104" code="KL1" type="w2w" figID="50,51">
+    <name>后门 2 号线束和地板线束</name>
+  </text>
+</EwdTree>

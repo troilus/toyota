@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS018">
+    <part type="conn" code="E12">
+      <name>钥匙互锁电磁阀</name>
+    </part>
+    <part type="conn" code="A38">
+      <name>2 号接线连接器</name>
+    </part>
+    <part type="conn" code="E7,E8">
+      <text>STP SLS+ SLS- E2 P IG ACC E KLS+</text>
+      <name>换档锁止控制 ECU（变速器地板式换档总成）</name>
+      <name type="inner">换档锁止电磁阀</name>
+      <name type="inner">P 位置检测开关</name>
+    </part>
+    <part type="conn" code="A1">
+      <name>刹车灯开关总成</name>
+    </part>
+    <part type="conn" code="A2">
+      <text>GND B OUT</text>
+      <name>刹车灯开关总成</name>
+    </part>
+    <part type="fuse" code="FUSE46">
+      <text>ECU-IG NO.3</text>
+    </part>
+    <part type="fuse" code="FUSE40">
+      <text>SFT LOCK-ACC</text>
+    </part>
+    <part type="fuse" code="FUSE54">
+      <text>STOP</text>
+    </part>
+  </ttl>
+</EWDSearch>

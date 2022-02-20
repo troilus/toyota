@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS031">
+    <part type="conn" code="F2">
+      <text>CLTB CLTS CLTE</text>
+      <name>自动灯光控制传感器</name>
+    </part>
+    <part type="conn" code="L1">
+      <name>左前车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="E15">
+      <text>H A EL T AUTO (*1)</text>
+      <name>大灯变光器开关总成</name>
+      <name type="inner">关闭</name>
+      <name type="inner">尾灯</name>
+      <name type="inner">大灯</name>
+      <name type="inner">灯光控制开关</name>
+    </part>
+    <part type="conn" code="E36">
+      <text>TAIL HEAD A CLTB CLTS CLTE ACC IG BECU GND1 TRLY HRLY FLCY</text>
+      <name>主车身 ECU</name>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="fuse" code="FUSE43">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE36">
+      <text>ALT</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>ECU-B NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE47">
+      <text>ECU-IG NO.4</text>
+    </part>
+    <part type="fuse" code="FUSE29">
+      <text>H-LP-MAIN</text>
+    </part>
+  </ttl>
+</EWDSearch>

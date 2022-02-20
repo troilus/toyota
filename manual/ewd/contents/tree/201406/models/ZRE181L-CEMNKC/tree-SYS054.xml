@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS054" code="E43" type="conn" figID="6">
+    <name>空调放大器总成</name>
+  </text>
+  <text ewd="SYS054" code="E20" type="conn" figID="2">
+    <name>空调控制总成</name>
+  </text>
+  <text ewd="SYS054" code="A40" type="conn" figID="8">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS054" code="E58" type="conn" figID="10">
+    <name>2 号加热器控制装置分总成</name>
+  </text>
+  <text ewd="SYS054" code="E71" type="conn" figID="9">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS054" code="L25" type="conn" figID="7">
+    <name>静噪滤波器（收音机设定调相器）</name>
+  </text>
+  <text ewd="SYS054" code="L8,Q1" type="conn" figID="5">
+    <name>后窗除雾器（背窗玻璃）</name>
+  </text>
+  <text ewd="SYS054" code="FUSE15" type="fuse" figID="24">
+    <name>10A MIR HTR</name>
+  </text>
+  <text ewd="SYS054" code="FUSE32" type="fuse" figID="26">
+    <name>50A DEF</name>
+  </text>
+  <text ewd="SYS054" code="FUSE49" type="fuse" figID="25,27">
+    <name>7.5A HTR-IG</name>
+  </text>
+  <text ewd="SYS054" code="AB" type="gp" figID="18">
+    <name />
+  </text>
+  <text ewd="SYS054" code="EB" type="gp" figID="21">
+    <name />
+  </text>
+  <text ewd="SYS054" code="EC" type="gp" figID="20">
+    <name />
+  </text>
+  <text ewd="SYS054" code="ED" type="gp" figID="22">
+    <name />
+  </text>
+  <text ewd="SYS054" code="QA" type="gp" figID="19">
+    <name />
+  </text>
+  <text ewd="SYS054" code="3" type="jb" figID="14,15">
+    <name />
+  </text>
+  <text ewd="SYS054" code="1" type="rb" figID="1">
+    <name />
+  </text>
+  <text ewd="SYS054" code="FUSE15" type="rb" figID="3">
+    <name>10A MIR HTR</name>
+  </text>
+  <text ewd="SYS054" code="FUSE32" type="rb" figID="4">
+    <name>50A DEF</name>
+  </text>
+  <text ewd="SYS054" code="SP3" type="sp" figID="23">
+    <name />
+  </text>
+  <text ewd="SYS054" code="AL2" type="w2w" figID="16">
+    <name>发动机室主线束和地板线束</name>
+  </text>
+  <text ewd="SYS054" code="AE2" type="w2w" figID="17">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+</EwdTree>

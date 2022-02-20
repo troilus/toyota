@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS003" code="B7" type="conn" figID="3">
+    <name>倒车灯开关总成</name>
+  </text>
+  <text ewd="SYS003" code="A42" type="conn" figID="14">
+    <name>制动执行器总成</name>
+  </text>
+  <text ewd="SYS003" code="E55" type="conn" figID="18">
+    <name>组合仪表总成</name>
+  </text>
+  <text ewd="SYS003" code="H1" type="conn" figID="6">
+    <name>左前 1 号扬声器总成</name>
+  </text>
+  <text ewd="SYS003" code="G1" type="conn" figID="7">
+    <name>右前 1 号扬声器总成</name>
+  </text>
+  <text ewd="SYS003" code="H7" type="conn" figID="19">
+    <name>左前 2 号扬声器总成</name>
+  </text>
+  <text ewd="SYS003" code="G6" type="conn" figID="20">
+    <name>右前 2 号扬声器总成</name>
+  </text>
+  <text ewd="SYS003" code="O4" type="conn" figID="8">
+    <name>阅读灯总成</name>
+  </text>
+  <text ewd="SYS003" code="E1,E2,E3,E4,E5,E6,E32,E33,E34,E35,X2,X3" type="conn" figID="16">
+    <name>导航接收器总成、无线电收音机和显示屏接收器总成、无线电收音机总成</name>
+  </text>
+  <text ewd="SYS003" code="X1" type="conn" figID="17">
+    <name>1 号立体声插座适配器总成</name>
+  </text>
+  <text ewd="SYS003" code="E74" type="conn" figID="13">
+    <name>2 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS003" code="B15" type="conn" figID="4">
+    <name>驻车/空档位置开关总成</name>
+  </text>
+  <text ewd="SYS003" code="L19" type="conn" figID="5">
+    <name>驻车制动开关总成</name>
+  </text>
+  <text ewd="SYS003" code="L36" type="conn" figID="12">
+    <name>左后扬声器总成</name>
+  </text>
+  <text ewd="SYS003" code="L35" type="conn" figID="10">
+    <name>右后扬声器总成</name>
+  </text>
+  <text ewd="SYS003" code="L29" type="conn" figID="11">
+    <name>后电视摄像机总成</name>
+  </text>
+  <text ewd="SYS003" code="E13,z6" type="conn" figID="2">
+    <name>螺旋电缆分总成、方向盘衬垫开关总成</name>
+  </text>
+  <text ewd="SYS003" code="z6" type="conn" figID="1">
+    <name>螺旋电缆分总成、方向盘衬垫开关总成</name>
+  </text>
+  <text ewd="SYS003" code="FUSE6" type="fuse" figID="66">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS003" code="FUSE20" type="fuse" figID="64">
+    <name>20A RADIO</name>
+  </text>
+  <text ewd="SYS003" code="FUSE39" type="fuse" figID="67">
+    <name>5A MET</name>
+  </text>
+  <text ewd="SYS003" code="FUSE43" type="fuse" figID="65">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS003" code="FUSE45" type="fuse" figID="62">
+    <name>7.5A ECU-IG NO.2</name>
+  </text>
+  <text ewd="SYS003" code="FUSE46" type="fuse" figID="63">
+    <name>7.5A ECU-IG NO.3</name>
+  </text>
+  <text ewd="SYS003" code="ED" type="gp" figID="58,59">
+    <name />
+  </text>
+  <text ewd="SYS003" code="3" type="jb" figID="24,25,26,27,28,29,30,31">
+    <name />
+  </text>
+  <text ewd="SYS003" code="FUSE6" type="rb" figID="15">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS003" code="FUSE20" type="rb" figID="9">
+    <name>20A RADIO</name>
+  </text>
+  <text ewd="SYS003" code="SP43" type="sp" figID="60">
+    <name />
+  </text>
+  <text ewd="SYS003" code="SP50" type="sp" figID="61">
+    <name />
+  </text>
+  <text ewd="SYS003" code="AE3" type="w2w" figID="34">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS003" code="AE4" type="w2w" figID="57">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS003" code="BA2" type="w2w" figID="32,33">
+    <name>发动机线束和发动机室主线束</name>
+  </text>
+  <text ewd="SYS003" code="HE3" type="w2w" figID="35,36">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS003" code="GE3" type="w2w" figID="37,38">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS003" code="EL1" type="w2w" figID="39,40,41,42,48,49,50,51">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS003" code="EX1" type="w2w" figID="52,53,54,55,56">
+    <name>仪表板线束和立体声部件 1 号线束</name>
+  </text>
+  <text ewd="SYS003" code="OE1" type="w2w" figID="43,44,45,46,47">
+    <name>车顶 1 号线束和仪表板线束</name>
+  </text>
+</EwdTree>

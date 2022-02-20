@@ -1,0 +1,403 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">发动机/混合动力系统</span>
+<span class="globalSection">_023981</span>
+<span class="globalSectionName">巡航控制系统</span>
+<span class="globalTitle">_0119997</span>
+<span class="globalTitleName">巡航控制系统</span>
+<span class="globalCategory">J</span>
+</div>
+<h1>巡航控制系统&nbsp;&nbsp;巡航控制系统&nbsp;&nbsp;巡航设定指示灯电路&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DPVJ_01" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM 通过 CAN 通信向组合仪表总成发送指示灯输出请求信号来打开巡航控制设定指示灯。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>巡航控制系统控制车速时，巡航控制设定指示灯点亮。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>巡航控制设定指示灯电路使用 CAN 通信。如果巡航控制设定指示灯工作不正常，则对该电路进行故障排除前检查 CAN 通信 DTC。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000DPVJ_06" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000DPVJ_06_0001">
+<div class="testtitle"><span class="titleText">1.使用 GTS 进行主动测试</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>进入以下菜单：Body Electrical / Combination Meter / Active Test。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>执行主动测试，检查巡航控制设定指示灯。
+</p>
+<dl class="gtsActiveTestTable hasAllTable">
+<dt class="gtsActiveTestTable">Body Electrical &gt; Combination Meter &gt; Active Test</dt>
+<dd class="gtsActiveTestTable">
+<table summary="active-test-table">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">控制范围
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Meter Display 1
+</td>
+<td class="alleft">多信息显示屏
+</td>
+<td class="alleft">OFF 或 All
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="gtsActiveTest">
+<dt class="gtsActiveTest">Body Electrical &gt; Combination Meter &gt; Active Test</dt>
+<dd class="gtsActiveTest">
+<table summary="active-test" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Meter Display 1
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsActiveTest gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50004</span>
+<span class="gtsEcu">122</span>
+<span class="gtsDid">7</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>多信息显示屏打开或关闭。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DPVJ_06_0001_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">2.使用 GTS 读取值（设定/滑行开关）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至仪表系统</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;仪表/显示屏&gt;仪表系统&gt;如何进行故障排除<span class="invisible">201406,999999,_58,_024007,_0116345,RM100000000D9CD,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DPVJ_06_0004">
+<div class="testtitle"><span class="titleText">2.使用 GTS 读取值（设定/滑行开关）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Cruise Control / Data List。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>根据 GTS 上的显示，读取数据表。
+</p>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Cruise Control &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">SET/COAST Switch
+</td>
+<td class="alleft">-/SET 开关信号
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：操作 -/SET 开关
+<br>
+OFF：松开 -/SET 开关
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Powertrain &gt; Cruise Control &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">SET/COAST Switch
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">237</span>
+<span class="gtsPid">22</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>操作巡航控制主开关（-/SET 开关）时，显示屏变化如上所示。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DPVJ_06_0004_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>正常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至故障症状表中所示的下一个可疑部位</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;巡航控制系统&gt;巡航控制系统&gt;故障症状表<span class="invisible">201406,999999,_51,_023981,_0119997,RM100000000DPV6,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换 ECM</span></div>
+<div class="content6">
+<p>2ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;ECM&gt;拆卸<span class="invisible">201406,999999,_51,_023958,_0129805,RM100000000ETKN,</span></a>
+
+</p>
+<p>7ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;7ZR-FE 发动机控制系统&gt;ECM&gt;拆卸<span class="invisible">201406,999999,_51,_025035,_0129835,RM100000000ETNS,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_56">
+<name>音频/视频/车载通信系统</name>
+<section id="_023999">
+<name>导航/多信息显示屏</name>
+<ttl id="_0116139">
+<name>导航系统</name>
+<para category="J" id="RM100000000D8DF">
+<dtccode/>
+<dtcname>灯光控制开关置于 ON 位置时显示屏不变暗</dtcname>
+<subpara category="10" id="RM100000000D8DF_04">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>根据车辆检查或保养期间更换的零件，可能需要执行初始化、注册或校准。 请参考导航系统的注意事项。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D4" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D8DF_03">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8DF_03_0008">
+<testtitle>检查图像质量设定</testtitle>
+<content6>
+<test1>
+<ptxt>将灯光控制开关置于 TAIL 或 HEAD 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>检查并确认显示屏调节画面上的日间画面设定设定为 ON。</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>日间画面设定设定为 ON。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>日间画面设定设定为 OFF。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>将日间画面设定切换至 OFF</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="next" cellposition="2-2" childid="RM100000000D8DF_03_0005"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-2" id="RM100000000D8DF_03_0005">
+<testtitle>检查车辆信号（工作情况检查）</testtitle>
+<content6>
+<test1>
+<ptxt>进入“Vehicle Signal Check Mode”画面。请参考工作情况检查中的检查车辆信号。</ptxt>
+<figure translate="I" type="1">
+<graphic graphicname="E225854" height="2.192421260in" width="3.434793307in"/>
+</figure>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D6" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>检查并确认显示随灯光控制开关的操作在 ON 和 OFF 之间变化。</ptxt>
+<spec type="other">
+<title>正常</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.07in"/>
+<colspec colname="col2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>灯光控制开关</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>TAIL 或 HEAT</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>ON</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>OFF</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>显示每秒更新一次。显示滞后于实际开关操作是正常的。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-2" label="1">
+<action actiontype="end" cellposition="3-2">
+<actiontitle>更换导航接收器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD7X" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="2-3" label="2">
+<action actiontype="end" cellposition="3-3">
+<actiontitle>转至故障症状表中所示的下一个可疑部位</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D3" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

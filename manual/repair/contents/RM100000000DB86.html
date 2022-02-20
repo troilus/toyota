@@ -1,0 +1,2084 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_V1</span>
+<span class="globalServcatName">概述</span>
+<span class="globalSection">_023977</span>
+<span class="globalSectionName">导言</span>
+<span class="globalTitle">_0116737</span>
+<span class="globalTitleName">如何对 ECU 控制系统进行故障排除</span>
+<span class="globalCategory">D</span>
+</div>
+<h1>导言&nbsp;&nbsp;如何对 ECU 控制系统进行故障排除&nbsp;&nbsp;如何进行故障排除&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DB86_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">操作流程
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>按下述程序进行故障排除。下述内容仅为故障排除的基本程序。首先确认该故障排除程序确实适用于该电路，然后再开始故障排除。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">1. 车辆送入修理车间
+</span></p>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">2. 客户故障分析
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>向客户询问故障发生时的条件和环境。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">3. 检查蓄电池电压
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>测量蓄电池电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><p>11 至 14 V
+</p>
+</dd>
+</dl>
+<br>
+<p>如果电压低于 11 V，则在转至下一步前对蓄电池再充电或更换蓄电池。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">4. 症状确认和 DTC（以及定格数据）检查
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>目视检查线束、连接器和保险丝是否出现开路和短路。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>发动机暖机至正常工作温度。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>确认故障症状和条件，并检查 DTC。
+</p>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">输出 DTC
+</td>
+<td class="alcenter">转至步骤 5
+</td>
+</tr>
+<tr>
+<td class="alcenter">未输出 DTC
+</td>
+<td class="alcenter">转至步骤 6
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">5. DTC 表
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>在 DTC 表中找到输出的 DTC。在故障部位一栏中查找可能的故障电路和/或零件。
+</p>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">转至步骤 7
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">6. 故障症状表
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>在故障症状表中找到故障症状。在可疑部位一栏中查找可能的故障电路和/或零件。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">7. 电路检查或零件检查
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>确定故障电路或零件。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">8. 调节、维修或更换
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>调节、维修或更换故障电路或零件。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">9. 确认测试
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>完成调节、维修或更换零部件后，确认故障不再出现。如果故障未重现，在与第一次发生故障时相同的条件和环境下进行确认测试。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>结束
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">客户故障分析
+</span></p>
+<br>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进行故障排除时，应确认故障症状已准确判明。应摒弃臆断以便作出准确的判断。为了查明故障症状，向客户询问故障发生时的症状和条件非常重要。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>收集尽可能多的信息以供参考。过去看似无关的故障可能也会有所帮助。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>以下 5 项是故障分析的要点：
+</p>
+<table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>何物
+</td>
+<td>车型、系统名称
+</td>
+</tr>
+<tr>
+<td>何时
+</td>
+<td>日期、时间、发生频率
+</td>
+</tr>
+<tr>
+<td>何地
+</td>
+<td>路况
+</td>
+</tr>
+<tr>
+<td>在什么条件下？
+</td>
+<td>驾驶条件、天气条件
+</td>
+</tr>
+<tr>
+<td>如何发生？
+</td>
+<td>故障症状
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">症状确认和诊断故障码
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>车辆的诊断系统具有以下功能。
+</p>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>第一项功能为诊断故障码 (DTC) 检查。DTC 是至 ECU 的信号电路无论何时出现故障时 ECU 存储器存储的代码。进行 DTC 检查时，技师可在故障排除过程中检查以往故障存储的 DTC。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>另一项功能是输入信号检查，它检查来自各个开关的信号是否被正确发送到 ECU。
+</p>
+<p>通过使用这些功能，可以缩小故障区域并进行更有效的故障排除。在车辆的以下系统中集成了诊断功能。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:15%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter" rowspan="2">系统
+</th>
+<th class="alcenter" colspan="5">症状确认和诊断故障码
+</th>
+</tr>
+<tr>
+<th class="alcenter">DTC 检查
+<br>
+（正常模式）
+</th>
+<th class="alcenter">DTC 检查
+<br>
+（检查模式）
+</th>
+<th class="alcenter">传感器检查/测试模式（输入信号检查）
+</th>
+<th class="alcenter">数据表
+</th>
+<th class="alcenter">主动测试
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">SFI 系统 (1ZR-FE)
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">点火系统 (1ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>SFI 系统 (2ZR-FE)
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td>点火系统 (2ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">SFI 系统 (4ZR-FE)
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">点火系统 (4ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">SFI 系统 (7ZR-FE)
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">点火系统 (7ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>燃油系统 (1ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>燃油系统 (2ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">燃油系统 (4ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">燃油系统 (7ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>排放控制系统 (1ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>排放控制系统 (2ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">排放控制系统 (4ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">排放控制系统 (7ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>进气系统 (1ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>进气系统 (2ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">进气系统 (4ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">进气系统 (7ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>冷却风扇系统 (1ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>冷却风扇系统 (2ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">冷却风扇系统 (4ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">冷却风扇系统 (7ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>起动系统 (1ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>起动系统 (2ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">起动系统 (4ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">起动系统 (7ZR-FE)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">巡航控制系统
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">无级变速传动桥系统 (K313)
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">防抱死制动系统
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">车辆稳定性控制系统
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">动力转向系统（无刷型马达）
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">动力转向系统（电刷型马达）
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">转向锁止系统
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">音频和视频系统（无线电收音机型）
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">音频和视频系统（无线电收音机和显示屏型）
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">导航系统
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">G-BOOK 系统
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">丰田驻车辅助传感器系统（传感器 4 型）
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">丰田驻车辅助传感器系统（传感器 6 型）
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">后视野监视系统
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">充电系统 (1ZR-FE)
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">充电系统 (2ZR-FE)
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">充电系统 (4ZR-FE)
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">充电系统 (7ZR-FE)
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">LIN 通信系统
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">CAN 通信系统
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">电动门锁控制系统
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">无线门锁控制系统（带智能进入和起动系统）
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">无线门锁控制系统（不带智能进入和起动系统）
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">钥匙提醒警告系统
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">智能进入和起动系统（上车功能）
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">智能进入和起动系统（起动功能）
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">停机系统（带智能进入和起动系统）
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">停机系统（不带智能进入和起动系统）
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">防盗系统
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">照明系统（车内）
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">仪表系统
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">时钟系统
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">空气囊系统
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">前排电动座椅控制系统
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">座椅加热器系统
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">座椅安全带警告系统
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">空调系统（自动空调系统）
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">空调系统（手动空调系统）
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">电动窗控制系统
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td class="alleft">车窗除雾器系统
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td>滑动天窗系统
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td>电动后视镜控制系统
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>刮水器和清洗器系统
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>照明系统（车外）
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+<tr>
+<td>大灯水平手动控制系统
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>喇叭系统
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">○
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检查 DTC 时，有必要确定该 DTC 所指示的故障是否存在以下情况：1) 仍然存在；2) 以前发生过，但后来恢复正常。此外，DTC 应与故障症状相对照，以确定它们是否相关。因此，如下面的流程图所示,在确认故障症状之前和之后都应检查 DTC（即故障症状是否存在），以便确定当前系统状况。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>切勿跳过 DTC 检查。如果仅依靠故障情况，而不进行 DTC 检查，可能会对正常运行的系统进行不必要的故障排除或与故障无关的维修操作。应遵循下列流程图中所列的程序，按正确顺序进行故障排除。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>下面的流程图说明了如何使用 DTC 检查来进行故障排除。流程图指明了如何进行 DTC 故障排除或如何对每个故障症状进行故障排除。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">1. DTC 检查
+</span></p>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">2. 记录显示的 DTC，然后清除 DTC
+</span></p>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">3. 症状确认
+</span></p>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">不存在症状
+</td>
+<td class="alcenter">转至步骤 4
+</td>
+</tr>
+<tr>
+<td class="alcenter">存在症状
+</td>
+<td class="alcenter">转至步骤 5
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">4. 使用症状模拟法进行模拟测试
+</span></p>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">5. DTC 检查
+</span></p>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">未输出 DTC
+</td>
+<td class="alcenter">转至步骤 6
+</td>
+</tr>
+<tr>
+<td class="alcenter">输出 DTC
+</td>
+<td class="alcenter">对 DTC 指示的故障进行故障排除
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">6. 症状确认
+</span></p>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">存在症状
+</td>
+<td class="alcenter">对各故障症状进行故障排除
+</td>
+</tr>
+<tr>
+<td class="alcenter">不存在症状
+</td>
+<td class="alcenter">结束
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<p>如果在初次 DTC 检查时显示过 DTC，则说明该电路的线束或连接器以前可能出现过故障。应检查线束和连接器。
+</p>
+</div>
+<br>
+<p>如果存在故障症状，但清除 DTC 后并未存储，则导致症状的故障可能发生在不存储 DTC 的部位（初始 DTC 检查中显示的 DTC 可能来自以前的故障或次要的故障）。
+</p>
+<div class="step1">
+<p class="step1"><span class="titleText">症状模拟
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>故障排除过程中最困难的情况是不出现故障症状。在这种情况下，必须进行全面的故障分析。所模拟的条件和环境必须与客户车辆出现故障时的条件和环境相同或相似。无论技师的技能或经验多么丰富，如果在故障排除时不进行故障症状确认，就可能会导致重要维修被忽略、并导致错误或延误。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">例如:</dt>
+<dd class="spec"><p>对于只有发动机处于冷机状态或在不平路面上行驶时才会出现的故障，如果只在发动机暖机状态或车辆处于静止状态时进行症状检查，则无法确定这些故障。振动、高温或渗水（潮湿）引起的故障难以重现。下面的症状模拟测试对于这些情况十分有效，并且可应用于静止车辆。症状模拟测试中的要点：
+</p>
+<p>故障症状模拟测试中，必须确认故障症状和故障部位或故障零件。首先，根据症状缩小可能出现故障的电路范围。然后，连接检测仪并进行症状模拟测试，判断被检测电路是存在故障还是正常。同时，还要确认故障症状。请参考各系统的故障症状表，缩小可能的原因范围。
+</p>
+<p>为了重现 DTC，需要满足不同的 DTC 检测条件。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/D100732.png" alt="D100732" title="D100732">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">1.604,0.115 1.844,0.292</span>
+<span class="captionSize">0.24,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.74,2.531 0.948,2.698</span>
+<span class="captionSize">0.208,0.167</span>
+<span class="fontsize">10</span>
+<span class="captionText">*b</span>
+</span>
+<span class="caption">
+<span class="points">1.531,4.073 1.75,4.271</span>
+<span class="captionSize">0.219,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">轻轻振动
+</td>
+</tr>
+<tr>
+<td class="alcenter">*b
+</td>
+<td class="alleft">轻轻晃动
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>振动法：故障似乎是由振动引起时采用此方法。
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>零件或传感器
+</p>
+<p>用手指轻微振动可能造成故障的零件或传感器，检查是否发生故障。
+</p>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>剧烈振动继电器可能导致继电器断开。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>连接器
+</p>
+<p>在垂直和水平方向轻轻晃动连接器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>线束
+</p>
+<p>在垂直和水平方向轻轻晃动线束。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>连接器接头和振动支点是需要彻底检查的主要部位。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>加热法：当故障似乎发生在可疑部位受热时采用此方法。
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>用电吹风或类似装置加热可疑的零部件。检查故障是否出现。
+</p>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>加热零部件不要超过 60&deg;C (140&deg;F)。超过该温度可能会损坏零部件。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>不要直接加热 ECU 中的零件。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/D103428.png" alt="D103428" title="D103428">
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>喷水法：故障似乎发生在雨天或非常潮湿的条件下时采用此方法。
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>向车辆喷水，检查故障是否出现。
+</p>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>切勿直接向发动机室喷水。通过向散热器前部喷水，间接改变温度和湿度。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>切勿向电子部件直接喷水。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果车辆存在或发生过漏水故障，则泄漏可能已经造成 ECU 或连接部位损坏。查找是否出现腐蚀或短路的迹象。进行测试时要小心。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/B107149.png" alt="B107149" title="B107149">
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>高电气负载法：故障似乎发生在电气负载高时应采用此方法。
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>打开加热器鼓风机、大灯、后窗除雾器及所有其他电气负载。检查故障是否再次出现。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">诊断故障码表
+</span></p>
+<br>
+<p>在相应章节的诊断故障码表中查找输出的诊断故障码 (DTC)（从 DTC 检查中获得的）。使用该表确定故障部位及适当的检查程序。表中各栏描述如下。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">描述
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DTC 编号
+</td>
+<td>指示诊断故障码。
+</td>
+</tr>
+<tr>
+<td>检测项目
+</td>
+<td>指示故障系统或故障详情。
+</td>
+</tr>
+<tr>
+<td>DTC 检测条件
+</td>
+<td>指示存储 DTC 的条件。
+</td>
+</tr>
+<tr>
+<td>故障部位
+</td>
+<td>指示故障的可疑部位。
+</td>
+</tr>
+<tr>
+<td>链接
+</td>
+<td>指示各电路的检查程序所在的页码，或提供检查和维修的说明。
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">故障症状表
+</span></p>
+<br>
+<p>未输出 DTC 但故障仍然出现时，使用故障症状表。各故障症状的可疑部位（电路或零件）如表中所示。可疑部位按可能性大小的顺序列出。表中各栏描述如下。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>某些情况下，即使故障症状已经出现，诊断系统也可能检测不到故障。这可能是因为故障发生在诊断系统的检测范围外，或发生在另一个完全不同的系统。
+</p>
+</dd>
+</dl>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">描述
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>症状
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>可疑部位
+</td>
+<td>指示需要检查的电路或零件。
+</td>
+</tr>
+<tr>
+<td>链接
+</td>
+<td>指示检查程序所在的页码。
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">检查
+</span></p>
+<br>
+<p>可疑部位检查的要点描述如下。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">描述
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>描述
+</td>
+<td>解释电路或系统及其零部件的主要作用和操作。
+</td>
+</tr>
+<tr>
+<td>DTC 编号、DTC 检测条件和故障部位
+</td>
+<td>指示诊断故障码、DTC 检测条件和故障的可疑部位。
+</td>
+</tr>
+<tr>
+<td>电路图
+</td>
+<td>指示电路或系统的电路图。
+<br>
+可将该图和《电路图》配合使用，以便全面了解电路。
+<br>
+线束颜色用字母代码表示。B = 黑色、L = 蓝色、R = 红色、BR = 棕色、LG = 浅绿色、V = 紫色、G = 绿色、O = 橙色、W = 白色、GR = 灰色、P = 粉红色、Y = 黄色、SB = 天蓝色
+<br>
+第一个字母表示线束基本颜色，第二个字母表示条纹颜色。
+</td>
+</tr>
+<tr>
+<td>程序
+</td>
+<td>这表明程序不仅可以确定电路是否正常，还可以确定故障是否位于传感器、执行器、线束或 ECU 中。
+</td>
+</tr>
+<tr>
+<td>检查过程中 ECU 连接器插图
+</td>
+<td>表明正在检查的连接器是否连接或断开。
+<br>
+电子检测仪的连接状态用端子名称后的 (+) 或 (-) 表示。
+<br>
+对于连接器和车身接地之间的检查，图中不显示有关接地的信息。
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

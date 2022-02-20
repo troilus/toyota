@@ -1,0 +1,977 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">发动机/混合动力系统</span>
+<span class="globalSection">_023958</span>
+<span class="globalSectionName">2ZR-FE 发动机控制系统</span>
+<span class="globalTitle">_0117858</span>
+<span class="globalTitleName">SFI 系统</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>2ZR-FE 发动机控制系统&nbsp;&nbsp;SFI 系统&nbsp;&nbsp;P0560&nbsp;&nbsp;系统电压&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DEQC_01" class="category no03">
+<h2>监视描述</h2>
+<div class="content5">
+<p>即使发动机开关置于 OFF 位置，蓄电池也向 ECM 供电。该电源可使 ECM 储存数据，如 DTC 记录、定格数据和燃油修正值。如果蓄电池电压降至最低值以下，这些存储信息会被清除，ECM 判定电源电路存在故障。发动机下次起动时，ECM 将点亮 MIL 并存储该 DTC。
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:14%">
+<col style="width:25%">
+<col style="width:29%">
+<col style="width:10%">
+<col style="width:10%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">存储器
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P0560
+</td>
+<td class="alleft">系统电压
+</td>
+<td class="alleft">ECM 备用电源电路开路（单程检测逻辑）。
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>备用电源电路开路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>蓄电池
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>蓄电池端子
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">点亮
+</td>
+<td class="alleft">存储 DTC
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果存储 DTC P0560，则 ECM 不会存储其他 DTC，或 ECM 中存储的数据将被部分清除。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000DEQC_08" class="category no03">
+<h2>监视策略</h2>
+<div class="content5">
+<table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>所需传感器/零部件
+</td>
+<td>ECM
+</td>
+</tr>
+<tr>
+<td>工作频率
+</td>
+<td>持续
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000DEQC_10" class="category no03">
+<h2>典型故障阈值</h2>
+<div class="content5">
+<table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>满足以下两个条件
+</td>
+<td>-
+</td>
+</tr>
+<tr>
+<td>备用 RAM
+</td>
+<td>初始化
+</td>
+</tr>
+<tr>
+<td>蓄电池持续电压
+</td>
+<td>低于 3.5 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000DEQC_11" class="category no03">
+<h2>确认行驶模式</h2>
+<div class="content5">
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>将发动机开关置于 ON (IG) 位置并打开 GTS。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>清除 DTC（即使未存储 DTC，也应执行清除 DTC 程序）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>将发动机开关置于 OFF 位置，并至少等待 30 秒。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">5.</div>
+<div class="list1Body"><p>将发动机开关置于 ON (IG) 位置并打开 GTS。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">6.</div>
+<div class="list1Body"><p>等待 5 秒或更长时间。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">7.</div>
+<div class="list1Body"><p>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">8.</div>
+<div class="list1Body"><p>读取待定 DTC。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果输出待定 DTC，则系统发生故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果未输出待定 DTC，则执行以下程序。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">9.</div>
+<div class="list1Body"><p>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">10.</div>
+<div class="list1Body"><p>输入 DTC：P0560。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">11.</div>
+<div class="list1Body"><p>检查 DTC 判断结果。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:29%">
+<col style="width:70%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS 显示
+</th>
+<th class="alcenter">描述
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>系统正常
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>系统异常
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">INCOMPLETE
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断未完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>确认 DTC 启动条件后，执行行驶模式
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">N/A
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>无法执行 DTC 判断
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>不满足 DTC 前提条件的 DTC 数量达到 ECU 存储器极限
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果判断结果显示 NORMAL，则系统正常。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果判断结果显示 ABNORMAL，则系统存在故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果判断结果显示为 INCOMPLETE 或 N/A，则执行确认行驶模式并再次检查 DTC 判断结果。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000DEQC_05" class="category no03">
+<h2>电路图</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A305521.png" alt="A305521" title="A305521">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">5.594,1.125 6.208,1.323</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">BATT</span>
+</span>
+<span class="caption">
+<span class="points">5.594,2.344 6.208,2.542</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E1</span>
+</span>
+<span class="caption">
+<span class="points">5.24,2.344 5.854,2.542</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B39</span>
+</span>
+<span class="caption">
+<span class="points">5.24,1.115 5.854,1.313</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A40</span>
+</span>
+<span class="caption">
+<span class="points">5.302,0.948 5.917,1.146</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">5.271,2.177 5.885,2.375</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">59</span>
+</span>
+<span class="caption">
+<span class="points">3.469,1.281 4.458,1.635</span>
+<span class="captionSize">0.99,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">EFI-B</span>
+</span>
+<span class="caption">
+<span class="points">1.823,1.271 2.813,1.625</span>
+<span class="captionSize">0.99,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">FL MAIN</span>
+</span>
+<span class="caption">
+<span class="points">1.156,2.323 2.146,2.677</span>
+<span class="captionSize">0.99,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">蓄电池</span>
+</span>
+<span class="caption">
+<span class="points">5.875,3.25 6.49,3.448</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECM</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000DEQC_06" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进行下列程序前，先检查与此系统相关电路的保险丝。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>将发动机开关置于 OFF 位置后，断开蓄电池负极 (-) 端子电缆前，可能需要等待一段时间。因此，继续工作前，确保阅读断开蓄电池负极 (-) 端子电缆的注意事项。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;维修说明&gt;注意事项<span class="invisible">201406,999999,_V1,_023977,_0116736,RM100000000DB82,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 读取定格数据。存储 DTC 时，ECM 将车辆和驾驶条件信息记录为定格数据。进行故障排除时，定格数据有助于确定故障出现时车辆是运行还是停止，发动机是暖机还是未暖机，空燃比是浓还是稀，以及其他数据。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000DEQC_12" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000DEQC_12_0001">
+<div class="testtitle"><span class="titleText">1.检查蓄电池</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查蓄电池。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;2ZR-FE 蓄电池/充电系统&gt;充电系统&gt;车上检查<span class="invisible">201406,999999,_57,_024023,_0116648,RM100000000DAUI_01_0001,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DEQC_12_0001_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">2.检查蓄电池端子</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">对蓄电池充电或更换蓄电池</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DEQC_12_0003">
+<div class="testtitle"><span class="titleText">2.检查蓄电池端子</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查并确认蓄电池端子未松动或腐蚀。
+</p>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>蓄电池端子未松动或腐蚀。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DEQC_12_0003_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">3.检查端子电压（ECM 电源）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换蓄电池端子</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DEQC_12_0010">
+<div class="testtitle"><span class="titleText">3.检查端子电压（ECM 电源）</span></div>
+<div class="content6">
+<div class="contentPartition"></div>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A255690.png" alt="A255690" title="A255690">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.323,1.063 0.75,1.323</span>
+<span class="rectangleSize">0.427,0.26</span>
+</span>
+<span class="line">
+<span class="points">1.458,1.125 1.885,1.906</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.177,0.156 1.094,0.729</span>
+<span class="captionSize">0.917,0.573</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">1.708,1.927 2.375,2.146</span>
+<span class="captionSize">0.667,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">BATT</span>
+</span>
+<span class="caption">
+<span class="points">0.417,1.104 0.813,1.406</span>
+<span class="captionSize">0.396,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A40</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">线束连接器前视图
+<br>
+（至 ECM）
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开 ECM 连接器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:32%">
+<col style="width:32%">
+<col style="width:34%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A40-1 (BATT) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DEQC_12_0010_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">4.检查是否再次输出 DTC (DTC P0560)</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器（蓄电池 - ECM）</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DEQC_12_0007">
+<div class="testtitle"><span class="titleText">4.检查是否再次输出 DTC (DTC P0560)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>将发动机开关置于 OFF 位置，并至少等待 30 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置并打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>等待 5 秒或更长时间。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">h.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">i.</div>
+<div class="test1Body">
+<p>读取 DTC。
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DEQC_12_0007_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">输出 DTC P0560
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">未输出 DTC
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换 ECM</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;ECM&gt;拆卸<span class="invisible">201406,999999,_51,_023958,_0129805,RM100000000ETKN,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">检查是否存在间歇性故障</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;检查是否存在间歇性故障<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQV,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

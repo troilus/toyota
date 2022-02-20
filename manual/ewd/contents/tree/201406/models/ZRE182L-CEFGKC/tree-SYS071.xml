@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS071" code="F3" type="conn" figID="1">
+    <name>时钟总成</name>
+  </text>
+  <text ewd="SYS071" code="E71" type="conn" figID="3">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS071" code="FUSE5" type="fuse" figID="11">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS071" code="FUSE43" type="fuse" figID="12">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS071" code="ED" type="gp" figID="10">
+    <name />
+  </text>
+  <text ewd="SYS071" code="3" type="jb" figID="5,6">
+    <name />
+  </text>
+  <text ewd="SYS071" code="FUSE5" type="rb" figID="2">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS071" code="EF1" type="w2w" figID="7,8,9">
+    <name>仪表板线束和立体声部件 2 号线束</name>
+  </text>
+</EwdTree>

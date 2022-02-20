@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS047" code="E55" type="conn" figID="9,11">
+    <name>组合仪表总成</name>
+  </text>
+  <text ewd="SYS047" code="L1" type="conn" figID="6">
+    <name>左前车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS047" code="E15" type="conn" figID="5">
+    <name>大灯变光器开关总成</name>
+  </text>
+  <text ewd="SYS047" code="E36" type="conn" figID="8">
+    <name>主车身 ECU</name>
+  </text>
+  <text ewd="SYS047" code="A39" type="conn" figID="2">
+    <name>1 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS047" code="E74" type="conn" figID="7">
+    <name>2 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS047" code="E71" type="conn" figID="4">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS047" code="FUSE5" type="fuse" figID="36">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS047" code="FUSE6" type="fuse" figID="40,43">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS047" code="FUSE36" type="fuse" figID="39">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS047" code="FUSE39" type="fuse" figID="41,42">
+    <name>5A MET</name>
+  </text>
+  <text ewd="SYS047" code="FUSE43" type="fuse" figID="38">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS047" code="FUSE47" type="fuse" figID="37">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS047" code="EA" type="gp" figID="30">
+    <name />
+  </text>
+  <text ewd="SYS047" code="EB" type="gp" figID="31">
+    <name />
+  </text>
+  <text ewd="SYS047" code="ED" type="gp" figID="32,33,34">
+    <name />
+  </text>
+  <text ewd="SYS047" code="1" type="jb" figID="18">
+    <name />
+  </text>
+  <text ewd="SYS047" code="3" type="jb" figID="17,19,20,21,22,23,24,25">
+    <name />
+  </text>
+  <text ewd="SYS047" code="FUSE5" type="rb" figID="3">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS047" code="FUSE6" type="rb" figID="10,12">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS047" code="FUSE36" type="rb" figID="1">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS047" code="SP21" type="sp" figID="35">
+    <name />
+  </text>
+  <text ewd="SYS047" code="AE2" type="w2w" figID="27,29">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS047" code="AE4" type="w2w" figID="26,28">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+</EwdTree>

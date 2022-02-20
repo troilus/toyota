@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_57">
+<name>电源/网络</name>
+<section id="_025043">
+<name>7ZR-FE 蓄电池/充电系统</name>
+<ttl id="_0128082">
+<name>充电系统</name>
+<para category="C" id="RM100000000EZGB">
+<dtccode>P1550</dtccode>
+<dtcname>蓄电池电流传感器电路</dtcname>
+<dtccode>P1551</dtccode>
+<dtcname>蓄电池电流传感器低电位</dtcname>
+<dtccode>P1552</dtccode>
+<dtcname>蓄电池电流传感器高电位</dtcname>
+<subpara category="03" id="RM100000000EZGB_01">
+<name>描述</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="A194388E02" height="3.434793307in" width="3.434793307in">
+
+</graphic>
+</figure>
+<ptxt>蓄电池电流传感器总成安装在蓄电池负极 (-) 端子上，用于检测发电机供应的电流量。</ptxt>
+<ptxt>蓄电池电流传感器总成将电流转换为电压（在蓄电池负极 (-) 端子处），并将其发送至 ECM。 ECM 根据来自蓄电池电流传感器总成的信号，控制发电机的电压。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="6">
+<colspec colname="1" colwidth="0.78in"/>
+<colspec colname="2" colwidth="0.92in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="1.91in"/>
+<colspec colname="5" colwidth="0.78in"/>
+<colspec colname="6" colwidth="0.92in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>MIL</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P1550</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>蓄电池电流传感器电路</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>点火开关置于 ON 位置时，蓄电池电流传感器的最大和最小电流值之间的差为 1 A 达 10 秒或更长时间</ptxt>
+<ptxt>（单程检测逻辑）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>蓄电池电流传感器总成</ptxt>
+</item>
+<item>
+<ptxt>蓄电池电流传感器电路短路</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>不亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P1551</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>蓄电池电流传感器低电位</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>点火开关置于 ON 位置时，蓄电池电流传感器输出值小于 0.2 V 达 0.5 秒或更长时间</ptxt>
+<ptxt>（单程检测逻辑）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>蓄电池电流传感器总成</ptxt>
+</item>
+<item>
+<ptxt>蓄电池电流传感器电路开路或对接地短路</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>不亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P1552</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>蓄电池电流传感器高电位</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>点火开关置于 ON 位置时，蓄电池电流传感器输出值大于 4.8 V 达 0.5 秒或更长时间</ptxt>
+<ptxt>（单程检测逻辑）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>蓄电池电流传感器总成</ptxt>
+</item>
+<item>
+<ptxt>蓄电池电流传感器电路对 +B 或 VC 短路</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>不亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000EZGB_02">
+<name>电路图</name>
+<content5>
+<ptxt>请参考 DTC P0516。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000EZGA_02" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000EZGB_05">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000EZGB_05_0002">
+<testtitle>检查其他 DTC 输出（除 DTC P1550、P1551 或 P1552 外）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。</ptxt>
+</test1>
+<test1>
+<ptxt>读取 DTC。</ptxt>
+<gts-info category="dtc-read">
+<title>Powertrain &gt; Engine and ECT &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出 DTC P1550、P1551 或 P1552</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出 DTC P1550、P1551 或 P1552 和其他 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>如果除 P1550、P1551 或 P1552 外还输出了其他 DTC，应首先对其他 DTC 进行故障排除。</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000EZGB_05_0004"/>
+</result>
+<result cellposition="1-5" label="2">
+<action actiontype="end" cellposition="2-5">
+<actiontitle>转至 DTC 表</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000EZGK" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000EZGB_05_0004">
+<testtitle>使用 GTS 读取值（蓄电池电流）</testtitle>
+<content6>
+<test1>
+<ptxt>关闭所有电气系统（大灯、鼓风机马达、后除雾器等）。</ptxt>
+</test1>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / Battery Current。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="freeze-frame">
+<title>Powertrain &gt; Engine and ECT</title>
+<table pgwide="1" type="freeze-frame">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="297" name="item-name">
+<ptxt>Battery Current</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="297" name="description">
+<ptxt>蓄电池电流</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="297" name="range">
+<ptxt>最小：-125 A，最大：124.9 A</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="297" name="standard-value">
+<ptxt>根据交流发电机输出变化：</ptxt>
+<ptxt>发动机暖机后驾驶时</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="297" name="remark">
+<ptxt>如果结果不符合规定，则可能是充电控制系统故障。</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">1</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">297</app-param>
+<app-param name="data-list-item-name">Battery Current</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="297" name="item-name">
+<ptxt>Battery Current</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="234">
+<gts-pid pid-id="297"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">297</app-param>
+<app-param name="data-list-item-name">Battery Current</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>蓄电池电流保持 0 A，或在 -100 和 100 A 之间波动 +/- 1 A 或更小</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>蓄电池电流在 -20 和 0 A 之间波动</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000EZGB_05_0009"/>
+</result>
+<result cellposition="2-4" label="2">
+<action actiontype="end" cellposition="3-4">
+<actiontitle>检查是否存在间歇性故障</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000EZGB_05_0009">
+<testtitle>检查蓄电池电流传感器总成</testtitle>
+<content6>
+<test1>
+<ptxt>检查蓄电池电流传感器总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000ENSC" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000EZGB_05_0006"/>
+</result>
+<result cellposition="3-3" label="2">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>更换蓄电池电流传感器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ENSB" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000EZGB_05_0006">
+<testtitle>检查线束和连接器（ECM - 蓄电池电流传感器总成）</testtitle>
+<content6>
+<test1>
+<ptxt>断开蓄电池电流传感器总成连接器 B36。</ptxt>
+</test1>
+<test1>
+<ptxt>断开 ECM 连接器 B39。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻（开路检查）</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.37in"/>
+<colspec colname="col2" colwidth="2.37in"/>
+<colspec colname="col3" colwidth="2.34in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B39-86 (IB) - B36-3 (IB)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B39-117 (VCIB) - B36-2 (VC5)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B39-118 (EIB) - B36-4 (E2)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec type="resistance">
+<title>标准电阻（短路检查）</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.37in"/>
+<colspec colname="col2" colwidth="2.37in"/>
+<colspec colname="col3" colwidth="2.34in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B39-86 (IB) 或 B36-3 (IB) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B39-117 (VCIB) 或 B36-2 (VC5) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B39-118 (EIB) 或 B36-4 (E2) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>重新连接蓄电池电流传感器总成连接器 B36。</ptxt>
+</test1>
+<test1>
+<ptxt>重新连接 ECM 连接器 B39。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="end" cellposition="5-1">
+<actiontitle>更换 ECM</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETNS" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="4-2" label="2">
+<action actiontype="end" cellposition="5-2">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

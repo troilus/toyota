@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <note ewd="WIRE020" code="L14" type="conn">
+    <name>左侧帘式空气囊总成</name>
+  </note>
+  <note ewd="WIRE020" code="L48" type="conn">
+    <name>右侧帘式空气囊总成</name>
+  </note>
+  <note ewd="WIRE020" code="L51" type="conn">
+    <name>车门控制接收器</name>
+  </note>
+  <note ewd="WIRE020" code="L1" type="conn">
+    <name>左前车门门控灯开关总成</name>
+  </note>
+  <note ewd="WIRE020" code="L41" type="conn">
+    <name>右前车门门控灯开关总成</name>
+  </note>
+  <note ewd="WIRE020" code="L10" type="conn">
+    <name>前排左侧座椅外安全带总成</name>
+  </note>
+  <note ewd="WIRE020" code="L44" type="conn">
+    <name>前排右侧座椅外安全带总成</name>
+  </note>
+  <note ewd="WIRE020" code="L23" type="conn">
+    <name>燃油泵控制 ECU 总成</name>
+  </note>
+  <note ewd="WIRE020" code="L22" type="conn">
+    <name>带泵和计量表的燃油吸油管总成</name>
+  </note>
+  <note ewd="WIRE020" code="L6" type="conn">
+    <name>左侧牌照灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L7" type="conn">
+    <name>右侧牌照灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L30" type="conn">
+    <name>行李厢门锁总成</name>
+  </note>
+  <note ewd="WIRE020" code="L39" type="conn">
+    <name>行李厢电子钥匙开关</name>
+  </note>
+  <note ewd="WIRE020" code="L24" type="conn">
+    <name>1 号行李厢灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L20" type="conn">
+    <name>车内 2 号电子钥匙天线总成</name>
+  </note>
+  <note ewd="WIRE020" code="L43" type="conn">
+    <name>车内 3 号电子钥匙天线总成</name>
+  </note>
+  <note ewd="WIRE020" code="L54" type="conn">
+    <name>7 号接线连接器</name>
+  </note>
+  <note ewd="WIRE020" code="L55" type="conn">
+    <name>7 号接线连接器</name>
+  </note>
+  <note ewd="WIRE020" code="L56" type="conn">
+    <name>8 号接线连接器</name>
+  </note>
+  <note ewd="WIRE020" code="L25" type="conn">
+    <name>静噪滤波器（收音机设定调相器）</name>
+  </note>
+  <note ewd="WIRE020" code="L13" type="conn">
+    <name>左后空气囊传感器</name>
+  </note>
+  <note ewd="WIRE020" code="L47" type="conn">
+    <name>右后空气囊传感器</name>
+  </note>
+  <note ewd="WIRE020" code="L3" type="conn">
+    <name>左后组合灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L9" type="conn">
+    <name>左后组合灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L27" type="conn">
+    <name>左后组合灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L4" type="conn">
+    <name>右后组合灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L5" type="conn">
+    <name>右后组合灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L26" type="conn">
+    <name>右后组合灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L2" type="conn">
+    <name>左后车门门控灯开关总成</name>
+  </note>
+  <note ewd="WIRE020" code="L42" type="conn">
+    <name>右后车门门控灯开关总成</name>
+  </note>
+  <note ewd="WIRE020" code="L18" type="conn">
+    <name>后电子钥匙天线</name>
+  </note>
+  <note ewd="WIRE020" code="L28" type="conn">
+    <name>左后灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L31" type="conn">
+    <name>左后灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L34" type="conn">
+    <name>左后灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L37" type="conn">
+    <name>左后灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L57" type="conn">
+    <name>左后灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L32" type="conn">
+    <name>右后灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L33" type="conn">
+    <name>右后灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L38" type="conn">
+    <name>右后灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L58" type="conn">
+    <name>右后灯总成</name>
+  </note>
+  <note ewd="WIRE020" code="L40" type="conn">
+    <name>后排左侧座椅外安全带总成</name>
+  </note>
+  <note ewd="WIRE020" code="L53" type="conn">
+    <name>后排右侧座椅外安全带总成</name>
+  </note>
+  <note ewd="WIRE020" code="L36" type="conn">
+    <name>左后扬声器总成</name>
+  </note>
+  <note ewd="WIRE020" code="L35" type="conn">
+    <name>右后扬声器总成</name>
+  </note>
+  <note ewd="WIRE020" code="L29" type="conn">
+    <name>后电视摄像机总成</name>
+  </note>
+  <note ewd="WIRE020" code="L8" type="conn">
+    <name>后窗除雾器（背窗玻璃）</name>
+  </note>
+  <note ewd="WIRE020" code="L11" type="conn">
+    <name>左侧侧空气囊传感器总成</name>
+  </note>
+  <note ewd="WIRE020" code="L12" type="conn">
+    <name>左侧侧空气囊传感器总成</name>
+  </note>
+  <note ewd="WIRE020" code="L45" type="conn">
+    <name>右侧侧空气囊传感器总成</name>
+  </note>
+  <note ewd="WIRE020" code="L46" type="conn">
+    <name>右侧侧空气囊传感器总成</name>
+  </note>
+  <note ewd="WIRE020" code="L52" type="conn">
+    <name>智能车门控制接收器总成</name>
+  </note>
+</EwdTree>

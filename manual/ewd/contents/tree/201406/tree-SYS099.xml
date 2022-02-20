@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS099" code="T5" type="conn" figID="4">
+    <name>前排左侧座椅座垫加热器总成</name>
+  </text>
+  <text ewd="SYS099" code="L50" type="conn" figID="6">
+    <name>前排右侧座椅座垫加热器总成</name>
+  </text>
+  <text ewd="SYS099" code="E70" type="conn" figID="5">
+    <name>3 号接线连接器</name>
+  </text>
+  <text ewd="SYS099" code="T6" type="conn" figID="3">
+    <name>9 号接线连接器</name>
+  </text>
+  <text ewd="SYS099" code="E39" type="conn" figID="1">
+    <name>左侧座椅加热器开关</name>
+  </text>
+  <text ewd="SYS099" code="E38" type="conn" figID="2">
+    <name>右侧座椅加热器开关</name>
+  </text>
+  <text ewd="SYS099" code="FUSE58" type="fuse" figID="18">
+    <name>15A SEAT HTR</name>
+  </text>
+  <text ewd="SYS099" code="EB" type="gp" figID="16">
+    <name />
+  </text>
+  <text ewd="SYS099" code="LB" type="gp" figID="15">
+    <name />
+  </text>
+  <text ewd="SYS099" code="LD" type="gp" figID="17">
+    <name />
+  </text>
+  <text ewd="SYS099" code="3" type="jb" figID="7">
+    <name />
+  </text>
+  <text ewd="SYS099" code="LT1" type="w2w" figID="8,9,11">
+    <name>地板线束和前排左侧座椅线束</name>
+  </text>
+  <text ewd="SYS099" code="EL3" type="w2w" figID="10,12">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS099" code="EL4" type="w2w" figID="13,14">
+    <name>仪表板线束和地板线束</name>
+  </text>
+</EwdTree>

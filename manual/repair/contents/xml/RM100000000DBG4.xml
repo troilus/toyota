@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_52">
+<name>动力传动系</name>
+<section id="_023983">
+<name>K313 CVT</name>
+<ttl id="_0116779">
+<name>无级变速传动桥系统</name>
+<para category="C" id="RM100000000DBG4">
+<dtccode>P1750</dtccode>
+<dtcname>制动 ECU 故障</dtcname>
+<subpara category="03" id="RM100000000DBG4_02">
+<name>描述</name>
+<content5>
+<ptxt>ECM 接收到来自制动执行器总成（防滑控制 ECU）的故障信号时，存储 DTC P1750。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="6">
+<colspec colname="1" colwidth="0.71in"/>
+<colspec colname="2" colwidth="1.06in"/>
+<colspec colname="3" colwidth="2.12in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<colspec colname="5" colwidth="0.71in"/>
+<colspec colname="6" colwidth="0.71in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>MIL</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P1750</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>制动 ECU 故障</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>1. 诊断条件 2. 故障状况 3. 故障时间 4. 其他</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>车速为 20 km/h (12 mph) 或更高。</ptxt>
+</item>
+<item>
+<ptxt>ECM 接收到来自制动执行器总成（防滑控制 ECU）的故障信号。</ptxt>
+</item>
+<item>
+<ptxt>9 秒</ptxt>
+</item>
+<item>
+<ptxt>单程检测逻辑</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>防抱死制动系统</ptxt>
+</item>
+<item>
+<ptxt>车辆稳定性控制系统</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DBG4_01">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DBG4_01_0002">
+<testtitle>检查 DTC 输出（制动控制系统）</testtitle>
+<content6>
+<test1>
+<ptxt>检查制动控制系统 DTC。</ptxt>
+<ptxt>不带 VSC：单击此处 <mlink><xref href="RM100000000D7XC" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>带 VSC：单击此处 <mlink><xref href="RM100000000D7YE" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="3.30in"/>
+<colspec colname="col2" colwidth="0.83in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>未输出 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>输出 DTC（不带 VSC）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>输出 DTC（带 VSC）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>检查是否存在间歇性故障</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFA" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="end" cellposition="2-2">
+<actiontitle>转至防抱死制动系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7XS" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-3" label="3">
+<action actiontype="end" cellposition="2-3">
+<actiontitle>转至车辆稳定性控制系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7ZS" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

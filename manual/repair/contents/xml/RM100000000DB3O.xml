@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024005">
+<name>防盗/无钥匙上车系统</name>
+<ttl id="_0116715">
+<name>停机系统（带智能进入和起动系统）</name>
+<para category="C" id="RM100000000DB3O">
+<dtccode>B279C</dtccode>
+<dtcname>防盗系统存在性检测</dtcname>
+<subpara category="03" id="RM100000000DB3O_01">
+<name>描述</name>
+<content5>
+<ptxt>如果安装的 ECM 与停机系统不兼容，则 ECM 存储该 DTC。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B279C</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>防盗系统存在性检测</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>安装的 ECM 与停机系统不兼容（单程检测逻辑*）。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<ptxt>ECM</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="remark">
+<ptxt>DTC 输出确认操作：</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>检查 DTC。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*：仅存在故障时检测到。</ptxt>
+</item>
+</list1>
+<table pgwide="1">
+<title>检测到故障时的车辆状况和失效保护功能</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测到故障时的车辆状况</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测到故障时的失效保护功能</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>发动机无法起动</ptxt>
+</entry>
+<entry align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>相关数据表和主动测试</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>数据表和主动测试</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>B279C</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DB3O_05">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>发动机开关置于 OFF 位置的情况下使用 GTS 时，将 GTS 连接至 DLC3 并以 1.5 秒或更短的间隔打开并关闭门控灯开关，直至 GTS 和车辆之间开始通信。然后在手动模式下选择车型代码“KEY REGIST”并进入以下菜单：Body Electrical / Entry&amp;Start(CAN)。使用 GTS 时，以 1.5 秒或更短的间隔间歇打开并关闭门控灯开关，以保持 GTS 和车辆间的通信。</ptxt>
+</item>
+<item>
+<ptxt>更换 ECM 前，则请参考《服务快讯》。</ptxt>
+</item>
+<item>
+<ptxt>维修后，通过进行“DTC 输出确认操作”确认未输出 DTC。</ptxt>
+</item>
+</list1>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DB3O_04">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DB3O_04_0003">
+<testtitle>清除 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Powertrain &gt; Engine and ECT &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DB3O_04_0004"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DB3O_04_0004">
+<testtitle>检查 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>执行“DTC 输出确认操作”程序。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<gts-info category="dtc-read">
+<title>Powertrain &gt; Engine and ECT &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>未输出 B279C。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>未输出 DTC B279C</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>输出 DTC B279C</ptxt>
+</entry>
+<entry align="center">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="end" cellposition="3-1">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="2-2" label="2">
+<action actiontype="next" cellposition="3-2" childid="RM100000000DB3O_04_0006"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-2" id="RM100000000DB3O_04_0006">
+<testtitle>更换 ECM</testtitle>
+<content6>
+<test1>
+<ptxt>暂时用新的 ECM 更换。</ptxt>
+<ptxt>1ZR-FE：单击此处 <mlink><xref href="RM100000000DE6Z" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>2ZR-FE：单击此处 <mlink><xref href="RM100000000ETKN" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>7ZR-FE：单击此处 <mlink><xref href="RM100000000ETNS" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-2" label="1">
+<action actiontype="end" cellposition="4-2">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

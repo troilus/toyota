@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024012">
+<name>暖风/空调</name>
+<ttl id="_0116103">
+<name>空调系统（手动空调系统）</name>
+<para category="C" id="RM100000000D864">
+<dtccode>U0100</dtccode>
+<dtcname>与 ECM 失去通信</dtcname>
+<dtccode>U0131</dtccode>
+<dtcname>与电动转向 ECU 失去通信</dtcname>
+<dtccode>U0142</dtccode>
+<dtcname>与主车身 ECU 失去通信</dtcname>
+<dtccode>U0155</dtccode>
+<dtcname>与组合仪表失去通信</dtcname>
+<subpara category="03" id="RM100000000D864_01">
+<name>描述</name>
+<content5>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>U0100</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与 ECM 失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>与 ECM 无通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>CAN 通信系统</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="memory">
+<ptxt>存储</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>U0131</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与电动转向 ECU 失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>与动力转向 ECU 总成无通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>CAN 通信系统</ptxt>
+</item>
+<item>
+<ptxt>动力转向 ECU 总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="memory">
+<ptxt>存储</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>U0142</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与主车身 ECU 失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>与主车身 ECU（多路网络车身 ECU）无通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>CAN 通信系统</ptxt>
+</item>
+<item>
+<ptxt>主车身 ECU（多路网络车身 ECU）</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="memory">
+<ptxt>存储</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>U0155</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与组合仪表失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>与组合仪表总成无通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>CAN 通信系统</ptxt>
+</item>
+<item>
+<ptxt>组合仪表总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="memory">
+<ptxt>存储</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D864_07">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D864_07_0001">
+<testtitle>转至 CAN 通信系统</testtitle>
+<content6>
+<atten4>
+<ptxt>请参考 CAN 通信系统。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

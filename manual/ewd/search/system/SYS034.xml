@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS034">
+    <part type="conn" code="B6,B7">
+      <name>倒车灯开关总成</name>
+    </part>
+    <part type="conn" code="L54,L55">
+      <name>7 号接线连接器</name>
+    </part>
+    <part type="conn" code="B15">
+      <text>RL RB R</text>
+      <name>驻车/空档位置开关总成</name>
+    </part>
+    <part type="conn" code="L31">
+      <text>E B</text>
+      <name>左后灯总成</name>
+      <name type="inner">倒车</name>
+    </part>
+    <part type="conn" code="L32">
+      <text>E B</text>
+      <name>右后灯总成</name>
+      <name type="inner">倒车</name>
+    </part>
+    <part type="fuse" code="FUSE45">
+      <text>ECU-IG NO.2</text>
+    </part>
+  </ttl>
+</EWDSearch>

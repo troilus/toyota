@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tmc-service-toc SYSTEM "../dtd/toc.dtd">
+<tmc-service-toc>
+<pub id="BM3140CG">
+<servcat id="_V1">
+<name>一般信息</name>
+<section id="_025818">
+<name>导言</name>
+<ttl id="_0132797">
+<name>如何使用本手册</name>
+<para category="F" id="RM100000000F89M" term-id-from="001">
+<name>一般信息</name>
+</para>
+<para category="F" id="RM100000000F89N" term-id-from="001">
+<name>标记</name>
+</para>
+<para category="F" id="RM100000000F89O" term-id-from="001">
+<name>焊点标记插图</name>
+</para>
+</ttl>
+<ttl id="_0132798">
+<name>作业注意事项</name>
+<para category="F" id="RM100000000F89Y" term-id-from="001">
+<name>维修车身时</name>
+</para>
+<para category="F" id="RM100000000F89Z" term-id-from="001">
+<name>维修车身结构的注意事项（包括防撞箱）</name>
+</para>
+<para category="F" id="RM100000000F8A0" term-id-from="001">
+<name>焊接的注意事项</name>
+</para>
+<para category="F" id="RM100000000F8A1" term-id-from="001">
+<name>安装车身结构零件或外部面板后的防锈处理</name>
+</para>
+<para category="F" id="RM100000000F8A2" term-id-from="001">
+<name>SRS 空气囊系统的注意事项</name>
+</para>
+<para category="F" id="RM100000000F8AA" term-id-from="001">
+<name>顶起车辆时车辆状况的注意事项</name>
+</para>
+</ttl>
+<ttl id="_0132799">
+<name>拆卸、安装或更换零件时</name>
+<para category="F" id="RM100000000F8A7" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="F" id="RM100000000F8A9" term-id-from="001">
+<name>断开/重新连接蓄电池端子时的必要程序</name>
+</para>
+<para category="F" id="RM100000000F8A6" term-id-from="001">
+<name>更换 ECU 或其他零件时的必要程序</name>
+</para>
+<para category="F" id="RM100000000F8A8" term-id-from="001">
+<name>车轮定位标准</name>
+</para>
+</ttl>
+<ttl id="_0124204" p-type="2" parts-id="F0005AV">
+<name>关于本车辆</name>
+<para category="F" id="RM100000000E845" term-id-from="001">
+<name>结构概要</name>
+</para>
+<para category="F" id="RM100000000E846" term-id-from="001">
+<name>损坏诊断</name>
+</para>
+<para category="F" id="RM100000000E847" term-id-from="001">
+<name>外饰树脂零件和树脂特性</name>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="_01">
+<name>车辆外饰</name>
+<section id="_025493">
+<name>车身焊点</name>
+<ttl id="_0122642">
+<name>散热器上侧支架</name>
+<para category="F" id="RM100000000DZ55" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122616" p-type="2" parts-id="F0005C7">
+<name>散热器侧支架</name>
+<para category="F" id="RM100000000DZ4A" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122617" p-type="2" parts-id="F0005C8">
+<name>散热器下支架</name>
+<para category="F" id="RM100000000DZ4B" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122618" p-type="2" parts-id="F0005C9">
+<name>散热器支架</name>
+<para category="F" id="RM100000000DZ4C" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122619" p-type="2" parts-id="F0005CA">
+<name>前翼子板前挡泥板</name>
+<para category="F" id="RM100000000DZ4D" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122643">
+<name>前挡泥板至前围纵梁</name>
+<para category="F" id="RM100000000DZ56" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122620" p-type="2" parts-id="F0005CE">
+<name>前挡泥板</name>
+<para category="F" id="RM100000000DZ4E" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122622" p-type="2" parts-id="F0005CF">
+<name>前纵梁</name>
+<para category="F" id="RM100000000DZ59" term-id-from="001">
+<name>切割和接合更换部位（小面积）</name>
+</para>
+<para category="F" id="RM100000000DZ4G" term-id-from="001">
+<name>总成更换（模式 1）</name>
+</para>
+<para category="F" id="RM100000000DZ4H" term-id-from="001">
+<name>总成更换（模式 2）</name>
+</para>
+</ttl>
+<ttl id="_0122623" p-type="2" parts-id="F0005CI">
+<name>前围上侧上板</name>
+<para category="F" id="RM100000000DZ4I" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122624" p-type="2" parts-id="F0005CJ">
+<name>前围上侧板</name>
+<para category="F" id="RM100000000DZ4J" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122625" p-type="2" parts-id="F0005C1">
+<name>车身前柱</name>
+<para category="F" id="RM100000000DZ4K" term-id-from="001">
+<name>切割和接合更换部位</name>
+</para>
+</ttl>
+<ttl id="_0122626" p-type="2" parts-id="F0005B8">
+<name>车身中柱</name>
+<para category="F" id="RM100000000DZ4L" term-id-from="001">
+<name>切割和接合更换部位</name>
+</para>
+</ttl>
+<ttl id="_0122627" p-type="2" parts-id="F0005CM">
+<name>车门外槛板</name>
+<para category="F" id="RM100000000DZ4M" term-id-from="001">
+<name>切割和接合更换部位（小面积）</name>
+</para>
+<para category="F" id="RM100000000DZ4N" term-id-from="001">
+<name>切割和接合更换部位（大面积）</name>
+</para>
+</ttl>
+<ttl id="_0122644">
+<name>车门槛板</name>
+<para category="F" id="RM100000000DZ57" term-id-from="001">
+<name>切割和接合更换部位</name>
+</para>
+</ttl>
+<ttl id="_0122628" p-type="2" parts-id="F0005BD">
+<name>侧围板</name>
+<para category="F" id="RM100000000DZ4P" term-id-from="001">
+<name>切割和接合更换部位（小面积）</name>
+</para>
+<para category="F" id="RM100000000DZ4O" term-id-from="001">
+<name>切割和接合更换部位</name>
+</para>
+</ttl>
+<ttl id="_0122629" p-type="2" parts-id="F0005CU">
+<name>侧围板轮罩外板</name>
+<para category="F" id="RM100000000DZ4Q" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122630" p-type="2" parts-id="F0005CY">
+<name>侧围板端盖板</name>
+<para category="F" id="RM100000000DZ4R" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122631" p-type="2" parts-id="F0005BF">
+<name>车身下后壁板</name>
+<para category="F" id="RM100000000DZ4S" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122632" p-type="2" parts-id="F0005BI">
+<name>后地板底板</name>
+<para category="F" id="RM100000000DZ4T" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122633" p-type="2" parts-id="F0005D9">
+<name>后地板侧板</name>
+<para category="F" id="RM100000000DZ4U" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122634" p-type="2" parts-id="F0005DD">
+<name>后地板前下横梁</name>
+<para category="F" id="RM100000000DZ4V" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122635" p-type="2" parts-id="F0005DF">
+<name>后地板纵梁</name>
+<para category="F" id="RM100000000DZ4W" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122637">
+<name>天窗板（标准天窗）</name>
+<para category="F" id="RM100000000DZ4Y" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122636" p-type="2" parts-id="F0005BN">
+<name>天窗板（滑动天窗）</name>
+<para category="F" id="RM100000000DZ4X" term-id-from="001">
+<name>总成更换</name>
+</para>
+</ttl>
+<ttl id="_0122638" p-type="2" parts-id="F0005DM">
+<name>规定扭矩</name>
+<para category="F" id="RM100000000DZ4Z" term-id-from="001">
+<name>零部件</name>
+</para>
+</ttl>
+<ttl id="_0132333">
+<name>装配标准/调节方法</name>
+<para category="F" id="RM100000000F5MS" term-id-from="001">
+<name>调节</name>
+</para>
+</ttl>
+<ttl id="_0132334">
+<name>铭牌（TFTM 制造）</name>
+<para category="F" id="RM100000000F5MT" term-id-from="001">
+<name>粘贴位置</name>
+</para>
+</ttl>
+<ttl id="_0132336">
+<name>铭牌（GTMC 制造）</name>
+<para category="F" id="RM100000000F5MU" term-id-from="001">
+<name>粘贴位置</name>
+</para>
+</ttl>
+<ttl id="_0122641" p-type="2" parts-id="F0005DO">
+<name>警告标签</name>
+<para category="F" id="RM100000000DZ52" term-id-from="001">
+<name>粘贴位置</name>
+</para>
+</ttl>
+</section>
+<section id="_025819">
+<name>车身尺寸</name>
+<ttl id="_0124205" p-type="2" parts-id="F0005AX">
+<name>测量须知</name>
+<para category="F" id="RM100000000E848" term-id-from="001">
+<name>图表说明</name>
+</para>
+</ttl>
+<ttl id="_0124206" p-type="1" parts-id="53301">
+<name>发动机室</name>
+<para category="F" id="RM100000000E849" term-id-from="001">
+<name>三维距离</name>
+</para>
+</ttl>
+<ttl id="_0124207" p-type="2" parts-id="J500002">
+<name>前门</name>
+<para category="F" id="RM100000000E84A" term-id-from="001">
+<name>三维距离</name>
+</para>
+</ttl>
+<ttl id="_0124208" p-type="2" parts-id="J500003">
+<name>后门</name>
+<para category="F" id="RM100000000E84B" term-id-from="001">
+<name>三维距离</name>
+</para>
+</ttl>
+<ttl id="_0124209" p-type="2" parts-id="J500004">
+<name>行李厢门</name>
+<para category="F" id="RM100000000E84C" term-id-from="001">
+<name>三维距离</name>
+</para>
+</ttl>
+<ttl id="_0124210" p-type="2" parts-id="F0005DR">
+<name>车身底部</name>
+<para category="F" id="RM100000000E84D" term-id-from="001">
+<name>三维距离</name>
+</para>
+<para category="F" id="RM100000000E84E" term-id-from="001">
+<name>二维距离</name>
+</para>
+</ttl>
+<ttl id="_0124211" p-type="1" parts-id="51201">
+<name>前悬架横梁</name>
+<para category="F" id="RM100000000E84F" term-id-from="001">
+<name>三维距离</name>
+</para>
+<para category="F" id="RM100000000E84G" term-id-from="001">
+<name>二维距离</name>
+</para>
+</ttl>
+<ttl id="_0124212">
+<name>发动机室参考值</name>
+<para category="F" id="RM100000000E84H" term-id-from="001">
+<name>三维距离</name>
+</para>
+</ttl>
+<ttl id="_0124213" p-type="2" parts-id="F0005DR">
+<name>车身底部参考值</name>
+<para category="F" id="RM100000000E84I" term-id-from="001">
+<name>三维距离</name>
+</para>
+</ttl>
+<ttl id="_0124214" p-type="2" parts-id="F0005DY">
+<name>其他参考值</name>
+<para category="F" id="RM100000000E84J" term-id-from="001">
+<name>二维距离</name>
+</para>
+</ttl>
+</section>
+<section id="_025494">
+<name>油漆/涂层</name>
+<ttl id="_0122646" p-type="2" parts-id="F0005C2">
+<name>车身面板密封</name>
+<para category="F" id="RM100000000DZ5A" term-id-from="001">
+<name>涂抹区域</name>
+</para>
+</ttl>
+<ttl id="_0122647" p-type="2" parts-id="F0005C3">
+<name>车身面板内涂层</name>
+<para category="F" id="RM100000000DZ5B" term-id-from="001">
+<name>涂抹区域</name>
+</para>
+</ttl>
+<ttl id="_0122648" p-type="2" parts-id="F0005EA">
+<name>泡沫密封材料</name>
+<para category="F" id="RM100000000DZ5C" term-id-from="001">
+<name>涂抹区域</name>
+</para>
+</ttl>
+<ttl id="_0122649" p-type="2" parts-id="F0005BZ">
+<name>车身面板防锈剂材料</name>
+<para category="F" id="RM100000000DZ5D" term-id-from="001">
+<name>涂抹区域</name>
+</para>
+</ttl>
+<ttl id="_0122650" p-type="2" parts-id="F0005BY">
+<name>消音板</name>
+<para category="F" id="RM100000000DZ5E" term-id-from="001">
+<name>安装区域</name>
+</para>
+</ttl>
+<ttl id="_0122651">
+<name>车身面板防裂油漆</name>
+<para category="F" id="RM100000000DZ5F" term-id-from="001">
+<name>涂抹区域</name>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-toc>

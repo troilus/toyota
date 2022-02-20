@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts ver="2.1.2.6F" lang="zh" pubno="EM3140CG" style="font-size:6px;font-family:'NSimSun'">
+  <text textID="1">* 1 : 不带 VSC</text>
+  <text textID="2">* 2 : 带 VSC</text>
+  <text textID="3">* 10: 不带智能进入和起动系统</text>
+  <text textID="4">* 11: 带停机系统</text>
+  <text textID="5">* 13 : 带门控灯总成</text>
+  <text textID="6">* 14 : 不带门控灯总成</text>
+  <text textID="7">* 19: 带卷收器</text>
+  <text textID="8">* 20: 不带卷收器</text>
+  <text textID="9">制动执行器总成</text>
+  <text textID="10">门控灯</text>
+  <text textID="11">D/LOCK 继电器</text>
+  <text textID="12">D/UNLOCK 继电器</text>
+  <text textID="13">门锁控制开关</text>
+  <text textID="14">左前车门门控灯开关总成</text>
+  <text textID="15">右前车门门控灯开关总成</text>
+  <text textID="16">带电动机的左前门锁总成</text>
+  <text textID="17">带电动机的右前门锁总成</text>
+  <text textID="18">前排左侧座椅内安全带总成</text>
+  <text textID="19">钥匙锁止</text>
+  <text textID="20">钥匙开锁</text>
+  <text textID="21">行李厢门锁总成</text>
+  <text textID="22">主车身 ECU</text>
+  <text textID="23">1 号 CAN 接线连接器</text>
+  <text textID="24">4 号接线连接器</text>
+  <text textID="25">7 号接线连接器</text>
+  <text textID="26">电动窗升降器主开关总成</text>
+  <text textID="27">左后车门门控灯开关总成</text>
+  <text textID="28">右后车门门控灯开关总成</text>
+  <text textID="29">带电动机的左后门锁总成</text>
+  <text textID="30">带电动机的右后门锁总成</text>
+  <text textID="31">未锁警告开关总成</text>
+  <text textID="32">开锁检测</text>
+</texts>

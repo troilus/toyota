@@ -1,0 +1,1110 @@
+﻿<!DOCTYPE html>
+<!--
+ * Copyright (c) 2012 SHINTEC HOZUMI Co.,LTD.
+ * All Rights Reserved. 
+ * 
+ * Intro Version : 2.1.0.1.B
+ * Last Update: 2013/05/20
+-->
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>线束维修概述</title>
+<style type="text/css">
+<!--
+-->
+</style>
+</head>
+<body class="intro_ptxt"><br>
+<table width="100%"><tbody class="intro_ptxt"><tr><td>
+      <p class="intro_b"><font size="+1"><span toy;translatable="yes">线束维修概述</span></font></p><br>
+      <table cellspacing="0" width="100%" border="1">
+        <tr>
+          <td class="s1"><span toy;translatable="yes">一般信息</span></td>
+        </tr></table>
+      <br>
+      <p class="intro_ptxt"><span toy;translatable="yes">本手册提供下列维修指导:</span></p>
+      <ul>
+        <li class="intro_ptxt"><span toy;translatable="yes">如何进行系统检查</span>
+        <li class="intro_ptxt"><span toy;translatable="yes">电路保护</span>
+        <li class="intro_ptxt"><span toy;translatable="yes">端子和连接器维修步骤</span>
+      </ul>
+      <dl>
+        <dt><span class="intro_notice-dt"><span toy;translatable="yes">备注:</span></span>
+      </dl>
+      <ul>
+        <li><span class="intro_notice-dd"><span toy;translatable="yes">检查或维修 SRS 空气囊时，确保认真阅读修理手册中有关适用车型的说明和步骤。</span></span>
+        <li><span class="intro_notice-dd"><span toy;translatable="yes">进行电路维修后，务必通过操作电路中的设备来检测电路。 这不仅可以确认维修正确，还可以确认故障原因已正确识别。</span></span>
+      </ul>
+      <br clear="all">
+      <table border="0" width="100%">
+        <tbody>
+          <tr>
+            <td valign="top">
+            <dl style="margin:0;">
+              <dt class="intro_b"><span toy;translatable="yes">端子类型编号命名</span>
+            </dl>
+            <dl>
+              <dd><p class="intro_ptxt"><u><span toy;translatable="yes">端子类型编号命名系统已更改: </span></u><br><span toy;translatable="yes"> 将使用公制系统取代英制系统。 具体来说，从今以后将使用“毫米计量”的插片宽度作为端子类型编号 -- 取代沿用至今的以英寸计量的插片宽度。</span></p><br>
+              <p class="intro_ptxt"><span toy;translatable="yes">以下是对比表:</span><br></p>
+              <table border="1">
+                <tbody class="intro_ptxt">
+                  <tr>
+                    <td align="center"><span toy;translatable="yes">旧端子类型编号</span><br><span toy;translatable="yes">（英寸）</span></td>
+                    <td>&nbsp;</td>
+                    <td align="center"><span toy;translatable="yes">新端子类型编号</span><br><span toy;translatable="yes">（毫米）</span></tr>
+                  <tr>
+                    <td align="center">025</td>
+                    <td>-&gt;</td>
+                    <td align="center">0.64</td>
+                  </tr>
+                  <tr>
+                    <td align="center">040 (II, III, IV)</td>
+                    <td>-&gt;</td>
+                    <td align="center">1.0 (II, III, IV)</td>
+                  </tr>
+                  <tr>
+                    <td align="center">050</td>
+                    <td>-&gt;</td>
+                    <td align="center">1.3</td>
+                  </tr>
+                  <tr>
+                    <td align="center">060</td>
+                    <td>-&gt;</td>
+                    <td align="center">1.5</td>
+                  </tr>
+                  <tr>
+                    <td align="center">070 (II)</td>
+                    <td>-&gt;</td>
+                    <td align="center">1.8 (II)</td>
+                  </tr>
+                  <tr>
+                    <td align="center">090 (II)</td>
+                    <td>-&gt;</td>
+                    <td align="center">2.3 (II)</td>
+                  </tr>
+                  <tr>
+                    <td align="center">110</td>
+                    <td>-&gt;</td>
+                    <td align="center">2.8</td>
+                  </tr>
+                  <tr>
+                    <td align="center">187</td>
+                    <td>-&gt;</td>
+                    <td align="center">4.8</td>
+                  </tr>
+                  <tr>
+                    <td align="center">250 (II)</td>
+                    <td>-&gt;</td>
+                    <td align="center">6.3 (II)</td>
+                  </tr>
+                  <tr>
+                    <td align="center">305</td>
+                    <td>-&gt;</td>
+                    <td align="center">7.7</td>
+                  </tr>
+                  <tr>
+                    <td align="center">312</td>
+                    <td>-&gt;</td>
+                    <td align="center">8.0</td>
+                  </tr>
+                  <tr>
+                    <td align="center">375</td>
+                    <td>-&gt;</td>
+                    <td align="center">9.5</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="intro_ptxt"><span toy;translatable="yes">以上未列出的连接器，端子类型编号保持不变。</span></p>
+            </dl>
+            </td>
+            <td width="276" align="center" valign="top"><img src="intro/image/repair/A-1.png"></td>
+          </tr>
+        </tbody>
+      </table>
+      <table border="0" width="100%">
+        <tbody class="intro_ptxt">
+          <tr>
+            <td valign="top" rowspan="2">
+            <dl style="margin:0;">
+              <dt class="intro_b"><a name="A-2-1"><span toy;translatable="yes">什么是线束？</span></a><br><br>
+              <dd>
+              <p class="intro_ptxt"><span toy;translatable="yes">线束 (W/H) 是电动连接汽车所有电气部件并使其工作的汽车电线系统。 由于现在汽车使用越来越多的电气部件，线束使用的电线量增多且构造越来越复杂。 因此，一辆汽车中有数百个连接器，他们通过机械和电动方式连接电线。 因此，许多连接器端子（端子）或连接器外壳（外壳）均可满足多种类型电路的使用。 已改进各种组件以确保产品的可靠性或使车辆拥有更大的空间。</span></p>
+            </dl>
+            </td>
+            <td width="276" align="center" valign="top"colspan="2"><img src="intro/image/repair/A-2.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="left" valign="top" colspan="2">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*1</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top"><span toy;translatable="yes">端子（插座式）</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*2</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top"><span toy;translatable="yes">外壳（插座式）</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*3</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top"><span toy;translatable="yes">外壳（插头式）</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*4</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top"><span toy;translatable="yes">端子（插头式）</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table border="0" width="100%">
+        <tbody>
+          <tr>
+            <td valign="top">
+            <dl style="margin:0;">
+              <dt class="intro_b"><a name="A-2-2"><span toy;translatable="yes">线束组件</span></a><br><br>
+              <dd>
+              <p class="intro_ptxt"><span toy;translatable="yes">线束主要包括导线、端子或外壳。</span><br><span toy;translatable="yes">车辆的许多部件均设计有各种组件（如具有高耐热性、防水性或抗弯能力的组件，具有不同电流容量的组件或几乎不受电磁噪声影响的组件。</span></p>
+            </dl>
+            </td>
+            <td width="276" align="center" valign="top" nowrap colspan="2">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" rowspan="6" width="60"><span toy;translatable="yes">线束</span><br><span toy;translatable="yes"> </span><br><span toy;translatable="yes">(W/H)</span></td>
+                  <td style="border:1px solid #000000;" width="187" align="left"><span toy;translatable="yes">电线</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" width="187" align="left"><span toy;translatable="yes">端子</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" width="187" align="left"><span toy;translatable="yes">外壳</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" width="187" align="left"><span toy;translatable="yes">J/B（接线盒）</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" width="187" align="left"><span toy;translatable="yes">R/B（继电器盒）</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" width="187" align="left"><span toy;translatable="yes">其他</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table border="0" width="100%">
+        <tbody>
+          <tr>
+            <td valign="top" rowspan="3">
+            <dl style="margin:0;">
+              <dt class="intro_b"><a name="A-3-1"><span toy;translatable="yes">电线</span></a><br><br>
+              <dd>
+              <p class="intro_ptxt"><span toy;translatable="yes">用作线束的电线包括由直径小于 0.5 mm 的软铜绞线或铝绞线制成的导体和导体周围的绝缘体。</span><br><span toy;translatable="yes">绝缘体通常由氯乙烯制成并以均匀厚度覆盖导体。 绝缘体用颜色编码以区分各电线。 使用底色和条纹样式来区分各绝缘体。 电线的各种颜色由《修理手册》和《电路图》中的缩略语表示。</span></p>
+            </dl>
+            <dl>
+              <dd><span toy;translatable="yes">铜线:</span>
+              <table border="1">
+                <tbody class="intro_ptxt">
+                  <tr>
+                    <td width="126"><span toy;translatable="yes">B = 黑色</span></td>
+                    <td width="126"><span toy;translatable="yes">Y = 黄色</span></td>
+                  </tr>
+                  <tr>
+                    <td><span toy;translatable="yes">G = 绿色</span></td>
+                    <td><span toy;translatable="yes">BE = 米黄色</span></td>
+                  </tr>
+                  <tr>
+                    <td><span toy;translatable="yes">L = 蓝色</span></td>
+                    <td><span toy;translatable="yes">BR = 棕色</span></td>
+                  </tr>
+                  <tr>
+                    <td><span toy;translatable="yes">O = 橙色</span></td>
+                    <td><span toy;translatable="yes">DG = 深灰色</span></td>
+                  </tr>
+                  <tr>
+                    <td><span toy;translatable="yes">P = 粉红色</span></td>
+                    <td><span toy;translatable="yes">GR = 灰色</span></td>
+                  </tr>
+                  <tr>
+                    <td><span toy;translatable="yes">R = 红色</span></td>
+                    <td><span toy;translatable="yes">LG = 浅绿色</span></td>
+                  </tr>
+                  <tr>
+                    <td><span toy;translatable="yes">V = 紫色</span></td>
+                    <td><span toy;translatable="yes">SB = 天蓝色</span></td>
+                  </tr>
+                  <tr>
+                    <td><span toy;translatable="yes">W = 白色</span></td>
+                    <td>&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+              <br><span toy;translatable="yes">铝线:</span>
+              <table border="1">
+                <tbody class="intro_ptxt">
+                  <tr>
+                    <td width="126"><span toy;translatable="yes">LA = 淡紫色</span></td>
+                    <td width="126">&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+            </dl>
+            </td>
+            <td width="276" align="center" valign="top"><img src="intro/image/repair/A-4.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top" nowrap>
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*1</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">绝缘体</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*2</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">铜线（导线）</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top" nowrap><br>
+            <img src="intro/image/repair/A-5.png"></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table border="0" width="100%"  class="intro_ptxt">
+        <tbody>
+          <tr>
+            <td valign="top" rowspan="3">
+            <dl style="margin:0;">
+              <dd>
+              <p><span toy;translatable="yes">第一个字母表示基本配线颜色，第二个字母表示条纹颜色。</span></p>
+            </dl>
+            </td>
+            <td width="276" align="left" valign="top" nowrap><span toy;translatable="yes">示例: L-Y</span></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top"><img  src="intro/image/repair/A-7.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">L</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">蓝色</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">Y</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">黄色</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table border="0" width="100%"  class="intro_ptxt">
+        <tbody>
+          <tr>
+            <td valign="top" rowspan="7">
+            <dl style="margin:0;">
+              <dt class="intro_b"><span toy;translatable="yes">端子和外壳</span><br><br>
+              <dd><span toy;translatable="yes">端子连接线束且外壳使连接部件绝缘。</span><br><span toy;translatable="yes">有插头式端子和插座式端子。 端子类型取决于插头式端子的插片宽度。 带橡胶塞或橡胶圈的端子用于会变潮湿的部位，如发动机室。 对于 EFI 系统或 ABS 系统中带微电流的电路，采用镀金端子以确保其可靠性。</span><br><span toy;translatable="yes">由于近来电路数量增加，因此采用了新型部件。 例如，混合动力型外壳是组合了不同插片宽度的端子（如电源端子或信号端子）。 同时，还采用了诸如双重锁止外壳的新型连接器，除触片外，双重锁止外壳还设计有固定器以防端子滑落。 新型连接器可实现较高的产品可靠性且近年来得到广泛应用。 新连接器的主要特征如表 1 所示。</span><br><span toy;translatable="yes">有两种类型的触片: 在外壳内的外壳触片和端子内的端子触片。</span>
+            </dl>
+            </td>
+            <td width="276" align="center" valign="top"><img src="intro/image/repair/A-8.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top"><br>
+            <img src="intro/image/repair/A-9.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*1</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">橡胶塞</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*2</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">橡胶圈</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top"><br>
+            <img src="intro/image/repair/A-10.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*1</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">外壳触片类型</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top"><br>
+            <img src="intro/image/repair/A-11.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*1</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">端子触片类型</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table border="0" width="100%"  class="intro_ptxt">
+        <tbody>
+          <tr>
+            <td valign="top">
+            <p class="intro_b" style="margin:0"><span toy;translatable="yes">什么是 CFW？</span></p>
+            <dl>
+              <dd><span toy;translatable="yes">CFW（压缩成型线束）是一种由非纺织纤维制成且经热压缩成型的线束保护装置。 其中一种 CFW 提供线束经过的所需线路，另一种 CFW 在线束和车身相互干扰时隔绝噪音。</span><br><br><span toy;translatable="yes">如果线束由 CFW 提供保护，则请参考下述的操作注意事项。</span>
+              <ul>
+                <li><span toy;translatable="yes">不要使其变形或弯折。</span>
+                <li><span toy;translatable="yes">在正常温度和湿度下存储。</span>
+                <li><span toy;translatable="yes">远离灰尘或金属碎片。 （不要放置或存储在灰尘聚集的地方）</span>
+                <li><span toy;translatable="yes">远离水。 （不要在潮湿的地方存储。 同时，在室内存储以防雨淋）</span>
+                <li><span toy;translatable="yes">远离液体和油脂。</span><br><span toy;translatable="yes">液体: 蓄电池电解液、清洗液、LLC 等。</span><br><span toy;translatable="yes">油脂: 润滑液、硅油、发动机机油、制动液等。</span>
+                <li><span toy;translatable="yes">不要切断 CFW 来维修线束。</span>
+              </ul>
+            </dl>
+            </td>
+            <td width="276" align="center" valign="top"><img src="intro/image/repair/A-30.png"></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table cellspacing="0" width="100%" border="1" class="intro_ptxt">
+        <tr>
+          <td class="s1"><span toy;translatable="yes">表 1 : 新型连接器的特征（改进）</span></td>
+        </tr></table>
+      <br>
+      <table border="1" width="100%" bgcolor="#ffffff">
+        <tbody class="intro_ptxt">
+          <tr align="center">
+            <td width="420"><span toy;translatable="yes">特征（改进）</span></td>
+            <td width="543"><span toy;translatable="yes">备注</span></td>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top" width="420">
+            <ol style="margin:0;">
+              <li value="1"><span toy;translatable="yes">双重锁止</span>
+            </ol>
+            <img align="bottom" src="intro/image/repair/A-12.png"></td>
+            <td style="border-bottom:none;" valign="top" width="543"><span toy;translatable="yes">如果端子未正确插入外壳，则固定器不匹配。</span><br>
+            <table border="0" height="115">
+              <tbody>
+                <tr>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-top:none;" valign="bottom" width="543">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="25">*1</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="294"><span toy;translatable="yes">触片（主锁）</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="25">*2</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="294"><span toy;translatable="yes">固定器（双重锁止）</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="25">*3</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="294"><span toy;translatable="yes">外壳</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="25">*4</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="294"><span toy;translatable="yes">端子</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top" width="420">
+            <ol style="margin:0;">
+              <li value="2"><span toy;translatable="yes">外壳伸长</span>
+            </ol>
+            <img style="page-break-after: avoid;" src="intro/image/repair/A-13.png"></td>
+            <td style="border-bottom:none;" valign="top" width="543"><span toy;translatable="yes">这样可在斜对角插入端子时防止端子变形。</span><br>
+            <table border="0">
+              <tbody>
+                <tr>
+                  <td height="90"></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-top:none;" valign="bottom" width="543">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="25">*1</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="294"><span toy;translatable="yes">伸长</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="25">*2</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="294"><span toy;translatable="yes">缩短</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="25">*3</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="294"><span toy;translatable="yes">外壳</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="25">*4</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="294"><span toy;translatable="yes">端子</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" width="420">
+            <ol style="margin:0;">
+              <li value="3"><span toy;translatable="yes">改变接触结构并引进盒型结构</span>
+            </ol>
+            <img style="page-break-after: avoid;" src="intro/image/repair/A-14.png"></td>
+            <td valign="top" width="543"><span toy;translatable="yes">扩大接触部分</span><br><span toy;translatable="yes">稳定接触压力</span></td>
+          </tr>
+          <tr>
+            <td valign="top" rowspan="2" width="420">
+            <ol style="margin:0;">
+              <li value="4"><span toy;translatable="yes">改变锁止形状</span>
+            </ol>
+            <img style="page-break-after: avoid;" src="intro/image/repair/A-15.png"></td>
+            <td style="border-bottom:none;" valign="top" width="543"><span toy;translatable="yes">这样有助于提高锁止密合并且可以听到咔哒声，并能感觉到连接器完全接合。</span><br>
+            <table border="0" height="195">
+              <tbody>
+                <tr>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-top:none;" valign="bottom" width="543">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="25">*1</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="294"><span toy;translatable="yes">增加肋片</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table cellspacing="0" width="100%" border="1" class="intro_ptxt">
+        <tr>
+          <td class="s1"><a name="A-5"></a><span toy;translatable="yes">如何进行系统检查</span></td>
+        </tr></table>
+      <br>
+      <p class="intro_ptxt"><span toy;translatable="yes">这是一个简单的故障排除检查程序，其应在系统运行时在车辆上进行且以系统组件故障为前提。</span></p>
+      <p class="intro_ptxt"><span toy;translatable="yes">进行故障检查时务必考虑到以下要点:</span></p>
+      <ul>
+        <li class="intro_ptxt"><span toy;translatable="yes">接地点故障</span>
+        <li class="intro_ptxt"><span toy;translatable="yes">线束开路或短路</span>
+        <li class="intro_ptxt"><span toy;translatable="yes">连接器或端子连接故障</span>
+        <li class="intro_ptxt"><span toy;translatable="yes">保险丝或熔断丝故障</span>
+      </ul>
+      <dl>
+        <dt><span class="intro_notice-dt"><span toy;translatable="yes">备注:</span></span>
+      </dl>
+      <ul>
+        <li><span class="intro_notice-dd"><span toy;translatable="yes">这是系统运行期间的车上检查。</span><br><span toy;translatable="yes">因此，检查故障时要注意安全。</span></span>
+        <li><span class="intro_notice-dd"><span toy;translatable="yes">如果直接连接蓄电池，小心不要造成短路并选择合适的电压。</span></span>
+      </ul>
+      <br>
+      <table border="0" width="100%">
+        <tbody class="intro_ptxt">
+          <tr>
+            <td valign="top" rowspan="2">
+            <p style="margin:0;"><span toy;translatable="yes">1.电压检查</span></p>
+            <ol class="s2">
+              <li value="1"><span toy;translatable="yes">建立在检查点存在电压的条件。</span>
+	<br>
+              <br>
+              <span class="intro_example"><span toy;translatable="yes">示例:</span></span>
+              <table>
+                <tbody>
+                  <tr>
+                    <td valign="top"><span class="intro_example">[A]</span></td>
+                    <td valign="top"><span class="intro_example">-</span></td>
+                    <td valign="top"><span class="intro_example"><span toy;translatable="yes">点火开关 ON</span></span></td>
+                  </tr>
+                  <tr>
+                    <td valign="top"><span class="intro_example">[B]</span></td>
+                    <td valign="top"><span class="intro_example">-</span></td>
+                    <td valign="top"><span class="intro_example"><span toy;translatable="yes">点火开关和开关 1 ON</span></span></td>
+                  </tr>
+                  <tr>
+                    <td valign="top"><span class="intro_example">[C]</span></td>
+                    <td valign="top"><span class="intro_example">-</span></td>
+                    <td valign="top"><span class="intro_example"><span toy;translatable="yes">点火开关、开关 1 和继电器 ON（开关 2 OFF）</span></span></td>
+                  </tr>
+                </tbody>
+              </table>
+              </li>
+            </ol>
+            <ol class="s2">
+              <li value="2"><span toy;translatable="yes">用电压表将负极 (-) 引线连接至良好的接地点或蓄电池负极 (-) 端子，将正极 (+) 引线连接至连接器或元件端子。 检查时可用测试灯代替电压表。</span></li>
+            </ol>
+            </td>
+            <td width="276" align="center" valign="top"><img  src="intro/image/repair/A-16.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*1</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">保险丝</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top">*2</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left"><span toy;translatable="yes">开关1</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top">*3</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left"><span toy;translatable="yes">继电器</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top">*4</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left"><span toy;translatable="yes">电磁阀</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top">*5</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left"><span toy;translatable="yes">开关2</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top">*6</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left"><span toy;translatable="yes">电压表</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top">*a</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left"><span toy;translatable="yes">至点火开关 IG 端子</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table border="0" width="100%">
+        <tbody class="intro_ptxt">
+          <tr>
+            <td valign="top" rowspan="2">
+            <p style="margin:0;"><span toy;translatable="yes">2. 导通性和电阻检查</span></p>
+            <ol class="s2">
+              <li value="1"><span toy;translatable="yes">断开蓄电池端子或线束，使检查点之间不存在电压。</span></li>
+              <li value="2"><span toy;translatable="yes">连接欧姆表的两根引线至各检查点。</span></li>
+            </ol>
+            </td>
+            <td width="276" align="center" valign="top"><img  src="intro/image/repair/A-17.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*1</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">欧姆表</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top">*2</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left"><span toy;translatable="yes">开关</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table border="0" width="100%">
+        <tbody class="intro_ptxt">
+          <tr>
+            <td valign="top" rowspan="2">
+            <dl style="margin:0;">
+              <dd><span class="intro_s2_n"><span toy;translatable="yes">如果电路有二极管，则对换两根引线再次检查。</span><br><span toy;translatable="yes">将负极 (-) 引线触碰二极管正极 (+) 侧，正极 (+) 引线触碰二极管负极 (-) 侧时，应导通。 如果将两根引线对换，则不导通。</span></span>
+            </dl>
+            <dl>
+              <dd><span class="intro_hint-dt"><span toy;translatable="yes">提示:</span></span>
+              <dd>
+              <ul style="list-style-type:none">
+                <li><span class="intro_hint-dd"><span toy;translatable="yes">规格可能根据检测仪类型而不同，因此进行检查前，请参考检测仪说明书。</span></span>
+              </ul>
+            </dl>
+            </td>
+            <td width="276" align="center" valign="top"><img  src="intro/image/repair/A-18.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*1</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">欧姆表</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top">*2</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left"><span toy;translatable="yes">二极管</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table border="0" width="100%">
+        <tbody class="intro_ptxt">
+          <tr>
+            <td valign="top" rowspan="2">
+            <dl>
+              <dd>
+              <p class="intro_ptxt" style="margin:0;"><span toy;translatable="yes">按照与检查二极管相同的方式检查 LED（发光二极管）。</span></p><br>
+              <dd><span class="intro_hint-dt"><span toy;translatable="yes">提示:</span></span>
+              <dd>
+              <ol class="intro_s4">
+                <li value="1"><span class="intro_hint-dd"><span toy;translatable="yes">使用电源为 3V 或更高的检测仪克服电路电阻。</span></span>
+                <li value="2"><span class="intro_hint-dd"><span toy;translatable="yes">如果没有合适的检测仪，则施加蓄电池电压，检查并确认 LED 点亮。</span></span>
+              </ol>
+            </dl>
+            </td>
+            <td width="276" align="center" valign="top"><img  src="intro/image/repair/A-19.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*1</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">欧姆表</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top">*2</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left"><span toy;translatable="yes">二极管</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table border="0" width="100%">
+        <tbody class="intro_ptxt">
+          <tr>
+            <td valign="top" rowspan="2">
+            <ol class="s2" style="margin:0;">
+              <li value="3"><span toy;translatable="yes">用高阻抗的电压/欧姆表（最低 10 kΩ/V）对电路进行故障排除。</span>
+            </ol>
+            </td>
+            <td width="276" align="center" valign="top"><img  src="intro/image/repair/A-20.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*a</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">数字型</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top">*b</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left"><span toy;translatable="yes">模拟型</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table border="0" width="100%">
+        <tbody class="intro_ptxt">
+          <tr>
+            <td valign="top" rowspan="2">
+            <p style="margin:0;"><span toy;translatable="yes">3.灯泡检查</span></p>
+            <ol class="s2">
+              <li value="1"><span toy;translatable="yes">拆下灯泡。</span></ol>
+            <ol class="s2">
+              <li value="2"><span toy;translatable="yes">灯泡的各端子间应导通，并存在一定的电阻。</span>
+            </ol>
+            <ol class="s2">
+              <li value="3"><span toy;translatable="yes">连接欧姆表的两根引线至各端子。</span>
+            </ol>
+            <ol class="s2">
+              <li value="4"><span toy;translatable="yes">施加蓄电池电压，检查并确认灯泡点亮。</span>
+            </ol>
+            </td>
+            <td width="276" align="center" valign="top"><img src="intro/image/repair/A-21.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*1</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">欧姆表</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top">*2</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left"><span toy;translatable="yes">灯泡</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table border="0" width="100%">
+        <tbody class="intro_ptxt">
+          <tr>
+            <td valign="top" rowspan="2">
+            <p style="margin:0;"><span toy;translatable="yes">4.找出短路电路</span></p>
+            <ol class="s2">
+              <li value="1"><span toy;translatable="yes">拆下熔断保险丝并消除保险丝的所有负载。</span></ol>
+            <ol class="s2">
+              <li value="2"><span toy;translatable="yes">在保险丝处接上测试灯。</span>
+            </ol>
+            <ol class="s2">
+              <li value="3"><span toy;translatable="yes">建立能够使测试灯点亮的条件。</span>
+	<br>
+              <br>
+              <span class="intro_example"><span toy;translatable="yes">示例:</span></span>
+              <table>
+                <tbody>
+                  <tr>
+                    <td valign="top"><span class="intro_example">[A]</span></td>
+                    <td valign="top"><span class="intro_example">-</span></td>
+                    <td valign="top"><span class="intro_example"><span toy;translatable="yes">点火开关 ON</span></span></td>
+                  </tr>
+                  <tr>
+                    <td valign="top"><span class="intro_example">[B]</span></td>
+                    <td valign="top"><span class="intro_example">-</span></td>
+                    <td valign="top"><span class="intro_example"><span toy;translatable="yes">点火开关和开关 1 ON</span></span></td>
+                  </tr>
+                  <tr>
+                    <td valign="top"><span class="intro_example">[C]</span></td>
+                    <td valign="top"><span class="intro_example">-</span></td>
+                    <td valign="top"><span class="intro_example"><span toy;translatable="yes">点火开关、开关 1 和继电器 ON（连接继电器）以及开关 2 OFF（或断开开关 2）</span></span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </ol>
+            <ol class="s2">
+              <li value="4"><span toy;translatable="yes">断开并再次连接连接器的同时观察测试灯。 测试灯保持点亮的连接器和测试灯熄灭的连接器之间存在短路。</span>
+            </ol>
+            <ol class="s2">
+              <li value="5"><span toy;translatable="yes">沿主线束轻轻摇动故障线束，找出短路的确切位置。</span>
+            </ol>
+            <dl>
+              <dd><span class="intro_caution"><span toy;translatable="yes">注意事项:</span></span>
+              <dd>
+              <ol class="intro_c1">
+                <li value="1"><span toy;translatable="yes">除非绝对必要，否则不要打开 ECU 外罩或外壳。 （如果触碰了 IC 端子，静电可能会损坏 IC。）</span>
+                <li value="2"><span toy;translatable="yes">更换数字仪表的内部机构（ECU 部件）时，不要使身体的某个部位或衣服接触到所更换的零部件（备件）的 IC 等的引线端子。</span>
+              </ol>
+            </dl>
+            </td>
+            <td width="276" align="center" valign="top"><img src="intro/image/repair/A-22.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="38">*1</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="225"><span toy;translatable="yes">测试灯</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="38">*2</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="225"><span toy;translatable="yes">保险丝盒</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="38">*3</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="225"><span toy;translatable="yes">开关1</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="38">*4</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="225"><span toy;translatable="yes">灯</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="38">*5</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="225"><span toy;translatable="yes">继电器</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="38">*6</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="225"><span toy;translatable="yes">开关2</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="38">*7</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="225"><span toy;translatable="yes">电磁阀</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="38">*a</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="225"><span toy;translatable="yes">至点火开关 IG 端子</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="38">*b</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="225"><span toy;translatable="yes">短路</span></td>
+                </tr>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" valign="top" width="38">*c</td>
+                  <td style="border:1px solid #000000;" valign="top" align="left" width="225"><span toy;translatable="yes">断开</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table cellspacing="0" width="100%" border="1" class="intro_ptxt">
+        <tr>
+          <td class="s1"><a name="A-8"></a><span toy;translatable="yes">电路保护</span></td>
+        </tr></table>
+      <br>
+      <p class="intro_ptxt"><span toy;translatable="yes">所有电路都有过载保护，过载可能是由于线路系统短路或超负荷而导致。 该保护由保险丝、断路器或熔断丝提供。短路电路可能导致保险丝熔断或断路器开路。</span></p>
+      <br clear="all">
+      <br>
+      <table border="0" width="100%">
+        <tbody class="intro_ptxt">
+          <tr>
+            <td valign="top" rowspan="3">
+            <p style="margin:0;"><span toy;translatable="yes">重置断路器</span><br><br></p>
+            <p><span toy;translatable="yes">1.拆卸断路器</span></p>
+            <ol class="s2">
+              <li value="1"><span toy;translatable="yes">断开蓄电池负极 (-) 电缆。</span></li>
+            </ol>
+            <ol class="s2">
+              <li value="2"><span toy;translatable="yes">拆下断路器。</span>
+            </ol>
+            <p><span toy;translatable="yes">2.重置断路器</span></p>
+            <ol class="s2">
+              <li value="1"><span toy;translatable="yes">将针插入重置孔并推入。</span><br><br>
+            </ol>
+            </td>
+            <td width="276" align="center" valign="top"><img src="intro/image/repair/A-23.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*a</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">推入</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top"><br>
+            <img  src="intro/image/repair/A-24.png"></td>
+          </tr>
+        </tbody>
+      </table>
+      <ol class="s2">
+        <li value="2"><span toy;translatable="yes">使用欧姆表，检查并确认断路器端子之间导通。</span>
+      </ol>
+      <dl class="intro_ptxt">
+        <dd><span toy;translatable="yes">如果导通性不符合规定，则更换断路器。</span>
+      </dl>
+      <p></p>
+      <table border="0" width="100%">
+        <tbody class="intro_ptxt">
+          <tr>
+            <td valign="top" rowspan="2">
+            <dl style="margin:0;">
+              <dd><span class="intro_hint-dt"><span toy;translatable="yes">提示:</span></span><span class="intro_hint"></span>
+              <dd>
+              <ul style="list-style-type:none">
+                <li><span class="intro_hint-dd"><span toy;translatable="yes">如果更换断路器，确保用具有相同额定安培数的断路器更换。</span></span>
+              </ul>
+            </dl>
+            </td>
+            <td width="276" align="center" valign="top"><img src="intro/image/repair/A-25.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*a</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">相同额定安培数</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table border="0" width="100%">
+        <tbody class="intro_ptxt">
+          <tr>
+            <td valign="top">
+            <p style="margin:0;"><span toy;translatable="yes">3.安装断路器</span></p>
+            <ol class="s2">
+              <li value="1">
+              <p class="intro_ptxt"><span toy;translatable="yes">安装断路器。</span></p>
+              </li>
+            </ol>
+            <ol class="s2">
+              <li value="2">
+              <p class="intro_ptxt"><span toy;translatable="yes">连接蓄电池负极 (-) 电缆。</span></p>
+            </ol>
+            <dl>
+              <dd><span class="intro_hint-dt"><span toy;translatable="yes">提示:</span></span>
+              <dd>
+              <ul style="list-style-type:none">
+                <li><span class="intro_hint-dd"><span toy;translatable="yes">如果断路器持续断开，则表示存在短路。 请具有专业资格的技师检查系统。</span></span></li>
+              </ul>
+            </dl>
+            </td>
+            <td width="276" align="center" valign="top"><img src="intro/image/repair/A-26.png"></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table border="0" width="100%">
+        <tbody class="intro_ptxt">
+          <tr>
+            <td valign="top" rowspan="2">
+            <p class="intro_ptxt" style="margin:0;"><span toy;translatable="yes">更换保险丝和熔断丝</span></p>
+            <dl>
+              <dd><span class="intro_hint-dt"><span toy;translatable="yes">提示:</span></span>
+              <dd>
+              <ul style="list-style-type:none">
+                <li><span class="intro_hint-dd"><span toy;translatable="yes">如果更换保险丝或熔断丝，则确保用具有相同额定安培数的保险丝或熔断丝更换。</span></span>
+              </ul>
+            </dl>
+            </td>
+            <td width="276" align="center" valign="top"><img src="intro/image/repair/A-27.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*a</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">相同额定安培数</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table border="0" width="100%">
+        <tbody class="intro_ptxt">
+          <tr>
+            <td valign="top" rowspan="2"></td>
+            <td width="276" align="center" valign="top"><img  src="intro/image/repair/A-28.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*a</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">相同额定安培数</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <table border="0" width="100%">
+        <tbody>
+          <tr>
+            <td valign="top" rowspan="2">
+            <dl style="margin:0;">
+              <dd><span class="intro_notice-dt"><span toy;translatable="yes">备注:</span></span>
+              <dd>
+              <ul>
+                <li><span class="intro_notice-dd"><span toy;translatable="yes">更换保险丝或熔断丝前，关闭所有电气组件和点火开关。 不要超过保险丝或熔断丝的额定安培数。</span></span><br>
+              </ul>
+              <ul>
+                <li><span class="intro_notice-dd"><span toy;translatable="yes">务必使用保险丝拔钳拆下和插入保险丝。 拆下并垂直插入和拔出，不得扭曲。 扭曲可能会使端子强行打开过大，从而导致连接不良。</span></span>
+              </ul>
+            </dl>
+            <dl>
+              <dd>
+              <p class="intro_ptxt"><span toy;translatable="yes">如果保险丝或熔断丝持续熔断，表示存在短路电路。 必须请具有专业资格的技师进行系统检查。</span></p>
+            </dl>
+            <dl>
+              <dd><span class="intro_hint-dt"><span toy;translatable="yes">提示:</span></span>
+              <dl>
+                <dd><span class="intro_hint-dd"><span toy;translatable="yes">拔钳位于 2 号接线盒。</span></span>
+              </dl>
+            </dl>
+            </td>
+            <td width="276" align="center" valign="top" height="38"><img  src="intro/image/repair/A-29.png"></td>
+          </tr>
+          <tr>
+            <td width="276" align="center" valign="top" height="224">
+            <table class="intro_ptxt" cellspacing="0" style="border-collapse:collapse;" width="100%">
+              <tbody>
+                <tr>
+                  <td style="border:1px solid #000000;" align="center" width="25" valign="top">*1</td>
+                  <td style="border:1px solid #000000;" width="232" valign="top" align="left"><span toy;translatable="yes">拔钳</span></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td></tr></tbody></table>
+</body>
+</html>

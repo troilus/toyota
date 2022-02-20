@@ -1,0 +1,663 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_58</span>
+<span class="globalServcatName">车辆内饰</span>
+<span class="globalSection">_024007</span>
+<span class="globalSectionName">仪表/显示屏</span>
+<span class="globalTitle">_0116345</span>
+<span class="globalTitleName">仪表系统</span>
+<span class="globalCategory">G</span>
+</div>
+<h1>仪表/显示屏&nbsp;&nbsp;仪表系统&nbsp;&nbsp;车上检查&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D9CM_01" class="category no01">
+<h2>程序</h2>
+<div class="s1" id="RM100000000D9CM_01_0001">
+<p class="s1">
+<img class="s1m" src="../../../system/img/png/close_contents.png" alt="隐藏" title="隐藏">
+<img class="s1p invisible" src="../../../system/img/png/open_contents.png" alt="显示" title="显示">
+<span class="titleText">1.检查组合仪表总成
+</span></p>
+<div class="content1">
+<div class="s2">
+<div class="s2Item">
+<div class="s2Head">a.</div>
+<div class="s2Body">
+<p>检查车速表工作情况
+</p>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>组合仪表总成通过 CAN 通信接收来自防滑控制 ECU 的车速信号。由于车速信号源于防滑控制 ECU，因此，请参考防滑控制 ECU 数据表的值执行以下检查。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>在该检查中使用防滑控制 ECU 数据表的值。因此，在确认防抱死制动系统或车辆稳定性控制系统未输出 DTC 后，确保进行此检查。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果轮胎尺寸或轮胎压力不在规定范围内，或轮胎过度磨损，则车速表读数误差将会增大。因此，在检查并确认轮胎尺寸、轮胎压力和轮胎磨损程度在规定范围内后，确保进行此检查。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<div class="s3">
+<div class="s3Item">
+<div class="s3Head">i.</div>
+<div class="s3Body">
+<p>使发动机暖机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="s3">
+<div class="s3Item">
+<div class="s3Head">ii.</div>
+<div class="s3Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="s3">
+<div class="s3Item">
+<div class="s3Head">iii.</div>
+<div class="s3Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="s3">
+<div class="s3Item">
+<div class="s3Head">iv.</div>
+<div class="s3Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="s3">
+<div class="s3Item">
+<div class="s3Head">v.</div>
+<div class="s3Body">
+<p>进入以下菜单：Chassis / ABS/VSC/TRC / Data List。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="s3">
+<div class="s3Item">
+<div class="s3Head">vi.</div>
+<div class="s3Body">
+<p>根据 GTS 上的显示，读取数据表。
+</p>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Chassis &gt; ABS/VSC/TRC &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Vehicle Speed
+</td>
+<td class="alleft">最大车轮转速传感器读数/最低：0 km/h (0 mph)，最高：326 km/h (202 mph)
+</td>
+<td class="alleft">车辆停止：0 km/h (0 mph)
+</td>
+<td class="alleft">定速行驶时：无较大的波动
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Chassis &gt; ABS/VSC/TRC &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Vehicle Speed
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">105</span>
+<span class="gtsPid">42</span>
+</dd>
+</dl>
+<table summary="">
+<caption>参考</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS 示数 (km/h)
+</th>
+<th class="alcenter">允许范围 (km/h)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">20
+</td>
+<td class="alcenter">21 至 25
+</td>
+</tr>
+<tr>
+<td class="alcenter">40
+</td>
+<td class="alcenter">41.7 至 46.2
+</td>
+</tr>
+<tr>
+<td class="alcenter">60
+</td>
+<td class="alcenter">62.7 至 67.2
+</td>
+</tr>
+<tr>
+<td class="alcenter">80
+</td>
+<td class="alcenter">83.4 至 88.4
+</td>
+</tr>
+<tr>
+<td class="alcenter">100
+</td>
+<td class="alcenter">104.3 至 109.3
+</td>
+</tr>
+<tr>
+<td class="alcenter">120
+</td>
+<td class="alcenter">125.1 至 130.6
+</td>
+</tr>
+<tr>
+<td class="alcenter">140
+</td>
+<td class="alcenter">145.8 至 151.8
+</td>
+</tr>
+<tr>
+<td class="alcenter">160
+</td>
+<td class="alcenter">166.2 至 173.2
+</td>
+</tr>
+<tr>
+<td class="alcenter">180
+</td>
+<td class="alcenter">186.9 至 194.5
+</td>
+</tr>
+<tr>
+<td class="alcenter">200
+</td>
+<td class="alcenter">207.7 至 215.7
+</td>
+</tr>
+<tr>
+<td class="alcenter">220
+</td>
+<td class="alcenter">228.4 至 236.8
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>以不同车速行驶时，车速表读数均在允许范围内。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="s2">
+<div class="s2Item">
+<div class="s2Head">b.</div>
+<div class="s2Body">
+<p>检查转速表
+</p>
+<div class="s3">
+<div class="s3Item">
+<div class="s3Head">i.</div>
+<div class="s3Body">
+<p>使发动机暖机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="s3">
+<div class="s3Item">
+<div class="s3Head">ii.</div>
+<div class="s3Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="s3">
+<div class="s3Item">
+<div class="s3Head">iii.</div>
+<div class="s3Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="s3">
+<div class="s3Item">
+<div class="s3Head">iv.</div>
+<div class="s3Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="s3">
+<div class="s3Item">
+<div class="s3Head">v.</div>
+<div class="s3Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Data List。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="s3">
+<div class="s3Item">
+<div class="s3Head">vi.</div>
+<div class="s3Body">
+<p>根据 GTS 上的显示，读取数据表。
+</p>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Engine Speed
+</td>
+<td class="alleft">发动机转速
+</td>
+<td class="alleft">最低：0 rpm，最高：16,383 rpm
+</td>
+<td class="alleft">600 至 700 rpm：怠速运转（手动传动桥）
+<br>
+680 至 780 rpm：怠速运转 (CVT)
+</td>
+<td class="alleft">曲轴位置传感器出现故障时，&ldquo;发动机转速&rdquo;约为 0 rpm 或与实际发动机转速差异很大。
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Engine Speed
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">234</span>
+<span class="gtsPid">9</span>
+</dd>
+</dl>
+<table summary="">
+<caption>参考</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:49%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS 示数 (rpm)
+</th>
+<th class="alcenter">允许范围 (rpm)
+<br>
+( ) 中的数据为参考值
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">700
+</td>
+<td class="alcenter">630 至 770
+</td>
+</tr>
+<tr>
+<td class="alcenter">1000
+</td>
+<td class="alcenter">（900 至 1,100）
+</td>
+</tr>
+<tr>
+<td class="alcenter">2000
+</td>
+<td class="alcenter">（1,850 至 2,150）
+</td>
+</tr>
+<tr>
+<td class="alcenter">3000
+</td>
+<td class="alcenter">2,800 至 3,200
+</td>
+</tr>
+<tr>
+<td class="alcenter">4000
+</td>
+<td class="alcenter">（3,800 至 4,200）
+</td>
+</tr>
+<tr>
+<td class="alcenter">5000
+</td>
+<td class="alcenter">4,800 至 5,200
+</td>
+</tr>
+<tr>
+<td class="alcenter">6000
+</td>
+<td class="alcenter">（5,750 至 6,250）
+</td>
+</tr>
+<tr>
+<td class="alcenter">7000
+</td>
+<td class="alcenter">6,700 至 7,300
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>各发动机转速下，转速表读数均在允许范围内。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="s2">
+<div class="s2Item">
+<div class="s2Head">c.</div>
+<div class="s2Body">
+<p>检查 LED 照明功能（LED 检查）
+</p>
+<div class="s3">
+<div class="s3Item">
+<div class="s3Head">i.</div>
+<div class="s3Body">
+<p>将点火开关置于 ON 位置时，检查下列警告灯或指示灯的照明功能。
+</p>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:42%">
+<col style="width:57%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">警告灯或指示灯
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>环保驾驶指示灯*1、*2、*6
+</td>
+<td rowspan="7">将点火开关置于 ON 位置后，警告灯或指示灯点亮约 3 秒。
+</td>
+</tr>
+<tr>
+<td>制动警告灯
+</td>
+</tr>
+<tr>
+<td>VSC OFF 指示灯*3
+</td>
+</tr>
+<tr>
+<td>打滑警告灯*3
+</td>
+</tr>
+<tr>
+<td>ABS 警告灯
+</td>
+</tr>
+<tr>
+<td>发动机冷却液温度高警告灯*4
+</td>
+</tr>
+<tr>
+<td>主警告灯*5
+</td>
+</tr>
+<tr>
+<td>SRS 警告灯
+</td>
+<td>将点火开关置于 ON 位置后，警告灯点亮约 6 秒。
+</td>
+</tr>
+<tr>
+<td>充电警告灯
+</td>
+<td rowspan="5">将点火开关置于 ON 位置后，警告灯点亮。
+</td>
+</tr>
+<tr>
+<td>发动机机油压力警告灯
+</td>
+</tr>
+<tr>
+<td>MIL（检查发动机警告灯）
+</td>
+</tr>
+<tr>
+<td>EPS 警告灯
+</td>
+</tr>
+<tr>
+<td>A/T 油温警告灯*4
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*1：CVT
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*2：多信息显示屏（分段式和彩色型）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*3：带 VSC
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*4：多信息显示屏（分段式）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*5：多信息显示屏（黑白型和彩色型）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*6：仅在环保定制设定设置为 ON 时点亮。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

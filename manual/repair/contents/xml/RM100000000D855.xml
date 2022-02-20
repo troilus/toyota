@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024012">
+<name>暖风/空调</name>
+<ttl id="_0116102">
+<name>空调系统（自动空调系统）</name>
+<para category="C" id="RM100000000D855">
+<dtccode>B14B8</dtccode>
+<dtcname>制冷剂不足</dtcname>
+<subpara category="03" id="RM100000000D855_01">
+<name>描述</name>
+<content5>
+<ptxt>如果空调系统中的制冷剂量不足，则存储该 DTC。</ptxt>
+<ptxt>空调放大器总成接收来自各传感器的环境温度信号、制冷剂压力信号等。</ptxt>
+<ptxt>根据这些信号，空调放大器总成检测制冷剂量。</ptxt>
+<ptxt>如果制冷剂量不足，则空调开关指示灯关闭且空调系统停止。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B14B8</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>制冷剂不足</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>正常工作时，在制冷剂不足检查中检测到以下条件时：</ptxt>
+<ptxt>制冷剂量不足</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>制冷剂管路</ptxt>
+</item>
+<item>
+<ptxt>冷却器膨胀阀</ptxt>
+</item>
+<item>
+<ptxt>空调放大器总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="memory">
+<ptxt>存储</ptxt>
+<ptxt>（15 分钟或更长时间）*</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*：如果在括号所示的时间内出现故障，则空调放大器总成将存储该 DTC。</ptxt>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D855_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten4>
+<ptxt>如果同时输出 DTC B1423/23 和 B14B8，则首先对 DTC B1423/23 进行故障排除。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D85J" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D855_05">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D855_05_0001">
+<testtitle>检查空调系统是否泄漏</testtitle>
+<content6>
+<test1>
+<ptxt>安装歧管压力表组件。</ptxt>
+</test1>
+<test1>
+<ptxt>使用制冷剂回收装置从空调系统中回收制冷剂。</ptxt>
+</test1>
+<test1>
+<ptxt>排空空调系统，检查并确认其内部可以保持真空。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>空调系统中可保持真空。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>如果空调系统中不能保持真空，则可能存在制冷剂泄漏。在这种情况下，有必要维修或更换空调系统的泄漏部位。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D855_05_0002"/>
+</result>
+<result cellposition="1-3" label="2">
+<action actiontype="next" cellposition="2-3" childid="RM100000000D855_05_0010"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D855_05_0002">
+<testtitle>向系统加注制冷剂</testtitle>
+<content6>
+<test1>
+<ptxt>加注适量制冷剂。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCQL" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D855_05_0003"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D855_05_0003">
+<testtitle>检查 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>满足下列条件时检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D85D" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Air Conditioner &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="121"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">121</app-param>
+<app-param name="ecu-name">Air Conditioner</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>测量条件</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.07in"/>
+<colspec colname="col2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>空调开关</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>打开</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>空调工作时间</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>15 分钟或更长时间</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>环境温度*</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>0 至 49°C（32 至 120°F）</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>发动机冷却液温度</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>45°C (113°F) 或更高</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>发动机状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>发动机运转</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>*：如果环境温度不在所示范围内，则不要进行该检查。</ptxt>
+</item>
+</list1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.07in"/>
+<colspec colname="col2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC B14B8</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC B14B8</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D855_05_0005"/>
+</result>
+<result cellposition="3-2" label="2">
+<action actiontype="end" cellposition="4-2">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D855_05_0005">
+<testtitle>更换冷却器膨胀阀</testtitle>
+<content6>
+<test1>
+<ptxt>用新的或确认正常的冷却器膨胀阀更换。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCRA" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>由于冷却器膨胀阀卡滞或阻塞，因此用新的或确认正常的冷却器膨胀阀更换。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000D855_05_0006"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000D855_05_0006">
+<testtitle>向系统加注制冷剂</testtitle>
+<content6>
+<test1>
+<ptxt>加注适量制冷剂。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCQL" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="next" cellposition="6-1" childid="RM100000000D855_05_0007"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-1" id="RM100000000D855_05_0007">
+<testtitle>检查 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>满足下列条件时检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D85D" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Air Conditioner &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="121"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">121</app-param>
+<app-param name="ecu-name">Air Conditioner</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>测量条件</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.07in"/>
+<colspec colname="col2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>空调开关</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>打开</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>空调工作时间</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>15 分钟或更长时间</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>环境温度*</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>0 至 49°C（32 至 120°F）</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>发动机冷却液温度</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>45°C (113°F) 或更高</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>发动机状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>发动机运转</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>*：如果环境温度不在所示范围内，则不要进行该检查。</ptxt>
+</item>
+</list1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.07in"/>
+<colspec colname="col2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC B14B8</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC B14B8</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-1" label="1">
+<action actiontype="end" cellposition="7-1">
+<actiontitle>更换空调放大器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCSG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="6-2" label="2">
+<action actiontype="end" cellposition="7-2">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-3" id="RM100000000D855_05_0010">
+<testtitle>维修空调系统泄漏</testtitle>
+<content6>
+<test1>
+<ptxt>确定制冷剂泄漏部位。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCQL" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>维修空调系统中已经确定的泄漏部位。</ptxt>
+</test1>
+<test1>
+<ptxt>排空空调系统。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-3" label="1">
+<action actiontype="next" cellposition="3-3" childid="RM100000000D855_05_0011"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-3" id="RM100000000D855_05_0011">
+<testtitle>向系统加注制冷剂</testtitle>
+<content6>
+<test1>
+<ptxt>加注适量制冷剂。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCQL" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-3" label="1">
+<action actiontype="next" cellposition="4-3" childid="RM100000000D855_05_0012"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-3" id="RM100000000D855_05_0012">
+<testtitle>检查 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>满足下列条件时检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D85D" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Air Conditioner &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="121"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">121</app-param>
+<app-param name="ecu-name">Air Conditioner</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>测量条件</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.07in"/>
+<colspec colname="col2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>空调开关</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>打开</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>空调工作时间</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>15 分钟或更长时间</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>环境温度*</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>0 至 49°C（32 至 120°F）</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>发动机冷却液温度</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>45°C (113°F) 或更高</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>发动机状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>发动机运转</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>*：如果环境温度不在所示范围内，则不要进行该检查。</ptxt>
+</item>
+</list1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.07in"/>
+<colspec colname="col2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC B14B8</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC B14B8</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-3" label="1">
+<action actiontype="next" cellposition="5-3" childid="RM100000000D855_05_0014"/>
+</result>
+<result cellposition="4-4" label="2">
+<action actiontype="end" cellposition="5-4">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-3" id="RM100000000D855_05_0014">
+<testtitle>更换冷却器膨胀阀</testtitle>
+<content6>
+<test1>
+<ptxt>用新的或确认正常的冷却器膨胀阀更换。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCRA" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>由于冷却器膨胀阀卡滞或阻塞，因此用新的或确认正常的冷却器膨胀阀更换。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-3" label="1">
+<action actiontype="next" cellposition="6-3" childid="RM100000000D855_05_0015"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-3" id="RM100000000D855_05_0015">
+<testtitle>向系统加注制冷剂</testtitle>
+<content6>
+<test1>
+<ptxt>加注适量制冷剂。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCQL" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-3" label="1">
+<action actiontype="next" cellposition="7-3" childid="RM100000000D855_05_0016"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-3" id="RM100000000D855_05_0016">
+<testtitle>检查 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>满足下列条件时检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D85D" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Air Conditioner &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="121"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">121</app-param>
+<app-param name="ecu-name">Air Conditioner</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>测量条件</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.07in"/>
+<colspec colname="col2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>空调开关</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>打开</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>空调工作时间</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>15 分钟或更长时间</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>环境温度*</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>0 至 49°C（32 至 120°F）</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>发动机冷却液温度</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>45°C (113°F) 或更高</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>发动机状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>发动机运转</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>*：如果环境温度不在所示范围内，则不要进行该检查。</ptxt>
+</item>
+</list1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.07in"/>
+<colspec colname="col2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC B14B8</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC B14B8</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-3" label="1">
+<action actiontype="end" cellposition="8-3">
+<actiontitle>更换空调放大器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCSG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="7-4" label="2">
+<action actiontype="end" cellposition="8-4">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <connector type="jbc" code="3D" figID="10">
+    <pin no="40">
+      <line id="1" color="LG">
+        <connector type="conn" code="E13" figID="7">
+          <pin no="9"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="3">
+    <pin>
+      <line id="2" color="LG">
+        <connector type="jbc" code="3A" figID="10">
+          <pin no="24"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="3">
+    <pin>
+      <line id="3" color="B">
+        <connector type="conn" code="A21" figID="4">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="3">
+    <pin>
+      <line id="4" color="B">
+        <connector type="rb" code="1" figID="3">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE14" figID="2">
+    <pin>
+      <line id="5" color="B">
+        <connector type="rb" code="1" figID="3">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A21" figID="4">
+    <pin no="1">
+      <line id="6" color="B">
+        <connector type="conn" code="A24" figID="5">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="z11" figID="6">
+    <pin no="2">
+      <line id="8" color="" dir="none">
+        <connector type="conn" code="" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="z6" figID="1">
+    <pin no="1">
+      <line id="7" color="" dir="none">
+        <connector type="conn" code="" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="12">
+    <pin>
+      <line id="9" color="" dir="none">
+        <connector type="conn" code="" figID="4">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="13">
+    <pin>
+      <line id="10" color="" dir="none">
+        <connector type="conn" code="" figID="5">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS043" code="A24" type="conn" figID="5">
+    <name>高音喇叭总成</name>
+  </text>
+  <text ewd="SYS043" code="A21" type="conn" figID="4">
+    <name>低音喇叭总成</name>
+  </text>
+  <text ewd="SYS043" code="z11" type="conn" figID="6">
+    <name>螺旋电缆分总成、喇叭按钮线束分总成</name>
+  </text>
+  <text ewd="SYS043" code="E13,z6,z11" type="conn" figID="7">
+    <name>螺旋电缆分总成、喇叭按钮线束分总成、方向盘衬垫开关总成</name>
+  </text>
+  <text ewd="SYS043" code="z6" type="conn" figID="1">
+    <name>螺旋电缆分总成、方向盘衬垫开关总成</name>
+  </text>
+  <text ewd="SYS043" code="FUSE14" type="fuse" figID="11">
+    <name>10A HORN</name>
+  </text>
+  <text ewd="SYS043" code="3" type="jb" figID="10">
+    <name />
+  </text>
+  <text ewd="SYS043" code="1" type="rb" figID="3">
+    <name />
+  </text>
+  <text ewd="SYS043" code="FUSE14" type="rb" figID="2">
+    <name>10A HORN</name>
+  </text>
+</EwdTree>

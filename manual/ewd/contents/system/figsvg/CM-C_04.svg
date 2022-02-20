@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'NSimSun';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st11 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st12 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st19 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st20 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED
+		ewd:horAlign CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 4630.310 710.000" viewBox="0 0 4633.854 710.000" height="710.000" width="4633.854" xml:space="preserve" ewd:ver="2.1.2.6F" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+<path style="stroke-width: 1.42 ;&st7;  " d=" M  1925.65,   528.70  L  1920.68,   533.67  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1932.70,   545.69  L  1937.68,   540.73  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1920.68,   540.73  L  1925.65,   545.69  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1937.68,   533.67  L  1932.70,   528.70  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1988.67,   503.20  L  1997.17,   503.20  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1959.48  577.14 )">W-B</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1925.48  577.14 )">W-B</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1993.47  530.39 )">Y</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1993.47  487.89 )">Y</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1840.78  203.45 )">E55(A),E59(B)</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1840.79  210.55 )" ewd:textID="13">组合仪表总成</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1577.77  635.48 )">W</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1526.78  635.48 )">W</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1576.45  652.48 )">LG</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1525.46  652.48 )">LG</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1578.55  669.48 )">B</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1527.56  669.48 )">B</text><g ewd:figtype="conn" ewd:figID="21" ewd:code="A10"><path style="stroke-width: 0.85 ;&st7;  " d=" M  1997.17,   558.44  L  1997.17,   554.19  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1997.17,   588.19  L  1997.17,   583.94  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1997.17,   581.10  L  2002.83,   558.44  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1998.58,   559.86  C  1998.58    559.08   1997.95    558.44   1997.17    558.44  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1997.17,   558.44  C  1996.38    558.44   1995.75    559.08   1995.75    559.86  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1995.75,   559.86  C  1995.75    560.64   1996.38    561.27   1997.17    561.27  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1997.17,   561.27  C  1997.95    561.27   1998.58    560.64   1998.58    559.86  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1998.58,   582.52  C  1998.58    581.74   1997.95    581.10   1997.17    581.10  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1997.17,   581.10  C  1996.38    581.10   1995.75    581.74   1995.75    582.52  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1995.75,   582.52  C  1995.75    583.30   1996.38    583.94   1997.17    583.94  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1997.17,   583.94  C  1997.95    583.94   1998.58    583.30   1998.58    582.52  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  2005.66,   588.19  L  2005.66,   554.19  L  1988.67,   554.19  L  1988.67,   588.19  L  2005.66,   588.19  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1990.98  596.38 )">2</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1990.98  550.5 )">1</text><g ewd:figtype="title"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  2020.38  591.09 )" ewd:textID="7">制动液液位警告开关（制动总泵储液罐总成）<tspan x="0 " dy="6.0" /><tspan x="0 " dy="6.0" /></text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  2013.56  591.09 )">A10</text></g></g><g ewd:figtype="w2w" ewd:figID="66" ewd:code="AE4"><path style="stroke-width: 1.42 ;&st7;  " d=" M  2001.41,   497.54  L  1997.17,   501.78  L  1992.92,   497.54  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1992.92,   494.14  L  1997.17,   498.39  L  2001.41,   494.14  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1981.43  509.42 )">14</text></g><g ewd:figtype="gp" ewd:figID="80" ewd:code="AB"><path style="stroke-width: 0.85 ;&st7;  " d=" M  1927.76,   710.00  L  1930.59,   710.00  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1926.34,   707.17  L  1932.01,   707.17  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1924.93,   704.33  L  1933.43,   704.33  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1920.68,   701.50  L  1937.68,   701.50  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1929.18,   697.25  L  1929.18,   701.50  " /></g><g ewd:code="6" ewd:figID="122" ewd:comment="" ewd:figtype="comment"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1866.28  54.75 )">* 6 :CVT</text></g></svg>

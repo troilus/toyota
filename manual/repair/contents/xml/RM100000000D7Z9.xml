@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_54">
+<name>制动</name>
+<section id="_023990">
+<name>制动控制/动态控制系统</name>
+<ttl id="_0116082">
+<name>车辆稳定性控制系统</name>
+<para category="Y" id="RM100000000D7Z9">
+<dtccode/>
+<dtcname>如何进行故障排除</dtcname>
+<subpara category="10" id="RM100000000D7Z9_01">
+<name>注意/小心/提示</name>
+<content5>
+<atten4>
+<ptxt>*：使用 GTS。</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D7Z9_02">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D7Z9_02_0001">
+<testtitle>车辆送入修理车间</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D7Z9_02_0002"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D7Z9_02_0002">
+<testtitle>客户故障分析</testtitle>
+<content6>
+<test1>
+<ptxt>询问客户并确认故障。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D7Z9_02_0003"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D7Z9_02_0003">
+<testtitle>检查 DTC 和定格数据*</testtitle>
+<content6>
+<test1>
+<ptxt>检查并记录 DTC 和定格数据。</ptxt>
+<ptxt>DTC 检查/清除：单击此处 <mlink><xref href="RM100000000D7YE" label="Seep00005" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>定格数据：单击此处 <mlink><xref href="RM100000000D7YJ" label="Seep00006" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>清除 DTC 和定格数据。</ptxt>
+<ptxt>DTC 检查/清除：单击此处 <mlink><xref href="RM100000000D7YE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>定格数据：单击此处 <mlink><xref href="RM100000000D7YJ" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>重新确认 DTC。</ptxt>
+<test2>
+<ptxt>根据记录的 DTC 和定格数据重新确认 DTC。</ptxt>
+<ptxt>DTC 检查/清除：单击此处 <mlink><xref href="RM100000000D7YE" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>定格数据：单击此处 <mlink><xref href="RM100000000D7YJ" label="Seep00004" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>输出 CAN 通信系统 DTC 时，首先维修 CAN 通信系统。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UM" label="Seep00007" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>如果输出的 CAN 通信 DTC 中包括 DTC U0100、U0123 和/或 U0126，则首先使用数据表检查是否存在瞬间开路。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7YI" label="Seep00008" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>如果 GTS 无法与防滑控制 ECU（制动执行器总成）通信，则检查 CAN 通信系统。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UM" label="Seep00009" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>如果防滑控制 ECU（制动执行器总成）未响应，则检查防滑控制 ECU（制动执行器总成）的 +BS 电路。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7ZQ" label="Seep00010" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+</list1>
+</atten4>
+</test2>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.95in"/>
+<colspec colname="col2" colwidth="2.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC。（故障症状未出现。）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC。 （故障症状出现。）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>输出 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D7Z9_02_0004"/>
+</result>
+<result cellposition="3-2" label="2">
+<action actiontype="next" cellposition="4-2" childid="RM100000000D7Z9_02_0008"/>
+</result>
+<result cellposition="3-3" label="3">
+<action actiontype="next" cellposition="4-3" childid="RM100000000D7Z9_02_0007"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D7Z9_02_0004">
+<testtitle>诊断故障码表</testtitle>
+<content6>
+<test1>
+<ptxt>转至诊断故障码表。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7ZS" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="jump" cellposition="5-1" childid="RM100000000D7Z9_02_0018">
+<actiontitle>转至步骤 7</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-2" id="RM100000000D7Z9_02_0008">
+<testtitle>症状模拟</testtitle>
+<content6>
+<test1>
+<ptxt>转至如何进行故障排除。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-2" label="1">
+<action actiontype="jump" cellposition="5-2" childid="RM100000000D7Z9_02_0007">
+<actiontitle>转至步骤 6</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-3" id="RM100000000D7Z9_02_0007">
+<testtitle>故障症状表</testtitle>
+<content6>
+<test1>
+<ptxt>转至故障症状表。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7ZC" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-3" label="1">
+<action actiontype="next" cellposition="5-3" childid="RM100000000D7Z9_02_0018"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-3" id="RM100000000D7Z9_02_0018">
+<testtitle>电路检查*</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-3" label="1">
+<action actiontype="next" cellposition="6-3" childid="RM100000000D7Z9_02_0005"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-3" id="RM100000000D7Z9_02_0005">
+<testtitle>故障识别</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-3" label="1">
+<action actiontype="next" cellposition="7-3" childid="RM100000000D7Z9_02_0006"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-3" id="RM100000000D7Z9_02_0006">
+<testtitle>维修或更换</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-3" label="1">
+<action actiontype="next" cellposition="8-3" childid="RM100000000D7Z9_02_0024"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-3" id="RM100000000D7Z9_02_0024">
+<testtitle>重新确认 DTC*</testtitle>
+<content6>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7YE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>检查是否输出相同 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7YE" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-3" label="1">
+<action actiontype="next" cellposition="9-3" childid="RM100000000D7Z9_02_0023"/>
+</result>
+<result cellposition="8-4" label="2">
+<action actiontype="end" cellposition="9-4">
+<actiontitle>维修输出 DTC 指示的电路</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7ZS" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-3" id="RM100000000D7Z9_02_0023">
+<testtitle>确认测试*</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-3" label="1">
+<action actiontype="end" cellposition="10-3">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

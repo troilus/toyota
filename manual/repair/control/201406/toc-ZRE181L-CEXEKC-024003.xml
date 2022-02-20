@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="RM3140CG"><servcat id="_57"><name>电源/网络</name><section id="_024003">
+<name>网络</name>
+<ttl id="_0116996">
+<name>LIN 通信系统</name><para category="C" dtccode="B1273" id="RM100000000DBW0" term-id-from="001"><dtccode>
+<name>B1273</name>
+<subpara id="RM100000000DBW0_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBW0_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B2321" id="RM100000000DBW1" term-id-from="001"><dtccode>
+<name>B2321</name>
+<subpara id="RM100000000DBW1_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBW1_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B2325" id="RM100000000DBW2" term-id-from="001"><dtccode>
+<name>B2325</name>
+<subpara id="RM100000000DBW2_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBW2_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B2785" id="RM100000000DBW3" term-id-from="001"><dtccode>
+<name>B2785</name>
+<subpara id="RM100000000DBW3_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBW3_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B2786" id="RM100000000DBW4" term-id-from="001"><dtccode>
+<name>B2786</name>
+<subpara id="RM100000000DBW4_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBW4_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B2789" id="RM100000000DBW5" term-id-from="001"><dtccode>
+<name>B2789</name>
+<subpara id="RM100000000DBW5_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBW5_05">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B278C" id="RM100000000DBW6" term-id-from="001"><dtccode>
+<name>B278C</name>
+<subpara id="RM100000000DBW6_01">
+<name>描述</name>
+</subpara>
+</dtccode></para>
+<para category="L" id="RM100000000DBVQ" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="R" id="RM100000000DBVR" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000DBVS" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="D" id="RM100000000DBVT" term-id-from="001">
+<name>系统描述</name>
+</para>
+<para category="Y" id="RM100000000DBVU" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="U" id="RM100000000DBVV" term-id-from="001">
+<name>ECU 端子</name>
+</para>
+<para category="D" id="RM100000000DBVW" term-id-from="001">
+<name>诊断系统</name>
+</para>
+<para category="D" id="RM100000000DBVX" term-id-from="001">
+<name>DTC 检查/清除</name>
+</para>
+<para category="U" id="RM100000000DBVY" term-id-from="001">
+<name>数据表/主动测试</name>
+</para>
+<para category="S" id="RM100000000DBVZ" term-id-from="001">
+<name>诊断故障码表</name>
+</para>
+
+
+
+
+
+
+
+</ttl>
+<ttl id="_0116067">
+<name>CAN 通信系统</name>
+<para category="L" id="RM100000000D7UQ" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="R" id="RM100000000D7UR" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000D7US" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="D" id="RM100000000D7UK" term-id-from="001">
+<name>系统描述</name>
+</para>
+<para category="Y" id="RM100000000D7UM" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="T" id="RM100000000D7UN" term-id-from="001">
+<name>故障症状表</name>
+</para>
+<para category="U" id="RM100000000D7UT" term-id-from="001">
+<name>ECU 端子</name>
+</para>
+<para category="D" id="RM100000000D7UU" term-id-from="001">
+<name>诊断系统</name>
+</para>
+<para category="U" id="RM100000000DDY0" term-id-from="001">
+<name>失效保护表</name>
+</para>
+<para category="J" id="RM100000000D7V1" term-id-from="001">
+<name>制动执行器（防滑控制 ECU）通信终止模式</name>
+</para>
+<para category="J" id="RM100000000D7V2" term-id-from="001">
+<name>空调放大器通信终止模式</name>
+</para>
+<para category="J" id="RM100000000D7V3" term-id-from="001">
+<name>动力转向 ECU 通信终止模式</name>
+</para>
+<para category="J" id="RM100000000D7V4" term-id-from="001">
+<name>转向角传感器通信终止模式</name>
+</para>
+<para category="J" id="RM100000000D7V5" term-id-from="001">
+<name>ECM 通信终止模式</name>
+</para>
+<para category="J" id="RM100000000D7UO" term-id-from="001">
+<name>主车身 ECU 通信终止模式</name>
+</para>
+<para category="J" id="RM100000000D7UV" term-id-from="001">
+<name>组合仪表 ECU 通信终止模式</name>
+</para>
+<para category="J" id="RM100000000D7UP" term-id-from="001">
+<name>认证 ECU 通信终止模式</name>
+</para>
+<para category="J" id="RM100000000D7V6" term-id-from="001">
+<name>中央空气囊传感器通信终止模式</name>
+</para>
+<para category="J" id="RM100000000D7V7" term-id-from="001">
+<name>无线电收音机接收器总成通信终止模式</name>
+</para>
+<para category="J" id="RM100000000D7V8" term-id-from="001">
+<name>导航接收器总成通信终止模式</name>
+</para>
+<para category="J" id="RM100000000D7UW" term-id-from="001">
+<name>CAN 主总线开路</name>
+</para>
+<para category="J" id="RM100000000D7UX" term-id-from="001">
+<name>检查 CAN 总线是否短路</name>
+</para>
+<para category="J" id="RM100000000D7UY" term-id-from="001">
+<name>检查 CAN 总线是否对 +B 短路</name>
+</para>
+<para category="J" id="RM100000000D7UZ" term-id-from="001">
+<name>检查 CAN 总线是否对接地短路</name>
+</para>
+<para category="J" id="RM100000000D7V0" term-id-from="001">
+<name>CAN 支线一侧开路</name>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

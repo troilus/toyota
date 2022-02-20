@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'NSimSun';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st11 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st12 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st19 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st20 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED
+		ewd:horAlign CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 2043.031 710.000" viewBox="0 0 2047.151 710.000" height="710.000" width="2047.151" xml:space="preserve" ewd:ver="2.1.2.6F" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1007.05  643.98 )">LG</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1172.80,   239.75  L  1164.31,   239.75  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1160.61  292.31 )">L</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1059.36  601.49 )">W</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1152.11  492.16 )">W-B</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1008.37  601.49 )">W</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1125.1  170.89 )">(*1)</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1058.04  643.98 )">LG</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1009.26  482.51 )">L</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1060.25  482.51 )">L</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1057.11  612.82 )">(*2)</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1057.11  655.31 )">(*2)</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1006.12  655.31 )">(*2)</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1006.12  612.82 )">(*2)</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1006.12  493.84 )">(*1)</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1057.11  493.84 )">(*1)</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1272.72  202.05 )">L</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1269.57  213.39 )">(*2)</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1128.24  159.56 )">L</text><g ewd:figtype="conn" ewd:figID="5" ewd:code="L17"><path style="stroke-width: 1.42 ;&st7;  " d=" M  1181.30,   316.23  L  1181.30,   418.22  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1130.31,   316.23  L  1130.31,   418.22  L  1215.30,   418.22  L  1215.30,   316.23  L  1130.31,   316.23  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1164.30,   316.23  L  1164.30,   333.23  L  1189.80,   333.23  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1189.80,   367.22  L  1155.81,   367.22  L  1155.81,   375.72  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1157.22,   381.39  C  1157.22    380.61   1156.59    379.97   1155.81    379.97  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1155.81,   379.97  C  1155.02    379.97   1154.39    380.61   1154.39    381.39  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1154.39,   381.39  C  1154.39    382.17   1155.02    382.80   1155.81    382.80  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1155.81,   382.80  C  1156.59    382.80   1157.22    382.17   1157.22    381.39  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1157.22,   404.05  C  1157.22    403.27   1156.59    402.63   1155.81    402.63  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1155.81,   402.63  C  1155.02    402.63   1154.39    403.27   1154.39    404.05  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1154.39,   404.05  C  1154.39    404.83   1155.02    405.47   1155.81    405.47  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1155.81,   405.47  C  1156.59    405.47   1157.22    404.83   1157.22    404.05  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1191.22,   338.90  C  1191.22    338.11   1190.58    337.48   1189.80    337.48  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1189.80,   337.48  C  1189.02    337.48   1188.38    338.11   1188.38    338.90  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1188.38,   338.90  C  1188.38    339.68   1189.02    340.31   1189.80    340.31  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1189.80,   340.31  C  1190.58    340.31   1191.22    339.68   1191.22    338.90  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1191.22,   361.56  C  1191.22    360.78   1190.58    360.14   1189.80    360.14  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1189.80,   360.14  C  1189.02    360.14   1188.38    360.78   1188.38    361.56  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1188.38,   361.56  C  1188.38    362.34   1189.02    362.97   1189.80    362.97  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  1189.80,   362.97  C  1190.58    362.97   1191.22    362.34   1191.22    361.56  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1155.81,   379.97  L  1155.81,   375.72  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1155.81,   418.22  L  1155.81,   405.47  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1155.81,   402.63  L  1154.11,   378.52  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1189.80,   360.14  L  1195.47,   337.48  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1189.80,   367.22  L  1189.80,   362.97  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1189.80,   337.48  L  1189.80,   333.23  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1166.89  324.43 )">+</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1158.39  414.53 )">E</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1203.1  362.5 )" ewd:textID="13">乘员检测<tspan x="0 " dy="6.0" /></text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1143.61  401.12 )" ewd:textID="3">带扣开关<tspan x="0 " dy="6.0" /></text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1149.62  426.41 )">2</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1158.12  312.54 )">3</text><g ewd:figtype="title"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1230.01  421.12 )" ewd:textID="8">前排右侧座椅内安全带总成</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1223.19  421.11 )">L17</text></g></g><g ewd:figtype="w2w" ewd:figID="25" ewd:code="EL4"><path style="stroke-width: 1.42 ;&st7;  " d=" M  1168.55,   248.81  L  1164.30,   244.56  L  1160.06,   248.81  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1168.55,   245.41  L  1164.30,   241.16  L  1160.06,   245.41  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1151.67  237.47 )">3</text></g><g ewd:figtype="gp" ewd:figID="30" ewd:code="LD"><path style="stroke-width: 0.85 ;&st7;  " d=" M  1155.81,   697.25  L  1155.81,   701.50  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1154.39,   710.00  L  1157.22,   710.00  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1152.97,   707.17  L  1158.64,   707.17  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1151.56,   704.33  L  1160.06,   704.33  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1147.31,   701.50  L  1164.30,   701.50  " /></g></svg>

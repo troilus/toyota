@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_59">
+<name>车辆外饰</name>
+<section id="_024015">
+<name>车窗/玻璃</name>
+<ttl id="_0116248">
+<name>电动窗控制系统</name>
+<para category="J" id="RM100000000D8VA">
+<dtccode/>
+<dtcname>防夹功能不工作</dtcname>
+<subpara category="03" id="RM100000000D8VA_01">
+<name>描述</name>
+<content5>
+<ptxt>手动上升或自动上升操作期间，防夹功能在规定的范围内工作。</ptxt>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D8VA_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>如果已用新的电动窗升降器马达总成（驾驶员车门）更换，则初始化电动窗控制系统。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V8" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>如果电动窗升降器马达总成（驾驶员车门）中内置的脉冲传感器存在故障，则电动窗控制系统进入失效保护模式。 防夹功能在失效保护模式期间无法工作。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V9" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+</list1>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D8VA_05">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8VA_05_0001">
+<testtitle>进行初始化（驾驶员车门）</testtitle>
+<content6>
+<test1>
+<ptxt>初始化电动窗升降器马达总成（驾驶员车门）。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V8" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D8VA_05_0002"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D8VA_05_0002">
+<testtitle>检查电动窗控制系统（自动升降功能（驾驶员车门））</testtitle>
+<content6>
+<test1>
+<ptxt>检查电动窗自动升降功能是否工作正常。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V5" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>驾驶员车门自动升降功能正常。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D8VA_05_0003"/>
+</result>
+<result cellposition="2-3" label="2">
+<action actiontype="end" cellposition="3-3">
+<actiontitle>转至其他故障（转至故障症状表）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8UY" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D8VA_05_0003">
+<testtitle>检查防夹功能工作范围</testtitle>
+<content6>
+<test1>
+<ptxt>检查驾驶员车门电动窗的防夹功能是否工作正常。</ptxt>
+<atten4>
+<ptxt>距全关位置 4 mm (0.157 in.) 内防夹功能不工作。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>防夹功能工作正常。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="end" cellposition="4-1">
+<actiontitle>结束（因初始化失败造成的故障）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="3-2" label="2">
+<action actiontype="end" cellposition="4-2">
+<actiontitle>更换电动窗升降器马达总成（驾驶员车门）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8WE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

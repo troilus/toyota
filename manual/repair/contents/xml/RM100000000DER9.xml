@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_51">
+<name>发动机/混合动力系统</name>
+<section id="_023958">
+<name>2ZR-FE 发动机控制系统</name>
+<ttl id="_0117858">
+<name>SFI 系统</name>
+<para category="C" id="RM100000000DER9">
+<dtccode>P0660</dtccode>
+<dtcname>进气歧管调节阀控制电路/开路 (B1)</dtcname>
+<subpara category="03" id="RM100000000DER9_01">
+<name>描述</name>
+<content5>
+<ptxt>根据发动机负载的变化，该电路打开和关闭进气控制阀 (IACV) 以提高进气效率（ACIS：声控进气系统）。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="A235144C02" height="2.799876969in" width="7.168479331in"/>
+<callout>
+<table pgwide="1" type="caption-table">
+<tgroup cols="4">
+<colspec colname="col1" colnum="1" colwidth="0.72in"/>
+<colspec colname="col2" colnum="2" colwidth="2.87in"/>
+<colspec colname="col3" colnum="3" colwidth="0.72in"/>
+<colspec colname="col4" colnum="4" colwidth="2.87in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>占空比控制型真空开关阀（声控进气系统）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*2</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>进气控制阀</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>进气控制阀打开</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>进气控制阀关闭</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="6">
+<colspec colname="1" colwidth="0.71in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<colspec colname="5" colwidth="0.71in"/>
+<colspec colname="6" colwidth="0.70in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>MIL</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P0660</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>进气歧管调节阀控制电路/开路 (B1)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>同时满足以下条件 0.5 秒或更长时间（双程检测逻辑）：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>占空比控制型真空开关阀（声控进气系统）关闭时，ECM 的端子 ACIS 的电压低。</ptxt>
+</item>
+<item>
+<ptxt>发动机已起动。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>占空比控制型真空开关阀（声控进气系统）电路开路或短路</ptxt>
+</item>
+<item>
+<ptxt>占空比控制型真空开关阀（声控进气系统）</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DER9_02">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="A298562E11" height="3.812598425in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DER9_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>进行下列程序前，先检查与此系统相关电路的保险丝。</ptxt>
+</atten3>
+<atten4>
+<ptxt>使用 GTS 读取定格数据。存储 DTC 时，ECM 将车辆和驾驶条件信息记录为定格数据。进行故障排除时，定格数据有助于确定故障出现时车辆是运行还是停止，发动机是暖机还是未暖机，空燃比是浓还是稀，以及其他数据。</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DER9_05">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DER9_05_0001">
+<testtitle>使用 GTS 进行主动测试（激活进气控制的 VSV）</testtitle>
+<content6>
+<figure translate="C" type="1">
+<graphic graphicname="A321967C01" height="1.787155512in" width="7.168479331in"/>
+<callout>
+<table pgwide="1" type="caption-table">
+<tgroup cols="4">
+<colspec colname="col1" colnum="1" colwidth="0.72in"/>
+<colspec colname="col2" colnum="2" colwidth="2.87in"/>
+<colspec colname="col3" colnum="3" colwidth="0.72in"/>
+<colspec colname="col4" colnum="4" colwidth="2.87in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left">
+<ptxt>占空比控制型真空开关阀（声控进气系统）打开</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry>
+<ptxt>占空比控制型真空开关阀（声控进气系统）关闭</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>端口 F</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*d</ptxt>
+</entry>
+<entry>
+<ptxt>端口 E</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*e</ptxt>
+</entry>
+<entry>
+<ptxt>空气滤清器</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*f</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>空气</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<test1>
+<ptxt>从占空比控制型真空开关阀（声控进气系统）的端口 F 上断开真空软管。</ptxt>
+</test1>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Active Test / Active the VSV for Intake Control。</ptxt>
+<gts-info category="active-test">
+<title>Powertrain &gt; Engine and ECT &gt; Active Test</title>
+<table type="active-test">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="3" name="item-name">
+<ptxt>Activate the VSV for Intake Control</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50004">
+<gts-ecu ecu-id="234">
+<gts-did did-id="3"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="use-datalist">0</app-param>
+<app-param-unit>
+<app-param name="did-id">3</app-param>
+<app-param name="active-test-item-name">Activate the VSV for Intake Control</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>操作占空比控制型真空开关阀（声控进气系统）。</ptxt>
+</test1>
+<test1>
+<ptxt>切换占空比控制型真空开关阀（声控进气系统）时，检查占空比控制型真空开关阀（声控进气系统）气流。</ptxt>
+<spec type="other">
+<title>正常</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="3.55in"/>
+<colspec colname="col2" colwidth="3.53in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>Activate the VSV for Intake Control</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>空气从端口 E 经过端口 F 流出</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>空气从端口 E 经过空气滤清器流出</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>检查是否存在间歇性故障</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQV" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="next" cellposition="2-2" childid="RM100000000DER9_05_0003"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-2" id="RM100000000DER9_05_0003">
+<testtitle>检查占空比控制型真空开关阀（声控进气系统）</testtitle>
+<content6>
+<test1>
+<ptxt>检查占空比控制型真空开关阀（声控进气系统）。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCNT" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-2" label="1">
+<action actiontype="next" cellposition="3-2" childid="RM100000000DER9_05_0005"/>
+</result>
+<result cellposition="2-5" label="2">
+<action actiontype="end" cellposition="3-5">
+<actiontitle>更换占空比控制型真空开关阀（声控进气系统）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCNV" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-2" id="RM100000000DER9_05_0005">
+<testtitle>检查端子电压（占空比控制型真空开关阀（声控进气系统）电源）</testtitle>
+<content6>
+<figure translate="C" type="1">
+<graphic graphicname="A194112C74" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至占空比控制型真空开关阀（声控进气系统））</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<test1>
+<ptxt>断开占空比控制型真空开关阀（声控进气系统）连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B37-2 - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>发动机开关 ON (IG)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-2" label="1">
+<action actiontype="next" cellposition="4-2" childid="RM100000000DER9_05_0007"/>
+</result>
+<result cellposition="3-4" label="2">
+<action actiontype="end" cellposition="4-4">
+<actiontitle>维修或更换线束或连接器（占空比控制型真空开关阀（声控进气系统）- EFI 主继电器）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-2" id="RM100000000DER9_05_0007">
+<testtitle>检查线束和连接器（占空比控制型真空开关阀（声控进气系统）- ECM）</testtitle>
+<content6>
+<test1>
+<ptxt>断开占空比控制型真空开关阀（声控进气系统）连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>断开 ECM 连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.34in"/>
+<colspec colname="col2" colwidth="2.34in"/>
+<colspec colname="col3" colwidth="2.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B37-1 - B39-62 (ACIS)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B37-1 或 B39-62 (ACIS) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-2" label="1">
+<action actiontype="end" cellposition="5-2">
+<actiontitle>更换 ECM</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETKN" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="4-3" label="2">
+<action actiontype="end" cellposition="5-3">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024005">
+<name>防盗/无钥匙上车系统</name>
+<ttl id="_0116716">
+<name>停机系统（不带智能进入和起动系统）</name>
+<para category="C" id="RM100000000DB44">
+<dtccode>B2795</dtccode>
+<dtcname>钥匙代码不匹配</dtcname>
+<subpara category="03" id="RM100000000DB44_02">
+<name>描述</name>
+<content5>
+<ptxt>将不同车辆系列号的车门控制发射器总成插入点火锁芯时，存储此 DTC。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B2795</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>钥匙代码不匹配</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>将不同车辆系列号的车门控制发射器总成插入点火锁芯（单程检测逻辑*）。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>车门控制发射器总成</ptxt>
+</item>
+<item>
+<ptxt>应答器钥匙 ECU 总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="remark">
+<list1 type="nonmark">
+<title>DTC 输出确认操作：</title>
+<item>
+<ptxt>将车门控制发射器总成插入点火锁芯。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*：仅存在故障时输出。</ptxt>
+</item>
+</list1>
+<table pgwide="1">
+<title>检测到故障时的车辆状况和失效保护操作</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测到故障时的车辆状况</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测到故障时的失效保护操作</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>发动机无法起动</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>相关数据表和主动测试项目</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>数据表和主动测试</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B2795</ptxt>
+</entry>
+<entry align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DB44_04">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>如果更换了应答器钥匙 ECU 总成或车门控制发射器总成，则请参考《服务快讯》。</ptxt>
+</item>
+<item>
+<ptxt>维修后，通过进行“DTC 输出确认操作”确认未输出 DTC。</ptxt>
+</item>
+</list1>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DB44_01">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DB44_01_0022">
+<testtitle>清除 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; Immobiliser &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="260"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">260</app-param>
+<app-param name="ecu-name">Immobiliser</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DB44_01_0016"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DB44_01_0016">
+<testtitle>检查 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>执行“DTC 输出确认操作”程序。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Immobiliser &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="260"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">260</app-param>
+<app-param name="ecu-name">Immobiliser</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<atten4>
+<ptxt>如果存储了 DTC B2795，则清除 DTC 后用下一把车门控制发射器总成检查 DTC。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>未输出 DTC B2795。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>未输出 B2795</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>所有车门控制发射器总成均输出 DTC B2795</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>任一车门控制发射器总成输出 DTC B2795</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="end" cellposition="3-1">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="2-2" label="2">
+<action actiontype="end" cellposition="3-2">
+<actiontitle>更换应答器钥匙 ECU 总成</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="2-3" label="3">
+<action actiontype="next" cellposition="3-3" childid="RM100000000DB44_01_0018"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-3" id="RM100000000DB44_01_0018">
+<testtitle>检查工作情况 (IG ON)</testtitle>
+<content6>
+<test1>
+<ptxt>检查并确认使用存储 DTC 的车门控制发射器总成可将点火开关置于 ON 位置。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>使用车门控制发射器总成（存储 DTC）可将点火开关置于 ON 位置。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-3" label="1">
+<action actiontype="next" cellposition="4-3" childid="RM100000000DB44_01_0005"/>
+</result>
+<result cellposition="3-5" label="2">
+<action actiontype="end" cellposition="4-5">
+<actiontitle>更换输出 DTC 的车门控制发射器总成</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-3" id="RM100000000DB44_01_0005">
+<testtitle>注册</testtitle>
+<content6>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; Immobiliser &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="260"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">260</app-param>
+<app-param name="ecu-name">Immobiliser</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>用应答器钥匙 ECU 总成注册钥匙识别码。</ptxt>
+<atten4>
+<ptxt>请参考《服务快讯》。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>可完成注册程序。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-3" label="1">
+<action actiontype="end" cellposition="5-3">
+<actiontitle>结束（车门控制发射器总成注册故障）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="4-4" label="2">
+<action actiontype="end" cellposition="5-4">
+<actiontitle>更换车门控制发射器总成</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

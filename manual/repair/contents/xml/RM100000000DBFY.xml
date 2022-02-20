@@ -1,0 +1,2361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_52">
+<name>动力传动系</name>
+<section id="_023983">
+<name>K313 CVT</name>
+<ttl id="_0116779">
+<name>无级变速传动桥系统</name>
+<para category="C" id="RM100000000DBFY">
+<dtccode>P0841</dtccode>
+<dtcname>变速器油压传感器“A”性能</dtcname>
+<dtccode>P2829</dtccode>
+<dtcname>压力控制电磁阀“K”性能（换档电磁阀 SLS）</dtcname>
+<subpara category="03" id="RM100000000DBFY_02">
+<name>描述</name>
+<content5>
+<ptxt>ECM 根据油压传感器输出的次级油压信号控制次级油压校准。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="6">
+<colspec colname="1" colwidth="0.71in"/>
+<colspec colname="2" colwidth="1.06in"/>
+<colspec colname="3" colwidth="2.12in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<colspec colname="5" colwidth="0.71in"/>
+<colspec colname="6" colwidth="0.71in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>MIL</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P0841</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>变速器油压传感器“A”性能</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>1. 诊断条件 2. 故障状况 3. 故障时间 4. 其他</ptxt>
+<ptxt>DTC 检测条件 1：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>所需油压值为 1.4 MPa (14.3 kgf/cm<sup>2</sup>, 203 psi) 或更高。</ptxt>
+</item>
+<item>
+<ptxt>油压传感器输出值为 0.5 MPa (5.1 kgf/cm<sup>2</sup>, 73 psi) 或更低。</ptxt>
+</item>
+<item>
+<ptxt>2 秒</ptxt>
+</item>
+<item>
+<ptxt>单程检测逻辑</ptxt>
+</item>
+</list1>
+<ptxt>DTC 检测条件 2：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>所需油压值为 1.0 MPa (10.2 kgf/cm<sup>2</sup>, 145 psi) 或更低。</ptxt>
+</item>
+<item>
+<ptxt>计算出的主动带轮压力和目标主动带轮压力之间的差值为 2.0 MPa (20.4 kgf/cm<sup>2</sup>, 290 psi) 或更大。</ptxt>
+</item>
+<item>
+<ptxt>3 秒</ptxt>
+</item>
+<item>
+<ptxt>单程检测逻辑</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>油压传感器</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P2829</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>压力控制电磁阀“K”性能（换档电磁阀 SLS）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>1. 诊断条件 2. 故障状况 3. 故障时间 4. 其他</ptxt>
+<ptxt>DTC 检测条件 1：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>所需油压值为 1.0 MPa (10.2 kgf/cm<sup>2</sup>, 145 psi) 或更低。</ptxt>
+</item>
+<item>
+<ptxt>计算出的主动带轮压力和目标主动带轮压力之间的差值小于 0.5 MPa (5.1 kgf/cm<sup>2</sup>, 73 psi)。</ptxt>
+</item>
+<item>
+<ptxt>3 秒</ptxt>
+</item>
+<item>
+<ptxt>单程检测逻辑</ptxt>
+</item>
+</list1>
+<ptxt>DTC 检测条件 2：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>换档杆置于 D 且车速低于 8 km/h (5 mph)。</ptxt>
+</item>
+<item>
+<ptxt>变速器转速传感器 (NIN) 转速和变速器转速传感器 (NOUT) 转速的比率超过规定值。</ptxt>
+</item>
+<item>
+<ptxt>0.2 秒</ptxt>
+</item>
+<item>
+<ptxt>单程检测逻辑</ptxt>
+</item>
+</list1>
+<ptxt>DTC 检测条件 3：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>油压传感器输出值小于 0.35 MPa (3.6 kgf/cm<sup>2</sup>, 51 psi) 且目标传动比为 2.0 或更大。</ptxt>
+</item>
+<item>
+<ptxt>实际传动比小于 1.0。</ptxt>
+</item>
+<item>
+<ptxt>1.5 秒或更长时间</ptxt>
+</item>
+<item>
+<ptxt>单程检测逻辑</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>无级变速传动桥总成</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DBFY_03">
+<name>监视描述</name>
+<content5>
+<ptxt>ECM 检查是否皮带夹紧力过高或过低故障。检测到换档电磁阀 SLS 和油压传感器中存在机械故障时，ECM 检测故障、点亮 MIL 并存储 DTC。</ptxt>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DBFY_09">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>更换无级变速传动桥相关零件时进行初始化。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>检查并确认进行初始化后未存储 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFE" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+</list1>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DBFY_01">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DBFY_01_0002">
+<testtitle>检查 DTC 输出（除 DTC P0841 和 P2829 外）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。</ptxt>
+<gts-info category="dtc-read">
+<title>Powertrain &gt; Engine and ECT &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>使用 GTS 读取 DTC。</ptxt>
+<atten4>
+<ptxt>如果除 P0841 或 P2829 外还输出了其他 DTC，则首先对其他 DTC 进行故障排除。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="3.30in"/>
+<colspec colname="col2" colwidth="0.83in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>同时输出 DTC P0841 和 P2829</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>仅输出 DTC P0841</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>仅输出 DTC P2829</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="4">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>输出 P0841 和/或 P2829 和其他 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>D</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DBFY_01_0003"/>
+</result>
+<result cellposition="1-3" label="3">
+<action actiontype="next" cellposition="2-3" childid="RM100000000DBFY_01_0098"/>
+</result>
+<result cellposition="1-5" label="4">
+<action actiontype="next" cellposition="2-5" childid="RM100000000DBFY_01_0099"/>
+</result>
+<result cellposition="1-7" label="2">
+<action actiontype="end" cellposition="2-7">
+<actiontitle>转至 DTC 表</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFR" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DBFY_01_0003">
+<testtitle>使用 GTS 读取值（A/T 油压）</testtitle>
+<content6>
+<atten2>
+<ptxt>失速转速测试应务必至少由两人一起进行。一人进行测试时，另一人应在车外观察车轮和车轮止动楔的状况。</ptxt>
+</atten2>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>本测试必须在检查并确认发动机运转正常后再进行。</ptxt>
+</item>
+<item>
+<ptxt>CVT 油温度在 50 和 100°C（122 和 212°F）之间时执行此测试。</ptxt>
+</item>
+<item>
+<ptxt>空调关闭时执行此测试。</ptxt>
+</item>
+<item>
+<ptxt>失速转速测试不能超过 5 秒</ptxt>
+</item>
+</list1>
+</atten3>
+<test1>
+<ptxt>发动机暖机。</ptxt>
+</test1>
+<test1>
+<ptxt>完全施加驻车制动并将 4 个车轮全部楔住。</ptxt>
+</test1>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Active Test / Connect the TC and TE1。</ptxt>
+<gts-info category="active-test">
+<title>Powertrain &gt; Engine and ECT &gt; Active Test</title>
+<table type="active-test">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="13" name="item-name">
+<ptxt>Connect the TC and TE1</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50004">
+<gts-ecu ecu-id="234">
+<gts-did did-id="13"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="use-datalist">0</app-param>
+<app-param-unit>
+<app-param name="did-id">13</app-param>
+<app-param name="active-test-item-name">Connect the TC and TE1</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / Primary。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="409" name="item-name">
+<ptxt>A/T Oil Pressure</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="409" name="description">
+<ptxt>次级油压值</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="409" name="range">
+<ptxt>最小：-64 MPa</ptxt>
+<ptxt>最大：63.998 MPa</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="409" name="standard-value">
+<ptxt>次级油压检查 (1ZR-FE)：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>2.9 至 4.8 MPa（29.6 至 48.9 kgf/cm<sup>2</sup>，421 至 696 psi）：D 位置失速转速测试</ptxt>
+</item>
+<item>
+<ptxt>3.1 至 4.8 MPa（31.6 至 48.9 kgf/cm<sup>2</sup>，450 至 696 psi）：R 位置失速转速测试</ptxt>
+</item>
+</list1>
+<ptxt>次级油压检查 (2ZR-FE)：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>3.4 至 4.8 MPa（34.7 至 48.9 kgf/cm<sup>2</sup>，493 至 696 psi）：D 位置失速转速测试</ptxt>
+</item>
+<item>
+<ptxt>3.6 至 4.8 MPa（36.7 至 48.9 kgf/cm<sup>2</sup>，522 至 696 psi）：R 位置失速转速测试</ptxt>
+</item>
+</list1>
+<ptxt>次级油压检查 (4ZR-FE)：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>2.9 至 4.8 MPa（29.6 至 48.9 kgf/cm<sup>2</sup>，421 至 696 psi）：D 位置失速转速测试</ptxt>
+</item>
+<item>
+<ptxt>3.1 至 4.8 MPa（31.6 至 48.9 kgf/cm<sup>2</sup>，450 至 696 psi）：R 位置失速转速测试</ptxt>
+</item>
+</list1>
+<ptxt>次级油压检查 (7ZR-FE)：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>3.4 至 4.8 MPa（34.7 至 48.9 kgf/cm<sup>2</sup>，493 至 696 psi）：D 位置失速转速测试</ptxt>
+</item>
+<item>
+<ptxt>3.6 至 4.8 MPa（36.7 至 48.9 kgf/cm<sup>2</sup>，522 至 696 psi）：R 位置失速转速测试</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="409" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">409</app-param>
+<app-param name="data-list-item-name">A/T Oil Pressure</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="409" name="item-name">
+<ptxt>A/T Oil Pressure</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="234">
+<gts-pid pid-id="409"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">409</app-param>
+<app-param name="data-list-item-name">A/T Oil Pressure</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="3.30in"/>
+<colspec colname="col2" colwidth="0.83in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>数据显示在正常状态范围内</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>数据显示不在正常状态范围内</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000DBFY_01_0110"/>
+</result>
+<result cellposition="2-2" label="2">
+<action actiontype="next" cellposition="3-2" childid="RM100000000DBFY_01_0007"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000DBFY_01_0110">
+<testtitle>更换 ECM</testtitle>
+<content6>
+<test1>
+<ptxt>更换 ECM。</ptxt>
+<ptxt>1ZR-FE：单击此处 <mlink><xref href="RM100000000DE6X" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>2ZR-FE：单击此处 <mlink><xref href="RM100000000ETKL" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>4ZR-FE：单击此处 <mlink><xref href="RM100000000ETM5" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>7ZR-FE：单击此处 <mlink><xref href="RM100000000ETNQ" label="Seep00004" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="end" cellposition="4-1">
+<actiontitle>进行初始化</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-2" id="RM100000000DBFY_01_0007">
+<testtitle>更换油压传感器</testtitle>
+<content6>
+<test1>
+<ptxt>更换油压传感器。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DA2E" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-2" label="1">
+<action actiontype="next" cellposition="4-2" childid="RM100000000DBFY_01_0008"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-2" id="RM100000000DBFY_01_0008">
+<testtitle>清除 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Powertrain &gt; Engine and ECT &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="4-2" label="1">
+<action actiontype="next" cellposition="5-2" childid="RM100000000DBFY_01_0071"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-2" id="RM100000000DBFY_01_0071">
+<testtitle>进行初始化</testtitle>
+<content6>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>执行存储器复位将清除减速度传感器零点校准和 CVT 油压（CVT 油压校准）的学习值。更换下表列出的任一零件时，确保执行存储器复位、减速度传感器零点校准和 CVT 油压校准。</ptxt>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>更换的零件</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>无级变速传动桥总成</ptxt>
+</item>
+<item>
+<ptxt>变速器阀体总成</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+<item>
+<ptxt>油压传感器</ptxt>
+</item>
+<item>
+<ptxt>空气囊 ECU 总成（横摆率和加速度传感器）</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item>
+<ptxt>执行存储器复位后，务必首先执行减速度传感器零点校准，然后进行 CVT 油压校准。</ptxt>
+</item>
+<item>
+<ptxt>务必在车辆处于水平地面（坡度：0 +/- 0.25°）的情况下执行校准。</ptxt>
+</item>
+<item>
+<ptxt>校准过程中，不要晃动或振动车辆。</ptxt>
+</item>
+</list1>
+</atten3>
+<test1>
+<ptxt>使用 GTS 进行存储器复位、减速度传感器零点校准和 CVT 油压校准。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>再次检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFE" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-2" label="1">
+<action actiontype="next" cellposition="6-2" childid="RM100000000DBFY_01_0011"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-2" id="RM100000000DBFY_01_0011">
+<testtitle>检查 DTC 输出</testtitle>
+<content6>
+<test1>
+<ptxt>进行路试。</ptxt>
+</test1>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。</ptxt>
+<gts-info category="dtc-read">
+<title>Powertrain &gt; Engine and ECT &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>使用 GTS 读取 DTC。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="3.30in"/>
+<colspec colname="col2" colwidth="0.83in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>输出 DTC P0841 和/或 P2829</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>未输出 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-2" label="1">
+<action actiontype="next" cellposition="7-2" childid="RM100000000DBFY_01_0114"/>
+</result>
+<result cellposition="6-3" label="2">
+<action actiontype="end" cellposition="7-3">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-2" id="RM100000000DBFY_01_0114">
+<testtitle>更换 ECM</testtitle>
+<content6>
+<test1>
+<ptxt>更换 ECM。</ptxt>
+<ptxt>1ZR-FE：单击此处 <mlink><xref href="RM100000000DE6X" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>2ZR-FE：单击此处 <mlink><xref href="RM100000000ETKL" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>4ZR-FE：单击此处 <mlink><xref href="RM100000000ETM5" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>7ZR-FE：单击此处 <mlink><xref href="RM100000000ETNQ" label="Seep00004" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-2" label="1">
+<action actiontype="next" cellposition="8-2" childid="RM100000000DBFY_01_0091"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-2" id="RM100000000DBFY_01_0091">
+<testtitle>进行初始化</testtitle>
+<content6>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>执行存储器复位将清除减速度传感器零点校准和 CVT 油压（CVT 油压校准）的学习值。更换下表列出的任一零件时，确保执行存储器复位、减速度传感器零点校准和 CVT 油压校准。</ptxt>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>更换的零件</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>无级变速传动桥总成</ptxt>
+</item>
+<item>
+<ptxt>变速器阀体总成</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+<item>
+<ptxt>油压传感器</ptxt>
+</item>
+<item>
+<ptxt>空气囊 ECU 总成（横摆率和加速度传感器）</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item>
+<ptxt>执行存储器复位后，务必首先执行减速度传感器零点校准，然后进行 CVT 油压校准。</ptxt>
+</item>
+<item>
+<ptxt>务必在车辆处于水平地面（坡度：0 +/- 0.25°）的情况下执行校准。</ptxt>
+</item>
+<item>
+<ptxt>校准过程中，不要晃动或振动车辆。</ptxt>
+</item>
+</list1>
+</atten3>
+<test1>
+<ptxt>使用 GTS 进行存储器复位、减速度传感器零点校准和 CVT 油压校准。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>再次检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFE" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-2" label="1">
+<action actiontype="next" cellposition="9-2" childid="RM100000000DBFY_01_0014"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-2" id="RM100000000DBFY_01_0014">
+<testtitle>检查 DTC 输出</testtitle>
+<content6>
+<test1>
+<ptxt>进行路试。</ptxt>
+</test1>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。</ptxt>
+<gts-info category="dtc-read">
+<title>Powertrain &gt; Engine and ECT &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>使用 GTS 读取 DTC。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="3.30in"/>
+<colspec colname="col2" colwidth="0.83in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>输出 DTC P2829</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>未输出 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-2" label="1">
+<action actiontype="next" cellposition="10-2" childid="RM100000000DBFY_01_0016"/>
+</result>
+<result cellposition="9-3" label="2">
+<action actiontype="end" cellposition="10-3">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="10-2" id="RM100000000DBFY_01_0016">
+<testtitle>更换无级变速传动桥总成</testtitle>
+<content6>
+<test1>
+<ptxt>更换无级变速传动桥总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DA1Y" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="10-2" label="1">
+<action actiontype="end" cellposition="11-2">
+<actiontitle>进行初始化</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-3" id="RM100000000DBFY_01_0098">
+<testtitle>使用 GTS 读取值（A/T 油压）</testtitle>
+<content6>
+<atten2>
+<ptxt>失速转速测试应务必至少由两人一起进行。一人进行测试时，另一人应在车外观察车轮和车轮止动楔的状况。</ptxt>
+</atten2>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>本测试必须在检查并确认发动机运转正常后再进行。</ptxt>
+</item>
+<item>
+<ptxt>CVT 油温度在 50 和 100°C（122 和 212°F）之间时执行此测试。</ptxt>
+</item>
+<item>
+<ptxt>空调关闭时执行此测试。</ptxt>
+</item>
+<item>
+<ptxt>失速转速测试不能超过 5 秒</ptxt>
+</item>
+</list1>
+</atten3>
+<test1>
+<ptxt>发动机暖机。</ptxt>
+</test1>
+<test1>
+<ptxt>完全施加驻车制动并将 4 个车轮全部楔住。</ptxt>
+</test1>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Active Test / Connect the TC and TE1。</ptxt>
+<gts-info category="active-test">
+<title>Powertrain &gt; Engine and ECT &gt; Active Test</title>
+<table type="active-test">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="13" name="item-name">
+<ptxt>Connect the TC and TE1</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50004">
+<gts-ecu ecu-id="234">
+<gts-did did-id="13"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="use-datalist">0</app-param>
+<app-param-unit>
+<app-param name="did-id">13</app-param>
+<app-param name="active-test-item-name">Connect the TC and TE1</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / Primary。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="409" name="item-name">
+<ptxt>A/T Oil Pressure</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="409" name="description">
+<ptxt>次级油压值</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="409" name="range">
+<ptxt>最小：-64 MPa</ptxt>
+<ptxt>最大：63.998 MPa</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="409" name="standard-value">
+<ptxt>次级油压检查 (1ZR-FE)：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>2.9 至 4.8 MPa（29.6 至 48.9 kgf/cm<sup>2</sup>，421 至 696 psi）：D 位置失速转速测试</ptxt>
+</item>
+<item>
+<ptxt>3.1 至 4.8 MPa（31.6 至 48.9 kgf/cm<sup>2</sup>，450 至 696 psi）：R 位置失速转速测试</ptxt>
+</item>
+</list1>
+<ptxt>次级油压检查 (2ZR-FE)：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>3.4 至 4.8 MPa（34.7 至 48.9 kgf/cm<sup>2</sup>，493 至 696 psi）：D 位置失速转速测试</ptxt>
+</item>
+<item>
+<ptxt>3.6 至 4.8 MPa（36.7 至 48.9 kgf/cm<sup>2</sup>，522 至 696 psi）：R 位置失速转速测试</ptxt>
+</item>
+</list1>
+<ptxt>次级油压检查 (4ZR-FE)：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>2.9 至 4.8 MPa（29.6 至 48.9 kgf/cm<sup>2</sup>，421 至 696 psi）：D 位置失速转速测试</ptxt>
+</item>
+<item>
+<ptxt>3.1 至 4.8 MPa（31.6 至 48.9 kgf/cm<sup>2</sup>，450 至 696 psi）：R 位置失速转速测试</ptxt>
+</item>
+</list1>
+<ptxt>次级油压检查 (7ZR-FE)：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>3.4 至 4.8 MPa（34.7 至 48.9 kgf/cm<sup>2</sup>，493 至 696 psi）：D 位置失速转速测试</ptxt>
+</item>
+<item>
+<ptxt>3.6 至 4.8 MPa（36.7 至 48.9 kgf/cm<sup>2</sup>，522 至 696 psi）：R 位置失速转速测试</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="409" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">409</app-param>
+<app-param name="data-list-item-name">A/T Oil Pressure</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="409" name="item-name">
+<ptxt>A/T Oil Pressure</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="234">
+<gts-pid pid-id="409"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">409</app-param>
+<app-param name="data-list-item-name">A/T Oil Pressure</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="3.30in"/>
+<colspec colname="col2" colwidth="0.83in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>数据显示在正常状态范围内</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>数据显示不在正常状态范围内</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-3" label="1">
+<action actiontype="next" cellposition="3-3" childid="RM100000000DBFY_01_0111"/>
+</result>
+<result cellposition="2-4" label="2">
+<action actiontype="next" cellposition="3-4" childid="RM100000000DBFY_01_0084"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-3" id="RM100000000DBFY_01_0111">
+<testtitle>更换 ECM</testtitle>
+<content6>
+<test1>
+<ptxt>更换 ECM。</ptxt>
+<ptxt>1ZR-FE：单击此处 <mlink><xref href="RM100000000DE6X" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>2ZR-FE：单击此处 <mlink><xref href="RM100000000ETKL" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>4ZR-FE：单击此处 <mlink><xref href="RM100000000ETM5" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>7ZR-FE：单击此处 <mlink><xref href="RM100000000ETNQ" label="Seep00004" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-3" label="1">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>进行初始化</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-4" id="RM100000000DBFY_01_0084">
+<testtitle>更换油压传感器</testtitle>
+<content6>
+<test1>
+<ptxt>更换油压传感器。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DA2E" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-4" label="1">
+<action actiontype="next" cellposition="4-4" childid="RM100000000DBFY_01_0022"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-4" id="RM100000000DBFY_01_0022">
+<testtitle>清除 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Powertrain &gt; Engine and ECT &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="4-4" label="1">
+<action actiontype="next" cellposition="5-4" childid="RM100000000DBFY_01_0097"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-4" id="RM100000000DBFY_01_0097">
+<testtitle>进行初始化</testtitle>
+<content6>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>执行存储器复位将清除减速度传感器零点校准和 CVT 油压（CVT 油压校准）的学习值。更换下表列出的任一零件时，确保执行存储器复位、减速度传感器零点校准和 CVT 油压校准。</ptxt>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>更换的零件</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>无级变速传动桥总成</ptxt>
+</item>
+<item>
+<ptxt>变速器阀体总成</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+<item>
+<ptxt>油压传感器</ptxt>
+</item>
+<item>
+<ptxt>空气囊 ECU 总成（横摆率和加速度传感器）</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item>
+<ptxt>执行存储器复位后，务必首先执行减速度传感器零点校准，然后进行 CVT 油压校准。</ptxt>
+</item>
+<item>
+<ptxt>务必在车辆处于水平地面（坡度：0 +/- 0.25°）的情况下执行校准。</ptxt>
+</item>
+<item>
+<ptxt>校准过程中，不要晃动或振动车辆。</ptxt>
+</item>
+</list1>
+</atten3>
+<test1>
+<ptxt>使用 GTS 进行存储器复位、减速度传感器零点校准和 CVT 油压校准。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>再次检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFE" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-4" label="1">
+<action actiontype="next" cellposition="6-4" childid="RM100000000DBFY_01_0024"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-4" id="RM100000000DBFY_01_0024">
+<testtitle>检查 DTC 输出</testtitle>
+<content6>
+<test1>
+<ptxt>进行路试。</ptxt>
+</test1>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。</ptxt>
+<gts-info category="dtc-read">
+<title>Powertrain &gt; Engine and ECT &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>使用 GTS 读取 DTC。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="3.30in"/>
+<colspec colname="col2" colwidth="0.83in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>输出 DTC P0841</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>未输出 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-4" label="1">
+<action actiontype="next" cellposition="7-4" childid="RM100000000DBFY_01_0113"/>
+</result>
+<result cellposition="6-5" label="2">
+<action actiontype="end" cellposition="7-5">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-4" id="RM100000000DBFY_01_0113">
+<testtitle>更换 ECM</testtitle>
+<content6>
+<test1>
+<ptxt>更换 ECM。</ptxt>
+<ptxt>1ZR-FE：单击此处 <mlink><xref href="RM100000000DE6X" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>2ZR-FE：单击此处 <mlink><xref href="RM100000000ETKL" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>4ZR-FE：单击此处 <mlink><xref href="RM100000000ETM5" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>7ZR-FE：单击此处 <mlink><xref href="RM100000000ETNQ" label="Seep00004" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-4" label="1">
+<action actiontype="end" cellposition="8-4">
+<actiontitle>进行初始化</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-5" id="RM100000000DBFY_01_0099">
+<testtitle>使用 GTS 读取值（A/T 油压）</testtitle>
+<content6>
+<atten2>
+<ptxt>失速转速测试应务必至少由两人一起进行。一人进行测试时，另一人应在车外观察车轮和车轮止动楔的状况。</ptxt>
+</atten2>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>本测试必须在检查并确认发动机运转正常后再进行。</ptxt>
+</item>
+<item>
+<ptxt>CVT 油温度在 50 和 100°C（122 和 212°F）之间时执行此测试。</ptxt>
+</item>
+<item>
+<ptxt>空调关闭时执行此测试。</ptxt>
+</item>
+<item>
+<ptxt>失速转速测试不能超过 5 秒</ptxt>
+</item>
+</list1>
+</atten3>
+<test1>
+<ptxt>发动机暖机。</ptxt>
+</test1>
+<test1>
+<ptxt>完全施加驻车制动并将 4 个车轮全部楔住。</ptxt>
+</test1>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Active Test / Connect the TC and TE1。</ptxt>
+<gts-info category="active-test">
+<title>Powertrain &gt; Engine and ECT &gt; Active Test</title>
+<table type="active-test">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="13" name="item-name">
+<ptxt>Connect the TC and TE1</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50004">
+<gts-ecu ecu-id="234">
+<gts-did did-id="13"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="use-datalist">0</app-param>
+<app-param-unit>
+<app-param name="did-id">13</app-param>
+<app-param name="active-test-item-name">Connect the TC and TE1</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / Primary。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="409" name="item-name">
+<ptxt>A/T Oil Pressure</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="409" name="description">
+<ptxt>次级油压值</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="409" name="range">
+<ptxt>最小：-64 MPa</ptxt>
+<ptxt>最大：63.998 MPa</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="409" name="standard-value">
+<ptxt>次级油压检查 (1ZR-FE)：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>2.9 至 4.8 MPa（29.6 至 48.9 kgf/cm<sup>2</sup>，421 至 696 psi）：D 位置失速转速测试</ptxt>
+</item>
+<item>
+<ptxt>3.1 至 4.8 MPa（31.6 至 48.9 kgf/cm<sup>2</sup>，450 至 696 psi）：R 位置失速转速测试</ptxt>
+</item>
+</list1>
+<ptxt>次级油压检查 (2ZR-FE)：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>3.4 至 4.8 MPa（34.7 至 48.9 kgf/cm<sup>2</sup>，493 至 696 psi）：D 位置失速转速测试</ptxt>
+</item>
+<item>
+<ptxt>3.6 至 4.8 MPa（36.7 至 48.9 kgf/cm<sup>2</sup>，522 至 696 psi）：R 位置失速转速测试</ptxt>
+</item>
+</list1>
+<ptxt>次级油压检查 (4ZR-FE)：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>2.9 至 4.8 MPa（29.6 至 48.9 kgf/cm<sup>2</sup>，421 至 696 psi）：D 位置失速转速测试</ptxt>
+</item>
+<item>
+<ptxt>3.1 至 4.8 MPa（31.6 至 48.9 kgf/cm<sup>2</sup>，450 至 696 psi）：R 位置失速转速测试</ptxt>
+</item>
+</list1>
+<ptxt>次级油压检查 (7ZR-FE)：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>3.4 至 4.8 MPa（34.7 至 48.9 kgf/cm<sup>2</sup>，493 至 696 psi）：D 位置失速转速测试</ptxt>
+</item>
+<item>
+<ptxt>3.6 至 4.8 MPa（36.7 至 48.9 kgf/cm<sup>2</sup>，522 至 696 psi）：R 位置失速转速测试</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="409" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">409</app-param>
+<app-param name="data-list-item-name">A/T Oil Pressure</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="409" name="item-name">
+<ptxt>A/T Oil Pressure</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="234">
+<gts-pid pid-id="409"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">409</app-param>
+<app-param name="data-list-item-name">A/T Oil Pressure</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="3.30in"/>
+<colspec colname="col2" colwidth="0.83in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>数据显示在正常状态范围内</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>数据显示不在正常状态范围内</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-5" label="1">
+<action actiontype="next" cellposition="3-5" childid="RM100000000DBFY_01_0112"/>
+</result>
+<result cellposition="2-6" label="2">
+<action actiontype="next" cellposition="3-6" childid="RM100000000DBFY_01_0083"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-5" id="RM100000000DBFY_01_0112">
+<testtitle>更换 ECM</testtitle>
+<content6>
+<test1>
+<ptxt>更换 ECM。</ptxt>
+<ptxt>1ZR-FE：单击此处 <mlink><xref href="RM100000000DE6X" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>2ZR-FE：单击此处 <mlink><xref href="RM100000000ETKL" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>4ZR-FE：单击此处 <mlink><xref href="RM100000000ETM5" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>7ZR-FE：单击此处 <mlink><xref href="RM100000000ETNQ" label="Seep00004" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-5" label="1">
+<action actiontype="end" cellposition="4-5">
+<actiontitle>进行初始化</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-6" id="RM100000000DBFY_01_0083">
+<testtitle>更换无级变速传动桥总成</testtitle>
+<content6>
+<test1>
+<ptxt>更换无级变速传动桥总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DA1Y" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-6" label="1">
+<action actiontype="end" cellposition="4-6">
+<actiontitle>进行初始化</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

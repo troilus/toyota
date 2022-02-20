@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'NSimSun';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st11 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st12 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st19 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st20 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED
+		ewd:horAlign CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 4147.407 710.000" viewBox="0 0 4147.314 710.000" height="710.000" width="4147.314" xml:space="preserve" ewd:ver="2.1.2.6F" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+<text style="&st18;" transform="matrix(&st16;  1488.1  408.85 )">ECM</text><text style="&st18;" transform="matrix(&st16;  1488.09  401.75 )">B39</text><text style="&st18;" transform="matrix(&st16;  1228.24  219.05 )">BR</text><text style="&st18;" transform="matrix(&st16;  1160.26  219.05 )">BR</text><text style="&st18;" transform="matrix(&st16;  1157.85  176.56 )">W-B</text><text style="&st18;" transform="matrix(&st16;  1157.85  151.06 )">W-B</text><text style="&st18;" transform="matrix(&st17;  1254.09  281.54 )">BR</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1198.30,   222.75  L  1198.30,   227.00  " /><text style="&st18;" transform="matrix(&st16;  1046.17  162.39 )">ECM</text><text style="&st18;" transform="matrix(&st16;  1183.35  609.99 )">W-B</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1254.26,   562.69  L  1249.29,   567.66  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1261.32,   579.69  L  1266.29,   574.72  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1249.29,   574.72  L  1254.26,   579.69  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1266.29,   567.66  L  1261.32,   562.69  " /><text style="&st18;" transform="matrix(&st16;  1046.16  571.72 )">B29</text><text style="&st18;" transform="matrix(&st16;  1183.35  567.49 )">W-B</text><text style="&st1;" transform="matrix(&st16;  1046.17  493.84 )" ewd:textID="66">3 号点火线圈</text><text style="&st18;" transform="matrix(&st16;  1046.17  230.38 )">DLC3</text><text style="&st1;" transform="matrix(&st16;  1046.17  621.32 )" ewd:textID="35">带皮带轮的压缩机总成<tspan x="0 " dy="6.0" /></text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1249.29,   239.75  L  1257.79,   239.75  " /><text style="&st1;" transform="matrix(&st16;  1046.17  451.35 )" ewd:textID="67">4 号点火线圈</text><text style="&st18;" transform="matrix(&st16;  1046.16  529.23 )">B30</text><text style="&st18;" transform="matrix(&st16;  1183.35  525.0 )">W-B</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1249.29,   489.73  L  1254.26,   494.70  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1261.32,   494.70  L  1266.29,   489.73  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1254.26,   477.71  L  1249.29,   482.68  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1266.29,   482.68  L  1261.32,   477.71  " /><text style="&st18;" transform="matrix(&st16;  1046.16  486.73 )">B31</text><text style="&st18;" transform="matrix(&st16;  1183.35  482.51 )">W-B</text><text style="&st18;" transform="matrix(&st16;  1046.16  614.21 )">B9</text><text style="&st18;" transform="matrix(&st16;  1046.16  444.24 )">B32</text><text style="&st18;" transform="matrix(&st16;  1183.35  440.01 )">W-B</text><text style="&st18;" transform="matrix(&st17;  1254.09  534.65 )">W-B</text><text style="&st1;" transform="matrix(&st16;  1046.17  536.33 )" ewd:textID="65">2 号点火线圈</text><text style="&st1;" transform="matrix(&st16;  1046.17  578.82 )" ewd:textID="64">1 号点火线圈</text><text style="&st18;" transform="matrix(&st17;  1254.09  636.63 )">W-B</text><text style="&st18;" transform="matrix(&st17;  1339.08  634.23 )">BR</text><text style="&st18;" transform="matrix(&st16;  1046.16  155.29 )">B39</text><text style="&st18;" transform="matrix(&st16;  1391.56  397.52 )">W-B</text><text style="&st18;" transform="matrix(&st16;  1391.56  431.52 )">W-B</text><text style="&st18;" transform="matrix(&st16;  1046.16  223.28 )">E18</text><text style="&st18;" transform="matrix(&st16;  1393.97  465.51 )">BR</text><text style="&st1;" transform="matrix(&st16;  1483.02  609.99 )" ewd:textID="1">（屏蔽）</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1461.76,   576.16  L  1456.78,   571.19  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1444.76,   583.22  L  1449.73,   588.19  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1456.78,   588.19  L  1461.76,   583.22  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1449.73,   571.19  L  1444.76,   576.16  " /><text style="&st1;" transform="matrix(&st16;  1483.02  575.99 )" ewd:textID="1">（屏蔽）</text><text style="&st18;" transform="matrix(&st16;  1393.97  575.99 )">BR</text><text style="&st1;" transform="matrix(&st16;  1483.02  542.0 )" ewd:textID="1">（屏蔽）</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1351.27,   576.16  L  1346.30,   571.19  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1334.28,   583.22  L  1339.25,   588.19  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1346.30,   588.19  L  1351.27,   583.22  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1339.25,   571.19  L  1334.28,   576.16  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1461.76,   542.17  L  1456.78,   537.20  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1444.76,   549.22  L  1449.73,   554.19  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1456.78,   554.19  L  1461.76,   549.22  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1449.73,   537.20  L  1444.76,   542.17  " /><text style="&st18;" transform="matrix(&st16;  1393.97  542.0 )">BR</text><text style="&st18;" transform="matrix(&st16;  1463.49  437.18 )">(E01)</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1461.76,   392.72  L  1461.76,   503.20  L  1546.74,   503.20  L  1546.74,   392.72  L  1461.76,   392.72  " /><text style="&st18;" transform="matrix(&st16;  1463.49  403.19 )">(ME01)</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1045.32,   562.69  L  1045.32,   588.19  L  1130.31,   588.19  L  1130.31,   562.69  L  1045.32,   562.69  " /><text style="&st18;" transform="matrix(&st16;  1111.56  573.16 )">(GND)</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1045.32,   520.20  L  1045.32,   545.69  L  1130.31,   545.69  L  1130.31,   520.20  L  1045.32,   520.20  " /><text style="&st18;" transform="matrix(&st16;  1111.56  530.67 )">(GND)</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1045.32,   477.71  L  1045.32,   503.20  L  1130.31,   503.20  L  1130.31,   477.71  L  1045.32,   477.71  " /><text style="&st18;" transform="matrix(&st16;  1111.56  488.17 )">(GND)</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1045.32,   605.18  L  1045.32,   630.68  L  1130.31,   630.68  L  1130.31,   605.18  L  1045.32,   605.18  " /><text style="&st18;" transform="matrix(&st16;  1109.78  615.65 )">(SOL-)</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1045.32,   435.21  L  1045.32,   460.71  L  1130.31,   460.71  L  1130.31,   435.21  L  1045.32,   435.21  " /><text style="&st18;" transform="matrix(&st16;  1111.56  445.68 )">(GND)</text><text style="&st18;" transform="matrix(&st16;  1114.43  182.22 )">(E02)</text><text style="&st18;" transform="matrix(&st16;  1463.49  471.18 )">(E1)</text><text style="&st18;" transform="matrix(&st16;  1114.43  156.73 )">(E04)</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1045.32,   146.26  L  1045.32,   197.25  L  1130.31,   197.25  L  1130.31,   146.26  L  1045.32,   146.26  " /><text style="&st18;" transform="matrix(&st16;  1116.83  224.72 )">(SG)</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1045.32,   214.25  L  1045.32,   239.75  L  1130.31,   239.75  L  1130.31,   214.25  L  1045.32,   214.25  " /><g ewd:figtype="w2w" ewd:figID="7" ewd:code="AE3"><text style="&st18;" transform="matrix(&st16;  1203.45  215.51 )">15</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1189.23,   218.50  L  1193.48,   222.75  L  1189.23,   227.00  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1192.63,   218.50  L  1196.88,   222.75  L  1192.63,   227.00  " /></g><g ewd:figtype="w2w" ewd:figID="8" ewd:code="BA2"><text style="&st18;" transform="matrix(&st16;  1245.16  245.96 )">7</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1262.04,   234.08  L  1257.79,   238.33  L  1253.54,   234.08  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1253.54,   230.68  L  1257.79,   234.93  L  1262.04,   230.68  " /></g><g ewd:figtype="gp" ewd:figID="28" ewd:code="BA"><path style="stroke-width: 0.85 ;&st7;  " d=" M  1291.78,   697.25  L  1291.78,   701.50  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1283.29,   701.50  L  1300.28,   701.50  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1287.53,   704.33  L  1296.03,   704.33  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1288.95,   707.17  L  1294.62,   707.17  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1290.37,   710.00  L  1293.20,   710.00  " /></g><g ewd:figtype="gp" ewd:figID="29" ewd:code="BB"><path style="stroke-width: 0.85 ;&st7;  " d=" M  1290.37,   361.56  L  1293.20,   361.56  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1288.95,   358.73  L  1294.62,   358.73  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1287.53,   355.89  L  1296.03,   355.89  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1283.29,   353.06  L  1300.28,   353.06  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1291.78,   348.81  L  1291.78,   353.06  " /></g></svg>

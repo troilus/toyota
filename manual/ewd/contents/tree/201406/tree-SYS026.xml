@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS026" code="B39" type="conn" figID="3">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS026" code="B29" type="conn" figID="2">
+    <name>1 号点火线圈</name>
+  </text>
+  <text ewd="SYS026" code="B30" type="conn" figID="6">
+    <name>2 号点火线圈</name>
+  </text>
+  <text ewd="SYS026" code="B31" type="conn" figID="5">
+    <name>3 号点火线圈</name>
+  </text>
+  <text ewd="SYS026" code="B32" type="conn" figID="4">
+    <name>4 号点火线圈</name>
+  </text>
+  <text ewd="SYS026" code="FUSE19" type="fuse" figID="16">
+    <name>15A IG2</name>
+  </text>
+  <text ewd="SYS026" code="BA" type="gp" figID="11">
+    <name />
+  </text>
+  <text ewd="SYS026" code="1" type="rb" figID="7">
+    <name />
+  </text>
+  <text ewd="SYS026" code="FUSE19" type="rb" figID="1">
+    <name>15A IG2</name>
+  </text>
+  <text ewd="SYS026" code="SP5" type="sp" figID="12">
+    <name />
+  </text>
+  <text ewd="SYS026" code="SP24" type="sp" figID="14">
+    <name />
+  </text>
+  <text ewd="SYS026" code="SP26" type="sp" figID="15">
+    <name />
+  </text>
+  <text ewd="SYS026" code="SP27" type="sp" figID="13">
+    <name />
+  </text>
+  <text ewd="SYS026" code="BA2" type="w2w" figID="10">
+    <name>发动机线束和发动机室主线束</name>
+  </text>
+</EwdTree>

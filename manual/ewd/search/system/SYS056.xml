@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS056">
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="conn" code="E75">
+      <text>MV MH HL HR VL VR M+ B E</text>
+      <name>车外后视镜开关总成</name>
+      <name type="inner">左</name>
+      <name type="inner">操作开关</name>
+      <name type="inner">选择开关</name>
+      <name type="inner">右</name>
+      <name type="inner">上</name>
+      <name type="inner">下</name>
+      <name type="inner">左/ 右</name>
+      <name type="inner">右/下</name>
+    </part>
+    <part type="conn" code="H11">
+      <text>M+ MH MV</text>
+      <name>左侧车外后视镜总成</name>
+    </part>
+    <part type="conn" code="G10">
+      <text>MV M+ MH</text>
+      <name>右侧车外后视镜总成</name>
+    </part>
+    <part type="fuse" code="FUSE43">
+      <text>ACC</text>
+    </part>
+  </ttl>
+</EWDSearch>

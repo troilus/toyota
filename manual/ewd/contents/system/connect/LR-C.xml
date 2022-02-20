@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <connector type="rb" code="FUSE5" figID="3">
+    <pin>
+      <line id="1" color="G">
+        <connector type="jbc" code="3A" figID="21">
+          <pin no="43"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3C" figID="20">
+    <pin no="17">
+      <line id="2" color="L">
+        <connector type="jbc" code="3C" figID="21">
+          <pin no="51"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3C" figID="21">
+    <pin no="9">
+      <line id="3" color="W-B">
+        <connector type="gp" code="EA" figID="30">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3D" figID="21">
+    <pin no="12">
+      <line id="4" color="W-B">
+        <connector type="gp" code="EB" figID="31">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3E" figID="22">
+    <pin no="25">
+      <line id="5" color="W">
+        <connector type="conn" code="L1" figID="6">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="1E" figID="18">
+    <pin no="1">
+      <line id="6" color="W">
+        <connector type="jbc" code="3B" figID="19">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP21" figID="35">
+    <pin>
+      <line id="7" color="W">
+        <connector type="conn" code="E15" figID="5">
+          <pin no="18"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E36" figID="8">
+    <pin no="30">
+      <line id="8" color="W">
+        <connector type="sp" code="SP21" figID="35">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E71" figID="4">
+    <pin no="12">
+      <line id="9" color="W-B">
+        <connector type="gp" code="ED" figID="32">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E71" figID="4">
+    <pin no="16">
+      <line id="10" color="W-B">
+        <connector type="conn" code="E15" figID="5">
+          <pin no="15"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE4" sex="male" figID="26">
+    <pin no="4">
+      <line id="11" color="L">
+        <connector type="conn" code="E74" figID="7">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE4" sex="female" figID="26">
+    <pin no="4">
+      <line id="12" color="L">
+        <connector type="conn" code="A39" figID="2">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE2" sex="female" figID="27">
+    <pin no="4">
+      <line id="13" color="G">
+        <connector type="conn" code="A39" figID="2">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E36" figID="8">
+    <pin no="14">
+      <line id="14" color="G">
+        <connector type="w2w" code="AE2" sex="male" figID="27">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE4" sex="male" figID="28">
+    <pin no="3">
+      <line id="15" color="W">
+        <connector type="conn" code="E74" figID="7">
+          <pin no="16"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE4" sex="female" figID="28">
+    <pin no="3">
+      <line id="16" color="W">
+        <connector type="conn" code="A39" figID="2">
+          <pin no="12"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE2" sex="female" figID="29">
+    <pin no="5">
+      <line id="17" color="W">
+        <connector type="conn" code="A39" figID="2">
+          <pin no="14"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E36" figID="8">
+    <pin no="13">
+      <line id="18" color="W">
+        <connector type="w2w" code="AE2" sex="male" figID="29">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3A" figID="23">
+    <pin no="44">
+      <line id="19" color="W" spec="不带 TFT 显示屏" commtxt="(*2)">
+        <connector type="rb" code="FUSE6" figID="10">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3D" figID="23">
+    <pin no="34">
+      <line id="20" color="W" spec="不带 TFT 显示屏" commtxt="(*2)">
+        <connector type="conn" code="E55" figID="9">
+          <pin no="40"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E55" figID="9">
+    <pin no="31">
+      <line id="21" color="W" spec="不带 TFT 显示屏" commtxt="(*2)">
+        <connector type="conn" code="E74" figID="7">
+          <pin no="15"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3C" figID="17">
+    <pin no="55">
+      <line id="22" color="P" spec="不带 TFT 显示屏" commtxt="(*2)">
+        <connector type="conn" code="E55" figID="9">
+          <pin no="39"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E55" figID="9">
+    <pin no="32">
+      <line id="23" color="LG" spec="不带 TFT 显示屏" commtxt="(*2)">
+        <connector type="conn" code="E74" figID="7">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E55" figID="9">
+    <pin no="21">
+      <line id="24" color="BR" spec="不带 TFT 显示屏" commtxt="(*2)">
+        <connector type="gp" code="ED" figID="33">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3C" figID="25">
+    <pin no="55">
+      <line id="25" color="P" spec="带 TFT 显示屏" commtxt="(*1)">
+        <connector type="conn" code="E55" figID="11">
+          <pin no="39"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3D" figID="24">
+    <pin no="34">
+      <line id="26" color="W" spec="带 TFT 显示屏" commtxt="(*1)">
+        <connector type="conn" code="E55" figID="11">
+          <pin no="40"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE6" figID="12">
+    <pin>
+      <line id="27" color="W" spec="带 TFT 显示屏" commtxt="(*1)">
+        <connector type="jbc" code="3A" figID="24">
+          <pin no="44"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E55" figID="11">
+    <pin no="31">
+      <line id="28" color="W" spec="带 TFT 显示屏" commtxt="(*1)">
+        <connector type="conn" code="E74" figID="7">
+          <pin no="15"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E55" figID="11">
+    <pin no="32">
+      <line id="29" color="LG" spec="带 TFT 显示屏" commtxt="(*1)">
+        <connector type="conn" code="E74" figID="7">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E55" figID="11">
+    <pin no="21">
+      <line id="30" color="BR" spec="带 TFT 显示屏" commtxt="(*1)">
+        <connector type="gp" code="ED" figID="34">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jb" code="" figID="18">
+    <pin>
+      <line id="32" color="" dir="none">
+        <connector type="rb" code="FUSE36" figID="1">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jb" code="" figID="19">
+    <pin>
+      <line id="33" color="" dir="none">
+        <connector type="conn" code="" figID="8">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jb" code="" figID="22">
+    <pin>
+      <line id="34" color="" dir="none">
+        <connector type="conn" code="" figID="8">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jb" code="" figID="21">
+    <pin>
+      <line id="35" color="" dir="none">
+        <connector type="conn" code="" figID="8">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="45">
+    <pin>
+      <line id="36" color="" dir="none">
+        <connector type="conn" code="" figID="6">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

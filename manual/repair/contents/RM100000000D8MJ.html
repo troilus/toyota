@@ -1,0 +1,426 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_58</span>
+<span class="globalServcatName">车辆内饰</span>
+<span class="globalSection">_024004</span>
+<span class="globalSectionName">门锁</span>
+<span class="globalTitle">_0116197</span>
+<span class="globalTitleName">无线门锁控制系统（带智能进入和起动系统）</span>
+<span class="globalCategory">D</span>
+</div>
+<h1>门锁&nbsp;&nbsp;无线门锁控制系统（带智能进入和起动系统）&nbsp;&nbsp;诊断系统&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D8MJ_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">描述
+</span></p>
+<br>
+<p>认证 ECU（智能钥匙 ECU 总成）存储出现故障时的 DTC。
+</p>
+<p>诊断系统可从 DLC3 读取 DTC。
+</p>
+<p>使用 GTS 检查故障并进行维修。
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">检查 DLC3
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>检查 DLC3。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;如何使用本手册&gt;一般信息<span class="invisible">201406,999999,_V1,_023977,_0116734,RM100000000DB7Y,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">检查蓄电池电压
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>测量车辆蓄电池电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><p>11 至 14 V
+</p>
+</dd>
+</dl>
+<br>
+<p>如果电压低于 11 V，则对蓄电池再充电或更换蓄电池。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">自诊断模式（使用 GTS）
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>进入以下菜单：Body Electrical / Entry&amp;Start / Utility / Wireless Door Lock Diagnosis Mode。
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Body Electrical &gt; Entry&amp;Start &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Wireless Door Lock Diagnosis Mode
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">125</span>
+<span class="gtsUtil">2164</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>按照 GTS 屏幕上的提示转到下一步。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">f.</div>
+<div class="step2Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/B220865.png" alt="B220865" title="B220865">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.146,0.115 2.844,0.479</span>
+<span class="captionSize">2.698,0.365</span>
+<span class="fontsize">12</span>
+<span class="filled">false</span>
+<span class="captionText">车内灯输出：</span>
+</span>
+<span class="caption">
+<span class="points">0.646,1.396 1,1.604</span>
+<span class="captionSize">0.354,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">0.635,1.677 1.135,1.938</span>
+<span class="captionSize">0.5,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">1.552,2.167 1.844,2.385</span>
+<span class="captionSize">0.292,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">T1</span>
+</span>
+<span class="caption">
+<span class="points">2.146,2.167 2.396,2.375</span>
+<span class="captionSize">0.25,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">T2</span>
+</span>
+<span class="caption">
+<span class="points">1.969,2.583 3.354,3.021</span>
+<span class="captionSize">1.385,0.438</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">T1：0.25 秒</span>
+</span>
+<span class="caption">
+<span class="points">1.969,2.896 3.146,3.24</span>
+<span class="captionSize">1.177,0.344</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">T2：0.5 秒</span>
+</span>
+<span class="caption">
+<span class="points">1.802,2.167 2.083,2.427</span>
+<span class="captionSize">0.281,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">T1</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>通过检查车内灯输出模式，检查并确认系统已切换至自诊断模式。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">g.</div>
+<div class="step2Body">
+<p>按下电子钥匙发射器分总成开关时，检查诊断输出。可通过车内灯闪烁模式检查诊断输出。
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B357193.png" alt="B357193" title="B357193">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.146,0.104 2.958,0.583</span>
+<span class="captionSize">2.813,0.479</span>
+<span class="fontsize">12</span>
+<span class="filled">false</span>
+<span class="captionText">车内灯输出：</span>
+</span>
+<span class="caption">
+<span class="points">0.177,1.021 2.469,1.219</span>
+<span class="captionSize">2.292,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">正常波形 (A)</span>
+</span>
+<span class="caption">
+<span class="points">0.177,1.333 3.323,1.573</span>
+<span class="captionSize">3.146,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">（锁止/开锁/行李厢门开启开关）：</span>
+</span>
+<span class="caption">
+<span class="points">0.427,2.208 0.885,2.406</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">0.427,1.833 0.885,2.031</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">1.208,2.604 1.667,2.802</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">T1</span>
+</span>
+<span class="caption">
+<span class="points">1.719,2.615 2.177,2.813</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">T2</span>
+</span>
+<span class="caption">
+<span class="points">0.698,3.198 2.896,3.438</span>
+<span class="captionSize">2.198,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">T1：0.25 秒（车内灯）</span>
+</span>
+<span class="caption">
+<span class="points">0.698,3.583 2.719,3.854</span>
+<span class="captionSize">2.021,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">T2：0.5 秒（车内灯）</span>
+</span>
+<span class="caption">
+<span class="points">4.115,0.448 6.406,0.646</span>
+<span class="captionSize">2.292,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">识别码不匹配 (B)：</span>
+</span>
+<span class="caption">
+<span class="points">4.146,0.99 4.604,1.188</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">4.156,1.396 4.615,1.594</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">4.917,1.844 6.51,2.094</span>
+<span class="captionSize">1.594,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">正接收波形</span>
+</span>
+<span class="caption">
+<span class="points">4.177,2.708 5.771,2.958</span>
+<span class="captionSize">1.594,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">无诊断输出 (C)：</span>
+</span>
+<span class="caption">
+<span class="points">4.167,3.208 4.625,3.406</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<table summary="" class="half">
+<caption>结果</caption>
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">车内灯输出
+</th>
+<th class="alcenter">可疑部位
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A
+</td>
+<td class="alcenter">正常（无故障）
+</td>
+</tr>
+<tr>
+<td class="alcenter">B
+</td>
+<td class="alcenter">注册遥控代码
+</td>
+</tr>
+<tr>
+<td class="alcenter">C
+</td>
+<td class="alcenter">波干扰或相关零部件故障
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

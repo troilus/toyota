@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_56">
+<name>音频/视频/车载通信系统</name>
+<section id="_023998">
+<name>音频/视频系统</name>
+<ttl id="_0116391">
+<name>音频和视频系统（无线电收音机和显示屏型）</name>
+<para category="J" id="RM100000000D9H1">
+<dtccode/>
+<dtcname>无法接收到无线电广播或接收效果差</dtcname>
+<subpara category="01" id="RM100000000D9H1_04">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D9H1_04_0001">
+<testtitle>检查无线电收音机和显示屏接收器总成</testtitle>
+<content6>
+<test1>
+<ptxt>检查无线电收音机的自动电台检索功能。</ptxt>
+<test2>
+<ptxt>启动无线电收音机自动电台检索功能，检查其工作情况。</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>自动电台检索功能不停止。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>自动电台检索功能停在某个电台。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test2>
+</test1>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D9H1_04_0003"/>
+</result>
+<result cellposition="1-7" label="2">
+<action actiontype="end" cellposition="2-7">
+<actiontitle>更换无线电收音机和显示屏接收器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD8R" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D9H1_04_0003">
+<testtitle>检查选装件</testtitle>
+<content6>
+<test1>
+<ptxt>检查是否安装了任何可能降低接收能力的选装件，如遮阳薄膜或电话天线等。</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未安装选装件。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>安装了选装件。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>不要在未经客户允许的情况下拆下选装件。</ptxt>
+</atten3>
+</test1>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D9H1_04_0005"/>
+</result>
+<result cellposition="2-6" label="2">
+<action actiontype="end" cellposition="3-6">
+<actiontitle>拆卸选装件并再次检查（参考以上注意事项）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D9H1_04_0005">
+<testtitle>检查无线电收音机和显示屏接收器总成</testtitle>
+<content6>
+<test1>
+<ptxt>检查准备</ptxt>
+<figure translate="I" type="1">
+<graphic graphicname="E245523" height="2.192421260in" width="3.434793307in"/>
+</figure>
+<test2>
+<ptxt>从无线电收音机和显示屏接收器总成上拆下天线连接器。</ptxt>
+</test2>
+</test1>
+<test1>
+<ptxt>检查噪音</ptxt>
+<test2>
+<ptxt>在无线电收音机和显示屏接收器总成连接器保持连接时，将点火开关置于 ACC 位置。</ptxt>
+</test2>
+<test2>
+<ptxt>打开无线电收音机，选择 AM 模式。</ptxt>
+</test2>
+<test2>
+<ptxt>在无线电收音机和显示屏总成天线插座上放置一把螺丝刀、细金属丝或其他金属物体，检查并确认可以从扬声器听到噪音。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>从扬声器中听到噪音。</ptxt>
+</specitem>
+</spec>
+</test2>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D9H1_04_0027"/>
+</result>
+<result cellposition="3-5" label="2">
+<action actiontype="end" cellposition="4-5">
+<actiontitle>更换无线电收音机和显示屏接收器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD8R" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D9H1_04_0027">
+<testtitle>检查车窗玻璃天线引线</testtitle>
+<content6>
+<test1>
+<ptxt>检查车窗玻璃天线引线的导通性。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="E111994C14" height="4.677165354in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>检测仪探针</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>天线引线</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*c</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>锡箔</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<atten3>
+<ptxt>清洁玻璃时，使用柔软干布沿引线方向擦拭玻璃。小心不要损坏引线。不要使用含有研磨成分的去垢剂或玻璃清洁剂。如图所示，测量电阻时，用一张锡箔缠绕各探针的顶部，并用手指将锡箔按压到引线上。</ptxt>
+</atten3>
+<atten4>
+<ptxt>如图所示，在各天线引线的中部检查其导通性。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>车窗玻璃天线引线导通。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000D9H1_04_0009"/>
+</result>
+<result cellposition="4-4" label="2">
+<action actiontype="end" cellposition="5-4">
+<actiontitle>维修车窗玻璃天线引线</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD9E" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000D9H1_04_0009">
+<testtitle>检查无线电收音机和显示屏接收器总成</testtitle>
+<content6>
+<test1>
+<ptxt>断开无线电收音机和显示屏接收器总成连接器 RA。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="E188455C09" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>未连接线束的零部件</ptxt>
+<ptxt>（无线电收音机和显示屏接收器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>RA-5 (ANT+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ACC</ptxt>
+<ptxt>无线电收音机开关打开，并选择 FM 或 AM</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="next" cellposition="6-1" childid="RM100000000D9H1_04_0011"/>
+</result>
+<result cellposition="5-3" label="2">
+<action actiontype="end" cellposition="6-3">
+<actiontitle>更换无线电收音机和显示屏接收器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD8R" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-1" id="RM100000000D9H1_04_0011">
+<testtitle>更换天线芯线分总成</testtitle>
+<content6>
+<test1>
+<ptxt>用新的或确认正常的天线芯线分总成更换，并检查是否能正常接收无线电广播。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD8R" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>可以正常接收无线电广播。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-1" label="1">
+<action actiontype="end" cellposition="7-1">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="6-2" label="2">
+<action actiontype="next" cellposition="7-2" childid="RM100000000D9H1_04_0015"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-2" id="RM100000000D9H1_04_0015">
+<testtitle>更换 1 号放大器天线总成</testtitle>
+<content6>
+<test1>
+<ptxt>用新的或确认正常的 1 号放大器天线总成更换，并检查是否能正常接收无线电广播。</ptxt>
+<ptxt>TFTM 制造：单击此处 <mlink><xref href="RM100000000DD9Q" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>GTMC 制造：单击此处 <mlink><xref href="RM100000000DD95" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>可以正常接收无线电广播。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-2" label="1">
+<action actiontype="end" cellposition="8-2">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="7-3" label="2">
+<action actiontype="end" cellposition="8-3">
+<actiontitle>更换无线电收音机和显示屏接收器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD8R" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

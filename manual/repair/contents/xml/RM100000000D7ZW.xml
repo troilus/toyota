@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_54">
+<name>制动</name>
+<section id="_023990">
+<name>制动控制/动态控制系统</name>
+<ttl id="_0116082">
+<name>车辆稳定性控制系统</name>
+<para category="J" id="RM100000000D7ZW">
+<dtccode/>
+<dtcname>VSC OFF 开关电路</dtcname>
+<subpara category="03" id="RM100000000D7ZW_01">
+<name>描述</name>
+<content5>
+<ptxt>防滑控制 ECU（制动执行器总成）通过 CAN 通信与组合仪表总成相连。</ptxt>
+<ptxt>按下 VSC OFF 开关关闭 TRC 操作，按住此开关关闭 TRC 和 VSC 操作。 如果关闭 TRC 和 VSC 操作，则多信息显示屏上将显示 TRC OFF 信息且 VSC OFF 指示灯将点亮。</ptxt>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D7ZW_02">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="C270525E37" height="4.825319882in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D7ZW_06">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>更换防滑控制 ECU（制动执行器总成）时，执行系统校准学习。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7YG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D7ZW_05">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D7ZW_05_0001">
+<testtitle>检查 CAN 通信系统</testtitle>
+<content6>
+<test1>
+<ptxt>检查是否输出 CAN 通信系统 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UU" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.95in"/>
+<colspec colname="col2" colwidth="2.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D7ZW_05_0002"/>
+</result>
+<result cellposition="1-8" label="2">
+<action actiontype="end" cellposition="2-8">
+<actiontitle>检查 CAN 通信系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D7ZW_05_0002">
+<testtitle>检查制动执行器总成连接器是否连接牢固</testtitle>
+<content6>
+<test1>
+<ptxt>检查防滑控制 ECU（制动执行器总成）连接器是否连接牢固。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>连接器连接牢固。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D7ZW_05_0019"/>
+</result>
+<result cellposition="2-7" label="2">
+<action actiontype="end" cellposition="3-7">
+<actiontitle>将连接器正确连接至制动执行器总成</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D7ZW_05_0019">
+<testtitle>使用 GTS 读取值（TRC/VSC OFF 模式）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>使用 GTS 选择数据表。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7YF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="data-list-table">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="282" name="item-name">
+<ptxt>TRC/VSC Off Mode</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="282" name="description">
+<ptxt>TRC/VSC OFF 模式</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="282" name="range">
+<ptxt>Normal、TRC OFF、Unknown 或 VSC OFF</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="282" name="standard-value">
+<ptxt>Normal：正常模式</ptxt>
+<ptxt>TRC OFF：TRC OFF 模式</ptxt>
+<ptxt>Unknown：不明确</ptxt>
+<ptxt>VSC OFF：VSC OFF 模式</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="282" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">3</app-param>
+<app-param-unit>
+<app-param name="pid-id">282</app-param>
+<app-param name="data-list-item-name">TRC/VSC Off Mode</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="282" name="item-name">
+<ptxt>TRC/VSC Off Mode</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="105">
+<gts-pid pid-id="282"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">282</app-param>
+<app-param name="data-list-item-name">TRC/VSC Off Mode</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>检查指示灯和 GTS 上的模式状态根据 VSC OFF 开关操作发生的变化。</ptxt>
+<spec type="other">
+<title>标准</title>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="col1" colwidth="1.77in"/>
+<colspec colname="col2" colwidth="1.77in"/>
+<colspec colname="col3" colwidth="1.75in"/>
+<colspec colname="col4" colwidth="1.79in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>开关操作</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>模式状态显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>多信息显示屏（TRC OFF 信息）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>VSC OFF 指示灯</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>未按下</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>未显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>不亮</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>按下 VSC OFF 开关</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>TRC OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>不亮</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>按住 VSC OFF 开关</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>VSC OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点亮</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.25in"/>
+<colspec colname="col2" colwidth="2.83in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>指示灯和模式状态显示均不变。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>模式状态显示正常，但指示灯不变。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>指示灯和模式状态显示正常。</ptxt>
+</entry>
+<entry align="center">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D7ZW_05_0022"/>
+</result>
+<result cellposition="3-5" label="2">
+<action actiontype="end" cellposition="4-5">
+<actiontitle>检查仪表系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9CD" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-6" label="3">
+<action actiontype="end" cellposition="4-6">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D7ZW_05_0022">
+<testtitle>使用 GTS 进行主动测试（多信息显示屏（TRC OFF 信息）和 VSC OFF 指示灯）</testtitle>
+<content6>
+<test1>
+<ptxt>选择 GTS 上的主动测试。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7YF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="active-test-table">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Active Test</title>
+<table pgwide="1" type="active-test-table">
+<tgroup cols="4">
+<colspec colname="1" colwidth="1.77in"/>
+<colspec colname="2" colwidth="1.77in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>控制范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="78" name="item-name">
+<ptxt>TRC(TRAC) OFF Indicator Light</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="78" name="description">
+<ptxt>多信息显示屏（TRC OFF 信息）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="78" name="drive-range">
+<ptxt>显示屏（信息）ON/OFF</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="78" name="remark">
+<ptxt>观察组合仪表总成</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="79" name="item-name">
+<ptxt>VSC OFF Indicator Light</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="79" name="description">
+<ptxt>VSC OFF 指示灯</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="79" name="drive-range">
+<ptxt>指示灯 ON/OFF</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="79" name="remark">
+<ptxt>观察组合仪表总成</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="did-id">78</app-param>
+<app-param name="active-test-item-name">TRC(TRAC) OFF Indicator Light</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="did-id">79</app-param>
+<app-param name="active-test-item-name">VSC OFF Indicator Light</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="active-test">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Active Test</title>
+<table type="active-test">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="78" name="item-name">
+<ptxt>TRC(TRAC) OFF Indicator Light</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50004">
+<gts-ecu ecu-id="105">
+<gts-did did-id="78"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="use-datalist">0</app-param>
+<app-param-unit>
+<app-param name="did-id">78</app-param>
+<app-param name="active-test-item-name">TRC(TRAC) OFF Indicator Light</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="active-test">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Active Test</title>
+<table type="active-test">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="79" name="item-name">
+<ptxt>VSC OFF Indicator Light</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50004">
+<gts-ecu ecu-id="105">
+<gts-did did-id="79"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="use-datalist">0</app-param>
+<app-param-unit>
+<app-param name="did-id">79</app-param>
+<app-param name="active-test-item-name">VSC OFF Indicator Light</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>检查并确认组合仪表总成中的多信息显示屏（TRC OFF 信息）和 VSC OFF 指示灯根据 GTS 操作打开或关闭。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>多信息显示屏（TRC OFF 信息）和 VSC OFF 指示灯根据 GTS 操作打开或关闭。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000D7ZW_05_0025"/>
+</result>
+<result cellposition="4-4" label="2">
+<action actiontype="next" cellposition="5-4" childid="RM100000000D7ZW_05_0005"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000D7ZW_05_0025">
+<testtitle>检查 VSC OFF 开关</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C239020C04" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>未连接线束的零部件</ptxt>
+<ptxt>（VSC OFF 开关）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>断开 VSC OFF 开关连接器 E60。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>6 (+) -3 (E)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>按下开关</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>6 (+) -3 (E)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>未按下开关</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="next" cellposition="6-1" childid="RM100000000D7ZW_05_0020"/>
+</result>
+<result cellposition="5-3" label="2">
+<action actiontype="end" cellposition="6-3">
+<actiontitle>更换 VSC OFF 开关</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9ED" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-1" id="RM100000000D7ZW_05_0020">
+<testtitle>检查线束和连接器（制动执行器总成 - VSC OFF 开关）</testtitle>
+<content6>
+<test1>
+<ptxt>断开防滑控制 ECU（制动执行器总成）连接器 A42。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.36in"/>
+<colspec colname="col2" colwidth="1.36in"/>
+<colspec colname="col3" colwidth="1.41in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A42-9 (CSW) - E60-6 (+)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A42-9 (CSW) 或 E60-6 (+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E60-3 (E) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>如果根据故障症状表已进行了故障排除，则在更换零件前请再次参考该表并转至下一步。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7ZC" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-1" label="1">
+<action actiontype="end" cellposition="7-1">
+<actiontitle>更换制动执行器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9DF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="6-2" label="2">
+<action actiontype="end" cellposition="7-2">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-4" id="RM100000000D7ZW_05_0005">
+<testtitle>检查组合仪表总成</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>使用 GTS 进行组合仪表总成的主动测试。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9CK" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="active-test">
+<title>Body Electrical &gt; Combination Meter &gt; Active Test</title>
+<table type="active-test">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="7" name="item-name">
+<ptxt>Meter Display 1</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50004">
+<gts-ecu ecu-id="122">
+<gts-did did-id="7"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">122</app-param>
+<app-param name="ecu-name">Combination Meter</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="use-datalist">0</app-param>
+<app-param-unit>
+<app-param name="did-id">7</app-param>
+<app-param name="active-test-item-name">Meter Display 1</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="active-test">
+<title>Body Electrical &gt; Combination Meter &gt; Active Test</title>
+<table type="active-test">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="94" name="item-name">
+<ptxt>Indicat.VSC OFF</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50004">
+<gts-ecu ecu-id="122">
+<gts-did did-id="94"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">122</app-param>
+<app-param name="ecu-name">Combination Meter</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="use-datalist">0</app-param>
+<app-param-unit>
+<app-param name="did-id">94</app-param>
+<app-param name="active-test-item-name">Indicat.VSC OFF</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>检查组合仪表总成。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>多信息显示屏和 VSC OFF 指示灯根据 GTS 操作打开或关闭。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>如果根据故障症状表已进行了故障排除，则在更换零件前请再次参考该表并转至下一步。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7ZC" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-4" label="1">
+<action actiontype="end" cellposition="6-4">
+<actiontitle>更换制动执行器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9DF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="5-5" label="2">
+<action actiontype="end" cellposition="6-5">
+<actiontitle>检查仪表系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9CD" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

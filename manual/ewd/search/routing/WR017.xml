@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="WR017">
+    <part type="conn" code="g1">
+      <name>中央刹车灯总成</name>
+    </part>
+    <part type="conn" code="O4">
+      <name>阅读灯总成</name>
+    </part>
+    <part type="conn" code="O6">
+      <name>1 号车厢照明灯总成</name>
+    </part>
+    <part type="conn" code="O5">
+      <name>1 号车厢照明灯总成</name>
+    </part>
+    <part type="conn" code="P7">
+      <name>左侧中央 1 号超声波传感器</name>
+    </part>
+    <part type="conn" code="P3">
+      <name>左侧中央 1 号超声波传感器</name>
+    </part>
+    <part type="conn" code="P2">
+      <name>右侧中央 1 号超声波传感器</name>
+    </part>
+    <part type="conn" code="P6">
+      <name>右侧中央 1 号超声波传感器</name>
+    </part>
+    <part type="conn" code="P8">
+      <name>左侧 1 号超声波传感器</name>
+    </part>
+    <part type="conn" code="P4">
+      <name>左侧 1 号超声波传感器</name>
+    </part>
+    <part type="conn" code="P1">
+      <name>右侧 1 号超声波传感器</name>
+    </part>
+    <part type="conn" code="P5">
+      <name>右侧 1 号超声波传感器</name>
+    </part>
+    <part type="conn" code="j1">
+      <name>左后轮转速传感器（左侧防滑控制传感器线束）</name>
+    </part>
+    <part type="conn" code="h1">
+      <name>右后轮转速传感器（右侧防滑控制传感器线束）</name>
+    </part>
+    <part type="conn" code="Q1">
+      <name>后窗除雾器（背窗玻璃）</name>
+    </part>
+    <part type="conn" code="O3">
+      <name>滑动天窗控制 ECU（滑动天窗主动齿轮分总成）</name>
+    </part>
+    <part type="conn" code="O2">
+      <name>左侧梳妆灯总成</name>
+    </part>
+    <part type="conn" code="O1">
+      <name>右侧梳妆灯总成</name>
+    </part>
+  </ttl>
+</EWDSearch>

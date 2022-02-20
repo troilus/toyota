@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_59">
+<name>车辆外饰</name>
+<section id="_024016">
+<name>滑动天窗/活顶</name>
+<ttl id="_0116775">
+<name>滑动天窗系统</name>
+<para category="C" id="RM100000000DBEM">
+<dtccode>B2343</dtccode>
+<dtcname>位置初始化未完成</dtcname>
+<subpara category="03" id="RM100000000DBEM_01">
+<name>描述</name>
+<content5>
+<ptxt>滑动天窗 ECU（滑动天窗主动齿轮分总成）未进行初始化时存储该 DTC。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="4">
+<colspec colname="1" colwidth="1.77in"/>
+<colspec colname="2" colwidth="1.77in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B2343</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>位置初始化未完成</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>滑动天窗 ECU（滑动天窗主动齿轮分总成）未进行初始化。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<ptxt>滑动天窗 ECU（滑动天窗主动齿轮分总成）</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DBEM_02">
+<name>电路图</name>
+<content5>
+<ptxt>请参考 DTC B2341。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBES_06_0013" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DBEM_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>如果拆下并重新安装或更换滑动天窗 ECU（滑动天窗主动齿轮分总成），则滑动天窗 ECU（滑动天窗主动齿轮分总成）必须进行初始化。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBEL" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>滑动天窗系统使用 LIN 通信系统。 首先，确认 LIN 通信系统无故障。请参考如何进行故障排除。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBEN" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<ptxt>同时输出 DTC B2342 和 B2343 时，首先对 DTC B2342 进行故障排除。</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DBEM_06">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DBEM_06_0001">
+<testtitle>初始化滑动天窗 ECU（滑动天窗主动齿轮分总成）</testtitle>
+<content6>
+<test1>
+<ptxt>检查并确认滑动天窗 ECU（滑动天窗主动齿轮分总成）可以初始化。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBEL" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>滑动天窗 ECU（滑动天窗主动齿轮分总成）可以初始化。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DBEM_06_0002"/>
+</result>
+<result cellposition="1-4" label="2">
+<action actiontype="end" cellposition="2-4">
+<actiontitle>更换滑动天窗 ECU（滑动天窗主动齿轮分总成）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCZO" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DBEM_06_0002">
+<testtitle>检查滑动天窗工作情况</testtitle>
+<content6>
+<test1>
+<ptxt>检查滑动天窗自动操作。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBEJ" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>自动操作正常工作。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000DBEM_06_0003"/>
+</result>
+<result cellposition="2-3" label="2">
+<action actiontype="end" cellposition="3-3">
+<actiontitle>更换滑动天窗 ECU（滑动天窗主动齿轮分总成）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCZO" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000DBEM_06_0003">
+<testtitle>检查 DTC 输出</testtitle>
+<content6>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBEI" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; Sliding Roof &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="147"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">147</app-param>
+<app-param name="ecu-name">Sliding Roof</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Sliding Roof &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="147"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">147</app-param>
+<app-param name="ecu-name">Sliding Roof</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>未输出 DTC B2343。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="end" cellposition="4-1">
+<actiontitle>结束（因初始化失败造成的故障）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="3-2" label="2">
+<action actiontype="end" cellposition="4-2">
+<actiontitle>更换滑动天窗 ECU（滑动天窗主动齿轮分总成）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCZO" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

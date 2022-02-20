@@ -1,0 +1,1427 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_54</span>
+<span class="globalServcatName">制动</span>
+<span class="globalSection">_023990</span>
+<span class="globalSectionName">制动控制/动态控制系统</span>
+<span class="globalTitle">_0116082</span>
+<span class="globalTitleName">车辆稳定性控制系统</span>
+<span class="globalCategory">U</span>
+</div>
+<h1>制动控制/动态控制系统&nbsp;&nbsp;车辆稳定性控制系统&nbsp;&nbsp;数据表/主动测试&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D7YF_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">数据表
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 读取数据表，无需拆下任何零件，即可读取开关、传感器、执行器及其他项目的值或状态。这种非侵入式检查非常有用，可在零件或配线受到干扰之前发现间歇性状况或信号。故障排除时，尽早读取数据表信息是节省诊断时间的一种方法。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>在下表中，&ldquo;正常状态&rdquo;下列出的值为参考值。确定零件是否出现故障时，不要仅仅依赖这些参考值。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>使发动机暖机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">f.</div>
+<div class="step2Body">
+<p>进入以下菜单：Chassis / ABS/VSC/TRC / Data List。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">g.</div>
+<div class="step2Body">
+<p>根据 GTS 上的显示，读取数据表。
+</p>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Chassis &gt; ABS/VSC/TRC &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">ABS Warning Light
+</td>
+<td class="alleft">ABS 警告灯
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：警告灯点亮
+<br>
+OFF：警告灯熄灭
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Brake Warning Light
+</td>
+<td class="alleft">制动警告灯
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：警告灯点亮
+<br>
+OFF：警告灯熄灭
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Stop Light SW
+</td>
+<td class="alleft">刹车灯开关
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：踩下制动踏板
+<br>
+OFF：松开制动踏板
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Parking Brake SW
+</td>
+<td class="alleft">驻车制动开关
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：施加驻车制动
+<br>
+OFF：解除驻车制动
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Main Idle SW
+</td>
+<td class="alleft">主怠速开关
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：松开加速踏板
+<br>
+OFF：踩下加速踏板
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Shift Lever Position
+</td>
+<td class="alleft">换档杆位置信息
+</td>
+<td class="alleft">"P,N"、R、D/M、1st-6th/B 或 FAIL
+</td>
+<td class="alleft">实际换档杆位置
+</td>
+<td class="alleft">无极变速传动桥
+</td>
+</tr>
+<tr>
+<td class="alleft">Inspection Mode
+</td>
+<td class="alleft">检查模式
+</td>
+<td class="alleft">Other 或 Inspect
+</td>
+<td class="alleft">Other：正常模式
+<br>
+Inspect：检查模式
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Number of IG ON (Inspection)
+</td>
+<td class="alleft">进入检查模式后，点火开关切换至 ON 位置的次数
+</td>
+<td class="alleft">最少：0，最多：255
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Master Cylinder Sensor
+</td>
+<td class="alleft">总泵压力传感器读数
+</td>
+<td class="alleft">最低：0.00 V，最高：5.00 V
+</td>
+<td class="alleft">松开制动踏板：0.20 至 0.40 V
+</td>
+<td class="alleft">踩下制动踏板时读数增大
+</td>
+</tr>
+<tr>
+<td class="alleft">Deceleration Sensor
+</td>
+<td class="alleft">加速度传感器读数
+</td>
+<td class="alleft">最小：-18.525 m/s<sup>2</sup>，最大：18.387 m/s<sup>2</sup>
+
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">减速/加速时：持续变化
+</td>
+</tr>
+<tr>
+<td class="alleft">Zero Point of Decele
+</td>
+<td class="alleft">存储的零值
+</td>
+<td class="alleft">最小：-25.10 m/s<sup>2</sup>，最大：24.90 m/s<sup>2</sup>
+
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Deceleration Sensor2
+</td>
+<td class="alleft">加速度传感器 2 的读数
+</td>
+<td class="alleft">最小：-18.525 m/s<sup>2</sup>，最大：18.387 m/s<sup>2</sup>
+
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">减速/加速时：持续变化
+</td>
+</tr>
+<tr>
+<td class="alleft">Zero Point of Decele2
+</td>
+<td class="alleft">存储的零值
+</td>
+<td class="alleft">最小：-25.10 m/s<sup>2</sup>，最大：24.90 m/s<sup>2</sup>
+
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Yaw Rate Sensor
+</td>
+<td class="alleft">横摆率传感器
+</td>
+<td class="alleft">最小：-128&deg;/s，最大：127&deg;/s
+</td>
+<td class="alleft">车辆停止：0&deg;/s
+<br>
+右转：-128 至 0&deg;/s
+<br>
+左转：0 至 127&deg;/s
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Zero Point of Yaw Rate
+</td>
+<td class="alleft">存储的零值
+</td>
+<td class="alleft">最小：-128&deg;/s，最大：127&deg;/s
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">完成零点校准后：0&deg;
+</td>
+</tr>
+<tr>
+<td class="alleft">Steering Angle Sensor
+</td>
+<td class="alleft">转向角传感器
+</td>
+<td class="alleft">最小：-3276.8&deg;，最大：3276.7&deg;
+</td>
+<td class="alleft">左转：增大
+<br>
+右转：减小
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Zero Point of Steering Angle
+</td>
+<td class="alleft">存储的零值
+</td>
+<td class="alleft">最小：-3276.8&deg;，最大：3276.7&deg;
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">转向角传感器零点校准后：0.0&deg;
+</td>
+</tr>
+<tr>
+<td class="alleft">Lateral G
+</td>
+<td class="alleft">横向加速度
+</td>
+<td class="alleft">最小：-25.10 m/s<sup>2</sup>，最大：24.90 m/s<sup>2</sup>
+
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">转向时：其变化与横向加速度成正比
+</td>
+</tr>
+<tr>
+<td class="alleft">Yaw Rate Value
+</td>
+<td class="alleft">横摆率值
+</td>
+<td class="alleft">最小：-128&deg;/s，最大：127&deg;/s
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">转向时：其变化与横摆率成正比
+</td>
+</tr>
+<tr>
+<td class="alleft">Steering Angle Value
+</td>
+<td class="alleft">转向角值
+</td>
+<td class="alleft">最小：-3276.8&deg;，最大：3276.7&deg;
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">转向操作时：其变化与方向盘旋转幅度成正比
+</td>
+</tr>
+<tr>
+<td class="alleft">Slip Indicator Light
+</td>
+<td class="alleft">打滑指示灯
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：指示灯点亮
+<br>
+OFF：指示灯熄灭
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">FR Wheel Speed
+</td>
+<td class="alleft">右前轮转速传感器读数
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：326 km/h (202 mph)
+</td>
+<td class="alleft">车辆停止：0 km/h (0 mph)
+</td>
+<td class="alleft">定速行驶时：无较大的波动
+</td>
+</tr>
+<tr>
+<td class="alleft">FL Wheel Speed
+</td>
+<td class="alleft">左前轮转速传感器读数
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：326 km/h (202 mph)
+</td>
+<td class="alleft">车辆停止：0 km/h (0 mph)
+</td>
+<td class="alleft">定速行驶时：无较大的波动
+</td>
+</tr>
+<tr>
+<td class="alleft">RR Wheel Speed
+</td>
+<td class="alleft">右后轮转速传感器读数
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：326 km/h (202 mph)
+</td>
+<td class="alleft">车辆停止：0 km/h (0 mph)
+</td>
+<td class="alleft">定速行驶时：无较大的波动
+</td>
+</tr>
+<tr>
+<td class="alleft">RL Wheel Speed
+</td>
+<td class="alleft">左后轮转速传感器读数
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：326 km/h (202 mph)
+</td>
+<td class="alleft">车辆停止：0 km/h (0 mph)
+</td>
+<td class="alleft">定速行驶时：无较大的波动
+</td>
+</tr>
+<tr>
+<td class="alleft">Vehicle Speed
+</td>
+<td class="alleft">车轮转速传感器最高读数
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：326 km/h (202 mph)
+</td>
+<td class="alleft">车辆停止：0 km/h (0 mph)
+</td>
+<td class="alleft">定速行驶时：无较大的波动
+</td>
+</tr>
+<tr>
+<td class="alleft">FR Wheel Acceleration
+</td>
+<td class="alleft">右前轮加速
+</td>
+<td class="alleft">最小：-200.84 m/s<sup>2</sup>，最大：199.27 m/s<sup>2</sup>
+
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">减速/加速时：持续变化
+</td>
+</tr>
+<tr>
+<td class="alleft">FL Wheel Acceleration
+</td>
+<td class="alleft">左前轮加速
+</td>
+<td class="alleft">最小：-200.84 m/s<sup>2</sup>，最大：199.27 m/s<sup>2</sup>
+
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">减速/加速时：持续变化
+</td>
+</tr>
+<tr>
+<td class="alleft">RR Wheel Acceleration
+</td>
+<td class="alleft">右后轮加速
+</td>
+<td class="alleft">最小：-200.84 m/s<sup>2</sup>，最大：199.27 m/s<sup>2</sup>
+
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">减速/加速时：持续变化
+</td>
+</tr>
+<tr>
+<td class="alleft">RL Wheel Acceleration
+</td>
+<td class="alleft">左后轮加速
+</td>
+<td class="alleft">最小：-200.84 m/s<sup>2</sup>，最大：199.27 m/s<sup>2</sup>
+
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">减速/加速时：持续变化
+</td>
+</tr>
+<tr>
+<td class="alleft">FR Wheel ABS Ctrl Status
+</td>
+<td class="alleft">右前轮 ABS 控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">FL Wheel ABS Ctrl Status
+</td>
+<td class="alleft">左前轮 ABS 控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">RR Wheel ABS Ctrl Status
+</td>
+<td class="alleft">右后轮 ABS 控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">RL Wheel ABS Ctrl Status
+</td>
+<td class="alleft">左后轮 ABS 控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">FR Wheel EBD Ctrl Status
+</td>
+<td class="alleft">右前轮 EBD 控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">FL Wheel EBD Ctrl Status
+</td>
+<td class="alleft">左前轮 EBD 控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">RR Wheel EBD Ctrl Status
+</td>
+<td class="alleft">右后轮 EBD 控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">RL Wheel EBD Ctrl Status
+</td>
+<td class="alleft">左后轮 EBD 控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">BA Ctrl Status
+</td>
+<td class="alleft">BA 控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">TRC (TRAC) Ctrl Status
+</td>
+<td class="alleft">TRC 控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">TRC (TRAC) Engine Ctrl Status
+</td>
+<td class="alleft">TRC 发动机控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">TRC (TRAC) Brake Ctrl Status
+</td>
+<td class="alleft">TRC 制动控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">FR Wheel VSC Ctrl Status
+</td>
+<td class="alleft">右前轮 VSC 控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">FL Wheel VSC Ctrl Status
+</td>
+<td class="alleft">左前轮 VSC 控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">RR Wheel VSC Ctrl Status
+</td>
+<td class="alleft">右后轮 VSC 控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">RL Wheel VSC Ctrl Status
+</td>
+<td class="alleft">左后轮 VSC 控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Revolutions
+</td>
+<td class="alleft">发动机转速
+</td>
+<td class="alleft">最低：0 rpm，最高：65535 rpm
+</td>
+<td class="alleft">发动机停机：0 rpm
+</td>
+<td class="alleft">发动机转速恒定时：没有较大的浮动
+</td>
+</tr>
+<tr>
+<td class="alleft">Real Engine Torque
+</td>
+<td class="alleft">实际发动机转矩
+</td>
+<td class="alleft">最小：-1024.0 Nm，最大：1023.0 Nm
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Accelerator Opening Angle %
+</td>
+<td class="alleft">加速踏板开度百分比
+</td>
+<td class="alleft">最小：0.0%，最大：128.0%
+</td>
+<td class="alleft">松开加速踏板：0.0%
+</td>
+<td class="alleft">操作加速踏板时：其变化与踏板的移动成正比
+</td>
+</tr>
+<tr>
+<td class="alleft">Solenoid Relay
+</td>
+<td class="alleft">ABS 电磁阀继电器
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：ABS 电磁阀继电器接通
+<br>
+OFF：ABS 电磁阀继电器断开
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">ECB Motor Relay
+</td>
+<td class="alleft">ABS 马达继电器
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：ABS 马达继电器接通
+<br>
+OFF：ABS 马达继电器断开
+</td>
+<td class="alleft">ECB：电子控制制动器
+</td>
+</tr>
+<tr>
+<td class="alleft">TR(A)C/VSC Solenoid (SRM2)
+</td>
+<td class="alleft">主切断电磁阀 (SRM2)
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">TR(A)C/VSC Solenoid (SRM1)
+</td>
+<td class="alleft">主切断电磁阀 (SRM1)
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">TR(A)C/VSC Solenoid (SRC2)
+</td>
+<td class="alleft">主切断电磁阀 (SRC2)
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">TR(A)C/VSC Solenoid (SRC1)
+</td>
+<td class="alleft">主切断电磁阀 (SRC1)
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid (SFRH)
+</td>
+<td class="alleft">ABS 电磁阀 (SFRH)
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid (SFRR)
+</td>
+<td class="alleft">ABS 电磁阀 (SFRR)
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid (SFLH)
+</td>
+<td class="alleft">ABS 电磁阀 (SFLH)
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid (SFLR)
+</td>
+<td class="alleft">ABS 电磁阀 (SFLR)
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid (SRRH)
+</td>
+<td class="alleft">ABS 电磁阀 (SRRH)
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid (SRRR)
+</td>
+<td class="alleft">ABS 电磁阀 (SRRR)
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid (SRLH)
+</td>
+<td class="alleft">ABS 电磁阀 (SRLH)
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid (SRLR)
+</td>
+<td class="alleft">ABS 电磁阀 (SRLR)
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：控制中
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">EFI Communication Open
+</td>
+<td class="alleft">ECM 通信开路检测
+</td>
+<td class="alleft">Error 或 Normal
+</td>
+<td class="alleft">Error：瞬间中断
+<br>
+Normal：正常
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Yaw Rate Open
+</td>
+<td class="alleft">横摆率传感器开路检测
+</td>
+<td class="alleft">Error 或 Normal
+</td>
+<td class="alleft">Error：瞬间中断
+<br>
+Normal：正常
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Deceleration Open
+</td>
+<td class="alleft">加速度传感器开路检测
+</td>
+<td class="alleft">Error 或 Normal
+</td>
+<td class="alleft">Error：瞬间中断
+<br>
+Normal：正常
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Steering Open
+</td>
+<td class="alleft">转向角传感器开路检测
+</td>
+<td class="alleft">Error 或 Normal
+</td>
+<td class="alleft">Error：瞬间中断
+<br>
+Normal：正常
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">IG1 Voltage Value
+</td>
+<td class="alleft">IG1 电压值
+</td>
+<td class="alleft">最低：0.00 V，最高：20.00 V
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">与蓄电池电压成正比变化
+</td>
+</tr>
+<tr>
+<td class="alleft">BS1 Voltage Value
+</td>
+<td class="alleft">+BS 电压值
+</td>
+<td class="alleft">最低：0.00 V，最高：20.00 V
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">与蓄电池电压成正比变化
+</td>
+</tr>
+<tr>
+<td class="alleft">MT Voltage Value
+</td>
+<td class="alleft">马达电压值
+</td>
+<td class="alleft">最低：0.00 V，最高：20.00 V
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">与蓄电池电压成正比变化
+</td>
+</tr>
+<tr>
+<td class="alleft">TRC/VSC Off Mode
+</td>
+<td class="alleft">TRC/VSC OFF 模式
+</td>
+<td class="alleft">Normal、TRC OFF、Unknown 或 VSC OFF
+</td>
+<td class="alleft">Normal：正常模式
+<br>
+TRC OFF：TRC OFF 模式
+<br>
+Unknown：不明确
+<br>
+VSC OFF：VSC OFF 模式
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Number of DTC
+</td>
+<td class="alleft">记录的 DTC 数量
+</td>
+<td class="alleft">最少：0，最多：255
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">IG Voltage Value Decreased
+</td>
+<td class="alleft">+BS 电压值下降检测
+</td>
+<td class="alleft">Error 或 Normal
+</td>
+<td class="alleft">Error：电压低
+<br>
+Normal：正常
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">IG Voltage Value Increased
+</td>
+<td class="alleft">+BS 电压值升高检测
+</td>
+<td class="alleft">Error 或 Normal
+</td>
+<td class="alleft">Error：电压高
+<br>
+Normal：正常
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">主动测试
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 进行主动测试，无需拆下任何零件即可操作继电器、VSV、执行器及其他项目。这种非侵入式功能检查非常有用，可在零件或配线受到干扰之前发现间歇性工作。
+</p>
+</dd>
+<dd class="atten4">
+<p>故障排除时，尽早进行主动测试是节省诊断时间的一种方法。进行主动测试时可以显示数据表信息。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>使发动机暖机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">f.</div>
+<div class="step2Body">
+<p>进入以下菜单：Chassis / ABS/VSC/TRC / Active Test。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">g.</div>
+<div class="step2Body">
+<p>根据 GTS 上的显示，进行主动测试。
+</p>
+<dl class="gtsActiveTestTable hasAllTable">
+<dt class="gtsActiveTestTable">Chassis &gt; ABS/VSC/TRC &gt; Active Test</dt>
+<dd class="gtsActiveTestTable">
+<table summary="active-test-table">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">控制范围
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">ABS Warning Light
+</td>
+<td class="alleft">ABS 警告灯
+</td>
+<td class="alleft">警告灯 ON/OFF
+</td>
+<td class="alleft">观察组合仪表总成
+</td>
+</tr>
+<tr>
+<td class="alleft">Brake Warning Light
+</td>
+<td class="alleft">制动警告灯
+</td>
+<td class="alleft">警告灯 ON/OFF
+</td>
+<td class="alleft">观察组合仪表总成
+</td>
+</tr>
+<tr>
+<td class="alleft">Motor Relay
+</td>
+<td class="alleft">ABS 马达继电器
+</td>
+<td class="alleft">继电器 ON/OFF
+</td>
+<td class="alleft">可以听到马达的工作声音
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid (SRLR)
+</td>
+<td class="alleft">ABS 电磁阀 (SRLR)
+</td>
+<td class="alleft">电磁阀 ON/OFF
+</td>
+<td class="alleft">可以听到电磁阀的工作声音（咔嗒声）
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid (SRLH)
+</td>
+<td class="alleft">ABS 电磁阀 (SRLH)
+</td>
+<td class="alleft">电磁阀 ON/OFF
+</td>
+<td class="alleft">可以听到电磁阀的工作声音（咔嗒声）
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid (SRRR)
+</td>
+<td class="alleft">ABS 电磁阀 (SRRR)
+</td>
+<td class="alleft">电磁阀 ON/OFF
+</td>
+<td class="alleft">可以听到电磁阀的工作声音（咔嗒声）
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid (SRRH)
+</td>
+<td class="alleft">ABS 电磁阀 (SRRH)
+</td>
+<td class="alleft">电磁阀 ON/OFF
+</td>
+<td class="alleft">可以听到电磁阀的工作声音（咔嗒声）
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid (SFLR)
+</td>
+<td class="alleft">ABS 电磁阀 (SFLR)
+</td>
+<td class="alleft">电磁阀 ON/OFF
+</td>
+<td class="alleft">可以听到电磁阀的工作声音（咔嗒声）
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid (SFLH)
+</td>
+<td class="alleft">ABS 电磁阀 (SFLH)
+</td>
+<td class="alleft">电磁阀 ON/OFF
+</td>
+<td class="alleft">可以听到电磁阀的工作声音（咔嗒声）
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid (SFRR)
+</td>
+<td class="alleft">ABS 电磁阀 (SFRR)
+</td>
+<td class="alleft">电磁阀 ON/OFF
+</td>
+<td class="alleft">可以听到电磁阀的工作声音（咔嗒声）
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid (SFRH)
+</td>
+<td class="alleft">ABS 电磁阀 (SFRH)
+</td>
+<td class="alleft">电磁阀 ON/OFF
+</td>
+<td class="alleft">可以听到电磁阀的工作声音（咔嗒声）
+</td>
+</tr>
+<tr>
+<td class="alleft">VSC/TRC Solenoid (SRMR)
+</td>
+<td class="alleft">主切断电磁阀 (SRM2)
+</td>
+<td class="alleft">电磁阀 ON/OFF
+</td>
+<td class="alleft">可以听到电磁阀的工作声音（咔嗒声）
+</td>
+</tr>
+<tr>
+<td class="alleft">VSC/TRC Solenoid (SRMF)
+</td>
+<td class="alleft">主切断电磁阀 (SRM1)
+</td>
+<td class="alleft">电磁阀 ON/OFF
+</td>
+<td class="alleft">可以听到电磁阀的工作声音（咔嗒声）
+</td>
+</tr>
+<tr>
+<td class="alleft">VSC/TRC Solenoid (SRCR)
+</td>
+<td class="alleft">主切断电磁阀 (SRC2)
+</td>
+<td class="alleft">电磁阀 ON/OFF
+</td>
+<td class="alleft">可以听到电磁阀的工作声音（咔嗒声）
+</td>
+</tr>
+<tr>
+<td class="alleft">VSC/TRC Solenoid (SRCF)
+</td>
+<td class="alleft">主切断电磁阀 (SRC1)
+</td>
+<td class="alleft">电磁阀 ON/OFF
+</td>
+<td class="alleft">可以听到电磁阀的工作声音（咔嗒声）
+</td>
+</tr>
+<tr>
+<td class="alleft">TRC(TRAC) OFF Indicator Light
+</td>
+<td class="alleft">多信息显示屏（TRC OFF 信息）
+</td>
+<td class="alleft">显示屏（信息）ON/OFF
+</td>
+<td class="alleft">观察组合仪表总成
+</td>
+</tr>
+<tr>
+<td class="alleft">VSC OFF Indicator Light
+</td>
+<td class="alleft">VSC OFF 指示灯
+</td>
+<td class="alleft">指示灯 ON/OFF
+</td>
+<td class="alleft">观察组合仪表总成
+</td>
+</tr>
+<tr>
+<td class="alleft">Slip Indicator Light
+</td>
+<td class="alleft">打滑指示灯
+</td>
+<td class="alleft">指示灯 ON/OFF
+</td>
+<td class="alleft">观察组合仪表总成
+</td>
+</tr>
+<tr>
+<td class="alleft">ABS Solenoid
+</td>
+<td class="alleft">ABS 电磁阀 (SRLR, SRLH, SRRR, SRRH, SFLR, SFLH, SFRR, SFRH)
+</td>
+<td class="alleft">电磁阀 SRLR/SRLH/SRRR/
+<br>
+SRRH/SFLR/SFLH/SFRR/SFRH
+</td>
+<td class="alleft">可以听到电磁阀的工作声音（咔嗒声）
+</td>
+</tr>
+<tr>
+<td class="alleft">VSC/TRC(TRAC) Solenoid
+</td>
+<td class="alleft">主切断电磁阀 (SRM1, SRM2, SRC1, SRC2)
+</td>
+<td class="alleft">电磁阀 SRMF/SRMR/SRCF/
+<br>
+SRCR/SMF/SMR/SPFR/SPFL
+</td>
+<td class="alleft">可以听到电磁阀的工作声音（咔嗒声）
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

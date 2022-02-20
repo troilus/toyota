@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_57">
+<name>电源/网络</name>
+<section id="_024003">
+<name>网络</name>
+<ttl id="_0116996">
+<name>LIN 通信系统</name>
+<para category="C" id="RM100000000DBW3">
+<dtccode>B2785</dtccode>
+<dtcname>通过 LIN 连接的 ECU 之间的通信故障</dtcname>
+<subpara category="03" id="RM100000000DBW3_01">
+<name>描述</name>
+<content5>
+<ptxt>认证 ECU（智能钥匙 ECU 总成）监视与认证总线连接的所有 ECU 之间的通信。认证 ECU（智能钥匙 ECU 总成）以规定的时间间隔连续 3 次检测到与认证总线连接的所有 ECU 之间的通信存在故障时，将存储 DTC B2785。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="4">
+<colspec colname="1" colwidth="1.77in"/>
+<colspec colname="2" colwidth="1.77in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B2785</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>通过 LIN 连接的 ECU 之间的通信故障</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<list1 type="unordered">
+<item>
+<ptxt>ECU 之间的 LIN 通信故障或通信线路开路或短路。</ptxt>
+</item>
+<item>
+<ptxt>认证 ECU（智能钥匙 ECU 总成）连续 3 次检测到 LIN 通信故障。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>认证 ECU（智能钥匙 ECU 总成）</ptxt>
+</item>
+<item>
+<ptxt>转向锁 ECU（转向锁执行器总成）</ptxt>
+</item>
+<item>
+<ptxt>ID 代码箱（停机系统代码 ECU）</ptxt>
+</item>
+<item>
+<ptxt>线束或连接器</ptxt>
+</item>
+<item>
+<ptxt>STRG LOCK 保险丝</ptxt>
+</item>
+<item>
+<ptxt>2 号 ECU-B 保险丝</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DBW3_02">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="B333672E21" height="5.838041339in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DBW3_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>进行下列程序前，先检查与此系统相关电路的保险丝。</ptxt>
+</item>
+<item>
+<ptxt>如果更换认证 ECU（智能钥匙 ECU 总成），则注册钥匙（参考《服务快讯》）。</ptxt>
+</item>
+<item>
+<ptxt>如果更换转向锁 ECU（转向锁执行器总成），则注册 ECU 代码（参考《服务快讯》）。</ptxt>
+</item>
+<item>
+<ptxt>如果更换 ID 代码箱（停机系统代码 ECU），注册 ECU 代码和 ECU 通信 ID（参考《服务快讯》）。</ptxt>
+</item>
+<item>
+<ptxt>执行此检查前，检查并确认未输出 DTC B2786、B2789 或 B278C。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBVX" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>点火开关置于 OFF 位置的情况下使用 GTS 时，将 GTS 连接到 DLC3 并以 1.5 秒或更短的间隔打开并关闭门控灯开关，直至 GTS 和车辆间开始通信。然后在手动模式下选择车型代码“KEY REGIST”并进入以下菜单：Body Electrical / Entry&amp;Start(CAN)。使用 GTS 时，以 1.5 秒或更短的间隔间歇打开并关闭门控灯开关，以保持 GTS 和车辆间的通信。</ptxt>
+</item>
+</list1>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DBW3_05">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DBW3_05_0001">
+<testtitle>检查线束和连接器（认证 ECU（智能钥匙 ECU 总成）- 各 ECU）</testtitle>
+<content6>
+<test1>
+<ptxt>断开认证 ECU（智能钥匙 ECU 总成）连接器 E49。</ptxt>
+</test1>
+<test1>
+<ptxt>断开转向锁 ECU（转向锁执行器总成）连接器 E51。</ptxt>
+</test1>
+<test1>
+<ptxt>断开 ID 代码箱（停机系统代码 ECU）连接器 E28。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<atten3>
+<ptxt>进行检查前，确保各 ECU 处于休眠模式。 在不操作任何开关的情况下将点火开关从 ON 位置切换至 OFF 位置并等待 180 秒或更长时间，以进入休眠模式。</ptxt>
+</atten3>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E49-17 (LIN) - E51-5 (LIN)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E49-17 (LIN) - E28-2 (LIN1)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E49-17 (LIN) 或 E28-2 (LIN1) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E51-5 (LIN) 或 E28-2 (LIN1) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DBW3_05_0003"/>
+</result>
+<result cellposition="1-4" label="2">
+<action actiontype="end" cellposition="2-4">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DBW3_05_0003">
+<testtitle>检查 DTC 输出（转向锁 ECU（转向锁执行器总成））</testtitle>
+<content6>
+<test1>
+<ptxt>重新连接认证 ECU（智能钥匙 ECU 总成）连接器 E49。</ptxt>
+</test1>
+<test1>
+<ptxt>重新连接 ID 代码箱（停机系统代码 ECU）连接器 E28。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBVX" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="125"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>重新检查 DTC。</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="125"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.07in"/>
+<colspec colname="col2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出 DTC B2785</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>未输出 DTC B2785</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000DBW3_05_0005"/>
+</result>
+<result cellposition="2-3" label="2">
+<action actiontype="end" cellposition="3-3">
+<actiontitle>更换转向锁 ECU（转向锁执行器总成）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D81R" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000DBW3_05_0005">
+<testtitle>检查 DTC 输出（ID 代码箱（停机系统代码 ECU））</testtitle>
+<content6>
+<test1>
+<ptxt>重新连接转向锁 ECU（转向锁执行器总成）连接器 E51。</ptxt>
+</test1>
+<test1>
+<ptxt>断开 ID 代码箱（停机系统代码 ECU）连接器 E28。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBVX" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="125"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>重新检查 DTC。</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="125"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出 DTC B2785</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>未输出 DTC B2785</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="end" cellposition="4-1">
+<actiontitle>维修认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="3-2" label="2">
+<action actiontype="end" cellposition="4-2">
+<actiontitle>更换 ID 代码箱（停机系统代码 ECU）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

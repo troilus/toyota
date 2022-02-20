@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_59">
+<name>车辆外饰</name>
+<section id="_024015">
+<name>车窗/玻璃</name>
+<ttl id="_0116248">
+<name>电动窗控制系统</name>
+<para category="J" id="RM100000000D8V0">
+<dtccode/>
+<dtcname>遥控升/降功能不工作</dtcname>
+<subpara category="03" id="RM100000000D8V0_01">
+<name>描述</name>
+<content5>
+<ptxt>点火开关置于 ON 位置时，电动窗升降器主开关总成将遥控升降信号发送至电动窗升降器开关总成或后电动窗升降器开关总成（左侧车门或右侧车门）。 然后，电动窗升降器开关总成或后电动窗升降器开关总成（左侧车门或右侧车门）驱动各电动窗升降器马达总成。</ptxt>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D8V0_02">
+<name>电路图</name>
+<content5>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V6" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D8V0_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>进行下列程序前，先检查与此系统相关电路的保险丝。</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D8V0_06">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8V0_06_0001">
+<testtitle>检查电动窗升降器主开关总成（车窗锁止开关）</testtitle>
+<content6>
+<test1>
+<ptxt>关闭车窗锁止开关，并操作电动窗升降器主开关总成上的开关。检查并确认遥控升降功能工作正常。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>遥控升降功能工作正常。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="next" cellposition="2-2" childid="RM100000000D8V0_06_0003"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-2" id="RM100000000D8V0_06_0003">
+<testtitle>检查电动窗控制系统（使用电动窗升降器开关总成或后电动窗升降器开关总成）</testtitle>
+<content6>
+<test1>
+<ptxt>使用电动窗升降器开关总成或后电动窗升降器开关总成（左侧车门或右侧车门）检查前排乘客、左后和右后车门电动窗的工作情况。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left">
+<list1 type="unordered">
+<item>
+<ptxt>使用电动窗升降器开关总成或后电动窗升降器开关总成（左侧车门或右侧车门）时前排乘客、左后和右后车门电动窗工作正常。</ptxt>
+</item>
+<item>
+<ptxt>使用电动窗升降器开关总成或后电动窗升降器开关总成（左侧车门或右侧车门）时前排乘客、左后和右后车门电动窗不工作。</ptxt>
+</item>
+</list1>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>仅使用电动窗升降器开关总成时前排乘客车门电动窗不工作。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>仅使用后电动窗升降器开关总成（左侧车门）时左后车门电动窗不工作。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>仅使用后电动窗升降器开关总成（右侧车门）时右后车门电动窗不工作。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="4">
+<ptxt>D</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-2" label="1">
+<action actiontype="end" cellposition="3-2">
+<actiontitle>更换电动窗升降器主开关总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8W3" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="2-3" label="2">
+<action actiontype="end" cellposition="3-3">
+<actiontitle>转至其他故障（用前排乘客侧电动窗开关无法操作前排乘客侧电动窗）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8VE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="2-4" label="3">
+<action actiontype="end" cellposition="3-4">
+<actiontitle>转至其他故障（用左后电动窗开关无法操作左后电动窗）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8VF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="2-5" label="4">
+<action actiontype="end" cellposition="3-5">
+<actiontitle>转至其他故障（用右后电动窗开关无法操作右后电动窗）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8UZ" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

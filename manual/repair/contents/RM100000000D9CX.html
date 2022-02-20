@@ -1,0 +1,361 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_58</span>
+<span class="globalServcatName">车辆内饰</span>
+<span class="globalSection">_024007</span>
+<span class="globalSectionName">仪表/显示屏</span>
+<span class="globalTitle">_0116345</span>
+<span class="globalTitleName">仪表系统</span>
+<span class="globalCategory">J</span>
+</div>
+<h1>仪表/显示屏&nbsp;&nbsp;仪表系统&nbsp;&nbsp;仪表照明在夜间不变暗&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D9CX_04" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<p>在该电路中，组合仪表总成通过 CAN 通信系统接收来自主车身 ECU（多路网络车身 ECU）的自动变光信号。 组合仪表总成接收到自动变光信号后，使仪表照明变暗（警告灯和指示灯）。
+</p>
+<p>主车身 ECU（多路网络车身 ECU）根据从自动灯光控制传感器传送的波形判定是日间还是夜间。 如果主车身 ECU（多路网络车身 ECU）判定为夜间且大灯变光器开关总成置于 TAIL、HEAD 或 AUTO 位置，则 ECU 发送自动变光信号至组合仪表总成。
+</p>
+<p>根据该信号，组合仪表总成使仪表照明变暗。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>仪表照明在夜间不变暗时，自动灯光控制传感器、主车身 ECU（多路网络车身 ECU）、CAN 通信系统、线束、连接器或组合仪表总成可能有故障。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000D9CX_01" class="category no03">
+<h2>电路图</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/E143765.png" alt="E143765" title="E143765">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.083,3.104 1.719,3.458</span>
+<span class="captionSize">1.635,0.354</span>
+<span class="fontsize">10</span>
+<span class="captionText">主车身 ECU（多路网络车身 ECU）</span>
+</span>
+<span class="caption">
+<span class="points">2.927,3.167 3.021,3.354</span>
+<span class="captionSize">0.094,0.188</span>
+<span class="fontsize">10</span>
+<span class="captionText">:</span>
+</span>
+<span class="caption">
+<span class="points">3.01,3.188 4.656,3.542</span>
+<span class="captionSize">1.646,0.354</span>
+<span class="fontsize">10</span>
+<span class="captionText">CAN 通信线路</span>
+</span>
+<span class="caption">
+<span class="points">5.292,3.094 7.156,3.427</span>
+<span class="captionSize">1.865,0.333</span>
+<span class="fontsize">10</span>
+<span class="captionText">组合仪表总成</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000D9CX_03" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>自动灯光控制传感器灵敏度可进行定制。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆外饰&gt;照明系统（车外）&gt;照明系统&gt;定制参数<span class="invisible">201406,999999,_59,_024020,_0116489,RM100000000D9Z0,</span></a>
+
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>在夜间将大灯变光器开关总成切换为 TAIL、HEAD 或 AUTO 位置时，将仪表照明亮度设定为最亮可防止仪表照明变暗。 因此，进行以下步骤前检查仪表照明设置。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000D9CX_05" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000D9CX_05_0001">
+<div class="testtitle"><span class="titleText">1.检查 CAN 通信系统</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查是否输出 CAN 通信系统 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;诊断系统<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UU,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Body Electrical &gt; Combination Meter &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">122</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D9CX_05_0001_1" summary="" class="half">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>未输出 CAN 通信系统 DTC。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td>输出 CAN 通信系统 DTC。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.检查 DTC</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至 CAN 通信系统</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;如何进行故障排除<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UM,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D9CX_05_0008">
+<div class="testtitle"><span class="titleText">2.检查 DTC</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查是否输出照明系统 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆外饰&gt;照明系统（车外）&gt;照明系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_59,_024020,_0116489,RM100000000D9Z6,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Body Electrical &gt; Main Body &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">123</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D9CX_05_0008_1" summary="" class="half">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>未输出 DTC B1244。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td>输出 DTC B1244。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">3.更换组合仪表总成</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至 DTC B1244</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆外饰&gt;照明系统（车外）&gt;照明系统&gt;B1244<span class="invisible">201406,999999,_59,_024020,_0116489,RM100000000D9Z1,B1244</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D9CX_05_0010">
+<div class="testtitle"><span class="titleText">3.更换组合仪表总成</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>用新的或确认正常的组合仪表总成更换。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;仪表/显示屏&gt;组合仪表&gt;拆卸<span class="invisible">201406,999999,_58,_024007,_0117584,RM100000000DDU4,</span></a>
+
+</p>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>组合仪表总成的工作情况恢复正常。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D9CX_05_0010_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>正常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">结束</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换主车身 ECU（多路网络车身 ECU）</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;动力分配系统&gt;主车身 ECU&gt;拆卸<span class="invisible">201406,999999,_57,_024002,_0117228,RM100000000DCTE,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

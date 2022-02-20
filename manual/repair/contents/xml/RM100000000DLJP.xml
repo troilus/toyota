@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_53">
+<name>悬架</name>
+<section id="_023989">
+<name>轮胎/车轮</name>
+<ttl id="_0116120">
+<name>轮胎和车轮系统</name>
+<para category="Y" id="RM100000000DLJP">
+<dtccode/>
+<dtcname>如何进行故障排除</dtcname>
+<subpara category="01" id="RM100000000DLJP_01">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DLJP_01_0024">
+<testtitle>检查轮胎和车轮系统</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>轮胎振动诊断</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>轮胎不均匀磨损诊断</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DLJP_01_0001"/>
+</result>
+<result cellposition="1-5" label="2">
+<action actiontype="next" cellposition="2-5" childid="RM100000000DLJP_01_0015"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DLJP_01_0001">
+<testtitle>紧固车轮螺母</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD2A_01_0001" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000DLJP_01_0002"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000DLJP_01_0002">
+<testtitle>检查轮胎</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D88R_01_0001" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000DLJP_01_0004"/>
+</result>
+<result cellposition="3-4" label="2">
+<action actiontype="next" cellposition="4-4" childid="RM100000000DLJP_01_0003"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000DLJP_01_0004">
+<testtitle>检查和/或调节车轮平衡</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D88R_01_0003" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000DLJP_01_0005"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000DLJP_01_0005">
+<testtitle>检查前桥轮毂轴承松弛度和车桥轮毂径向跳动</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D845" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="next" cellposition="6-1" childid="RM100000000DLJP_01_0007"/>
+</result>
+<result cellposition="5-3" label="2">
+<action actiontype="next" cellposition="6-3" childid="RM100000000DLJP_01_0006"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-1" id="RM100000000DLJP_01_0007">
+<testtitle>检查后桥轮毂轴承松弛度和车桥轮毂径向跳动</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCM2" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-1" label="1">
+<action actiontype="next" cellposition="7-1" childid="RM100000000DLJP_01_0009"/>
+</result>
+<result cellposition="6-2" label="2">
+<action actiontype="next" cellposition="7-2" childid="RM100000000DLJP_01_0008"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-1" id="RM100000000DLJP_01_0009">
+<testtitle>进行路试</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-1" label="1">
+<action actiontype="end" cellposition="8-1">
+<actiontitle>将车辆返还给客户</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-2" id="RM100000000DLJP_01_0008">
+<testtitle>维修后桥轮毂轴承松弛度和车桥轮毂径向跳动</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCM1" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-2" label="1">
+<action actiontype="jump" cellposition="8-2" childid="RM100000000DLJP_01_0009">
+<actiontitle>转至步骤 7</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-3" id="RM100000000DLJP_01_0006">
+<testtitle>维修前桥轮毂轴承松弛度和车桥轮毂径向跳动</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D844" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-3" label="1">
+<action actiontype="jump" cellposition="7-3" childid="RM100000000DLJP_01_0007">
+<actiontitle>转至步骤 6</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-4" id="RM100000000DLJP_01_0003">
+<testtitle>维修或更换轮胎</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-4" label="1">
+<action actiontype="jump" cellposition="5-4" childid="RM100000000DLJP_01_0004">
+<actiontitle>转至步骤 4</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-5" id="RM100000000DLJP_01_0015">
+<testtitle>检查轮胎</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D88R_01_0001" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-5" label="1">
+<action actiontype="next" cellposition="3-5" childid="RM100000000DLJP_01_0019"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-5" id="RM100000000DLJP_01_0019">
+<testtitle>维修或更换轮胎</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-5" label="1">
+<action actiontype="next" cellposition="4-5" childid="RM100000000DLJP_01_0020"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-5" id="RM100000000DLJP_01_0020">
+<testtitle>检查和/或调节前轮定位</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCM3" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-5" label="1">
+<action actiontype="next" cellposition="5-5" childid="RM100000000DLJP_01_0021"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-5" id="RM100000000DLJP_01_0021">
+<testtitle>检查后轮定位</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCM4" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-5" label="1">
+<action actiontype="next" cellposition="6-5" childid="RM100000000DLJP_01_0022"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-5" id="RM100000000DLJP_01_0022">
+<testtitle>进行路试</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-5" label="1">
+<action actiontype="end" cellposition="7-5">
+<actiontitle>将车辆返还给客户</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

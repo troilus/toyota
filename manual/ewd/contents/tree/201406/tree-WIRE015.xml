@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <note ewd="WIRE015" code="z1" type="conn">
+    <name>空调放大器总成、空调线束总成</name>
+  </note>
+  <note ewd="WIRE015" code="z10" type="conn">
+    <name>巡航控制主开关、巡航控制开关线束</name>
+  </note>
+  <note ewd="WIRE015" code="z4" type="conn">
+    <name>巡航控制开关线束、螺旋电缆分总成</name>
+  </note>
+  <note ewd="WIRE015" code="z2" type="conn">
+    <name>驾驶员侧点火管（喇叭按钮总成）、螺旋电缆分总成</name>
+  </note>
+  <note ewd="WIRE015" code="z11" type="conn">
+    <name>喇叭按钮线束分总成、螺旋电缆分总成、</name>
+  </note>
+  <note ewd="WIRE015" code="z8" type="conn">
+    <name>动力转向 ECU 总成、动力转向马达总成</name>
+  </note>
+  <note ewd="WIRE015" code="z7" type="conn">
+    <name>动力转向 ECU 总成、动力转向扭矩传感器（电动转向柱分总成）</name>
+  </note>
+  <note ewd="WIRE015" code="z12" type="conn">
+    <name>动力转向 ECU 总成、动力转向扭矩传感器（电动转向柱分总成）</name>
+  </note>
+  <note ewd="WIRE015" code="z6" type="conn">
+    <name>螺旋电缆分总成、方向盘衬垫开关总成</name>
+  </note>
+  <note ewd="WIRE015" code="z5" type="conn">
+    <name>方向盘衬垫开关总成、变速器换档开关总成</name>
+  </note>
+</EwdTree>

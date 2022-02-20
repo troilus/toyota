@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS042">
+    <part type="conn" code="A9">
+      <text>LHM+ LH E LH T</text>
+      <name>左侧大灯总成</name>
+      <name type="inner">大灯水平马达</name>
+    </part>
+    <part type="conn" code="A16">
+      <text>RHM+ RH E RH T</text>
+      <name>右侧大灯总成</name>
+      <name type="inner">大灯水平马达</name>
+    </part>
+    <part type="conn" code="E15">
+      <text>H T EL AUTO (*3) A</text>
+      <name>大灯变光器开关总成</name>
+      <name type="inner">尾灯</name>
+      <name type="inner">灯光控制开关</name>
+      <name type="inner">大灯</name>
+      <name type="inner">关闭</name>
+    </part>
+    <part type="conn" code="E54">
+      <text>T E B</text>
+      <name>大灯水平开关</name>
+    </part>
+    <part type="conn" code="E36">
+      <text>HEAD ACC IG BECU HRLY GND1</text>
+      <name>主车身 ECU</name>
+    </part>
+    <part type="conn" code="A38">
+      <name>2 号接线连接器</name>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="fuse" code="FUSE43">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>ECU-B NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE47">
+      <text>ECU-IG NO.4</text>
+    </part>
+    <part type="fuse" code="FUSE11">
+      <text>H-LP LH-LO</text>
+    </part>
+    <part type="fuse" code="FUSE29">
+      <text>H-LP-MAIN</text>
+    </part>
+  </ttl>
+</EWDSearch>

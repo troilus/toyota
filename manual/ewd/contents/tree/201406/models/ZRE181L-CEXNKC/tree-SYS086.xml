@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS086" code="E49" type="conn" figID="2">
+    <name>认证 ECU</name>
+  </text>
+  <text ewd="SYS086" code="H4" type="conn" figID="5">
+    <name>左侧门控灯总成</name>
+  </text>
+  <text ewd="SYS086" code="G4" type="conn" figID="4">
+    <name>右侧门控灯总成</name>
+  </text>
+  <text ewd="SYS086" code="E67" type="conn" figID="11">
+    <name>二极管（左侧门控灯总成）</name>
+  </text>
+  <text ewd="SYS086" code="E68" type="conn" figID="12">
+    <name>二极管（右侧门控灯总成）</name>
+  </text>
+  <text ewd="SYS086" code="E50" type="conn" figID="3">
+    <name>发动机开关</name>
+  </text>
+  <text ewd="SYS086" code="L1" type="conn" figID="20">
+    <name>左前车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS086" code="L41" type="conn" figID="19">
+    <name>右前车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS086" code="H9" type="conn" figID="27">
+    <name>带电动机的左前门锁总成</name>
+  </text>
+  <text ewd="SYS086" code="G8" type="conn" figID="26">
+    <name>带电动机的右前门锁总成</name>
+  </text>
+  <text ewd="SYS086" code="E41" type="conn" figID="18">
+    <name>钥匙锁芯照明灯总成</name>
+  </text>
+  <text ewd="SYS086" code="L30" type="conn" figID="25">
+    <name>行李厢门锁总成</name>
+  </text>
+  <text ewd="SYS086" code="E36" type="conn" figID="7">
+    <name>主车身 ECU</name>
+  </text>
+  <text ewd="SYS086" code="O4" type="conn" figID="16">
+    <name>阅读灯总成</name>
+  </text>
+  <text ewd="SYS086" code="A39" type="conn" figID="1">
+    <name>1 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS086" code="L24" type="conn" figID="23">
+    <name>1 号行李厢灯总成</name>
+  </text>
+  <text ewd="SYS086" code="O5" type="conn" figID="15">
+    <name>1 号车厢照明灯总成</name>
+  </text>
+  <text ewd="SYS086" code="E74" type="conn" figID="30">
+    <name>2 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS086" code="A38" type="conn" figID="9">
+    <name>2 号接线连接器</name>
+  </text>
+  <text ewd="SYS086" code="L54,L55" type="conn" figID="24">
+    <name>7 号接线连接器</name>
+  </text>
+  <text ewd="SYS086" code="L2" type="conn" figID="22">
+    <name>左后车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS086" code="L42" type="conn" figID="21">
+    <name>右后车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS086" code="K3" type="conn" figID="29">
+    <name>带电动机的左后门锁总成</name>
+  </text>
+  <text ewd="SYS086" code="J3" type="conn" figID="28">
+    <name>带电动机的右后门锁总成</name>
+  </text>
+  <text ewd="SYS086" code="E27" type="conn" figID="17">
+    <name>收发器钥匙线圈</name>
+  </text>
+  <text ewd="SYS086" code="O2" type="conn" figID="13">
+    <name>左侧梳妆灯总成</name>
+  </text>
+  <text ewd="SYS086" code="O1" type="conn" figID="14">
+    <name>右侧梳妆灯总成</name>
+  </text>
+  <text ewd="SYS086" code="FUSE5" type="fuse" figID="88">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS086" code="FUSE43" type="fuse" figID="90">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS086" code="FUSE3" type="fuse" figID="91">
+    <name>7.5A DOME</name>
+  </text>
+  <text ewd="SYS086" code="FUSE47" type="fuse" figID="89">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS086" code="EA" type="gp" figID="71,73">
+    <name />
+  </text>
+  <text ewd="SYS086" code="EB" type="gp" figID="68,70">
+    <name />
+  </text>
+  <text ewd="SYS086" code="EC" type="gp" figID="72">
+    <name />
+  </text>
+  <text ewd="SYS086" code="LA" type="gp" figID="69">
+    <name />
+  </text>
+  <text ewd="SYS086" code="LB" type="gp" figID="75">
+    <name />
+  </text>
+  <text ewd="SYS086" code="LD" type="gp" figID="74">
+    <name />
+  </text>
+  <text ewd="SYS086" code="3" type="jb" figID="34,35,36,37,38,39,40,41">
+    <name />
+  </text>
+  <text ewd="SYS086" code="4" type="rb" figID="10">
+    <name />
+  </text>
+  <text ewd="SYS086" code="FUSE5" type="rb" figID="6">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS086" code="FUSE3" type="rb" figID="8">
+    <name>7.5A DOME</name>
+  </text>
+  <text ewd="SYS086" code="SP16" type="sp" figID="82">
+    <name />
+  </text>
+  <text ewd="SYS086" code="SP17" type="sp" figID="76">
+    <name />
+  </text>
+  <text ewd="SYS086" code="SP18" type="sp" figID="81">
+    <name />
+  </text>
+  <text ewd="SYS086" code="SP22" type="sp" figID="87">
+    <name />
+  </text>
+  <text ewd="SYS086" code="SP29" type="sp" figID="85">
+    <name />
+  </text>
+  <text ewd="SYS086" code="SP30" type="sp" figID="86">
+    <name />
+  </text>
+  <text ewd="SYS086" code="SP31" type="sp" figID="78">
+    <name />
+  </text>
+  <text ewd="SYS086" code="SP32" type="sp" figID="80">
+    <name />
+  </text>
+  <text ewd="SYS086" code="SP33" type="sp" figID="77">
+    <name />
+  </text>
+  <text ewd="SYS086" code="SP34" type="sp" figID="79">
+    <name />
+  </text>
+  <text ewd="SYS086" code="SP36" type="sp" figID="83">
+    <name />
+  </text>
+  <text ewd="SYS086" code="SP37" type="sp" figID="84">
+    <name />
+  </text>
+  <text ewd="SYS086" code="AE2" type="w2w" figID="64,65">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS086" code="AE3" type="w2w" figID="42,43">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS086" code="AE4" type="w2w" figID="51,66,67">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS086" code="HE1" type="w2w" figID="59">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS086" code="HE3" type="w2w" figID="44,45,58">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS086" code="GE1" type="w2w" figID="57">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS086" code="GE3" type="w2w" figID="46,47,56">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS086" code="EL2" type="w2w" figID="53,55">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS086" code="EL4" type="w2w" figID="52,54">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS086" code="JL1" type="w2w" figID="60,61">
+    <name>后门 1 号线束和地板线束</name>
+  </text>
+  <text ewd="SYS086" code="OE1" type="w2w" figID="48,49,50">
+    <name>车顶 1 号线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS086" code="KL1" type="w2w" figID="62,63">
+    <name>后门 2 号线束和地板线束</name>
+  </text>
+</EwdTree>

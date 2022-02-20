@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_55</span>
+<span class="globalServcatName">转向</span>
+<span class="globalSection">_023996</span>
+<span class="globalSectionName">转向柱</span>
+<span class="globalTitle">_0117949</span>
+<span class="globalTitleName">转向锁止系统</span>
+<span class="globalCategory">S</span>
+</div>
+<h1>转向柱&nbsp;&nbsp;转向锁止系统&nbsp;&nbsp;诊断故障码表&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DF2F_z0" class="category no00">
+<div class="content5">
+<table summary="dtc-table">
+<caption>转向锁止系统</caption>
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:14%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">备注
+</th>
+<th class="alcenter">链接
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">B2781
+</td>
+<td class="alleft">转向锁 ECU 开路/短路
+</td>
+<td class="alleft">满足以下任一条件（单程检测逻辑（仅在出现故障且发动机开关置于 ON (IG) 位置时输出））：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向锁止传感器或开锁传感器故障（检测开关均打开时，确定系统出现故障。）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向锁止马达激活电路出现短路。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向锁止马达激活电路出现开路。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">DTC 输出确认操作：无需确认操作（持续监视）。
+</td>
+<td class="alcenter">
+<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="单击此处" title="单击此处"><span class="invisible">201406,999999,_55,_023996,_0117949,RM100000000DF2P,B2781</span></a>
+
+</td>
+</tr>
+<tr>
+<td class="alleft">B2782
+</td>
+<td class="alleft">电源控制 ECU 故障
+</td>
+<td class="alleft">满足以下任一条件（单程检测逻辑（仅在出现故障且发动机开关置于 ON (IG) 位置时输出））：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向锁止马达激活指令电路出现短路。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向锁止马达激活指令电路出现开路。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果来自 LIN 通信线路的电源信号与来自直线连接的电源信号不匹配，则判定系统存在故障。
+</p>
+</dd>
+</dl>
+<br>
+</td>
+<td class="alleft">DTC 输出确认操作：进行转向锁止/开锁操作。（换档杆置于 P (CVT) 且发动机开关置于 OFF 位置的情况下打开车门时，转向锁止。携带钥匙的情况下将发动机开关置于 ON (ACC) 或 ON (IG) 位置时，转向开锁。）
+</td>
+<td class="alcenter">
+<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="单击此处" title="单击此处"><span class="invisible">201406,999999,_55,_023996,_0117949,RM100000000DF2Q,B2782</span></a>
+
+</td>
+</tr>
+<tr>
+<td class="alleft">B2788
+</td>
+<td class="alleft">IG2 信号故障
+</td>
+<td class="alleft">来自 LIN 通信系统和直线连接之间的转向锁 ECU（转向锁执行器总成）IG2 输入不匹配（单程检测逻辑（仅在出现故障且发动机开关置于 ON (IG) 位置时输出。））。
+</td>
+<td class="alleft">DTC 输出确认操作：无需确认操作（持续监视）。
+</td>
+<td class="alcenter">
+<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="单击此处" title="单击此处"><span class="invisible">201406,999999,_55,_023996,_0117949,RM100000000DF2R,B2788</span></a>
+
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

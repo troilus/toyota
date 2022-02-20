@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tmc-service-pub SYSTEM "../dtd/pub.dtd">
+<tmc-service-pub>
+<dtd-version version="1.0"/>
+<pub id="BM3140CG" type="BM" xml:lang="en">
+<name>COROLLA/LEVIN 车身损伤修理手册</name>
+<models>
+<model>
+<model-name>COROLLA</model-name>
+<model-code code="ZRE181L">
+<engine-code>1ZR-FE</engine-code>
+<engine-code>4ZR-FE</engine-code>
+</model-code>
+<model-code code="ZRE182L">
+<engine-code>2ZR-FE</engine-code>
+<engine-code>7ZR-FE</engine-code>
+</model-code>
+</model>
+<model>
+<model-name>LEVIN</model-name>
+<model-code code="ZRE181L">
+<engine-code>1ZR-FE</engine-code>
+<engine-code>4ZR-FE</engine-code>
+</model-code>
+<model-code code="ZRE182L">
+<engine-code>2ZR-FE</engine-code>
+<engine-code>7ZR-FE</engine-code>
+</model-code>
+</model>
+</models>
+<brand>丰田</brand>
+<market-code>E</market-code>
+<plants>
+<plant>GTMC</plant>
+<plant>TFTM</plant>
+</plants>
+<entry-date>20131111</entry-date>
+<publish-date>20140601</publish-date>
+<fin-date>20140313</fin-date>
+<term-base>
+<term alt-pub-id="BM3140CG" date="201406" term-id-from="001">车型改变</term>
+</term-base>
+<revision>
+<release send-date="20140319">
+<term alt-pub-id="BM3140CG" date="201406" term-id-from="001">车型改变</term>
+</release>
+</revision>
+</pub>
+</tmc-service-pub>

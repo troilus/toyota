@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="WR001">
+    <part type="conn" code="B18">
+      <name>空燃比传感器 (B1 S1)</name>
+    </part>
+    <part type="conn" code="B6">
+      <name>倒车灯开关总成</name>
+    </part>
+    <part type="conn" code="B38">
+      <name>蓄电池</name>
+    </part>
+    <part type="conn" code="B3">
+      <name>蓄电池</name>
+    </part>
+    <part type="conn" code="B36">
+      <name>蓄电池电流传感器总成</name>
+    </part>
+    <part type="conn" code="B25">
+      <name>凸轮轴正时机油控制阀总成（排气侧）</name>
+    </part>
+    <part type="conn" code="B26">
+      <name>凸轮轴正时机油控制阀总成（进气侧）</name>
+    </part>
+    <part type="conn" code="B9">
+      <name>带皮带轮的压缩机总成</name>
+    </part>
+    <part type="conn" code="B16">
+      <name>曲轴位置传感器</name>
+    </part>
+    <part type="conn" code="B21">
+      <name>CVT 电磁阀（变速器线束）</name>
+    </part>
+    <part type="conn" code="B4">
+      <name>E.F.I. 发动机冷却液温度传感器</name>
+    </part>
+    <part type="conn" code="B20">
+      <name>E.F.I. 真空传感器总成</name>
+    </part>
+    <part type="conn" code="B39">
+      <text>ECM</text>
+    </part>
+    <part type="conn" code="B8">
+      <name>发动机机油压力开关总成</name>
+    </part>
+    <part type="conn" code="B11">
+      <name>1 号喷油器总成</name>
+    </part>
+    <part type="conn" code="B12">
+      <name>2 号喷油器总成</name>
+    </part>
+    <part type="conn" code="B13">
+      <name>3 号喷油器总成</name>
+    </part>
+    <part type="conn" code="B14">
+      <name>4 号喷油器总成</name>
+    </part>
+    <part type="conn" code="B17">
+      <name>发电机总成</name>
+    </part>
+    <part type="conn" code="B1">
+      <name>发电机总成</name>
+    </part>
+    <part type="conn" code="B29">
+      <name>1 号点火线圈</name>
+    </part>
+    <part type="conn" code="B30">
+      <name>2 号点火线圈</name>
+    </part>
+    <part type="conn" code="B31">
+      <name>3 号点火线圈</name>
+    </part>
+    <part type="conn" code="B32">
+      <name>4 号点火线圈</name>
+    </part>
+    <part type="conn" code="B2">
+      <name>进气质量空气流量计分总成</name>
+    </part>
+    <part type="conn" code="B33">
+      <name>油压传感器</name>
+    </part>
+    <part type="conn" code="B19">
+      <name>油温传感器</name>
+    </part>
+    <part type="conn" code="B27">
+      <name>氧传感器 (B1 S2)</name>
+    </part>
+    <part type="conn" code="B15">
+      <name>驻车/空档位置开关总成</name>
+    </part>
+    <part type="conn" code="B22">
+      <name>净化 VSV</name>
+    </part>
+    <part type="conn" code="B10">
+      <name>起动机总成</name>
+    </part>
+    <part type="conn" code="B5">
+      <name>起动机总成</name>
+    </part>
+    <part type="conn" code="B28">
+      <name>节气门体总成</name>
+    </part>
+    <part type="conn" code="B34">
+      <name>变速器转速传感器（初级）</name>
+    </part>
+    <part type="conn" code="B35">
+      <name>变速器转速传感器（次级）</name>
+    </part>
+    <part type="conn" code="B23">
+      <name>VVT 传感器（排气侧）</name>
+    </part>
+    <part type="conn" code="B24">
+      <name>VVT 传感器（进气侧）</name>
+    </part>
+  </ttl>
+</EWDSearch>

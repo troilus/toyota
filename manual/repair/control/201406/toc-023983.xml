@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="RM3140CG"><servcat id="_52"><name>动力传动系</name><section id="_023983">
+<name>K313 CVT</name>
+<ttl id="_0116779">
+<name>无级变速传动桥系统</name><para category="C" dtccode="P0705" id="RM100000000DBFS" term-id-from="001"><dtccode>
+<name>P0705</name>
+<subpara id="RM100000000DBFS_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBFS_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBFS_04">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0711" id="RM100000000DBFT" term-id-from="001"><dtccode>
+<name>P0711</name>
+<subpara id="RM100000000DBFT_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBFT_03">
+<name>监视描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0712" id="RM100000000DBFU" term-id-from="001"><dtccode>
+<name>P0712</name>
+<subpara id="RM100000000DBFU_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBFU_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBFU_05">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0713" id="RM100000000DBFU" term-id-from="001"><dtccode>
+<name>P0713</name>
+<subpara id="RM100000000DBFU_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBFU_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBFU_05">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0715" id="RM100000000DBFV" term-id-from="001"><dtccode>
+<name>P0715</name>
+<subpara id="RM100000000DBFV_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBFV_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBFV_04">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0717" id="RM100000000DBFV" term-id-from="001"><dtccode>
+<name>P0717</name>
+<subpara id="RM100000000DBFV_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBFV_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBFV_04">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0720" id="RM100000000DBFW" term-id-from="001"><dtccode>
+<name>P0720</name>
+<subpara id="RM100000000DBFW_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBFW_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBFW_04">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0722" id="RM100000000DBFW" term-id-from="001"><dtccode>
+<name>P0722</name>
+<subpara id="RM100000000DBFW_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBFW_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBFW_04">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0741" id="RM100000000DBFX" term-id-from="001"><dtccode>
+<name>P0741</name>
+<subpara id="RM100000000DBFX_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBFX_03">
+<name>监视描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P075B" id="RM100000000DBFX" term-id-from="001"><dtccode>
+<name>P075B</name>
+<subpara id="RM100000000DBFX_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBFX_03">
+<name>监视描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0841" id="RM100000000DBFY" term-id-from="001"><dtccode>
+<name>P0841</name>
+<subpara id="RM100000000DBFY_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBFY_03">
+<name>监视描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0842" id="RM100000000DBFZ" term-id-from="001"><dtccode>
+<name>P0842</name>
+<subpara id="RM100000000DBFZ_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBFZ_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBFZ_04">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0843" id="RM100000000DBFZ" term-id-from="001"><dtccode>
+<name>P0843</name>
+<subpara id="RM100000000DBFZ_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBFZ_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBFZ_04">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P099B" id="RM100000000DBG0" term-id-from="001"><dtccode>
+<name>P099B</name>
+<subpara id="RM100000000DBG0_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBG0_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBG0_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P099C" id="RM100000000DBG0" term-id-from="001"><dtccode>
+<name>P099C</name>
+<subpara id="RM100000000DBG0_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBG0_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBG0_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P1585" id="RM100000000DBG1" term-id-from="001"><dtccode>
+<name>P1585</name>
+<subpara id="RM100000000DBG1_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBG1_03">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P1586" id="RM100000000DBG2" term-id-from="001"><dtccode>
+<name>P1586</name>
+<subpara id="RM100000000DBG2_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBG2_03">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P1589" id="RM100000000DBG3" term-id-from="001"><dtccode>
+<name>P1589</name>
+<subpara id="RM100000000DBG3_02">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P1750" id="RM100000000DBG4" term-id-from="001"><dtccode>
+<name>P1750</name>
+<subpara id="RM100000000DBG4_02">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2757" id="RM100000000DBFX" term-id-from="001"><dtccode>
+<name>P2757</name>
+<subpara id="RM100000000DBFX_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBFX_03">
+<name>监视描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2759" id="RM100000000DBG5" term-id-from="001"><dtccode>
+<name>P2759</name>
+<subpara id="RM100000000DBG5_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBG5_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBG5_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2767" id="RM100000000DBG6" term-id-from="001"><dtccode>
+<name>P2767</name>
+<subpara id="RM100000000DBG6_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBG6_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBG6_04">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2769" id="RM100000000DBG7" term-id-from="001"><dtccode>
+<name>P2769</name>
+<subpara id="RM100000000DBG7_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBG7_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBG7_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2770" id="RM100000000DBG7" term-id-from="001"><dtccode>
+<name>P2770</name>
+<subpara id="RM100000000DBG7_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBG7_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBG7_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2820" id="RM100000000DBG8" term-id-from="001"><dtccode>
+<name>P2820</name>
+<subpara id="RM100000000DBG8_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBG8_03">
+<name>监视描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2822" id="RM100000000DBG9" term-id-from="001"><dtccode>
+<name>P2822</name>
+<subpara id="RM100000000DBG9_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBG9_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBG9_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2829" id="RM100000000DBFY" term-id-from="001"><dtccode>
+<name>P2829</name>
+<subpara id="RM100000000DBFY_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBFY_03">
+<name>监视描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P282B" id="RM100000000DBGA" term-id-from="001"><dtccode>
+<name>P282B</name>
+<subpara id="RM100000000DBGA_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DBGA_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DBGA_04">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="U0124" id="RM100000000DBGR" term-id-from="001"><dtccode>
+<name>U0124</name>
+<subpara id="RM100000000DBGR_02">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="U0129" id="RM100000000DBFD" term-id-from="001"><dtccode>
+<name>U0129</name>
+<subpara id="RM100000000DBFD_02">
+<name>描述</name>
+</subpara>
+</dtccode></para>
+<para category="L" id="RM100000000DBFF" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="D" id="RM100000000DBF8" term-id-from="001">
+<name>术语定义</name>
+</para>
+<para category="R" id="RM100000000DBFG" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000DBFH" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="D" id="RM100000000DBFI" term-id-from="001">
+<name>系统描述</name>
+</para>
+<para category="Y" id="RM100000000DBF9" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="D" id="RM100000000DBFA" term-id-from="001">
+<name>检查是否存在间歇性故障</name>
+</para>
+<para category="D" id="RM100000000DBFJ" term-id-from="001">
+<name>路试</name>
+</para>
+<para category="D" id="RM100000000DBFK" term-id-from="001">
+<name>机械系统测试</name>
+</para>
+<para category="D" id="RM100000000DBFL" term-id-from="001">
+<name>液压测试</name>
+</para>
+<para category="D" id="RM100000000DBFM" term-id-from="001">
+<name>初始化</name>
+</para>
+<para category="T" id="RM100000000DBFN" term-id-from="001">
+<name>故障症状表</name>
+</para>
+<para category="U" id="RM100000000DBFO" term-id-from="001">
+<name>ECM 端子</name>
+</para>
+<para category="D" id="RM100000000DBFP" term-id-from="001">
+<name>诊断系统</name>
+</para>
+<para category="D" id="RM100000000DBFE" term-id-from="001">
+<name>DTC 检查/清除</name>
+</para>
+<para category="D" id="RM100000000DBFB" term-id-from="001">
+<name>检查模式程序</name>
+</para>
+<para category="U" id="RM100000000DBFC" term-id-from="001">
+<name>失效保护表</name>
+</para>
+<para category="U" id="RM100000000DBFQ" term-id-from="001">
+<name>数据表/主动测试</name>
+</para>
+<para category="S" id="RM100000000DBFR" term-id-from="001">
+<name>诊断故障码表</name>
+</para>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<para category="J" id="RM100000000DBGB" term-id-from="001">
+<name>变速器控制开关电路</name>
+</para>
+<para category="J" id="RM100000000DBGC" term-id-from="001">
+<name>换档拨板装置电路</name>
+</para>
+<para category="J" id="RM100000000DBGD" term-id-from="001">
+<name>模式选择开关运动模式电路</name>
+</para>
+</ttl>
+<ttl id="_0116504">
+<name>无级变速传动桥油</name>
+<para category="A" id="RM100000000DA1W" term-id-from="001">
+<name>更换</name>
+</para>
+<para category="N" id="RM100000000DA1X" term-id-from="001">
+<name>调节</name>
+</para>
+</ttl>
+<ttl id="_0116505">
+<name>无级变速传动桥总成</name>
+<para category="K" id="RM100000000DA1Y" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DA1Z" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DA20" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0123907">
+<name>无级变速传动桥单元</name>
+<para category="K" id="RM100000000E629" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000EM8O" term-id-from="001">
+<name>拆解</name>
+</para>
+<para category="G" id="RM100000000EM8P" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000EM8Q" term-id-from="001">
+<name>重新装配</name>
+</para>
+</ttl>
+<ttl id="_0116506">
+<name>变矩器和传动板</name>
+<para category="G" id="RM100000000DA21" term-id-from="001">
+<name>检查</name>
+</para>
+</ttl>
+<ttl id="_0116507">
+<name>前差速器油封</name>
+<para category="K" id="RM100000000DA22" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DA23" term-id-from="001">
+<name>更换</name>
+</para>
+</ttl>
+<ttl id="_0116508">
+<name>油底壳</name>
+<para category="K" id="RM100000000DA24" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DA25" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DA26" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116509">
+<name>油冷却器</name>
+<para category="K" id="RM100000000DA27" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DA28" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DA29" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116510">
+<name>转速传感器</name>
+<para category="K" id="RM100000000DA2B" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DA2C" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DA2A" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DA2D" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116511">
+<name>油压传感器</name>
+<para category="K" id="RM100000000DA2E" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DA2F" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DA2G" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116512">
+<name>驻车/空档位置开关</name>
+<para category="K" id="RM100000000DA2H" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="G" id="RM100000000DA2I" term-id-from="001">
+<name>车上检查</name>
+</para>
+<para category="A" id="RM100000000DA2K" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DA2L" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="N" id="RM100000000DA2J" term-id-from="001">
+<name>调节</name>
+</para>
+<para category="A" id="RM100000000DA2M" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116513">
+<name>变速器控制拉索（TFTM 制造）</name>
+<para category="K" id="RM100000000DA2O" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DA2P" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="N" id="RM100000000DA2N" term-id-from="001">
+<name>调节</name>
+</para>
+<para category="A" id="RM100000000DA2Q" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0132048">
+<name>变速器控制拉索（GTMC 制造）</name>
+<para category="K" id="RM100000000F3ZX" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000F3ZY" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="N" id="RM100000000F3ZZ" term-id-from="001">
+<name>调节</name>
+</para>
+<para category="A" id="RM100000000F400" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116514">
+<name>换档杆</name>
+<para category="K" id="RM100000000DA2S" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="G" id="RM100000000DA2R" term-id-from="001">
+<name>车上检查</name>
+</para>
+<para category="A" id="RM100000000DA2T" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000E8KE" term-id-from="001">
+<name>拆解</name>
+</para>
+<para category="G" id="RM100000000DA2U" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000E8KF" term-id-from="001">
+<name>重新装配</name>
+</para>
+<para category="A" id="RM100000000DA2V" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116515">
+<name>换档拨板装置</name>
+<para category="K" id="RM100000000DA2W" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DA2X" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DA2Y" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DA2Z" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116516">
+<name>模式选择开关</name>
+<para category="K" id="RM100000000DA30" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DA31" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DA32" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DA33" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0127890">
+<name>变速器线束</name>
+<para category="K" id="RM100000000EN7Q" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000EN7R" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000EN7S" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0127888">
+<name>阀体总成</name>
+<para category="K" id="RM100000000EN7T" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000EN7U" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000EN7V" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

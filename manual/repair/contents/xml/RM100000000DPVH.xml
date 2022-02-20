@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_51">
+<name>发动机/混合动力系统</name>
+<section id="_023981">
+<name>巡航控制系统</name>
+<ttl id="_0119997">
+<name>巡航控制系统</name>
+<para category="J" id="RM100000000DPVH">
+<dtccode/>
+<dtcname>巡航控制开关电路</dtcname>
+<subpara category="03" id="RM100000000DPVH_01">
+<name>描述</name>
+<content5>
+<ptxt>巡航控制主开关用于打开和关闭巡航控制系统，同时操作 7 种功能：SET、-（滑行）、逐级减速、RES（恢复）、+（加速）、逐级加速和 CANCEL。SET、逐级减速和 -（滑行）功能以及 RES（恢复）、逐级加速和 +（加速）功能共用一个开关。巡航控制主开关是自动回位型开关，仅在按箭头方向操作时才打开，松开后开关关闭。巡航控制主开关的内部触点随着开关的操作而接通。然后 ECM 读取由开关操作引起变化的电压值以控制 SET、-（滑行）、RES（恢复）、+（加速） 和 CANCEL 功能。</ptxt>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DPVH_02">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="A325179E01" height="5.838041339in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DPVH_05">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DPVH_05_0001">
+<testtitle>使用 GTS 读取值</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="E107091C01" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ON-OFF</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-/SET</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>+/RES</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*d</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>CANCEL</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Cruise Control / Data List。</ptxt>
+</test1>
+<test1>
+<ptxt>检查数据表以确认巡航控制主开关正常工作。</ptxt>
+<gts-info category="data-list-table">
+<title>Powertrain &gt; Cruise Control &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.06in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<colspec colname="5" colwidth="1.41in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="16" name="item-name">
+<ptxt>Main SW M-CPU</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="16" name="description">
+<ptxt>巡航控制主开关信号（主 CPU）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="16" name="range">
+<ptxt>ON 或 OFF</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="16" name="standard-value">
+<ptxt>ON：按住巡航控制主开关（ON-OFF 按钮）</ptxt>
+<ptxt>OFF：松开巡航控制主开关（ON-OFF 按钮）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="16" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="23" name="item-name">
+<ptxt>Cancel Switch</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="23" name="description">
+<ptxt>CANCEL 开关信号</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="23" name="range">
+<ptxt>ON 或 OFF</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="23" name="standard-value">
+<ptxt>ON：操作 CANCEL 开关</ptxt>
+<ptxt>OFF：松开 CANCEL 开关</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="23" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="22" name="item-name">
+<ptxt>SET/COAST Switch</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="22" name="description">
+<ptxt>-/SET 开关信号</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="22" name="range">
+<ptxt>ON 或 OFF</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="22" name="standard-value">
+<ptxt>ON：操作 -/SET 开关</ptxt>
+<ptxt>OFF：松开 -/SET 开关</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="22" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="21" name="item-name">
+<ptxt>RES/ACC Switch</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="21" name="description">
+<ptxt>+/RES 开关信号</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="21" name="range">
+<ptxt>ON 或 OFF</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="21" name="standard-value">
+<ptxt>ON：操作 +/RES 开关</ptxt>
+<ptxt>OFF：松开 +/RES 开关</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="21" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">237</app-param>
+<app-param name="ecu-name">Cruise Control</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">16</app-param>
+<app-param name="data-list-item-name">Main SW M-CPU</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">23</app-param>
+<app-param name="data-list-item-name">Cancel Switch</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">22</app-param>
+<app-param name="data-list-item-name">SET/COAST Switch</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">21</app-param>
+<app-param name="data-list-item-name">RES/ACC Switch</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Powertrain &gt; Cruise Control &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="16" name="item-name">
+<ptxt>Main SW M-CPU</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="23" name="item-name">
+<ptxt>Cancel Switch</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="22" name="item-name">
+<ptxt>SET/COAST Switch</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="21" name="item-name">
+<ptxt>RES/ACC Switch</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="237">
+<gts-pid pid-id="16"/>
+<gts-pid pid-id="23"/>
+<gts-pid pid-id="22"/>
+<gts-pid pid-id="21"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">237</app-param>
+<app-param name="ecu-name">Cruise Control</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">16</app-param>
+<app-param name="data-list-item-name">Main SW M-CPU</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">23</app-param>
+<app-param name="data-list-item-name">Cancel Switch</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">22</app-param>
+<app-param name="data-list-item-name">SET/COAST Switch</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">21</app-param>
+<app-param name="data-list-item-name">RES/ACC Switch</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>操作巡航控制主开关时，显示屏变化如上所示。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>转至故障症状表中所示的下一个可疑部位</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DPV6" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="next" cellposition="2-2" childid="RM100000000DPVH_05_0003"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-2" id="RM100000000DPVH_05_0003">
+<testtitle>检查巡航控制主开关</testtitle>
+<content6>
+<test1>
+<ptxt>拆下巡航控制主开关。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DDTZ" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="E265511C01" height="3.812598425in" width="7.168479331in"/>
+<callout>
+<table pgwide="1" type="caption-table">
+<tgroup cols="4">
+<colspec colname="col1" colnum="1" colwidth="0.72in"/>
+<colspec colname="col2" colnum="2" colwidth="2.87in"/>
+<colspec colname="col3" colnum="3" colwidth="0.72in"/>
+<colspec colname="col4" colnum="4" colwidth="2.87in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>巡航控制主开关（ON-OFF 按钮）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>未连接线束的零部件</ptxt>
+<ptxt>（巡航控制主开关）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>ON-OFF</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>+/RES</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*d</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-/SET</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*e</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>CANCEL</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="resistance">
+<title>标准电阻</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.42in"/>
+<colspec colname="col2" colwidth="3.19in"/>
+<colspec colname="col3" colwidth="2.47in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" morerows="4" valign="middle">
+<ptxt>1 - 3</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>巡航控制主开关（ON-OFF 按钮）松开</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>按住巡航控制主开关（ON-OFF 按钮）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 2.5 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>操作 +/RES 开关</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>235 至 245 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>操作 -/SET 开关</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>617 至 643 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>操作 CANCEL 开关</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1,509 至 1,571 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-2" label="1">
+<action actiontype="next" cellposition="3-2" childid="RM100000000DPVH_05_0004"/>
+</result>
+<result cellposition="2-7" label="2">
+<action actiontype="end" cellposition="3-7">
+<actiontitle>更换巡航控制主开关</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DDTZ" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-2" id="RM100000000DPVH_05_0004">
+<testtitle>检查巡航控制开关线束</testtitle>
+<content6>
+<test1>
+<ptxt>拆下巡航控制开关线束。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="E232246C07" height="4.677165354in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至螺旋电缆分总成）</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至巡航控制主开关）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.07in"/>
+<colspec colname="col2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>z4-3 - z10-3</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>z4-4 - z10-1</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-2" label="1">
+<action actiontype="next" cellposition="4-2" childid="RM100000000DPVH_05_0005"/>
+</result>
+<result cellposition="3-6" label="2">
+<action actiontype="end" cellposition="4-6">
+<actiontitle>更换巡航控制开关线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-2" id="RM100000000DPVH_05_0005">
+<testtitle>检查螺旋电缆分总成</testtitle>
+<content6>
+<test1>
+<ptxt>检查螺旋电缆分总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D964" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-2" label="1">
+<action actiontype="next" cellposition="5-2" childid="RM100000000DPVH_05_0006"/>
+</result>
+<result cellposition="4-5" label="2">
+<action actiontype="end" cellposition="5-5">
+<actiontitle>更换螺旋电缆分总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D963" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-2" id="RM100000000DPVH_05_0006">
+<testtitle>检查线束和连接器（ECM - 螺旋电缆分总成）</testtitle>
+<content6>
+<test1>
+<ptxt>断开 ECM 连接器 A40。</ptxt>
+</test1>
+<test1>
+<ptxt>断开螺旋电缆分总成连接器 E13。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.37in"/>
+<colspec colname="col2" colwidth="2.37in"/>
+<colspec colname="col3" colwidth="2.34in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A40-36 (CCS) - E13-1 (CCS)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A40-36 (CCS) 或 E13-1 (CCS) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-2" label="1">
+<action actiontype="next" cellposition="6-2" childid="RM100000000DPVH_05_0007"/>
+</result>
+<result cellposition="5-4" label="2">
+<action actiontype="end" cellposition="6-4">
+<actiontitle>维修或更换线束或连接器（ECM - 螺旋电缆分总成）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-2" id="RM100000000DPVH_05_0007">
+<testtitle>检查线束和连接器（ECM - 螺旋电缆分总成）</testtitle>
+<content6>
+<test1>
+<ptxt>断开 ECM 连接器 A40。</ptxt>
+</test1>
+<test1>
+<ptxt>断开螺旋电缆分总成连接器 E13。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.37in"/>
+<colspec colname="col2" colwidth="2.37in"/>
+<colspec colname="col3" colwidth="2.34in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A40-35 (ECCS) - E13-2 (ECC)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>A40-35 (ECCS) 或 E13-2 (ECC) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-2" label="1">
+<action actiontype="end" cellposition="7-2">
+<actiontitle>更换 ECM</actiontitle>
+<content6>
+<ptxt>2ZR-FE：单击此处 <mlink><xref href="RM100000000ETKN" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>7ZR-FE：单击此处 <mlink><xref href="RM100000000ETNS" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="6-3" label="3">
+<action actiontype="end" cellposition="7-3">
+<actiontitle>维修或更换线束或连接器（ECM - 螺旋电缆分总成）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

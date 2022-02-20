@@ -1,0 +1,569 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_54</span>
+<span class="globalServcatName">制动</span>
+<span class="globalSection">_023990</span>
+<span class="globalSectionName">制动控制/动态控制系统</span>
+<span class="globalTitle">_0116082</span>
+<span class="globalTitleName">车辆稳定性控制系统</span>
+<span class="globalCategory">D</span>
+</div>
+<h1>制动控制/动态控制系统&nbsp;&nbsp;车辆稳定性控制系统&nbsp;&nbsp;定格数据&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D7YJ_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">定格数据
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>无论何时检测到 ABS DTC，防滑控制 ECU（制动执行器总成）都会将当前车辆（ECU 或传感器）状态存储为定格数据。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>防滑控制 ECU（制动执行器总成）存储自上次激活 ABS 后点火开关从 OFF 位置切换至 ON 位置的次数（最多：31）。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果车辆停止或低速行驶（7 km/h (4.3 mph) 或更低），或检测到 DTC，则防滑控制 ECU（制动执行器总成）将停止计数。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ABS 工作时的定格数据：
+</p>
+<p>只要 ABS 工作，防滑控制 ECU（制动执行器总成）就会存储并更新数据。
+</p>
+<p>检测到 DTC 且 ECU 存储数据时，将会清除 ABS 工作期间存储的数据。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检测到 DTC 时的定格数据：
+</p>
+<p>检测到 DTC 时防滑控制 ECU（制动执行器总成）会存储数据，在清除数据之前将不会进行更新。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">检查定格数据
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>进入以下菜单：Chassis / ABS/VSC/TRC / Trouble Codes。
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">f.</div>
+<div class="step2Body">
+<p>选择 DTC 以显示定格数据。
+</p>
+<dl class="gtsFreezeFrame hasAllTable">
+<dt class="gtsFreezeFrame">Chassis &gt; ABS/VSC/TRC</dt>
+<dd class="gtsFreezeFrame">
+<table summary="freeze-frame">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Elapsed Time after Freeze Trigger
+</td>
+<td class="alleft">定格触发后经过的时间
+</td>
+<td class="alleft">最短：0 ms，最长：500 ms
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Number of IG ON
+</td>
+<td class="alleft">存储定格数据后点火开关置于 ON 位置的次数
+</td>
+<td class="alleft">0 至 31
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Stop Light SW
+</td>
+<td class="alleft">刹车灯开关
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：踩下制动踏板
+<br>
+OFF：松开制动踏板
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Parking Brake SW
+</td>
+<td class="alleft">驻车制动开关
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：施加驻车制动
+<br>
+OFF：解除驻车制动
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Shift Lever Position
+</td>
+<td class="alleft">换档杆位置信息
+</td>
+<td class="alleft">P/N、R、D/M、1st-6th/B 或 FAIL
+</td>
+<td class="alleft">实际换档杆位置
+</td>
+<td class="alleft">无极变速传动桥
+</td>
+</tr>
+<tr>
+<td class="alleft">Operated System
+</td>
+<td class="alleft">工作系统状态
+</td>
+<td class="alleft">ABS、VSC、TRC、BA、HAB、PBA、PB、HA-CTRL、TSC、Fail、Sys 或 Non
+</td>
+<td class="alleft">实际工作的系统
+</td>
+<td class="alleft">ABS：ABS 已激活。
+<br>
+VSC：VSC 已激活。
+<br>
+TRC：TRC 已激活。
+<br>
+BA：BA 已激活。
+<br>
+HAB：高动力辅助制动器已激活。*
+<br>
+PBA：PBA 已激活。*
+<br>
+PB：PB 已激活。*
+<br>
+HA-CTRL：上坡起步辅助控制已激活。
+<br>
+TSC：挂车防摇摆控制已激活。*
+<br>
+Fail：失效保护模式已激活。
+<br>
+Sys：系统禁用已激活。
+<br>
+Non：无系统或功能被激活。
+</td>
+</tr>
+<tr>
+<td class="alleft">Master Cylinder Sensor
+</td>
+<td class="alleft">总泵压力传感器读数
+</td>
+<td class="alleft">最低：0.00 V，最高：5.00 V
+</td>
+<td class="alleft">松开制动踏板：0.20 至 0.40 V
+</td>
+<td class="alleft">踩下制动踏板时读数增大
+</td>
+</tr>
+<tr>
+<td class="alleft">M/C Sensor Grade
+</td>
+<td class="alleft">总泵压力传感器变化
+</td>
+<td class="alleft">最小：-30 MPa/s，最大：225 MPa/s
+</td>
+<td class="alleft">松开制动踏板或踏板保持在固定位置：0 MPa/s
+</td>
+<td class="alleft">操作制动踏板时：其变化与踏板移动速度成正比
+</td>
+</tr>
+<tr>
+<td class="alleft">Yaw Rate Sensor
+</td>
+<td class="alleft">横摆率传感器
+</td>
+<td class="alleft">最小：-128&deg;/s，最大：127&deg;/s
+</td>
+<td class="alleft">车辆停止：0&deg;/s
+<br>
+右转：-128 至 0&deg;/s
+<br>
+左转：0 至 127&deg;/s
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Lateral G
+</td>
+<td class="alleft">横向加速度
+</td>
+<td class="alleft">最小：-25.10 m/s<sup>2</sup>，最大：24.90 m/s<sup>2</sup>
+
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">转向时：其变化与横向加速度成正比
+</td>
+</tr>
+<tr>
+<td class="alleft">FR Wheel Speed
+</td>
+<td class="alleft">右前轮转速传感器读数
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：326 km/h (202 mph)
+</td>
+<td class="alleft">车辆停止：0 km/h (0 mph)
+</td>
+<td class="alleft">定速行驶时：无较大的波动
+</td>
+</tr>
+<tr>
+<td class="alleft">FL Wheel Speed
+</td>
+<td class="alleft">左前轮转速传感器读数
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：326 km/h (202 mph)
+</td>
+<td class="alleft">车辆停止：0 km/h (0 mph)
+</td>
+<td class="alleft">定速行驶时：无较大的波动
+</td>
+</tr>
+<tr>
+<td class="alleft">RR Wheel Speed
+</td>
+<td class="alleft">右后轮转速传感器读数
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：326 km/h (202 mph)
+</td>
+<td class="alleft">车辆停止：0 km/h (0 mph)
+</td>
+<td class="alleft">定速行驶时：无较大的波动
+</td>
+</tr>
+<tr>
+<td class="alleft">RL Wheel Speed
+</td>
+<td class="alleft">左后轮转速传感器读数
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：326 km/h (202 mph)
+</td>
+<td class="alleft">车辆停止：0 km/h (0 mph)
+</td>
+<td class="alleft">定速行驶时：无较大的波动
+</td>
+</tr>
+<tr>
+<td class="alleft">Vehicle Speed
+</td>
+<td class="alleft">车轮转速传感器最高读数
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：326 km/h (202 mph)
+</td>
+<td class="alleft">车辆停止：0 km/h (0 mph)
+</td>
+<td class="alleft">定速行驶时：无较大的波动
+</td>
+</tr>
+<tr>
+<td class="alleft">Vehicle Speed Grade
+</td>
+<td class="alleft">车速等级
+</td>
+<td class="alleft">最小：-25.10 m/s<sup>2</sup>，最大：24.90 m/s<sup>2</sup>
+
+</td>
+<td class="alleft">车辆停止：0.00 m/s<sup>2</sup>
+
+</td>
+<td class="alleft">行驶时：与车辆加速度/减速度成比例变化
+</td>
+</tr>
+<tr>
+<td class="alleft">Real Engine Torque
+</td>
+<td class="alleft">实际发动机转矩
+</td>
+<td class="alleft">最小：-1024.0 Nm，最大：1023.0 Nm
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Accelerator Opening Angle %
+</td>
+<td class="alleft">加速踏板开度百分比
+</td>
+<td class="alleft">最小：0.0%，最大：128.0%
+</td>
+<td class="alleft">松开加速踏板：0.0%
+</td>
+<td class="alleft">操作加速踏板时：其变化与踏板的移动成正比
+</td>
+</tr>
+<tr>
+<td class="alleft">Inspection Mode
+</td>
+<td class="alleft">检查模式
+</td>
+<td class="alleft">Other 或 Inspect
+</td>
+<td class="alleft">Other：正常模式
+<br>
+Inspect：检查模式
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Steering Angle Sensor
+</td>
+<td class="alleft">转向角传感器
+</td>
+<td class="alleft">最小：- 3276.8&deg;，最大：3276.7&deg;
+</td>
+<td class="alleft">左转：增大
+<br>
+右转：减小
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">TRC/VSC Off Mode
+</td>
+<td class="alleft">TRC/VSC OFF 模式
+</td>
+<td class="alleft">Normal、TRC OFF 或 VSC OFF
+</td>
+<td class="alleft">Normal：正常模式
+<br>
+TRC OFF：TRC OFF 模式
+<br>
+VSC OFF：VSC OFF 模式
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<p>*：不支持
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">清除定格数据
+</span></p>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>清除 DTC 将同时清除定格数据。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>清除 DTC 和定格数据。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7YE,</span></a>
+
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

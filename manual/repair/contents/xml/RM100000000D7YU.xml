@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_54">
+<name>制动</name>
+<section id="_023990">
+<name>制动控制/动态控制系统</name>
+<ttl id="_0116082">
+<name>车辆稳定性控制系统</name>
+<para category="C" id="RM100000000D7YU">
+<dtccode>C1436</dtccode>
+<dtcname>横摆率传感器故障</dtcname>
+<subpara category="03" id="RM100000000D7YU_01">
+<name>描述</name>
+<content5>
+<ptxt>防滑控制 ECU（制动执行器总成）检测到横摆率和加速度传感器（空气囊 ECU 总成）安装异常或横摆率传感器值与根据加速度传感器、转向角传感器和转速传感器信号估算的控制值差异异常时，存储该 DTC。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="4">
+<colspec colname="1" colwidth="0.71in"/>
+<colspec colname="2" colwidth="1.77in"/>
+<colspec colname="3" colwidth="2.83in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>C1436</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>横摆率传感器故障</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>横摆率传感器值和防滑控制 ECU（制动执行器总成）内估算的控制值差异异常。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>传感器安装</ptxt>
+</item>
+<item>
+<ptxt>横摆率传感器（空气囊 ECU 总成）</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D7YU_06">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D7YU_06_0002">
+<testtitle>使用 GTS 读取值（横摆率和加速度传感器）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>使用 GTS 选择数据表。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7YF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="data-list-table">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="24" name="item-name">
+<ptxt>Yaw Rate Sensor</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="24" name="description">
+<ptxt>横摆率传感器</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="24" name="range">
+<ptxt>最小：-128°/s，最大：127°/s</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="24" name="standard-value">
+<ptxt>车辆停止：0°/s</ptxt>
+<ptxt>右转：-128 至 0°/s</ptxt>
+<ptxt>左转：0 至 127°/s</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="24" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">24</app-param>
+<app-param name="data-list-item-name">Yaw Rate Sensor</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="24" name="item-name">
+<ptxt>Yaw Rate Sensor</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="105">
+<gts-pid pid-id="24"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">24</app-param>
+<app-param name="data-list-item-name">Yaw Rate Sensor</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>检查 GTS 上显示的横摆率和加速度传感器（空气囊 ECU 总成）输出值。</ptxt>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.95in"/>
+<colspec colname="col2" colwidth="2.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>异常（车辆静止时横摆率和加速度传感器（空气囊 ECU 总成）输出值为 0°/s，但转向时该值有所波动。）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>异常（车辆静止时横摆率和加速度传感器（空气囊 ECU 总成）输出值不为 0°/s。）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>正常</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>如果根据故障症状表已进行了故障排除，则在更换零件前请再次参考该表并转至下一步。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7ZC" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D7YU_06_0010"/>
+</result>
+<result cellposition="1-4" label="2">
+<action actiontype="end" cellposition="2-4">
+<actiontitle>更换空气囊 ECU 总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96H" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-5" label="3">
+<action actiontype="end" cellposition="2-5">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D7YU_06_0010">
+<testtitle>检查转向角传感器零点校准</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>以 50 km/h (31 mph) 或更高的速度朝正前方驾驶车辆至少 30 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>车辆朝正前方行驶时，检查并确认方向盘正确置中。</ptxt>
+<atten4>
+<ptxt>如果由于方向盘偏离中心而调节前轮定位和方向盘，则在调节完成后，再次获取横摆率和加速度传感器零点。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>方向盘正确置中。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D7YU_06_0003"/>
+</result>
+<result cellposition="2-3" label="2">
+<action actiontype="end" cellposition="3-3">
+<actiontitle>调节前轮定位或方向盘</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCM3" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D7YU_06_0003">
+<testtitle>检查空气囊 ECU 总成的安装情况</testtitle>
+<content6>
+<test1>
+<ptxt>检查并确认横摆率和加速度传感器（空气囊 ECU 总成）已正确安装。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96F" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>空气囊 ECU 总成已紧固至规定扭矩。</ptxt>
+<ptxt>安装空气囊 ECU 总成时不要倾斜。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>如果根据故障症状表已进行了故障排除，则在更换零件前请再次参考该表并转至下一步。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7ZC" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="end" cellposition="4-1">
+<actiontitle>更换空气囊 ECU 总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96H" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-2" label="2">
+<action actiontype="end" cellposition="4-2">
+<actiontitle>正确安装空气囊 ECU 总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96F" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

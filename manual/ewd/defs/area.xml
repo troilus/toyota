@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE AreaList SYSTEM "../dtd/area.dtd">
+<AreaList ver="2.1.2.6F" xml:lang="zh">
+  <Area no="10" code="EG">发动机室</Area>
+  <Area no="20" code="INPANE">仪表板</Area>
+  <Area no="30" code="BODY">车身</Area>
+  <Area no="40" code="SEAT">座椅</Area>
+  <Area no="50" code="LUGGAGE">行李厢</Area>
+  <Area no="60" code="HVB">混合动力车辆蓄电池</Area>
+  <Area no="70" code="ANTENNA">天线</Area>
+</AreaList>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS056" code="E71" type="conn" figID="4">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS056" code="E75" type="conn" figID="1">
+    <name>车外后视镜开关总成</name>
+  </text>
+  <text ewd="SYS056" code="H11" type="conn" figID="3">
+    <name>左侧车外后视镜总成</name>
+  </text>
+  <text ewd="SYS056" code="G10" type="conn" figID="2">
+    <name>右侧车外后视镜总成</name>
+  </text>
+  <text ewd="SYS056" code="FUSE43" type="fuse" figID="14">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS056" code="ED" type="gp" figID="13">
+    <name />
+  </text>
+  <text ewd="SYS056" code="3" type="jb" figID="5,6">
+    <name />
+  </text>
+  <text ewd="SYS056" code="HE1" type="w2w" figID="7,8,12">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS056" code="GE1" type="w2w" figID="9,10,11">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+</EwdTree>

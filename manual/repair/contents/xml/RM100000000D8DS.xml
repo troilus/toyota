@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_56">
+<name>音频/视频/车载通信系统</name>
+<section id="_023999">
+<name>导航/多信息显示屏</name>
+<ttl id="_0116139">
+<name>导航系统</name>
+<para category="J" id="RM100000000D8DS">
+<dtccode/>
+<dtcname>USB 音响系统识别/播放故障</dtcname>
+<subpara category="03" id="RM100000000D8DS_01">
+<name>描述</name>
+<content5>
+<ptxt>USB 设备连接至 1 号立体声插座适配器总成的 USB 插口时，必须存有可播放文件。 设备必须与导航接收器总成进行通信且可识别。该诊断程序适用于设备不能被识别或设备中文件无法正常播放的情况。</ptxt>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D8DS_04">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="E277817E27" height="4.825319882in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D8DS_02">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>根据车辆检查或保养期间更换的零件，可能需要执行初始化、注册或校准。 请参考导航系统的注意事项。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D4" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten3>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>USB 设备内有大量数据时，可能需要一段时间才开始播放。</ptxt>
+</item>
+<item>
+<ptxt>使用 USB 设备时，无法播放有版权保护的文件。</ptxt>
+</item>
+<item>
+<ptxt>文件不按照顺序播放时，检查前先执行下列程序。</ptxt>
+</item>
+<list2 type="ordered">
+<item>
+<ptxt>在文件名称前添加编号。</ptxt>
+</item>
+<item>
+<ptxt>将文件放在文件夹中，并将文件夹数据复制到 USB 设备内。</ptxt>
+</item>
+</list2>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D8DS_05">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8DS_05_0001">
+<testtitle>检查 USB 设备</testtitle>
+<content6>
+<test1>
+<ptxt>从 1 号立体声插座适配器总成上断开 USB 设备。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 USB 设备内是否存在可播放文件。</ptxt>
+<atten4>
+<ptxt>请参考可播放文件的系统描述。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D5" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>检查 USB 设备是否是可兼容格式。</ptxt>
+<atten4>
+<ptxt>有关兼容格式和版本，请参见系统描述。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D5" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>不存在可播放文件，或设备格式或版本不兼容。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>存在可播放文件，且设备格式或版本兼容。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>结束（USB 设备格式不兼容或不存在可播放文件）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="next" cellposition="2-2" childid="RM100000000D8DS_05_0002"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-2" id="RM100000000D8DS_05_0002">
+<testtitle>检查线束和连接器（导航接收器总成 - 1 号立体声插座适配器总成）</testtitle>
+<content6>
+<test1>
+<ptxt>断开导航接收器总成连接器 X2。</ptxt>
+</test1>
+<test1>
+<ptxt>断开 1 号立体声插座适配器总成连接器 X1。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="E226480C78" height="4.677165354in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至导航接收器总成）</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至 1 号立体声插座适配器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>X1-1 (UPI) - X2-1 (USV1)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>X1-2 (UDO-) -X2-2 (US1-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>X1-3 (UDO+) -X2-3 (US1+)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>X1-4 (UJSG) -X2-4 (UGD1)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>X1-5 (UJSS) -X2-5 (USG1)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>X1-1 (UPI) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>X1-2 (UDO-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>X1-3 (UDO+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>X1-4 (UJSG) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>X1-5 (UJSS) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-2" label="1">
+<action actiontype="next" cellposition="3-2" childid="RM100000000D8DS_05_0014"/>
+</result>
+<result cellposition="2-5" label="2">
+<action actiontype="end" cellposition="3-5">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-2" id="RM100000000D8DS_05_0014">
+<testtitle>检查导航接收器总成（1 号立体声插座适配器总成电源）</testtitle>
+<content6>
+<test1>
+<ptxt>断开 1 号立体声插座适配器总成连接器 X1。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="E226479C23" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至 1 号立体声插座适配器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>X1-1 (UPI) - X1-4 (UJSG)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ACC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>5 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-2" label="1">
+<action actiontype="next" cellposition="4-2" childid="RM100000000D8DS_05_0007"/>
+</result>
+<result cellposition="3-4" label="2">
+<action actiontype="end" cellposition="4-4">
+<actiontitle>更换导航接收器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD7X" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-2" id="RM100000000D8DS_05_0007">
+<testtitle>格式化 USB 设备并重新检查</testtitle>
+<content6>
+<test1>
+<ptxt>删除 USB 设备中的所有文件并将其格式化/恢复。</ptxt>
+</test1>
+<test1>
+<ptxt>再次保存数据并检查是否可在车内设备上播放。</ptxt>
+<atten3>
+<ptxt>格式化 USB 设备将清除设备上的所有音乐。进行此操作前，请确保有备份的音乐数据。</ptxt>
+</atten3>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>故障消失。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-2" label="1">
+<action actiontype="end" cellposition="5-2">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="4-3" label="2">
+<action actiontype="next" cellposition="5-3" childid="RM100000000D8DS_05_0009"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-3" id="RM100000000D8DS_05_0009">
+<testtitle>更换 USB 设备</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+<atten4>
+<ptxt>出现该故障时，必须将点火开关置于 OFF 位置，车辆才能在新设备连接时识别该设备。</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ACC 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>将确认正常的 USB 设备连接到 1 号立体声插座适配器总成上。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果在使用 USB 设备时发生故障，则使用其他 USB 设备进行检查。</ptxt>
+</item>
+<item>
+<ptxt>有关兼容格式和版本，请参见系统描述。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D5" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-3" label="1">
+<action actiontype="next" cellposition="6-3" childid="RM100000000D8DS_05_0010"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-3" id="RM100000000D8DS_05_0010">
+<testtitle>检查 USB 设备</testtitle>
+<content6>
+<test1>
+<ptxt>检查 USB 设备是否可被导航接收器总成识别，或屏幕上是否显示如曲目、艺术家和专辑名称等信息。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>正确识别 USB 设备且屏幕上显示信息。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-3" label="1">
+<action actiontype="end" cellposition="7-3">
+<actiontitle>USB 设备不兼容或故障</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="6-4" label="2">
+<action actiontype="end" cellposition="7-4">
+<actiontitle>转至故障症状表中所示的下一个可疑部位</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D3" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

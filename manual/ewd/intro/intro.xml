@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE IntroList SYSTEM "../dtd/intro.dtd">
+<IntroList ver="2.1.2.6F" xml:lang="zh">
+  <Intro code="INTRO01">
+    <name>概述</name>
+    <file>intro</file>
+  </Intro>
+  <Intro code="INTRO02">
+    <name>缩略语</name>
+    <file>abbre</file>
+  </Intro>
+  <Intro code="INTRO03">
+    <name>术语和符号表</name>
+    <file>glossary</file>
+  </Intro>
+  <Intro code="INTRO04">
+    <name>线束维修概述</name>
+    <file>wh-intro</file>
+  </Intro>
+  <Intro code="INTRO05">
+    <name>端子和连接器维修</name>
+    <file>repair</file>
+  </Intro>
+</IntroList>

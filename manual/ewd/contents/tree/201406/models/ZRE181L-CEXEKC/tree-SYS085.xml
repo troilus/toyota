@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS085" code="E49" type="conn" figID="3">
+    <name>认证 ECU</name>
+  </text>
+  <text ewd="SYS085" code="E50" type="conn" figID="4">
+    <name>发动机开关</name>
+  </text>
+  <text ewd="SYS085" code="L1" type="conn" figID="10">
+    <name>左前车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS085" code="L41" type="conn" figID="9">
+    <name>右前车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS085" code="H9" type="conn" figID="17">
+    <name>带电动机的左前门锁总成</name>
+  </text>
+  <text ewd="SYS085" code="G8" type="conn" figID="16">
+    <name>带电动机的右前门锁总成</name>
+  </text>
+  <text ewd="SYS085" code="L30" type="conn" figID="15">
+    <name>行李厢门锁总成</name>
+  </text>
+  <text ewd="SYS085" code="E36" type="conn" figID="1">
+    <name>主车身 ECU</name>
+  </text>
+  <text ewd="SYS085" code="O4" type="conn" figID="8">
+    <name>阅读灯总成</name>
+  </text>
+  <text ewd="SYS085" code="A39" type="conn" figID="2">
+    <name>1 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS085" code="L24" type="conn" figID="13">
+    <name>1 号行李厢灯总成</name>
+  </text>
+  <text ewd="SYS085" code="O6" type="conn" figID="21">
+    <name>1 号车厢照明灯总成</name>
+  </text>
+  <text ewd="SYS085" code="E74" type="conn" figID="20">
+    <name>2 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS085" code="L54,L55" type="conn" figID="14">
+    <name>7 号接线连接器</name>
+  </text>
+  <text ewd="SYS085" code="L2" type="conn" figID="12">
+    <name>左后车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS085" code="L42" type="conn" figID="11">
+    <name>右后车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS085" code="K3" type="conn" figID="19">
+    <name>带电动机的左后门锁总成</name>
+  </text>
+  <text ewd="SYS085" code="J3" type="conn" figID="18">
+    <name>带电动机的右后门锁总成</name>
+  </text>
+  <text ewd="SYS085" code="FUSE5" type="fuse" figID="67">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS085" code="FUSE43" type="fuse" figID="69">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS085" code="FUSE3" type="fuse" figID="70">
+    <name>7.5A DOME</name>
+  </text>
+  <text ewd="SYS085" code="FUSE47" type="fuse" figID="68">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS085" code="EA" type="gp" figID="56,58">
+    <name />
+  </text>
+  <text ewd="SYS085" code="EB" type="gp" figID="53,55">
+    <name />
+  </text>
+  <text ewd="SYS085" code="EC" type="gp" figID="57">
+    <name />
+  </text>
+  <text ewd="SYS085" code="LA" type="gp" figID="54">
+    <name />
+  </text>
+  <text ewd="SYS085" code="LB" type="gp" figID="60">
+    <name />
+  </text>
+  <text ewd="SYS085" code="LD" type="gp" figID="59">
+    <name />
+  </text>
+  <text ewd="SYS085" code="3" type="jb" figID="25,26,27,28,29,30,31,32">
+    <name />
+  </text>
+  <text ewd="SYS085" code="4" type="rb" figID="7">
+    <name />
+  </text>
+  <text ewd="SYS085" code="FUSE5" type="rb" figID="5">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS085" code="FUSE3" type="rb" figID="6">
+    <name>7.5A DOME</name>
+  </text>
+  <text ewd="SYS085" code="SP29" type="sp" figID="65">
+    <name />
+  </text>
+  <text ewd="SYS085" code="SP30" type="sp" figID="66">
+    <name />
+  </text>
+  <text ewd="SYS085" code="SP31" type="sp" figID="61">
+    <name />
+  </text>
+  <text ewd="SYS085" code="SP32" type="sp" figID="63">
+    <name />
+  </text>
+  <text ewd="SYS085" code="SP34" type="sp" figID="62">
+    <name />
+  </text>
+  <text ewd="SYS085" code="SP37" type="sp" figID="64">
+    <name />
+  </text>
+  <text ewd="SYS085" code="AE2" type="w2w" figID="49,50">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS085" code="AE3" type="w2w" figID="33,34">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS085" code="AE4" type="w2w" figID="51,52">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS085" code="HE1" type="w2w" figID="44">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS085" code="HE3" type="w2w" figID="43">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS085" code="GE1" type="w2w" figID="42">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS085" code="GE3" type="w2w" figID="41">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS085" code="EL2" type="w2w" figID="40">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS085" code="EL4" type="w2w" figID="38,39">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS085" code="JL1" type="w2w" figID="45,46">
+    <name>后门 1 号线束和地板线束</name>
+  </text>
+  <text ewd="SYS085" code="OE1" type="w2w" figID="35,36,37">
+    <name>车顶 1 号线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS085" code="KL1" type="w2w" figID="47,48">
+    <name>后门 2 号线束和地板线束</name>
+  </text>
+</EwdTree>

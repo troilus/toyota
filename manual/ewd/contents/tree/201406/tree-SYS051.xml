@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS051" code="L1" type="conn" figID="11">
+    <name>左前车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS051" code="L41" type="conn" figID="13">
+    <name>右前车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS051" code="H5" type="conn" figID="4">
+    <name>左前电动车窗升降器电动机总成</name>
+  </text>
+  <text ewd="SYS051" code="H10" type="conn" figID="10">
+    <name>左前电动车窗升降器电动机总成</name>
+  </text>
+  <text ewd="SYS051" code="G9" type="conn" figID="1">
+    <name>右前电动窗升降器马达总成</name>
+  </text>
+  <text ewd="SYS051" code="G5" type="conn" figID="8">
+    <name>右前电动窗升降器开关总成</name>
+  </text>
+  <text ewd="SYS051" code="E36" type="conn" figID="14">
+    <name>主车身 ECU</name>
+  </text>
+  <text ewd="SYS051" code="H6" type="conn" figID="3">
+    <name>电动窗升降器主开关总成</name>
+  </text>
+  <text ewd="SYS051" code="K2" type="conn" figID="6">
+    <name>左后电动窗升降器马达总成</name>
+  </text>
+  <text ewd="SYS051" code="J2" type="conn" figID="7">
+    <name>右后电动窗升降器马达总成</name>
+  </text>
+  <text ewd="SYS051" code="K1" type="conn" figID="9">
+    <name>左后电动窗升降器开关总成</name>
+  </text>
+  <text ewd="SYS051" code="J1" type="conn" figID="5">
+    <name>右后电动窗升降器开关总成</name>
+  </text>
+  <text ewd="SYS051" code="FUSE5" type="fuse" figID="58">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS051" code="FUSE36" type="fuse" figID="53">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS051" code="FUSE61" type="fuse" figID="57">
+    <name>20A FR DOOR</name>
+  </text>
+  <text ewd="SYS051" code="FUSE62" type="fuse" figID="55">
+    <name>20A RL DOOR</name>
+  </text>
+  <text ewd="SYS051" code="FUSE63" type="fuse" figID="54">
+    <name>20A RR DOOR</name>
+  </text>
+  <text ewd="SYS051" code="FUSE67" type="fuse" figID="56">
+    <name>30A POWER</name>
+  </text>
+  <text ewd="SYS051" code="FUSE43" type="fuse" figID="60">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS051" code="FUSE47" type="fuse" figID="59">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS051" code="EA" type="gp" figID="46,47,49">
+    <name />
+  </text>
+  <text ewd="SYS051" code="EB" type="gp" figID="48">
+    <name />
+  </text>
+  <text ewd="SYS051" code="1" type="jb" figID="18">
+    <name />
+  </text>
+  <text ewd="SYS051" code="3" type="jb" figID="17,19,20,21">
+    <name />
+  </text>
+  <text ewd="SYS051" code="FUSE5" type="rb" figID="12">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS051" code="FUSE36" type="rb" figID="2">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS051" code="SP16" type="sp" figID="52">
+    <name />
+  </text>
+  <text ewd="SYS051" code="SP30" type="sp" figID="50">
+    <name />
+  </text>
+  <text ewd="SYS051" code="SP36" type="sp" figID="51">
+    <name />
+  </text>
+  <text ewd="SYS051" code="HE1" type="w2w" figID="26,27">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS051" code="HE2" type="w2w" figID="30,32,35,38,41,44">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS051" code="HE3" type="w2w" figID="25,28">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS051" code="GE2" type="w2w" figID="29,31">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS051" code="GE3" type="w2w" figID="24">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS051" code="EL1" type="w2w" figID="34,37">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS051" code="EL4" type="w2w" figID="40,43,45">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS051" code="JL1" type="w2w" figID="22,39,42">
+    <name>后门 1 号线束和地板线束</name>
+  </text>
+  <text ewd="SYS051" code="KL1" type="w2w" figID="23,33,36">
+    <name>后门 2 号线束和地板线束</name>
+  </text>
+</EwdTree>

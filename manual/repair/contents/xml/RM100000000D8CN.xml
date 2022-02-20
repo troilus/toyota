@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_56">
+<name>音频/视频/车载通信系统</name>
+<section id="_023999">
+<name>导航/多信息显示屏</name>
+<ttl id="_0116139">
+<name>导航系统</name>
+<para category="J" id="RM100000000D8CN">
+<dtccode/>
+<dtcname>面板开关不起作用</dtcname>
+<subpara category="10" id="RM100000000D8CN_05">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>根据车辆检查或保养期间更换的零件，可能需要执行初始化、注册或校准。 请参考导航系统的注意事项。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D4" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D8CN_03">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8CN_03_0001">
+<testtitle>检查面板开关</testtitle>
+<content6>
+<test1>
+<ptxt>检查开关周围是否存在可能妨碍其操作的异物。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>未发现异物。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D8CN_03_0002"/>
+</result>
+<result cellposition="1-3" label="2">
+<action actiontype="end" cellposition="2-3">
+<actiontitle>清除发现的所有异物</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D8CN_03_0002">
+<testtitle>检查面板和方向盘开关（工作情况检查）</testtitle>
+<content6>
+<test1>
+<ptxt>进入“Panel &amp; Steering Switch Check Mode”画面。 请参见工作情况检查中的检查面板和方向盘开关。</ptxt>
+<figure translate="I" type="1">
+<graphic graphicname="E292285" height="2.192421260in" width="3.434793307in"/>
+</figure>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D6" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>操作出现异常的开关，同时检查开关状态是否正确显示。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>操作开关时正确显示开关状态。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="end" cellposition="3-1">
+<actiontitle>更换导航接收器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD7X" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="2-2" label="2">
+<action actiontype="end" cellposition="3-2">
+<actiontitle>转至故障症状表中所示的下一个可疑部位</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D3" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

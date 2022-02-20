@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS014">
+    <part type="conn" code="E19">
+      <text>CANL CANH</text>
+      <name>空气囊 ECU 总成</name>
+      <name type="inner">横摆率传感器</name>
+    </part>
+    <part type="conn" code="A41,A42">
+      <text>CSW +BS IG1 GND1 GND2 FR- RR- FR+ RR+ FL- RL- FL+ RL+ CANL CANH STP +BM</text>
+      <name>制动执行器总成</name>
+    </part>
+    <part type="conn" code="E55">
+      <text>5V +B 5V CANH CANL ET IG+ B 5V IC CAN I/F CPU ABS I/F 5V+B CAN I/F CPU ET ABS B IG+ 5V IC VSC OFF (*1) CANH CANL</text>
+      <name>组合仪表总成</name>
+      <name type="inner">CAN 控制器</name>
+      <name type="inner">LED 驱动器</name>
+      <name type="inner">制动器</name>
+      <name type="inner">制动器</name>
+      <name type="inner">LED 驱动器</name>
+      <name type="inner">滑动</name>
+      <name type="inner">CAN 控制器</name>
+      <name type="inner">显示屏驱动器</name>
+    </part>
+    <part type="conn" code="B16">
+      <name>曲轴位置传感器</name>
+    </part>
+    <part type="conn" code="A40,B39">
+      <text>ECM ETA VCTA VTA1 VTA2 NE+ M+ NE- M- GE01 P N CANL CANH</text>
+    </part>
+    <part type="conn" code="A26">
+      <text>B W FL- FL+</text>
+      <name>左前轮转速传感器</name>
+    </part>
+    <part type="conn" code="A25">
+      <text>B W FR- FR+</text>
+      <name>右前轮转速传感器</name>
+    </part>
+    <part type="conn" code="E36">
+      <text>CANL CANH BECU IG ACC PKB GND1</text>
+      <name>主车身 ECU</name>
+    </part>
+    <part type="conn" code="A39">
+      <name>1 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E74">
+      <name>2 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="conn" code="B15">
+      <text>P RB PL N NL</text>
+      <name>驻车/空档位置开关总成</name>
+    </part>
+    <part type="conn" code="L19">
+      <name>驻车制动开关总成</name>
+    </part>
+    <part type="conn" code="j1">
+      <name>左后轮转速传感器（左侧防滑控制传感器线束）</name>
+    </part>
+    <part type="conn" code="h1">
+      <name>右后轮转速传感器（右侧防滑控制传感器线束）</name>
+    </part>
+    <part type="conn" code="E62">
+      <text>CANL BAT CANH ESS IG</text>
+      <name>转向传感器</name>
+    </part>
+    <part type="conn" code="A2">
+      <text>GND OUT B</text>
+      <name>刹车灯开关总成</name>
+    </part>
+    <part type="conn" code="A1">
+      <name>刹车灯开关总成</name>
+    </part>
+    <part type="conn" code="B28">
+      <text>VTA2 VTA VC E2 M M+ M-</text>
+      <name>节气门体总成</name>
+    </part>
+    <part type="conn" code="E60">
+      <name>VSC OFF 开关</name>
+    </part>
+    <part type="fuse" code="FUSE31">
+      <text>ABS NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE23">
+      <text>ABS NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE43">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>ECU-B NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE44">
+      <text>ECU-IG NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE45">
+      <text>ECU-IG NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE47">
+      <text>ECU-IG NO.4</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE54">
+      <text>STOP</text>
+    </part>
+  </ttl>
+</EWDSearch>

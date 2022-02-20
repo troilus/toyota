@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_57">
+<name>电源/网络</name>
+<section id="_024023">
+<name>2ZR-FE 蓄电池/充电系统</name>
+<ttl id="_0116648">
+<name>充电系统</name>
+<para category="J" id="RM100000000DAUK">
+<dtccode/>
+<dtcname>多楔带或发电机总成发出噪音</dtcname>
+<subpara category="01" id="RM100000000DAUK_03">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DAUK_03_0001">
+<testtitle>确认故障症状</testtitle>
+<content6>
+<test1>
+<ptxt>确认故障症状。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.06in"/>
+<colspec colname="col2" colwidth="2.07in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>症状</ptxt>
+</entry>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>多楔带发出噪音</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>发电机总成发出噪音</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DAUK_03_0002"/>
+</result>
+<result cellposition="1-6" label="2">
+<action actiontype="next" cellposition="2-6" childid="RM100000000DAUK_03_0010"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DAUK_03_0002">
+<testtitle>检查多楔带是否磨损</testtitle>
+<content6>
+<test1>
+<ptxt>检查多楔带是否磨损或损坏。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>多楔带未磨损或损坏。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000DAUK_03_0003"/>
+</result>
+<result cellposition="2-5" label="2">
+<action actiontype="end" cellposition="3-5">
+<actiontitle>更换多楔带</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBN9" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000DAUK_03_0003">
+<testtitle>检查带离合器的发电机皮带轮是否磨损</testtitle>
+<content6>
+<test1>
+<ptxt>检查带离合器的发电机皮带轮凹槽是否磨损或损坏。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>带离合器的发电机皮带轮凹槽无磨损或损坏。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000DAUK_03_0004"/>
+</result>
+<result cellposition="3-4" label="2">
+<action actiontype="end" cellposition="4-4">
+<actiontitle>更换带离合器的发电机皮带轮</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ENR9" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000DAUK_03_0004">
+<testtitle>检查离合器皮带轮工作时是否发出噪音</testtitle>
+<content6>
+<test1>
+<ptxt>起动发动机并检查带离合器的发电机皮带轮是否松动。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>带离合器的发电机皮带轮未松动。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000DAUK_03_0015"/>
+</result>
+<result cellposition="4-3" label="2">
+<action actiontype="end" cellposition="5-3">
+<actiontitle>将带离合器的发电机皮带轮紧固至规定扭矩</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000DAUK_03_0015">
+<testtitle>检查带离合器的发电机皮带轮（单元检查）</testtitle>
+<content6>
+<test1>
+<ptxt>拆下发电机总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000ENRA" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>检查发电机皮带轮盖的安装情况。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>发电机皮带轮盖未松动或丢失。</ptxt>
+</specitem>
+</spec>
+</test1>
+<test1>
+<ptxt>检查因摩擦（干型皮带轮）或润滑脂泄漏（湿型皮带轮）产生的颗粒。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>未因摩擦（干型皮带轮）或润滑脂泄漏（湿型皮带轮）产生大量颗粒。</ptxt>
+</specitem>
+</spec>
+</test1>
+<test1>
+<ptxt>检查带离合器的发电机皮带轮偏差（与发电机总成发生干涉）。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>带离合器的发电机皮带轮无偏差（未与发电机总成发生干涉）。</ptxt>
+</specitem>
+</spec>
+</test1>
+<test1>
+<ptxt>手动顺时针和逆时针转动带离合器的发电机皮带轮，并检查是否有噪音。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>顺时针和逆时针转动时均无噪音。</ptxt>
+</specitem>
+</spec>
+<figure translate="I" type="1">
+<graphic graphicname="A288972" height="2.192421260in" width="3.434793307in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>手动顺时针和逆时针转动带离合器的发电机皮带轮，并目视检查径向跳动。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>带离合器的发电机皮带轮无径向跳动。</ptxt>
+</specitem>
+</spec>
+</test1>
+<test1>
+<ptxt>使用头部缠有保护胶带的螺丝刀，固定发电机总成中的发电机转子总成（风扇），检查并确认顺时针转动时带离合器的发电机皮带轮锁止，而逆时针转动时自由旋转。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>顺时针转动时带离合器的发电机皮带轮锁止，而逆时针转动时自由旋转。</ptxt>
+</specitem>
+</spec>
+<figure translate="C" type="1">
+<graphic graphicname="A288971C02" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>保护胶带</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="end" cellposition="6-1">
+<actiontitle>检查除发电机总成皮带轮外的皮带轮</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ENR9" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="5-2" label="2">
+<action actiontype="end" cellposition="6-2">
+<actiontitle>更换带离合器的发电机皮带轮</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ENR9" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-6" id="RM100000000DAUK_03_0010">
+<testtitle>检查转子自由转动时是否发出噪音</testtitle>
+<content6>
+<test1>
+<ptxt>进行路试，检查并确认减速时未发出噪音。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>未发出噪音。</ptxt>
+</specitem>
+</spec>
+</test1>
+<test1>
+<ptxt>停止发动机，检查并确认发动机停止时带离合器的发电机皮带轮未发出噪音。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>未发出噪音。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-6" label="1">
+<action actiontype="next" cellposition="3-6" childid="RM100000000DAUK_03_0011"/>
+</result>
+<result cellposition="2-8" label="2">
+<action actiontype="end" cellposition="3-8">
+<actiontitle>更换带离合器的发电机皮带轮</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ENR9" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-6" id="RM100000000DAUK_03_0011">
+<testtitle>检查带离合器的发电机皮带轮是否啮合</testtitle>
+<content6>
+<test1>
+<ptxt>拆下发电机总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000ENRA" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>使用头部缠有保护胶带的螺丝刀，固定发电机总成中的发电机转子总成（风扇），检查并确认从逆时针（自由转动方向）向顺时针（锁止方向）转动时带离合器的发电机皮带轮锁止。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>带离合器的发电机皮带轮锁止。</ptxt>
+</specitem>
+</spec>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="3-6" label="1">
+<action actiontype="end" cellposition="4-6">
+<actiontitle>维修或更换发电机总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ENR9" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-7" label="2">
+<action actiontype="end" cellposition="4-7">
+<actiontitle>更换带离合器的发电机皮带轮</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ENR9" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

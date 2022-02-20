@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_56">
+<name>音频/视频/车载通信系统</name>
+<section id="_023999">
+<name>导航/多信息显示屏</name>
+<ttl id="_0116139">
+<name>导航系统</name>
+<para category="J" id="RM100000000D8DD">
+<dtccode/>
+<dtcname>蜂窝电话检查</dtcname>
+<subpara category="01" id="RM100000000D8DD_02">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8DD_02_0001">
+<testtitle>检查使用条件</testtitle>
+<content6>
+<test1>
+<ptxt>检查并确认车辆和蜂窝电话满足下列条件：</ptxt>
+<atten3>
+<ptxt>如果必须更改蜂窝电话设定、更新软件等，则执行前确保获得客户许可。</ptxt>
+</atten3>
+<list1 type="unordered">
+<item>
+<ptxt>蜂窝电话兼容“蓝牙”功能。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D5" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>蜂窝电话作为免提设备进行注册。</ptxt>
+</item>
+<item>
+<ptxt>蜂窝电话的“蓝牙”设定打开。</ptxt>
+</item>
+<item>
+<ptxt>操作蜂窝电话的系统和软件为最新版本。</ptxt>
+</item>
+<item>
+<ptxt>车厢内没有其他无线电波发射设备（“Wi-Fi”通信设备等）。</ptxt>
+</item>
+</list1>
+</test1>
+<test1>
+<ptxt>将蜂窝电话连接至车内设备，检查并确认其正确连接。</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>蜂窝电话正确连接。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>蜂窝电话未正确连接。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="next" cellposition="2-2" childid="RM100000000D8DD_02_0003"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-2" id="RM100000000D8DD_02_0003">
+<testtitle>再次启动蜂窝电话</testtitle>
+<content6>
+<test1>
+<ptxt>再次启动蜂窝电话。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ACC 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>将蜂窝电话连接至车内设备，检查并确认其正确连接。</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>蜂窝电话正确连接。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>蜂窝电话未正确连接。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="2-2" label="1">
+<action actiontype="end" cellposition="3-2">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="2-3" label="2">
+<action actiontype="next" cellposition="3-3" childid="RM100000000D8DD_02_0010"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-3" id="RM100000000D8DD_02_0010">
+<testtitle>检查工作情况</testtitle>
+<content6>
+<test1>
+<ptxt>检查蜂窝电话是否可识别车内设备。</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>可识别车内设备。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>无法识别车内设备。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="3-3" label="1">
+<action actiontype="next" cellposition="4-3" childid="RM100000000D8DD_02_0005"/>
+</result>
+<result cellposition="3-5" label="2">
+<action actiontype="jump" cellposition="4-5" childid="RM100000000D8DD_02_0012">
+<actiontitle>转至步骤 5</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-3" id="RM100000000D8DD_02_0005">
+<testtitle>再次注册</testtitle>
+<content6>
+<test1>
+<ptxt>清除注册至蜂窝电话和导航系统总成内的所有“蓝牙”设备。</ptxt>
+</test1>
+<test1>
+<ptxt>再次注册蜂窝电话。</ptxt>
+</test1>
+<test1>
+<ptxt>将蜂窝电话连接至车内设备，检查并确认其正确连接。</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>蜂窝电话正确连接。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>蜂窝电话未正确连接。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="4-3" label="1">
+<action actiontype="end" cellposition="5-3">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="4-4" label="2">
+<action actiontype="next" cellposition="5-4" childid="RM100000000D8DD_02_0012"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-4" id="RM100000000D8DD_02_0012">
+<testtitle>使用其他车辆进行检查</testtitle>
+<content6>
+<test1>
+<ptxt>使用另一兼容“蓝牙”的车辆检查客户的蜂窝电话是否正常工作。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>执行该程序前，确保获得客户的许可。</ptxt>
+</item>
+<item>
+<ptxt>检查后，清除检查期间获得的注册信息和使用记录。</ptxt>
+</item>
+</list1>
+</atten4>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>蜂窝电话正确连接。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>蜂窝电话未正确连接。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="5-4" label="1">
+<action actiontype="end" cellposition="6-4">
+<actiontitle>转至故障症状表中所示的下一个可疑部位</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D3" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="5-5" label="2">
+<action actiontype="next" cellposition="6-5" childid="RM100000000D8DD_02_0009"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-5" id="RM100000000D8DD_02_0009">
+<testtitle>使用另一蜂窝电话进行检查</testtitle>
+<content6>
+<test1>
+<ptxt>使用另一“蓝牙”兼容蜂窝电话检查系统是否正常工作。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>执行该程序前，确保获得客户的许可。</ptxt>
+</item>
+<item>
+<ptxt>检查后，清除检查期间获得的注册信息和使用记录。</ptxt>
+</item>
+</list1>
+</atten4>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>蜂窝电话正确连接。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>蜂窝电话未正确连接。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="6-5" label="1">
+<action actiontype="end" cellposition="7-5">
+<actiontitle>结束（仅可使用“蓝牙”兼容蜂窝电话）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="6-6" label="2">
+<action actiontype="end" cellposition="7-6">
+<actiontitle>转至故障症状表中所示的下一个可疑部位</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D3" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

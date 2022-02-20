@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS103" code="E19,L15,L49" type="conn" figID="20">
+    <name>空气囊 ECU 总成</name>
+  </text>
+  <text ewd="SYS103" code="E55" type="conn" figID="1,17">
+    <name>组合仪表总成</name>
+  </text>
+  <text ewd="SYS103" code="L14" type="conn" figID="6">
+    <name>左侧帘式空气囊总成</name>
+  </text>
+  <text ewd="SYS103" code="L48" type="conn" figID="7">
+    <name>右侧帘式空气囊总成</name>
+  </text>
+  <text ewd="SYS103" code="E18" type="conn" figID="15">
+    <name>DLC3</name>
+  </text>
+  <text ewd="SYS103" code="A40" type="conn" figID="3">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS103" code="A8" type="conn" figID="9">
+    <name>左前空气囊传感器</name>
+  </text>
+  <text ewd="SYS103" code="A18" type="conn" figID="8">
+    <name>右前空气囊传感器</name>
+  </text>
+  <text ewd="SYS103" code="e1" type="conn" figID="25">
+    <name>前排左侧座椅空气囊总成</name>
+  </text>
+  <text ewd="SYS103" code="f1" type="conn" figID="26">
+    <name>前排右侧座椅空气囊总成</name>
+  </text>
+  <text ewd="SYS103" code="L10" type="conn" figID="14">
+    <name>前排左侧座椅外安全带总成</name>
+  </text>
+  <text ewd="SYS103" code="L44" type="conn" figID="13">
+    <name>前排右侧座椅外安全带总成</name>
+  </text>
+  <text ewd="SYS103" code="d1" type="conn" figID="10">
+    <name>不带车门空气囊的仪表板乘客空气囊总成</name>
+  </text>
+  <text ewd="SYS103" code="A39" type="conn" figID="23">
+    <name>1 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS103" code="E74" type="conn" figID="21">
+    <name>2 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS103" code="L13" type="conn" figID="4">
+    <name>左后空气囊传感器</name>
+  </text>
+  <text ewd="SYS103" code="L47" type="conn" figID="19">
+    <name>右后空气囊传感器</name>
+  </text>
+  <text ewd="SYS103" code="L40" type="conn" figID="24">
+    <name>后排左侧座椅外安全带总成</name>
+  </text>
+  <text ewd="SYS103" code="L53" type="conn" figID="18">
+    <name>后排右侧座椅外安全带总成</name>
+  </text>
+  <text ewd="SYS103" code="L11,L12" type="conn" figID="5">
+    <name>左侧侧空气囊传感器总成</name>
+  </text>
+  <text ewd="SYS103" code="L45,L46" type="conn" figID="22">
+    <name>右侧侧空气囊传感器总成</name>
+  </text>
+  <text ewd="SYS103" code="E14,z2" type="conn" figID="11">
+    <name>螺旋电缆分总成、驾驶员侧点火管（喇叭按钮总成）</name>
+  </text>
+  <text ewd="SYS103" code="z2" type="conn" figID="12">
+    <name>螺旋电缆分总成、驾驶员侧点火管（喇叭按钮总成）</name>
+  </text>
+  <text ewd="SYS103" code="FUSE6" type="fuse" figID="59,61">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS103" code="FUSE39" type="fuse" figID="60,62">
+    <name>5A MET</name>
+  </text>
+  <text ewd="SYS103" code="FUSE42" type="fuse" figID="58">
+    <name>7.5A A/B</name>
+  </text>
+  <text ewd="SYS103" code="EA" type="gp" figID="55">
+    <name />
+  </text>
+  <text ewd="SYS103" code="EB" type="gp" figID="54">
+    <name />
+  </text>
+  <text ewd="SYS103" code="ED" type="gp" figID="56,57">
+    <name />
+  </text>
+  <text ewd="SYS103" code="3" type="jb" figID="30,31,32,33,34,35">
+    <name />
+  </text>
+  <text ewd="SYS103" code="FUSE6" type="rb" figID="2,16">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS103" code="AE3" type="w2w" figID="50,51">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS103" code="AE4" type="w2w" figID="52,53">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS103" code="AE7" type="w2w" figID="42,43,44,45">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS103" code="Le1" type="w2w" figID="36,37">
+    <name>地板线束和前排左侧座椅空气囊总成</name>
+  </text>
+  <text ewd="SYS103" code="Lf1" type="w2w" figID="38,39">
+    <name>地板线束和前排右侧座椅空气囊总成</name>
+  </text>
+  <text ewd="SYS103" code="EL7" type="w2w" figID="46,48">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS103" code="EL8" type="w2w" figID="47,49">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS103" code="Ed1" type="w2w" figID="40,41">
+    <name>仪表板线束和仪表板线束总成</name>
+  </text>
+</EwdTree>

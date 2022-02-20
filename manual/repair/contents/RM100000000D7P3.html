@@ -1,0 +1,2126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">发动机/混合动力系统</span>
+<span class="globalSection">_023949</span>
+<span class="globalSectionName">1ZR-FE 发动机控制系统</span>
+<span class="globalTitle">_0116049</span>
+<span class="globalTitleName">SFI 系统</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>1ZR-FE 发动机控制系统&nbsp;&nbsp;SFI 系统&nbsp;&nbsp;P0351&nbsp;&nbsp;点火线圈&ldquo;A&rdquo;初级/次级电路&nbsp;&nbsp;P0352&nbsp;&nbsp;点火线圈&ldquo;B&rdquo;初级/次级电路&nbsp;&nbsp;P0353&nbsp;&nbsp;点火线圈&ldquo;C&rdquo;初级/次级电路&nbsp;&nbsp;P0354&nbsp;&nbsp;点火线圈&ldquo;D&rdquo;初级/次级电路&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D7P3_01" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这些 DTC 表示与初级电路有关的故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果输出了 DTC P0351，则检查 1 号点火线圈总成（1 号气缸）电路。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果输出了 DTC P0352，则检查 2 号点火线圈总成（2 号气缸）电路。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果输出了 DTC P0353，则检查 3 号点火线圈总成（3 号气缸）电路。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果输出了 DTC P0354，则检查 4 号点火线圈总成（4 号气缸）电路。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<p>本车辆使用直接点火系统 (DIS)。
+</p>
+<p>DIS 是单缸点火系统，其中各气缸由一个点火线圈总成和一个火花塞进行点火，各火花塞连接至各高压导线的末端。高压导线中产生的高电压直接作用到各火花塞上。火花塞产生的火花通过中心电极到达接地电极。
+</p>
+<p>ECM 确定点火正时并为各气缸传输点火 (IGT) 信号。ECM 根据 IGT 信号接通或断开点火器内的功率晶体管。功率晶体管进而接通和断开流向初级线圈的电流。初级线圈中的电流被切断时，次级线圈中产生高压。此高压被施加到火花塞上并使其在气缸内部产生火花。一旦 ECM 切断流向初级线圈的电流，点火器会将点火确认 (IGF) 信号发送回 ECM，用于各气缸点火。
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A288665.png" alt="A288665" title="A288665">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">4.5,0.781 4.417,0.365</span>
+<span class="points">4.417,0.365 4.333,0.365</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="line">
+<span class="points">5.365,0.531 5.583,0.406</span>
+<span class="points">5.583,0.406 5.719,0.406</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="caption">
+<span class="points">0.469,0.875 2.26,1.073</span>
+<span class="captionSize">1.792,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">曲轴位置传感器</span>
+</span>
+<span class="caption">
+<span class="points">0.448,2.677 2.24,2.875</span>
+<span class="captionSize">1.792,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">凸轮轴位置传感器</span>
+</span>
+<span class="caption">
+<span class="points">0.323,3.708 2.25,4.406</span>
+<span class="captionSize">1.927,0.698</span>
+<span class="fontsize">10</span>
+<span class="captionText">其他传感器（发动机冷却液温度传感器、质量空气流量计分总成、节气门位置传感器等）</span>
+</span>
+<span class="caption">
+<span class="points">3.031,0.823 3.385,1</span>
+<span class="captionSize">0.354,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">IGT1</span>
+</span>
+<span class="caption">
+<span class="points">3.031,1.135 3.385,1.313</span>
+<span class="captionSize">0.354,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">IGF1</span>
+</span>
+<span class="caption">
+<span class="points">5.115,0.073 6.438,0.26</span>
+<span class="captionSize">1.323,0.188</span>
+<span class="fontsize">10</span>
+<span class="captionText">自蓄电池</span>
+</span>
+<span class="caption">
+<span class="points">3.927,0.271 4.417,0.5</span>
+<span class="captionSize">0.49,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">点火器</span>
+</span>
+<span class="caption">
+<span class="points">5.76,0.333 7.146,0.896</span>
+<span class="captionSize">1.385,0.563</span>
+<span class="fontsize">10</span>
+<span class="captionText">点火线圈总成（1 号气缸）</span>
+</span>
+<span class="caption">
+<span class="points">5.74,1.25 6.875,1.469</span>
+<span class="captionSize">1.135,0.219</span>
+<span class="fontsize">10</span>
+<span class="captionText">1 号火花塞</span>
+</span>
+<span class="caption">
+<span class="points">5.74,2.469 6.875,2.688</span>
+<span class="captionSize">1.135,0.219</span>
+<span class="fontsize">10</span>
+<span class="captionText">2 号火花塞</span>
+</span>
+<span class="caption">
+<span class="points">5.719,3.781 6.854,4</span>
+<span class="captionSize">1.135,0.219</span>
+<span class="fontsize">10</span>
+<span class="captionText">3 号火花塞</span>
+</span>
+<span class="caption">
+<span class="points">5.75,5.104 6.885,5.323</span>
+<span class="captionSize">1.135,0.219</span>
+<span class="fontsize">10</span>
+<span class="captionText">4 号火花塞</span>
+</span>
+<span class="caption">
+<span class="points">3,2.156 3.354,2.333</span>
+<span class="captionSize">0.354,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">IGT2</span>
+</span>
+<span class="caption">
+<span class="points">3,3.479 3.354,3.656</span>
+<span class="captionSize">0.354,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">IGT3</span>
+</span>
+<span class="caption">
+<span class="points">3.031,4.792 3.385,4.969</span>
+<span class="captionSize">0.354,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">IGT4</span>
+</span>
+<span class="caption">
+<span class="points">3.813,2.771 6.271,2.958</span>
+<span class="captionSize">2.458,0.188</span>
+<span class="fontsize">10</span>
+<span class="captionText">点火线圈总成（2 号气缸）</span>
+</span>
+<span class="caption">
+<span class="points">3.823,4.094 6.281,4.281</span>
+<span class="captionSize">2.458,0.188</span>
+<span class="fontsize">10</span>
+<span class="captionText">点火线圈总成（3 号气缸）</span>
+</span>
+<span class="caption">
+<span class="points">3.781,5.375 6.24,5.563</span>
+<span class="captionSize">2.458,0.188</span>
+<span class="fontsize">10</span>
+<span class="captionText">点火线圈总成（4 号气缸）</span>
+</span>
+<span class="caption">
+<span class="points">2.854,5.323 3.208,5.5</span>
+<span class="captionSize">0.354,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">ECM</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:14%">
+<col style="width:25%">
+<col style="width:29%">
+<col style="width:10%">
+<col style="width:10%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">存储器
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P0351
+</td>
+<td class="alleft">点火线圈&ldquo;A&rdquo;初级/次级电路
+</td>
+<td class="alleft">发动机运转时，无 IGF 信号发送至 ECM（单程检测逻辑）。
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火线圈总成和 ECM 之间的 IGF1 或 IGT1 电路开路或短路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>1 号点火线圈总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">点亮
+</td>
+<td class="alleft">存储 DTC
+</td>
+</tr>
+<tr>
+<td class="alleft">P0352
+</td>
+<td class="alleft">点火线圈&ldquo;B&rdquo;初级/次级电路
+</td>
+<td class="alleft">发动机运转时，无 IGF 信号发送至 ECM（单程检测逻辑）。
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火线圈总成和 ECM 之间的 IGF1 或 IGT2 电路开路或短路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>2 号点火线圈总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">点亮
+</td>
+<td class="alleft">存储 DTC
+</td>
+</tr>
+<tr>
+<td class="alleft">P0353
+</td>
+<td class="alleft">点火线圈&ldquo;C&rdquo;初级/次级电路
+</td>
+<td class="alleft">发动机运转时，无 IGF 信号发送至 ECM（单程检测逻辑）。
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火线圈总成和 ECM 之间的 IGF1 或 IGT3 电路开路或短路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>3 号点火线圈总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">点亮
+</td>
+<td class="alleft">存储 DTC
+</td>
+</tr>
+<tr>
+<td class="alleft">P0354
+</td>
+<td class="alleft">点火线圈&ldquo;D&rdquo;初级/次级电路
+</td>
+<td class="alleft">发动机运转时，无 IGF 信号发送至 ECM（单程检测逻辑）。
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火线圈总成和 ECM 之间的 IGF1 或 IGT4 电路开路或短路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>4 号点火线圈总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">点亮
+</td>
+<td class="alleft">存储 DTC
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<div class="list1">
+<div class="list1Item list1HasFigure">
+<div class="list1Head"></div>
+<div class="list1Body"><div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A285441.png" alt="A285441" title="A285441">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">2.906,1 3.333,1.25</span>
+<span class="captionSize">0.427,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">2.896,1.615 3.292,1.833</span>
+<span class="captionSize">0.396,0.219</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">0.104,0.688 0.448,1.073</span>
+<span class="captionSize">0.344,0.385</span>
+<span class="fontsize">10</span>
+<span class="captionText">CH1 (IGT)</span>
+</span>
+<span class="caption">
+<span class="points">0.104,1.198 0.448,1.594</span>
+<span class="captionSize">0.344,0.396</span>
+<span class="fontsize">10</span>
+<span class="captionText">CH2 (IGF)</span>
+</span>
+<span class="caption">
+<span class="points">1.281,1.896 2.052,2.073</span>
+<span class="captionSize">0.771,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">20 ms/格</span>
+</span>
+<span class="caption">
+<span class="points">0.042,0.115 0.708,0.281</span>
+<span class="captionSize">0.667,0.167</span>
+<span class="fontsize">10</span>
+<span class="captionText">2 V/格</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>参考：使用示波器进行检查
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>发动机怠速运转时，检查 ECM 连接器端子 IGT（1 至 4）和 E1 之间、IGF1 和 E1 之间的波形。
+</p>
+</dd>
+</dl>
+<br>
+<table summary="" class="half">
+<colgroup>
+<col style="width:30%">
+<col style="width:69%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">ECM 端子名称
+</td>
+<td>CH1：IGT（1 至 4）和 E1 之间
+<br>
+CH2：IGF1 和 E1 之间
+</td>
+</tr>
+<tr>
+<td class="alcenter">检测仪分度值
+</td>
+<td>2 V/格，20 ms/格
+</td>
+</tr>
+<tr>
+<td class="alcenter">条件
+</td>
+<td>发动机暖机时怠速运转
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000D7P3_10" class="category no03">
+<h2>监视描述</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A212405.png" alt="A212405" title="A212405">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">1.781,1.646 2.177,1.823</span>
+<span class="captionSize">0.396,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECM</span>
+</span>
+<span class="caption">
+<span class="points">2.958,1.302 3.229,1.49</span>
+<span class="captionSize">0.271,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGT</span>
+</span>
+<span class="caption">
+<span class="points">2.948,1.729 3.229,1.885</span>
+<span class="captionSize">0.281,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGF</span>
+</span>
+<span class="caption">
+<span class="points">4.156,1.51 4.594,1.656</span>
+<span class="captionSize">0.438,0.146</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">点火器</span>
+</span>
+<span class="caption">
+<span class="points">5.396,1.344 6.167,1.521</span>
+<span class="captionSize">0.771,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">点火线圈</span>
+</span>
+<span class="caption">
+<span class="points">4.469,2.354 5.875,2.542</span>
+<span class="captionSize">1.406,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">点火线圈总成</span>
+</span>
+<span class="caption">
+<span class="points">0.208,3.115 1.146,3.448</span>
+<span class="captionSize">0.938,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">点火信号 (IGT)</span>
+</span>
+<span class="caption">
+<span class="points">1.646,3.542 2.135,3.729</span>
+<span class="captionSize">0.49,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">正常</span>
+</span>
+<span class="caption">
+<span class="points">1.385,3.948 2.156,4.135</span>
+<span class="captionSize">0.771,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">故障</span>
+</span>
+<span class="caption">
+<span class="points">0.188,3.896 1.156,4.417</span>
+<span class="captionSize">0.969,0.521</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">点火确认信号 (IGF)</span>
+</span>
+<span class="caption">
+<span class="points">3.635,4.51 5.021,4.76</span>
+<span class="captionSize">1.385,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">电路故障</span>
+</span>
+<span class="caption">
+<span class="points">5.948,4.969 6.313,5.167</span>
+<span class="captionSize">0.365,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">时间</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<p>如果尽管 ECM 发送了 IGT 信号，但未接收任何 IGF 信号，则其将此视为点火器故障并存储 DTC。
+</p>
+</div>
+</div>
+<div id="RM100000000D7P3_11" class="category no03">
+<h2>监视策略</h2>
+<div class="content5">
+<table summary="">
+<colgroup>
+<col style="width:49%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>所需传感器/零部件（主要）
+</td>
+<td>点火器（1 号至 4 号气缸）
+</td>
+</tr>
+<tr>
+<td>所需传感器/零部件（相关）
+</td>
+<td>曲轴位置传感器
+</td>
+</tr>
+<tr>
+<td>工作频率
+</td>
+<td>持续
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000D7P3_15" class="category no03">
+<h2>确认行驶模式</h2>
+<div class="content5">
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>将点火开关置于 ON 位置并打开 GTS。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>清除 DTC（即使未存储 DTC，也应执行清除 DTC 程序）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>将点火开关置于 OFF 位置并等待至少 30 秒。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">5.</div>
+<div class="list1Body"><p>将点火开关置于 ON 位置并打开 GTS。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">6.</div>
+<div class="list1Body"><p>起动发动机。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">7.</div>
+<div class="list1Body"><p>怠速运转发动机 10 秒或更长时间。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">8.</div>
+<div class="list1Body"><p>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">9.</div>
+<div class="list1Body"><p>读取待定 DTC。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果输出待定 DTC，则系统发生故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果未输出待定 DTC，则执行以下程序。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">10.</div>
+<div class="list1Body"><p>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">11.</div>
+<div class="list1Body"><p>输入 DTC：P0351、P0352、P0353 或 P0354。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">12.</div>
+<div class="list1Body"><p>检查 DTC 判断结果。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:29%">
+<col style="width:70%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS 显示
+</th>
+<th class="alcenter">描述
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>系统正常
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>系统异常
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">INCOMPLETE
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断未完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>确认 DTC 启动条件后，执行行驶模式
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">N/A
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>无法执行 DTC 判断
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>不满足 DTC 前提条件的 DTC 数量达到 ECU 存储器极限
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果判断结果显示 NORMAL，则系统正常。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果判断结果显示 ABNORMAL，则系统存在故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果判断结果显示为 INCOMPLETE 或 N/A，则执行确认行驶模式并再次检查 DTC 判断结果。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000D7P3_07" class="category no03">
+<h2>电路图</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A298556.png" alt="A298556" title="A298556">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.385,4.49 1,4.656</span>
+<span class="captionSize">0.615,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">FL MAIN</span>
+</span>
+<span class="caption">
+<span class="points">0.552,5.292 1.167,5.458</span>
+<span class="captionSize">0.615,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">蓄电池</span>
+</span>
+<span class="caption">
+<span class="points">0.74,3.323 2.885,3.573</span>
+<span class="captionSize">2.146,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">自点火开关总成*1</span>
+</span>
+<span class="caption">
+<span class="points">0.448,2.208 0.844,2.375</span>
+<span class="captionSize">0.396,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG2</span>
+</span>
+<span class="caption">
+<span class="points">1.354,1.49 1.708,1.656</span>
+<span class="captionSize">0.354,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG2</span>
+</span>
+<span class="caption">
+<span class="points">1.104,0.542 1.719,0.708</span>
+<span class="captionSize">0.615,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">1.854,0.542 2.469,0.708</span>
+<span class="captionSize">0.615,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5</span>
+</span>
+<span class="caption">
+<span class="points">1.865,1.052 2.479,1.219</span>
+<span class="captionSize">0.615,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">1.094,1.042 1.708,1.208</span>
+<span class="captionSize">0.615,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">3.802,0.542 3.99,0.74</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">3.802,0.844 3.99,1.042</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4</span>
+</span>
+<span class="caption">
+<span class="points">4.969,0.854 5.156,1.052</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">4.969,0.552 5.156,0.75</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">3.563,1.208 3.927,1.396</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B29</span>
+</span>
+<span class="caption">
+<span class="points">3.531,1.396 5.385,1.573</span>
+<span class="captionSize">1.854,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1 号点火线圈总成</span>
+</span>
+<span class="caption">
+<span class="points">3.552,2.844 3.917,3.031</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B30</span>
+</span>
+<span class="caption">
+<span class="points">3.552,4.594 5.406,4.781</span>
+<span class="captionSize">1.854,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3 号点火线圈总成</span>
+</span>
+<span class="caption">
+<span class="points">3.552,4.427 3.917,4.615</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B31</span>
+</span>
+<span class="caption">
+<span class="points">3.552,3.021 5.396,3.208</span>
+<span class="captionSize">1.844,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2 号点火线圈总成</span>
+</span>
+<span class="caption">
+<span class="points">3.583,5.958 3.948,6.146</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B32</span>
+</span>
+<span class="caption">
+<span class="points">3.563,6.167 5.427,6.344</span>
+<span class="captionSize">1.865,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4 号点火线圈总成</span>
+</span>
+<span class="caption">
+<span class="points">3.792,2.469 3.979,2.667</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4</span>
+</span>
+<span class="caption">
+<span class="points">3.781,2.146 3.969,2.344</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">4.979,2.146 5.167,2.344</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">4.969,2.479 5.156,2.677</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">4.99,3.74 5.177,3.938</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">4.979,4.052 5.167,4.25</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">3.792,3.75 3.979,3.948</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">3.792,4.063 3.979,4.26</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4</span>
+</span>
+<span class="caption">
+<span class="points">3.792,5.281 3.979,5.479</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">3.792,5.667 3.979,5.865</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4</span>
+</span>
+<span class="caption">
+<span class="points">4.99,5.271 5.177,5.469</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">4.99,5.667 5.177,5.865</span>
+<span class="captionSize">0.188,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">3.969,0.625 4.333,0.813</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+B</span>
+</span>
+<span class="caption">
+<span class="points">3.979,2.26 4.344,2.448</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+B</span>
+</span>
+<span class="caption">
+<span class="points">3.948,0.948 4.313,1.135</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">4.656,0.948 5.021,1.135</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGF</span>
+</span>
+<span class="caption">
+<span class="points">4.594,0.635 4.958,0.823</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGT1</span>
+</span>
+<span class="caption">
+<span class="points">4.604,2.271 4.969,2.458</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGT2</span>
+</span>
+<span class="caption">
+<span class="points">4.594,3.844 4.958,4.042</span>
+<span class="captionSize">0.365,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGT3</span>
+</span>
+<span class="caption">
+<span class="points">4.583,5.385 4.948,5.583</span>
+<span class="captionSize">0.365,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGT4</span>
+</span>
+<span class="caption">
+<span class="points">3.958,3.844 4.323,4.031</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+B</span>
+</span>
+<span class="caption">
+<span class="points">3.969,5.365 4.333,5.552</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+B</span>
+</span>
+<span class="caption">
+<span class="points">3.958,2.563 4.323,2.75</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">4.677,2.563 5.042,2.75</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGF</span>
+</span>
+<span class="caption">
+<span class="points">3.958,4.177 4.323,4.365</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">3.958,5.792 4.323,5.979</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">4.667,4.167 5.031,4.354</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGF</span>
+</span>
+<span class="caption">
+<span class="points">4.656,5.781 5.021,5.969</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGF</span>
+</span>
+<span class="caption">
+<span class="points">5.854,0.552 6.219,0.74</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">75</span>
+</span>
+<span class="caption">
+<span class="points">5.875,2.146 6.24,2.333</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">74</span>
+</span>
+<span class="caption">
+<span class="points">5.875,3.75 6.24,3.938</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">73</span>
+</span>
+<span class="caption">
+<span class="points">5.875,5.271 6.24,5.458</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">72</span>
+</span>
+<span class="caption">
+<span class="points">5.875,5.677 6.24,5.865</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">71</span>
+</span>
+<span class="caption">
+<span class="points">6.167,6.292 6.458,6.479</span>
+<span class="captionSize">0.292,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B39</span>
+</span>
+<span class="caption">
+<span class="points">6.448,6.292 6.813,6.458</span>
+<span class="captionSize">0.365,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECM</span>
+</span>
+<span class="caption">
+<span class="points">6.125,0.656 6.49,0.844</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGT1</span>
+</span>
+<span class="caption">
+<span class="points">6.146,2.25 6.51,2.438</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGT2</span>
+</span>
+<span class="caption">
+<span class="points">6.135,3.854 6.5,4.052</span>
+<span class="captionSize">0.365,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGT3</span>
+</span>
+<span class="caption">
+<span class="points">6.125,5.354 6.49,5.552</span>
+<span class="captionSize">0.365,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGT4</span>
+</span>
+<span class="caption">
+<span class="points">6.115,5.771 6.479,5.958</span>
+<span class="captionSize">0.365,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGF1</span>
+</span>
+<span class="caption">
+<span class="points">0.469,3.635 3.135,3.802</span>
+<span class="captionSize">2.667,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">自认证 ECU（智能钥匙 ECU 总成）*2</span>
+</span>
+<span class="caption">
+<span class="points">1.188,4.885 3.104,5.052</span>
+<span class="captionSize">1.917,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1：不带智能进入和起动系统</span>
+</span>
+<span class="caption">
+<span class="points">1.177,5.583 3.167,5.75</span>
+<span class="captionSize">1.99,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*2：带智能进入和起动系统</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000D7P3_08" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>进行下列程序前，先检查与此系统相关电路的保险丝。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 读取定格数据。存储 DTC 时，ECM 将车辆和驾驶条件信息记录为定格数据。进行故障排除时，定格数据有助于确定故障出现时车辆是运行还是停止，发动机是暖机还是未暖机，空燃比是浓还是稀，以及其他数据。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000D7P3_17" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000D7P3_17_0012">
+<div class="testtitle"><span class="titleText">1.检查线束和连接器（点火线圈总成 - 车身接地）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开点火线圈总成连接器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">B29-4 (GND) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">B30-4 (GND) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">B31-4 (GND) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">B32-4 (GND) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7P3_17_0012_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">2.检查端子电压（点火线圈总成电源）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7P3_17_0013">
+<div class="testtitle"><span class="titleText">2.检查端子电压（点火线圈总成电源）</span></div>
+<div class="content6">
+<div class="contentPartition"></div>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A194110.png" alt="A194110" title="A194110">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.177,2.063 0.51,2.323</span>
+<span class="rectangleSize">0.333,0.26</span>
+</span>
+<span class="rectangle">
+<span class="points">0.604,2.063 0.938,2.323</span>
+<span class="rectangleSize">0.333,0.26</span>
+</span>
+<span class="rectangle">
+<span class="points">0.604,2.427 0.938,2.688</span>
+<span class="rectangleSize">0.333,0.26</span>
+</span>
+<span class="rectangle">
+<span class="points">0.188,2.427 0.521,2.688</span>
+<span class="rectangleSize">0.333,0.26</span>
+</span>
+<span class="line">
+<span class="points">1.021,2.948 1.302,2.5</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.406,2.938 2.156,2.51</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.323,0.292 0.813,0.74</span>
+<span class="captionSize">0.49,0.448</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.656,2.104 1.177,2.479</span>
+<span class="captionSize">0.521,0.375</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B30</span>
+</span>
+<span class="caption">
+<span class="points">0.229,2.104 0.75,2.417</span>
+<span class="captionSize">0.521,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B29</span>
+</span>
+<span class="caption">
+<span class="points">0.24,2.469 0.698,2.854</span>
+<span class="captionSize">0.458,0.385</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B31</span>
+</span>
+<span class="caption">
+<span class="points">0.667,2.469 1.042,2.708</span>
+<span class="captionSize">0.375,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B32</span>
+</span>
+<span class="caption">
+<span class="points">0.927,2.979 1.292,3.198</span>
+<span class="captionSize">0.365,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+B</span>
+</span>
+<span class="caption">
+<span class="points">2.271,2.979 2.635,3.198</span>
+<span class="captionSize">0.365,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>线束连接器前视图
+<br>
+（至点火线圈总成）
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开点火线圈总成连接器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">B29-1 (+B) - B29-4 (GND)
+</td>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">B30-1 (+B) - B30-4 (GND)
+</td>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">B31-1 (+B) - B31-4 (GND)
+</td>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">B32-1 (+B) - B32-4 (GND)
+</td>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7P3_17_0013_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">3.检查线束和连接器（点火线圈总成 - ECM）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器（IG2 继电器 - 点火线圈总成）</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7P3_17_0015">
+<div class="testtitle"><span class="titleText">3.检查线束和连接器（点火线圈总成 - ECM）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开点火线圈总成连接器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>断开 ECM 连接器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">B29-2 (IGF) - B39-71 (IGF1)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">B30-2 (IGF) - B39-71 (IGF1)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">B31-2 (IGF) - B39-71 (IGF1)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">B32-2 (IGF) - B39-71 (IGF1)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">B29-3 (IGT1) - B39-75 (IGT1)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">B30-3 (IGT2) - B39-74 (IGT2)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">B31-3 (IGT3) - B39-73 (IGT3)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">B32-3 (IGT4) - B39-72 (IGT4)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">B29-2 (IGF) 或 B39-71 (IGF1) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">B30-2 (IGF) 或 B39-71 (IGF1) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">B31-2 (IGF) 或 B39-71 (IGF1) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">B32-2 (IGF) 或 B39-71 (IGF1) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">B29-3 (IGT1) 或 B39-75 (IGT1) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">B30-3 (IGT2) 或 B39-74 (IGT2) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">B31-3 (IGT3) 或 B39-73 (IGT3) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">B32-3 (IGT4) 或 B39-72 (IGT4) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7P3_17_0015_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">4.检查是否再次输出 DTC（DTC P0351、P0352、P0353 或 P0354）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7P3_17_0005">
+<div class="testtitle"><span class="titleText">4.检查是否再次输出 DTC（DTC P0351、P0352、P0353 或 P0354）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>互换点火线圈总成（1 号至 4 号气缸之间）。
+</p>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>不要改变连接器的位置。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>进行模拟测试。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">h.</div>
+<div class="test1Body">
+<p>读取 DTC。
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7P3_17_0005_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">输出相同 DTC
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">输出不同的点火线圈 DTC
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>更换点火线圈总成后，执行&ldquo;维修后检查&rdquo;。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;1ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023949,_0116049,RM100000000D7Q2,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换 ECM</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;1ZR-FE 发动机控制系统&gt;ECM&gt;拆卸<span class="invisible">201406,999999,_51,_023949,_0117699,RM100000000DE6Z,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换点火线圈总成</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;1ZR-FE 发动机控制系统&gt;点火线圈和火花塞&gt;拆卸<span class="invisible">201406,999999,_51,_023949,_0117704,RM100000000DE7I,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

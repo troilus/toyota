@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS115">
+    <part type="conn" code="B38,C1">
+      <name>蓄电池</name>
+    </part>
+    <part type="conn" code="E47,E49">
+      <text>+B AGND SSW1 SSW2 IG1D IG2D ACCD</text>
+      <name>认证 ECU</name>
+    </part>
+    <part type="conn" code="E50">
+      <text>AGND SS1 SS2</text>
+      <name>发动机开关</name>
+      <name type="inner">全接</name>
+      <name type="inner">全开</name>
+    </part>
+    <part type="conn" code="E9">
+      <text>ST2 IG2 ST1 IG1 ACC AM1 AM2</text>
+      <name>点火或起动开关总成</name>
+    </part>
+    <part type="conn" code="E16">
+      <text>+B +2</text>
+      <name>风挡玻璃刮水器开关总成</name>
+    </part>
+    <part type="fuse" code="FUSE42">
+      <text>A/B</text>
+    </part>
+    <part type="fuse" code="FUSE31">
+      <text>ABS NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE23">
+      <text>ABS NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE43">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE36">
+      <text>ALT</text>
+    </part>
+    <part type="fuse" code="FUSE37">
+      <text>AM1</text>
+    </part>
+    <part type="fuse" code="FUSE2">
+      <text>AM2</text>
+    </part>
+    <part type="fuse" code="FUSE57">
+      <text>CIG</text>
+    </part>
+    <part type="fuse" code="FUSE24">
+      <text>D/C CUT</text>
+    </part>
+    <part type="fuse" code="FUSE60">
+      <text>D/L NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE32">
+      <text>DEF</text>
+    </part>
+    <part type="fuse" code="FUSE3">
+      <text>DOME</text>
+    </part>
+    <part type="fuse" code="FUSE55">
+      <text>DOOR BACK</text>
+    </part>
+    <part type="fuse" code="FUSE4">
+      <text>DRL</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>ECU-B NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE1">
+      <text>ECU-B NO.3</text>
+    </part>
+    <part type="fuse" code="FUSE44">
+      <text>ECU-IG NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE45">
+      <text>ECU-IG NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE46">
+      <text>ECU-IG NO.3</text>
+    </part>
+    <part type="fuse" code="FUSE47">
+      <text>ECU-IG NO.4</text>
+    </part>
+    <part type="fuse" code="FUSE38">
+      <text>ECU-IG NO.5</text>
+    </part>
+    <part type="fuse" code="FUSE7">
+      <text>EFI NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE8">
+      <text>EFI NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE18">
+      <text>EFI-B</text>
+    </part>
+    <part type="fuse" code="FUSE22">
+      <text>EFI-MAIN</text>
+    </part>
+    <part type="fuse" code="FUSE34,FUSE35">
+      <text>EPS EPS</text>
+    </part>
+    <part type="fuse" code="FUSE9">
+      <text>ETCS</text>
+    </part>
+    <part type="fuse" code="FUSE61">
+      <text>FR DOOR</text>
+    </part>
+    <part type="fuse" code="FUSE48">
+      <text>FR FOG</text>
+    </part>
+    <part type="fuse" code="FUSE10">
+      <text>H-LP LH-HI</text>
+    </part>
+    <part type="fuse" code="FUSE11">
+      <text>H-LP LH-LO</text>
+    </part>
+    <part type="fuse" code="FUSE12">
+      <text>H-LP RH-HI</text>
+    </part>
+    <part type="fuse" code="FUSE13">
+      <text>H-LP RH-LO</text>
+    </part>
+    <part type="fuse" code="FUSE29">
+      <text>H-LP-MAIN</text>
+    </part>
+    <part type="fuse" code="FUSE14">
+      <text>HORN</text>
+    </part>
+    <part type="fuse" code="FUSE33">
+      <text>HTR</text>
+    </part>
+    <part type="fuse" code="FUSE49">
+      <text>HTR-IG</text>
+    </part>
+    <part type="fuse" code="FUSE19">
+      <text>IG2</text>
+    </part>
+    <part type="fuse" code="FUSE50">
+      <text>IGN</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE15">
+      <text>MIR HTR</text>
+    </part>
+    <part type="fuse" code="FUSE51">
+      <text>OBD</text>
+    </part>
+    <part type="fuse" code="FUSE52">
+      <text>PANEL</text>
+    </part>
+    <part type="fuse" code="FUSE67">
+      <text>POWER</text>
+    </part>
+    <part type="fuse" code="FUSE66">
+      <text>P-SEAT</text>
+    </part>
+    <part type="fuse" code="FUSE25">
+      <text>PTC HTR NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE26">
+      <text>PTC HTR NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE27">
+      <text>PTC HTR NO.3</text>
+    </part>
+    <part type="fuse" code="FUSE20">
+      <text>RADIO</text>
+    </part>
+    <part type="fuse" code="FUSE30">
+      <text>RDI</text>
+    </part>
+    <part type="fuse" code="FUSE62">
+      <text>RL DOOR</text>
+    </part>
+    <part type="fuse" code="FUSE63">
+      <text>RR DOOR</text>
+    </part>
+    <part type="fuse" code="FUSE53">
+      <text>RR FOG</text>
+    </part>
+    <part type="fuse" code="FUSE64">
+      <text>S/ROOF</text>
+    </part>
+    <part type="fuse" code="FUSE58">
+      <text>SEAT HTR</text>
+    </part>
+    <part type="fuse" code="FUSE40">
+      <text>SFT LOCK-ACC</text>
+    </part>
+    <part type="fuse" code="FUSE16">
+      <text>S-HORN</text>
+    </part>
+    <part type="fuse" code="FUSE28">
+      <text>ST</text>
+    </part>
+    <part type="fuse" code="FUSE54">
+      <text>STOP</text>
+    </part>
+    <part type="fuse" code="FUSE21">
+      <text>STRG LOCK</text>
+    </part>
+    <part type="fuse" code="FUSE56">
+      <text>TAIL</text>
+    </part>
+    <part type="fuse" code="FUSE17">
+      <text>TURN&amp;HAZ</text>
+    </part>
+    <part type="fuse" code="FUSE59">
+      <text>WASHER</text>
+    </part>
+    <part type="fuse" code="FUSE65">
+      <text>WIP FR</text>
+    </part>
+    <part type="fuse" code="FUSE41">
+      <text>WIP-S</text>
+    </part>
+  </ttl>
+</EWDSearch>

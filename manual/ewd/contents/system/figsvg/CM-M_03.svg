@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'NSimSun';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st11 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st12 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st19 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st20 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED
+		ewd:horAlign CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 4630.310 710.000" viewBox="0 0 4633.854 710.000" height="710.000" width="4633.854" xml:space="preserve" ewd:ver="2.1.2.6F" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+<path style="stroke-width: 1.42 ;&st7;  " d=" M  1113.31,   511.70  L  1121.81,   511.70  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1118.12  538.32 )">B</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1262.59  578.66 )">V</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1262.59  487.44 )">V</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1118.12  487.82 )">R</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1458.06  487.89 )">Y</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1492.05  487.78 )">L</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1322.08  489.99 )">LG</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1390.07  488.67 )">W</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1237.38  203.45 )">E55(A),E59(B)</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1237.39  210.55 )" ewd:textID="11">组合仪表总成</text><g ewd:figtype="jb" ewd:figID="48" ewd:code="3"><path style="stroke-width: 1.42 ;&st7;  " d=" M  1268.41,   545.69  L  1264.16,   545.69  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1268.41,   554.19  L  1264.16,   554.19  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  1264.16,   545.69  C  1261.82    545.69   1259.91    547.60   1259.91    549.94  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  1259.91,   549.94  C  1259.91    552.29   1261.82    554.19   1264.16    554.19  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  1268.41,   554.19  C  1270.76    554.19   1272.66    552.29   1272.66    549.94  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  1272.66,   549.94  C  1272.66    547.60   1270.76    545.69   1268.41    545.69  " /><path style="stroke-width: 0.28 ;&st9;  " d=" M  1266.29,   540.80  L  1263.46,   537.97  L  1263.46,   542.22  L  1266.29,   545.05  L  1269.12,   542.22  L  1269.12,   537.97  L  1266.29,   540.80  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1266.29,   545.69  L  1266.29,   511.70  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1262.43  551.91 )">3A</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1252.68  551.91 )">18</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  1268.41,   503.20  L  1264.16,   503.20  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1268.41,   511.70  L  1264.16,   511.70  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  1264.16,   503.20  C  1261.82    503.20   1259.91    505.10   1259.91    507.45  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  1259.91,   507.45  C  1259.91    509.80   1261.82    511.70   1264.16    511.70  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  1268.41,   511.70  C  1270.76    511.70   1272.66    509.80   1272.66    507.45  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  1272.66,   507.45  C  1272.66    505.10   1270.76    503.20   1268.41    503.20  " /><path style="stroke-width: 0.28 ;&st9;  " d=" M  1266.29,   516.60  L  1269.12,   519.43  L  1269.12,   515.18  L  1266.29,   512.35  L  1263.46,   515.18  L  1263.46,   519.43  L  1266.29,   516.60  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1262.36  509.42 )">3D</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1252.68  509.42 )">38</text></g><g ewd:figtype="w2w" ewd:figID="62" ewd:code="AE4"><path style="stroke-width: 1.42 ;&st7;  " d=" M  1117.56,   502.63  L  1121.81,   506.88  L  1126.06,   502.63  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1126.06,   506.03  L  1121.81,   510.28  L  1117.56,   506.03  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1106.08  517.92 )">17</text></g><g ewd:figtype="annex" ewd:figID="38" ewd:code=" "><path style="stroke-width: 1.42 ;&st7;  " d=" M  1461.76,   511.70  L  1466.82,   500.34  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  1500.00,   515.95  L  1495.75,   520.20  L  1480.88,   520.20  L  1478.75,   524.45  L  1476.63,   520.20  L  1461.76,   520.20  L  1457.51,   515.95  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1495.75,   511.70  L  1490.69,   500.34  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1461.76,   511.70  L  1456.70,   500.34  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1495.75,   511.70  L  1500.81,   500.34  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17; 1480.73 550.15)" ewd:textID="32">大灯总成</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17; 1473.98 567.26)" ewd:textID="47" ewd:horAlign="right">车外后视镜总成<tspan x="0 " dy="6.0" /></text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17; 1486.83 561.38)" ewd:textID="52">后组合灯总成<tspan x="0 " dy="6.0" /></text></g><g ewd:figtype="annex" ewd:figID="39" ewd:code=" "><path style="stroke-width: 1.42 ;&st7;  " d=" M  1266.29,   605.18  L  1261.23,   593.82  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  1266.29,   605.18  L  1271.35,   593.82  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1268.26  623.31 )">ECM</text></g></svg>

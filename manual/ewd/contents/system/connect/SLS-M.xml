@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <connector type="jbc" code="3D" figID="6">
+    <pin no="6">
+      <line id="1" color="GR" spec="不带智能进入和起动系统" commtxt="(*2)">
+        <connector type="conn" code="E8" figID="5">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP11" figID="13">
+    <pin>
+      <line id="2" color="B">
+        <connector type="conn" code="E7" figID="5">
+          <pin no="5" spec="w/ Smart Entry &amp; Start System"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP11" figID="13">
+    <pin>
+      <line id="2" color="B">
+        <connector type="conn" code="E8" figID="5">
+          <pin no="8" spec="w/o Smart Entry &amp; Start System"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3C" figID="6">
+    <pin no="38">
+      <line id="3" color="B">
+        <connector type="sp" code="SP11" figID="13">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E7" figID="5">
+    <pin no="1" spec="带智能进入和起动系统">
+      <line id="4" color="W-B">
+        <connector type="gp" code="EB" figID="11">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E8" figID="5">
+    <pin no="1" spec="不带智能进入和起动系统">
+      <line id="4" color="W-B">
+        <connector type="gp" code="EB" figID="11">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E12" figID="1">
+    <pin no="2">
+      <line id="5" color="W-B" spec="不带智能进入和起动系统" commtxt="(*2)">
+        <connector type="gp" code="EB" figID="11">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E8" figID="5">
+    <pin no="5">
+      <line id="6" color="GR" spec="不带智能进入和起动系统" commtxt="(*2)">
+        <connector type="conn" code="E12" figID="1">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE5" sex="male" figID="9">
+    <pin no="18">
+      <line id="7" color="L">
+        <connector type="conn" code="E7" figID="5">
+          <pin no="4" spec="w/ Smart Entry &amp; Start System"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE5" sex="male" figID="9">
+    <pin no="18">
+      <line id="7" color="L">
+        <connector type="conn" code="E8" figID="5">
+          <pin no="4" spec="w/o Smart Entry &amp; Start System"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A38" figID="2">
+    <pin no="13">
+      <line id="8" color="L">
+        <connector type="w2w" code="AE5" sex="female" figID="9">
+          <pin no="18"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3A" figID="8">
+    <pin no="10">
+      <line id="9" color="L" spec="LED 型刹车灯" commtxt="(*3)">
+        <connector type="conn" code="A2" figID="3">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3A" figID="8">
+    <pin no="10">
+      <line id="10" color="L" spec="灯泡型刹车灯" commtxt="(*4)">
+        <connector type="conn" code="A1" figID="4">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3A" figID="8">
+    <pin no="48">
+      <line id="11" color="L">
+        <connector type="conn" code="A38" figID="2">
+          <pin no="12"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE4" sex="male" figID="10">
+    <pin no="15">
+      <line id="12" color="W-B" spec="LED 型刹车灯" commtxt="(*3)">
+        <connector type="gp" code="EB" figID="12">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A2" figID="3">
+    <pin no="3">
+      <line id="13" color="W-B" spec="LED 型刹车灯" commtxt="(*3)">
+        <connector type="w2w" code="AE4" sex="female" figID="10">
+          <pin no="15"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3A" figID="7">
+    <pin no="9">
+      <line id="14" color="W" spec="LED 型刹车灯" commtxt="(*3)">
+        <connector type="conn" code="A2" figID="3">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3A" figID="7">
+    <pin no="9">
+      <line id="15" color="W" spec="灯泡型刹车灯" commtxt="(*4)">
+        <connector type="conn" code="A1" figID="4">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

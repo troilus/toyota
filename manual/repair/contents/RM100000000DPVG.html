@@ -1,0 +1,298 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">发动机/混合动力系统</span>
+<span class="globalSection">_023981</span>
+<span class="globalSectionName">巡航控制系统</span>
+<span class="globalTitle">_0119997</span>
+<span class="globalTitleName">巡航控制系统</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>巡航控制系统&nbsp;&nbsp;巡航控制系统&nbsp;&nbsp;P0575&nbsp;&nbsp;巡航控制输入电路&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DPVG_01" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<p>该 DTC 表示 ECM 异常。
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:25%">
+<col style="width:45%">
+<col style="width:14%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P0575
+</td>
+<td class="alleft">巡航控制输入电路
+</td>
+<td class="alleft">满足以下两个条件时：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>输入至 ECM 监管 CPU 和控制 ECU 的 STP 信号不一致达 0.15 秒或更长时间
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>巡航取消输入信号（STP 输入）输入至 ECM 后经过 0.4 秒
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">ECM
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>ECM 接收来自各传感器的信号以控制巡航控制系统的所有功能。检测到 DTC 时，失效保护功能工作直至将发动机开关置于 OFF 位置。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000DPVG_05" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000DPVG_05_0001">
+<div class="testtitle"><span class="titleText">1.检查 DTC（巡航控制系统）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;巡航控制系统&gt;巡航控制系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_51,_023981,_0119997,RM100000000DPV9,</span></a>
+
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Cruise Control &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">237</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>执行以下程序，以确保满足 DTC 的检测条件。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果未满足检测条件，则无法检测到故障。
+</p>
+</dd>
+</dl>
+<br>
+<div class="test2">
+<div class="test2Item">
+<div class="test2Head">i.</div>
+<div class="test2Body">
+<p>在巡航控制操作可用的速度下驾驶车辆。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test2">
+<div class="test2Item">
+<div class="test2Head">ii.</div>
+<div class="test2Body">
+<p>使用巡航控制主开关（ON-OFF 按钮）打开巡航控制系统。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test2">
+<div class="test2Item">
+<div class="test2Head">iii.</div>
+<div class="test2Body">
+<p>将巡航控制主开关推至 -/SET 以使用巡航控制系统开启车速控制。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>检查 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;巡航控制系统&gt;巡航控制系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_51,_023981,_0119997,RM100000000DPV9,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Cruise Control &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">237</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DPVG_05_0001_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">未输出 DTC
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">输出 DTC P0575
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">使用模拟法进行检查</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;如何对 ECU 控制系统进行故障排除&gt;如何进行故障排除<span class="invisible">201406,999999,_V1,_023977,_0116737,RM100000000DB86,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换 ECM</span></div>
+<div class="content6">
+<p>2ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;ECM&gt;拆卸<span class="invisible">201406,999999,_51,_023958,_0129805,RM100000000ETKN,</span></a>
+
+</p>
+<p>7ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;7ZR-FE 发动机控制系统&gt;ECM&gt;拆卸<span class="invisible">201406,999999,_51,_025035,_0129835,RM100000000ETNS,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

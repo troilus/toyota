@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <note id="RL002" icon="P">
+    <name>继电器位置</name>
+    <book id="RELAY_RL005">
+      <name>4 号继电器盒</name>
+      <note id="RL002_RL005">
+        <name>4 号继电器盒</name>
+      </note>
+      <note id="RL002_RL005-Inn">
+        <name>内部电路</name>
+      </note>
+    </book>
+    <book id="RELAY_RL006">
+      <name>仪表板接线盒总成</name>
+      <note id="RL002_RL006">
+        <name>仪表板接线盒总成</name>
+        <text code="3E" type="jbc">
+          <name>3E</name>
+        </text>
+        <text code="3A" type="jbc">
+          <name>3A</name>
+        </text>
+        <text code="3D" type="jbc">
+          <name>3D</name>
+        </text>
+        <text code="3C" type="jbc">
+          <name>3C</name>
+        </text>
+        <text code="3B" type="jbc">
+          <name>3B</name>
+        </text>
+      </note>
+      <note id="RL002_RL006-Inn">
+        <name>内部电路</name>
+        <text code="3B" type="jbc">
+          <name>3B</name>
+        </text>
+        <text code="3A" type="jbc">
+          <name>3A</name>
+        </text>
+        <text code="3C" type="jbc">
+          <name>3C</name>
+        </text>
+        <text code="3D" type="jbc">
+          <name>3D</name>
+        </text>
+        <text code="3E" type="jbc">
+          <name>3E</name>
+        </text>
+      </note>
+    </book>
+  </note>
+</EwdTree>

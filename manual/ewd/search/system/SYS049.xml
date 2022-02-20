@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS049">
+    <part type="conn" code="E43">
+      <text>RDFG GND IG+ LIN1</text>
+      <name>空调放大器总成</name>
+    </part>
+    <part type="conn" code="E20">
+      <text>IG+ GND LIN1</text>
+      <name>空调控制总成</name>
+      <name type="inner">后窗除雾器开关</name>
+    </part>
+    <part type="conn" code="A40">
+      <text>ECM ELS2</text>
+    </part>
+    <part type="conn" code="E58">
+      <text>IG+ RDEF E</text>
+      <name>2 号加热器控制装置分总成</name>
+      <name type="inner">关闭</name>
+      <name type="inner">打开</name>
+      <name type="inner">后窗除雾器开关</name>
+      <name type="inner">计时器电路</name>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="conn" code="L25">
+      <text>DEF</text>
+      <name>静噪滤波器（收音机设定调相器）</name>
+    </part>
+    <part type="conn" code="H2,H3">
+      <text>- +</text>
+      <name>左侧车外后视镜总成</name>
+      <name type="inner">后视镜加热器</name>
+    </part>
+    <part type="conn" code="G2,G3">
+      <text>- +</text>
+      <name>右侧车外后视镜总成</name>
+      <name type="inner">后视镜加热器</name>
+    </part>
+    <part type="conn" code="L8,Q1">
+      <text>B E</text>
+      <name>后窗除雾器（背窗玻璃）</name>
+    </part>
+    <part type="fuse" code="FUSE32">
+      <text>DEF</text>
+    </part>
+    <part type="fuse" code="FUSE49">
+      <text>HTR-IG</text>
+    </part>
+    <part type="fuse" code="FUSE15">
+      <text>MIR HTR</text>
+    </part>
+  </ttl>
+</EWDSearch>

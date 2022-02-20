@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE LoadList SYSTEM "../../../../dtd/load.dtd">
+<LoadList ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <Block code="RL004">
+    <blockname>发动机室继电器盒和发动机室接线盒</blockname>
+    <Fuse capacity="5" type="fuse" code="FUSE1">
+      <name>ECU-B NO.3</name>
+      <refs>
+        <System code="SYS118">EPS (2ZR-FE)（TFTM 制造）</System>
+        <System code="SYS120">EPS (7ZR-FE)（GTMC 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE2">
+      <name>AM2</name>
+      <refs>
+        <System code="SYS021">巡航控制（GTMC 制造）</System>
+        <System code="SYS022">巡航控制（TFTM 制造）</System>
+        <System code="SYS015">CVT 和换档指示灯（GTMC 制造）</System>
+        <System code="SYS016">CVT 和换档指示灯（TFTM 制造）</System>
+        <System code="SYS023">发动机控制（GTMC 制造）</System>
+        <System code="SYS024">发动机控制（TFTM 制造）</System>
+        <System code="SYS081">停机系统（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS082">停机系统（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS100">智能进入和起动系统（GTMC 制造）</System>
+        <System code="SYS101">智能进入和起动系统（TFTM 制造）</System>
+        <System code="SYS027">起动（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS028">起动（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS029">起动（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS030">起动（不带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS121">转向锁（GTMC 制造）</System>
+        <System code="SYS122">转向锁（TFTM 制造）</System>
+        <System code="SYS105">无线门锁控制（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS106">无线门锁控制（带智能进入和起动系统）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE3">
+      <name>DOME</name>
+      <refs>
+        <System code="SYS085">车内照明灯（GTMC 制造）</System>
+        <System code="SYS086">车内照明灯（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE4">
+      <name>DRL</name>
+      <refs>
+        <System code="SYS040">大灯（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE5">
+      <name>ECU-B NO.1</name>
+      <refs>
+        <System code="SYS009">ABS（GTMC 制造）</System>
+        <System code="SYS010">ABS（TFTM 制造）</System>
+        <System code="SYS031">自动灯光控制（GTMC 制造）</System>
+        <System code="SYS032">自动灯光控制（TFTM 制造）</System>
+        <System code="SYS071">时钟（GTMC 制造）</System>
+        <System code="SYS072">时钟（TFTM 制造）</System>
+        <System code="SYS073">组合仪表（带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS074">组合仪表（带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS075">组合仪表（不带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS076">组合仪表（不带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS077">门锁控制（GTMC 制造）</System>
+        <System code="SYS078">门锁控制（TFTM 制造）</System>
+        <System code="SYS035">前雾灯（GTMC 制造）</System>
+        <System code="SYS036">前雾灯（TFTM 制造）</System>
+        <System code="SYS039">大灯（GTMC 制造）</System>
+        <System code="SYS040">大灯（TFTM 制造）</System>
+        <System code="SYS041">大灯光束高度控制（GTMC 制造）</System>
+        <System code="SYS042">大灯光束高度控制（TFTM 制造）</System>
+        <System code="SYS079">照明（GTMC 制造）</System>
+        <System code="SYS080">照明（TFTM 制造）</System>
+        <System code="SYS081">停机系统（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS082">停机系统（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS085">车内照明灯（GTMC 制造）</System>
+        <System code="SYS086">车内照明灯（TFTM 制造）</System>
+        <System code="SYS087">钥匙提醒（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS088">钥匙提醒（不带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS045">车灯自动熄灭系统（GTMC 制造）</System>
+        <System code="SYS046">车灯自动熄灭系统（TFTM 制造）</System>
+        <System code="SYS047">车灯提醒器（GTMC 制造）</System>
+        <System code="SYS048">车灯提醒器（TFTM 制造）</System>
+        <System code="SYS050">电动车窗（GTMC 制造）</System>
+        <System code="SYS051">电动车窗（TFTM 制造）</System>
+        <System code="SYS052">后雾灯（GTMC 制造）</System>
+        <System code="SYS053">后雾灯（TFTM 制造）</System>
+        <System code="SYS097">座椅安全带警告（GTMC 制造）</System>
+        <System code="SYS098">座椅安全带警告（TFTM 制造）</System>
+        <System code="SYS059">滑动天窗（GTMC 制造）</System>
+        <System code="SYS060">滑动天窗（TFTM 制造）</System>
+        <System code="SYS100">智能进入和起动系统（GTMC 制造）</System>
+        <System code="SYS101">智能进入和起动系统（TFTM 制造）</System>
+        <System code="SYS027">起动（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS028">起动（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS121">转向锁（GTMC 制造）</System>
+        <System code="SYS122">转向锁（TFTM 制造）</System>
+        <System code="SYS063">尾灯（GTMC 制造）</System>
+        <System code="SYS064">尾灯（TFTM 制造）</System>
+        <System code="SYS104">防盗（TFTM 制造）</System>
+        <System code="SYS011">TRC（GTMC 制造）</System>
+        <System code="SYS012">TRC（TFTM 制造）</System>
+        <System code="SYS013">VSC（GTMC 制造）</System>
+        <System code="SYS014">VSC（TFTM 制造）</System>
+        <System code="SYS105">无线门锁控制（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS106">无线门锁控制（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS107">无线门锁控制（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS108">无线门锁控制（不带智能进入和起动系统）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE6">
+      <name>ECU-B NO.2</name>
+      <refs>
+        <System code="SYS009">ABS（GTMC 制造）</System>
+        <System code="SYS010">ABS（TFTM 制造）</System>
+        <System code="SYS001">音响系统（GTMC 制造）</System>
+        <System code="SYS002">音响系统（TFTM 制造）</System>
+        <System code="SYS067">自动空调（GTMC 制造）</System>
+        <System code="SYS068">自动空调（TFTM 制造）</System>
+        <System code="SYS109">充电（GTMC 制造）</System>
+        <System code="SYS110">充电（TFTM 制造）</System>
+        <System code="SYS073">组合仪表（带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS074">组合仪表（带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS075">组合仪表（不带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS076">组合仪表（不带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS021">巡航控制（GTMC 制造）</System>
+        <System code="SYS022">巡航控制（TFTM 制造）</System>
+        <System code="SYS015">CVT 和换档指示灯（GTMC 制造）</System>
+        <System code="SYS016">CVT 和换档指示灯（TFTM 制造）</System>
+        <System code="SYS023">发动机控制（GTMC 制造）</System>
+        <System code="SYS024">发动机控制（TFTM 制造）</System>
+        <System code="SYS117">EPS (1ZR-FE)（TFTM 制造）</System>
+        <System code="SYS118">EPS (2ZR-FE)（TFTM 制造）</System>
+        <System code="SYS119">EPS (4ZR-FE)（GTMC 制造）</System>
+        <System code="SYS120">EPS (7ZR-FE)（GTMC 制造）</System>
+        <System code="SYS079">照明（GTMC 制造）</System>
+        <System code="SYS080">照明（TFTM 制造）</System>
+        <System code="SYS081">停机系统（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS082">停机系统（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS083">停机系统（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS084">停机系统（不带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS087">钥匙提醒（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS088">钥匙提醒（不带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS047">车灯提醒器（GTMC 制造）</System>
+        <System code="SYS048">车灯提醒器（TFTM 制造）</System>
+        <System code="SYS003">导航系统（GTMC 制造）</System>
+        <System code="SYS004">导航系统（TFTM 制造）</System>
+        <System code="SYS093">PTC 加热器（带自动空调）（GTMC 制造）</System>
+        <System code="SYS094">PTC 加热器（带自动空调）（TFTM 制造）</System>
+        <System code="SYS005">后视野监视系统（GTMC 制造）</System>
+        <System code="SYS006">后视野监视系统（TFTM 制造）</System>
+        <System code="SYS057">遥控后视镜（带卷收器）（TFTM 制造）</System>
+        <System code="SYS097">座椅安全带警告（GTMC 制造）</System>
+        <System code="SYS098">座椅安全带警告（TFTM 制造）</System>
+        <System code="SYS059">滑动天窗（GTMC 制造）</System>
+        <System code="SYS060">滑动天窗（TFTM 制造）</System>
+        <System code="SYS100">智能进入和起动系统（GTMC 制造）</System>
+        <System code="SYS101">智能进入和起动系统（TFTM 制造）</System>
+        <System code="SYS102">SRS（GTMC 制造）</System>
+        <System code="SYS103">SRS（TFTM 制造）</System>
+        <System code="SYS027">起动（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS028">起动（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS121">转向锁（GTMC 制造）</System>
+        <System code="SYS122">转向锁（TFTM 制造）</System>
+        <System code="SYS063">尾灯（GTMC 制造）</System>
+        <System code="SYS064">尾灯（TFTM 制造）</System>
+        <System code="SYS008">丰田驻车辅助传感器系统（TFTM 制造）</System>
+        <System code="SYS011">TRC（GTMC 制造）</System>
+        <System code="SYS012">TRC（TFTM 制造）</System>
+        <System code="SYS065">转向信号和危险警告灯（GTMC 制造）</System>
+        <System code="SYS066">转向信号和危险警告灯（TFTM 制造）</System>
+        <System code="SYS013">VSC（GTMC 制造）</System>
+        <System code="SYS014">VSC（TFTM 制造）</System>
+        <System code="SYS105">无线门锁控制（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS106">无线门锁控制（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS107">无线门锁控制（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS108">无线门锁控制（不带智能进入和起动系统）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE7">
+      <name>EFI NO.1</name>
+      <refs>
+        <System code="SYS073">组合仪表（带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS074">组合仪表（带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS075">组合仪表（不带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS076">组合仪表（不带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS021">巡航控制（GTMC 制造）</System>
+        <System code="SYS022">巡航控制（TFTM 制造）</System>
+        <System code="SYS015">CVT 和换档指示灯（GTMC 制造）</System>
+        <System code="SYS016">CVT 和换档指示灯（TFTM 制造）</System>
+        <System code="SYS023">发动机控制（GTMC 制造）</System>
+        <System code="SYS024">发动机控制（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE8">
+      <name>EFI NO.2</name>
+      <refs>
+        <System code="SYS021">巡航控制（GTMC 制造）</System>
+        <System code="SYS022">巡航控制（TFTM 制造）</System>
+        <System code="SYS015">CVT 和换档指示灯（GTMC 制造）</System>
+        <System code="SYS016">CVT 和换档指示灯（TFTM 制造）</System>
+        <System code="SYS023">发动机控制（GTMC 制造）</System>
+        <System code="SYS024">发动机控制（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE9">
+      <name>ETCS</name>
+      <refs>
+        <System code="SYS021">巡航控制（GTMC 制造）</System>
+        <System code="SYS022">巡航控制（TFTM 制造）</System>
+        <System code="SYS015">CVT 和换档指示灯（GTMC 制造）</System>
+        <System code="SYS016">CVT 和换档指示灯（TFTM 制造）</System>
+        <System code="SYS023">发动机控制（GTMC 制造）</System>
+        <System code="SYS024">发动机控制（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE10">
+      <name>H-LP LH-HI</name>
+      <refs>
+        <System code="SYS073">组合仪表（带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS074">组合仪表（带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS075">组合仪表（不带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS076">组合仪表（不带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS039">大灯（GTMC 制造）</System>
+        <System code="SYS040">大灯（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE11">
+      <name>H-LP LH-LO</name>
+      <refs>
+        <System code="SYS039">大灯（GTMC 制造）</System>
+        <System code="SYS040">大灯（TFTM 制造）</System>
+        <System code="SYS041">大灯光束高度控制（GTMC 制造）</System>
+        <System code="SYS042">大灯光束高度控制（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE12">
+      <name>H-LP RH-HI</name>
+      <refs>
+        <System code="SYS039">大灯（GTMC 制造）</System>
+        <System code="SYS040">大灯（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE13">
+      <name>H-LP RH-LO</name>
+      <refs>
+        <System code="SYS039">大灯（GTMC 制造）</System>
+        <System code="SYS040">大灯（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE14">
+      <name>HORN</name>
+      <refs>
+        <System code="SYS043">喇叭（GTMC 制造）</System>
+        <System code="SYS044">喇叭（TFTM 制造）</System>
+        <System code="SYS104">防盗（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE15">
+      <name>MIR HTR</name>
+      <refs>
+        <System code="SYS021">巡航控制（GTMC 制造）</System>
+        <System code="SYS022">巡航控制（TFTM 制造）</System>
+        <System code="SYS015">CVT 和换档指示灯（GTMC 制造）</System>
+        <System code="SYS016">CVT 和换档指示灯（TFTM 制造）</System>
+        <System code="SYS023">发动机控制（GTMC 制造）</System>
+        <System code="SYS024">发动机控制（TFTM 制造）</System>
+        <System code="SYS049">后视镜加热器（TFTM 制造）</System>
+        <System code="SYS054">后窗除雾器（GTMC 制造）</System>
+        <System code="SYS055">后窗除雾器（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE16">
+      <name>S-HORN</name>
+      <refs>
+        <System code="SYS104">防盗（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE17">
+      <name>TURN&amp;HAZ</name>
+      <refs>
+        <System code="SYS073">组合仪表（带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS074">组合仪表（带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS075">组合仪表（不带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS076">组合仪表（不带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS081">停机系统（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS082">停机系统（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS100">智能进入和起动系统（GTMC 制造）</System>
+        <System code="SYS101">智能进入和起动系统（TFTM 制造）</System>
+        <System code="SYS027">起动（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS028">起动（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS121">转向锁（GTMC 制造）</System>
+        <System code="SYS122">转向锁（TFTM 制造）</System>
+        <System code="SYS065">转向信号和危险警告灯（GTMC 制造）</System>
+        <System code="SYS066">转向信号和危险警告灯（TFTM 制造）</System>
+        <System code="SYS105">无线门锁控制（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS106">无线门锁控制（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS107">无线门锁控制（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS108">无线门锁控制（不带智能进入和起动系统）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE18">
+      <name>EFI-B</name>
+      <refs>
+        <System code="SYS021">巡航控制（GTMC 制造）</System>
+        <System code="SYS022">巡航控制（TFTM 制造）</System>
+        <System code="SYS015">CVT 和换档指示灯（GTMC 制造）</System>
+        <System code="SYS016">CVT 和换档指示灯（TFTM 制造）</System>
+        <System code="SYS023">发动机控制（GTMC 制造）</System>
+        <System code="SYS024">发动机控制（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE19">
+      <name>IG2</name>
+      <refs>
+        <System code="SYS073">组合仪表（带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS074">组合仪表（带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS075">组合仪表（不带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS076">组合仪表（不带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS021">巡航控制（GTMC 制造）</System>
+        <System code="SYS022">巡航控制（TFTM 制造）</System>
+        <System code="SYS015">CVT 和换档指示灯（GTMC 制造）</System>
+        <System code="SYS016">CVT 和换档指示灯（TFTM 制造）</System>
+        <System code="SYS023">发动机控制（GTMC 制造）</System>
+        <System code="SYS024">发动机控制（TFTM 制造）</System>
+        <System code="SYS025">点火（GTMC 制造）</System>
+        <System code="SYS026">点火（TFTM 制造）</System>
+        <System code="SYS081">停机系统（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS082">停机系统（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS100">智能进入和起动系统（GTMC 制造）</System>
+        <System code="SYS101">智能进入和起动系统（TFTM 制造）</System>
+        <System code="SYS027">起动（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS028">起动（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS121">转向锁（GTMC 制造）</System>
+        <System code="SYS122">转向锁（TFTM 制造）</System>
+        <System code="SYS105">无线门锁控制（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS106">无线门锁控制（带智能进入和起动系统）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="20" type="fuse" code="FUSE20">
+      <name>RADIO</name>
+      <refs>
+        <System code="SYS001">音响系统（GTMC 制造）</System>
+        <System code="SYS002">音响系统（TFTM 制造）</System>
+        <System code="SYS003">导航系统（GTMC 制造）</System>
+        <System code="SYS004">导航系统（TFTM 制造）</System>
+        <System code="SYS005">后视野监视系统（GTMC 制造）</System>
+        <System code="SYS006">后视野监视系统（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="20" type="fuse" code="FUSE21">
+      <name>STRG LOCK</name>
+      <refs>
+        <System code="SYS081">停机系统（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS082">停机系统（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS100">智能进入和起动系统（GTMC 制造）</System>
+        <System code="SYS101">智能进入和起动系统（TFTM 制造）</System>
+        <System code="SYS027">起动（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS028">起动（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS121">转向锁（GTMC 制造）</System>
+        <System code="SYS122">转向锁（TFTM 制造）</System>
+        <System code="SYS105">无线门锁控制（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS106">无线门锁控制（带智能进入和起动系统）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="25" type="fuse" code="FUSE22">
+      <name>EFI-MAIN</name>
+      <refs>
+        <System code="SYS021">巡航控制（GTMC 制造）</System>
+        <System code="SYS022">巡航控制（TFTM 制造）</System>
+        <System code="SYS015">CVT 和换档指示灯（GTMC 制造）</System>
+        <System code="SYS016">CVT 和换档指示灯（TFTM 制造）</System>
+        <System code="SYS023">发动机控制（GTMC 制造）</System>
+        <System code="SYS024">发动机控制（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE23">
+      <name>ABS NO.2</name>
+      <refs>
+        <System code="SYS009">ABS（GTMC 制造）</System>
+        <System code="SYS010">ABS（TFTM 制造）</System>
+        <System code="SYS011">TRC（GTMC 制造）</System>
+        <System code="SYS012">TRC（TFTM 制造）</System>
+        <System code="SYS013">VSC（GTMC 制造）</System>
+        <System code="SYS014">VSC（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE24">
+      <name>D/C CUT</name>
+      <refs>
+        <System code="SYS115">电源（GTMC 制造）</System>
+        <System code="SYS116">电源（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE25">
+      <name>PTC HTR NO.1</name>
+      <refs>
+        <System code="SYS067">自动空调（GTMC 制造）</System>
+        <System code="SYS068">自动空调（TFTM 制造）</System>
+        <System code="SYS089">手动空调（GTMC 制造）</System>
+        <System code="SYS090">手动空调（TFTM 制造）</System>
+        <System code="SYS093">PTC 加热器（带自动空调）（GTMC 制造）</System>
+        <System code="SYS094">PTC 加热器（带自动空调）（TFTM 制造）</System>
+        <System code="SYS095">PTC 加热器（带手动空调）（GTMC 制造）</System>
+        <System code="SYS096">PTC 加热器（带手动空调）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE26">
+      <name>PTC HTR NO.2</name>
+      <refs>
+        <System code="SYS067">自动空调（GTMC 制造）</System>
+        <System code="SYS068">自动空调（TFTM 制造）</System>
+        <System code="SYS089">手动空调（GTMC 制造）</System>
+        <System code="SYS090">手动空调（TFTM 制造）</System>
+        <System code="SYS093">PTC 加热器（带自动空调）（GTMC 制造）</System>
+        <System code="SYS094">PTC 加热器（带自动空调）（TFTM 制造）</System>
+        <System code="SYS095">PTC 加热器（带手动空调）（GTMC 制造）</System>
+        <System code="SYS096">PTC 加热器（带手动空调）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE27">
+      <name>PTC HTR NO.3</name>
+      <refs>
+        <System code="SYS067">自动空调（GTMC 制造）</System>
+        <System code="SYS068">自动空调（TFTM 制造）</System>
+        <System code="SYS089">手动空调（GTMC 制造）</System>
+        <System code="SYS090">手动空调（TFTM 制造）</System>
+        <System code="SYS093">PTC 加热器（带自动空调）（GTMC 制造）</System>
+        <System code="SYS094">PTC 加热器（带自动空调）（TFTM 制造）</System>
+        <System code="SYS095">PTC 加热器（带手动空调）（GTMC 制造）</System>
+        <System code="SYS096">PTC 加热器（带手动空调）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE28">
+      <name>ST</name>
+      <refs>
+        <System code="SYS081">停机系统（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS082">停机系统（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS100">智能进入和起动系统（GTMC 制造）</System>
+        <System code="SYS101">智能进入和起动系统（TFTM 制造）</System>
+        <System code="SYS027">起动（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS028">起动（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS029">起动（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS030">起动（不带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS121">转向锁（GTMC 制造）</System>
+        <System code="SYS122">转向锁（TFTM 制造）</System>
+        <System code="SYS105">无线门锁控制（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS106">无线门锁控制（带智能进入和起动系统）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="40" type="fuse" code="FUSE29">
+      <name>H-LP-MAIN</name>
+      <refs>
+        <System code="SYS067">自动空调（GTMC 制造）</System>
+        <System code="SYS068">自动空调（TFTM 制造）</System>
+        <System code="SYS031">自动灯光控制（GTMC 制造）</System>
+        <System code="SYS032">自动灯光控制（TFTM 制造）</System>
+        <System code="SYS039">大灯（GTMC 制造）</System>
+        <System code="SYS040">大灯（TFTM 制造）</System>
+        <System code="SYS041">大灯光束高度控制（GTMC 制造）</System>
+        <System code="SYS042">大灯光束高度控制（TFTM 制造）</System>
+        <System code="SYS045">车灯自动熄灭系统（GTMC 制造）</System>
+        <System code="SYS046">车灯自动熄灭系统（TFTM 制造）</System>
+        <System code="SYS089">手动空调（GTMC 制造）</System>
+        <System code="SYS090">手动空调（TFTM 制造）</System>
+        <System code="SYS093">PTC 加热器（带自动空调）（GTMC 制造）</System>
+        <System code="SYS094">PTC 加热器（带自动空调）（TFTM 制造）</System>
+        <System code="SYS095">PTC 加热器（带手动空调）（GTMC 制造）</System>
+        <System code="SYS096">PTC 加热器（带手动空调）（TFTM 制造）</System>
+        <System code="SYS052">后雾灯（GTMC 制造）</System>
+        <System code="SYS053">后雾灯（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="40" type="fuse" code="FUSE30">
+      <name>RDI</name>
+      <refs>
+        <System code="SYS019">冷却风扇（GTMC 制造）</System>
+        <System code="SYS020">冷却风扇（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE31">
+      <name>ABS NO.1</name>
+      <refs>
+        <System code="SYS009">ABS（GTMC 制造）</System>
+        <System code="SYS010">ABS（TFTM 制造）</System>
+        <System code="SYS011">TRC（GTMC 制造）</System>
+        <System code="SYS012">TRC（TFTM 制造）</System>
+        <System code="SYS013">VSC（GTMC 制造）</System>
+        <System code="SYS014">VSC（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE32">
+      <name>DEF</name>
+      <refs>
+        <System code="SYS021">巡航控制（GTMC 制造）</System>
+        <System code="SYS022">巡航控制（TFTM 制造）</System>
+        <System code="SYS015">CVT 和换档指示灯（GTMC 制造）</System>
+        <System code="SYS016">CVT 和换档指示灯（TFTM 制造）</System>
+        <System code="SYS023">发动机控制（GTMC 制造）</System>
+        <System code="SYS024">发动机控制（TFTM 制造）</System>
+        <System code="SYS049">后视镜加热器（TFTM 制造）</System>
+        <System code="SYS054">后窗除雾器（GTMC 制造）</System>
+        <System code="SYS055">后窗除雾器（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="50" type="fuse" code="FUSE33">
+      <name>HTR</name>
+      <refs>
+        <System code="SYS067">自动空调（GTMC 制造）</System>
+        <System code="SYS068">自动空调（TFTM 制造）</System>
+        <System code="SYS089">手动空调（GTMC 制造）</System>
+        <System code="SYS090">手动空调（TFTM 制造）</System>
+        <System code="SYS093">PTC 加热器（带自动空调）（GTMC 制造）</System>
+        <System code="SYS094">PTC 加热器（带自动空调）（TFTM 制造）</System>
+        <System code="SYS095">PTC 加热器（带手动空调）（GTMC 制造）</System>
+        <System code="SYS096">PTC 加热器（带手动空调）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="60" type="fuse" code="FUSE34">
+      <name>EPS</name>
+      <refs>
+        <System code="SYS117">EPS (1ZR-FE)（TFTM 制造）</System>
+        <System code="SYS119">EPS (4ZR-FE)（GTMC 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="80" type="fuse" code="FUSE35">
+      <name>EPS</name>
+      <refs>
+        <System code="SYS118">EPS (2ZR-FE)（TFTM 制造）</System>
+        <System code="SYS120">EPS (7ZR-FE)（GTMC 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="120" type="fuse" code="FUSE36">
+      <name>ALT</name>
+      <refs>
+        <System code="SYS031">自动灯光控制（GTMC 制造）</System>
+        <System code="SYS032">自动灯光控制（TFTM 制造）</System>
+        <System code="SYS109">充电（GTMC 制造）</System>
+        <System code="SYS110">充电（TFTM 制造）</System>
+        <System code="SYS035">前雾灯（GTMC 制造）</System>
+        <System code="SYS036">前雾灯（TFTM 制造）</System>
+        <System code="SYS079">照明（GTMC 制造）</System>
+        <System code="SYS080">照明（TFTM 制造）</System>
+        <System code="SYS081">停机系统（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS082">停机系统（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS045">车灯自动熄灭系统（GTMC 制造）</System>
+        <System code="SYS046">车灯自动熄灭系统（TFTM 制造）</System>
+        <System code="SYS047">车灯提醒器（GTMC 制造）</System>
+        <System code="SYS048">车灯提醒器（TFTM 制造）</System>
+        <System code="SYS050">电动车窗（GTMC 制造）</System>
+        <System code="SYS051">电动车窗（TFTM 制造）</System>
+        <System code="SYS052">后雾灯（GTMC 制造）</System>
+        <System code="SYS053">后雾灯（TFTM 制造）</System>
+        <System code="SYS100">智能进入和起动系统（GTMC 制造）</System>
+        <System code="SYS101">智能进入和起动系统（TFTM 制造）</System>
+        <System code="SYS027">起动（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS028">起动（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS121">转向锁（GTMC 制造）</System>
+        <System code="SYS122">转向锁（TFTM 制造）</System>
+        <System code="SYS063">尾灯（GTMC 制造）</System>
+        <System code="SYS064">尾灯（TFTM 制造）</System>
+        <System code="SYS007">丰田驻车辅助传感器系统（GTMC 制造）</System>
+        <System code="SYS008">丰田驻车辅助传感器系统（TFTM 制造）</System>
+        <System code="SYS105">无线门锁控制（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS106">无线门锁控制（带智能进入和起动系统）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+  </Block>
+  <Block code="RL006">
+    <blockname>仪表板接线盒总成</blockname>
+    <Fuse capacity="5" type="fuse" code="FUSE37">
+      <name>AM1</name>
+      <refs>
+        <System code="SYS115">电源（GTMC 制造）</System>
+        <System code="SYS116">电源（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="5" type="fuse" code="FUSE38">
+      <name>ECU-IG NO.5</name>
+      <refs>
+        <System code="SYS117">EPS (1ZR-FE)（TFTM 制造）</System>
+        <System code="SYS118">EPS (2ZR-FE)（TFTM 制造）</System>
+        <System code="SYS119">EPS (4ZR-FE)（GTMC 制造）</System>
+        <System code="SYS120">EPS (7ZR-FE)（GTMC 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="5" type="fuse" code="FUSE39">
+      <name>MET</name>
+      <refs>
+        <System code="SYS009">ABS（GTMC 制造）</System>
+        <System code="SYS010">ABS（TFTM 制造）</System>
+        <System code="SYS001">音响系统（GTMC 制造）</System>
+        <System code="SYS002">音响系统（TFTM 制造）</System>
+        <System code="SYS067">自动空调（GTMC 制造）</System>
+        <System code="SYS068">自动空调（TFTM 制造）</System>
+        <System code="SYS109">充电（GTMC 制造）</System>
+        <System code="SYS110">充电（TFTM 制造）</System>
+        <System code="SYS073">组合仪表（带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS074">组合仪表（带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS075">组合仪表（不带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS076">组合仪表（不带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS021">巡航控制（GTMC 制造）</System>
+        <System code="SYS022">巡航控制（TFTM 制造）</System>
+        <System code="SYS015">CVT 和换档指示灯（GTMC 制造）</System>
+        <System code="SYS016">CVT 和换档指示灯（TFTM 制造）</System>
+        <System code="SYS023">发动机控制（GTMC 制造）</System>
+        <System code="SYS024">发动机控制（TFTM 制造）</System>
+        <System code="SYS117">EPS (1ZR-FE)（TFTM 制造）</System>
+        <System code="SYS118">EPS (2ZR-FE)（TFTM 制造）</System>
+        <System code="SYS119">EPS (4ZR-FE)（GTMC 制造）</System>
+        <System code="SYS120">EPS (7ZR-FE)（GTMC 制造）</System>
+        <System code="SYS079">照明（GTMC 制造）</System>
+        <System code="SYS080">照明（TFTM 制造）</System>
+        <System code="SYS081">停机系统（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS082">停机系统（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS087">钥匙提醒（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS088">钥匙提醒（不带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS047">车灯提醒器（GTMC 制造）</System>
+        <System code="SYS048">车灯提醒器（TFTM 制造）</System>
+        <System code="SYS003">导航系统（GTMC 制造）</System>
+        <System code="SYS004">导航系统（TFTM 制造）</System>
+        <System code="SYS093">PTC 加热器（带自动空调）（GTMC 制造）</System>
+        <System code="SYS094">PTC 加热器（带自动空调）（TFTM 制造）</System>
+        <System code="SYS005">后视野监视系统（GTMC 制造）</System>
+        <System code="SYS006">后视野监视系统（TFTM 制造）</System>
+        <System code="SYS097">座椅安全带警告（GTMC 制造）</System>
+        <System code="SYS098">座椅安全带警告（TFTM 制造）</System>
+        <System code="SYS059">滑动天窗（GTMC 制造）</System>
+        <System code="SYS060">滑动天窗（TFTM 制造）</System>
+        <System code="SYS100">智能进入和起动系统（GTMC 制造）</System>
+        <System code="SYS101">智能进入和起动系统（TFTM 制造）</System>
+        <System code="SYS102">SRS（GTMC 制造）</System>
+        <System code="SYS103">SRS（TFTM 制造）</System>
+        <System code="SYS027">起动（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS028">起动（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS121">转向锁（GTMC 制造）</System>
+        <System code="SYS122">转向锁（TFTM 制造）</System>
+        <System code="SYS063">尾灯（GTMC 制造）</System>
+        <System code="SYS064">尾灯（TFTM 制造）</System>
+        <System code="SYS008">丰田驻车辅助传感器系统（TFTM 制造）</System>
+        <System code="SYS011">TRC（GTMC 制造）</System>
+        <System code="SYS012">TRC（TFTM 制造）</System>
+        <System code="SYS065">转向信号和危险警告灯（GTMC 制造）</System>
+        <System code="SYS066">转向信号和危险警告灯（TFTM 制造）</System>
+        <System code="SYS013">VSC（GTMC 制造）</System>
+        <System code="SYS014">VSC（TFTM 制造）</System>
+        <System code="SYS105">无线门锁控制（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS106">无线门锁控制（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS107">无线门锁控制（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS108">无线门锁控制（不带智能进入和起动系统）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="5" type="fuse" code="FUSE40">
+      <name>SFT LOCK-ACC</name>
+      <refs>
+        <System code="SYS017">换档锁止（GTMC 制造）</System>
+        <System code="SYS018">换档锁止（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="5" type="fuse" code="FUSE41">
+      <name>WIP-S</name>
+      <refs>
+        <System code="SYS109">充电（GTMC 制造）</System>
+        <System code="SYS110">充电（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE42">
+      <name>A/B</name>
+      <refs>
+        <System code="SYS102">SRS（GTMC 制造）</System>
+        <System code="SYS103">SRS（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE43">
+      <name>ACC</name>
+      <refs>
+        <System code="SYS009">ABS（GTMC 制造）</System>
+        <System code="SYS010">ABS（TFTM 制造）</System>
+        <System code="SYS001">音响系统（GTMC 制造）</System>
+        <System code="SYS002">音响系统（TFTM 制造）</System>
+        <System code="SYS031">自动灯光控制（GTMC 制造）</System>
+        <System code="SYS032">自动灯光控制（TFTM 制造）</System>
+        <System code="SYS071">时钟（GTMC 制造）</System>
+        <System code="SYS072">时钟（TFTM 制造）</System>
+        <System code="SYS073">组合仪表（带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS074">组合仪表（带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS075">组合仪表（不带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS076">组合仪表（不带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS077">门锁控制（GTMC 制造）</System>
+        <System code="SYS078">门锁控制（TFTM 制造）</System>
+        <System code="SYS035">前雾灯（GTMC 制造）</System>
+        <System code="SYS036">前雾灯（TFTM 制造）</System>
+        <System code="SYS039">大灯（GTMC 制造）</System>
+        <System code="SYS040">大灯（TFTM 制造）</System>
+        <System code="SYS041">大灯光束高度控制（GTMC 制造）</System>
+        <System code="SYS042">大灯光束高度控制（TFTM 制造）</System>
+        <System code="SYS079">照明（GTMC 制造）</System>
+        <System code="SYS080">照明（TFTM 制造）</System>
+        <System code="SYS081">停机系统（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS082">停机系统（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS085">车内照明灯（GTMC 制造）</System>
+        <System code="SYS086">车内照明灯（TFTM 制造）</System>
+        <System code="SYS087">钥匙提醒（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS088">钥匙提醒（不带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS045">车灯自动熄灭系统（GTMC 制造）</System>
+        <System code="SYS046">车灯自动熄灭系统（TFTM 制造）</System>
+        <System code="SYS047">车灯提醒器（GTMC 制造）</System>
+        <System code="SYS048">车灯提醒器（TFTM 制造）</System>
+        <System code="SYS003">导航系统（GTMC 制造）</System>
+        <System code="SYS004">导航系统（TFTM 制造）</System>
+        <System code="SYS050">电动车窗（GTMC 制造）</System>
+        <System code="SYS051">电动车窗（TFTM 制造）</System>
+        <System code="SYS052">后雾灯（GTMC 制造）</System>
+        <System code="SYS053">后雾灯（TFTM 制造）</System>
+        <System code="SYS005">后视野监视系统（GTMC 制造）</System>
+        <System code="SYS006">后视野监视系统（TFTM 制造）</System>
+        <System code="SYS056">遥控后视镜（GTMC 制造）</System>
+        <System code="SYS057">遥控后视镜（带卷收器）（TFTM 制造）</System>
+        <System code="SYS058">遥控后视镜（不带卷收器）（TFTM 制造）</System>
+        <System code="SYS097">座椅安全带警告（GTMC 制造）</System>
+        <System code="SYS098">座椅安全带警告（TFTM 制造）</System>
+        <System code="SYS059">滑动天窗（GTMC 制造）</System>
+        <System code="SYS060">滑动天窗（TFTM 制造）</System>
+        <System code="SYS100">智能进入和起动系统（GTMC 制造）</System>
+        <System code="SYS101">智能进入和起动系统（TFTM 制造）</System>
+        <System code="SYS027">起动（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS028">起动（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS121">转向锁（GTMC 制造）</System>
+        <System code="SYS122">转向锁（TFTM 制造）</System>
+        <System code="SYS063">尾灯（GTMC 制造）</System>
+        <System code="SYS064">尾灯（TFTM 制造）</System>
+        <System code="SYS104">防盗（TFTM 制造）</System>
+        <System code="SYS011">TRC（GTMC 制造）</System>
+        <System code="SYS012">TRC（TFTM 制造）</System>
+        <System code="SYS013">VSC（GTMC 制造）</System>
+        <System code="SYS014">VSC（TFTM 制造）</System>
+        <System code="SYS105">无线门锁控制（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS106">无线门锁控制（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS107">无线门锁控制（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS108">无线门锁控制（不带智能进入和起动系统）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE44">
+      <name>ECU-IG NO.1</name>
+      <refs>
+        <System code="SYS009">ABS（GTMC 制造）</System>
+        <System code="SYS010">ABS（TFTM 制造）</System>
+        <System code="SYS019">冷却风扇（GTMC 制造）</System>
+        <System code="SYS020">冷却风扇（TFTM 制造）</System>
+        <System code="SYS011">TRC（GTMC 制造）</System>
+        <System code="SYS012">TRC（TFTM 制造）</System>
+        <System code="SYS013">VSC（GTMC 制造）</System>
+        <System code="SYS014">VSC（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE45">
+      <name>ECU-IG NO.2</name>
+      <refs>
+        <System code="SYS009">ABS（GTMC 制造）</System>
+        <System code="SYS010">ABS（TFTM 制造）</System>
+        <System code="SYS001">音响系统（GTMC 制造）</System>
+        <System code="SYS002">音响系统（TFTM 制造）</System>
+        <System code="SYS033">倒车灯（GTMC 制造）</System>
+        <System code="SYS034">倒车灯（TFTM 制造）</System>
+        <System code="SYS073">组合仪表（带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS074">组合仪表（带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS075">组合仪表（不带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS076">组合仪表（不带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS021">巡航控制（GTMC 制造）</System>
+        <System code="SYS022">巡航控制（TFTM 制造）</System>
+        <System code="SYS015">CVT 和换档指示灯（GTMC 制造）</System>
+        <System code="SYS016">CVT 和换档指示灯（TFTM 制造）</System>
+        <System code="SYS023">发动机控制（GTMC 制造）</System>
+        <System code="SYS024">发动机控制（TFTM 制造）</System>
+        <System code="SYS003">导航系统（GTMC 制造）</System>
+        <System code="SYS004">导航系统（TFTM 制造）</System>
+        <System code="SYS005">后视野监视系统（GTMC 制造）</System>
+        <System code="SYS006">后视野监视系统（TFTM 制造）</System>
+        <System code="SYS007">丰田驻车辅助传感器系统（GTMC 制造）</System>
+        <System code="SYS008">丰田驻车辅助传感器系统（TFTM 制造）</System>
+        <System code="SYS011">TRC（GTMC 制造）</System>
+        <System code="SYS012">TRC（TFTM 制造）</System>
+        <System code="SYS013">VSC（GTMC 制造）</System>
+        <System code="SYS014">VSC（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE46">
+      <name>ECU-IG NO.3</name>
+      <refs>
+        <System code="SYS001">音响系统（GTMC 制造）</System>
+        <System code="SYS002">音响系统（TFTM 制造）</System>
+        <System code="SYS021">巡航控制（GTMC 制造）</System>
+        <System code="SYS022">巡航控制（TFTM 制造）</System>
+        <System code="SYS015">CVT 和换档指示灯（GTMC 制造）</System>
+        <System code="SYS016">CVT 和换档指示灯（TFTM 制造）</System>
+        <System code="SYS023">发动机控制（GTMC 制造）</System>
+        <System code="SYS024">发动机控制（TFTM 制造）</System>
+        <System code="SYS003">导航系统（GTMC 制造）</System>
+        <System code="SYS004">导航系统（TFTM 制造）</System>
+        <System code="SYS005">后视野监视系统（GTMC 制造）</System>
+        <System code="SYS006">后视野监视系统（TFTM 制造）</System>
+        <System code="SYS017">换档锁止（GTMC 制造）</System>
+        <System code="SYS018">换档锁止（TFTM 制造）</System>
+        <System code="SYS059">滑动天窗（GTMC 制造）</System>
+        <System code="SYS060">滑动天窗（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE47">
+      <name>ECU-IG NO.4</name>
+      <refs>
+        <System code="SYS009">ABS（GTMC 制造）</System>
+        <System code="SYS010">ABS（TFTM 制造）</System>
+        <System code="SYS031">自动灯光控制（GTMC 制造）</System>
+        <System code="SYS032">自动灯光控制（TFTM 制造）</System>
+        <System code="SYS073">组合仪表（带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS074">组合仪表（带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS075">组合仪表（不带 TFT 显示屏）（GTMC 制造）</System>
+        <System code="SYS076">组合仪表（不带 TFT 显示屏）（TFTM 制造）</System>
+        <System code="SYS077">门锁控制（GTMC 制造）</System>
+        <System code="SYS078">门锁控制（TFTM 制造）</System>
+        <System code="SYS035">前雾灯（GTMC 制造）</System>
+        <System code="SYS036">前雾灯（TFTM 制造）</System>
+        <System code="SYS039">大灯（GTMC 制造）</System>
+        <System code="SYS040">大灯（TFTM 制造）</System>
+        <System code="SYS041">大灯光束高度控制（GTMC 制造）</System>
+        <System code="SYS042">大灯光束高度控制（TFTM 制造）</System>
+        <System code="SYS079">照明（GTMC 制造）</System>
+        <System code="SYS080">照明（TFTM 制造）</System>
+        <System code="SYS081">停机系统（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS082">停机系统（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS085">车内照明灯（GTMC 制造）</System>
+        <System code="SYS086">车内照明灯（TFTM 制造）</System>
+        <System code="SYS087">钥匙提醒（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS088">钥匙提醒（不带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS045">车灯自动熄灭系统（GTMC 制造）</System>
+        <System code="SYS046">车灯自动熄灭系统（TFTM 制造）</System>
+        <System code="SYS047">车灯提醒器（GTMC 制造）</System>
+        <System code="SYS048">车灯提醒器（TFTM 制造）</System>
+        <System code="SYS050">电动车窗（GTMC 制造）</System>
+        <System code="SYS051">电动车窗（TFTM 制造）</System>
+        <System code="SYS052">后雾灯（GTMC 制造）</System>
+        <System code="SYS053">后雾灯（TFTM 制造）</System>
+        <System code="SYS057">遥控后视镜（带卷收器）（TFTM 制造）</System>
+        <System code="SYS097">座椅安全带警告（GTMC 制造）</System>
+        <System code="SYS098">座椅安全带警告（TFTM 制造）</System>
+        <System code="SYS059">滑动天窗（GTMC 制造）</System>
+        <System code="SYS060">滑动天窗（TFTM 制造）</System>
+        <System code="SYS100">智能进入和起动系统（GTMC 制造）</System>
+        <System code="SYS101">智能进入和起动系统（TFTM 制造）</System>
+        <System code="SYS027">起动（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS028">起动（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS121">转向锁（GTMC 制造）</System>
+        <System code="SYS122">转向锁（TFTM 制造）</System>
+        <System code="SYS063">尾灯（GTMC 制造）</System>
+        <System code="SYS064">尾灯（TFTM 制造）</System>
+        <System code="SYS104">防盗（TFTM 制造）</System>
+        <System code="SYS007">丰田驻车辅助传感器系统（GTMC 制造）</System>
+        <System code="SYS008">丰田驻车辅助传感器系统（TFTM 制造）</System>
+        <System code="SYS011">TRC（GTMC 制造）</System>
+        <System code="SYS012">TRC（TFTM 制造）</System>
+        <System code="SYS013">VSC（GTMC 制造）</System>
+        <System code="SYS014">VSC（TFTM 制造）</System>
+        <System code="SYS105">无线门锁控制（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS106">无线门锁控制（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS107">无线门锁控制（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS108">无线门锁控制（不带智能进入和起动系统）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE48">
+      <name>FR FOG</name>
+      <refs>
+        <System code="SYS035">前雾灯（GTMC 制造）</System>
+        <System code="SYS036">前雾灯（TFTM 制造）</System>
+        <System code="SYS052">后雾灯（GTMC 制造）</System>
+        <System code="SYS053">后雾灯（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE49">
+      <name>HTR-IG</name>
+      <refs>
+        <System code="SYS067">自动空调（GTMC 制造）</System>
+        <System code="SYS068">自动空调（TFTM 制造）</System>
+        <System code="SYS021">巡航控制（GTMC 制造）</System>
+        <System code="SYS022">巡航控制（TFTM 制造）</System>
+        <System code="SYS015">CVT 和换档指示灯（GTMC 制造）</System>
+        <System code="SYS016">CVT 和换档指示灯（TFTM 制造）</System>
+        <System code="SYS023">发动机控制（GTMC 制造）</System>
+        <System code="SYS024">发动机控制（TFTM 制造）</System>
+        <System code="SYS089">手动空调（GTMC 制造）</System>
+        <System code="SYS090">手动空调（TFTM 制造）</System>
+        <System code="SYS049">后视镜加热器（TFTM 制造）</System>
+        <System code="SYS093">PTC 加热器（带自动空调）（GTMC 制造）</System>
+        <System code="SYS094">PTC 加热器（带自动空调）（TFTM 制造）</System>
+        <System code="SYS095">PTC 加热器（带手动空调）（GTMC 制造）</System>
+        <System code="SYS096">PTC 加热器（带手动空调）（TFTM 制造）</System>
+        <System code="SYS054">后窗除雾器（GTMC 制造）</System>
+        <System code="SYS055">后窗除雾器（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE50">
+      <name>IGN</name>
+      <refs>
+        <System code="SYS021">巡航控制（GTMC 制造）</System>
+        <System code="SYS022">巡航控制（TFTM 制造）</System>
+        <System code="SYS015">CVT 和换档指示灯（GTMC 制造）</System>
+        <System code="SYS016">CVT 和换档指示灯（TFTM 制造）</System>
+        <System code="SYS023">发动机控制（GTMC 制造）</System>
+        <System code="SYS024">发动机控制（TFTM 制造）</System>
+        <System code="SYS081">停机系统（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS082">停机系统（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS083">停机系统（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS084">停机系统（不带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS100">智能进入和起动系统（GTMC 制造）</System>
+        <System code="SYS101">智能进入和起动系统（TFTM 制造）</System>
+        <System code="SYS027">起动（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS028">起动（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS121">转向锁（GTMC 制造）</System>
+        <System code="SYS122">转向锁（TFTM 制造）</System>
+        <System code="SYS105">无线门锁控制（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS106">无线门锁控制（带智能进入和起动系统）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE51">
+      <name>OBD</name>
+      <refs>
+        <System code="SYS111">DLC3（GTMC 制造）</System>
+        <System code="SYS112">DLC3（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE52">
+      <name>PANEL</name>
+      <refs>
+        <System code="SYS079">照明（GTMC 制造）</System>
+        <System code="SYS080">照明（TFTM 制造）</System>
+        <System code="SYS063">尾灯（GTMC 制造）</System>
+        <System code="SYS064">尾灯（TFTM 制造）</System>
+        <System code="SYS007">丰田驻车辅助传感器系统（GTMC 制造）</System>
+        <System code="SYS008">丰田驻车辅助传感器系统（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE53">
+      <name>RR FOG</name>
+      <refs>
+        <System code="SYS052">后雾灯（GTMC 制造）</System>
+        <System code="SYS053">后雾灯（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="7.5" type="fuse" code="FUSE54">
+      <name>STOP</name>
+      <refs>
+        <System code="SYS009">ABS（GTMC 制造）</System>
+        <System code="SYS010">ABS（TFTM 制造）</System>
+        <System code="SYS021">巡航控制（GTMC 制造）</System>
+        <System code="SYS022">巡航控制（TFTM 制造）</System>
+        <System code="SYS015">CVT 和换档指示灯（GTMC 制造）</System>
+        <System code="SYS016">CVT 和换档指示灯（TFTM 制造）</System>
+        <System code="SYS023">发动机控制（GTMC 制造）</System>
+        <System code="SYS024">发动机控制（TFTM 制造）</System>
+        <System code="SYS081">停机系统（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS082">停机系统（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS017">换档锁止（GTMC 制造）</System>
+        <System code="SYS018">换档锁止（TFTM 制造）</System>
+        <System code="SYS100">智能进入和起动系统（GTMC 制造）</System>
+        <System code="SYS101">智能进入和起动系统（TFTM 制造）</System>
+        <System code="SYS027">起动（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS028">起动（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS121">转向锁（GTMC 制造）</System>
+        <System code="SYS122">转向锁（TFTM 制造）</System>
+        <System code="SYS061">刹车灯（GTMC 制造）</System>
+        <System code="SYS062">刹车灯（TFTM 制造）</System>
+        <System code="SYS011">TRC（GTMC 制造）</System>
+        <System code="SYS012">TRC（TFTM 制造）</System>
+        <System code="SYS013">VSC（GTMC 制造）</System>
+        <System code="SYS014">VSC（TFTM 制造）</System>
+        <System code="SYS105">无线门锁控制（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS106">无线门锁控制（带智能进入和起动系统）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE55">
+      <name>DOOR BACK</name>
+      <refs>
+        <System code="SYS081">停机系统（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS082">停机系统（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS100">智能进入和起动系统（GTMC 制造）</System>
+        <System code="SYS101">智能进入和起动系统（TFTM 制造）</System>
+        <System code="SYS027">起动（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS028">起动（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS121">转向锁（GTMC 制造）</System>
+        <System code="SYS122">转向锁（TFTM 制造）</System>
+        <System code="SYS105">无线门锁控制（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS106">无线门锁控制（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS107">无线门锁控制（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS108">无线门锁控制（不带智能进入和起动系统）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="10" type="fuse" code="FUSE56">
+      <name>TAIL</name>
+      <refs>
+        <System code="SYS035">前雾灯（GTMC 制造）</System>
+        <System code="SYS036">前雾灯（TFTM 制造）</System>
+        <System code="SYS079">照明（GTMC 制造）</System>
+        <System code="SYS080">照明（TFTM 制造）</System>
+        <System code="SYS052">后雾灯（GTMC 制造）</System>
+        <System code="SYS053">后雾灯（TFTM 制造）</System>
+        <System code="SYS063">尾灯（GTMC 制造）</System>
+        <System code="SYS064">尾灯（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE57">
+      <name>CIG</name>
+      <refs>
+        <System code="SYS069">点烟器（GTMC 制造）</System>
+        <System code="SYS070">点烟器（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE58">
+      <name>SEAT HTR</name>
+      <refs>
+        <System code="SYS099">座椅加热器（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="15" type="fuse" code="FUSE59">
+      <name>WASHER</name>
+      <refs>
+        <System code="SYS037">前刮水器和清洗器（GTMC 制造）</System>
+        <System code="SYS038">前刮水器和清洗器（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="20" type="fuse" code="FUSE60">
+      <name>D/L NO.2</name>
+      <refs>
+        <System code="SYS077">门锁控制（GTMC 制造）</System>
+        <System code="SYS078">门锁控制（TFTM 制造）</System>
+        <System code="SYS081">停机系统（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS082">停机系统（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS100">智能进入和起动系统（GTMC 制造）</System>
+        <System code="SYS101">智能进入和起动系统（TFTM 制造）</System>
+        <System code="SYS027">起动（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS028">起动（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS121">转向锁（GTMC 制造）</System>
+        <System code="SYS122">转向锁（TFTM 制造）</System>
+        <System code="SYS105">无线门锁控制（带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS106">无线门锁控制（带智能进入和起动系统）（TFTM 制造）</System>
+        <System code="SYS107">无线门锁控制（不带智能进入和起动系统）（GTMC 制造）</System>
+        <System code="SYS108">无线门锁控制（不带智能进入和起动系统）（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="20" type="fuse" code="FUSE61">
+      <name>FR DOOR</name>
+      <refs>
+        <System code="SYS050">电动车窗（GTMC 制造）</System>
+        <System code="SYS051">电动车窗（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="20" type="fuse" code="FUSE62">
+      <name>RL DOOR</name>
+      <refs>
+        <System code="SYS050">电动车窗（GTMC 制造）</System>
+        <System code="SYS051">电动车窗（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="20" type="fuse" code="FUSE63">
+      <name>RR DOOR</name>
+      <refs>
+        <System code="SYS050">电动车窗（GTMC 制造）</System>
+        <System code="SYS051">电动车窗（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="20" type="fuse" code="FUSE64">
+      <name>S/ROOF</name>
+      <refs>
+        <System code="SYS059">滑动天窗（GTMC 制造）</System>
+        <System code="SYS060">滑动天窗（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="25" type="fuse" code="FUSE65">
+      <name>WIP FR</name>
+      <refs>
+        <System code="SYS109">充电（GTMC 制造）</System>
+        <System code="SYS110">充电（TFTM 制造）</System>
+        <System code="SYS037">前刮水器和清洗器（GTMC 制造）</System>
+        <System code="SYS038">前刮水器和清洗器（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE66">
+      <name>P-SEAT</name>
+      <refs>
+        <System code="SYS091">电动座椅（GTMC 制造）</System>
+        <System code="SYS092">电动座椅（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+    <Fuse capacity="30" type="fuse" code="FUSE67">
+      <name>POWER</name>
+      <refs>
+        <System code="SYS050">电动车窗（GTMC 制造）</System>
+        <System code="SYS051">电动车窗（TFTM 制造）</System>
+      </refs>
+    </Fuse>
+  </Block>
+</LoadList>

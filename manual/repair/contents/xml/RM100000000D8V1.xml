@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_59">
+<name>车辆外饰</name>
+<section id="_024015">
+<name>车窗/玻璃</name>
+<ttl id="_0116248">
+<name>电动窗控制系统</name>
+<para category="J" id="RM100000000D8V1">
+<dtccode/>
+<dtcname>自动上升操作不能完全关闭电动窗（防夹功能激活）</dtcname>
+<subpara category="03" id="RM100000000D8V1_01">
+<name>描述</name>
+<content5>
+<ptxt>如果驾驶员车门玻璃或电动窗升降器马达总成（驾驶员车门）无法平稳工作，则防夹功能可能自动启动，导致自动上升功能无法完全关闭车窗。</ptxt>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D8V1_02">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>如果已用新的电动窗升降器马达总成（驾驶员车门）更换，则初始化电动窗控制系统。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V8" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>如果已拆下并安装电动窗升降器马达总成（驾驶员车门）和门窗升降器分总成，或如果更换车门玻璃或车门玻璃升降槽时重复使用电动窗升降器马达总成（驾驶员车门），则初始化电动窗控制系统。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V8" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+</list1>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D8V1_04">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8V1_04_0001">
+<testtitle>进行初始化（驾驶员车门）</testtitle>
+<content6>
+<test1>
+<ptxt>初始化电动窗升降器马达总成（驾驶员车门）。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V8" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D8V1_04_0002"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D8V1_04_0002">
+<testtitle>检查电动窗控制系统（自动升降功能（驾驶员车门））</testtitle>
+<content6>
+<test1>
+<ptxt>操作电动窗升降器主开关总成的自动升降功能时，检查并确认驾驶员车门电动窗移动。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V5" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>驾驶员车门电动窗自动升降功能正常。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="end" cellposition="3-1">
+<actiontitle>结束（因初始化失败造成的故障）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="2-2" label="2">
+<action actiontype="next" cellposition="3-2" childid="RM100000000D8V1_04_0004"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-2" id="RM100000000D8V1_04_0004">
+<testtitle>检查车窗玻璃滑动情况（驾驶员车门）</testtitle>
+<content6>
+<test1>
+<ptxt>拆下车窗升降器。</ptxt>
+</test1>
+<test1>
+<ptxt>将车窗玻璃安装到车门玻璃升降槽上。</ptxt>
+</test1>
+<test1>
+<ptxt>检查门窗升降器是否工作平稳。</ptxt>
+</test1>
+<test1>
+<ptxt>检查并确认用手向上滑动车窗玻璃时，该车窗玻璃平稳滑动。</ptxt>
+<atten2>
+<ptxt>再次进行初始化。</ptxt>
+</atten2>
+<atten4>
+<ptxt>确认以下项目：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>车窗玻璃嵌入车门玻璃升降槽，无接触不当或变形。</ptxt>
+</item>
+<item>
+<ptxt>无异物卡在车门玻璃升降槽内。</ptxt>
+</item>
+</list1>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>门窗玻璃平稳滑动。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-2" label="1">
+<action actiontype="end" cellposition="4-2">
+<actiontitle>更换电动窗升降器马达总成（驾驶员车门）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8WE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-3" label="2">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>正确装配车窗玻璃（清除导致装配不当的异物或更换零件）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

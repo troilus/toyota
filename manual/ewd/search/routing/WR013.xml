@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="WR013">
+    <part type="conn" code="z1">
+      <name>空调放大器总成、空调线束总成</name>
+    </part>
+    <part type="conn" code="z10">
+      <name>巡航控制主开关、巡航控制开关线束</name>
+    </part>
+    <part type="conn" code="z4">
+      <name>巡航控制开关线束、螺旋电缆分总成</name>
+    </part>
+    <part type="conn" code="z2">
+      <name>驾驶员侧点火管（喇叭按钮总成）、螺旋电缆分总成</name>
+    </part>
+    <part type="conn" code="z11">
+      <name>喇叭按钮线束分总成、螺旋电缆分总成、</name>
+    </part>
+    <part type="conn" code="d1">
+      <name>不带车门空气囊的仪表板乘客空气囊总成</name>
+    </part>
+    <part type="conn" code="X2">
+      <name>导航接收器总成</name>
+    </part>
+    <part type="conn" code="X1">
+      <name>1 号立体声插座适配器总成</name>
+    </part>
+    <part type="conn" code="z8">
+      <name>动力转向 ECU 总成、动力转向马达总成</name>
+    </part>
+    <part type="conn" code="z7">
+      <name>动力转向 ECU 总成、动力转向扭矩传感器（电动转向柱分总成）</name>
+    </part>
+    <part type="conn" code="z12">
+      <name>动力转向 ECU 总成、动力转向扭矩传感器（电动转向柱分总成）</name>
+    </part>
+    <part type="conn" code="X3">
+      <name>无线电收音机和显示屏接收器总成</name>
+    </part>
+    <part type="conn" code="z6">
+      <name>螺旋电缆分总成、方向盘衬垫开关总成</name>
+    </part>
+    <part type="conn" code="z5">
+      <name>方向盘衬垫开关总成、变速器换档开关总成</name>
+    </part>
+  </ttl>
+</EWDSearch>

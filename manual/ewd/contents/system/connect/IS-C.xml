@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <connector type="rb" code="1" figID="7">
+    <pin>
+      <line id="1" color="L">
+        <connector type="sp" code="SP5" figID="12">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE19" figID="1">
+    <pin>
+      <line id="2" color="R">
+        <connector type="rb" code="1" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="BA2" sex="male" figID="10">
+    <pin no="5">
+      <line id="3" color="L">
+        <connector type="sp" code="SP5" figID="12">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="BA2" sex="female" figID="10">
+    <pin no="5">
+      <line id="4" color="L">
+        <connector type="sp" code="SP27" figID="13">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="B29" figID="2">
+    <pin no="2">
+      <line id="5" color="Y">
+        <connector type="sp" code="SP26" figID="15">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="B29" figID="2">
+    <pin no="1">
+      <line id="6" color="L">
+        <connector type="sp" code="SP27" figID="13">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="B29" figID="2">
+    <pin no="3">
+      <line id="7" color="R">
+        <connector type="conn" code="B39" figID="3">
+          <pin no="75"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="B30" figID="6">
+    <pin no="2">
+      <line id="8" color="Y">
+        <connector type="sp" code="SP26" figID="15">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP27" figID="13">
+    <pin>
+      <line id="9" color="L">
+        <connector type="conn" code="B30" figID="6">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP27" figID="13">
+    <pin>
+      <line id="10" color="L">
+        <connector type="conn" code="B32" figID="4">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP24" figID="14">
+    <pin>
+      <line id="11" color="W-B">
+        <connector type="conn" code="B29" figID="2">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="gp" code="BA" figID="11">
+    <pin>
+      <line id="12" color="W-B">
+        <connector type="sp" code="SP24" figID="14">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP24" figID="14">
+    <pin>
+      <line id="13" color="W-B">
+        <connector type="conn" code="B30" figID="6">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="B30" figID="6">
+    <pin no="3">
+      <line id="14" color="B">
+        <connector type="conn" code="B39" figID="3">
+          <pin no="74"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP24" figID="14">
+    <pin>
+      <line id="15" color="W-B">
+        <connector type="conn" code="B32" figID="4">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP26" figID="15">
+    <pin>
+      <line id="16" color="Y">
+        <connector type="conn" code="B39" figID="3">
+          <pin no="71"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP26" figID="15">
+    <pin>
+      <line id="17" color="Y">
+        <connector type="conn" code="B32" figID="4">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="B31" figID="5">
+    <pin no="2">
+      <line id="18" color="Y">
+        <connector type="sp" code="SP26" figID="15">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="B31" figID="5">
+    <pin no="1">
+      <line id="19" color="L">
+        <connector type="sp" code="SP27" figID="13">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="B31" figID="5">
+    <pin no="4">
+      <line id="20" color="W-B">
+        <connector type="sp" code="SP24" figID="14">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="B31" figID="5">
+    <pin no="3">
+      <line id="21" color="G">
+        <connector type="conn" code="B39" figID="3">
+          <pin no="73"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="B32" figID="4">
+    <pin no="3">
+      <line id="22" color="W">
+        <connector type="conn" code="B39" figID="3">
+          <pin no="72"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

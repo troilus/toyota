@@ -1,0 +1,980 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">发动机/混合动力系统</span>
+<span class="globalSection">_023949</span>
+<span class="globalSectionName">1ZR-FE 发动机控制系统</span>
+<span class="globalTitle">_0116049</span>
+<span class="globalTitleName">SFI 系统</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>1ZR-FE 发动机控制系统&nbsp;&nbsp;SFI 系统&nbsp;&nbsp;P2118&nbsp;&nbsp;节气门执行器控制马达电流范围/性能&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D7PR_01" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<p>电子节气门控制系统有一个专用的供电电路。监视电压 (+BM) 低（低于 4 V）时，ECM 判定电子节气门控制系统存在故障并切断流向节气门执行器的电流。
+</p>
+<p>电压不稳时，电子节气门控制系统也变得不稳。因此，电压低时，流向节气门执行器的电流被切断。如果维修后系统恢复正常，则将点火开关置于 OFF 位置。然后 ECM 允许电流流向节气门执行器，执行器从而可以重新启动。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>电子节气门控制系统不使用节气门拉索。
+</p>
+</dd>
+</dl>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A304252.png" alt="A304252" title="A304252">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.094,1.073 0.823,1.667</span>
+<span class="captionSize">0.729,0.594</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">自 1 号 EFI 保险丝</span>
+</span>
+<span class="caption">
+<span class="points">0.073,1.823 0.875,2.063</span>
+<span class="captionSize">0.802,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">自蓄电池</span>
+</span>
+<span class="caption">
+<span class="points">1.208,2 1.625,2.198</span>
+<span class="captionSize">0.417,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ETCS</span>
+</span>
+<span class="caption">
+<span class="points">0.802,3.552 1.906,3.76</span>
+<span class="captionSize">1.104,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">节气门执行器</span>
+</span>
+<span class="caption">
+<span class="points">4.802,3.063 5.115,3.26</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">M-</span>
+</span>
+<span class="caption">
+<span class="points">4.802,0.948 5.115,1.146</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+B</span>
+</span>
+<span class="caption">
+<span class="points">4.802,1.708 5.115,1.906</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+BM</span>
+</span>
+<span class="caption">
+<span class="points">4.802,2.438 5.115,2.635</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">M+</span>
+</span>
+<span class="caption">
+<span class="points">4.792,3.771 5.208,3.969</span>
+<span class="captionSize">0.417,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ME01</span>
+</span>
+<span class="caption">
+<span class="points">5.656,4.24 6.115,4.438</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECM</span>
+</span>
+<span class="caption">
+<span class="points">5.906,0.896 6.865,1.302</span>
+<span class="captionSize">0.958,0.406</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">CPU 电源电路</span>
+</span>
+<span class="caption">
+<span class="points">5.917,2.406 6.469,3.115</span>
+<span class="captionSize">0.552,0.708</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">节气门执行器控制电路</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:14%">
+<col style="width:25%">
+<col style="width:29%">
+<col style="width:10%">
+<col style="width:10%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">存储器
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P2118
+</td>
+<td class="alleft">节气门执行器控制马达电流范围/性能
+</td>
+<td class="alleft">电子节气门控制系统电源 (+BM) 电路开路（单程检测逻辑）。
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>电子节气门控制系统电源电路开路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>蓄电池
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>蓄电池端子
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ETCS 保险丝
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">点亮
+</td>
+<td class="alleft">存储 DTC
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000D7PR_02" class="category no03">
+<h2>监视描述</h2>
+<div class="content5">
+<p>ECM 监视施加到节气门执行器的蓄电池电压。
+</p>
+<p>电源电压 (+BM) 低于 4 V 持续 0.8 秒或更长时间时，ECM 判定电源电路 (+BM) 开路。然后，ECM 点亮 MIL 并存储该 DTC。
+</p>
+</div>
+</div>
+<div id="RM100000000D7PR_03" class="category no03">
+<h2>监视策略</h2>
+<div class="content5">
+<table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>所需传感器/零部件
+</td>
+<td>节气门执行器
+<br>
+节气门（节气门体总成）
+<br>
+ETCS 保险丝
+</td>
+</tr>
+<tr>
+<td>工作频率
+</td>
+<td>持续
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000D7PR_12" class="category no03">
+<h2>确认行驶模式</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A199315.png" alt="A199315" title="A199315">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.979,0.552 1.625,0.76</span>
+<span class="captionSize">0.646,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3,000 rpm</span>
+</span>
+<span class="caption">
+<span class="points">1.24,1.927 1.625,2.146</span>
+<span class="captionSize">0.385,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">怠速运转</span>
+</span>
+<span class="caption">
+<span class="points">0.417,2.219 1.729,2.542</span>
+<span class="captionSize">1.313,0.323</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">点火开关置于 ON 位置</span>
+</span>
+<span class="caption">
+<span class="points">3.146,2.208 4.719,2.344</span>
+<span class="captionSize">1.573,0.135</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">约 5 秒</span>
+</span>
+<span class="caption">
+<span class="points">3.469,2.802 4.792,2.99</span>
+<span class="captionSize">1.323,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">16 秒或更长时间</span>
+</span>
+<span class="caption">
+<span class="points">2.01,2.313 2.208,2.542</span>
+<span class="captionSize">0.198,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">[A]</span>
+</span>
+<span class="caption">
+<span class="points">6.01,3.229 6.24,3.417</span>
+<span class="captionSize">0.229,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">[C]</span>
+</span>
+<span class="caption">
+<span class="points">4.604,0.417 4.833,0.604</span>
+<span class="captionSize">0.229,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">[B]</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>将点火开关置于 ON 位置并打开 GTS。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>清除 DTC（即使未存储 DTC，也应执行清除 DTC 程序）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>将点火开关置于 OFF 位置并等待至少 30 秒。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">5.</div>
+<div class="list1Body"><p>将点火开关置于 ON 位置并打开 GTS [A]。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">6.</div>
+<div class="list1Body"><p>起动发动机。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">7.</div>
+<div class="list1Body"><p>慢慢踩下加速踏板，提高发动机转速至约为 3,000 rpm 持续约 5 秒以上，然后怠速运转发动机 [B]。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">8.</div>
+<div class="list1Body"><p>检查并确认从发动机起动后已经过 16 秒或更长时间。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">9.</div>
+<div class="list1Body"><p>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes [C]。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">10.</div>
+<div class="list1Body"><p>读取待定 DTC。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果输出待定 DTC，则系统发生故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果未输出待定 DTC，则执行以下程序。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">11.</div>
+<div class="list1Body"><p>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">12.</div>
+<div class="list1Body"><p>输入 DTC：P2118。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">13.</div>
+<div class="list1Body"><p>检查 DTC 判断结果。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:29%">
+<col style="width:70%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS 显示
+</th>
+<th class="alcenter">描述
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>系统正常
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>系统异常
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">INCOMPLETE
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断未完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>确认 DTC 启动条件后，执行行驶模式
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">N/A
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>无法执行 DTC 判断
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>不满足 DTC 前提条件的 DTC 数量达到 ECU 存储器极限
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果判断结果显示 NORMAL，则系统正常。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果判断结果显示 ABNORMAL，则系统存在故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果判断结果显示 INCOMPLETE 或 N/A，则再次执行步骤 [B] 和 [C]，如有必要，则驾驶车辆一段时间。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000D7PR_07" class="category no03">
+<h2>失效保护</h2>
+<div class="content5">
+<p>存储这些 DTC 中的任一个或与电子节气门控制系统 (ETCS) 故障有关的其他 DTC 时，ECM 进入失效保护模式。失效保护模式期间，ECM 切断流向节气门执行器的电流，且节气门在回位弹簧的作用下返回到 5.5&deg;节气门开度。然后，ECM 通过根据加速踏板开度控制燃油喷射（间歇性燃油切断）和点火正时以调节发动机输出功率，以使车辆保持在最低行驶速度。如果平稳而缓慢地踩下加速踏板，则车辆会缓慢行驶。
+</p>
+<p>失效保护模式持续运行，直至检测到通过条件且将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+<div id="RM100000000D7PR_08" class="category no03">
+<h2>电路图</h2>
+<div class="content5">
+<p>请参考 DTC P2102。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;1ZR-FE 发动机控制系统&gt;SFI 系统&gt;P2102<span class="invisible">201406,999999,_51,_023949,_0116049,RM100000000D7PP_07,P2102</span></a>
+
+</p>
+</div>
+</div>
+<div id="RM100000000D7PR_09" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>进行下列程序前，先检查与此系统相关电路的保险丝。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 读取定格数据。存储 DTC 时，ECM 将车辆和驾驶条件信息记录为定格数据。进行故障排除时，定格数据有助于确定故障出现时车辆是运行还是停止，发动机是暖机还是未暖机，空燃比是浓还是稀，以及其他数据。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000D7PR_13" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000D7PR_13_0001">
+<div class="testtitle"><span class="titleText">1.使用 GTS 读取值（+BM 电压）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / +BM Voltage。
+</p>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">+BM Voltage
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">234</span>
+<span class="gtsPid">279</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>读取 GTS 上显示的值。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7PR_13_0001_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">低于 4 V
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">11 至 14 V
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.检查线束和连接器（ECM - 蓄电池、车身接地）</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">检查是否存在间歇性故障</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;1ZR-FE 发动机控制系统&gt;SFI 系统&gt;检查是否存在间歇性故障<span class="invisible">201406,999999,_51,_023949,_0116049,RM100000000D7Q0,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7PR_13_0006">
+<div class="testtitle"><span class="titleText">2.检查线束和连接器（ECM - 蓄电池、车身接地）</span></div>
+<div class="content6">
+<div class="contentPartition"></div>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A255689.png" alt="A255689" title="A255689">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.094,1.229 0.521,1.49</span>
+<span class="rectangleSize">0.427,0.26</span>
+</span>
+<span class="line">
+<span class="points">2.688,1.271 3.094,1.875</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.615,1.271 1.969,1.854</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.677,1.354 2.458,1.875</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.146,0.083 0.521,0.302</span>
+<span class="captionSize">0.375,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.188,1.271 0.677,1.542</span>
+<span class="captionSize">0.49,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B39</span>
+</span>
+<span class="caption">
+<span class="points">2.948,1.896 3.354,2.052</span>
+<span class="captionSize">0.406,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+BM</span>
+</span>
+<span class="caption">
+<span class="points">1.75,1.917 2.156,2.073</span>
+<span class="captionSize">0.406,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ME01</span>
+</span>
+<span class="caption">
+<span class="points">2.385,1.917 2.792,2.073</span>
+<span class="captionSize">0.406,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E1</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">线束连接器前视图
+<br>
+（至 ECM）
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开 ECM 连接器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">B39-29 (+BM) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">B39-28 (ME01) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">B39-59 (E1) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7PR_13_0006_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>正常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换 ECM</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;1ZR-FE 发动机控制系统&gt;ECM&gt;拆卸<span class="invisible">201406,999999,_51,_023949,_0117699,RM100000000DE6Z,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

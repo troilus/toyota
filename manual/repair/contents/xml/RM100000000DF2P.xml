@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_55">
+<name>转向</name>
+<section id="_023996">
+<name>转向柱</name>
+<ttl id="_0117949">
+<name>转向锁止系统</name>
+<para category="C" id="RM100000000DF2P">
+<dtccode>B2781</dtccode>
+<dtcname>转向锁 ECU 开路/短路</dtcname>
+<subpara category="03" id="RM100000000DF2P_01">
+<name>描述</name>
+<content5>
+<ptxt>转向锁 ECU 和转向锁止马达内置于转向锁执行器总成。</ptxt>
+<ptxt>转向锁 ECU（转向锁执行器总成）利用转向锁止马达的锁止传感器和开锁传感器来检测转向锁是否处于锁止或开锁位置。</ptxt>
+<ptxt>转向锁 ECU（转向锁执行器总成）接收来自认证 ECU（智能钥匙 ECU 总成）的锁止和开锁请求信号，并以锁止和开锁操作信号进行响应。</ptxt>
+<atten4>
+<ptxt>转向锁 ECU（转向锁执行器总成）未连接至 CAN 通信系统。但转向锁 ECU（转向锁执行器总成）通过 LIN 通信连接至认证 ECU（智能钥匙 ECU 总成），并经由认证 ECU（智能钥匙 ECU 总成）通过 CAN 通信与其他零部件进行通信。</ptxt>
+</atten4>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="0.85in"/>
+<colspec colname="2" colwidth="1.27in"/>
+<colspec colname="3" colwidth="2.12in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.42in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B2781</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>转向锁 ECU 开路/短路</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>满足以下任一条件（单程检测逻辑（仅在出现故障且发动机开关置于 ON (IG) 位置时输出））：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>转向锁止传感器或开锁传感器故障（检测开关均打开时，确定系统出现故障。）。</ptxt>
+</item>
+<item>
+<ptxt>转向锁止马达激活电路出现短路。</ptxt>
+</item>
+<item>
+<ptxt>转向锁止马达激活电路出现开路。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>转向锁 ECU（转向锁执行器总成）</ptxt>
+</item>
+<item>
+<ptxt>LIN 通信系统</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="remark">
+<ptxt>DTC 输出确认操作：无需确认操作（持续监视）。</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure translate="E" type="1">
+<graphic graphicname="C285491E01" height="3.812598425in" width="7.168479331in">
+
+</graphic>
+</figure>
+<table pgwide="1">
+<title>检测到故障时的车辆状况和失效保护功能</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测到故障时的车辆状况</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测到故障时的失效保护功能</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>转向不能锁止或开锁。因此，发动机不能起动。</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>禁止发动机起动（发动机曲轴不能转动）。</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>相关数据表和主动测试项目</title>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.36in"/>
+<colspec colname="col2" colwidth="2.36in"/>
+<colspec colname="col3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>数据表项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>主动测试项目</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B2781</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<title>上车和起动</title>
+<item>
+<ptxt>Sensor Value</ptxt>
+</item>
+<item>
+<ptxt>Motor Driver Short</ptxt>
+</item>
+</list1>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DF2P_02">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>发动机开关置于 OFF 位置的情况下使用 GTS 时，将 GTS 连接到车辆并以 1.5 秒或更短的间隔打开和关闭门控灯开关，直至 GTS 和车辆之间开始通信。然后在手动模式下选择车型代码“KEY REGIST”并进入以下菜单：Body Electrical / Entry&amp;Start(CAN)。使用 GTS 时，以 1.5 秒或更短的间隔间歇打开并关闭门控灯开关，以保持 GTS 和车辆间的通信。</ptxt>
+</item>
+<item>
+<ptxt>进行维修后，确认不再输出 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DF2L" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>更换转向锁 ECU（转向锁执行器总成）时，必须进行注册（请参考《服务快讯》）。</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<ptxt>通过 LIN 通信连接的所有 ECU 无法与认证 ECU（智能钥匙 ECU 总成）进行通信时，存储 DTC B2785。</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DF2P_04">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DF2P_04_0001">
+<testtitle>检查 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>使用 GTS，检查是否输出 LIN 通信 DTC B2785。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBVX" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>如果输出 LIN 通信 DTC，则对 LIN 通信系统进行故障排除。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBVU" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.25in"/>
+<colspec colname="col2" colwidth="2.83in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC B2785。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="bottom">
+<ptxt>未输出 DTC B2785。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>转至 LIN 通信系统 (DTC B2785)</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBW3" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="end" cellposition="2-2">
+<actiontitle>更换转向锁 ECU（转向锁执行器总成）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D81R" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <note ewd="WIRE027" code="L50" type="conn">
+    <name>前排右侧座椅座垫加热器总成</name>
+  </note>
+  <note ewd="WIRE027" code="L16" type="conn">
+    <name>前排左侧座椅内安全带总成</name>
+  </note>
+  <note ewd="WIRE027" code="L17" type="conn">
+    <name>前排右侧座椅内安全带总成</name>
+  </note>
+  <note ewd="WIRE027" code="Le1" type="w2w">
+    <name>地板线束和前排左侧座椅空气囊总成</name>
+  </note>
+  <note ewd="WIRE027" code="Lf1" type="w2w">
+    <name>地板线束和前排右侧座椅空气囊总成</name>
+  </note>
+  <note ewd="WIRE027" code="LT1" type="w2w">
+    <name>地板线束和前排左侧座椅线束</name>
+  </note>
+</EwdTree>

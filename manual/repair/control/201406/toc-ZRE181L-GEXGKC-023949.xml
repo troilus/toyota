@@ -1,0 +1,2160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="RM3140CG"><servcat id="_51"><name>发动机/混合动力系统</name><section id="_023949">
+<name>1ZR-FE 发动机控制系统</name>
+<ttl id="_0116049">
+<name>SFI 系统</name><para category="C" dtccode="C1263" id="RM100000000D8E9" term-id-from="001"><dtccode>
+<name>C1263</name>
+<subpara id="RM100000000D8E9_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D8E9_07">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D8E9_08">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D8E9_06">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D8E9_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="C1264" id="RM100000000D8E9" term-id-from="001"><dtccode>
+<name>C1264</name>
+<subpara id="RM100000000D8E9_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D8E9_07">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D8E9_08">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D8E9_06">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D8E9_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0010" id="RM100000000D7PF" term-id-from="001"><dtccode>
+<name>P0010</name>
+<subpara id="RM100000000D7PF_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PF_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PF_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PF_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0011" id="RM100000000D7P4" term-id-from="001"><dtccode>
+<name>P0011</name>
+<subpara id="RM100000000D7P4_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P4_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P4_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P4_15">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P4_10">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0012" id="RM100000000D7P4" term-id-from="001"><dtccode>
+<name>P0012</name>
+<subpara id="RM100000000D7P4_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P4_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P4_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P4_15">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P4_10">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0013" id="RM100000000D7PI" term-id-from="001"><dtccode>
+<name>P0013</name>
+<subpara id="RM100000000D7PI_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PI_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PI_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PI_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0014" id="RM100000000D7PJ" term-id-from="001"><dtccode>
+<name>P0014</name>
+<subpara id="RM100000000D7PJ_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PJ_09">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PJ_10">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PJ_13">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PJ_06">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0015" id="RM100000000D7PJ" term-id-from="001"><dtccode>
+<name>P0015</name>
+<subpara id="RM100000000D7PJ_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PJ_09">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PJ_10">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PJ_13">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PJ_06">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0016" id="RM100000000D7P5" term-id-from="001"><dtccode>
+<name>P0016</name>
+<subpara id="RM100000000D7P5_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P5_10">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P5_11">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P5_12">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7P5_14">
+<name>确认行驶模式</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0017" id="RM100000000D7P5" term-id-from="001"><dtccode>
+<name>P0017</name>
+<subpara id="RM100000000D7P5_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P5_10">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P5_11">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P5_12">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7P5_14">
+<name>确认行驶模式</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0031" id="RM100000000D7P6" term-id-from="001"><dtccode>
+<name>P0031</name>
+<subpara id="RM100000000D7P6_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P6_12">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P6_13">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P6_14">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7P6_17">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P6_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0032" id="RM100000000D7P6" term-id-from="001"><dtccode>
+<name>P0032</name>
+<subpara id="RM100000000D7P6_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P6_12">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P6_13">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P6_14">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7P6_17">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P6_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0037" id="RM100000000D7P7" term-id-from="001"><dtccode>
+<name>P0037</name>
+<subpara id="RM100000000D7P7_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P7_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P7_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P7_04">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7P7_13">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P7_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0038" id="RM100000000D7P7" term-id-from="001"><dtccode>
+<name>P0038</name>
+<subpara id="RM100000000D7P7_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P7_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P7_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P7_04">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7P7_13">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P7_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0102" id="RM100000000D7P0" term-id-from="001"><dtccode>
+<name>P0102</name>
+<subpara id="RM100000000D7P0_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P0_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P0_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P0_10">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P0_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0103" id="RM100000000D7P0" term-id-from="001"><dtccode>
+<name>P0103</name>
+<subpara id="RM100000000D7P0_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P0_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P0_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P0_10">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P0_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0112" id="RM100000000D7OZ" term-id-from="001"><dtccode>
+<name>P0112</name>
+<subpara id="RM100000000D7OZ_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7OZ_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OZ_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OZ_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OZ_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0113" id="RM100000000D7OZ" term-id-from="001"><dtccode>
+<name>P0113</name>
+<subpara id="RM100000000D7OZ_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7OZ_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OZ_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OZ_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OZ_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0115" id="RM100000000D7OV" term-id-from="001"><dtccode>
+<name>P0115</name>
+<subpara id="RM100000000D7OV_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7OV_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OV_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OV_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OV_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0116" id="RM100000000D7PH" term-id-from="001"><dtccode>
+<name>P0116</name>
+<subpara id="RM100000000D7PH_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PH_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PH_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PH_09">
+<name>确认行驶模式</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0117" id="RM100000000D7OV" term-id-from="001"><dtccode>
+<name>P0117</name>
+<subpara id="RM100000000D7OV_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7OV_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OV_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OV_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OV_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0118" id="RM100000000D7OV" term-id-from="001"><dtccode>
+<name>P0118</name>
+<subpara id="RM100000000D7OV_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7OV_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OV_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OV_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OV_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0120" id="RM100000000D7OW" term-id-from="001"><dtccode>
+<name>P0120</name>
+<subpara id="RM100000000D7OW_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7OW_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OW_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OW_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OW_07">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7OW_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0121" id="RM100000000D7OW" term-id-from="001"><dtccode>
+<name>P0121</name>
+<subpara id="RM100000000D7OW_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7OW_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OW_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OW_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OW_07">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7OW_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0122" id="RM100000000D7OW" term-id-from="001"><dtccode>
+<name>P0122</name>
+<subpara id="RM100000000D7OW_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7OW_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OW_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OW_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OW_07">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7OW_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0123" id="RM100000000D7OW" term-id-from="001"><dtccode>
+<name>P0123</name>
+<subpara id="RM100000000D7OW_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7OW_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OW_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OW_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OW_07">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7OW_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0136" id="RM100000000D7QQ" term-id-from="001"><dtccode>
+<name>P0136</name>
+<subpara id="RM100000000D7QQ_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7QQ_14">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7QQ_15">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7QQ_16">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7QQ_17">
+<name>典型故障阈值</name>
+</subpara>
+<subpara id="RM100000000D7QQ_09">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7QQ_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0137" id="RM100000000D7QQ" term-id-from="001"><dtccode>
+<name>P0137</name>
+<subpara id="RM100000000D7QQ_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7QQ_14">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7QQ_15">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7QQ_16">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7QQ_17">
+<name>典型故障阈值</name>
+</subpara>
+<subpara id="RM100000000D7QQ_09">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7QQ_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0138" id="RM100000000D7QQ" term-id-from="001"><dtccode>
+<name>P0138</name>
+<subpara id="RM100000000D7QQ_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7QQ_14">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7QQ_15">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7QQ_16">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7QQ_17">
+<name>典型故障阈值</name>
+</subpara>
+<subpara id="RM100000000D7QQ_09">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7QQ_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0171" id="RM100000000D7PG" term-id-from="001"><dtccode>
+<name>P0171</name>
+<subpara id="RM100000000D7PG_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PG_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PG_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PG_04">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7PG_05">
+<name>典型故障阈值</name>
+</subpara>
+<subpara id="RM100000000D7PG_09">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PG_06">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0172" id="RM100000000D7PG" term-id-from="001"><dtccode>
+<name>P0172</name>
+<subpara id="RM100000000D7PG_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PG_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PG_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PG_04">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7PG_05">
+<name>典型故障阈值</name>
+</subpara>
+<subpara id="RM100000000D7PG_09">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PG_06">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0197" id="RM100000000D7RD" term-id-from="001"><dtccode>
+<name>P0197</name>
+<subpara id="RM100000000D7RD_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7RD_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7RD_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7RD_07">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7RD_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0198" id="RM100000000D7RD" term-id-from="001"><dtccode>
+<name>P0198</name>
+<subpara id="RM100000000D7RD_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7RD_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7RD_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7RD_07">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7RD_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0220" id="RM100000000D7OW" term-id-from="001"><dtccode>
+<name>P0220</name>
+<subpara id="RM100000000D7OW_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7OW_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OW_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OW_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OW_07">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7OW_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0222" id="RM100000000D7OW" term-id-from="001"><dtccode>
+<name>P0222</name>
+<subpara id="RM100000000D7OW_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7OW_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OW_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OW_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OW_07">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7OW_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0223" id="RM100000000D7OW" term-id-from="001"><dtccode>
+<name>P0223</name>
+<subpara id="RM100000000D7OW_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7OW_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OW_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OW_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OW_07">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7OW_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0300" id="RM100000000D7QM" term-id-from="001"><dtccode>
+<name>P0300</name>
+<subpara id="RM100000000D7QM_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7QM_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7QM_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7QM_04">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7QM_08">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7QM_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0301" id="RM100000000D7QM" term-id-from="001"><dtccode>
+<name>P0301</name>
+<subpara id="RM100000000D7QM_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7QM_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7QM_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7QM_04">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7QM_08">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7QM_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0302" id="RM100000000D7QM" term-id-from="001"><dtccode>
+<name>P0302</name>
+<subpara id="RM100000000D7QM_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7QM_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7QM_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7QM_04">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7QM_08">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7QM_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0303" id="RM100000000D7QM" term-id-from="001"><dtccode>
+<name>P0303</name>
+<subpara id="RM100000000D7QM_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7QM_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7QM_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7QM_04">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7QM_08">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7QM_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0304" id="RM100000000D7QM" term-id-from="001"><dtccode>
+<name>P0304</name>
+<subpara id="RM100000000D7QM_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7QM_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7QM_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7QM_04">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7QM_08">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7QM_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0327" id="RM100000000D7P1" term-id-from="001"><dtccode>
+<name>P0327</name>
+<subpara id="RM100000000D7P1_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P1_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P1_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P1_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P1_06">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0328" id="RM100000000D7P1" term-id-from="001"><dtccode>
+<name>P0328</name>
+<subpara id="RM100000000D7P1_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P1_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P1_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P1_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P1_06">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0335" id="RM100000000D7P2" term-id-from="001"><dtccode>
+<name>P0335</name>
+<subpara id="RM100000000D7P2_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P2_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P2_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P2_15">
+<name>零部件工作范围</name>
+</subpara>
+<subpara id="RM100000000D7P2_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P2_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0339" id="RM100000000D7P2" term-id-from="001"><dtccode>
+<name>P0339</name>
+<subpara id="RM100000000D7P2_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P2_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P2_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P2_15">
+<name>零部件工作范围</name>
+</subpara>
+<subpara id="RM100000000D7P2_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P2_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0340" id="RM100000000D7OX" term-id-from="001"><dtccode>
+<name>P0340</name>
+<subpara id="RM100000000D7OX_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7OX_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OX_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OX_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OX_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0342" id="RM100000000D7OX" term-id-from="001"><dtccode>
+<name>P0342</name>
+<subpara id="RM100000000D7OX_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7OX_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OX_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OX_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OX_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0343" id="RM100000000D7OX" term-id-from="001"><dtccode>
+<name>P0343</name>
+<subpara id="RM100000000D7OX_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7OX_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OX_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OX_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OX_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0351" id="RM100000000D7P3" term-id-from="001"><dtccode>
+<name>P0351</name>
+<subpara id="RM100000000D7P3_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P3_10">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P3_11">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P3_15">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P3_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0352" id="RM100000000D7P3" term-id-from="001"><dtccode>
+<name>P0352</name>
+<subpara id="RM100000000D7P3_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P3_10">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P3_11">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P3_15">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P3_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0353" id="RM100000000D7P3" term-id-from="001"><dtccode>
+<name>P0353</name>
+<subpara id="RM100000000D7P3_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P3_10">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P3_11">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P3_15">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P3_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0354" id="RM100000000D7P3" term-id-from="001"><dtccode>
+<name>P0354</name>
+<subpara id="RM100000000D7P3_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P3_10">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P3_11">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P3_15">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P3_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0365" id="RM100000000D7PK" term-id-from="001"><dtccode>
+<name>P0365</name>
+<subpara id="RM100000000D7PK_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PK_14">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PK_15">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PK_19">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PK_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0367" id="RM100000000D7PK" term-id-from="001"><dtccode>
+<name>P0367</name>
+<subpara id="RM100000000D7PK_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PK_14">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PK_15">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PK_19">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PK_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0368" id="RM100000000D7PK" term-id-from="001"><dtccode>
+<name>P0368</name>
+<subpara id="RM100000000D7PK_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PK_14">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PK_15">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PK_19">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PK_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0420" id="RM100000000D7OY" term-id-from="001"><dtccode>
+<name>P0420</name>
+<subpara id="RM100000000D7OY_01">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OY_11">
+<name>催化剂位置</name>
+</subpara>
+<subpara id="RM100000000D7OY_02">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OY_03">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7OY_10">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OY_08">
+<name>传感器测试的条件</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0443" id="RM100000000D7QN" term-id-from="001"><dtccode>
+<name>P0443</name>
+<subpara id="RM100000000D7QN_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7QN_06">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7QN_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0500" id="RM100000000D7P8" term-id-from="001"><dtccode>
+<name>P0500</name>
+<subpara id="RM100000000D7P8_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P8_10">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P8_11">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P8_12">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7P8_13">
+<name>典型故障阈值</name>
+</subpara>
+<subpara id="RM100000000D7P8_14">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P8_06">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0504" id="RM100000000D7P9" term-id-from="001"><dtccode>
+<name>P0504</name>
+<subpara id="RM100000000D7P9_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P9_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0560" id="RM100000000D7PA" term-id-from="001"><dtccode>
+<name>P0560</name>
+<subpara id="RM100000000D7PA_01">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PA_08">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PA_10">
+<name>典型故障阈值</name>
+</subpara>
+<subpara id="RM100000000D7PA_11">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PA_05">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0604" id="RM100000000D7PB" term-id-from="001"><dtccode>
+<name>P0604</name>
+<subpara id="RM100000000D7PB_01">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PB_02">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PB_07">
+<name>确认行驶模式</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0606" id="RM100000000D7PC" term-id-from="001"><dtccode>
+<name>P0606</name>
+<subpara id="RM100000000D7PC_01">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PC_02">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PC_07">
+<name>确认行驶模式</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P060A" id="RM100000000D7PL" term-id-from="001"><dtccode>
+<name>P060A</name>
+<subpara id="RM100000000D7PL_01">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PL_02">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PL_07">
+<name>确认行驶模式</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P060B" id="RM100000000D7QR" term-id-from="001"><dtccode>
+<name>P060B</name>
+<subpara id="RM100000000D7QR_01">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7QR_02">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7QR_07">
+<name>确认行驶模式</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P060D" id="RM100000000D7PM" term-id-from="001"><dtccode>
+<name>P060D</name>
+<subpara id="RM100000000D7PM_01">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PM_02">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PM_04">
+<name>典型故障阈值</name>
+</subpara>
+<subpara id="RM100000000D7PM_07">
+<name>确认行驶模式</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P060E" id="RM100000000D7PN" term-id-from="001"><dtccode>
+<name>P060E</name>
+<subpara id="RM100000000D7PN_01">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PN_02">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PN_07">
+<name>确认行驶模式</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0617" id="RM100000000D7PD" term-id-from="001"><dtccode>
+<name>P0617</name>
+<subpara id="RM100000000D7PD_08">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PD_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PD_13">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7PD_14">
+<name>典型故障阈值</name>
+</subpara>
+<subpara id="RM100000000D7PD_15">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PD_05">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0630" id="RM100000000D7RC" term-id-from="001"><dtccode>
+<name>P0630</name>
+<subpara id="RM100000000D7RC_01">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7RC_02">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7RC_08">
+<name>确认行驶模式</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0657" id="RM100000000D7PE" term-id-from="001"><dtccode>
+<name>P0657</name>
+<subpara id="RM100000000D7PE_01">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PE_02">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PE_07">
+<name>确认行驶模式</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P0724" id="RM100000000D7PO" term-id-from="001"><dtccode>
+<name>P0724</name>
+<subpara id="RM100000000D7PO_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PO_05">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PO_06">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PO_09">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PO_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P101D" id="RM100000000D7P6" term-id-from="001"><dtccode>
+<name>P101D</name>
+<subpara id="RM100000000D7P6_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P6_12">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P6_13">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P6_14">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7P6_17">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P6_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P102D" id="RM100000000D7P7" term-id-from="001"><dtccode>
+<name>P102D</name>
+<subpara id="RM100000000D7P7_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7P7_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7P7_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7P7_04">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7P7_13">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7P7_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P1603" id="RM100000000D7QG" term-id-from="001"><dtccode>
+<name>P1603</name>
+<subpara id="RM100000000D7QG_05">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P1604" id="RM100000000D7QH" term-id-from="001"><dtccode>
+<name>P1604</name>
+<subpara id="RM100000000D7QH_05">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P1605" id="RM100000000D7QG" term-id-from="001"><dtccode>
+<name>P1605</name>
+<subpara id="RM100000000D7QG_05">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2102" id="RM100000000D7PP" term-id-from="001"><dtccode>
+<name>P2102</name>
+<subpara id="RM100000000D7PP_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PP_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PP_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PP_10">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PP_06">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7PP_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2103" id="RM100000000D7PP" term-id-from="001"><dtccode>
+<name>P2103</name>
+<subpara id="RM100000000D7PP_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PP_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PP_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PP_10">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PP_06">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7PP_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2109" id="RM100000000D7QI" term-id-from="001"><dtccode>
+<name>P2109</name>
+<subpara id="RM100000000D7QI_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7QI_02">
+<name>监视描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2111" id="RM100000000D7PQ" term-id-from="001"><dtccode>
+<name>P2111</name>
+<subpara id="RM100000000D7PQ_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PQ_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PQ_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PQ_04">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7PQ_05">
+<name>典型故障阈值</name>
+</subpara>
+<subpara id="RM100000000D7PQ_10">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PQ_06">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7PQ_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2112" id="RM100000000D7PQ" term-id-from="001"><dtccode>
+<name>P2112</name>
+<subpara id="RM100000000D7PQ_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PQ_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PQ_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PQ_04">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7PQ_05">
+<name>典型故障阈值</name>
+</subpara>
+<subpara id="RM100000000D7PQ_10">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PQ_06">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7PQ_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2118" id="RM100000000D7PR" term-id-from="001"><dtccode>
+<name>P2118</name>
+<subpara id="RM100000000D7PR_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PR_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PR_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PR_12">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PR_07">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7PR_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2119" id="RM100000000D7PS" term-id-from="001"><dtccode>
+<name>P2119</name>
+<subpara id="RM100000000D7PS_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PS_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PS_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PS_04">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7PS_05">
+<name>典型故障阈值</name>
+</subpara>
+<subpara id="RM100000000D7PS_10">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PS_06">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7PS_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2120" id="RM100000000D7PT" term-id-from="001"><dtccode>
+<name>P2120</name>
+<subpara id="RM100000000D7PT_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PT_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PT_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PT_06">
+<name>零部件工作范围</name>
+</subpara>
+<subpara id="RM100000000D7PT_12">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PT_07">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7PT_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2121" id="RM100000000D7PU" term-id-from="001"><dtccode>
+<name>P2121</name>
+<subpara id="RM100000000D7PU_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PU_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PU_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PU_10">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PU_06">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7PU_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2122" id="RM100000000D7PT" term-id-from="001"><dtccode>
+<name>P2122</name>
+<subpara id="RM100000000D7PT_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PT_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PT_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PT_06">
+<name>零部件工作范围</name>
+</subpara>
+<subpara id="RM100000000D7PT_12">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PT_07">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7PT_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2123" id="RM100000000D7PT" term-id-from="001"><dtccode>
+<name>P2123</name>
+<subpara id="RM100000000D7PT_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PT_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PT_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PT_06">
+<name>零部件工作范围</name>
+</subpara>
+<subpara id="RM100000000D7PT_12">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PT_07">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7PT_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2125" id="RM100000000D7PT" term-id-from="001"><dtccode>
+<name>P2125</name>
+<subpara id="RM100000000D7PT_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PT_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PT_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PT_06">
+<name>零部件工作范围</name>
+</subpara>
+<subpara id="RM100000000D7PT_12">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PT_07">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7PT_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2127" id="RM100000000D7PT" term-id-from="001"><dtccode>
+<name>P2127</name>
+<subpara id="RM100000000D7PT_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PT_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PT_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PT_06">
+<name>零部件工作范围</name>
+</subpara>
+<subpara id="RM100000000D7PT_12">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PT_07">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7PT_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2128" id="RM100000000D7PT" term-id-from="001"><dtccode>
+<name>P2128</name>
+<subpara id="RM100000000D7PT_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PT_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PT_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PT_06">
+<name>零部件工作范围</name>
+</subpara>
+<subpara id="RM100000000D7PT_12">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PT_07">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7PT_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2135" id="RM100000000D7OW" term-id-from="001"><dtccode>
+<name>P2135</name>
+<subpara id="RM100000000D7OW_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7OW_11">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7OW_12">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7OW_16">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7OW_07">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7OW_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2138" id="RM100000000D7PT" term-id-from="001"><dtccode>
+<name>P2138</name>
+<subpara id="RM100000000D7PT_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PT_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PT_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PT_06">
+<name>零部件工作范围</name>
+</subpara>
+<subpara id="RM100000000D7PT_12">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PT_07">
+<name>失效保护</name>
+</subpara>
+<subpara id="RM100000000D7PT_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2195" id="RM100000000D7QF" term-id-from="001"><dtccode>
+<name>P2195</name>
+<subpara id="RM100000000D7QF_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7QF_12">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7QF_13">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7QF_14">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7QF_15">
+<name>典型故障阈值</name>
+</subpara>
+<subpara id="RM100000000D7QF_08">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7QF_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2196" id="RM100000000D7QF" term-id-from="001"><dtccode>
+<name>P2196</name>
+<subpara id="RM100000000D7QF_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7QF_12">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7QF_13">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7QF_14">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7QF_15">
+<name>典型故障阈值</name>
+</subpara>
+<subpara id="RM100000000D7QF_08">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7QF_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2228" id="RM100000000DETH" term-id-from="001"><dtccode>
+<name>P2228</name>
+<subpara id="RM100000000DETH_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DETH_06">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DETH_07">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000DETH_11">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000DETH_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2229" id="RM100000000DETH" term-id-from="001"><dtccode>
+<name>P2229</name>
+<subpara id="RM100000000DETH_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DETH_06">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000DETH_07">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000DETH_11">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000DETH_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2237" id="RM100000000D7PV" term-id-from="001"><dtccode>
+<name>P2237</name>
+<subpara id="RM100000000D7PV_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PV_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PV_04">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PV_11">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PV_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2238" id="RM100000000D7PV" term-id-from="001"><dtccode>
+<name>P2238</name>
+<subpara id="RM100000000D7PV_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PV_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PV_04">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PV_11">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PV_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2239" id="RM100000000D7PV" term-id-from="001"><dtccode>
+<name>P2239</name>
+<subpara id="RM100000000D7PV_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PV_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PV_04">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PV_11">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PV_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2252" id="RM100000000D7PV" term-id-from="001"><dtccode>
+<name>P2252</name>
+<subpara id="RM100000000D7PV_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PV_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PV_04">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PV_11">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PV_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2253" id="RM100000000D7PV" term-id-from="001"><dtccode>
+<name>P2253</name>
+<subpara id="RM100000000D7PV_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7PV_03">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7PV_04">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7PV_11">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7PV_08">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2610" id="RM100000000D7RE" term-id-from="001"><dtccode>
+<name>P2610</name>
+<subpara id="RM100000000D7RE_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7RE_09">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7RE_12">
+<name>确认行驶模式</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="P2A00" id="RM100000000D7QS" term-id-from="001"><dtccode>
+<name>P2A00</name>
+<subpara id="RM100000000D7QS_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D7QS_02">
+<name>监视描述</name>
+</subpara>
+<subpara id="RM100000000D7QS_03">
+<name>监视策略</name>
+</subpara>
+<subpara id="RM100000000D7QS_04">
+<name>典型启动条件</name>
+</subpara>
+<subpara id="RM100000000D7QS_11">
+<name>确认行驶模式</name>
+</subpara>
+<subpara id="RM100000000D7QS_07">
+<name>电路图</name>
+</subpara>
+</dtccode></para>
+<para category="L" id="RM100000000D7PW" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="D" id="RM100000000D7PX" term-id-from="001">
+<name>术语定义</name>
+</para>
+<para category="R" id="RM100000000D7PY" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000D7QJ" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="Y" id="RM100000000D7PZ" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="D" id="RM100000000D7Q0" term-id-from="001">
+<name>检查是否存在间歇性故障</name>
+</para>
+<para category="Y" id="RM100000000D7Q1" term-id-from="001">
+<name>基本检查</name>
+</para>
+<para category="M" id="RM100000000D7RB" term-id-from="001">
+<name>注册</name>
+</para>
+<para category="D" id="RM100000000D7Q2" term-id-from="001">
+<name>初始化</name>
+</para>
+<para category="T" id="RM100000000D7QK" term-id-from="001">
+<name>故障症状表</name>
+</para>
+<para category="U" id="RM100000000D7QL" term-id-from="001">
+<name>ECM 端子</name>
+</para>
+<para category="D" id="RM100000000D7Q3" term-id-from="001">
+<name>诊断系统</name>
+</para>
+<para category="D" id="RM100000000D7Q4" term-id-from="001">
+<name>DTC 检查/清除</name>
+</para>
+<para category="D" id="RM100000000D7Q5" term-id-from="001">
+<name>定格数据</name>
+</para>
+<para category="D" id="RM100000000D7Q6" term-id-from="001">
+<name>检查模式程序</name>
+</para>
+<para category="U" id="RM100000000D7Q7" term-id-from="001">
+<name>失效保护表</name>
+</para>
+<para category="U" id="RM100000000D7Q8" term-id-from="001">
+<name>数据表/主动测试</name>
+</para>
+<para category="S" id="RM100000000D7QP" term-id-from="001">
+<name>诊断故障码表</name>
+</para>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<para category="J" id="RM100000000DB7W" term-id-from="001">
+<name>ECM 电源电路</name>
+</para>
+<para category="J" id="RM100000000D7QA" term-id-from="001">
+<name>VC 输出电路</name>
+</para>
+<para category="J" id="RM100000000DB7X" term-id-from="001">
+<name>燃油泵控制电路</name>
+</para>
+<para category="J" id="RM100000000D7QC" term-id-from="001">
+<name>喷油器电路</name>
+</para>
+<para category="J" id="RM100000000D7QD" term-id-from="001">
+<name>起动机信号电路</name>
+</para>
+<para category="J" id="RM100000000D7QO" term-id-from="001">
+<name>制动优先系统</name>
+</para>
+<para category="J" id="RM100000000D7QE" term-id-from="001">
+<name>MIL 电路</name>
+</para>
+</ttl>
+<ttl id="_0117696">
+<name>点火系统</name>
+<para category="R" id="RM100000000DE6K" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000DE6L" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="G" id="RM100000000DE6M" term-id-from="001">
+<name>车上检查</name>
+</para>
+</ttl>
+<ttl id="_0117697">
+<name>凸轮轴机油控制阀</name>
+<para category="K" id="RM100000000DE6N" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="G" id="RM100000000DE6O" term-id-from="001">
+<name>车上检查</name>
+</para>
+<para category="A" id="RM100000000DE6P" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DE6Q" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DE6R" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117698">
+<name>节气门体</name>
+<para category="K" id="RM100000000DE6T" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="G" id="RM100000000DE6U" term-id-from="001">
+<name>车上检查</name>
+</para>
+<para category="A" id="RM100000000DE6W" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DE6S" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DE6V" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117699">
+<name>ECM</name>
+<para category="K" id="RM100000000DE6X" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DE6Z" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DE6Y" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117700">
+<name>加速踏板</name>
+<para category="K" id="RM100000000DE71" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="G" id="RM100000000DE73" term-id-from="001">
+<name>车上检查</name>
+</para>
+<para category="A" id="RM100000000DE72" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DE70" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117701">
+<name>质量空气流量计</name>
+<para category="K" id="RM100000000DE76" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="G" id="RM100000000DE78" term-id-from="001">
+<name>车上检查</name>
+</para>
+<para category="A" id="RM100000000DE77" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DE75" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DE74" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117702">
+<name>凸轮轴位置传感器</name>
+<para category="K" id="RM100000000DE79" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DE7B" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DE7A" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117703">
+<name>曲轴位置传感器</name>
+<para category="K" id="RM100000000DE7E" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DE7F" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DE7D" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DE7C" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117704">
+<name>点火线圈和火花塞</name>
+<para category="K" id="RM100000000DE7G" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DE7I" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DE7H" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117705">
+<name>发动机冷却液温度传感器</name>
+<para category="K" id="RM100000000DE7K" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DE7M" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DE7J" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DE7L" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117711">
+<name>发动机机油温度传感器</name>
+<para category="K" id="RM100000000DE87" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DE88" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DE89" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DE8A" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117706">
+<name>爆震传感器</name>
+<para category="K" id="RM100000000DE7O" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DE7Q" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DE7N" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DE7P" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117707">
+<name>空燃比传感器</name>
+<para category="K" id="RM100000000DE7S" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DE7U" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DE7R" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DE7T" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117708">
+<name>加热型氧传感器</name>
+<para category="K" id="RM100000000DE7W" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DE7X" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DE7V" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DE7Y" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117709">
+<name>继电器</name>
+<para category="G" id="RM100000000DE7Z" term-id-from="001">
+<name>车上检查</name>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

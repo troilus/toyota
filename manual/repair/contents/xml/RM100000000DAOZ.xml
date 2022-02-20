@@ -1,0 +1,6185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024009">
+<name>辅助乘员保护系统</name>
+<ttl id="_0116617">
+<name>空气囊系统</name>
+<para category="C" id="RM100000000DAOZ">
+<dtccode>B1622/81</dtccode>
+<dtcname>与右侧侧空气囊传感器失去通信</dtcname>
+<dtccode>B1623/81</dtccode>
+<dtcname>右侧侧空气囊传感器总成初始化未完成</dtcname>
+<dtccode>B1632/81</dtccode>
+<dtcname>与右后空气囊传感器失去通信</dtcname>
+<dtccode>B1633/81</dtccode>
+<dtcname>右后空气囊传感器总成初始化未完成</dtcname>
+<dtccode>B1642/81</dtccode>
+<dtcname>与右侧卫星传感器总线失去通信</dtcname>
+<dtccode>B1643/81</dtccode>
+<dtcname>右侧卫星传感器总线初始化未完成</dtcname>
+<subpara category="03" id="RM100000000DAOZ_02">
+<name>描述</name>
+<content5>
+<ptxt>右侧碰撞传感器电路（决定前排右侧座椅空气囊总成、右侧帘式空气囊总成* 和前排右侧座椅外安全带总成的展开）包括空气囊 ECU 总成、右侧侧空气囊传感器总成和右侧 2 号侧空气囊传感器总成*。</ptxt>
+<ptxt>右侧侧空气囊传感器总成和右侧 2 号侧空气囊传感器总成* 检测车辆碰撞并将信号发送到空气囊 ECU 总成，以确定是否应展开空气囊和预紧器。</ptxt>
+<ptxt>检测到右侧碰撞传感器电路存在故障时，存储这些 DTC。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="0.71in"/>
+<colspec colname="2" colwidth="0.71in"/>
+<colspec colname="3" colwidth="2.83in"/>
+<colspec colname="4" colwidth="2.12in"/>
+<colspec colname="5" colwidth="0.71in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测试模式/检查模式</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B1622/81</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与右侧侧空气囊传感器失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<list1 type="unordered">
+<item>
+<ptxt>空气囊 ECU 总成检测到线路短路、对接地或 B+ 短路或右侧碰撞传感器电路开路。</ptxt>
+</item>
+<item>
+<ptxt>右侧侧空气囊传感器总成故障</ptxt>
+</item>
+<item>
+<ptxt>右侧 2 号侧空气囊传感器总成故障*</ptxt>
+</item>
+<item>
+<ptxt>空气囊 ECU 总成故障</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>地板线束</ptxt>
+</item>
+<item>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</item>
+<item>
+<ptxt>右侧 2 号侧空气囊传感器总成*</ptxt>
+</item>
+<item>
+<ptxt>空气囊 ECU 总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="test-mode">
+<ptxt>不适用于测试/检查模式</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B1623/81</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>右侧侧空气囊传感器总成初始化未完成</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<list1 type="unordered">
+<item>
+<ptxt>空气囊 ECU 总成检测到线路短路、对接地或 B+ 短路或右侧碰撞传感器电路开路。</ptxt>
+</item>
+<item>
+<ptxt>右侧侧空气囊传感器总成故障</ptxt>
+</item>
+<item>
+<ptxt>右侧 2 号侧空气囊传感器总成故障*</ptxt>
+</item>
+<item>
+<ptxt>空气囊 ECU 总成故障</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>地板线束</ptxt>
+</item>
+<item>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</item>
+<item>
+<ptxt>右侧 2 号侧空气囊传感器总成*</ptxt>
+</item>
+<item>
+<ptxt>空气囊 ECU 总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="test-mode">
+<ptxt>不适用于测试/检查模式</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B1632/81</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与右后空气囊传感器失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<list1 type="unordered">
+<item>
+<ptxt>空气囊 ECU 总成检测到线路短路、对接地或 B+ 短路或右侧碰撞传感器电路开路。</ptxt>
+</item>
+<item>
+<ptxt>右侧侧空气囊传感器总成故障</ptxt>
+</item>
+<item>
+<ptxt>右侧 2 号侧空气囊传感器总成故障</ptxt>
+</item>
+<item>
+<ptxt>空气囊 ECU 总成故障</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>地板线束</ptxt>
+</item>
+<item>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</item>
+<item>
+<ptxt>右侧 2 号侧空气囊传感器总成</ptxt>
+</item>
+<item>
+<ptxt>空气囊 ECU 总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="test-mode">
+<ptxt>不适用于测试/检查模式</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B1633/81</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>右后空气囊传感器总成初始化未完成</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<list1 type="unordered">
+<item>
+<ptxt>空气囊 ECU 总成检测到线路短路、对接地或 B+ 短路或右侧碰撞传感器电路开路。</ptxt>
+</item>
+<item>
+<ptxt>右侧侧空气囊传感器总成故障</ptxt>
+</item>
+<item>
+<ptxt>右侧 2 号侧空气囊传感器总成故障</ptxt>
+</item>
+<item>
+<ptxt>空气囊 ECU 总成故障</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>地板线束</ptxt>
+</item>
+<item>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</item>
+<item>
+<ptxt>右侧 2 号侧空气囊传感器总成</ptxt>
+</item>
+<item>
+<ptxt>空气囊 ECU 总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="test-mode">
+<ptxt>不适用于测试/检查模式</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B1642/81</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与右侧卫星传感器总线失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<list1 type="unordered">
+<item>
+<ptxt>空气囊 ECU 总成检测到线路短路、对接地或 B+ 短路或右侧碰撞传感器电路开路。</ptxt>
+</item>
+<item>
+<ptxt>右侧侧空气囊传感器总成故障</ptxt>
+</item>
+<item>
+<ptxt>右侧 2 号侧空气囊传感器总成故障</ptxt>
+</item>
+<item>
+<ptxt>空气囊 ECU 总成故障</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>地板线束</ptxt>
+</item>
+<item>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</item>
+<item>
+<ptxt>右侧 2 号侧空气囊传感器总成</ptxt>
+</item>
+<item>
+<ptxt>空气囊 ECU 总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="test-mode">
+<ptxt>不适用于测试/检查模式</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B1643/81</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>右侧卫星传感器总线初始化未完成</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<list1 type="unordered">
+<item>
+<ptxt>空气囊 ECU 总成检测到线路短路、对接地或 B+ 短路或右侧碰撞传感器电路开路。</ptxt>
+</item>
+<item>
+<ptxt>右侧侧空气囊传感器总成故障</ptxt>
+</item>
+<item>
+<ptxt>右侧 2 号侧空气囊传感器总成故障</ptxt>
+</item>
+<item>
+<ptxt>空气囊 ECU 总成故障</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>地板线束</ptxt>
+</item>
+<item>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</item>
+<item>
+<ptxt>右侧 2 号侧空气囊传感器总成</ptxt>
+</item>
+<item>
+<ptxt>空气囊 ECU 总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="test-mode">
+<ptxt>不适用于测试/检查模式</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*：带帘式空气囊</ptxt>
+</item>
+</list1>
+<atten4>
+<ptxt>仅在车辆配备有帘式空气囊的情况下输出 B1632、B1633、B1642 和 B1643。</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DAOZ_03">
+<name>电路图</name>
+<content5>
+<step1>
+<ptxt>不带帘式空气囊：</ptxt>
+<figure translate="E" type="1">
+<graphic graphicname="C303969E01" height="3.812598425in" width="7.168479331in">
+
+</graphic>
+</figure>
+</step1>
+<step1>
+<ptxt>带帘式空气囊：</ptxt>
+<figure translate="E" type="1">
+<graphic graphicname="C239250E55" height="5.838041339in" width="7.168479331in">
+
+</graphic>
+</figure>
+</step1>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DAOZ_04">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>将点火开关置于 OFF 位置后，断开蓄电池负极 (-) 端子电缆前，可能需要等待一段时间。因此，继续工作前，确保阅读断开蓄电池负极 (-) 端子电缆的注意事项。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB82" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DAOZ_01">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DAOZ_01_0084">
+<testtitle>检查车辆状况</testtitle>
+<content6>
+<test1>
+<ptxt>选择要检查的车型。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>不带帘式空气囊</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>带帘式空气囊</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DAOZ_01_0085"/>
+</result>
+<result cellposition="1-9" label="2">
+<action actiontype="next" cellposition="2-9" childid="RM100000000DAOZ_01_0016"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DAOZ_01_0085">
+<testtitle>检查连接器</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<test1>
+<ptxt>检查并确认连接器已正确连接到空气囊 ECU 总成和右侧侧空气囊传感器总成上。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>连接器已正确连接。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>如果连接器未正确连接，则重新连接连接器并进行下一步检查。</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>从空气囊 ECU 总成和右侧侧空气囊传感器总成上断开连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>检查并确认连接器的端子未损坏。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>端子未变形或损坏。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000DAOZ_01_0087"/>
+</result>
+<result cellposition="2-8" label="3">
+<action actiontype="end" cellposition="3-8">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000DAOZ_01_0087">
+<testtitle>检查地板线束（开路）</testtitle>
+<content6>
+<test1>
+<ptxt>C51 手动传动桥车型：</ptxt>
+<ptxt>使用外接线，连接连接器 B 的端子 12 (BBR+) 和 11 (BBR-)。</ptxt>
+<atten3>
+<ptxt>连接时不要将外接线强行插入连接器端子内。</ptxt>
+</atten3>
+</test1>
+<test1>
+<ptxt>除 C51 手动传动桥车型外：</ptxt>
+<ptxt>使用外接线，连接连接器 B 的端子 8 (BBR+) 和 11 (BBR-)。</ptxt>
+<atten3>
+<ptxt>连接时不要将外接线强行插入连接器端子内。</ptxt>
+</atten3>
+</test1>
+<figure translate="C" type="1">
+<graphic graphicname="C303902C01" height="3.812598425in" width="7.168479331in"/>
+<callout>
+<table pgwide="1" type="caption-table">
+<tgroup cols="4">
+<colspec colname="col1" colnum="1" colwidth="0.72in"/>
+<colspec colname="col2" colnum="2" colwidth="2.87in"/>
+<colspec colname="col3" colnum="3" colwidth="0.72in"/>
+<colspec colname="col4" colnum="4" colwidth="2.87in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C51 手动传动桥车型</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>除 C51 手动传动桥车型外</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>地板线束</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>外接线</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至空气囊 ECU 总成）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L46-2 (BBR+) - L46-1 (BBR-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>从连接器 B 上断开外接线。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000DAOZ_01_0088"/>
+</result>
+<result cellposition="3-7" label="3">
+<action actiontype="end" cellposition="4-7">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000DAOZ_01_0088">
+<testtitle>检查地板线束（短路）</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C303903C01" height="2.799876969in" width="7.168479331in"/>
+<callout>
+<table pgwide="1" type="caption-table">
+<tgroup cols="4">
+<colspec colname="col1" colnum="1" colwidth="0.72in"/>
+<colspec colname="col2" colnum="2" colwidth="2.87in"/>
+<colspec colname="col3" colnum="3" colwidth="0.72in"/>
+<colspec colname="col4" colnum="4" colwidth="2.87in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C51 手动传动桥车型</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>除 C51 手动传动桥车型外</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>地板线束</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L46-2 (BBR+) - L46-1 (BBR-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000DAOZ_01_0089"/>
+</result>
+<result cellposition="4-6" label="2">
+<action actiontype="end" cellposition="5-6">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000DAOZ_01_0089">
+<testtitle>检查地板线束（对 B+ 短路）</testtitle>
+<content6>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C303903C01" height="2.799876969in" width="7.168479331in"/>
+<callout>
+<table pgwide="1" type="caption-table">
+<tgroup cols="4">
+<colspec colname="col1" colnum="1" colwidth="0.72in"/>
+<colspec colname="col2" colnum="2" colwidth="2.87in"/>
+<colspec colname="col3" colnum="3" colwidth="0.72in"/>
+<colspec colname="col4" colnum="4" colwidth="2.87in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C51 手动传动桥车型</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>除 C51 手动传动桥车型外</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>地板线束</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L46-2 (BBR+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>低于 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>L46-1 (BBR-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>低于 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="next" cellposition="6-1" childid="RM100000000DAOZ_01_0090"/>
+</result>
+<result cellposition="5-5" label="2">
+<action actiontype="end" cellposition="6-5">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-1" id="RM100000000DAOZ_01_0090">
+<testtitle>检查地板线束（对接地短路）</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C303903C01" height="2.799876969in" width="7.168479331in"/>
+<callout>
+<table pgwide="1" type="caption-table">
+<tgroup cols="4">
+<colspec colname="col1" colnum="1" colwidth="0.72in"/>
+<colspec colname="col2" colnum="2" colwidth="2.87in"/>
+<colspec colname="col3" colnum="3" colwidth="0.72in"/>
+<colspec colname="col4" colnum="4" colwidth="2.87in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C51 手动传动桥车型</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>除 C51 手动传动桥车型外</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>地板线束</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L46-2 (BBR+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>L46-1 (BBR-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-1" label="1">
+<action actiontype="next" cellposition="7-1" childid="RM100000000DAOZ_01_0091"/>
+</result>
+<result cellposition="6-4" label="2">
+<action actiontype="end" cellposition="7-4">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-1" id="RM100000000DAOZ_01_0091">
+<testtitle>检查右侧侧空气囊传感器总成</testtitle>
+<content6>
+<test1>
+<ptxt>将连接器连接到空气囊 ECU 总成上。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C303901C01" height="4.677165354in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C51 手动传动桥车型</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>除 C51 手动传动桥车型外</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>左侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>互换左侧和右侧侧空气囊传感器总成，并连接连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+</test1>
+<test1>
+<ptxt>清除存储器中存储的 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; SRS Airbag &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置并等待至少 60 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; SRS Airbag &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<atten4>
+<ptxt>此时可能会输出 DTC B1622/81、B1623/81、B1627/82 和 B1628/82 以外的代码，但这些代码与本项检查无关。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC B1622/81 或 B1623/81。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC B1627/82 或 B1628/82。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>未输出 DTC B1622/81、B1623/81、B1627/82 和 B1628/82。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<test1>
+<ptxt>将左侧和右侧侧空气囊传感器总成恢复原位，并连接连接器。</ptxt>
+</test1>
+</content6>
+<results>
+<result cellposition="7-1" label="1">
+<action actiontype="end" cellposition="8-1">
+<actiontitle>更换空气囊 ECU 总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96H" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="7-2" label="2">
+<action actiontype="end" cellposition="8-2">
+<actiontitle>更换右侧侧空气囊传感器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96P" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="7-3" label="3">
+<action actiontype="end" cellposition="8-3">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-9" id="RM100000000DAOZ_01_0016">
+<testtitle>检查当前 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>检查当前 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; SRS Airbag &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果将点火开关置于 OFF 位置后再置于 ON 位置，则代表通信故障的 DTC 将变成代表初始化故障的 DTC。</ptxt>
+</item>
+<item>
+<ptxt>此时可能会输出 DTC B1622、B1623、B1632、B1633、B1642、B1643 和 81 以外的代码，但这些代码与本项检查无关。</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>输出当前 DTC B1642、B1643 或 81。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>输出当前 DTC B1623。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="6">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>输出当前 DTC B1632 或 B1633。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>输出当前 DTC B1622。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="4">
+<ptxt>D</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>未输出当前 DTC B1622、B1623、B1632、B1633、B1642、B1643 和 81。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="5">
+<ptxt>E</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-9" label="1">
+<action actiontype="next" cellposition="3-9" childid="RM100000000DAOZ_01_0017"/>
+</result>
+<result cellposition="2-23" label="6">
+<action actiontype="next" cellposition="3-23" childid="RM100000000DAOZ_01_0043"/>
+</result>
+<result cellposition="2-38" label="3">
+<action actiontype="next" cellposition="3-38" childid="RM100000000DAOZ_01_0062"/>
+</result>
+<result cellposition="2-48" label="4">
+<action actiontype="next" cellposition="3-48" childid="RM100000000DAOZ_01_0079"/>
+</result>
+<result cellposition="2-51" label="5">
+<action actiontype="end" cellposition="3-51">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-9" id="RM100000000DAOZ_01_0017">
+<testtitle>检查连接器</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<test1>
+<ptxt>检查并确认连接器已正确连接到空气囊 ECU 总成和右侧侧空气囊传感器总成和右侧 2 号侧空气囊传感器总成上。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>连接器已正确连接。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>如果连接器未正确连接，则重新连接连接器并进行下一步检查。</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>从空气囊 ECU 总成、右侧侧空气囊传感器总成和右侧 2 号侧空气囊传感器总成上断开连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>检查并确认连接器的端子未损坏。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>端子未变形或损坏。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-9" label="1">
+<action actiontype="next" cellposition="4-9" childid="RM100000000DAOZ_01_0018"/>
+</result>
+<result cellposition="3-22" label="2">
+<action actiontype="end" cellposition="4-22">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-9" id="RM100000000DAOZ_01_0018">
+<testtitle>检查地板线束（开路）</testtitle>
+<content6>
+<test1>
+<ptxt>使用外接线，连接连接器 B 的端子 8 (BBR+) 和 11 (BBR-)。</ptxt>
+<atten3>
+<ptxt>连接时不要将外接线强行插入连接器端子内。</ptxt>
+</atten3>
+<figure translate="C" type="1">
+<graphic graphicname="C238219C06" height="4.677165354in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*2</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>外接线</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至空气囊 ECU 总成）</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-4 (BBR+) - L45-3 (BBR-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>从连接器 B 上断开外接线。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-9" label="1">
+<action actiontype="next" cellposition="5-9" childid="RM100000000DAOZ_01_0019"/>
+</result>
+<result cellposition="4-21" label="2">
+<action actiontype="end" cellposition="5-21">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-9" id="RM100000000DAOZ_01_0019">
+<testtitle>检查地板线束（短路）</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238220C20" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry>
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-4 (BBR+) - L45-3 (BBR-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-9" label="1">
+<action actiontype="next" cellposition="6-9" childid="RM100000000DAOZ_01_0020"/>
+</result>
+<result cellposition="5-20" label="2">
+<action actiontype="end" cellposition="6-20">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-9" id="RM100000000DAOZ_01_0020">
+<testtitle>检查地板线束（对 B+ 短路）</testtitle>
+<content6>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238220C20" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry>
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-4 (BBR+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>低于 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>L45-3 (BBR-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>低于 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-9" label="1">
+<action actiontype="next" cellposition="7-9" childid="RM100000000DAOZ_01_0021"/>
+</result>
+<result cellposition="6-19" label="2">
+<action actiontype="end" cellposition="7-19">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-9" id="RM100000000DAOZ_01_0021">
+<testtitle>检查地板线束（对接地短路）</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238220C20" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry>
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-4 (BBR+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>L45-3 (BBR-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-9" label="1">
+<action actiontype="next" cellposition="8-9" childid="RM100000000DAOZ_01_0022"/>
+</result>
+<result cellposition="7-18" label="2">
+<action actiontype="end" cellposition="8-18">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-9" id="RM100000000DAOZ_01_0022">
+<testtitle>检查地板线束（开路）</testtitle>
+<content6>
+<test1>
+<ptxt>使用外接线，连接连接器 C 的端子 2 (BCR+) 和 1 (BCR-)。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C256981C14" height="4.677165354in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>右侧 2 号侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*2</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>外接线</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧 2 号侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<atten3>
+<ptxt>连接时不要将外接线强行插入连接器端子内。</ptxt>
+</atten3>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-1 (BCR+) - L45-2 (BCR-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>从连接器 C 上断开外接线。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-9" label="1">
+<action actiontype="next" cellposition="9-9" childid="RM100000000DAOZ_01_0023"/>
+</result>
+<result cellposition="8-17" label="2">
+<action actiontype="end" cellposition="9-17">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-9" id="RM100000000DAOZ_01_0023">
+<testtitle>检查地板线束（短路）</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238222C39" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>右侧 2 号侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry>
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-1 (BCR+) - L45-2 (BCR-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-9" label="1">
+<action actiontype="next" cellposition="10-9" childid="RM100000000DAOZ_01_0024"/>
+</result>
+<result cellposition="9-16" label="2">
+<action actiontype="end" cellposition="10-16">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="10-9" id="RM100000000DAOZ_01_0024">
+<testtitle>检查地板线束（对 B+ 短路）</testtitle>
+<content6>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238222C39" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>右侧 2 号侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry>
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-1 (BCR+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>低于 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>L45-2 (BCR-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>低于 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="10-9" label="1">
+<action actiontype="next" cellposition="11-9" childid="RM100000000DAOZ_01_0025"/>
+</result>
+<result cellposition="10-15" label="2">
+<action actiontype="end" cellposition="11-15">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="11-9" id="RM100000000DAOZ_01_0025">
+<testtitle>检查地板线束（对接地短路）</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238222C39" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>右侧 2 号侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry>
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-1 (BCR+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>L45-2 (BCR-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="11-9" label="1">
+<action actiontype="next" cellposition="12-9" childid="RM100000000DAOZ_01_0026"/>
+</result>
+<result cellposition="11-14" label="2">
+<action actiontype="end" cellposition="12-14">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="12-9" id="RM100000000DAOZ_01_0026">
+<testtitle>检查右侧侧空气囊传感器总成</testtitle>
+<content6>
+<test1>
+<ptxt>将连接器连接到右侧 2 号侧空气囊传感器总成和空气囊 ECU 总成。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238218C02" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>左侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>互换左侧和右侧侧空气囊传感器总成，并连接连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+</test1>
+<test1>
+<ptxt>清除存储器中存储的 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; SRS Airbag &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置并等待至少 60 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; SRS Airbag &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<atten4>
+<ptxt>此时可能会输出 DTC B1642、B1643、B1647、B1648、81 和 82 外的代码，但这些代码与本项检查无关。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC B1642、B1643 或 81。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC B1647、B1648 或 82。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>未输出 DTC B1642、B1643、B1647、B1648、81 和 82。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<test1>
+<ptxt>将左侧和右侧侧空气囊传感器总成恢复原位，并连接连接器。</ptxt>
+</test1>
+</content6>
+<results>
+<result cellposition="12-9" label="1">
+<action actiontype="next" cellposition="13-9" childid="RM100000000DAOZ_01_0027"/>
+</result>
+<result cellposition="12-12" label="2">
+<action actiontype="end" cellposition="13-12">
+<actiontitle>更换右侧侧空气囊传感器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96P" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="12-13" label="3">
+<action actiontype="end" cellposition="13-13">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="13-9" id="RM100000000DAOZ_01_0027">
+<testtitle>检查右侧 2 号侧空气囊传感器总成</testtitle>
+<content6>
+<test1>
+<ptxt>互换右侧和左侧 2 号侧空气囊传感器总成，并连接连接器。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238223C02" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>左侧 2 号侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+</test1>
+<test1>
+<ptxt>清除存储器中存储的 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; SRS Airbag &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置并等待至少 60 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; SRS Airbag &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<atten4>
+<ptxt>此时可能会输出 DTC B1642、B1643、B1647、B1648、81 和 82 外的代码，但这些代码与本项检查无关。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC B1642、B1643 或 81。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="4">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC B1647、B1648 或 82。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>未输出 DTC B1642、B1643、B1647、B1648、81 和 82。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<test1>
+<ptxt>将右侧和左侧 2 号侧空气囊传感器总成恢复原位，并连接连接器。</ptxt>
+</test1>
+</content6>
+<results>
+<result cellposition="13-9" label="4">
+<action actiontype="end" cellposition="14-9">
+<actiontitle>更换空气囊 ECU 总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96H" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="13-10" label="2">
+<action actiontype="end" cellposition="14-10">
+<actiontitle>更换右侧 2 号侧空气囊传感器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96T" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="13-11" label="3">
+<action actiontype="end" cellposition="14-11">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-23" id="RM100000000DAOZ_01_0043">
+<testtitle>检查历史 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>检查历史 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; SRS Airbag &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<atten4>
+<ptxt>此时可能会输出历史 DTC B1622 以外的代码，但这些代码与本项检查无关。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>未输出历史 DTC B1622。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>输出历史 DTC B1622。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-23" label="1">
+<action actiontype="next" cellposition="4-23" childid="RM100000000DAOZ_01_0044"/>
+</result>
+<result cellposition="3-35" label="2">
+<action actiontype="next" cellposition="4-35" childid="RM100000000DAOZ_01_0058"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-23" id="RM100000000DAOZ_01_0044">
+<testtitle>检查连接器</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<test1>
+<ptxt>检查并确认连接器已正确连接到空气囊 ECU 总成和右侧侧空气囊传感器总成和右侧 2 号侧空气囊传感器总成上。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>连接器已正确连接。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>如果连接器未正确连接，则重新连接连接器并进行下一步检查。</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>从空气囊 ECU 总成、右侧侧空气囊传感器总成和右侧 2 号侧空气囊传感器总成上断开连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>检查并确认连接器的端子未损坏。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>端子未变形或损坏。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-23" label="1">
+<action actiontype="next" cellposition="5-23" childid="RM100000000DAOZ_01_0045"/>
+</result>
+<result cellposition="4-34" label="2">
+<action actiontype="end" cellposition="5-34">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-23" id="RM100000000DAOZ_01_0045">
+<testtitle>检查地板线束（开路）</testtitle>
+<content6>
+<test1>
+<ptxt>使用外接线，连接连接器 B 的端子 8 (BBR+) 和 11 (BBR-)。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238219C06" height="4.677165354in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*2</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>外接线</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至空气囊 ECU 总成）</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<atten3>
+<ptxt>连接时不要将外接线强行插入连接器端子内。</ptxt>
+</atten3>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-4 (BBR+) - L45-3 (BBR-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>从连接器 B 上断开外接线。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-23" label="1">
+<action actiontype="next" cellposition="6-23" childid="RM100000000DAOZ_01_0046"/>
+</result>
+<result cellposition="5-33" label="2">
+<action actiontype="end" cellposition="6-33">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-23" id="RM100000000DAOZ_01_0046">
+<testtitle>检查地板线束（短路）</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238220C20" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry>
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-4 (BBR+) - L45-3 (BBR-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-23" label="1">
+<action actiontype="next" cellposition="7-23" childid="RM100000000DAOZ_01_0047"/>
+</result>
+<result cellposition="6-32" label="2">
+<action actiontype="end" cellposition="7-32">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-23" id="RM100000000DAOZ_01_0047">
+<testtitle>检查地板线束（对 B+ 短路）</testtitle>
+<content6>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238220C20" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry>
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-4 (BBR+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>低于 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>L45-3 (BBR-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>低于 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-23" label="1">
+<action actiontype="next" cellposition="8-23" childid="RM100000000DAOZ_01_0048"/>
+</result>
+<result cellposition="7-31" label="2">
+<action actiontype="end" cellposition="8-31">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-23" id="RM100000000DAOZ_01_0048">
+<testtitle>检查地板线束（对接地短路）</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238220C20" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry>
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-4 (BBR+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>L45-3 (BBR-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-23" label="1">
+<action actiontype="next" cellposition="9-23" childid="RM100000000DAOZ_01_0099"/>
+</result>
+<result cellposition="8-30" label="2">
+<action actiontype="end" cellposition="9-30">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-23" id="RM100000000DAOZ_01_0099">
+<testtitle>检查地板线束（开路）</testtitle>
+<content6>
+<test1>
+<ptxt>使用外接线，连接连接器 C 的端子 2 (BCR+) 和 1 (BCR-)。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C256981C14" height="4.677165354in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>右侧 2 号侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*2</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>外接线</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧 2 号侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<atten3>
+<ptxt>连接时不要将外接线强行插入连接器端子内。</ptxt>
+</atten3>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-1 (BCR+) - L45-2 (BCR-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>从连接器 C 上断开外接线。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-23" label="1">
+<action actiontype="next" cellposition="10-23" childid="RM100000000DAOZ_01_0100"/>
+</result>
+<result cellposition="9-29" label="2">
+<action actiontype="end" cellposition="10-29">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="10-23" id="RM100000000DAOZ_01_0100">
+<testtitle>检查地板线束（短路）</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238222C39" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>右侧 2 号侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry>
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-1 (BCR+) - L45-2 (BCR-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="10-23" label="1">
+<action actiontype="next" cellposition="11-23" childid="RM100000000DAOZ_01_0101"/>
+</result>
+<result cellposition="10-28" label="2">
+<action actiontype="end" cellposition="11-28">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="11-23" id="RM100000000DAOZ_01_0101">
+<testtitle>检查地板线束（对 B+ 短路）</testtitle>
+<content6>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238222C39" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>右侧 2 号侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry>
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-1 (BCR+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>低于 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>L45-2 (BCR-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>低于 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="11-23" label="1">
+<action actiontype="next" cellposition="12-23" childid="RM100000000DAOZ_01_0102"/>
+</result>
+<result cellposition="11-27" label="2">
+<action actiontype="end" cellposition="12-27">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="12-23" id="RM100000000DAOZ_01_0102">
+<testtitle>检查地板线束（对接地短路）</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238222C39" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>右侧 2 号侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry>
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-1 (BCR+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>L45-2 (BCR-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="12-23" label="1">
+<action actiontype="next" cellposition="13-23" childid="RM100000000DAOZ_01_0049"/>
+</result>
+<result cellposition="12-26" label="2">
+<action actiontype="end" cellposition="13-26">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="13-23" id="RM100000000DAOZ_01_0049">
+<testtitle>检查右侧侧空气囊传感器总成</testtitle>
+<content6>
+<test1>
+<ptxt>将连接器连接到右侧 2 号侧空气囊传感器总成和空气囊 ECU 总成。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238218C02" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>左侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>互换左侧和右侧侧空气囊传感器总成，并连接连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+</test1>
+<test1>
+<ptxt>清除存储器中存储的 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; SRS Airbag &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置并等待至少 60 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; SRS Airbag &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<atten4>
+<ptxt>此时可能会输出 DTC B1623 和 B1628 以外的代码，但这些代码与本项检查无关。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC B1623。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC B1628。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>未输出 DTC B1623 和 B1628。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<test1>
+<ptxt>将左侧和右侧侧空气囊传感器总成恢复原位，并连接连接器。</ptxt>
+</test1>
+</content6>
+<results>
+<result cellposition="13-23" label="1">
+<action actiontype="end" cellposition="14-23">
+<actiontitle>更换空气囊 ECU 总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96H" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="13-24" label="2">
+<action actiontype="end" cellposition="14-24">
+<actiontitle>更换右侧侧空气囊传感器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96P" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="13-25" label="3">
+<action actiontype="end" cellposition="14-25">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-35" id="RM100000000DAOZ_01_0058">
+<testtitle>检查右侧侧空气囊传感器总成</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238218C02" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>左侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<test1>
+<ptxt>互换左侧和右侧侧空气囊传感器总成，并连接连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+</test1>
+<test1>
+<ptxt>清除存储器中存储的 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; SRS Airbag &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置并等待至少 60 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; SRS Airbag &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<atten4>
+<ptxt>此时可能会输出 DTC B1622 和 B1627 以外的代码，但这些代码与本项检查无关。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC B1622。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC B1627。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>未输出 DTC B1622 和 B1627。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<test1>
+<ptxt>将左侧和右侧侧空气囊传感器总成恢复原位，并连接连接器。</ptxt>
+</test1>
+</content6>
+<results>
+<result cellposition="4-35" label="1">
+<action actiontype="end" cellposition="5-35">
+<actiontitle>更换空气囊 ECU 总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96H" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="4-36" label="2">
+<action actiontype="end" cellposition="5-36">
+<actiontitle>更换右侧侧空气囊传感器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96P" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="4-37" label="3">
+<action actiontype="end" cellposition="5-37">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-38" id="RM100000000DAOZ_01_0062">
+<testtitle>检查连接器</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<test1>
+<ptxt>检查并确认连接器已正确连接到右侧侧空气囊传感器总成和右侧 2 号侧空气囊传感器总成上。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>连接器已正确连接。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>如果连接器未正确连接，则重新连接连接器并进行下一步检查。</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>从右侧侧空气囊传感器总成和右侧 2 号侧空气囊传感器总成上断开连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>检查并确认连接器的端子未损坏。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>端子未变形或损坏。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-38" label="1">
+<action actiontype="next" cellposition="4-38" childid="RM100000000DAOZ_01_0063"/>
+</result>
+<result cellposition="3-47" label="2">
+<action actiontype="end" cellposition="4-47">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-38" id="RM100000000DAOZ_01_0063">
+<testtitle>检查地板线束（开路）</testtitle>
+<content6>
+<test1>
+<ptxt>使用外接线，连接连接器 C 的端子 2 (BCR+) 和 1 (BCR-)。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C256981C14" height="4.677165354in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>右侧 2 号侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*2</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>外接线</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧 2 号侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<atten3>
+<ptxt>连接时不要将外接线强行插入连接器端子内。</ptxt>
+</atten3>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-1 (BCR+) - L45-2 (BCR-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>从连接器 C 上断开外接线。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-38" label="1">
+<action actiontype="next" cellposition="5-38" childid="RM100000000DAOZ_01_0064"/>
+</result>
+<result cellposition="4-46" label="2">
+<action actiontype="end" cellposition="5-46">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-38" id="RM100000000DAOZ_01_0064">
+<testtitle>检查地板线束（短路）</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238222C39" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>右侧 2 号侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry>
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-1 (BCR+) - L45-2 (BCR-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-38" label="1">
+<action actiontype="next" cellposition="6-38" childid="RM100000000DAOZ_01_0065"/>
+</result>
+<result cellposition="5-45" label="2">
+<action actiontype="end" cellposition="6-45">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-38" id="RM100000000DAOZ_01_0065">
+<testtitle>检查地板线束（对 B+ 短路）</testtitle>
+<content6>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238222C39" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>右侧 2 号侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry>
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-1 (BCR+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>低于 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>L45-2 (BCR-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>低于 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-38" label="1">
+<action actiontype="next" cellposition="7-38" childid="RM100000000DAOZ_01_0066"/>
+</result>
+<result cellposition="6-44" label="2">
+<action actiontype="end" cellposition="7-44">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-38" id="RM100000000DAOZ_01_0066">
+<testtitle>检查地板线束（对接地短路）</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238222C39" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>右侧 2 号侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry>
+<ptxt>地板线束</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至右侧侧空气囊传感器总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L45-1 (BCR+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>L45-2 (BCR-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1 MΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-38" label="1">
+<action actiontype="next" cellposition="8-38" childid="RM100000000DAOZ_01_0067"/>
+</result>
+<result cellposition="7-43" label="2">
+<action actiontype="end" cellposition="8-43">
+<actiontitle>更换地板线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-38" id="RM100000000DAOZ_01_0067">
+<testtitle>检查右侧侧空气囊传感器总成</testtitle>
+<content6>
+<test1>
+<ptxt>将连接器连接到右侧 2 号侧空气囊传感器总成上。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238218C02" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>左侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>互换左侧和右侧侧空气囊传感器总成，并连接连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+</test1>
+<test1>
+<ptxt>清除存储器中存储的 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; SRS Airbag &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置并等待至少 60 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; SRS Airbag &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<atten4>
+<ptxt>此时可能会输出 DTC B1632、B1633、B1637 和 B1638 以外的代码，但这些代码与本项检查无关。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC B1632 或 B1633。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC B1637 或 B1638。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>未输出 DTC B1632、B1633、B1637 和 B1638。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<test1>
+<ptxt>将左侧和右侧侧空气囊传感器总成恢复原位，并连接连接器。</ptxt>
+</test1>
+</content6>
+<results>
+<result cellposition="8-38" label="1">
+<action actiontype="next" cellposition="9-38" childid="RM100000000DAOZ_01_0068"/>
+</result>
+<result cellposition="8-41" label="2">
+<action actiontype="end" cellposition="9-41">
+<actiontitle>更换右侧侧空气囊传感器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96P" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="8-42" label="3">
+<action actiontype="end" cellposition="9-42">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-38" id="RM100000000DAOZ_01_0068">
+<testtitle>检查右侧 2 号侧空气囊传感器总成</testtitle>
+<content6>
+<test1>
+<ptxt>互换右侧和左侧 2 号侧空气囊传感器总成，并连接连接器。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238223C02" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>左侧 2 号侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>右侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+</test1>
+<test1>
+<ptxt>清除存储器中存储的 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; SRS Airbag &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置并等待至少 60 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; SRS Airbag &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<atten4>
+<ptxt>此时可能会输出 DTC B1632、B1633、B1637 和 B1638 以外的代码，但这些代码与本项检查无关。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC B1632 或 B1633。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="4">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC B1637 或 B1638。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>未输出 DTC B1632、B1633、B1637 和 B1638。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<test1>
+<ptxt>将右侧和左侧 2 号侧空气囊传感器总成恢复原位，并连接连接器。</ptxt>
+</test1>
+</content6>
+<results>
+<result cellposition="9-38" label="4">
+<action actiontype="end" cellposition="10-38">
+<actiontitle>更换空气囊 ECU 总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96H" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="9-39" label="2">
+<action actiontype="end" cellposition="10-39">
+<actiontitle>更换右侧 2 号侧空气囊传感器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96T" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="9-40" label="3">
+<action actiontype="end" cellposition="10-40">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-48" id="RM100000000DAOZ_01_0079">
+<testtitle>检查右侧侧空气囊传感器总成</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C238218C02" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>左侧侧空气囊传感器总成</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>空气囊 ECU 总成</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<test1>
+<ptxt>互换左侧和右侧侧空气囊传感器总成，并连接连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+</test1>
+<test1>
+<ptxt>清除存储器中存储的 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; SRS Airbag &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置并等待至少 60 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DAOG" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; SRS Airbag &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="188"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">188</app-param>
+<app-param name="ecu-name">SRS Airbag</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<atten4>
+<ptxt>此时可能会输出 DTC B1622 和 B1627 以外的代码，但这些代码与本项检查无关。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC B1622。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC B1627。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>未输出 DTC B1622 和 B1627。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<test1>
+<ptxt>将左侧和右侧侧空气囊传感器总成恢复原位，并连接连接器。</ptxt>
+</test1>
+</content6>
+<results>
+<result cellposition="3-48" label="1">
+<action actiontype="end" cellposition="4-48">
+<actiontitle>更换空气囊 ECU 总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96H" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-49" label="2">
+<action actiontype="end" cellposition="4-49">
+<actiontitle>更换右侧侧空气囊传感器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96P" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-50" label="3">
+<action actiontype="end" cellposition="4-50">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

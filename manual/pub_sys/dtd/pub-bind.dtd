@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.5  UPDATE May. 22, 2013    -->
+<!ELEMENT tmc-service-pub-bind (pub-bind)>
+<!ELEMENT pub-bind (market-code, brand, models, option1?, option2?, option3?, option4?, option5?, term-base, full-model-code, bind-manual+)>
+<!ATTLIST pub-bind
+	id ID #REQUIRED
+>
+<!ELEMENT market-code (#PCDATA)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT models (model+)>
+<!ELEMENT model (model-name, model-code+)>
+<!ATTLIST model
+	id ID #REQUIRED
+>
+<!ELEMENT model-name (#PCDATA)>
+<!ELEMENT model-code (#PCDATA)>
+<!ELEMENT option1 (#PCDATA)>
+<!ELEMENT option3 (#PCDATA)>
+<!ELEMENT option2 (#PCDATA)>
+<!ELEMENT option4 (#PCDATA)>
+<!ELEMENT option5 (#PCDATA)>
+<!ELEMENT term-base (term+)>
+<!ELEMENT term EMPTY>
+<!ATTLIST term
+	date CDATA #REQUIRED
+	term-id-from CDATA #REQUIRED
+	model-year CDATA #IMPLIED
+>
+<!ELEMENT full-model-code (name+)>
+<!ELEMENT bind-manual EMPTY>
+<!ATTLIST bind-manual
+	pubid CDATA #REQUIRED
+	type (WC | RM | OM | NM | HR | ER | EM | DM | BM) #REQUIRED
+>
+<!ELEMENT name (#PCDATA)>

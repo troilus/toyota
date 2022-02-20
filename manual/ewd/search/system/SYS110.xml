@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS110">
+    <part type="conn" code="B38,C1">
+      <name>蓄电池</name>
+    </part>
+    <part type="conn" code="B36">
+      <text>THB VC5 IB E2</text>
+      <name>蓄电池电流传感器总成</name>
+    </part>
+    <part type="conn" code="E55">
+      <text>CANL CANH 5V+B CAN I/F 5V IC CPU IG+ B ET CANL CANH ET IG+ B 5V IC CAN I/F 5V +B CPU 5V</text>
+      <name>组合仪表总成</name>
+      <name type="inner">CAN 控制器</name>
+      <name type="inner">充电</name>
+      <name type="inner">LED 驱动器</name>
+      <name type="inner">LED 驱动器</name>
+      <name type="inner">充电</name>
+      <name type="inner">CAN 控制器</name>
+    </part>
+    <part type="conn" code="A40,B39">
+      <text>ECM CANL CANH INH LIN THB VCIB IB EIB</text>
+    </part>
+    <part type="conn" code="B1,B17">
+      <text>B LIN</text>
+      <name>发电机总成</name>
+      <name type="inner">IC 调节器</name>
+    </part>
+    <part type="conn" code="A39">
+      <name>1 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E74">
+      <name>2 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E16">
+      <text>+B +2</text>
+      <name>风挡玻璃刮水器开关总成</name>
+    </part>
+    <part type="fuse" code="FUSE36">
+      <text>ALT</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE65">
+      <text>WIP FR</text>
+    </part>
+    <part type="fuse" code="FUSE41">
+      <text>WIP-S</text>
+    </part>
+  </ttl>
+</EWDSearch>

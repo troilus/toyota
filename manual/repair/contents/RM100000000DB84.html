@@ -1,0 +1,427 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_V1</span>
+<span class="globalServcatName">概述</span>
+<span class="globalSection">_023977</span>
+<span class="globalSectionName">导言</span>
+<span class="globalTitle">_0116737</span>
+<span class="globalTitleName">如何对 ECU 控制系统进行故障排除</span>
+<span class="globalCategory">F</span>
+</div>
+<h1>导言&nbsp;&nbsp;如何对 ECU 控制系统进行故障排除&nbsp;&nbsp;一般信息&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DB84_z0" class="category no00">
+<div class="content5">
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>车辆中使用了大量的 ECU 控制系统。一般认为 ECU 控制系统很复杂，需要有高水平的技术知识才能进行故障排除。然而，大多数故障检查程序只涉及对 ECU 控制系统的电路进行逐一检查。只要对该系统具有充分的了解并掌握基本的电学知识，就足以进行有效的故障排除、准确的诊断和必要的维修。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>使用 GTS
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>使用 GTS 前，请仔细阅读操作手册。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>如果 GTS 已连接到 DLC3，点火开关置于 ON 位置并打开 GTS 后，GTS 仍无法与 ECU 控制系统进行通信，则车辆侧或 GTS 侧存在故障。
+</p>
+</div>
+</div>
+<div class="list3">
+<div class="list3Item">
+<div class="list3Head">1.</div>
+<div class="list3Body"><p>如果将 GTS 连接至其他车辆后可以通信，则检查诊断数据链路（总线 (+) 线路）、CANH 和 CANL 线路和车辆 ECU 电源电路。
+</p>
+</div>
+</div>
+<div class="list3Item">
+<div class="list3Head">2.</div>
+<div class="list3Body"><p>如果 GTS 连接至另一车辆后仍然不能进行通信，则 GTS 本身可能有故障。进行 GTS 操作手册中所述的自检程序。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">故障排除程序
+</span></p>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>故障排除程序包括用于 DTC 存储时的诊断程序和用于 DTC 未存储时的诊断程序。下表内容为其基本概要。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:20%">
+<col style="width:39%">
+<col style="width:39%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">程序类型
+</th>
+<th class="alcenter">详情
+</th>
+<th class="alcenter">故障排除方法
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">基于 DTC 的诊断
+</td>
+<td class="alleft">诊断程序以存储的 DTC 为依据。
+</td>
+<td class="alleft">根据 DTC 检测条件使用排除法确认故障零件。
+<br>
+通过使用 GTS 并检查相关零件对可能的故障部位进行逐一排除。
+</td>
+</tr>
+<tr>
+<td class="alleft">基于症状的诊断
+<br>
+（未存储 DTC）
+</td>
+<td class="alleft">诊断程序以故障症状为依据。
+</td>
+<td class="alleft">根据故障症状使用排除法确定故障零件。
+<br>
+通过使用 GTS 并检查相关零件对可能的故障部位进行逐一排除。
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车辆系统复杂且使用多个难以独立检查的 ECU。因此，使用排除法，检查可独立检查的零部件，如果这些零部件未发现故障，则可确定相关 ECU 有故障并更换。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>向客户询问故障发生时的条件和环境非常重要（客户故障分析）。这样可以模拟情况并确认症状。如果无法确认症状或 DTC 未重现，则使用故障排除程序可能无法确定故障零件，即使未出现故障也要更换相关系统的 ECU。如果发生这种情况，则原始故障将无法解决。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>为避免故障排除程序不断增多，在编写故障排除程序时假设单一故障症状发生时不会同时出现多个故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>为确认故障零件，检查过程中故障排除程序可通过分离零部件、ECU 和线束缩小目标范围。如果确定线束为故障原因，则不仅需要检查连接到零部件和 ECU 的连接线，还需要检查零部件和 ECU 之间的所有线束连接器。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">描述
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>各系统数据和诊断故障码 (DTC) 可以从车辆的数据链路连接器 3 (DLC3) 上读取。系统可能有故障时，使用 GTS 检查有无故障并进行维修。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">检查 DLC3
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/D103440.png" alt="D103440" title="D103440">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">1.979,1.448 1.813,1.781</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.573,1.042 0.604,1.448</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.344,1.438 2.427,1.792</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.167,1.042 2.781,1.417</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.427,0.354 1.969,0.865</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.115,0.344 1.781,0.865</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.375,1.385 0.688,1.552</span>
+<span class="captionSize">0.313,0.167</span>
+<span class="fontsize">10</span>
+<span class="captionText">CG</span>
+</span>
+<span class="caption">
+<span class="points">0.854,0.24 1.219,0.438</span>
+<span class="captionSize">0.365,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">SG</span>
+</span>
+<span class="caption">
+<span class="points">2.479,0.219 3.01,0.406</span>
+<span class="captionSize">0.531,0.188</span>
+<span class="fontsize">10</span>
+<span class="captionText">CANH</span>
+</span>
+<span class="caption">
+<span class="points">2.823,1.375 3.177,1.573</span>
+<span class="captionSize">0.354,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">SIL</span>
+</span>
+<span class="caption">
+<span class="points">1.521,1.802 2.063,2.01</span>
+<span class="captionSize">0.542,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">CANL</span>
+</span>
+<span class="caption">
+<span class="points">2.313,1.802 2.719,1.99</span>
+<span class="captionSize">0.406,0.188</span>
+<span class="fontsize">10</span>
+<span class="captionText">BAT</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>车辆 ECU 使用 ISO 15765-4 通信协议。DLC3 的端子布局符合 ISO 15031-3 标准，并符合 ISO 15765-4 格式。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">符号
+</th>
+<th class="alcenter">端子编号
+</th>
+<th class="alcenter">名称
+</th>
+<th class="alcenter">参考端子
+</th>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">条件
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">SIL
+</td>
+<td class="alcenter">7
+</td>
+<td>总线&ldquo;+&rdquo;线路
+</td>
+<td>5 - 信号接地
+</td>
+<td>产生脉冲
+</td>
+<td>传输过程中
+</td>
+</tr>
+<tr>
+<td class="alcenter">CG
+</td>
+<td class="alcenter">4
+</td>
+<td>底盘接地
+</td>
+<td>车身接地
+</td>
+<td>1 Ω 或更小
+</td>
+<td>始终
+</td>
+</tr>
+<tr>
+<td class="alcenter">SG
+</td>
+<td class="alcenter">5
+</td>
+<td>信号接地
+</td>
+<td>车身接地
+</td>
+<td>1 Ω 或更小
+</td>
+<td>始终
+</td>
+</tr>
+<tr>
+<td class="alcenter">BAT
+</td>
+<td class="alcenter">16
+</td>
+<td>蓄电池正极
+</td>
+<td>车身接地
+</td>
+<td>11 至 14 V
+</td>
+<td>始终
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="3">CANH
+</td>
+<td class="alcenter" rowspan="3">6
+</td>
+<td rowspan="3">CAN 高电平线路
+</td>
+<td>14 - CANL
+</td>
+<td>54 至 69 Ω
+</td>
+<td>点火开关 OFF*
+</td>
+</tr>
+<tr>
+<td>蓄电池正极
+</td>
+<td>6 kΩ 或更大
+</td>
+<td>点火开关 OFF*
+</td>
+</tr>
+<tr>
+<td>4 - CG
+</td>
+<td>200 Ω 或更大
+</td>
+<td>点火开关 OFF*
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">CANL
+</td>
+<td class="alcenter" rowspan="2">14
+</td>
+<td rowspan="2">CAN 低电平线路
+</td>
+<td>蓄电池正极
+</td>
+<td>6 kΩ 或更大
+</td>
+<td>点火开关 OFF*
+</td>
+</tr>
+<tr>
+<td>4 - CG
+</td>
+<td>200 Ω 或更大
+</td>
+<td>点火开关 OFF*
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>*：测量电阻前，使车辆保持原状至少 1 分钟，并且不要操作点火开关、任何其他开关或车门。
+</p>
+</dd>
+</dl>
+<br>
+<p>如果结果不符合规定，则 DLC3 可能有故障。维修或更换线束或连接器。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

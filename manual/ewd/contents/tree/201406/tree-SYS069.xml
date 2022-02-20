@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS069" code="E26" type="conn" figID="1">
+    <name>点烟器总成</name>
+  </text>
+  <text ewd="SYS069" code="FUSE57" type="fuse" figID="4">
+    <name>15A CIG</name>
+  </text>
+  <text ewd="SYS069" code="ED" type="gp" figID="3">
+    <name />
+  </text>
+  <text ewd="SYS069" code="3" type="jb" figID="2">
+    <name />
+  </text>
+</EwdTree>

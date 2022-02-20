@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS008" code="E65" type="conn" figID="11">
+    <name>后声纳或侦测声纳开关总成</name>
+  </text>
+  <text ewd="SYS008" code="B6" type="conn" figID="10">
+    <name>倒车灯开关总成</name>
+  </text>
+  <text ewd="SYS008" code="A41" type="conn" figID="14">
+    <name>制动执行器总成</name>
+  </text>
+  <text ewd="SYS008" code="E63" type="conn" figID="2">
+    <name>间隙警告 ECU 总成</name>
+  </text>
+  <text ewd="SYS008" code="E55" type="conn" figID="17">
+    <name>组合仪表总成</name>
+  </text>
+  <text ewd="SYS008" code="A36" type="conn" figID="6">
+    <name>左前 1 号超声波传感器</name>
+  </text>
+  <text ewd="SYS008" code="A35" type="conn" figID="7">
+    <name>右前 1 号超声波传感器</name>
+  </text>
+  <text ewd="SYS008" code="E64" type="conn" figID="9">
+    <name>1 号间隙警告蜂鸣器</name>
+  </text>
+  <text ewd="SYS008" code="P3" type="conn" figID="5">
+    <name>左侧中央 1 号超声波传感器</name>
+  </text>
+  <text ewd="SYS008" code="P2" type="conn" figID="4">
+    <name>右侧中央 1 号超声波传感器</name>
+  </text>
+  <text ewd="SYS008" code="P4" type="conn" figID="3">
+    <name>左侧 1 号超声波传感器</name>
+  </text>
+  <text ewd="SYS008" code="P1" type="conn" figID="1">
+    <name>右侧 1 号超声波传感器</name>
+  </text>
+  <text ewd="SYS008" code="E71" type="conn" figID="18">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS008" code="E72" type="conn" figID="16">
+    <name>5 号接线连接器</name>
+  </text>
+  <text ewd="SYS008" code="B15" type="conn" figID="8">
+    <name>驻车/空档位置开关总成</name>
+  </text>
+  <text ewd="SYS008" code="E61" type="conn" figID="12">
+    <name>警告灯总成</name>
+  </text>
+  <text ewd="SYS008" code="FUSE6" type="fuse" figID="51">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS008" code="FUSE36" type="fuse" figID="50">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS008" code="FUSE39" type="fuse" figID="52">
+    <name>5A MET</name>
+  </text>
+  <text ewd="SYS008" code="FUSE45" type="fuse" figID="47">
+    <name>7.5A ECU-IG NO.2</name>
+  </text>
+  <text ewd="SYS008" code="FUSE47" type="fuse" figID="48">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS008" code="FUSE52" type="fuse" figID="49">
+    <name>7.5A PANEL</name>
+  </text>
+  <text ewd="SYS008" code="EB" type="gp" figID="42">
+    <name />
+  </text>
+  <text ewd="SYS008" code="ED" type="gp" figID="43">
+    <name />
+  </text>
+  <text ewd="SYS008" code="1" type="jb" figID="23">
+    <name />
+  </text>
+  <text ewd="SYS008" code="3" type="jb" figID="21,22,24,25,26,27">
+    <name />
+  </text>
+  <text ewd="SYS008" code="FUSE6" type="rb" figID="15">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS008" code="FUSE36" type="rb" figID="13">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS008" code="SP12" type="sp" figID="46">
+    <name />
+  </text>
+  <text ewd="SYS008" code="SP42" type="sp" figID="44">
+    <name />
+  </text>
+  <text ewd="SYS008" code="SP43" type="sp" figID="45">
+    <name />
+  </text>
+  <text ewd="SYS008" code="AE4" type="w2w" figID="41">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS008" code="AE8" type="w2w" figID="30,32,33,34">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS008" code="BA2" type="w2w" figID="28,29,31">
+    <name>发动机线束和发动机室主线束</name>
+  </text>
+  <text ewd="SYS008" code="EL6" type="w2w" figID="36,38,40">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS008" code="PL1" type="w2w" figID="35,37,39">
+    <name>行李厢 2 号线束和地板线束</name>
+  </text>
+</EwdTree>

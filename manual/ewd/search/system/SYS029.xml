@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS029">
+    <part type="conn" code="B3,C1">
+      <name>蓄电池</name>
+    </part>
+    <part type="conn" code="A5">
+      <name>离合器起动开关总成</name>
+    </part>
+    <part type="conn" code="A40">
+      <text>ECM NSW STA</text>
+    </part>
+    <part type="conn" code="E9">
+      <text>AM2 IG2 ST2</text>
+      <name>点火或起动开关总成</name>
+    </part>
+    <part type="conn" code="A37">
+      <name>1 号接线连接器</name>
+    </part>
+    <part type="conn" code="B15">
+      <text>P N B L</text>
+      <name>驻车/空档位置开关总成</name>
+    </part>
+    <part type="conn" code="B5,B10">
+      <text>M</text>
+      <name>起动机总成</name>
+    </part>
+    <part type="fuse" code="FUSE2">
+      <text>AM2</text>
+    </part>
+    <part type="fuse" code="FUSE28">
+      <text>ST</text>
+    </part>
+  </ttl>
+</EWDSearch>

@@ -1,0 +1,954 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_52</span>
+<span class="globalServcatName">动力传动系</span>
+<span class="globalSection">_023983</span>
+<span class="globalSectionName">K313 CVT</span>
+<span class="globalTitle">_0116779</span>
+<span class="globalTitleName">无级变速传动桥系统</span>
+<span class="globalCategory">Y</span>
+</div>
+<h1>K313 CVT&nbsp;&nbsp;无级变速传动桥系统&nbsp;&nbsp;如何进行故障排除&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DBF9_02" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>此系统的 ECM 与 CAN 通信系统相连接。因此，开始故障排除前，务必检查并确认 CAN 通信系统无故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*：使用 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000DBF9_01" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000DBF9_01_0001">
+<div class="testtitle"><span class="titleText">1.车辆送入修理车间</span></div>
+<div class="content6">
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0001_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">2.客户故障分析</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0002">
+<div class="testtitle"><span class="titleText">2.客户故障分析</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>请参考导言部分的如何对 ECU 控制系统进行故障排除。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;如何对 ECU 控制系统进行故障排除&gt;如何进行故障排除<span class="invisible">201406,999999,_V1,_023977,_0116737,RM100000000DB86,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0002_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">3.检查蓄电池电压</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0003">
+<div class="testtitle"><span class="titleText">3.检查蓄电池电压</span></div>
+<div class="content6">
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><p>11 至 14 V
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果电压低于 11 V，则在继续操作前对蓄电池再充电或更换蓄电池。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0003_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">4.检查 CAN 通信系统*</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0005">
+<div class="testtitle"><span class="titleText">4.检查 CAN 通信系统*</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>使用 GTS 检查 CAN 通信系统是否工作正常。
+</p>
+<dl class="gtsCanbusConnect">
+<dt class="gtsCanbusConnect">CAN 总线检查</dt>
+<dd class="gtsCanbusConnect gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50007</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>请参考 CAN 通信系统 CAN 总线检查。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;诊断系统<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UU,</span></a>
+
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>将 ECM 连接至 CAN 通信系统。因此，开始故障排除前，确保检查并确认 CAN 通信系统无故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0005_1" summary="" class="half">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>未输出 CAN 通信 DTC。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td>输出 CAN 通信 DTC。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">5.检查并清除 DTC 和定格数据*</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至 CAN 通信系统</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;如何进行故障排除<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UM,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0004">
+<div class="testtitle"><span class="titleText">5.检查并清除 DTC 和定格数据*</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>请参考 DTC 检查/清除。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;K313 CVT&gt;无级变速传动桥系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_52,_023983,_0116779,RM100000000DBFE,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0004_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">6.设定检查模式诊断*</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0007">
+<div class="testtitle"><span class="titleText">6.设定检查模式诊断*</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>请参考检查模式程序。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;K313 CVT&gt;无级变速传动桥系统&gt;检查模式程序<span class="invisible">201406,999999,_52,_023983,_0116779,RM100000000DBFB,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0007_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">7.检查 DTC*</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0036">
+<div class="testtitle"><span class="titleText">7.检查 DTC*</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>转至 DTC 检查/清除。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;K313 CVT&gt;无级变速传动桥系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_52,_023983,_0116779,RM100000000DBFE,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0036_1" summary="" class="half">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>未输出 DTC。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td>输出 DTC。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">8.基本检查</span></div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">14.诊断故障码表</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0035">
+<div class="testtitle"><span class="titleText">8.基本检查</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>请参考无级变速传动桥油。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;K313 CVT&gt;无级变速传动桥油&gt;调节<span class="invisible">201406,999999,_52,_023983,_0116504,RM100000000DA1X,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>请参考驻车/空档位置开关。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;K313 CVT&gt;驻车/空档位置开关&gt;车上检查<span class="invisible">201406,999999,_52,_023983,_0116512,RM100000000DA2I,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>请参考换档杆。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;K313 CVT&gt;换档杆&gt;车上检查<span class="invisible">201406,999999,_52,_023983,_0116514,RM100000000DA2R,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0035_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">9.故障症状确认</span></div>
+<div class="judgeValueNext"><p>异常
+</p></div>
+<div class="nextAction"><span class="titleText">11.零部件检查</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0008">
+<div class="testtitle"><span class="titleText">9.故障症状确认</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>请参考路试。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;K313 CVT&gt;无级变速传动桥系统&gt;路试<span class="invisible">201406,999999,_52,_023983,_0116779,RM100000000DBFJ,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>请参考机械系统测试。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;K313 CVT&gt;无级变速传动桥系统&gt;机械系统测试<span class="invisible">201406,999999,_52,_023983,_0116779,RM100000000DBFK,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>请参考液压测试。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;K313 CVT&gt;无级变速传动桥系统&gt;液压测试<span class="invisible">201406,999999,_52,_023983,_0116779,RM100000000DBFL,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0008_1" summary="" class="half">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>症状未出现
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td>症状出现
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">10.症状模拟</span></div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">11.零部件检查</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0009">
+<div class="testtitle"><span class="titleText">10.症状模拟</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>请参考症状模拟。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;如何对 ECU 控制系统进行故障排除&gt;如何进行故障排除<span class="invisible">201406,999999,_V1,_023977,_0116737,RM100000000DB86,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0009_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">11.零部件检查</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0037">
+<div class="testtitle"><span class="titleText">11.零部件检查</span></div>
+<div class="content6">
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0037_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">12.维修或更换</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0038">
+<div class="testtitle"><span class="titleText">12.维修或更换</span></div>
+<div class="content6">
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0038_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">13.确认测试</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0039">
+<div class="testtitle"><span class="titleText">13.确认测试</span></div>
+<div class="content6">
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0039_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>下一步
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">结束</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0016">
+<div class="testtitle"><span class="titleText">14.诊断故障码表</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>转至诊断故障码表。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;K313 CVT&gt;无级变速传动桥系统&gt;诊断故障码表<span class="invisible">201406,999999,_52,_023983,_0116779,RM100000000DBFR,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0016_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">15.电路检查*</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0017">
+<div class="testtitle"><span class="titleText">15.电路检查*</span></div>
+<div class="content6">
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0017_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">16.故障识别</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0021">
+<div class="testtitle"><span class="titleText">16.故障识别</span></div>
+<div class="content6">
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0021_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">17.维修或更换</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0022">
+<div class="testtitle"><span class="titleText">17.维修或更换</span></div>
+<div class="content6">
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0022_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">18.确认测试</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBF9_01_0023">
+<div class="testtitle"><span class="titleText">18.确认测试</span></div>
+<div class="content6">
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBF9_01_0023_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>下一步
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">结束</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

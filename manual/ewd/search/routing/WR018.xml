@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="WR018">
+    <part type="conn" code="T4">
+      <name>前排电动座椅腰部开关</name>
+    </part>
+    <part type="conn" code="T2">
+      <name>前排电动座椅升降位置电动机</name>
+    </part>
+    <part type="conn" code="W2">
+      <name>前排电动座椅腰部支撑电动机</name>
+    </part>
+    <part type="conn" code="W1">
+      <name>前排电动座椅靠背倾角位置电动机</name>
+    </part>
+    <part type="conn" code="T1">
+      <name>前排电动座椅升降位置电动机</name>
+    </part>
+    <part type="conn" code="T3">
+      <name>前排电动座椅开关</name>
+    </part>
+    <part type="conn" code="e1">
+      <name>前排左侧座椅空气囊总成</name>
+    </part>
+    <part type="conn" code="f1">
+      <name>前排右侧座椅空气囊总成</name>
+    </part>
+    <part type="conn" code="T5">
+      <name>前排左侧座椅座垫加热器总成</name>
+    </part>
+    <part type="conn" code="L50">
+      <name>前排右侧座椅座垫加热器总成</name>
+    </part>
+    <part type="conn" code="L16">
+      <name>前排左侧座椅内安全带总成</name>
+    </part>
+    <part type="conn" code="L17">
+      <name>前排右侧座椅内安全带总成</name>
+    </part>
+    <part type="conn" code="T6">
+      <name>9 号接线连接器</name>
+    </part>
+  </ttl>
+</EWDSearch>

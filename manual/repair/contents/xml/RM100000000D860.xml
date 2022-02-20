@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024012">
+<name>暖风/空调</name>
+<ttl id="_0116103">
+<name>空调系统（手动空调系统）</name>
+<para category="C" id="RM100000000D860">
+<dtccode>B1413</dtccode>
+<dtcname>蒸发器温度传感器电路</dtcname>
+<subpara category="03" id="RM100000000D860_01">
+<name>描述</name>
+<content5>
+<ptxt>冷却器 1 号热敏电阻安装在空调装置内的蒸发器上，用来检测通过蒸发器的冷气温度，空调系统利用所测得的冷气温度得以控制。其将信号发送至空调放大器总成。冷却器 1 号热敏电阻的电阻随着流经蒸发器的冷气温度的改变而改变。温度下降时，电阻增大。温度上升时，电阻减小。</ptxt>
+<ptxt>空调放大器总成将电压 (5 V) 施加到冷却器 1 号热敏电阻上，并在冷却器 1 号热敏电阻的电阻改变时读取电压变化值。该传感器用于防止霜冻。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B1413</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>蒸发器温度传感器电路</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>蒸发器温度传感器电路开路或短路</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>冷却器 1 号热敏电阻</ptxt>
+</item>
+<item>
+<ptxt>冷却器 1 号热敏电阻和空调放大器总成之间的线束或连接器</ptxt>
+</item>
+<item>
+<ptxt>空调放大器总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="memory">
+<ptxt>存储</ptxt>
+<ptxt>（4 秒或更长时间）*</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*：如果在括号所示的时间内出现故障，则空调放大器总成将存储该 DTC。</ptxt>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D860_02">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="E236721E63" height="2.799876969in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D860_05">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D860_05_0001">
+<testtitle>使用 GTS 读取值</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Body Electrical / Air Conditioner / Data List。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Air Conditioner &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="3" name="item-name">
+<ptxt>Evaporator Fin Thermistor</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="3" name="description">
+<ptxt>冷却器 1 号热敏电阻</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="3" name="range">
+<ptxt>最低：-29.70°C (-21.46°F)</ptxt>
+<ptxt>最高：59.55°C (139.19°F)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="3" name="standard-value">
+<ptxt>显示实际蒸发器温度</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="3" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">121</app-param>
+<app-param name="ecu-name">Air Conditioner</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">3</app-param>
+<app-param name="data-list-item-name">Evaporator Fin Thermistor</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Air Conditioner &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="3" name="item-name">
+<ptxt>Evaporator Fin Thermistor</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="121">
+<gts-pid pid-id="3"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">121</app-param>
+<app-param name="ecu-name">Air Conditioner</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">3</app-param>
+<app-param name="data-list-item-name">Evaporator Fin Thermistor</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>显示值与正常状态列下的值相符。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="5.66in"/>
+<colspec colname="col2" colwidth="1.42in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>异常</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>正常（根据故障症状表进行故障排除时）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>正常（根据 DTC 进行故障排除时）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D860_05_0002"/>
+</result>
+<result cellposition="1-4" label="2">
+<action actiontype="end" cellposition="2-4">
+<actiontitle>转至故障症状表中所示的下一个可疑部位</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D85T" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-5" label="3">
+<action actiontype="end" cellposition="2-5">
+<actiontitle>更换空调放大器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCSG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D860_05_0002">
+<testtitle>检查冷却器 1 号热敏电阻</testtitle>
+<content6>
+<test1>
+<ptxt>拆下冷却器 1 号热敏电阻。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCRW" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="E293835C01" height="2.799876969in" width="7.168479331in"/>
+<callout>
+<table pgwide="1" type="caption-table">
+<tgroup cols="4">
+<colspec colname="col1" colnum="1" colwidth="0.72in"/>
+<colspec colname="col2" colnum="2" colwidth="2.87in"/>
+<colspec colname="col3" colnum="3" colwidth="0.72in"/>
+<colspec colname="col4" colnum="4" colwidth="2.87in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>未连接线束的零部件</ptxt>
+<ptxt>（冷却器 1 号热敏电阻）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>感应部位</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry>
+<ptxt>电阻 (kΩ)</ptxt>
+</entry>
+<entry align="center">
+<ptxt>*d</ptxt>
+</entry>
+<entry>
+<ptxt>温度 (°C (°F))</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>*e</ptxt>
+</entry>
+<entry>
+<ptxt>允许范围</ptxt>
+</entry>
+<entry align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-10°C (14°F)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>7.30 至 9.10 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-5°C (23°F)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>5.65 至 6.95 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>0°C (32°F)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>4.40 至 5.35 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>5°C (41°F)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>3.40 至 4.15 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10°C (50°F)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>2.70 至 3.25 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>15°C (59°F)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>2.14 至 2.58 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1.71 至 2.05 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>25°C (77°F)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1.38 至 1.64 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>30°C (86°F)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1.11 至 1.32 kΩ</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>只能通过传感器的连接器来握住传感器。接触感应部位可能会改变电阻值。</ptxt>
+</item>
+<item>
+<ptxt>测量时，传感器温度必须与环境温度相同。</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<ptxt>温度上升时，电阻减小（请参见图表）。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D860_05_0003"/>
+</result>
+<result cellposition="2-3" label="2">
+<action actiontype="end" cellposition="3-3">
+<actiontitle>更换冷却器 1 号热敏电阻</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCRW" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D860_05_0003">
+<testtitle>检查线束和连接器（冷却器 1 号热敏电阻 - 空调放大器总成）</testtitle>
+<content6>
+<test1>
+<ptxt>断开空调放大器总成连接器 E11。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E11-15 (SG-3) - E40-2</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E11-4 (TE) - E40-1</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E11-15 (SG-3) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E11-4 (TE) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="end" cellposition="4-1">
+<actiontitle>更换空调放大器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCSG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-2" label="2">
+<action actiontype="end" cellposition="4-2">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

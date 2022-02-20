@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_59">
+<name>车辆外饰</name>
+<section id="_024016">
+<name>滑动天窗/活顶</name>
+<ttl id="_0116775">
+<name>滑动天窗系统</name>
+<para category="C" id="RM100000000DBET">
+<dtccode>B2342</dtccode>
+<dtcname>开关故障</dtcname>
+<subpara category="03" id="RM100000000DBET_01">
+<name>描述</name>
+<content5>
+<ptxt>滑动天窗 ECU（滑动天窗主动齿轮分总成）检测到滑动天窗开关（阅读灯总成）卡滞 30 秒或更长时间时，存储该 DTC。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="4">
+<colspec colname="1" colwidth="1.77in"/>
+<colspec colname="2" colwidth="1.77in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B2342</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>开关故障</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>滑动天窗 ECU（滑动天窗主动齿轮分总成）检测到滑动天窗开关（阅读灯总成）卡滞 30 秒或更长时间。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>滑动天窗 ECU（滑动天窗主动齿轮分总成）</ptxt>
+</item>
+<item>
+<ptxt>滑动天窗开关（阅读灯总成）</ptxt>
+</item>
+<item>
+<ptxt>线束或连接器</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DBET_02">
+<name>电路图</name>
+<content5>
+<ptxt>请参考 DTC B2341。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBES_06_0013" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DBET_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>如果拆下并重新安装或更换滑动天窗 ECU（滑动天窗主动齿轮分总成），则滑动天窗 ECU（滑动天窗主动齿轮分总成）必须进行初始化。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBEL" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>滑动天窗系统使用 LIN 通信系统。 首先，确认 LIN 通信系统无故障。请参考如何进行故障排除。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBEN" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+</list1>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DBET_07">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DBET_07_0001">
+<testtitle>使用 GTS 读取值</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Body Electrical / Sliding Roof / Data List。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Sliding Roof &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="32" name="item-name">
+<ptxt>Open Switch Failure(Past)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="32" name="description">
+<ptxt>开启开关故障信号（以前）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="32" name="range">
+<ptxt>OFF 或 ON</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="32" name="standard-value">
+<ptxt>OFF：无滑动天窗开启开关故障信号（以前）</ptxt>
+<ptxt>ON：有滑动天窗开启开关故障信号（以前）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="32" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="33" name="item-name">
+<ptxt>Close Switch Failure(Past)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="33" name="description">
+<ptxt>关闭开关故障信号（以前）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="33" name="range">
+<ptxt>OFF 或 ON</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="33" name="standard-value">
+<ptxt>OFF：无滑动天窗关闭开关故障信号（以前）</ptxt>
+<ptxt>ON：有滑动天窗关闭开关故障信号（以前）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="33" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="34" name="item-name">
+<ptxt>Up Switch Failure(Past)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="34" name="description">
+<ptxt>上升开关故障信号（以前）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="34" name="range">
+<ptxt>OFF 或 ON</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="34" name="standard-value">
+<ptxt>OFF：无滑动天窗上倾开关故障信号（以前）</ptxt>
+<ptxt>ON：有滑动天窗上倾开关故障信号（以前）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="34" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="35" name="item-name">
+<ptxt>Down Switch Failure(Past)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="35" name="description">
+<ptxt>下降开关故障信号（以前）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="35" name="range">
+<ptxt>OFF 或 ON</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="35" name="standard-value">
+<ptxt>OFF：无滑动天窗下倾开关故障信号（以前）</ptxt>
+<ptxt>ON：有滑动天窗下倾开关故障信号（以前）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="35" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="36" name="item-name">
+<ptxt>Open Switch Failure(Current)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="36" name="description">
+<ptxt>开启开关故障信号（当前）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="36" name="range">
+<ptxt>OFF 或 ON</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="36" name="standard-value">
+<ptxt>OFF：无滑动天窗开启开关故障信号（当前）</ptxt>
+<ptxt>ON：有滑动天窗开启开关故障信号（当前）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="36" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="37" name="item-name">
+<ptxt>Close Switch Failure(Current)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="37" name="description">
+<ptxt>关闭开关故障信号（当前）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="37" name="range">
+<ptxt>OFF 或 ON</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="37" name="standard-value">
+<ptxt>OFF：无滑动天窗关闭开关故障信号（当前）</ptxt>
+<ptxt>ON：有滑动天窗关闭开关故障信号（当前）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="37" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="38" name="item-name">
+<ptxt>Up Switch Failure(Current)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="38" name="description">
+<ptxt>上升开关故障信号（当前）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="38" name="range">
+<ptxt>OFF 或 ON</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="38" name="standard-value">
+<ptxt>OFF：无滑动天窗上倾开关故障信号（当前）</ptxt>
+<ptxt>ON：有滑动天窗上倾开关故障信号（当前）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="38" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="39" name="item-name">
+<ptxt>Down Switch Failure(Current)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="39" name="description">
+<ptxt>下降开关故障信号（当前）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="39" name="range">
+<ptxt>OFF 或 ON</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="39" name="standard-value">
+<ptxt>OFF：无滑动天窗下倾开关故障信号（当前）</ptxt>
+<ptxt>ON：有滑动天窗下倾开关故障信号（当前）</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="39" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">147</app-param>
+<app-param name="ecu-name">Sliding Roof</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">32</app-param>
+<app-param name="data-list-item-name">Open Switch Failure(Past)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">33</app-param>
+<app-param name="data-list-item-name">Close Switch Failure(Past)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">34</app-param>
+<app-param name="data-list-item-name">Up Switch Failure(Past)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">35</app-param>
+<app-param name="data-list-item-name">Down Switch Failure(Past)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">36</app-param>
+<app-param name="data-list-item-name">Open Switch Failure(Current)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">37</app-param>
+<app-param name="data-list-item-name">Close Switch Failure(Current)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">38</app-param>
+<app-param name="data-list-item-name">Up Switch Failure(Current)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">39</app-param>
+<app-param name="data-list-item-name">Down Switch Failure(Current)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Sliding Roof &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="32" name="item-name">
+<ptxt>Open Switch Failure(Past)</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="33" name="item-name">
+<ptxt>Close Switch Failure(Past)</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="34" name="item-name">
+<ptxt>Up Switch Failure(Past)</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="35" name="item-name">
+<ptxt>Down Switch Failure(Past)</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="36" name="item-name">
+<ptxt>Open Switch Failure(Current)</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="37" name="item-name">
+<ptxt>Close Switch Failure(Current)</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="38" name="item-name">
+<ptxt>Up Switch Failure(Current)</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="39" name="item-name">
+<ptxt>Down Switch Failure(Current)</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="147">
+<gts-pid pid-id="32"/>
+<gts-pid pid-id="33"/>
+<gts-pid pid-id="34"/>
+<gts-pid pid-id="35"/>
+<gts-pid pid-id="36"/>
+<gts-pid pid-id="37"/>
+<gts-pid pid-id="38"/>
+<gts-pid pid-id="39"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">147</app-param>
+<app-param name="ecu-name">Sliding Roof</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">32</app-param>
+<app-param name="data-list-item-name">Open Switch Failure(Past)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">33</app-param>
+<app-param name="data-list-item-name">Close Switch Failure(Past)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">34</app-param>
+<app-param name="data-list-item-name">Up Switch Failure(Past)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">35</app-param>
+<app-param name="data-list-item-name">Down Switch Failure(Past)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">36</app-param>
+<app-param name="data-list-item-name">Open Switch Failure(Current)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">37</app-param>
+<app-param name="data-list-item-name">Close Switch Failure(Current)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">38</app-param>
+<app-param name="data-list-item-name">Up Switch Failure(Current)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">39</app-param>
+<app-param name="data-list-item-name">Down Switch Failure(Current)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>在 GTS 画面上出现 OFF。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>更换滑动天窗 ECU（滑动天窗主动齿轮分总成）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCZO" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="next" cellposition="2-2" childid="RM100000000DBET_07_0003"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-2" id="RM100000000DBET_07_0003">
+<testtitle>检查线束和连接器（滑动天窗 ECU（滑动天窗主动齿轮分总成） - 车身接地）</testtitle>
+<content6>
+<test1>
+<ptxt>断开滑动天窗 ECU（滑动天窗主动齿轮分总成）连接器 O3。</ptxt>
+</test1>
+<test1>
+<ptxt>断开滑动天窗开关（阅读灯总成）连接器 O4。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>O3-7 (OPN) 或 O4-8 (OPN) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>O3-5 (CLS) 或 O4-9 (CLS) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>O3-6 (DWN) 或 O4-4 (DOWN) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>O3-4 (UP) 或 O4-5 (UP) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-2" label="1">
+<action actiontype="next" cellposition="3-2" childid="RM100000000DBET_07_0008"/>
+</result>
+<result cellposition="2-4" label="2">
+<action actiontype="end" cellposition="3-4">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-2" id="RM100000000DBET_07_0008">
+<testtitle>检查滑动天窗开关（阅读灯总成）</testtitle>
+<content6>
+<test1>
+<ptxt>拆下滑动天窗开关（阅读灯总成）。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBGU" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>检查滑动天窗开关（阅读灯总成）。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBGW" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-2" label="1">
+<action actiontype="end" cellposition="4-2">
+<actiontitle>更换滑动天窗 ECU（滑动天窗主动齿轮分总成）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCZO" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-3" label="2">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>更换滑动天窗开关（阅读灯总成）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBGU" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

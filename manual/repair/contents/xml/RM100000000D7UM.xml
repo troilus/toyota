@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_57">
+<name>电源/网络</name>
+<section id="_024003">
+<name>网络</name>
+<ttl id="_0116067">
+<name>CAN 通信系统</name>
+<para category="Y" id="RM100000000D7UM">
+<dtccode/>
+<dtcname>如何进行故障排除</dtcname>
+<subpara category="10" id="RM100000000D7UM_02">
+<name>注意/小心/提示</name>
+<content5>
+<step1>
+<ptxt>故障排除时的注意事项</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>由于诊断顺序对于正确诊断很重要，因此输出与 CAN 通信系统相关的 DTC 时，确保使用如何进行故障排除开始故障排除。</ptxt>
+</item>
+<item>
+<ptxt>如果 CAN 通信系统存在故障，则检查连接器端子的接触压力，端子接触压力不足可能是故障原因。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB85" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>有关 CAN 通信系统 DTC，请参考诊断系统。</ptxt>
+</item>
+<item>
+<ptxt>如果未输出与 CAN 通信系统相关的 DTC，请参考各系统的故障排除程序。</ptxt>
+</item>
+<item>
+<ptxt>测量 CAN 总线电阻之前，将点火开关置于 OFF 位置，并在不操作钥匙或开关，或不打开或关闭车门的情况下使车辆静置 1 分钟或更长时间。随后，断开蓄电池负极 (-) 端子电缆并在测量电阻之前使车辆静置 1 分钟或更长时间。</ptxt>
+</item>
+<item>
+<ptxt>将点火开关置于 OFF 位置后，断开蓄电池负极 (-) 端子电缆前，可能需要等待一段时间。因此，继续工作前，确保阅读断开蓄电池负极 (-) 端子电缆的注意事项。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB82" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+</list1>
+</atten3>
+<step2>
+<ptxt>CAN 主总线和 CAN 支线故障以及利用 CAN 通信的系统 ECU 或传感器的内部故障或电源故障时，均输出 CAN 通信 DTC。因此，相应系统的内部故障 DTC 或电源故障 DTC 与 CAN 通信 DTC 同时输出时，根据内部故障和电源故障 DTC 进行故障排除。</ptxt>
+</step2>
+<step2>
+<ptxt>可通过使用电子检测仪检查 DLC3 端子来检查 DLC3 支线和 V 总线主总线电路是否有故障。</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>检查 DLC3 连接器时，不要直接将检测仪连接到端子。而要使用外接线连接。</ptxt>
+</item>
+<item>
+<ptxt>不能从 DLC3 上进行 ECU 或传感器支线的开路检查，或除 V 总线外的其他总线检查。</ptxt>
+</item>
+</list1>
+</atten3>
+</step2>
+<step2>
+<ptxt>使用 GTS 进行 CAN 总线检查，可以检查连接至 CAN 主总线的 ECU 或传感器的支线开路。（DLC3 支线和 V 总线主总线正常时才可进行此检查。）</ptxt>
+</step2>
+<step2>
+<ptxt>如果 V 总线有通信故障，则可通过通信 DTC（以 U 开头的 DTC）组合确定通信可能终止的 ECU 或传感器。</ptxt>
+</step2>
+<step2>
+<ptxt>检测到开路时，断开相关连接器进行检查前，按入连接器主体以检查并确认连接器未松动或断开。</ptxt>
+</step2>
+<step2>
+<ptxt>断开连接器时，检查并确认端子和连接器体没有破裂、变形或腐蚀。</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D7UM_01">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D7UM_01_0001">
+<testtitle>车辆送入修理车间</testtitle>
+<content6>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>车辆送修时，如果可以将点火开关置于 ON 位置（电源模式可切换为 ON），则检查 DTC 并立即检查组合仪表总成中指示灯的照明状态及车辆的基本操作（如转向操作）。</ptxt>
+</item>
+<item>
+<ptxt>除非车辆检查结束，否则不要将点火开关置于 OFF 位置，因为点火开关置于 OFF 位置时，某些失效保护功能会取消。</ptxt>
+</item>
+<item>
+<ptxt>车辆送修时，如果不能将点火开关置于 ON 位置（电源模式不能切换为 ON），则测量蓄电池电压。如果电压低于 11 V，则在进行故障排除前对蓄电池再充电或更换蓄电池。</ptxt>
+</item>
+<item>
+<ptxt>即使蓄电池电压正常，如果点火开关不能置于 ON 位置，则进行故障排除前维修此故障。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D98V" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+</list1>
+</atten4>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D7UM_01_0002"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D7UM_01_0002">
+<testtitle>客户故障分析</testtitle>
+<content6>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>进行故障排除时，应确认故障症状已准确判明。应摒弃臆断以便作出准确的判断。为了查明故障症状，向客户询问故障发生时的症状和条件非常重要。</ptxt>
+</item>
+<item>
+<ptxt>询问客户车辆是否配备其他设备，例如防盗设备或监视器。（若配备，向客户解释由于无法正常检查故障，进行故障排除前需拆下其他设备。）</ptxt>
+</item>
+</list1>
+</atten4>
+<test1>
+<ptxt>这有助于确认故障发生时车辆行驶时的症状和状态。这有助于缩小故障零件的范围。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>影响何物（系统、零件或仪表警告指示灯）</ptxt>
+</item>
+<item>
+<ptxt>发生什么（故障详情）</ptxt>
+</item>
+<item>
+<ptxt>何时（发生日期和时间、频率及是否再次出现）</ptxt>
+</item>
+<item>
+<ptxt>在何种情况下发生故障（发生时的驾驶和操作条件及天气）</ptxt>
+</item>
+<item>
+<ptxt>道路类型或路况（城市、郊区、铺砌道路、未铺砌的道路、高速公路等）</ptxt>
+</item>
+<item>
+<ptxt>恢复条件（什么使车辆恢复正常，例如，将点火开关置于 OFF 位置）</ptxt>
+</item>
+</list1>
+</atten4>
+<table pgwide="1">
+<title>需确认事项</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="5.31in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>症状</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>电动转向</ptxt>
+<ptxt>- 正常</ptxt>
+<ptxt>- 比平时略微沉重</ptxt>
+<ptxt>- 没有助力</ptxt>
+</item>
+<item>
+<ptxt>空调</ptxt>
+<ptxt>- 空调系统是否工作</ptxt>
+<ptxt>- 鼓风机风扇是否工作</ptxt>
+</item>
+<item>
+<ptxt>驾驶监视器显示屏</ptxt>
+<ptxt>- 多信息显示屏项目是否停止更新</ptxt>
+<ptxt>- 可行驶距离的数字部分是否不显示</ptxt>
+</item>
+<item>
+<ptxt>自动锁止和开锁操作</ptxt>
+<ptxt>- 驾驶时车速联动自动锁止功能是否工作</ptxt>
+<ptxt>- 换档杆移至 P 时，开锁功能是否工作</ptxt>
+</item>
+<item>
+<ptxt>遥控门锁功能和智能进入功能</ptxt>
+<ptxt>- 锁止/开锁功能是否有效</ptxt>
+</item>
+<item>
+<ptxt>相关其他系统的工作情况</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>仪表警告灯</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>警告灯点亮状态及点亮顺序</ptxt>
+<ptxt>- 主*1</ptxt>
+<ptxt>- 检查发动机 (MIL)</ptxt>
+<ptxt>- ABS</ptxt>
+<ptxt>- 打滑*2</ptxt>
+<ptxt>- 制动</ptxt>
+<ptxt>- EPS</ptxt>
+<ptxt>- SRS</ptxt>
+<ptxt>- 其他</ptxt>
+</item>
+<item>
+<ptxt>指针移动</ptxt>
+<ptxt>- 车速表</ptxt>
+<ptxt>- 转速表</ptxt>
+<ptxt>- 发动机冷却液温度表*1</ptxt>
+</item>
+<item>
+<ptxt>巡航信息显示屏的显示内容</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="unordered">
+<item>
+<ptxt>*1：黑白型和彩色型</ptxt>
+</item>
+<item>
+<ptxt>*2：带 VSC</ptxt>
+</item>
+</list1>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D7UM_01_0003"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D7UM_01_0003">
+<testtitle>检查 GTS 的工作情况</testtitle>
+<content6>
+<atten4>
+<ptxt>使用前，请阅读《GTS 操作手册》。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB7Y" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>检查并确认在点火开关置于 ON 位置时 GTS 和 ECU 可进行通信。</ptxt>
+</test1>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果不能通信，则 GTS 屏幕将显示故障。</ptxt>
+</item>
+<item>
+<ptxt>如果 GTS 和 ECU 之间不能进行通信，则 GTS 或车辆有故障。</ptxt>
+</item>
+<item>
+<ptxt>GTS 和车辆之间不能进行通信时，但将 GTS 连接到其他车辆时可进行通信，则车辆有故障。检查 DLC3 的支线 CANH 和 CANL 及 ECU 电源电路（在此情况下，首先执行步骤 7 至 9）。此外，检查并确认 DLC3 的 BAT 端子接收蓄电池电压（11 V 或更高）。</ptxt>
+</item>
+<item>
+<ptxt>如果将 GTS 连接到其他车辆时，GTS 和 ECU 之间仍不能进行通信，则 GTS 有故障。按照 GTS 操作手册所述，进行自检。（GTS 可能有故障或其电池电量可能耗尽。）</ptxt>
+</item>
+</list1>
+</atten4>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="4.95in"/>
+<colspec colname="COL2" colwidth="2.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>正常（GTS 和车辆之间可进行通信。）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>正常（GTS 和本车辆之间不能进行通信，但与其他车辆连接时可进行通信。）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>异常（GTS 和本车辆之间、GTS 和其他车辆之间也不能进行通信。）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D7UM_01_0006"/>
+</result>
+<result cellposition="3-2" label="2">
+<action actiontype="jump" cellposition="4-2" childid="RM100000000D7UM_01_0009">
+<actiontitle>转至步骤 7</actiontitle>
+</action>
+</result>
+<result cellposition="3-3" label="3">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>请参考 GTS 操作手册</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D7UM_01_0006">
+<testtitle>检查 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>使用 GTS，进行 Health Check 以读取当前和历史 DTC 并作记录。</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>任何通信线路开路或短路时，输出 CAN 通信 DTC。任何与相应 ECU 或传感器的电源相关的故障，或者 ECU 或传感器本身的故障，同样会导致这些 DTC 输出。</ptxt>
+</item>
+<item>
+<ptxt>点火开关置于 ON 位置时，如果 CAN 通信线路连接器断开，则相应系统及相关系统的 ECU 将存储 DTC。</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果 CAN 主总线开路、CAN 总线（CANH 和 CANL）之间短路或 CAN 总线对 +B 或接地短路，则可能输出 CAN 总线上几乎所有 ECU 和传感器的 DTC（或可能在 GTS 屏幕上显示指示通信故障的信息）。在此情况下，首先检查 CAN 总线的电阻（步骤 7 至 9）。</ptxt>
+</item>
+<item>
+<ptxt>如果 CAN 支线中仅一条线路发生开路，则可能输出与故障零件无关的 DTC（DTC 可能随机显示），或在 GTS 上可能显示指示通信故障的信息。</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+<test1>
+<ptxt>使用 GTS 读取定格数据并作记录。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000D7UM_01_0007"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000D7UM_01_0007">
+<testtitle>进行通信故障检查（使用 GTS 检查连接状态）</testtitle>
+<content6>
+<test1>
+<ptxt>从 GTS 屏幕上选择“Communication Malfunction Check”。</ptxt>
+</test1>
+<test1>
+<ptxt>记录 ECU 和传感器存储的所有 DTC。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="next" cellposition="6-1" childid="RM100000000D7UM_01_0008"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-1" id="RM100000000D7UM_01_0008">
+<testtitle>进行 CAN 总线检查（使用 GTS 检查连接状态）</testtitle>
+<content6>
+<test1>
+<ptxt>根据车辆设备和规格，确认使用 CAN 通信的系统。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UU" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>从 GTS 屏幕上选择“CAN Bus Check”。</ptxt>
+</test1>
+<gts-info category="canbus-connect">
+<title>CAN 总线检查</title>
+<gts-exec function-id="50007"/>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">6</app-param>
+<app-param name="category-div"/>
+<app-param name="category-div-name"/>
+<app-param name="ecu-id"/>
+<app-param name="ecu-name"/>
+<app-param name="gts-order">0</app-param>
+</app-communication>
+</gts-info>
+<test1>
+<ptxt>观察屏幕约 2 分钟以检查屏幕上显示的 ECU 和传感器。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-1" label="1">
+<action actiontype="next" cellposition="7-1" childid="RM100000000D7UM_01_0009"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-1" id="RM100000000D7UM_01_0009">
+<testtitle>检查 DLC3 支线和 V 总线主线 (CANH - CANL)</testtitle>
+<content6>
+<atten3>
+<ptxt>测量 CAN 总线电阻之前，将点火开关置于 OFF 位置，并在不操作钥匙或开关，或不打开或关闭车门的情况下使车辆静置 1 分钟或更长时间。随后，断开蓄电池负极 (-) 端子电缆并在测量电阻之前使车辆静置 1 分钟或更长时间。</ptxt>
+</atten3>
+<atten4>
+<ptxt>如果操作点火开关、任何其他开关或车门，则可触发相关的 ECU 和传感器进行 CAN 通信。该通信将导致电阻值发生变化。</ptxt>
+</atten4>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E18-6 (CANH) - E18-14 (CANL)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>断开蓄电池负极 (-) 端子电缆</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>54 至 69 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<figure translate="C" type="1">
+<graphic graphicname="C151827C59" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>DLC3</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>正常</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>异常（70 Ω 或更大）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>异常（低于 54 Ω）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="4">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-1" label="1">
+<action actiontype="next" cellposition="8-1" childid="RM100000000D7UM_01_0010"/>
+</result>
+<result cellposition="7-6" label="2">
+<action actiontype="end" cellposition="8-6">
+<actiontitle>转至 CAN 主总线开路</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UW" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="7-7" label="4">
+<action actiontype="end" cellposition="8-7">
+<actiontitle>转至 CAN 总线短路</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UX" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-1" id="RM100000000D7UM_01_0010">
+<testtitle>检查 V 总线是否对接地短路 (CANH, CANL - CG)</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E18-6 (CANH) - E18-4 (CG)</ptxt>
+</entry>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>断开蓄电池负极 (-) 端子电缆</ptxt>
+</entry>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>200 Ω 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E18-14 (CANL) - E18-4 (CG)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<figure translate="C" type="1">
+<graphic graphicname="C151827C60" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>DLC3</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-1" label="1">
+<action actiontype="next" cellposition="9-1" childid="RM100000000D7UM_01_0011"/>
+</result>
+<result cellposition="8-5" label="2">
+<action actiontype="end" cellposition="9-5">
+<actiontitle>转至 CAN 总线对接地短路</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UZ" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-1" id="RM100000000D7UM_01_0011">
+<testtitle>检查 V 总线是否对 +B 短路 (CANH, CANL - BAT)</testtitle>
+<content6>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C151827C61" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>DLC3</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E18-6 (CANH) - E18-16 (BAT)</ptxt>
+</entry>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>断开蓄电池负极 (-) 端子电缆</ptxt>
+</entry>
+<entry align="center" morerows="1" valign="middle">
+<ptxt>6 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E18-14 (CANL) - E18-16 (BAT)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-1" label="1">
+<action actiontype="next" cellposition="10-1" childid="RM100000000D7UM_01_0020"/>
+</result>
+<result cellposition="9-4" label="2">
+<action actiontype="end" cellposition="10-4">
+<actiontitle>转至 CAN 总线对 +B 短路</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UY" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="10-1" id="RM100000000D7UM_01_0020">
+<testtitle>检查 CAN 总线检查结果（使用 GTS 检查连接状态）</testtitle>
+<content6>
+<test1>
+<ptxt>根据步骤 6（进行 CAN 总线检查的步骤）的检查结果，检查或维修可能存在故障的零件。</ptxt>
+</test1>
+<gts-info category="canbus-connect">
+<title>CAN 总线检查</title>
+<gts-exec function-id="50007"/>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">6</app-param>
+<app-param name="category-div"/>
+<app-param name="category-div-name"/>
+<app-param name="ecu-id"/>
+<app-param name="ecu-name"/>
+<app-param name="gts-order">0</app-param>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>CAN 总线检查结果（使用 GTS 检查连接状态）</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="4.96in"/>
+<colspec colname="COL2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>所有连接到 CAN 通信系统的 ECU 和传感器均显示在屏幕上。</ptxt>
+<ptxt>（CAN 总线电路当前正常。）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>连接到 V 总线的任一 ECU 和传感器未显示在屏幕上。</ptxt>
+<ptxt>（ECU 或传感器支线开路，或通信中断。）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>除与 CAN 通信系统相连但未显示在屏幕上的 ECU 和传感器外，在检查期间还存在检测状态改变（在检测到和未检测到之间变化）的 ECU 或传感器。</ptxt>
+<ptxt>（ECU 或传感器支线一侧开路。）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>不显示未安装的 ECU 或传感器。不要误认为其处于通信终止模式。</ptxt>
+</item>
+<item>
+<ptxt>可从 GTS 上的总线选择下拉菜单中选择无 ECU 或传感器的总线。这并非故障。（选装设备不在由配备网关功能的 ECU 监视的分总线上时，发生此情况。）</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>有关 CAN 总线检查，请参考如何判断 CAN 总线检查画面。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UU" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>如果在检查期间 ECU 的检测状态改变，则连接 ECU 或传感器的任一支线可能开路。（来自任一支线开路的 ECU 或传感器的信号产生电噪干扰，影响对 GTS 的响应以及是否显示 ECU 和传感器。）</ptxt>
+</item>
+</list1>
+</atten4>
+</content6>
+<results>
+<result cellposition="10-1" label="1">
+<action actiontype="next" cellposition="11-1" childid="RM100000000D7UM_01_0023"/>
+</result>
+<result cellposition="10-2" label="2">
+<action actiontype="end" cellposition="11-2">
+<actiontitle>转至通信终止模式表</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UN" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="10-3" label="3">
+<action actiontype="end" cellposition="11-3">
+<actiontitle>转至 CAN 支线一侧开路</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7V0" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="11-1" id="RM100000000D7UM_01_0023">
+<testtitle>检查通信故障检查的检查结果</testtitle>
+<content6>
+<test1>
+<ptxt>根据步骤 5（进行检查通信故障 DTC 的步骤）的检查结果，检查或维修可能存在故障的零件。</ptxt>
+</test1>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>检查通信 DTC 时，请参考如何判断通信 DTC（以 U 开头的 DTC）。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UU" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>如果存储通信 DTC，且连接至 CAN 通信系统的所有 ECU 和传感器均显示在 GTS 的 CAN Bus Check 画面上，则可能是过去而非现在发生的故障。</ptxt>
+</item>
+<item>
+<ptxt>V 总线的 CAN 支线有故障时，由于其相关 ECU 和传感器检测到该故障，则可通过输出的 DTC 组合确定故障部位。</ptxt>
+</item>
+</list1>
+</atten4>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="11-1" label="1">
+<action actiontype="next" cellposition="12-1" childid="RM100000000D7UM_01_0024"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="12-1" id="RM100000000D7UM_01_0024">
+<testtitle>DTC 组合表</testtitle>
+<content6>
+<test1>
+<ptxt>根据与 CAN 通信系统相关的输出 DTC 的组合来确认故障。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UU" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>DTC 组合表中无 DTC 组合。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>DTC 组合表中有 DTC 组合。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>如果输出 CAN 通信系统 DTC，并且连接至 CAN 通信系统的所有 ECU 和传感器均显示在 GTS 的 CAN Bus Check 画面上，则 CAN 通信系统的历史 DTC 可能指示故障。</ptxt>
+</atten4>
+</content6>
+<results>
+<result cellposition="12-1" label="1">
+<action actiontype="next" cellposition="13-1" childid="RM100000000D7UM_01_0026"/>
+</result>
+<result cellposition="12-2" label="2">
+<action actiontype="end" cellposition="13-2">
+<actiontitle>转至通信终止模式表</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UN" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="13-1" id="RM100000000D7UM_01_0026">
+<testtitle>故障识别（V 主总线线路的以前故障）</testtitle>
+<content6>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+</test1>
+<test1>
+<ptxt>使用 GTS 清除 DTC。</ptxt>
+</test1>
+<test1>
+<ptxt>进行症状模拟测试，以检查包括 V 总线主总线的线束和连接器。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>根据检查结果，检查输出 DTC 的零件以确定故障部位。</ptxt>
+<atten4>
+<ptxt>如果输出 DTC，则不要将点火开关置于 OFF 位置。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="13-1" label="1">
+<action actiontype="next" cellposition="14-1" childid="RM100000000D7UM_01_0027"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="14-1" id="RM100000000D7UM_01_0027">
+<testtitle>维修或更换</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="14-1" label="1">
+<action actiontype="next" cellposition="15-1" childid="RM100000000D7UM_01_0028"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="15-1" id="RM100000000D7UM_01_0028">
+<testtitle>确认测试</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="15-1" label="1">
+<action actiontype="end" cellposition="16-1">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

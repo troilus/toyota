@@ -1,0 +1,38 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>丰田服务信息</title>
+<script>
+function newScrennopen() {
+  document.write("Please close the window.");
+  oObj=window.open("./pgm/top.html", "_BLANK","resizable=1,toolbar=0,location=0,status=1,menubar=0,directories=0");
+  opener=self;
+  self.close();
+  if(!(window.navigator.userAgent.indexOf('WebKit') > -1)) {
+    oObj.moveTo(0,0);
+  }
+}
+</script>
+</head>
+<body class="main" onload="newScrennopen();">
+<noscript>
+<table>
+     <tr>
+        <td><br>
+<span style='font-size:11px;font-family:"Verdana"'>JavaScript 不可用：</font><br><br>
+            本手册需要使用 JavaScript & CSS。<br>
+            请检查您的浏览器设定，以确保可以使用 JavaScript。</span><br></td>
+     </tr>
+     <tr>
+        <td><br><br><br><br><br><br>
+<span style='font-size:14px;font-family:"ＭＳ Ｐゴシック"'>Javascriptの設定が無効になっています。<br><br>
+            当マニュアルでは、Javascriptおよびスタイルシートを使用しております。<br>
+            当マニュアルをご覧になる際にはJavascriptおよびスタイルシートを有効にしてください。</span><br></td>
+     </tr>
+  </table>
+</noscript>
+</body>
+</html>

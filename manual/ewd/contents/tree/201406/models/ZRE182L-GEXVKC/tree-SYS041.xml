@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS041" code="A9" type="conn" figID="3">
+    <name>左侧大灯总成</name>
+  </text>
+  <text ewd="SYS041" code="A16" type="conn" figID="4">
+    <name>右侧大灯总成</name>
+  </text>
+  <text ewd="SYS041" code="E15" type="conn" figID="12">
+    <name>大灯变光器开关总成</name>
+  </text>
+  <text ewd="SYS041" code="E54" type="conn" figID="6">
+    <name>大灯水平开关</name>
+  </text>
+  <text ewd="SYS041" code="E36" type="conn" figID="10">
+    <name>主车身 ECU</name>
+  </text>
+  <text ewd="SYS041" code="A38" type="conn" figID="11">
+    <name>2 号接线连接器</name>
+  </text>
+  <text ewd="SYS041" code="E71" type="conn" figID="1,9">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS041" code="FUSE5" type="fuse" figID="32">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS041" code="FUSE11" type="fuse" figID="30">
+    <name>10A H-LP LH-LO</name>
+  </text>
+  <text ewd="SYS041" code="FUSE29" type="fuse" figID="31">
+    <name>40A H-LP-MAIN</name>
+  </text>
+  <text ewd="SYS041" code="FUSE43" type="fuse" figID="34">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS041" code="FUSE47" type="fuse" figID="33">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS041" code="AA" type="gp" figID="21">
+    <name />
+  </text>
+  <text ewd="SYS041" code="AC" type="gp" figID="22">
+    <name />
+  </text>
+  <text ewd="SYS041" code="EA" type="gp" figID="26">
+    <name />
+  </text>
+  <text ewd="SYS041" code="EB" type="gp" figID="25">
+    <name />
+  </text>
+  <text ewd="SYS041" code="ED" type="gp" figID="23,24">
+    <name />
+  </text>
+  <text ewd="SYS041" code="3" type="jb" figID="17,18,19">
+    <name />
+  </text>
+  <text ewd="SYS041" code="1" type="rb" figID="2">
+    <name />
+  </text>
+  <text ewd="SYS041" code="FUSE5" type="rb" figID="8">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS041" code="FUSE11" type="rb" figID="5">
+    <name>10A H-LP LH-LO</name>
+  </text>
+  <text ewd="SYS041" code="FUSE29" type="rb" figID="7">
+    <name>40A H-LP-MAIN</name>
+  </text>
+  <text ewd="SYS041" code="SP2" type="sp" figID="27">
+    <name />
+  </text>
+  <text ewd="SYS041" code="SP4" type="sp" figID="28">
+    <name />
+  </text>
+  <text ewd="SYS041" code="SP19" type="sp" figID="29">
+    <name />
+  </text>
+  <text ewd="SYS041" code="AE2" type="w2w" figID="20">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+</EwdTree>

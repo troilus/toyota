@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024012">
+<name>暖风/空调</name>
+<ttl id="_0116102">
+<name>空调系统（自动空调系统）</name>
+<para category="C" id="RM100000000D851">
+<dtccode>B1497/97</dtccode>
+<dtcname>总线集成电路通信故障</dtcname>
+<subpara category="03" id="RM100000000D851_01">
+<name>描述</name>
+<content5>
+<ptxt>空调线束总成连接空调放大器总成和伺服马达。空调放大器总成通过空调线束总成向各伺服马达供电并发送工作指令。各伺服马达将风门位置信息发送至空调放大器总成。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B1497/97</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>总线集成电路通信故障</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>通信线路故障或开路</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>空调线束总成</ptxt>
+</item>
+<item>
+<ptxt>空气混合风门伺服机构分总成</ptxt>
+</item>
+<item>
+<ptxt>模式风门伺服机构分总成</ptxt>
+</item>
+<item>
+<ptxt>鼓风机 1 号风门伺服机构分总成</ptxt>
+</item>
+<item>
+<ptxt>空调放大器总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="memory">
+<ptxt>存储</ptxt>
+<ptxt>（10 秒或更长时间）*</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*：如果在括号所示的时间内出现故障，则空调放大器总成将存储该 DTC。</ptxt>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D851_02">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="E266895E09" height="6.850762795in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D851_04">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>进行下列程序前，先检查与此系统相关电路的保险丝。</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D851_06">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D851_06_0021">
+<testtitle>使用 GTS 进行主动测试</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Body Electrical / Air Conditioner / Active Test。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，进行主动测试。</ptxt>
+<gts-info category="active-test-table">
+<title>Body Electrical &gt; Air Conditioner &gt; Active Test</title>
+<table pgwide="1" type="active-test-table">
+<tgroup cols="4">
+<colspec colname="1" colwidth="1.77in"/>
+<colspec colname="2" colwidth="1.77in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>控制范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="24" name="item-name">
+<ptxt>Air Mix Servo Targ Pulse (D)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="24" name="description">
+<ptxt>空气混合风门伺服机构分总成脉冲</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="24" name="drive-range">
+<ptxt>最少：0</ptxt>
+<ptxt>最多：255</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="24" name="remark">
+<ptxt>在 6 和 93 脉冲之间工作</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="26" name="item-name">
+<ptxt>Air Outlet Servo Pulse (D)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="26" name="description">
+<ptxt>模式风门伺服机构分总成脉冲</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="26" name="drive-range">
+<ptxt>最少：0</ptxt>
+<ptxt>最多：255</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="26" name="remark">
+<ptxt>在 5 和 47 脉冲之间工作</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="27" name="item-name">
+<ptxt>Air Inlet Damper Targ Pulse</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="27" name="description">
+<ptxt>鼓风机 1 号风门伺服机构分总成脉冲</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="27" name="drive-range">
+<ptxt>最少：0</ptxt>
+<ptxt>最多：255</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="27" name="remark">
+<ptxt>在 7 和 19 脉冲之间工作</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">121</app-param>
+<app-param name="ecu-name">Air Conditioner</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="did-id">24</app-param>
+<app-param name="active-test-item-name">Air Mix Servo Targ Pulse (D)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="did-id">26</app-param>
+<app-param name="active-test-item-name">Air Outlet Servo Pulse (D)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="did-id">27</app-param>
+<app-param name="active-test-item-name">Air Inlet Damper Targ Pulse</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>主动测试中选择的风门伺服马达臂移动平稳。</ptxt>
+</specitem>
+</spec>
+<gts-info category="active-test">
+<title>Body Electrical &gt; Air Conditioner &gt; Active Test</title>
+<table type="active-test">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="24" name="item-name">
+<ptxt>Air Mix Servo Targ Pulse (D)</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50004">
+<gts-ecu ecu-id="121">
+<gts-did did-id="24"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">121</app-param>
+<app-param name="ecu-name">Air Conditioner</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="use-datalist">0</app-param>
+<app-param-unit>
+<app-param name="did-id">24</app-param>
+<app-param name="active-test-item-name">Air Mix Servo Targ Pulse (D)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="active-test">
+<title>Body Electrical &gt; Air Conditioner &gt; Active Test</title>
+<table type="active-test">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="26" name="item-name">
+<ptxt>Air Outlet Servo Pulse (D)</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50004">
+<gts-ecu ecu-id="121">
+<gts-did did-id="26"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">121</app-param>
+<app-param name="ecu-name">Air Conditioner</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="use-datalist">0</app-param>
+<app-param-unit>
+<app-param name="did-id">26</app-param>
+<app-param name="active-test-item-name">Air Outlet Servo Pulse (D)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="active-test">
+<title>Body Electrical &gt; Air Conditioner &gt; Active Test</title>
+<table type="active-test">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="27" name="item-name">
+<ptxt>Air Inlet Damper Targ Pulse</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50004">
+<gts-ecu ecu-id="121">
+<gts-did did-id="27"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">121</app-param>
+<app-param name="ecu-name">Air Conditioner</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="use-datalist">0</app-param>
+<app-param-unit>
+<app-param name="did-id">27</app-param>
+<app-param name="active-test-item-name">Air Inlet Damper Targ Pulse</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>根据测试结果，转至下一步。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="5.66in"/>
+<colspec colname="col2" colwidth="1.42in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>其中一个风门伺服马达出现故障</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>所有风门伺服马达出现故障</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>所有风门伺服马达正常</ptxt>
+</entry>
+<entry align="center">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D851_06_0022"/>
+</result>
+<result cellposition="1-6" label="2">
+<action actiontype="jump" cellposition="2-6" childid="RM100000000D851_06_0050">
+<actiontitle>转至步骤 6</actiontitle>
+</action>
+</result>
+<result cellposition="1-7" label="3">
+<action actiontype="end" cellposition="2-7">
+<actiontitle>更换空调放大器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCSG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D851_06_0022">
+<testtitle>系统检查</testtitle>
+<content6>
+<test1>
+<ptxt>根据测试结果，转至下一步。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>仅空气混合风门伺服机构分总成出现故障</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>仅鼓风机 1 号风门伺服机构分总成出现故障</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>仅模式风门伺服机构分总成出现故障</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D851_06_0023"/>
+</result>
+<result cellposition="2-3" label="2">
+<action actiontype="next" cellposition="3-3" childid="RM100000000D851_06_0024"/>
+</result>
+<result cellposition="2-5" label="3">
+<action actiontype="next" cellposition="3-5" childid="RM100000000D851_06_0025"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D851_06_0023">
+<testtitle>更换空气混合风门伺服机构分总成</testtitle>
+<content6>
+<test1>
+<ptxt>更换空气混合风门伺服机构分总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCQS" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>由于从车辆上拆下伺服马达时不能对其进行检查，因此应使用新的或确认正常的伺服马达更换，检查并确认状态恢复正常。</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D85D" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Air Conditioner &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="121"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">121</app-param>
+<app-param name="ecu-name">Air Conditioner</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC B1497/97</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC B1497/97</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="end" cellposition="4-1">
+<actiontitle>结束（空气混合风门伺服机构分总成故障）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="3-2" label="2">
+<action actiontype="jump" cellposition="4-2" childid="RM100000000D851_06_0050">
+<actiontitle>转至步骤 6</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-3" id="RM100000000D851_06_0024">
+<testtitle>更换鼓风机 1 号风门伺服机构分总成</testtitle>
+<content6>
+<test1>
+<ptxt>更换鼓风机 1 号风门伺服机构分总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCQY" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>由于从车辆上拆下伺服马达时不能对其进行检查，因此应使用新的或确认正常的伺服马达更换，检查并确认状态恢复正常。</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D85D" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Air Conditioner &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="121"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">121</app-param>
+<app-param name="ecu-name">Air Conditioner</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC B1497/97</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC B1497/97</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-3" label="1">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>结束（鼓风机 1 号风门伺服机构分总成故障）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="3-4" label="2">
+<action actiontype="jump" cellposition="4-4" childid="RM100000000D851_06_0050">
+<actiontitle>转至步骤 6</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-5" id="RM100000000D851_06_0025">
+<testtitle>更换模式风门伺服机构分总成</testtitle>
+<content6>
+<test1>
+<ptxt>更换模式风门伺服机构分总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCQS" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>由于从车辆上拆下伺服马达时不能对其进行检查，因此应使用新的或确认正常的伺服马达更换，检查并确认状态恢复正常。</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D85D" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Air Conditioner &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="121"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">121</app-param>
+<app-param name="ecu-name">Air Conditioner</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC B1497/97</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC B1497/97</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-5" label="1">
+<action actiontype="end" cellposition="4-5">
+<actiontitle>结束（模式风门伺服机构分总成故障）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="3-6" label="2">
+<action actiontype="next" cellposition="4-6" childid="RM100000000D851_06_0050"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-6" id="RM100000000D851_06_0050">
+<testtitle>更换空调线束总成</testtitle>
+<content6>
+<test1>
+<ptxt>更换空调线束总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCQR" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>由于从车辆上拆下空调线束总成时不能对其进行检查，因此应使用新的或确认正常的空调线束总成更换，检查并确认状态恢复正常。</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D85D" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Air Conditioner &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="121"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">121</app-param>
+<app-param name="ecu-name">Air Conditioner</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC B1497/97</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 DTC B1497/97</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-6" label="1">
+<action actiontype="end" cellposition="5-6">
+<actiontitle>结束（空调线束总成故障）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="4-7" label="2">
+<action actiontype="next" cellposition="5-7" childid="RM100000000D851_06_0052"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-7" id="RM100000000D851_06_0052">
+<testtitle>检查线束和连接器（电源电路）</testtitle>
+<content6>
+<test1>
+<ptxt>断开空调放大器总成连接器 E43。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.36in"/>
+<colspec colname="col2" colwidth="1.35in"/>
+<colspec colname="col3" colwidth="1.42in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E43-21 (B) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-7" label="1">
+<action actiontype="end" cellposition="6-7">
+<actiontitle>更换空调放大器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCSG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="5-8" label="2">
+<action actiontype="end" cellposition="6-8">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

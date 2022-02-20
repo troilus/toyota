@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_56">
+<name>音频/视频/车载通信系统</name>
+<section id="_023999">
+<name>导航/多信息显示屏</name>
+<ttl id="_0116139">
+<name>导航系统</name>
+<para category="C" id="RM100000000D8DL">
+<dtccode>B15F6</dtccode>
+<dtcname>主车身 ECU 车辆信息读取/写入处理故障</dtcname>
+<subpara category="03" id="RM100000000D8DL_01">
+<name>描述</name>
+<content5>
+<ptxt>通过导航系统车辆定制画面无法定制主车身 ECU（多路网络车身 ECU）控制的项目时，存储该 DTC。</ptxt>
+<atten4>
+<ptxt>主车身 ECU（多路网络车身 ECU）控制通过导航系统车辆定制画面可定制的以下系统的项目：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>无线门锁控制系统</ptxt>
+</item>
+<item>
+<ptxt>照明系统（车内）</ptxt>
+</item>
+<item>
+<ptxt>照明系统（车外）</ptxt>
+</item>
+</list1>
+</atten4>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="4">
+<colspec colname="1" colwidth="1.77in"/>
+<colspec colname="2" colwidth="1.77in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>B15F6</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>主车身 ECU 车辆信息读取/写入处理故障</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>主车身 ECU（多路网络车身 ECU）车辆设定处理故障</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>CAN 通信系统</ptxt>
+</item>
+<item>
+<ptxt>无线门锁控制系统</ptxt>
+</item>
+<item>
+<ptxt>照明系统（车内）</ptxt>
+</item>
+<item>
+<ptxt>照明系统（车外）</ptxt>
+</item>
+<item>
+<ptxt>主车身 ECU（多路网络车身 ECU）</ptxt>
+</item>
+<item>
+<ptxt>导航接收器总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D8DL_08">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>根据车辆检查或保养期间更换的零件，可能需要执行初始化、注册或校准。 请参考导航系统的注意事项。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D4" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D8DL_06">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8DL_06_0001">
+<testtitle>检查 CAN 通信系统</testtitle>
+<content6>
+<test1>
+<ptxt>使用 GTS 检查 CAN 通信系统是否工作正常。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>未输出 CAN 通信 DTC。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="3">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D8DL_06_0008"/>
+</result>
+<result cellposition="1-6" label="2">
+<action actiontype="end" cellposition="2-6">
+<actiontitle>转至 CAN 通信系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D8DL_06_0008">
+<testtitle>检查无线门锁控制系统</testtitle>
+<content6>
+<test1>
+<ptxt>检查无线门锁控制系统是否存在故障。</ptxt>
+<ptxt>带智能进入和起动系统：单击此处 <mlink><xref href="RM100000000D8MN" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>不带智能进入和起动系统：单击此处 <mlink><xref href="RM100000000D8MX" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>可能无法根据无线门锁控制系统内的故障进行定制。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>无线门锁控制系统未出现故障。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D8DL_06_0010"/>
+</result>
+<result cellposition="2-5" label="2">
+<action actiontype="end" cellposition="3-5">
+<actiontitle>转至无线门锁控制系统</actiontitle>
+<content6>
+<ptxt>带智能进入和起动系统：单击此处 <mlink><xref href="RM100000000D8MN" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>不带智能进入和起动系统：单击此处 <mlink><xref href="RM100000000D8MX" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D8DL_06_0010">
+<testtitle>检查照明系统（车内）</testtitle>
+<content6>
+<test1>
+<ptxt>检查照明系统（车内）是否存在故障。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8ER" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>根据照明系统（车内）的故障情况，可能无法进行定制。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>照明系统（车内）未出现故障。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D8DL_06_0012"/>
+</result>
+<result cellposition="3-4" label="2">
+<action actiontype="end" cellposition="4-4">
+<actiontitle>转至照明系统（车内）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8ER" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D8DL_06_0012">
+<testtitle>检查照明系统（车外）</testtitle>
+<content6>
+<test1>
+<ptxt>检查照明系统（车外）是否存在故障。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9Z2" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>根据照明系统（车外）的故障情况，可能无法进行定制。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>照明系统（车外）未出现故障。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000D8DL_06_0003"/>
+</result>
+<result cellposition="4-3" label="2">
+<action actiontype="end" cellposition="5-3">
+<actiontitle>转至照明系统（车外）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9Z2" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000D8DL_06_0003">
+<testtitle>检查定制项目</testtitle>
+<content6>
+<test1>
+<ptxt>记录各主车身 ECU（多路网络车身 ECU）相关系统的可定制项目。</ptxt>
+<atten4>
+<ptxt>显示为通过导航系统车辆定制画面可进行定制的项目也可使用 GTS 进行定制。 在下列步骤中将使用 GTS。</ptxt>
+</atten4>
+<test2>
+<ptxt>如需找到导航系统的车辆定制画面与 GTS 相匹配的项目，通过导航系统车辆定制画面检查与无线门锁控制系统相关项目的定制参数列表。</ptxt>
+<ptxt>带智能进入和起动系统：单击此处 <mlink><xref href="RM100000000D8MO" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>不带智能进入和起动系统：单击此处 <mlink><xref href="RM100000000D8N2" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</test2>
+<test2>
+<ptxt>如需找到导航系统的车辆定制画面与 GTS 相匹配的项目，通过导航系统车辆定制画面检查与照明系统（车内）相关项目的定制参数列表。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8EM" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+</test2>
+<test2>
+<ptxt>如需找到导航系统的车辆定制画面与 GTS 相匹配的项目，通过导航系统车辆定制画面检查与照明系统（车外）相关项目的定制参数列表。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9Z0" label="Seep00004" term-id-from="001"/></mlink>
+</ptxt>
+</test2>
+</test1>
+<test1>
+<ptxt>使用 GTS，确认可改变通过导航系统车辆定制画面可定制的定制参数设定。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>使用 GTS 可成功定制通过导航系统车辆定制画面可定制的项目。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="end" cellposition="6-1">
+<actiontitle>更换导航接收器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD7X" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="5-2" label="2">
+<action actiontype="end" cellposition="6-2">
+<actiontitle>更换主车身 ECU（多路网络车身 ECU）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

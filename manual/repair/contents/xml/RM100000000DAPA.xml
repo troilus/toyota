@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024009">
+<name>辅助乘员保护系统</name>
+<ttl id="_0116617">
+<name>空气囊系统</name>
+<para category="J" id="RM100000000DAPA">
+<dtccode/>
+<dtcname>SRS 警告灯不亮</dtcname>
+<subpara category="03" id="RM100000000DAPA_01">
+<name>描述</name>
+<content5>
+<ptxt>SRS 警告灯位于组合仪表总成内。</ptxt>
+<ptxt>SRS 正常时，将点火开关从 OFF 位置切换至 ON 位置后，SRS 警告灯点亮约 6 秒，然后自动熄灭。</ptxt>
+<ptxt>如果 SRS 存在故障，则 SRS 警告灯点亮以告知驾驶员出现故障。</ptxt>
+<ptxt>如果空气囊 ECU 总成、组合仪表总成或连接至空气囊 ECU 总成的线束或组合仪表总成发生故障，则 SRS 警告灯点亮。</ptxt>
+<ptxt>连接 DLC3 的端子 TC 和 CG 时，通过使 SRS 警告灯闪烁来显示 DTC。</ptxt>
+<ptxt>在空气囊 ECU 总成中，SRS 配备了升压电路（DC-DC 转换器），以防电源电压下降。</ptxt>
+<ptxt>蓄电池电压下降时，升压电路（DC-DC 转换器）工作，从而将 SRS 的电压提升至正常电压。</ptxt>
+<ptxt>空气囊 ECU 总成中不会存储该电路故障。电源电压恢复正常时，SRS 警告灯自动熄灭。</ptxt>
+<ptxt>点亮 SRS 警告灯的信号通过 CAN 通信系统从空气囊 ECU 总成传输至组合仪表总成。</ptxt>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DAPA_02">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="C263701E21" height="4.825319882in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DAPA_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>将点火开关置于 OFF 位置后，断开蓄电池负极 (-) 端子电缆前，可能需要等待一段时间。因此，继续工作前，确保阅读断开蓄电池负极 (-) 端子电缆的注意事项。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB82" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>进行下列程序前，先检查与此系统相关电路的保险丝。</ptxt>
+</item>
+</list1>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DAPA_05">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DAPA_05_0001">
+<testtitle>检查蓄电池电压</testtitle>
+<content6>
+<test1>
+<ptxt>测量蓄电池电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<specitem>
+<ptxt>11 至 14 V</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DAPA_05_0005"/>
+</result>
+<result cellposition="1-5" label="2">
+<action actiontype="end" cellposition="2-5">
+<actiontitle>检查充电系统和蓄电池</actiontitle>
+<content6>
+<ptxt>1ZR-FE：单击此处 <mlink><xref href="RM100000000DATR" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>2ZR-FE：单击此处 <mlink><xref href="RM100000000DAUI" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>4ZR-FE：单击此处 <mlink><xref href="RM100000000DAV9" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>7ZR-FE：单击此处 <mlink><xref href="RM100000000ENRY" label="Seep00004" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DAPA_05_0005">
+<testtitle>检查连接器</testtitle>
+<content6>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<test1>
+<ptxt>检查并确认连接器已正确连接到组合仪表总成上。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>连接器已正确连接。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>如果连接器未正确连接，则重新连接连接器并进行下一步检查。</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>从组合仪表总成上断开连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>检查并确认连接器的端子未损坏。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>端子未变形或损坏。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000DAPA_05_0003"/>
+</result>
+<result cellposition="2-4" label="2">
+<action actiontype="end" cellposition="3-4">
+<actiontitle>维修或更换连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000DAPA_05_0003">
+<testtitle>检查线束（组合仪表总成 - 车身接地）</testtitle>
+<content6>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="C241761C15" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至组合仪表总成）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E55-39 (IG+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E55-40 (B) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>将点火开关置于 OFF 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E55-21 (ET) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000DAPA_05_0007"/>
+</result>
+<result cellposition="3-3" label="2">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>维修或更换线束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000DAPA_05_0007">
+<testtitle>检查 SRS 警告灯</testtitle>
+<content6>
+<test1>
+<ptxt>断开蓄电池负极 (-) 端子电缆。</ptxt>
+<atten2>
+<ptxt>断开蓄电池负极 (-) 端子电缆后，至少等待 90 秒，以禁用 SRS 系统。</ptxt>
+</atten2>
+</test1>
+<test1>
+<ptxt>将连接器连接到组合仪表总成上。</ptxt>
+</test1>
+<test1>
+<ptxt>从空气囊 ECU 总成上断开连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>连接蓄电池负极 (-) 端子电缆。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置并检查 SRS 警告灯状况。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>初步检查阶段过后，SRS 警告灯熄灭约 10 秒，然后点亮。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>初步检查期阶段为将点火开关置于 ON 位置后约 6 秒的时间。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="end" cellposition="5-1">
+<actiontitle>更换空气囊 ECU 总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D96H" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="4-2" label="2">
+<action actiontype="end" cellposition="5-2">
+<actiontitle>更换组合仪表总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DDU4" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

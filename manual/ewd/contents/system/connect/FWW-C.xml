@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <connector type="conn" code="E16" figID="2">
+    <pin no="4">
+      <line id="1" color="R">
+        <connector type="jbc" code="3D" figID="5">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E16" figID="2">
+    <pin no="2">
+      <line id="2" color="L">
+        <connector type="jbc" code="3D" figID="4">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E16" figID="2">
+    <pin no="3">
+      <line id="3" color="B">
+        <connector type="w2w" code="AE6" sex="male" figID="7">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E16" figID="2">
+    <pin no="1">
+      <line id="4" color="G">
+        <connector type="w2w" code="AE6" sex="male" figID="9">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E17" figID="2">
+    <pin no="7">
+      <line id="5" color="W">
+        <connector type="w2w" code="AE6" sex="male" figID="6">
+          <pin no="12"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="gp" code="EA" figID="10">
+    <pin>
+      <line id="6" color="W-B">
+        <connector type="conn" code="E17" figID="2">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A15" figID="1">
+    <pin no="1">
+      <line id="7" color="L">
+        <connector type="w2w" code="AE6" sex="female" figID="8">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE6" sex="female" figID="6">
+    <pin no="12">
+      <line id="8" color="W">
+        <connector type="conn" code="A15" figID="1">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP9" figID="12">
+    <pin>
+      <line id="9" color="W-B">
+        <connector type="gp" code="AD" figID="11">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A6" figID="3">
+    <pin no="4">
+      <line id="10" color="W-B">
+        <connector type="sp" code="SP9" figID="12">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A6" figID="3">
+    <pin no="3">
+      <line id="11" color="R">
+        <connector type="jbc" code="3A" figID="5">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE6" sex="female" figID="7">
+    <pin no="10">
+      <line id="12" color="B">
+        <connector type="conn" code="A6" figID="3">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE6" sex="male" figID="8">
+    <pin no="6">
+      <line id="13" color="L">
+        <connector type="jbc" code="3D" figID="4">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A6" figID="3">
+    <pin no="1">
+      <line id="14" color="G">
+        <connector type="w2w" code="AE6" sex="female" figID="9">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3A" figID="4">
+    <pin no="1">
+      <line id="15" color="L">
+        <connector type="conn" code="A6" figID="3">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

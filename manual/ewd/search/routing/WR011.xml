@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="WR011">
+    <part type="conn" code="E65">
+      <name>后声纳或侦测声纳开关总成</name>
+    </part>
+    <part type="conn" code="E63">
+      <name>间隙警告 ECU 总成</name>
+    </part>
+    <part type="conn" code="E67">
+      <name>二极管（左侧门控灯总成）</name>
+    </part>
+    <part type="conn" code="E68">
+      <name>二极管（右侧门控灯总成）</name>
+    </part>
+    <part type="conn" code="E66">
+      <name>车内照明灯总成</name>
+    </part>
+    <part type="conn" code="E64">
+      <name>1 号间隙警告蜂鸣器</name>
+    </part>
+    <part type="conn" code="E74">
+      <name>2 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E70">
+      <name>3 号接线连接器</name>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="conn" code="E72">
+      <name>5 号接线连接器</name>
+    </part>
+    <part type="conn" code="E73">
+      <name>6 号接线连接器</name>
+    </part>
+    <part type="conn" code="E75">
+      <name>车外后视镜开关总成</name>
+    </part>
+    <part type="conn" code="E76">
+      <name>模式选择开关总成</name>
+    </part>
+    <part type="conn" code="E62">
+      <name>转向传感器</name>
+    </part>
+    <part type="conn" code="E61">
+      <name>警告灯总成</name>
+    </part>
+    <part type="conn" code="E60">
+      <name>VSC OFF 开关</name>
+    </part>
+  </ttl>
+</EWDSearch>

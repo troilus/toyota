@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <connector type="gp" code="ED" figID="13">
+    <pin>
+      <line id="1" color="W-B">
+        <connector type="conn" code="E71" figID="6">
+          <pin no="12"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E71" figID="6">
+    <pin no="15">
+      <line id="2" color="W-B">
+        <connector type="conn" code="E18" figID="3">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3D" figID="8">
+    <pin no="22">
+      <line id="3" color="G">
+        <connector type="conn" code="E18" figID="3">
+          <pin no="16"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="BA2" sex="female" figID="9">
+    <pin no="7">
+      <line id="4" color="BR">
+        <connector type="gp" code="BB" figID="14">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="BA2" sex="male" figID="9">
+    <pin no="7">
+      <line id="5" color="BR">
+        <connector type="w2w" code="AE3" sex="female" figID="10">
+          <pin no="15"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE3" sex="male" figID="10">
+    <pin no="15">
+      <line id="6" color="BR">
+        <connector type="conn" code="E18" figID="3">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E18" figID="3">
+    <pin no="7">
+      <line id="7" color="LG" spec="不带智能进入和起动系统" commtxt="(*3)">
+        <connector type="conn" code="E29" figID="5">
+          <pin no="9"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E18" figID="3">
+    <pin no="12">
+      <line id="8" color="SB" spec="4ZR-FE" commtxt="(*1)">
+        <connector type="conn" code="E45" figID="4">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E46" figID="2">
+    <pin no="6">
+      <line id="9" color="SB" spec="7ZR-FE" commtxt="(*2)">
+        <connector type="conn" code="E18" figID="3">
+          <pin no="12"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE2" sex="female" figID="11">
+    <pin no="11">
+      <line id="10" color="P">
+        <connector type="conn" code="A40" figID="1">
+          <pin no="33"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE2" sex="male" figID="11">
+    <pin no="11">
+      <line id="11" color="P">
+        <connector type="conn" code="E18" figID="3">
+          <pin no="13"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="7">
+    <pin>
+      <line id="12" color="R">
+        <connector type="conn" code="E18" figID="3">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE2" sex="female" figID="12">
+    <pin no="3">
+      <line id="13" color="GR">
+        <connector type="conn" code="A40" figID="1">
+          <pin no="31"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE2" sex="male" figID="12">
+    <pin no="3">
+      <line id="14" color="GR">
+        <connector type="conn" code="E18" figID="3">
+          <pin no="9"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="7">
+    <pin>
+      <line id="15" color="W">
+        <connector type="conn" code="E18" figID="3">
+          <pin no="14"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="7">
+    <pin>
+      <line id="16" color="" dir="none">
+        <connector type="conn" code="" figID="3">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

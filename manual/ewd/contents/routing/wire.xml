@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE WireList SYSTEM "../../dtd/wire.dtd">
+<WireList ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <Area code="EG">
+    <Wire code="A" color="80CFE2" id="WIRE001">发动机室主线束</Wire>
+    <Wire code="B" color="99CF16" id="WIRE002">发动机线束</Wire>
+    <Wire code="C" color="FFFF00" id="WIRE003">发动机 3 号线束</Wire>
+    <Wire code="D" color="F881AC" id="WIRE004">发动机 4 号线束</Wire>
+    <Wire code="z" color="FF0000" id="WIRE005">其他</Wire>
+  </Area>
+  <Area code="INPANE">
+    <Wire code="A" color="80CFE2" id="WIRE006">发动机室主线束</Wire>
+    <Wire code="E" color="34AB8F" id="WIRE007">仪表板线束</Wire>
+    <Wire code="F" color="FFB300" id="WIRE008">仪表板 2 号线束</Wire>
+    <Wire code="G" color="CCCCC2" id="WIRE009">右前车门线束</Wire>
+    <Wire code="H" color="5172B3" id="WIRE010">左前车门线束</Wire>
+    <Wire code="L" color="F65095" id="WIRE011">地板线束</Wire>
+    <Wire code="O" color="F24B00" id="WIRE012">车顶 1 号线束</Wire>
+    <Wire code="X" color="FDB46C" id="WIRE013">立体声部件 1 号线束</Wire>
+    <Wire code="d" color="FFB300" id="WIRE014">仪表板线束总成</Wire>
+    <Wire code="z" color="FF0000" id="WIRE015">其他</Wire>
+  </Area>
+  <Area code="BODY">
+    <Wire code="G" color="CCCCC2" id="WIRE016">右前车门线束</Wire>
+    <Wire code="H" color="5172B3" id="WIRE017">左前车门线束</Wire>
+    <Wire code="J" color="4EB8A3" id="WIRE018">后门 1 号线束</Wire>
+    <Wire code="K" color="1A862D" id="WIRE019">后门 2 号线束</Wire>
+    <Wire code="L" color="F65095" id="WIRE020">地板线束</Wire>
+    <Wire code="O" color="F24B00" id="WIRE021">车顶 1 号线束</Wire>
+    <Wire code="P" color="009EB8" id="WIRE022">行李厢 2 号线束</Wire>
+    <Wire code="Q" color="743523" id="WIRE023">后窗 2 号线束</Wire>
+    <Wire code="g" color="7FC31C" id="WIRE024">中央刹车灯芯线总成　</Wire>
+    <Wire code="h" color="BC80B9" id="WIRE025">右侧防滑控制传感器线束</Wire>
+    <Wire code="j" color="F1C72F" id="WIRE026">左侧防滑控制传感器线束</Wire>
+  </Area>
+  <Area code="SEAT">
+    <Wire code="L" color="F65095" id="WIRE027">地板线束</Wire>
+    <Wire code="T" color="44B8CD" id="WIRE028">前排左侧座椅线束</Wire>
+    <Wire code="W" color="E6E673" id="WIRE029">前排左侧 2 号座椅线束</Wire>
+    <Wire code="e" color="99C08D" id="WIRE030">前排左侧座椅空气囊总成</Wire>
+    <Wire code="f" color="B31701" id="WIRE031">前排右侧座椅空气囊总成</Wire>
+  </Area>
+</WireList>

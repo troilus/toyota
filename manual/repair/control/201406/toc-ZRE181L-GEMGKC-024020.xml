@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="RM3140CG"><servcat id="_59"><name>车辆外饰</name><section id="_024020">
+<name>照明系统（车外）</name>
+<ttl id="_0116489">
+<name>照明系统</name><para category="C" dtccode="B1244" id="RM100000000D9Z1" term-id-from="001"><dtccode>
+<name>B1244</name>
+<subpara id="RM100000000D9Z1_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D9Z1_03">
+<name>电路图</name>
+</subpara>
+</dtccode></para>
+<para category="L" id="RM100000000D9ZA" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="R" id="RM100000000D9ZB" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000D9ZC" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="D" id="RM100000000D9Z3" term-id-from="001">
+<name>系统描述</name>
+</para>
+<para category="Y" id="RM100000000D9Z2" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="D" id="RM100000000D9Z4" term-id-from="001">
+<name>工作情况检查</name>
+</para>
+<para category="W" id="RM100000000D9Z0" term-id-from="001">
+<name>定制参数</name>
+</para>
+<para category="T" id="RM100000000D9ZD" term-id-from="001">
+<name>故障症状表</name>
+</para>
+<para category="U" id="RM100000000D9ZE" term-id-from="001">
+<name>ECU 端子</name>
+</para>
+<para category="D" id="RM100000000D9Z5" term-id-from="001">
+<name>诊断系统</name>
+</para>
+<para category="D" id="RM100000000D9Z6" term-id-from="001">
+<name>DTC 检查/清除</name>
+</para>
+<para category="U" id="RM100000000D9Z7" term-id-from="001">
+<name>失效保护表</name>
+</para>
+<para category="U" id="RM100000000D9ZF" term-id-from="001">
+<name>数据表/主动测试</name>
+</para>
+<para category="S" id="RM100000000D9Z8" term-id-from="001">
+<name>诊断故障码表</name>
+</para>
+
+<para category="J" id="RM100000000D9ZI" term-id-from="001">
+<name>转向信号开关电路</name>
+</para>
+<para category="J" id="RM100000000D9ZG" term-id-from="001">
+<name>大灯变光器开关电路</name>
+</para>
+<para category="J" id="RM100000000D9ZK" term-id-from="001">
+<name>日间行车灯继电器电路</name>
+</para>
+<para category="J" id="RM100000000D9ZL" term-id-from="001">
+<name>前雾灯电路</name>
+</para>
+<para category="J" id="RM100000000D9ZH" term-id-from="001">
+<name>后雾灯电路</name>
+</para>
+<para category="J" id="RM100000000D9Z9" term-id-from="001">
+<name>危险警告开关电路</name>
+</para>
+<para category="J" id="RM100000000D9ZM" term-id-from="001">
+<name>驻车制动开关电路</name>
+</para>
+<para category="J" id="RM100000000D9ZN" term-id-from="001">
+<name>尾灯继电器电路</name>
+</para>
+<para category="J" id="RM100000000D9ZO" term-id-from="001">
+<name>近光大灯电路</name>
+</para>
+<para category="J" id="RM100000000D9ZP" term-id-from="001">
+<name>远光大灯电路</name>
+</para>
+</ttl>
+<ttl id="_0116490">
+<name>大灯水平手动控制系统</name>
+<para category="L" id="RM100000000D9ZQ" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="R" id="RM100000000D9ZR" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000D9ZS" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="D" id="RM100000000D9ZT" term-id-from="001">
+<name>系统描述</name>
+</para>
+<para category="Y" id="RM100000000D9ZU" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="T" id="RM100000000D9ZV" term-id-from="001">
+<name>故障症状表</name>
+</para>
+</ttl>
+<ttl id="_0117083">
+<name>大灯总成（TFTM 制造）</name>
+<para category="K" id="RM100000000DCAO" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DCAL" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DCAP" term-id-from="001">
+<name>拆解</name>
+</para>
+<para category="N" id="RM100000000DCAM" term-id-from="001">
+<name>调节</name>
+</para>
+<para category="A" id="RM100000000DCAQ" term-id-from="001">
+<name>重新装配</name>
+</para>
+<para category="A" id="RM100000000DCAK" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117096">
+<name>大灯总成（GTMC 制造）</name>
+<para category="K" id="RM100000000DCCB" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DCC8" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DCCC" term-id-from="001">
+<name>拆解</name>
+</para>
+<para category="N" id="RM100000000DCC9" term-id-from="001">
+<name>调节</name>
+</para>
+<para category="A" id="RM100000000DCCD" term-id-from="001">
+<name>重新装配</name>
+</para>
+<para category="A" id="RM100000000DCC7" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117084">
+<name>雾灯总成</name>
+<para category="K" id="RM100000000DCAT" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DCAU" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DCAV" term-id-from="001">
+<name>拆解</name>
+</para>
+<para category="N" id="RM100000000DCAR" term-id-from="001">
+<name>调节</name>
+</para>
+<para category="A" id="RM100000000DCAW" term-id-from="001">
+<name>重新装配</name>
+</para>
+<para category="A" id="RM100000000DCAS" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117085">
+<name>侧转向信号灯总成</name>
+<para category="K" id="RM100000000DCAY" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DCAZ" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DCAX" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DCB0" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117086">
+<name>后组合灯总成（TFTM 制造）</name>
+<para category="K" id="RM100000000DCB2" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="G" id="RM100000000DGGZ" term-id-from="001">
+<name>车上检查</name>
+</para>
+<para category="A" id="RM100000000DCB3" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DCB5" term-id-from="001">
+<name>拆解</name>
+</para>
+<para category="G" id="RM100000000DCB4" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DCB6" term-id-from="001">
+<name>重新装配</name>
+</para>
+<para category="A" id="RM100000000DCB1" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117097">
+<name>后组合灯总成（GTMC 制造）</name>
+<para category="K" id="RM100000000DCCF" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="G" id="RM100000000DGH0" term-id-from="001">
+<name>车上检查</name>
+</para>
+<para category="A" id="RM100000000DCCG" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DCCI" term-id-from="001">
+<name>拆解</name>
+</para>
+<para category="G" id="RM100000000DCCH" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DCCJ" term-id-from="001">
+<name>重新装配</name>
+</para>
+<para category="A" id="RM100000000DCCE" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117087">
+<name>后灯总成（TFTM 制造）</name>
+<para category="K" id="RM100000000DCBA" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="G" id="RM100000000DGH1" term-id-from="001">
+<name>车上检查</name>
+</para>
+<para category="A" id="RM100000000DCB8" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DCBB" term-id-from="001">
+<name>拆解</name>
+</para>
+<para category="G" id="RM100000000DCB9" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DCBC" term-id-from="001">
+<name>重新装配</name>
+</para>
+<para category="A" id="RM100000000DCB7" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117098">
+<name>后灯总成（GTMC 制造）</name>
+<para category="K" id="RM100000000DCCN" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="G" id="RM100000000DGH2" term-id-from="001">
+<name>车上检查</name>
+</para>
+<para category="A" id="RM100000000DCCL" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DCCO" term-id-from="001">
+<name>拆解</name>
+</para>
+<para category="G" id="RM100000000DCCM" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DCCP" term-id-from="001">
+<name>重新装配</name>
+</para>
+<para category="A" id="RM100000000DCCK" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117088">
+<name>牌照灯总成</name>
+<para category="K" id="RM100000000DCBD" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DCBE" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DCBF" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DCBG" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117089">
+<name>高位刹车灯总成</name>
+<para category="K" id="RM100000000DCBJ" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DCBK" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DCBI" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DCBH" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117090">
+<name>大灯变光器开关</name>
+<para category="K" id="RM100000000DCBN" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DCBO" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DCBM" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DCBL" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117091">
+<name>危险警告开关</name>
+<para category="K" id="RM100000000DCBR" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DCBS" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DCBQ" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DCBP" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117092">
+<name>大灯水平开关</name>
+<para category="K" id="RM100000000DCBU" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DCBV" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DCBT" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DCBW" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117093">
+<name>刹车灯开关</name>
+<para category="K" id="RM100000000DCBY" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="G" id="RM100000000DCC0" term-id-from="001">
+<name>车上检查</name>
+</para>
+<para category="A" id="RM100000000DCBZ" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DCC1" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DCBX" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117094">
+<name>自动灯光控制传感器</name>
+<para category="K" id="RM100000000DCC4" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DCC5" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DCC3" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DCC2" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117095">
+<name>继电器</name>
+<para category="G" id="RM100000000DCC6" term-id-from="001">
+<name>车上检查</name>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

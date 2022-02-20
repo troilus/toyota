@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS067">
+    <part type="conn" code="E43,z1">
+      <text>SG-1 TR SOL+ TSD S5-1 HLS CANL CANH S5-3 PTC1 PRE PTC3 PTC2 SG-2 IG+ LIN1 BLW B GND BUS SGA BUS G TEA B BUS</text>
+      <name>空调放大器总成、空调线束总成</name>
+    </part>
+    <part type="conn" code="E20">
+      <text>LIN1 IG+ GND</text>
+      <name>空调控制总成</name>
+    </part>
+    <part type="conn" code="z1">
+      <text>M</text>
+      <name>空调线束总成、空调放大器总成</name>
+      <name type="inner">1 号冷却器热敏电阻</name>
+      <name type="inner">空气混合风门伺服机构分总成</name>
+      <name type="inner">模式风门伺服机构分总成</name>
+      <name type="inner">1 号鼓风机风门伺服机构分总成</name>
+      <name type="inner">连接器外壳颜色（蓝色）</name>
+      <name type="inner">连接器外壳颜色（红色）</name>
+      <name type="inner">连接器外壳颜色（黑色）</name>
+    </part>
+    <part type="conn" code="A13">
+      <text>+ PR -</text>
+      <name>空调压力传感器</name>
+    </part>
+    <part type="conn" code="E30">
+      <text>GND +B SI</text>
+      <name>带风扇的鼓风机马达分总成</name>
+    </part>
+    <part type="conn" code="E55">
+      <text>5V +B 5V CANH CANL ET IG+ B 5V IC CAN I/F CPU TX1- TX1+ I/F 5V IC CANL CANH IG+ B 5V+B CPU CAN I/F TX1- TX1+ ET I/F</text>
+      <name>组合仪表总成</name>
+      <name type="inner">CAN 控制器</name>
+      <name type="inner">CAN 控制器</name>
+    </part>
+    <part type="conn" code="B9">
+      <text>SOL- SOL+</text>
+      <name>带皮带轮的压缩机总成</name>
+    </part>
+    <part type="conn" code="E31">
+      <name>冷却器（车内温度传感器）热敏电阻</name>
+    </part>
+    <part type="conn" code="F1">
+      <text>SS+ SS-</text>
+      <name>冷却器（阳光传感器）热敏电阻</name>
+    </part>
+    <part type="conn" code="B16">
+      <name>曲轴位置传感器</name>
+    </part>
+    <part type="conn" code="B4">
+      <name>E.F.I. 发动机冷却液温度传感器</name>
+    </part>
+    <part type="conn" code="A40,B39">
+      <text>ECM CANH CANL THW ETHW NE- NE+</text>
+    </part>
+    <part type="conn" code="A39">
+      <name>1 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E74">
+      <name>2 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="A38">
+      <name>2 号接线连接器</name>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="conn" code="A20">
+      <name>车外温度传感器（热敏电阻总成）</name>
+    </part>
+    <part type="conn" code="A11,A12">
+      <text>B E</text>
+      <name>快速加热器总成</name>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE29">
+      <text>H-LP-MAIN</text>
+    </part>
+    <part type="fuse" code="FUSE33">
+      <text>HTR</text>
+    </part>
+    <part type="fuse" code="FUSE49">
+      <text>HTR-IG</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE25">
+      <text>PTC HTR NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE26">
+      <text>PTC HTR NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE27">
+      <text>PTC HTR NO.3</text>
+    </part>
+  </ttl>
+</EWDSearch>

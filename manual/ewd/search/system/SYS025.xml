@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS025">
+    <part type="conn" code="B39">
+      <text>ECM IGT2 IGF1 IGT3 IGT4 IGT1</text>
+    </part>
+    <part type="conn" code="B29">
+      <text>GND IGF +B IGT1</text>
+      <name>1 号点火线圈</name>
+    </part>
+    <part type="conn" code="B30">
+      <text>GND IGT2 IGF +B</text>
+      <name>2 号点火线圈</name>
+    </part>
+    <part type="conn" code="B31">
+      <text>IGF +B GND IGT3</text>
+      <name>3 号点火线圈</name>
+    </part>
+    <part type="conn" code="B32">
+      <text>+B GND IGF IGT4</text>
+      <name>4 号点火线圈</name>
+    </part>
+    <part type="fuse" code="FUSE19">
+      <text>IG2</text>
+    </part>
+  </ttl>
+</EWDSearch>

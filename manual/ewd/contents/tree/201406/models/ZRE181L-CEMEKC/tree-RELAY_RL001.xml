@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <note id="RL001" icon="P">
+    <name>继电器位置</name>
+    <book id="RELAY_RL004">
+      <name>发动机室继电器盒和发动机室接线盒</name>
+      <note id="RL001_RL004">
+        <name>发动机室继电器盒和发动机室接线盒</name>
+        <text code="1D" type="jbc">
+          <name>1D</name>
+        </text>
+        <text code="1G" type="jbc">
+          <name>1G</name>
+        </text>
+        <text code="1E" type="jbc">
+          <name>1E</name>
+        </text>
+        <text code="1H" type="jbc">
+          <name>1H</name>
+        </text>
+        <text code="1B" type="jbc">
+          <name>1B</name>
+        </text>
+      </note>
+      <note id="RL001_RL004-Inn">
+        <name>内部电路</name>
+        <text code="1B" type="jbc">
+          <name>1B</name>
+        </text>
+        <text code="1H" type="jbc">
+          <name>1H</name>
+        </text>
+        <text code="1E" type="jbc">
+          <name>1E</name>
+        </text>
+        <text code="1G" type="jbc">
+          <name>1G</name>
+        </text>
+        <text code="1D" type="jbc">
+          <name>1D</name>
+        </text>
+      </note>
+    </book>
+  </note>
+</EwdTree>

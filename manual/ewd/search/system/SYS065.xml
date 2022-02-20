@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS065">
+    <part type="conn" code="E55,E59">
+      <text>B IG 5V+B HAZ ER EL L ET LR LL 5V IC CPU I/F IG B IG+ I/F 12V CPU 5V IC 5V+B 5V ET LL LR L EL ER HAZ</text>
+      <name>组合仪表总成</name>
+      <name type="inner">蜂鸣器</name>
+      <name type="inner">LED 驱动器</name>
+      <name type="inner">左转向</name>
+      <name type="inner">右转向</name>
+      <name type="inner">左转向</name>
+      <name type="inner">右转向</name>
+      <name type="inner">蜂鸣器</name>
+      <name type="inner">闪光灯继电器</name>
+    </part>
+    <part type="conn" code="E53">
+      <name>危险警告信号开关总成</name>
+    </part>
+    <part type="conn" code="A43">
+      <text>B E</text>
+      <name>左侧大灯总成</name>
+      <name type="inner">转动</name>
+    </part>
+    <part type="conn" code="A45">
+      <text>B E</text>
+      <name>右侧大灯总成</name>
+      <name type="inner">转动</name>
+    </part>
+    <part type="conn" code="E15">
+      <text>R' R CR L EL TL TR L' N</text>
+      <name>大灯变光器开关总成</name>
+      <name type="inner">转向开关</name>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="conn" code="L56">
+      <name>8 号接线连接器</name>
+    </part>
+    <part type="conn" code="H11">
+      <text>B E</text>
+      <name>左侧车外后视镜总成</name>
+      <name type="inner">转动</name>
+    </part>
+    <part type="conn" code="G10">
+      <text>E B</text>
+      <name>右侧车外后视镜总成</name>
+      <name type="inner">转动</name>
+    </part>
+    <part type="conn" code="L9">
+      <text>B E</text>
+      <name>左后组合灯总成</name>
+      <name type="inner">转动</name>
+    </part>
+    <part type="conn" code="L5">
+      <text>B E</text>
+      <name>右后组合灯总成</name>
+      <name type="inner">转动</name>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE17">
+      <text>TURN&amp;HAZ</text>
+    </part>
+  </ttl>
+</EWDSearch>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS036">
+    <part type="conn" code="E55,E59">
+      <text>FOG (*7) (*6) ET</text>
+      <name>组合仪表总成</name>
+      <name type="inner">前雾灯</name>
+    </part>
+    <part type="conn" code="A23">
+      <name>左侧雾灯总成</name>
+    </part>
+    <part type="conn" code="A19">
+      <name>右侧雾灯总成</name>
+    </part>
+    <part type="conn" code="E15">
+      <text>B H EL T LFG BFG AUTO (*3) A</text>
+      <name>大灯变光器开关总成</name>
+      <name type="inner">后</name>
+      <name type="inner">大灯</name>
+      <name type="inner">灯光控制开关</name>
+      <name type="inner">尾灯</name>
+      <name type="inner">前</name>
+      <name type="inner">雾灯开关</name>
+      <name type="inner">关闭</name>
+    </part>
+    <part type="conn" code="E36">
+      <text>FFOG TAIL ACC IG BECU FFGO TRLY GND1</text>
+      <name>主车身 ECU</name>
+    </part>
+    <part type="conn" code="A38">
+      <name>2 号接线连接器</name>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="fuse" code="FUSE43">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE36">
+      <text>ALT</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>ECU-B NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE47">
+      <text>ECU-IG NO.4</text>
+    </part>
+    <part type="fuse" code="FUSE48">
+      <text>FR FOG</text>
+    </part>
+    <part type="fuse" code="FUSE56">
+      <text>TAIL</text>
+    </part>
+  </ttl>
+</EWDSearch>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS057">
+    <part type="conn" code="H9">
+      <text>E LSSR</text>
+      <name>带电动机的左前门锁总成</name>
+      <name type="inner">开锁检测</name>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="conn" code="E25">
+      <text>M+R FL MVR RR FR MHL M+L MVL RL MHR ACC IGB1 B GND DLCK</text>
+      <name>车外后视镜开关总成</name>
+      <name type="inner">左上</name>
+      <name type="inner">左下</name>
+      <name type="inner">右下</name>
+      <name type="inner">右上</name>
+      <name type="inner">折叠开关</name>
+      <name type="inner">右</name>
+      <name type="inner">左</name>
+      <name type="inner">后视镜选择开关</name>
+      <name type="inner">后视镜调节开关</name>
+      <name type="inner">控制电路</name>
+    </part>
+    <part type="conn" code="H3">
+      <text>MF MR MV M+ MH</text>
+      <name>左侧车外后视镜总成</name>
+    </part>
+    <part type="conn" code="G3">
+      <text>MV M+ MH MF MR</text>
+      <name>右侧车外后视镜总成</name>
+    </part>
+    <part type="fuse" code="FUSE43">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE47">
+      <text>ECU-IG NO.4</text>
+    </part>
+  </ttl>
+</EWDSearch>

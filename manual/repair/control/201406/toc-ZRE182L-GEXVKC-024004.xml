@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="RM3140CG"><servcat id="_58"><name>车辆内饰</name><section id="_024004">
+<name>门锁</name>
+<ttl id="_0116196">
+<name>电动门锁控制系统</name>
+<para category="L" id="RM100000000D8MD" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="R" id="RM100000000D8M1" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000D8M2" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="D" id="RM100000000D8M3" term-id-from="001">
+<name>系统描述</name>
+</para>
+<para category="Y" id="RM100000000D8LY" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="D" id="RM100000000D8LX" term-id-from="001">
+<name>工作情况检查</name>
+</para>
+<para category="T" id="RM100000000D8M5" term-id-from="001">
+<name>故障症状表</name>
+</para>
+<para category="U" id="RM100000000D8M6" term-id-from="001">
+<name>ECU 端子</name>
+</para>
+<para category="D" id="RM100000000D8LW" term-id-from="001">
+<name>诊断系统</name>
+</para>
+<para category="U" id="RM100000000D8M7" term-id-from="001">
+<name>数据表/主动测试</name>
+</para>
+<para category="J" id="RM100000000D8M9" term-id-from="001">
+<name>通过操作车门控制开关或车门锁芯，所有车门锁止/开锁功能均不工作</name>
+</para>
+</ttl>
+<ttl id="_0116197">
+<name>无线门锁控制系统（带智能进入和起动系统）</name><para category="C" dtccode="B1242" id="RM100000000D8MR" term-id-from="001"><dtccode>
+<name>B1242</name>
+<subpara id="RM100000000D8MR_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D8MR_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para>
+<para category="L" id="RM100000000D8ME" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="R" id="RM100000000D8MG" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000D8MP" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="D" id="RM100000000D8MI" term-id-from="001">
+<name>系统描述</name>
+</para>
+<para category="Y" id="RM100000000D8MN" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="D" id="RM100000000D8ML" term-id-from="001">
+<name>工作情况检查</name>
+</para>
+<para category="W" id="RM100000000D8MO" term-id-from="001">
+<name>定制参数</name>
+</para>
+<para category="T" id="RM100000000D8MH" term-id-from="001">
+<name>故障症状表</name>
+</para>
+<para category="U" id="RM100000000D8MQ" term-id-from="001">
+<name>ECU 端子</name>
+</para>
+<para category="D" id="RM100000000D8MJ" term-id-from="001">
+<name>诊断系统</name>
+</para>
+<para category="D" id="RM100000000D8MK" term-id-from="001">
+<name>DTC 检查/清除</name>
+</para>
+<para category="U" id="RM100000000D8MM" term-id-from="001">
+<name>数据表/主动测试</name>
+</para>
+<para category="S" id="RM100000000D8MF" term-id-from="001">
+<name>诊断故障码表</name>
+</para>
+
+<para category="J" id="RM100000000D8MS" term-id-from="001">
+<name>无应答</name>
+</para>
+</ttl>
+<ttl id="_0116198">
+<name>无线门锁控制系统（不带智能进入和起动系统）</name>
+<para category="L" id="RM100000000D8MT" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="R" id="RM100000000D8MY" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000D8N4" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="D" id="RM100000000D8MZ" term-id-from="001">
+<name>系统描述</name>
+</para>
+<para category="Y" id="RM100000000D8MX" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="D" id="RM100000000D8N0" term-id-from="001">
+<name>工作情况检查</name>
+</para>
+<para category="M" id="RM100000000D8MW" term-id-from="001">
+<name>注册</name>
+</para>
+<para category="W" id="RM100000000D8N2" term-id-from="001">
+<name>定制参数</name>
+</para>
+<para category="T" id="RM100000000D8MU" term-id-from="001">
+<name>故障症状表</name>
+</para>
+<para category="U" id="RM100000000D8N5" term-id-from="001">
+<name>ECU 端子</name>
+</para>
+<para category="D" id="RM100000000D8N3" term-id-from="001">
+<name>诊断系统</name>
+</para>
+<para category="U" id="RM100000000D8N1" term-id-from="001">
+<name>数据表/主动测试</name>
+</para>
+<para category="J" id="RM100000000D8N6" term-id-from="001">
+<name>仅遥控功能不工作</name>
+</para>
+<para category="J" id="RM100000000D8MV" term-id-from="001">
+<name>无应答</name>
+</para>
+</ttl>
+<ttl id="_0129958">
+<name>钥匙提醒警告系统</name>
+<para category="L" id="RM100000000EUAX" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="R" id="RM100000000EUAY" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000EUAU" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="D" id="RM100000000EUAP" term-id-from="001">
+<name>系统描述</name>
+</para>
+<para category="Y" id="RM100000000EUAT" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="D" id="RM100000000EUAR" term-id-from="001">
+<name>工作情况检查</name>
+</para>
+<para category="T" id="RM100000000EUAO" term-id-from="001">
+<name>故障症状表</name>
+</para>
+<para category="U" id="RM100000000EUAV" term-id-from="001">
+<name>ECU 端子</name>
+</para>
+<para category="D" id="RM100000000EUAQ" term-id-from="001">
+<name>诊断系统</name>
+</para>
+<para category="U" id="RM100000000EUAS" term-id-from="001">
+<name>数据表/主动测试</name>
+</para>
+<para category="J" id="RM100000000EUAW" term-id-from="001">
+<name>钥匙提醒蜂鸣器不响</name>
+</para>
+</ttl>
+<ttl id="_0116162">
+<name>发射器电池（带智能进入和起动系统）</name>
+<para category="A" id="RM100000000D8IZ" term-id-from="001">
+<name>更换</name>
+</para>
+</ttl>
+<ttl id="_0116164">
+<name>发射器电池（不带智能进入和起动系统）</name>
+<para category="A" id="RM100000000D8JE" term-id-from="001">
+<name>更换</name>
+</para>
+</ttl>
+<ttl id="_0116153">
+<name>车门控制发射器（带智能进入和起动系统）</name>
+<para category="K" id="RM100000000D8HT" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000D8HU" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000D8HV" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000D8HS" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116165">
+<name>车门控制发射器（不带智能进入和起动系统）</name>
+<para category="K" id="RM100000000D8JF" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000D8JG" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000D8JI" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000D8JH" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116155">
+<name>车门控制开关</name>
+<para category="K" id="RM100000000D8HW" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000D8HX" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000D8HZ" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000D8HY" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116156">
+<name>未锁警告开关</name>
+<para category="K" id="RM100000000D8I1" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000D8I2" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000D8I3" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000D8I0" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116157">
+<name>前门门锁</name>
+<para category="K" id="RM100000000D8I4" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000D8I5" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000D8I7" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000D8I6" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116158">
+<name>后门门锁</name>
+<para category="K" id="RM100000000D8I8" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000D8I9" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000D8IB" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000D8IA" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116167">
+<name>行李厢门锁</name>
+<para category="K" id="RM100000000D8KB" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000D8KC" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000D8KD" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000D8KE" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116160">
+<name>车门控制接收器</name>
+<para category="K" id="RM100000000D8IC" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000D8ID" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000D8IE" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

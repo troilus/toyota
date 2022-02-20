@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_56">
+<name>音频/视频/车载通信系统</name>
+<section id="_023999">
+<name>导航/多信息显示屏</name>
+<ttl id="_0116139">
+<name>导航系统</name>
+<para category="J" id="RM100000000D8CU">
+<dtccode/>
+<dtcname>便携式播放机播放时出现噪音或声音跳跃</dtcname>
+<subpara category="10" id="RM100000000D8CU_01">
+<name>注意/小心/提示</name>
+<content5>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>将便携式播放机的音量设定在适当的级别时执行此检查。</ptxt>
+</item>
+<item>
+<ptxt>确保便携式播放机和导航接收器总成之间没有可能阻挡信号的障碍物，且便携式播放机和导航接收器总成相隔得不太远。</ptxt>
+</item>
+<item>
+<ptxt>确保未将导航接收器总成以外的设备连接到便携式播放机上。</ptxt>
+</item>
+<item>
+<ptxt>确保没有来自无线 LAN 等的干扰。</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D8CU_03">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8CU_03_0001">
+<testtitle>使用相同车型的另一兼容“蓝牙”音频的车辆进行检查</testtitle>
+<content6>
+<test1>
+<ptxt>检查并确认从相同车型的另一兼容“蓝牙”音频的车辆扬声器听到的声音没有相同故障。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>从扬声器听到的声音没有相同故障。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D8CU_03_0003"/>
+</result>
+<result cellposition="1-3" label="2">
+<action actiontype="end" cellposition="2-3">
+<actiontitle>便携式播放机故障</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D8CU_03_0003">
+<testtitle>拆卸其他使用无线电波的设备</testtitle>
+<content6>
+<test1>
+<ptxt>拆卸其他使用无线电波的设备。</ptxt>
+</test1>
+<test1>
+<ptxt>播放便携式播放机，检查并确认从扬声器听到的声音没有相同故障。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>从扬声器听到的声音没有相同故障。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="end" cellposition="3-1">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="2-2" label="2">
+<action actiontype="end" cellposition="3-2">
+<actiontitle>转至故障症状表中所示的下一个可疑部位</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D3" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

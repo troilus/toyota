@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="RM3140CG"><servcat id="_58"><name>车辆内饰</name><section id="_024006">
+<name>照明系统（车内）</name>
+<ttl id="_0116140">
+<name>照明系统</name>
+<para category="L" id="RM100000000D8EA" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="R" id="RM100000000D8EN" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000D8EF" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="D" id="RM100000000D8EC" term-id-from="001">
+<name>系统描述</name>
+</para>
+<para category="Y" id="RM100000000D8ER" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="D" id="RM100000000D8EE" term-id-from="001">
+<name>工作情况检查</name>
+</para>
+<para category="W" id="RM100000000D8EM" term-id-from="001">
+<name>定制参数</name>
+</para>
+<para category="T" id="RM100000000D8EO" term-id-from="001">
+<name>故障症状表</name>
+</para>
+<para category="U" id="RM100000000D8EB" term-id-from="001">
+<name>ECU 端子</name>
+</para>
+<para category="D" id="RM100000000D8ED" term-id-from="001">
+<name>诊断系统</name>
+</para>
+<para category="U" id="RM100000000D8EG" term-id-from="001">
+<name>数据表/主动测试</name>
+</para>
+<para category="J" id="RM100000000D8EH" term-id-from="001">
+<name>IG 信号电路</name>
+</para>
+<para category="J" id="RM100000000D8EI" term-id-from="001">
+<name>ACC 信号电路</name>
+</para>
+<para category="J" id="RM100000000D8ES" term-id-from="001">
+<name>前门门控灯开关电路</name>
+</para>
+<para category="J" id="RM100000000D8ET" term-id-from="001">
+<name>后门门控灯开关电路</name>
+</para>
+<para category="J" id="RM100000000D8EJ" term-id-from="001">
+<name>车内灯电路</name>
+</para>
+<para category="J" id="RM100000000D8KX" term-id-from="001">
+<name>车内灯自动切断电路</name>
+</para>
+<para category="J" id="RM100000000D8FA" term-id-from="001">
+<name>车内灯电源电路</name>
+</para>
+<para category="J" id="RM100000000D8EQ" term-id-from="001">
+<name>发动机开关照明电路</name>
+</para>
+<para category="J" id="RM100000000D8EL" term-id-from="001">
+<name>车门开锁检测开关电路</name>
+</para>
+<para category="J" id="RM100000000D8EP" term-id-from="001">
+<name>行李厢门控灯开关电路</name>
+</para>
+</ttl>
+<ttl id="_0117597">
+<name>梳妆灯</name>
+<para category="K" id="RM100000000DDVX" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DDVY" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DDWW" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DDVZ" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117596">
+<name>个人用灯</name>
+<para category="K" id="RM100000000DDVT" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DDVU" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DDVW" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DDVV" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117598">
+<name>车厢照明灯</name>
+<para category="K" id="RM100000000DDW1" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DDW2" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DDWX" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DDW3" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117599">
+<name>行李厢灯</name>
+<para category="K" id="RM100000000DDW4" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DDW5" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DDWY" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DDW6" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117604">
+<name>门控灯</name>
+<para category="K" id="RM100000000DDWQ" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DDWR" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DDWP" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DDWO" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117600">
+<name>点火锁芯照明灯</name>
+<para category="K" id="RM100000000DDW8" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DDW9" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DDWB" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DDWA" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117605">
+<name>环境光照</name>
+<para category="K" id="RM100000000DDWT" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DDWU" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DDWV" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DDWS" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117601">
+<name>前门门控灯开关</name>
+<para category="K" id="RM100000000DDWC" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DDWE" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DDWZ" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DDWD" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117602">
+<name>后门门控灯开关</name>
+<para category="K" id="RM100000000DDWG" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DDWH" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DDX0" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DDWI" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117603">
+<name>背门门控灯开关</name>
+<para category="K" id="RM100000000DDWM" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DDWK" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DDX1" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DDWL" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116142">
+<name>继电器</name>
+<para category="G" id="RM100000000D8FD" term-id-from="001">
+<name>车上检查</name>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

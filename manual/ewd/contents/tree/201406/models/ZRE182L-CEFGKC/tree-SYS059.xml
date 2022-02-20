@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS059" code="E55" type="conn" figID="11,12">
+    <name>组合仪表总成</name>
+  </text>
+  <text ewd="SYS059" code="L1" type="conn" figID="3">
+    <name>左前车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS059" code="L41" type="conn" figID="7">
+    <name>右前车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS059" code="E36" type="conn" figID="4">
+    <name>主车身 ECU</name>
+  </text>
+  <text ewd="SYS059" code="O4" type="conn" figID="1">
+    <name>阅读灯总成</name>
+  </text>
+  <text ewd="SYS059" code="A39" type="conn" figID="6">
+    <name>1 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS059" code="E74" type="conn" figID="9">
+    <name>2 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS059" code="O3" type="conn" figID="8">
+    <name>滑动天窗控制 ECU（滑动天窗主动齿轮分总成）</name>
+  </text>
+  <text ewd="SYS059" code="FUSE5" type="fuse" figID="44">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS059" code="FUSE6" type="fuse" figID="47,50">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS059" code="FUSE64" type="fuse" figID="42">
+    <name>20A S/ROOF</name>
+  </text>
+  <text ewd="SYS059" code="FUSE39" type="fuse" figID="48,49">
+    <name>5A MET</name>
+  </text>
+  <text ewd="SYS059" code="FUSE43" type="fuse" figID="45">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS059" code="FUSE46" type="fuse" figID="43">
+    <name>7.5A ECU-IG NO.3</name>
+  </text>
+  <text ewd="SYS059" code="FUSE47" type="fuse" figID="46">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS059" code="EA" type="gp" figID="35,38">
+    <name />
+  </text>
+  <text ewd="SYS059" code="EB" type="gp" figID="36,37">
+    <name />
+  </text>
+  <text ewd="SYS059" code="ED" type="gp" figID="39,40">
+    <name />
+  </text>
+  <text ewd="SYS059" code="3" type="jb" figID="16,17,18,19,20,21,22,23,24">
+    <name />
+  </text>
+  <text ewd="SYS059" code="FUSE5" type="rb" figID="2">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS059" code="FUSE6" type="rb" figID="5,10">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS059" code="SP31" type="sp" figID="41">
+    <name />
+  </text>
+  <text ewd="SYS059" code="AE2" type="w2w" figID="32,34">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS059" code="AE4" type="w2w" figID="31,33">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS059" code="EL4" type="w2w" figID="30">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS059" code="OE1" type="w2w" figID="25,26,27,28,29">
+    <name>车顶 1 号线束和仪表板线束</name>
+  </text>
+</EwdTree>

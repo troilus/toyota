@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_51">
+<name>发动机/混合动力系统</name>
+<section id="_023966">
+<name>4ZR-FE 发动机控制系统</name>
+<ttl id="_0120142">
+<name>SFI 系统</name>
+<para category="C" id="RM100000000DQG5">
+<dtccode>P2102</dtccode>
+<dtcname>节气门执行器控制马达电路低电位</dtcname>
+<dtccode>P2103</dtccode>
+<dtcname>节气门执行器控制马达电路高电位</dtcname>
+<subpara category="03" id="RM100000000DQG5_01">
+<name>描述</name>
+<content5>
+<ptxt>ECM 操作节气门执行器，节气门执行器通过齿轮来打开和关闭节气门。</ptxt>
+<ptxt>安装在节气门体总成上的节气门位置传感器，用来检测节气门开度。节气门位置传感器将反馈信息发送至 ECM。通过这些反馈信息，ECM 可以在响应驾驶员输入时正确控制节气门执行器并监视节气门开度。</ptxt>
+<atten4>
+<ptxt>该电子节气门控制系统 (ETCS) 不使用节气门拉索。</ptxt>
+</atten4>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="6">
+<colspec colname="1" colwidth="0.71in"/>
+<colspec colname="2" colwidth="1.06in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="2.12in"/>
+<colspec colname="5" colwidth="0.71in"/>
+<colspec colname="6" colwidth="0.71in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>MIL</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P2102</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>节气门执行器控制马达电路低电位</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>满足以下两个条件持续 2.0 秒（单程检测逻辑）：</ptxt>
+<ptxt>(a) 节气门执行器驱动占空比为 80% 或更高。</ptxt>
+<ptxt>(b) 节气门执行器电流小于 0.5 A。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>节气门执行器电路开路</ptxt>
+</item>
+<item>
+<ptxt>节气门执行器</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P2103</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>节气门执行器控制马达电路高电位</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>满足以下任一条件（单程检测逻辑）：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>马达驱动器 IC 诊断信号故障。</ptxt>
+</item>
+<item>
+<ptxt>马达驱动器 IC 大电流限流器监视端口故障。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>节气门执行器电路短路</ptxt>
+</item>
+<item>
+<ptxt>节气门执行器</ptxt>
+</item>
+<item>
+<ptxt>节气门</ptxt>
+</item>
+<item>
+<ptxt>节气门体总成</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DQG5_02">
+<name>监视描述</name>
+<content5>
+<ptxt>ECM 监视通过电子执行器的电流，并根据此值检测节气门执行器的故障和电路开路情况。如果电流超出标准范围，则 ECM 判定节气门执行器存在故障。此外，如果节气门不能正常工作（例如卡滞），则 ECM 判定存在故障。然后，ECM 点亮 MIL 并存储 DTC。</ptxt>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DQG5_03">
+<name>监视策略</name>
+<content5>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec align="left" colname="COL1" colwidth="3.54in"/>
+<colspec align="left" colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>所需传感器/零部件</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>节气门执行器（节气门体总成）</ptxt>
+</entry>
+</row>
+<row>
+<?PubTbl row rht="0.39in"?>
+<entry valign="middle">
+<ptxt>工作频率</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>持续</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DQG5_10">
+<name>确认行驶模式</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="A220567E04" height="3.812598425in" width="7.168479331in">
+
+</graphic>
+</figure>
+<list1 type="ordered">
+<item>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</item>
+<item>
+<ptxt>将点火开关置于 ON 位置并打开 GTS。</ptxt>
+</item>
+<item>
+<ptxt>清除 DTC（即使未存储 DTC，也应执行清除 DTC 程序）。</ptxt>
+</item>
+<item>
+<ptxt>将点火开关置于 OFF 位置并等待至少 30 秒。</ptxt>
+</item>
+<item>
+<ptxt>将点火开关置于 ON 位置并打开 GTS [A]。</ptxt>
+</item>
+<item>
+<ptxt>起动发动机。</ptxt>
+</item>
+<item>
+<ptxt>车辆静止的情况下，完全踩下加速踏板并快速松开［B]。</ptxt>
+</item>
+<item>
+<ptxt>检查并确认从最初踩下加速踏板的瞬间已经过 16 秒或更长时间。</ptxt>
+</item>
+<item>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes [C]。</ptxt>
+</item>
+<item>
+<ptxt>读取待定 DTC。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果输出待定 DTC，则系统发生故障。</ptxt>
+</item>
+<item>
+<ptxt>如果未输出待定 DTC，则执行以下程序。</ptxt>
+</item>
+</list1>
+</atten4>
+</item>
+<item>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。</ptxt>
+</item>
+<item>
+<ptxt>输入 DTC：P2102 或 P2103。</ptxt>
+</item>
+<item>
+<ptxt>检查 DTC 判断结果。</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>GTS 显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>描述</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>NORMAL</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断完成</ptxt>
+</item>
+<item>
+<ptxt>系统正常</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>ABNORMAL</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断完成</ptxt>
+</item>
+<item>
+<ptxt>系统异常</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>INCOMPLETE</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断未完成</ptxt>
+</item>
+<item>
+<ptxt>确认 DTC 启动条件后，执行行驶模式</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>N/A</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>无法执行 DTC 判断</ptxt>
+</item>
+<item>
+<ptxt>不满足 DTC 前提条件的 DTC 数量达到 ECU 存储器极限</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果判断结果显示 NORMAL，则系统正常。</ptxt>
+</item>
+<item>
+<ptxt>如果判断结果显示 ABNORMAL，则系统存在故障。</ptxt>
+</item>
+<item>
+<ptxt>如果判断结果显示 INCOMPLETE 或 N/A，则再次执行步骤 [B] 和 [C]，如有必要，则驾驶车辆一段时间。</ptxt>
+</item>
+</list1>
+</atten4>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DQG5_06">
+<name>失效保护</name>
+<content5>
+<ptxt>存储这些 DTC 中的任一个或与电子节气门控制系统 (ETCS) 故障有关的其他 DTC 时，ECM 进入失效保护模式。失效保护模式期间，ECM 切断流向节气门执行器的电流，且节气门在回位弹簧的作用下返回到 5.5°节气门开度。然后，ECM 通过根据加速踏板开度控制燃油喷射（间歇性燃油切断）和点火正时以调节发动机输出功率，以使车辆保持在最低行驶速度。如果平稳而缓慢地踩下加速踏板，则车辆会缓慢行驶。</ptxt>
+<ptxt>失效保护模式持续运行，直至检测到通过条件且将点火开关置于 OFF 位置。</ptxt>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DQG5_07">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="A296671E20" height="5.838041339in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DQG5_08">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>进行下列程序前，先检查与此系统相关电路的保险丝。</ptxt>
+</atten3>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>使用 GTS 读取定格数据。存储 DTC 时，ECM 将车辆和驾驶条件信息记录为定格数据。进行故障排除时，定格数据有助于确定故障出现时车辆是运行还是停止，发动机是暖机还是未暖机，空燃比是浓还是稀，以及其他数据。</ptxt>
+</item>
+<item>
+<ptxt>使用 GTS 可读取节气门执行器电流（节气门马达电流）和节气门执行器占空比（节气门马达占空比（打开）/节气门马达占空比（关闭））。但是，电子节气门控制系统出现故障时，ECM 会切断节气门执行器电流。</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DQG5_11">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DQG5_11_0001">
+<testtitle>检查节气门体总成（节气门执行器的电阻）</testtitle>
+<content6>
+<test1>
+<ptxt>检查节气门体总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETM0" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>更换节气门体总成后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DQGI" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DQG5_11_0002"/>
+</result>
+<result cellposition="1-5" label="2">
+<action actiontype="end" cellposition="2-5">
+<actiontitle>更换节气门体总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETM4" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DQG5_11_0002">
+<testtitle>检查线束和连接器（节气门体总成 - ECM）</testtitle>
+<content6>
+<test1>
+<ptxt>断开节气门体总成连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>断开 ECM 连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.34in"/>
+<colspec colname="col2" colwidth="2.34in"/>
+<colspec colname="col3" colwidth="2.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B28-2 (M+) - B39-60 (M+)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B28-1 (M-) - B39-30 (M-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B28-2 (M+) 或 B39-60 (M+) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B28-1 (M-) 或 B39-30 (M-) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000DQG5_11_0003"/>
+</result>
+<result cellposition="2-4" label="2">
+<action actiontype="end" cellposition="3-4">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000DQG5_11_0003">
+<testtitle>检查节气门体总成（目视检查节气门）</testtitle>
+<content6>
+<test1>
+<ptxt>检查节气门和壳体之间是否有异物。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>节气门和壳体之间无异物。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>清洁节气门体总成后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DQGI" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000DQG5_11_0004"/>
+</result>
+<result cellposition="3-3" label="2">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>清除异物并清洁节气门体总成</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000DQG5_11_0004">
+<testtitle>检查节气门体总成（节气门）</testtitle>
+<content6>
+<test1>
+<ptxt>检查节气门打开和关闭操作是否平稳。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>节气门平稳打开和关闭。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>更换节气门体总成后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DQGI" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="end" cellposition="5-1">
+<actiontitle>更换 ECM</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETM7" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="4-2" label="2">
+<action actiontype="end" cellposition="5-2">
+<actiontitle>更换节气门体总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETM4" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

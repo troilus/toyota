@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS022" code="A3" type="conn" figID="50">
+    <name>加速踏板传感器总成</name>
+  </text>
+  <text ewd="SYS022" code="B18" type="conn" figID="47">
+    <name>空燃比传感器 (B1 S1)</name>
+  </text>
+  <text ewd="SYS022" code="E19" type="conn" figID="70">
+    <name>空气囊 ECU 总成</name>
+  </text>
+  <text ewd="SYS022" code="B36" type="conn" figID="76">
+    <name>蓄电池电流传感器总成</name>
+  </text>
+  <text ewd="SYS022" code="A41,A42" type="conn" figID="9">
+    <name>制动执行器总成</name>
+  </text>
+  <text ewd="SYS022" code="B25" type="conn" figID="55">
+    <name>凸轮轴正时机油控制阀总成（排气侧）</name>
+  </text>
+  <text ewd="SYS022" code="B26" type="conn" figID="56">
+    <name>凸轮轴正时机油控制阀总成（进气侧）</name>
+  </text>
+  <text ewd="SYS022" code="E47,E49" type="conn" figID="15">
+    <name>认证 ECU</name>
+  </text>
+  <text ewd="SYS022" code="A4" type="conn" figID="63">
+    <name>离合器起动开关总成</name>
+  </text>
+  <text ewd="SYS022" code="A5" type="conn" figID="11">
+    <name>离合器起动开关总成</name>
+  </text>
+  <text ewd="SYS022" code="E55" type="conn" figID="12,75">
+    <name>组合仪表总成</name>
+  </text>
+  <text ewd="SYS022" code="A33" type="conn" figID="5">
+    <name>冷却风扇 ECU</name>
+  </text>
+  <text ewd="SYS022" code="B16" type="conn" figID="52">
+    <name>曲轴位置传感器</name>
+  </text>
+  <text ewd="SYS022" code="z10" type="conn" figID="74">
+    <name>巡航控制主开关、巡航控制开关线束</name>
+  </text>
+  <text ewd="SYS022" code="z4,z10" type="conn" figID="73">
+    <name>巡航控制开关线束、巡航控制主开关、螺旋电缆分总成</name>
+  </text>
+  <text ewd="SYS022" code="B21" type="conn" figID="58">
+    <name>CVT 电磁阀（变速器线束）</name>
+  </text>
+  <text ewd="SYS022" code="E18" type="conn" figID="67">
+    <name>DLC3</name>
+  </text>
+  <text ewd="SYS022" code="B4" type="conn" figID="44">
+    <name>E.F.I. 发动机冷却液温度传感器</name>
+  </text>
+  <text ewd="SYS022" code="B20" type="conn" figID="31">
+    <name>E.F.I. 真空传感器总成</name>
+  </text>
+  <text ewd="SYS022" code="A40,B39" type="conn" figID="29">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS022" code="E50" type="conn" figID="10">
+    <name>发动机开关</name>
+  </text>
+  <text ewd="SYS022" code="B11" type="conn" figID="38">
+    <name>1 号喷油器总成</name>
+  </text>
+  <text ewd="SYS022" code="B12" type="conn" figID="37">
+    <name>2 号喷油器总成</name>
+  </text>
+  <text ewd="SYS022" code="B13" type="conn" figID="36">
+    <name>3 号喷油器总成</name>
+  </text>
+  <text ewd="SYS022" code="B14" type="conn" figID="39">
+    <name>4 号喷油器总成</name>
+  </text>
+  <text ewd="SYS022" code="L23" type="conn" figID="28">
+    <name>燃油泵控制 ECU 总成</name>
+  </text>
+  <text ewd="SYS022" code="L22" type="conn" figID="26">
+    <name>带泵和计量表的燃油吸油管总成</name>
+  </text>
+  <text ewd="SYS022" code="B17" type="conn" figID="27">
+    <name>发电机总成</name>
+  </text>
+  <text ewd="SYS022" code="E28" type="conn" figID="43">
+    <name>ID 代码箱</name>
+  </text>
+  <text ewd="SYS022" code="B29" type="conn" figID="4">
+    <name>1 号点火线圈</name>
+  </text>
+  <text ewd="SYS022" code="B30" type="conn" figID="3">
+    <name>2 号点火线圈</name>
+  </text>
+  <text ewd="SYS022" code="B31" type="conn" figID="2">
+    <name>3 号点火线圈</name>
+  </text>
+  <text ewd="SYS022" code="B32" type="conn" figID="1">
+    <name>4 号点火线圈</name>
+  </text>
+  <text ewd="SYS022" code="E9" type="conn" figID="8">
+    <name>点火或起动开关总成</name>
+  </text>
+  <text ewd="SYS022" code="B2" type="conn" figID="40">
+    <name>进气质量空气流量计分总成</name>
+  </text>
+  <text ewd="SYS022" code="D1" type="conn" figID="51">
+    <name>爆震控制传感器 (B1)</name>
+  </text>
+  <text ewd="SYS022" code="A39" type="conn" figID="68">
+    <name>1 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS022" code="A37" type="conn" figID="14,41">
+    <name>1 号接线连接器</name>
+  </text>
+  <text ewd="SYS022" code="E74" type="conn" figID="71">
+    <name>2 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS022" code="E70" type="conn" figID="65">
+    <name>3 号接线连接器</name>
+  </text>
+  <text ewd="SYS022" code="B33" type="conn" figID="57">
+    <name>油压传感器</name>
+  </text>
+  <text ewd="SYS022" code="B19" type="conn" figID="35">
+    <name>油温传感器</name>
+  </text>
+  <text ewd="SYS022" code="B27" type="conn" figID="45">
+    <name>氧传感器 (B1 S2)</name>
+  </text>
+  <text ewd="SYS022" code="B15" type="conn" figID="6,62">
+    <name>驻车/空档位置开关总成</name>
+  </text>
+  <text ewd="SYS022" code="E76" type="conn" figID="64">
+    <name>模式选择开关总成</name>
+  </text>
+  <text ewd="SYS022" code="B22" type="conn" figID="49">
+    <name>净化 VSV</name>
+  </text>
+  <text ewd="SYS022" code="E13,z4" type="conn" figID="72">
+    <name>螺旋电缆分总成、巡航控制开关线束</name>
+  </text>
+  <text ewd="SYS022" code="A1" type="conn" figID="30">
+    <name>刹车灯开关总成</name>
+  </text>
+  <text ewd="SYS022" code="A2" type="conn" figID="25">
+    <name>刹车灯开关总成</name>
+  </text>
+  <text ewd="SYS022" code="B28" type="conn" figID="46">
+    <name>节气门体总成</name>
+  </text>
+  <text ewd="SYS022" code="E44" type="conn" figID="66">
+    <name>变速器控制开关（变速器地板式换档总成）</name>
+  </text>
+  <text ewd="SYS022" code="B34" type="conn" figID="53">
+    <name>变速器转速传感器（初级）</name>
+  </text>
+  <text ewd="SYS022" code="B35" type="conn" figID="54">
+    <name>变速器转速传感器（次级）</name>
+  </text>
+  <text ewd="SYS022" code="E29" type="conn" figID="42">
+    <name>应答器钥匙 ECU 总成</name>
+  </text>
+  <text ewd="SYS022" code="B37" type="conn" figID="48">
+    <name>VSV (ACIS)</name>
+  </text>
+  <text ewd="SYS022" code="A14" type="conn" figID="34">
+    <name>VSV (喷射器)</name>
+  </text>
+  <text ewd="SYS022" code="B23" type="conn" figID="59">
+    <name>VVT 传感器（排气侧）</name>
+  </text>
+  <text ewd="SYS022" code="B24" type="conn" figID="60">
+    <name>VVT 传感器（进气侧）</name>
+  </text>
+  <text ewd="SYS022" code="FUSE6" type="fuse" figID="184,187">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS022" code="FUSE7" type="fuse" figID="173,182">
+    <name>10A EFI NO.1</name>
+  </text>
+  <text ewd="SYS022" code="FUSE8" type="fuse" figID="172">
+    <name>10A EFI NO.2</name>
+  </text>
+  <text ewd="SYS022" code="FUSE9" type="fuse" figID="177">
+    <name>10A ETCS</name>
+  </text>
+  <text ewd="SYS022" code="FUSE15" type="fuse" figID="180">
+    <name>10A MIR HTR</name>
+  </text>
+  <text ewd="SYS022" code="FUSE18" type="fuse" figID="176">
+    <name>15A EFI-B</name>
+  </text>
+  <text ewd="SYS022" code="FUSE19" type="fuse" figID="170">
+    <name>15A IG2</name>
+  </text>
+  <text ewd="SYS022" code="FUSE22" type="fuse" figID="171">
+    <name>25A EFI-MAIN</name>
+  </text>
+  <text ewd="SYS022" code="FUSE32" type="fuse" figID="179">
+    <name>50A DEF</name>
+  </text>
+  <text ewd="SYS022" code="FUSE39" type="fuse" figID="185,186">
+    <name>5A MET</name>
+  </text>
+  <text ewd="SYS022" code="FUSE2" type="fuse" figID="169">
+    <name>7.5A AM2</name>
+  </text>
+  <text ewd="SYS022" code="FUSE45" type="fuse" figID="181">
+    <name>7.5A ECU-IG NO.2</name>
+  </text>
+  <text ewd="SYS022" code="FUSE46" type="fuse" figID="183">
+    <name>7.5A ECU-IG NO.3</name>
+  </text>
+  <text ewd="SYS022" code="FUSE49" type="fuse" figID="178">
+    <name>7.5A HTR-IG</name>
+  </text>
+  <text ewd="SYS022" code="FUSE50" type="fuse" figID="175">
+    <name>7.5A IGN</name>
+  </text>
+  <text ewd="SYS022" code="FUSE54" type="fuse" figID="174">
+    <name>7.5A STOP</name>
+  </text>
+  <text ewd="SYS022" code="AB" type="gp" figID="137,138,144">
+    <name />
+  </text>
+  <text ewd="SYS022" code="BA" type="gp" figID="141,143">
+    <name />
+  </text>
+  <text ewd="SYS022" code="BB" type="gp" figID="142">
+    <name />
+  </text>
+  <text ewd="SYS022" code="EB" type="gp" figID="140,145">
+    <name />
+  </text>
+  <text ewd="SYS022" code="ED" type="gp" figID="146,147,148">
+    <name />
+  </text>
+  <text ewd="SYS022" code="LF" type="gp" figID="139">
+    <name />
+  </text>
+  <text ewd="SYS022" code="3" type="jb" figID="91,92,93,94,95,96,97,98,99,100,101">
+    <name />
+  </text>
+  <text ewd="SYS022" code="1" type="rb" figID="17,22,23">
+    <name />
+  </text>
+  <text ewd="SYS022" code="FUSE6" type="rb" figID="13,69">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS022" code="FUSE7" type="rb" figID="24,61">
+    <name>10A EFI NO.1</name>
+  </text>
+  <text ewd="SYS022" code="FUSE8" type="rb" figID="21">
+    <name>10A EFI NO.2</name>
+  </text>
+  <text ewd="SYS022" code="FUSE9" type="rb" figID="32">
+    <name>10A ETCS</name>
+  </text>
+  <text ewd="SYS022" code="FUSE15" type="rb" figID="18">
+    <name>10A MIR HTR</name>
+  </text>
+  <text ewd="SYS022" code="FUSE18" type="rb" figID="33">
+    <name>15A EFI-B</name>
+  </text>
+  <text ewd="SYS022" code="FUSE19" type="rb" figID="20">
+    <name>15A IG2</name>
+  </text>
+  <text ewd="SYS022" code="FUSE22" type="rb" figID="19">
+    <name>25A EFI-MAIN</name>
+  </text>
+  <text ewd="SYS022" code="FUSE32" type="rb" figID="16">
+    <name>50A DEF</name>
+  </text>
+  <text ewd="SYS022" code="FUSE2" type="rb" figID="7">
+    <name>7.5A AM2</name>
+  </text>
+  <text ewd="SYS022" code="SP1" type="sp" figID="152,153,167">
+    <name />
+  </text>
+  <text ewd="SYS022" code="SP3" type="sp" figID="149,151">
+    <name />
+  </text>
+  <text ewd="SYS022" code="SP5" type="sp" figID="150">
+    <name />
+  </text>
+  <text ewd="SYS022" code="SP11" type="sp" figID="168">
+    <name />
+  </text>
+  <text ewd="SYS022" code="SP23" type="sp" figID="160,164">
+    <name />
+  </text>
+  <text ewd="SYS022" code="SP25" type="sp" figID="158,159">
+    <name />
+  </text>
+  <text ewd="SYS022" code="SP26" type="sp" figID="155">
+    <name />
+  </text>
+  <text ewd="SYS022" code="SP28" type="sp" figID="154">
+    <name />
+  </text>
+  <text ewd="SYS022" code="SP42" type="sp" figID="165">
+    <name />
+  </text>
+  <text ewd="SYS022" code="SP43" type="sp" figID="166">
+    <name />
+  </text>
+  <text ewd="SYS022" code="SP44" type="sp" figID="163">
+    <name />
+  </text>
+  <text ewd="SYS022" code="SP45" type="sp" figID="162">
+    <name />
+  </text>
+  <text ewd="SYS022" code="SP46" type="sp" figID="156">
+    <name />
+  </text>
+  <text ewd="SYS022" code="SP47" type="sp" figID="157">
+    <name />
+  </text>
+  <text ewd="SYS022" code="SP48" type="sp" figID="161">
+    <name />
+  </text>
+  <text ewd="SYS022" code="AL1" type="w2w" figID="106,110">
+    <name>发动机室主线束和地板线束</name>
+  </text>
+  <text ewd="SYS022" code="AE2" type="w2w" figID="104,113,114,115,116,124,132,133">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS022" code="AE3" type="w2w" figID="102,103,129,130,136">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS022" code="AE4" type="w2w" figID="109,125,126,127,135">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS022" code="AE5" type="w2w" figID="123,128,131,134">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS022" code="AE8" type="w2w" figID="112">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS022" code="BA1" type="w2w" figID="117,118">
+    <name>发动机线束和发动机室主线束</name>
+  </text>
+  <text ewd="SYS022" code="BA2" type="w2w" figID="105,107,108,111,121,122">
+    <name>发动机线束和发动机室主线束</name>
+  </text>
+  <text ewd="SYS022" code="BD1" type="w2w" figID="119,120">
+    <name>发动机线束和发动机 4 号线束</name>
+  </text>
+</EwdTree>

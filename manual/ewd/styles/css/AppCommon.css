@@ -1,0 +1,195 @@
+/* Copyright (c) 2012 SHINTEC HOZUMI Co.,LTD. All Rights Reserved. */
+/* Last Update: 2013/10/24 */
+/* Modified for Chinese: 2014/04/24 */
+
+
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background: #F7F9F9;
+}
+
+body {
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	color: #333333;
+}
+
+
+/* Japanese */
+body.font_ja
+{
+	font-size: 14px;
+	line-height: 16px;
+	font-family: "MS PGOTHIC",sans-serif;
+}
+
+a.small_ja,
+span.small_ja,
+p.small_ja,
+li.small_ja
+{
+	font-size: 11px;
+	line-height: 13px;
+	font-family: "MS PGOTHIC",sans-serif;
+}
+
+a.smaller_ja,
+span.smaller_ja,
+p.smaller_ja,
+li.smaller_ja
+{
+	font-size: 10px;
+	line-height: 12px;
+	font-family: "MS PGOTHIC",sans-serif;
+}
+
+input[type="button"].font_ja
+{
+	height: 22px;
+	font-size: 12px;
+	line-height: 14px;
+	cursor: pointer;
+	font-family: "MS PGOTHIC",sans-serif;
+}
+
+
+/* English */
+/* modified for Chinese */
+body.font_en
+{
+	font-size: 14px;
+	line-height: 16px;
+	font-family: "NSimSun",sans-serif;
+}
+
+input[type="button"].font_en
+{
+  height: 22px;
+  font-size: 12px;
+  line-height: 14px;
+  cursor: pointer;
+	font-family: "NSimSun",sans-serif;
+}
+
+/* Chinese */
+body.font_zh
+{
+	font-size: 14px;
+	line-height: 16px;
+	font-family: "NSimSun",sans-serif;
+}
+a.small_zh,
+span.small_zh,
+p.small_zh,
+li.small_zh
+{
+	font-size: 11px;
+	line-height: 13px;
+	font-family: "NSimSun",sans-serif;
+}
+
+a.smaller_zh,
+span.smaller_zh,
+p.smaller_zh,
+li.smaller_zh
+{
+	font-size: 10px;
+	line-height: 12px;
+	font-family: "NSimSun",sans-serif;
+}
+
+input[type="button"].font_zh
+{
+  height: 22px;
+  font-size: 12px;
+  line-height: 14px;
+  cursor: pointer;
+	font-family: "NSimSun",sans-serif;
+}
+
+/* Thai */
+body.font_th
+{
+	font-size: 11px;
+	line-height: 13px;
+	font-family: "Tahoma",sans-serif;
+}
+
+input[type="button"].font_th
+{
+	height: 22px;
+	font-size: 12px;
+	line-height: 14px;
+	cursor: pointer;
+	font-family: "Tahoma",sans-serif;
+}
+
+
+/* other language */
+body.font_de, body.font_fr, body.font_es, body.font_it, body.font_nl, 
+body.font_pt, body.font_da, body.font_sv, body.font_fi, body.font_no, 
+body.font_is, body.font_cs, body.font_hu, body.font_pl, body.font_sl, 
+body.font_sq, body.font_tr, body.font_el, body.font_ru, body.font_uk, 
+body.font_la, body.font_he, body.font_vi
+{
+	font-size: 11px;
+	line-height: 13px;
+	font-family: "Verdana",sans-serif;
+}
+
+input[type="button"].font_de, input[type="button"].font_fr, input[type="button"].font_es, input[type="button"].font_it, input[type="button"].font_nl, 
+input[type="button"].font_pt, input[type="button"].font_da, input[type="button"].font_sv, input[type="button"].font_fi, input[type="button"].font_no, 
+input[type="button"].font_is, input[type="button"].font_cs, input[type="button"].font_hu, input[type="button"].font_pl, input[type="button"].font_sl, 
+input[type="button"].font_sq, input[type="button"].font_tr, input[type="button"].font_el, input[type="button"].font_ru, input[type="button"].font_uk, 
+input[type="button"].font_la, input[type="button"].font_he, input[type="button"].font_vi
+{
+	height: 22px;
+	font-size: 12px;
+	line-height: 14px;
+	cursor: pointer;
+	font-family: "Verdana",sans-serif;
+}
+
+
+
+div,
+p,
+h1,
+h2,
+h3,
+button,
+input,
+option,
+select
+ {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* Link */
+a {
+	color: #444444;
+	text-decoration: none;
+}
+
+img {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+
+.title{
+  background: url(images/mtrx-bg.png) repeat-x;
+  color: white;
+  font-weight: bold;
+  line-height: 26px;
+  letter-spacing: 0.2em;
+  text-indent: 1em;
+}
+

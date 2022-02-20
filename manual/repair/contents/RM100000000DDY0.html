@@ -1,0 +1,2046 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_57</span>
+<span class="globalServcatName">电源/网络</span>
+<span class="globalSection">_024003</span>
+<span class="globalSectionName">网络</span>
+<span class="globalTitle">_0116067</span>
+<span class="globalTitleName">CAN 通信系统</span>
+<span class="globalCategory">U</span>
+</div>
+<h1>网络&nbsp;&nbsp;CAN 通信系统&nbsp;&nbsp;失效保护表&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DDY0_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">失效保护功能
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>任一 CAN 总线（通信线路）通信失败时，失效保护功能将运行。每个系统都有专用的失效保护功能，用以防止系统出现故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>下表显示了各系统无法通信时所受的影响。（有关详情，请参见各系统的相应页面。）
+</p>
+<table summary="">
+<colgroup>
+<col style="width:16%">
+<col style="width:10%">
+<col style="width:16%">
+<col style="width:16%">
+<col style="width:28%">
+<col style="width:10%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">功能
+</th>
+<th class="alcenter">主控制部件
+</th>
+<th class="alcenter">相关系统
+</th>
+<th class="alcenter">失效保护操作
+</th>
+<th class="alcenter">驾驶员可检测
+</th>
+<th class="alcenter">DTC 检测
+<br>
+（存储 DTC 的 ECU）
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">防抱死制动系统控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>防止紧急刹车时车轮抱死。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">防滑控制 ECU（制动执行器总成）
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>控制期间：倒车控制（稳定车辆）完成后，系统切换至正常制动并禁用此控制。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>非控制期间：无法进行控制。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>制动警告灯点亮。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ABS 警告灯点亮。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">U0073
+<br>
+（防滑控制 ECU（制动执行器总成））
+</td>
+</tr>
+<tr>
+<td class="alleft">车辆稳定性控制/牵引力控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>控制车辆不稳定性，例如转弯时向一旁滑动和从停止状态加速时车轮滑动。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">防滑控制 ECU（制动执行器总成）
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空气囊传感器总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向传感器（带传感器的螺旋电缆分总成）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>动力转向 ECU 总成
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>控制期间：倒车控制（稳定车辆）完成后，系统切换至正常制动并禁用此控制。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>非控制期间：无法进行控制。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>制动警告灯点亮。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ABS 警告灯点亮。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>打滑指示灯点亮。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">U0073
+<br>
+U0100
+<br>
+U0123
+<br>
+U0126
+<br>
+（防滑控制 ECU（制动执行器总成））
+</td>
+</tr>
+<tr>
+<td class="alleft">空调控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>校正发动机转速，如怠速提升。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据发动机冷却液温度信号控制出气温度、出气模式切换和空气流量。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>校正发动机冷却液温度分布图并更改压缩机锁止判断值。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">空调放大器总成
+</td>
+<td class="alleft">ECM
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据默认冷却液温度 80&deg;C (176&deg;F) 进行控制。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据发动机型号（各车型之间有所不同）进行控制。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">U0100
+<br>
+（空调放大器总成）
+</td>
+</tr>
+<tr>
+<td class="alleft">压缩机控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据发动机转速信息确定是否锁止压缩机。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">空调放大器总成
+</td>
+<td class="alleft">ECM
+</td>
+<td class="alleft">根据默认发动机转速 0 rpm 进行控制。
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">U0100
+<br>
+（空调放大器总成）
+</td>
+</tr>
+<tr>
+<td class="alleft">简易负载控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据负载控制水平限制电气负载控制。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">空调放大器总成
+</td>
+<td class="alleft">动力转向 ECU 总成
+</td>
+<td class="alleft">保持最新状态（重置系统后不进行负载控制）。
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">U0131
+<br>
+（空调放大器总成）
+</td>
+</tr>
+<tr>
+<td class="alleft">面板变光控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据显示变光信号将变光信号输出至 LIN 连接的面板。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">空调放大器总成
+</td>
+<td class="alleft">主车身 ECU（多路网络车身 ECU）
+</td>
+<td class="alleft">保持最新状态。
+</td>
+<td class="alleft">变光模式和非变光模式不可切换。
+</td>
+<td class="alleft">U0142
+<br>
+（空调放大器总成）
+</td>
+</tr>
+<tr>
+<td class="alleft">目的地识别控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据目的地更改空调控制模式。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">空调放大器总成
+</td>
+<td class="alleft">主车身 ECU（多路网络车身 ECU）
+</td>
+<td class="alleft">保持最新状态。
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">U0142
+<br>
+（空调放大器总成）
+</td>
+</tr>
+<tr>
+<td class="alleft">环境温度校正控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据车速信号切换空调系统工作状态并校正环境温度显示值。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">空调放大器总成
+</td>
+<td class="alleft">组合仪表总成
+</td>
+<td class="alleft">根据默认车速 0 km/h (0 mph) 进行控制。
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>显示的环境温度校正级别有所下降。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>出气流量的校正级别有所下降。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">U0155
+<br>
+（空调放大器总成）
+</td>
+</tr>
+<tr>
+<td class="alleft">空调环保模式控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用 B_ECOMI 在环保模式下进行。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">空调放大器总成
+</td>
+<td class="alleft">ECM
+</td>
+<td class="alleft">保持最新状态（重置后保持正常状态）。
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">目的地识别
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据目的地和目的地封装信息识别目的地，并选择用于显示的时区和语言。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>导航接收器总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>无线电收音机和显示屏接收器总成
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">主车身 ECU（多路网络车身 ECU）
+</td>
+<td class="alleft">根据最新值（如果无任何接收数据，则根据默认值）识别目的地并继续操作。
+</td>
+<td class="alleft">时区和语言选择画面根据实际目的地而有所不同。
+</td>
+<td class="alleft">U0140
+<br>
+（导航接收器总成）
+<br>
+U0140
+<br>
+（无线电收音机和显示屏接收器总成）
+</td>
+</tr>
+<tr>
+<td>空调控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>显示设定温度、出气选择等
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>导航接收器总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>无线电收音机和显示屏接收器总成
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>空调放大器总成
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空调系统指示灯关闭。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果设定温度显示在多信息显示屏或多功能显示屏上，则设定温度显示屏关闭。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>在多信息显示屏上显示信息。
+</td>
+<td>U0073
+<br>
+U0164
+<br>
+（导航接收器总成）
+<br>
+U0073
+<br>
+U0164
+<br>
+（无线电收音机和显示屏接收器总成）
+</td>
+</tr>
+<tr>
+<td class="alleft">门锁
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>控制钥匙联动和车门自动锁止/开锁功能、钥匙受限防止功能等。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">主车身 ECU（多路网络车身 ECU）
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>组合仪表总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空气囊传感器总成
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火开关置于 ON 位置时，根据最新信息进行控制。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火开关置于 OFF 位置时，可进行钥匙联动操作。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>无法更改自动锁止/开锁。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>无速度灵敏度自动锁止控制。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>无换档联动自动锁止控制。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>无换档联动自动开锁控制。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">U0100
+<br>
+U0101
+<br>
+U0151
+<br>
+U0155
+<br>
+（主车身 ECU（多路网络车身 ECU））
+</td>
+</tr>
+<tr>
+<td class="alleft">显示屏自动变光
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>显示屏变光控制。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">主车身 ECU（多路网络车身 ECU）
+</td>
+<td class="alleft">组合仪表总成
+</td>
+<td class="alleft">尾灯点亮时，未进行显示屏的自动变光控制。
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">U0155
+<br>
+（主车身 ECU（多路网络车身 ECU））
+</td>
+</tr>
+<tr>
+<td class="alleft">照明灯
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进行照明控制。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">主车身 ECU（多路网络车身 ECU）
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>认证 ECU（智能钥匙 ECU 总成）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">顶灯熄灭。
+</td>
+<td class="alleft">顶灯不会在车门打开或关闭后立刻熄灭。
+</td>
+<td class="alleft">U0100
+<br>
+U0327
+<br>
+（主车身 ECU（多路网络车身 ECU））
+</td>
+</tr>
+<tr>
+<td class="alleft">上车功能/遥控
+</td>
+<td class="alleft">认证 ECU（智能钥匙 ECU 总成）
+</td>
+<td class="alleft">主车身 ECU（多路网络车身 ECU）
+</td>
+<td class="alleft">无法进行上车锁止/开锁控制。
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">U0327
+<br>
+（主车身 ECU（多路网络车身 ECU））
+</td>
+</tr>
+<tr>
+<td class="alleft">灯光控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>日间行车灯控制。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">主车身 ECU（多路网络车身 ECU）
+</td>
+<td class="alleft">ECM
+</td>
+<td class="alleft">日间行车灯控制不工作。
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">U0100
+<br>
+（主车身 ECU（多路网络车身 ECU））
+</td>
+</tr>
+<tr>
+<td>行李厢车门开启器
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>行李厢车门开启控制。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>主车身 ECU（多路网络车身 ECU）
+</td>
+<td>组合仪表总成
+</td>
+<td>行李厢车门开启控制不工作。
+</td>
+<td class="alcenter">-
+</td>
+<td>U0155
+<br>
+（主车身 ECU（多路网络车身 ECU））
+</td>
+</tr>
+<tr>
+<td>发动机相关指示灯显示
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>估算发动机机油老化情况并显示信息等，在组合仪表总成上指示更换机油。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>ECM
+</td>
+<td>组合仪表总成
+</td>
+<td>无法清除显示在组合仪表总成上的发动机机油维护相关项目。
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>未显示更换警告。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>组合仪表总成上一直显示信息。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>电气负载控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据电气负载进行怠速提升。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>ECM
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空调放大器总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>动力转向 ECU 总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主车身 ECU（多路网络车身 ECU）
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>未根据电气负载进行怠速提升。
+</td>
+<td>发动机怠速转速改变。
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">空调协同操作
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据压缩机负载进行怠速提升。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">ECM
+</td>
+<td class="alleft">空调放大器总成
+</td>
+<td class="alleft">空调系统未使用协同控制。
+</td>
+<td class="alleft">空调系统不工作。
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">PTC 加热器
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>加热需求信号要求 PTC 加热器工作时，进行怠速提升。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">ECM
+</td>
+<td class="alleft">空调放大器总成
+</td>
+<td class="alleft">PTC 加热器不工作。
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机怠速转速改变。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>加热性能下降。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>PTC 加热器不工作。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">充电控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据充电请求进行怠速提升。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">ECM
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空调放大器总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主车身 ECU（多路网络车身 ECU）
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>未根据充电请求进行怠速提升。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>充电控制未禁止。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>未根据充电请求进行怠速提升。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>尾灯闪烁且鼓风机气流改变。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">空档控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>减少发动机负载并进行怠速提升。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">ECM
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>防滑控制 ECU（制动执行器总成）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空气囊传感器总成
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">未执行空档控制。
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">U0129
+<br>
+(ECM)
+</td>
+</tr>
+<tr>
+<td class="alleft">滑行减档
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据空调负载改变滑行减档正时。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">ECM
+</td>
+<td class="alleft">空调放大器总成
+</td>
+<td class="alleft">未出现滑行减档。
+</td>
+<td class="alleft">滑行减档冲击减小性能老化。
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">环保驾驶指示灯
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>对驾驶员显示信息以鼓励环保驾驶。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">ECM
+</td>
+<td class="alleft">组合仪表总成
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">未显示信息。
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">环保控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>考虑到实际燃油经济性调节节气门响应。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">ECM
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空调放大器总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主车身 ECU（多路网络车身 ECU）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>组合仪表总成
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">环保模式不工作。
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>指示灯不亮。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>环保模式不工作。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">电动转向系统（无刷型马达）
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据扭矩传感器值和车速计算用于转向辅助的电流，然后操作马达。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">动力转向 ECU 总成
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>防滑控制 ECU（制动执行器总成）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向传感器（带传感器的螺旋电缆分总成）
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>动力转向不工作。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车速为 100 km/h (62 mph) 时，设定用于此用途的转向辅助量以暂时进行控制。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向感变更差（使用转向角的补偿控制停止）。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">EPS 警告灯点亮。
+</td>
+<td class="alleft">U0100
+<br>
+U0129
+<br>
+（动力转向 ECU 总成）
+</td>
+</tr>
+<tr>
+<td>电动转向系统（电刷型马达）
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据扭矩传感器值和车速计算用于转向辅助的电流，然后操作马达。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>动力转向 ECU 总成
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>防滑控制 ECU（制动执行器总成）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向传感器（带传感器的螺旋电缆分总成）
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>动力转向不工作。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车速为 70 km/h (43 mph) 时，设定用于此用途的转向辅助量以暂时进行控制。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向感变更差（使用转向角的补偿控制停止）。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>EPS 警告灯点亮。
+</td>
+<td>U0100
+<br>
+U0129
+<br>
+（动力转向 ECU 总成）
+</td>
+</tr>
+<tr>
+<td>αB 控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>提供辅助以防车辆打滑。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>防滑控制 ECU（制动执行器总成）
+</td>
+<td>动力转向 ECU 总成
+</td>
+<td>防滑控制 ECU（制动执行器总成）的 CAN 数据在 αB 控制期间无效时，控制停止。
+</td>
+<td>EPS 警告灯点亮。
+</td>
+<td>U0129
+<br>
+（动力转向 ECU 总成）
+</td>
+</tr>
+<tr>
+<td>转向辅助计算（无刷型马达）
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据车速改变辅助力。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>动力转向 ECU 总成
+</td>
+<td>防滑控制 ECU（制动执行器总成）
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>由于系统无法识别实际车速，暂时以 100 km/h (62 mph) 的设定车速持续控制。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车速低于 100 km/h (62 mph) 时感觉方向盘变重，车速超过 100 km/h (62 mph) 时感觉方向盘变轻。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>EPS 警告灯点亮。
+</td>
+<td>U0129
+<br>
+（动力转向 ECU 总成）
+</td>
+</tr>
+<tr>
+<td>转向辅助计算（电刷型马达）
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据车速改变辅助力。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>动力转向 ECU 总成
+</td>
+<td>防滑控制 ECU（制动执行器总成）
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>由于系统无法识别实际车速，暂时以 70 km/h (43 mph) 的设定车速持续控制。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车速低于 70 km/h (43 mph) 时感觉方向盘变重，车速超过 70 km/h (43 mph) 时感觉方向盘变轻。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>EPS 警告灯点亮。
+</td>
+<td>U0129
+<br>
+（动力转向 ECU 总成）
+</td>
+</tr>
+<tr>
+<td>助力图选择
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据目的地、发动机类型等选择正确的助力图
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>动力转向 ECU 总成
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>防滑控制 ECU（制动执行器总成）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主车身 ECU（多路网络车身 ECU）
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>由于无法选择正确的助力图，将使用默认地图进行辅助。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向感可能不同。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据车辆用于选择助力图的框架可能不同。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>EPS 警告灯点亮。
+</td>
+<td>C1581
+<br>
+（动力转向 ECU 总成）
+</td>
+</tr>
+<tr>
+<td>初始化和零点学习
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进行转向角传感器初始化和零点学习。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>动力转向 ECU 总成
+</td>
+<td>防滑控制 ECU（制动执行器总成）
+</td>
+<td>未执行转向传感器初始化和零点学习。
+</td>
+<td>EPS 警告灯点亮。
+</td>
+<td>U0129
+<br>
+（动力转向 ECU 总成）
+</td>
+</tr>
+<tr>
+<td>转向辅助补偿控制（无刷型马达）
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用根据车速得出的补偿量提供转向辅助。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>动力转向 ECU 总成
+</td>
+<td>防滑控制 ECU（制动执行器总成）
+</td>
+<td>根据约为 100 km/h (62 mph) 的默认车速进行控制。
+</td>
+<td>EPS 警告灯点亮。
+</td>
+<td>U0129
+<br>
+（动力转向 ECU 总成）
+</td>
+</tr>
+<tr>
+<td>转向辅助补偿控制（电刷型马达）
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用根据车速得出的补偿量提供转向辅助。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>动力转向 ECU 总成
+</td>
+<td>防滑控制 ECU（制动执行器总成）
+</td>
+<td>根据约为 70 km/h (43 mph) 的默认车速进行控制。
+</td>
+<td>EPS 警告灯点亮。
+</td>
+<td>U0129
+<br>
+（动力转向 ECU 总成）
+</td>
+</tr>
+<tr>
+<td>上车功能
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>上车锁止/开锁。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进行上车照明（车内灯等）。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主车身 ECU（多路网络车身 ECU）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>认证 ECU（智能钥匙 ECU 总成）
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主车身 ECU（多路网络车身 ECU）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>认证 ECU（智能钥匙 ECU 总成）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>组合仪表总成
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>再次进行上车开锁。
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>上车锁止/开锁或上车背门开锁不工作。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>警告功能（钥匙受限、钥匙不在车内、钥匙提醒等）和钥匙受限防止功能不工作。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>上车照明不工作。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车门开锁时的连续应答（最多 3 种设置）。 （仅主车身 ECU（多路网络车身 ECU）可接收到来自认证 ECU（智能钥匙 ECU 总成）的请求信号时。）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>输出错误上车警告。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>U0100
+<br>
+U0142
+<br>
+U0155
+<br>
+（认证 ECU（智能钥匙 ECU 总成））
+</td>
+</tr>
+<tr>
+<td>遥控功能
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>通过遥控操作锁止和开锁车门等。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>主车身 ECU（多路网络车身 ECU）
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主车身 ECU（多路网络车身 ECU）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>认证 ECU（智能钥匙 ECU 总成）
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">-
+</td>
+<td>遥控锁止和开锁不工作。
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>发动机开关照明控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据顶灯照明等操作发动机开关照明
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>认证 ECU（智能钥匙 ECU 总成）
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主车身 ECU（多路网络车身 ECU）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>认证 ECU（智能钥匙 ECU 总成）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>组合仪表总成
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果发动机开关不亮，则其不亮。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>由于顶灯使发动机开关点亮时，照明不熄灭。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>由于顶灯导致 DC 切断保险丝断开且发动机开关点亮时，照明不熄灭。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果发动机开关不亮，则其不亮。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>由于顶灯使发动机开关点亮时，照明不熄灭。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>由于顶灯导致 DC 切断保险丝断开且发动机开关点亮时，照明不熄灭。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>U0142
+<br>
+（认证 ECU（智能钥匙 ECU 总成））
+</td>
+</tr>
+<tr>
+<td>发动机起动/停止开关（电源模式切换）
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>利用起动/停止开关信号作为触发条件，满足条件时自动切换电源模式并请求起动机工作。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>认证 ECU（智能钥匙 ECU 总成）
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主车身 ECU（多路网络车身 ECU）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>防滑控制 ECU（制动执行器总成）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>组合仪表总成
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>操作发动机开关后，电源模式切换至 OFF 前需要 1.2 秒。
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>催促发动机起动操作的信息未在要求时显示出来。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关指示灯呈琥珀色闪烁。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>U0100
+<br>
+U0129
+<br>
+（认证 ECU（智能钥匙 ECU 总成））
+</td>
+</tr>
+<tr>
+<td>发动机起动控制
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>允许通过按下发动机开关一次起动发动机。（起动保持）
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>认证 ECU（智能钥匙 ECU 总成）
+</td>
+<td>ECM
+</td>
+<td>根据通过直线连接接收到的发动机转速信号判定发动机起动时，停止起动。
+</td>
+<td class="alcenter">-
+</td>
+<td>U0100
+<br>
+（认证 ECU（智能钥匙 ECU 总成））
+</td>
+</tr>
+<tr>
+<td>车速显示
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据来自防滑控制 ECU（制动执行器总成）的车速信号在车速表上显示车速。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>组合仪表总成
+</td>
+<td>防滑控制 ECU（制动执行器总成）
+</td>
+<td>根据信号值 0 进行控制。
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>指针指向 0 km/h (0 mph)。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>驾驶监视器计算中断。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>U0129
+<br>
+（组合仪表总成）
+</td>
+</tr>
+<tr>
+<td>转速表
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>显示转速表信息。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>组合仪表总成
+</td>
+<td>ECM
+</td>
+<td>根据信号值 0 进行控制。
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转速表显示 0 rpm。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>驾驶监视器停止计算。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>U0100
+<br>
+（组合仪表总成）
+</td>
+</tr>
+<tr>
+<td>空气囊警告
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空气囊警告灯控制。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>组合仪表总成
+</td>
+<td>空气囊传感器总成
+</td>
+<td>根据&ldquo;Active&rdquo;信号值进行控制。
+</td>
+<td>空气囊警告灯点亮。
+</td>
+<td>U0151
+<br>
+（组合仪表总成）
+</td>
+</tr>
+<tr>
+<td>EPS 警告
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>EPS 警告灯控制。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>组合仪表总成
+</td>
+<td>动力转向 ECU 总成
+</td>
+<td>根据&ldquo;Active&rdquo;信号值进行控制。
+</td>
+<td>EPS 警告灯点亮。
+</td>
+<td>U0131
+<br>
+（组合仪表总成）
+</td>
+</tr>
+<tr>
+<td>打滑警告
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>打滑指示灯控制。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>组合仪表总成
+</td>
+<td>防滑控制 ECU（制动执行器总成）
+</td>
+<td>根据&ldquo;Active&rdquo;信号值进行控制。
+</td>
+<td>打滑指示灯点亮。
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td>发动机冷却液温度表控制
+</td>
+<td>组合仪表总成
+</td>
+<td>ECM
+</td>
+<td>根据信号值 0 进行控制。
+</td>
+<td>发动机冷却液温度表的指针位于中央或以下。
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

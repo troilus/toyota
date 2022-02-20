@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS061">
+    <part type="conn" code="g1">
+      <text>B E</text>
+      <name>中央刹车灯总成</name>
+    </part>
+    <part type="conn" code="L56">
+      <name>8 号接线连接器</name>
+    </part>
+    <part type="conn" code="L25">
+      <name>静噪滤波器（收音机设定调相器）</name>
+    </part>
+    <part type="conn" code="L3">
+      <text>E STP</text>
+      <name>左后组合灯总成</name>
+      <name type="inner">停止</name>
+      <name type="inner">尾灯</name>
+    </part>
+    <part type="conn" code="L27">
+      <text>E STP</text>
+      <name>左后组合灯总成</name>
+      <name type="inner">停止</name>
+      <name type="inner">尾灯</name>
+    </part>
+    <part type="conn" code="L26">
+      <text>E STP</text>
+      <name>右后组合灯总成</name>
+      <name type="inner">停止</name>
+      <name type="inner">尾灯</name>
+    </part>
+    <part type="conn" code="L4">
+      <text>E STP</text>
+      <name>右后组合灯总成</name>
+      <name type="inner">停止</name>
+      <name type="inner">尾灯</name>
+    </part>
+    <part type="conn" code="A2">
+      <text>GND OUT B</text>
+      <name>刹车灯开关总成</name>
+    </part>
+    <part type="conn" code="A1">
+      <name>刹车灯开关总成</name>
+    </part>
+    <part type="fuse" code="FUSE54">
+      <text>STOP</text>
+    </part>
+  </ttl>
+</EWDSearch>

@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_56">
+<name>音频/视频/车载通信系统</name>
+<section id="_024000">
+<name>LEXUS G-BOOK（智能副驾）</name>
+<ttl id="_0116084">
+<name>G-BOOK 系统</name>
+<para category="J" id="RM100000000D80T">
+<dtccode/>
+<dtcname>通信连接故障</dtcname>
+<subpara category="01" id="RM100000000D80T_03">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D80T_03_0001">
+<testtitle>检查故障症状</testtitle>
+<content6>
+<test1>
+<ptxt>进行显示信息指示的程序，并检查故障症状是否再次出现。</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.36in"/>
+<colspec colname="col2" colwidth="2.36in"/>
+<colspec colname="col3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>显示的信息</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>原因</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检查项目</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>由于线路繁忙等无法检索信息，显示稍后再试的信息</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>蜂窝电话运营商与设定中的不一致</ptxt>
+</item>
+<item>
+<ptxt>所有线路繁忙</ptxt>
+</item>
+<item>
+<ptxt>PPP 认证故障</ptxt>
+</item>
+<item>
+<ptxt>TCP 连接故障</ptxt>
+</item>
+<item>
+<ptxt>发送请求后一定时间内没有收到 G-BOOK 中心的响应</ptxt>
+</item>
+<item>
+<ptxt>HTTP 故障</ptxt>
+</item>
+<item>
+<ptxt>其他通信故障</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>等待一段时间，再次执行操作以检查故障症状是否再次出现。*1</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>显示指示未连接蜂窝电话的信息。 （通过“蓝牙”连接时）</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>未连接蜂窝电话</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>注册蜂窝电话，再次执行操作并检查故障症状是否再次出现。</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>无法使用 G-BOOK 服务</ptxt>
+</entry>
+<entry morerows="2" valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>蜂窝电话运营商与设定中的不一致</ptxt>
+</item>
+<item>
+<ptxt>所有线路繁忙</ptxt>
+</item>
+<item>
+<ptxt>PPP 认证故障</ptxt>
+</item>
+<item>
+<ptxt>TCP 连接故障</ptxt>
+</item>
+<item>
+<ptxt>发送请求后一定时间内没有收到 G-BOOK 中心的响应</ptxt>
+</item>
+<item>
+<ptxt>HTTP 故障</ptxt>
+</item>
+<item>
+<ptxt>其他通信故障</ptxt>
+</item>
+<item>
+<ptxt>客户认证失败</ptxt>
+</item>
+<item>
+<ptxt>蜂窝电话设定不当</ptxt>
+</item>
+<item>
+<ptxt>蜂窝电话号码无效（如未安装 SIM 卡）</ptxt>
+</item>
+<item>
+<ptxt>车辆不在通信服务区</ptxt>
+</item>
+<item>
+<ptxt>通信过程中服务不可用</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>等待一段时间，再次执行操作以检查故障症状是否再次出现。</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>检查并确认可使用蜂窝电话进行通话，再次执行操作并检查故障症状是否再次出现。</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>转至步骤 2</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>*1：如果暂时显示该信息，则无线电波信号状态存在故障或基电台繁忙。 这并不是故障（向客户解释这并非故障，可照常使用系统）。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D80T_03_0002"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D80T_03_0002">
+<testtitle>移动车辆</testtitle>
+<content6>
+<test1>
+<ptxt>移动车辆。</ptxt>
+<test2>
+<ptxt>如果车辆不在通信服务区，则将车辆移至通信服务区内，等待一段时间并再次执行操作。</ptxt>
+</test2>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>系统未恢复正常。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>系统恢复正常。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D80T_03_0004"/>
+</result>
+<result cellposition="2-6" label="2">
+<action actiontype="end" cellposition="3-6">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D80T_03_0004">
+<testtitle>检查蜂窝电话型号</testtitle>
+<content6>
+<test1>
+<ptxt>检查蜂窝电话型号。</ptxt>
+<test2>
+<ptxt>检查并确认蜂窝电话有“蓝牙”和网络连接功能。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>蜂窝电话有“蓝牙”和网络连接功能。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>如果蜂窝电话没有“蓝牙”功能或网络连接功能，则通知客户。</ptxt>
+</atten4>
+</test2>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D80T_03_0006"/>
+</result>
+<result cellposition="3-5" label="2">
+<action actiontype="end" cellposition="4-5">
+<actiontitle>更换蜂窝电话</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D80T_03_0006">
+<testtitle>检查“蓝牙”设定程序</testtitle>
+<content6>
+<test1>
+<ptxt>检查“蓝牙”设定程序。</ptxt>
+<test2>
+<ptxt>检查并确认已正确注册“蓝牙”兼容蜂窝电话。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>已正确注册“蓝牙”兼容蜂窝电话。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>使用“蓝牙”兼容蜂窝电话的免提功能时，必须将“蓝牙”兼容蜂窝电话作为“蓝牙”电话进行注册。 即使可能已注册带“蓝牙”便携式音响功能的蜂窝电话的音响功能，仍需单独的免提注册。</ptxt>
+</atten4>
+</test2>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000D80T_03_0011"/>
+</result>
+<result cellposition="4-4" label="2">
+<action actiontype="end" cellposition="5-4">
+<actiontitle>确认设定</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000D80T_03_0011">
+<testtitle>检查使用条件</testtitle>
+<content6>
+<test1>
+<ptxt>检查并确认车辆和蜂窝电话满足下列条件：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>蜂窝电话的“蓝牙”设定打开。</ptxt>
+</item>
+<item>
+<ptxt>蜂窝电话的“Wi-Fi”设定关闭。</ptxt>
+</item>
+<item>
+<ptxt>操作蜂窝电话的系统和软件为最新版本。</ptxt>
+</item>
+<item>
+<ptxt>车厢内没有其他无线电波发射设备（“Wi-Fi”通信设备等）。</ptxt>
+</item>
+</list1>
+</test1>
+<test1>
+<ptxt>检查至 G-BOOK.com 的连接情况。</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.06in"/>
+<colspec colname="col2" colwidth="2.07in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>无法访问 G-BOOK.com。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>可以访问 G-BOOK.com。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="next" cellposition="6-1" childid="RM100000000D80T_03_0008"/>
+</result>
+<result cellposition="5-3" label="2">
+<action actiontype="end" cellposition="6-3">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-1" id="RM100000000D80T_03_0008">
+<testtitle>更换蜂窝电话并重新检查</testtitle>
+<content6>
+<test1>
+<ptxt>获得客户许可并连接另一“蓝牙”兼容蜂窝电话。</ptxt>
+<atten4>
+<ptxt>注册并连接“蓝牙”兼容蜂窝电话。</ptxt>
+</atten4>
+<test2>
+<ptxt>检查至 G-BOOK.com 的连接情况。</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>无法访问 G-BOOK.com。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>可以访问 G-BOOK.com。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果客户的蜂窝电话出现故障，则请客户检查手机。</ptxt>
+</item>
+<item>
+<ptxt>完成该步后，删除该步注册的蜂窝电话。</ptxt>
+</item>
+</list1>
+</atten4>
+</test2>
+</test1>
+</content6>
+<results>
+<result cellposition="6-1" label="1">
+<action actiontype="end" cellposition="7-1">
+<actiontitle>联系支持中心</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="6-2" label="2">
+<action actiontype="end" cellposition="7-2">
+<actiontitle>更换蜂窝电话</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

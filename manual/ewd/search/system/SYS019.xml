@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS019">
+    <part type="conn" code="E43">
+      <text>CANL CANH S5-3 PRE SG-2</text>
+      <name>空调放大器总成</name>
+    </part>
+    <part type="conn" code="E11">
+      <text>CANL CANH S5-3 PRE SG-2</text>
+      <name>空调放大器总成</name>
+    </part>
+    <part type="conn" code="A13">
+      <text>+ PR - + PR -</text>
+      <name>空调压力传感器</name>
+    </part>
+    <part type="conn" code="A41,A42">
+      <text>CANH CANL</text>
+      <name>制动执行器总成</name>
+    </part>
+    <part type="conn" code="A33,z9">
+      <text>+B1 E1 SI - +</text>
+      <name>冷却风扇 ECU、冷却风扇电动机</name>
+    </part>
+    <part type="conn" code="z9">
+      <text>W R M</text>
+      <name>冷却风扇电动机、冷却风扇 ECU</name>
+    </part>
+    <part type="conn" code="B16">
+      <name>曲轴位置传感器</name>
+    </part>
+    <part type="conn" code="B4">
+      <name>E.F.I. 发动机冷却液温度传感器</name>
+    </part>
+    <part type="conn" code="A40,B39">
+      <text>ECM NE- ETHW THW CANH CANL RFC NE+</text>
+    </part>
+    <part type="conn" code="A39">
+      <name>1 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E74">
+      <name>2 号 CAN 接线连接器</name>
+    </part>
+    <part type="fuse" code="FUSE44">
+      <text>ECU-IG NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE30">
+      <text>RDI</text>
+    </part>
+  </ttl>
+</EWDSearch>

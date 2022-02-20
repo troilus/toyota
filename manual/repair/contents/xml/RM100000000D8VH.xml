@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_59">
+<name>车辆外饰</name>
+<section id="_024015">
+<name>车窗/玻璃</name>
+<ttl id="_0116248">
+<name>电动窗控制系统</name>
+<para category="J" id="RM100000000D8VH">
+<dtccode/>
+<dtcname>即使未能满足工作条件，钥匙关闭操作功能也工作</dtcname>
+<subpara category="03" id="RM100000000D8VH_01">
+<name>描述</name>
+<content5>
+<list1 type="unordered">
+<item>
+<ptxt>前门关闭时，将点火开关从 ON 位置切换至 OFF 位置后，各电动窗升降器马达总成通过接收来自主车身 ECU（多路网络车身 ECU）的工作许可信号可控制其相应的电动窗操作约 43 秒。</ptxt>
+</item>
+<item>
+<ptxt>但是，约 43 秒后，或点火开关置于 OFF 位置后约 43 秒内打开驾驶员车门或前排乘客车门时，电动窗升降器马达总成停止工作。</ptxt>
+</item>
+<item>
+<ptxt>自动操作时，经过 43 秒后且禁用钥匙关闭操作时，车窗会继续工作直至完成自动操作。</ptxt>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D8VH_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>电动窗控制系统使用 LIN 通信系统。根据“如何进行故障排除”检查通信功能。确认通信系统工作正常后对电动窗控制系统进行故障排除。*</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8VK" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>*：带防夹功能</ptxt>
+</item>
+</list1>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D8VH_07">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8VH_07_0001">
+<testtitle>检查手动升/降功能</testtitle>
+<content6>
+<test1>
+<ptxt>检查并确认手动升降功能使用电动窗升降器主开关总成、电动窗升降器开关总成或后电动窗升降器开关总成（左侧车门或右侧车门）可操作电动窗。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V5" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>手动升降功能正常。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D8VH_07_0002"/>
+</result>
+<result cellposition="1-7" label="2">
+<action actiontype="end" cellposition="2-7">
+<actiontitle>转至其他故障（转至故障症状表）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8UY" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D8VH_07_0002">
+<testtitle>检查遥控升/降功能</testtitle>
+<content6>
+<test1>
+<ptxt>检查并确认遥控升降功能使用电动窗升降器主开关总成可操作所有电动窗。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V5" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>遥控升降功能正常。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D8VH_07_0003"/>
+</result>
+<result cellposition="2-6" label="2">
+<action actiontype="end" cellposition="3-6">
+<actiontitle>转至其他故障（转至故障症状表）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8UY" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D8VH_07_0003">
+<testtitle>检查钥匙关闭操作功能</testtitle>
+<content6>
+<test1>
+<ptxt>检查钥匙关闭操作功能。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V5" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>即使将点火开关置于 OFF 位置约 43 秒内打开驾驶员车门或前排乘客车门后，电动窗仍可工作</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>将点火开关置于 OFF 位置约 43 秒后，电动窗仍可工作（所有车门）*1</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>将点火开关置于 OFF 位置约 43 秒后，电动窗仍可工作（驾驶员车门）*1</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>将点火开关置于 OFF 位置约 43 秒后，电动窗仍可工作（前排乘客车门、左后车门或右后车门）*1</ptxt>
+<ptxt>将点火开关置于 OFF 位置约 43 秒后，电动窗仍可工作（所有车门）*2</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="4">
+<ptxt>D</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>*1：带防夹功能</ptxt>
+</item>
+<item>
+<ptxt>*2：不带防夹功能</ptxt>
+</item>
+</list1>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D8VH_07_0004"/>
+</result>
+<result cellposition="3-3" label="2">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>更换主车身 ECU（多路网络车身 ECU）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-4" label="3">
+<action actiontype="end" cellposition="4-4">
+<actiontitle>更换电动窗升降器马达总成（驾驶员车门）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8WE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-5" label="4">
+<action actiontype="next" cellposition="4-5" childid="RM100000000D8VH_07_0009"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D8VH_07_0004">
+<testtitle>使用 GTS 读取值（主车身）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Body Electrical / Main Body / Data List。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Main Body &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="197" name="item-name">
+<ptxt>FR Door Courtesy SW</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="197" name="description">
+<ptxt>右前车门门控灯开关</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="197" name="range">
+<ptxt>OFF 或 ON</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="197" name="standard-value">
+<ptxt>OFF：右前车门关闭</ptxt>
+<ptxt>ON：右前车门打开</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="197" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="199" name="item-name">
+<ptxt>FL Door Courtesy SW</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="199" name="description">
+<ptxt>左前车门门控灯开关</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="199" name="range">
+<ptxt>OFF 或 ON</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="199" name="standard-value">
+<ptxt>OFF：左前车门关闭</ptxt>
+<ptxt>ON：左前车门打开</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="199" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">123</app-param>
+<app-param name="ecu-name">Main Body</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">197</app-param>
+<app-param name="data-list-item-name">FR Door Courtesy SW</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">199</app-param>
+<app-param name="data-list-item-name">FL Door Courtesy SW</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Main Body &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="197" name="item-name">
+<ptxt>FR Door Courtesy SW</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="199" name="item-name">
+<ptxt>FL Door Courtesy SW</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="123">
+<gts-pid pid-id="197"/>
+<gts-pid pid-id="199"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">123</app-param>
+<app-param name="ecu-name">Main Body</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">197</app-param>
+<app-param name="data-list-item-name">FR Door Courtesy SW</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">199</app-param>
+<app-param name="data-list-item-name">FL Door Courtesy SW</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>在 GTS 屏幕上相应显示 ON 或 OFF。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="end" cellposition="5-1">
+<actiontitle>更换主车身 ECU（多路网络车身 ECU）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="4-2" label="2">
+<action actiontype="end" cellposition="5-2">
+<actiontitle>转至照明系统（转至前门门控灯开关电路）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8ES" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-5" id="RM100000000D8VH_07_0009">
+<testtitle>更换主车身 ECU（多路网络车身 ECU）</testtitle>
+<content6>
+<test1>
+<ptxt>更换主车身 ECU（多路网络车身 ECU）。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-5" label="1">
+<action actiontype="next" cellposition="5-5" childid="RM100000000D8VH_07_0010"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-5" id="RM100000000D8VH_07_0010">
+<testtitle>检查钥匙关闭操作功能</testtitle>
+<content6>
+<test1>
+<ptxt>检查钥匙关闭操作功能。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8V5" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>钥匙关闭操作功能正常。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-5" label="1">
+<action actiontype="end" cellposition="6-5">
+<actiontitle>结束（主车身 ECU（多路网络车身 ECU）故障）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="5-6" label="2">
+<action actiontype="end" cellposition="6-6">
+<actiontitle>更换驾驶员侧接线盒总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

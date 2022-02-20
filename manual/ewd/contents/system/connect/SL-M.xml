@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <connector type="w2w" code="AE4" sex="male" figID="12">
+    <pin no="15">
+      <line id="1" color="W-B" spec="LED 型刹车灯" commtxt="(*13)">
+        <connector type="gp" code="EB" figID="15">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A2" figID="8">
+    <pin no="3">
+      <line id="2" color="W-B" spec="LED 型刹车灯" commtxt="(*13)">
+        <connector type="w2w" code="AE4" sex="female" figID="12">
+          <pin no="15"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A2" figID="8">
+    <pin no="2">
+      <line id="3" color="L" spec="LED 型刹车灯" commtxt="(*13)">
+        <connector type="jbc" code="3A" figID="11">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A2" figID="8">
+    <pin no="1">
+      <line id="4" color="W" spec="LED 型刹车灯" commtxt="(*13)">
+        <connector type="jbc" code="3A" figID="10">
+          <pin no="9"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A1" figID="5">
+    <pin no="1">
+      <line id="5" color="L" spec="灯泡型刹车灯" commtxt="(*14)">
+        <connector type="jbc" code="3A" figID="11">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A1" figID="5">
+    <pin no="2">
+      <line id="6" color="W" spec="灯泡型刹车灯" commtxt="(*14)">
+        <connector type="jbc" code="3A" figID="10">
+          <pin no="9"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3E" figID="11">
+    <pin no="24">
+      <line id="7" color="L">
+        <connector type="sp" code="SP35" figID="18">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3E" figID="11">
+    <pin no="23">
+      <line id="8" color="L" spec="灯泡型刹车灯" commtxt="(*14)">
+        <connector type="conn" code="L4" figID="3">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L56" figID="9">
+    <pin no="3">
+      <line id="9" color="W-B" spec="灯泡型刹车灯" commtxt="(*14)">
+        <connector type="conn" code="L4" figID="3">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L26" figID="7">
+    <pin no="4">
+      <line id="10" color="W-B" spec="LED 型刹车灯" commtxt="(*13)">
+        <connector type="conn" code="L56" figID="9">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L26" figID="7">
+    <pin no="1">
+      <line id="11" color="L" spec="LED 型刹车灯" commtxt="(*13)">
+        <connector type="jbc" code="3E" figID="11">
+          <pin no="23"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP35" figID="18">
+    <pin>
+      <line id="12" color="L" spec="灯泡型刹车灯" commtxt="(*14)">
+        <connector type="conn" code="L3" figID="6">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="gp" code="LA" figID="16">
+    <pin>
+      <line id="13" color="W-B">
+        <connector type="conn" code="L56" figID="9">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L56" figID="9">
+    <pin no="4">
+      <line id="14" color="W-B" spec="灯泡型刹车灯" commtxt="(*14)">
+        <connector type="conn" code="L3" figID="6">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP35" figID="18">
+    <pin>
+      <line id="15" color="L" spec="LED 型刹车灯" commtxt="(*13)">
+        <connector type="conn" code="L27" figID="1">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L27" figID="1">
+    <pin no="4">
+      <line id="16" color="W-B" spec="LED 型刹车灯" commtxt="(*13)">
+        <connector type="conn" code="L56" figID="9">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="gL1" sex="male" figID="13">
+    <pin no="2">
+      <line id="17" color="W-B">
+        <connector type="gp" code="LC" figID="17">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="gL1" sex="female" figID="13">
+    <pin no="2">
+      <line id="18" color="W-B">
+        <connector type="conn" code="g1" figID="4">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="g1" figID="4">
+    <pin no="1">
+      <line id="19" color="L">
+        <connector type="w2w" code="gL1" sex="female" figID="14">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L25" figID="2">
+    <pin no="1">
+      <line id="20" color="L">
+        <connector type="sp" code="SP35" figID="18">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L25" figID="2">
+    <pin no="1">
+      <line id="21" color="L">
+        <connector type="w2w" code="gL1" sex="male" figID="14">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="20">
+    <pin>
+      <line id="23" color="" dir="none">
+        <connector type="conn" code="" figID="2">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

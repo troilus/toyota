@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS033" code="B6,B7" type="conn" figID="2">
+    <name>倒车灯开关总成</name>
+  </text>
+  <text ewd="SYS033" code="L54,L55" type="conn" figID="1">
+    <name>7 号接线连接器</name>
+  </text>
+  <text ewd="SYS033" code="B15" type="conn" figID="3">
+    <name>驻车/空档位置开关总成</name>
+  </text>
+  <text ewd="SYS033" code="L31" type="conn" figID="5">
+    <name>左后灯总成</name>
+  </text>
+  <text ewd="SYS033" code="L32" type="conn" figID="4">
+    <name>右后灯总成</name>
+  </text>
+  <text ewd="SYS033" code="FUSE45" type="fuse" figID="13">
+    <name>7.5A ECU-IG NO.2</name>
+  </text>
+  <text ewd="SYS033" code="LA" type="gp" figID="10">
+    <name />
+  </text>
+  <text ewd="SYS033" code="3" type="jb" figID="6,7">
+    <name />
+  </text>
+  <text ewd="SYS033" code="SP37" type="sp" figID="12">
+    <name />
+  </text>
+  <text ewd="SYS033" code="SP43" type="sp" figID="11">
+    <name />
+  </text>
+  <text ewd="SYS033" code="BA2" type="w2w" figID="8,9">
+    <name>发动机线束和发动机室主线束</name>
+  </text>
+</EwdTree>

@@ -1,0 +1,486 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">NM3140CG</span>
+<span class="globalServcat">_57</span>
+<span class="globalServcatName">电源/网络</span>
+<span class="globalSection">_025329</span>
+<span class="globalSectionName">网络</span>
+<span class="globalTitle">_0121407</span>
+<span class="globalTitleName">多路通信系统</span>
+<span class="globalSubTitle">GE</span>
+<span class="globalSubTitleName">概述</span>
+<span class="globalCategory">F</span>
+</div>
+<h1>网络&nbsp;&nbsp;多路通信系统&nbsp;&nbsp;概述&nbsp;&nbsp;概述&nbsp;&nbsp;</h1>
+<br>
+<div id="NM100000000DUSO_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">概要
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>多路通信系统采用 2 个通信协议（CAN 和 LIN）以实现流线型线束配置。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:29%">
+<col style="width:70%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">协议
+</th>
+<th class="alcenter">概要
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>控制器区域网络 (CAN)
+</td>
+<td>高速 CAN (HS-CAN) 用于传动系、底盘和车身电气系统。
+</td>
+</tr>
+<tr>
+<td>局域互联网 (LIN)
+</td>
+<td>LIN 用于局域网，其中各车身电气系统有各自的 LIN 总线。
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>传动系、底盘和车身电气系统引入了 CAN 通信系统，从而实现了流线型线束配置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>由于这些多路通信系统彼此之间不兼容，CAN 和 LIN 网络无法直接通信。CAN 和 LIN 是独立的网络。因此，一些 ECU 作为网关传送数据，从而允许 CAN 和 LIN 网络之间进行通信。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>采用可定制的车身电气系统，可利用 Global TechStream (GTS) 设定 ECU 的某些控制功能。有关详情，请参考修理手册。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>一般来说，多路通信是指采用由比特和帧组成的串行通信数据以在各种 ECU 之间交换信息。这减少了车辆使用的配线数量。比特是通信的基本单位，用于表示信息量。比特由二进制数字&ldquo;0&rdquo;或&ldquo;1&rdquo;表示。CAN 通信采用差分电压驱动表示二进制数字&ldquo;0&rdquo;或&ldquo;1&rdquo;。该&ldquo;差分电压驱动&rdquo;可减小电干扰的影响。
+</p>
+</dd>
+</dl>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/Y100125.png" alt="Y100125" title="Y100125">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.25,0.177 4.042,0.469</span>
+<span class="captionSize">3.792,0.292</span>
+<span class="fontsize">12</span>
+<span class="filled">false</span>
+<span class="captionText">多路通信概念图：</span>
+</span>
+<span class="caption">
+<span class="points">0.104,1.646 1.531,2.177</span>
+<span class="captionSize">1.427,0.531</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">串行通信数据</span>
+</span>
+<span class="caption">
+<span class="points">3.479,1.198 4.188,1.51</span>
+<span class="captionSize">0.708,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">帧</span>
+</span>
+<span class="caption">
+<span class="points">2.219,2.396 2.927,2.708</span>
+<span class="captionSize">0.708,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">帧头</span>
+</span>
+<span class="caption">
+<span class="points">4.635,2.438 5.708,2.75</span>
+<span class="captionSize">1.073,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">结束信息</span>
+</span>
+<span class="caption">
+<span class="points">3.531,1.802 4.24,2.115</span>
+<span class="captionSize">0.708,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">数据</span>
+</span>
+<span class="caption">
+<span class="points">1.792,1.708 2.115,2.021</span>
+<span class="captionSize">0.323,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">1.802,2.115 2.125,2.427</span>
+<span class="captionSize">0.323,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0</span>
+</span>
+<span class="caption">
+<span class="points">0.542,4.99 1.052,5.198</span>
+<span class="captionSize">0.51,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">蓄电池</span>
+</span>
+<span class="caption">
+<span class="points">1.938,3.979 2.375,4.208</span>
+<span class="captionSize">0.438,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">开关</span>
+</span>
+<span class="caption">
+<span class="points">2.615,4.969 3.083,5.323</span>
+<span class="captionSize">0.469,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECU</span>
+</span>
+<span class="caption">
+<span class="points">3.333,4.292 3.667,4.656</span>
+<span class="captionSize">0.333,0.365</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">3.833,4.281 4.167,4.646</span>
+<span class="captionSize">0.333,0.365</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">3.542,4.938 3.875,5.302</span>
+<span class="captionSize">0.333,0.365</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">6.135,4.375 6.521,4.646</span>
+<span class="captionSize">0.385,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">车灯</span>
+</span>
+<span class="caption">
+<span class="points">6.146,4.813 6.552,5.083</span>
+<span class="captionSize">0.406,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">马达</span>
+</span>
+<span class="caption">
+<span class="points">6.135,5.208 6.583,5.479</span>
+<span class="captionSize">0.448,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">加热器</span>
+</span>
+<span class="caption">
+<span class="points">6.135,5.646 6.729,5.917</span>
+<span class="captionSize">0.594,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">电磁阀</span>
+</span>
+<span class="caption">
+<span class="points">2.927,5.875 4.719,6.135</span>
+<span class="captionSize">1.792,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">单线电压驱动</span>
+</span>
+<span class="caption">
+<span class="points">0.302,6.313 5.146,6.604</span>
+<span class="captionSize">4.844,0.292</span>
+<span class="fontsize">12</span>
+<span class="filled">false</span>
+<span class="captionText">CAN 通信概念图：</span>
+</span>
+<span class="caption">
+<span class="points">4.51,4.948 4.979,5.302</span>
+<span class="captionSize">0.469,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECU</span>
+</span>
+<span class="caption">
+<span class="points">2.167,7.667 2.635,8.021</span>
+<span class="captionSize">0.469,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECU</span>
+</span>
+<span class="caption">
+<span class="points">4.896,7.74 5.365,8.094</span>
+<span class="captionSize">0.469,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECU</span>
+</span>
+<span class="caption">
+<span class="points">3.031,9.031 4.823,9.292</span>
+<span class="captionSize">1.792,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">差分电压驱动</span>
+</span>
+<span class="caption">
+<span class="points">3.24,8.094 4.646,8.354</span>
+<span class="captionSize">1.406,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">双绞线</span>
+</span>
+<span class="caption">
+<span class="points">2.667,7.542 3.135,7.896</span>
+<span class="captionSize">0.469,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+</span>
+</span>
+<span class="caption">
+<span class="points">4.615,7.552 5.083,7.906</span>
+<span class="captionSize">0.469,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+</span>
+</span>
+<span class="caption">
+<span class="points">2.688,8.104 2.854,8.344</span>
+<span class="captionSize">0.167,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">-</span>
+</span>
+<span class="caption">
+<span class="points">4.625,8.094 4.865,8.344</span>
+<span class="captionSize">0.24,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">-</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>CAN 和 LIN 之间的差异
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>CAN 和 LIN 用来建立数据通信规则的协议不同。如果网络中的 ECU 采用不同的数据结构，如通信速度、通信线束或信号，则 ECU 之间将不能通信。因此，必须在它们之间建立协议（规则）。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>与 LIN 相比，CAN 具有高速数据传输的特点。因此，CAN 能以比其他协议更快的速度传输更多数据。该特点可使其在传动系和底盘控制系统中准确地传输数据。这些系统需要在短时间内传输大量数据。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:34%">
+<col style="width:33%">
+<col style="width:32%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter" rowspan="2">协议
+</td>
+<td class="alcenter">CAN
+</td>
+<td class="alcenter" rowspan="2">LIN
+</td>
+</tr>
+<tr>
+<td class="alcenter">HS-CAN
+</td>
+</tr>
+<tr>
+<td>通信速度
+</td>
+<td class="alcenter">500 kbps*
+</td>
+<td class="alcenter">9.6 至 20 kbps*
+</td>
+</tr>
+<tr>
+<td>通信线束
+</td>
+<td class="alcenter">双绞线
+</td>
+<td class="alcenter">AV 单线
+</td>
+</tr>
+<tr>
+<td>驱动类型
+</td>
+<td class="alcenter">差分电压驱动
+</td>
+<td class="alcenter">单线电压驱动
+</td>
+</tr>
+<tr>
+<td>数据长度
+</td>
+<td class="alcenter">1-8 字节（可变）
+</td>
+<td class="alcenter">2、4、8 字节（可变）
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>*：&ldquo;bps&rdquo;是&ldquo;Bits Per Second&rdquo;（比特/秒）的缩写，表示每秒可传输的比特数。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>双绞线用于 CAN 通信。LIN 通信采用车用乙烯 (AV) 单线。
+</p>
+<table summary="" class="tableHasfigure">
+<colgroup>
+<col style="width:31%">
+<col style="width:68%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">通信线束
+</td>
+<td class="alcenter">概要
+</td>
+</tr>
+<tr>
+<td class="alcenter">双绞线
+<br>
+<div class="figure">
+<div class="sPattern">
+<div class="graphic">
+<img src="../img/png/Y122977.png" alt="Y122977" title="Y122977">
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>此通信线束为双绞线。对 2 条线施加不同电压以驱动通信，从而发送单个信号。此系统称为&ldquo;差分电压驱动&rdquo;，可以降低电噪干扰的影响。
+</td>
+</tr>
+<tr>
+<td class="alcenter">AV 单线
+<br>
+<div class="figure">
+<div class="sPattern">
+<div class="graphic">
+<img src="../img/png/Y122978.png" alt="Y122978" title="Y122978">
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>这是由包有绝缘层的单芯线组成的轻量化单线通信线束。对这条线施加电压以驱动通信，并且此系统称为&ldquo;单线电压驱动&rdquo;。
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

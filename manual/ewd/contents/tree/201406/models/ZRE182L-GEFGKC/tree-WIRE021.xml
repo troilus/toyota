@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <note ewd="WIRE021" code="O4" type="conn">
+    <name>阅读灯总成</name>
+  </note>
+  <note ewd="WIRE021" code="O5" type="conn">
+    <name>1 号车厢照明灯总成</name>
+  </note>
+  <note ewd="WIRE021" code="O6" type="conn">
+    <name>1 号车厢照明灯总成</name>
+  </note>
+  <note ewd="WIRE021" code="O3" type="conn">
+    <name>滑动天窗控制 ECU（滑动天窗主动齿轮分总成）</name>
+  </note>
+  <note ewd="WIRE021" code="O2" type="conn">
+    <name>左侧梳妆灯总成</name>
+  </note>
+  <note ewd="WIRE021" code="O1" type="conn">
+    <name>右侧梳妆灯总成</name>
+  </note>
+</EwdTree>

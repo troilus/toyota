@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <book id="C-EG">
+    <name>发动机室</name>
+    <book id="WIRE001" file="T">
+      <name>发动机室主线束</name>
+    </book>
+    <book id="WIRE002" file="T">
+      <name>发动机线束</name>
+    </book>
+    <book id="WIRE003" file="T">
+      <name>发动机 3 号线束</name>
+    </book>
+    <book id="WIRE004" file="T">
+      <name>发动机 4 号线束</name>
+    </book>
+    <book id="WIRE005" file="T">
+      <name>其他</name>
+    </book>
+  </book>
+  <book id="C-INPA">
+    <name>仪表板</name>
+    <book id="WIRE006" file="T">
+      <name>发动机室主线束</name>
+    </book>
+    <book id="WIRE007" file="T">
+      <name>仪表板线束</name>
+    </book>
+    <book id="WIRE008" file="T">
+      <name>仪表板 2 号线束</name>
+    </book>
+    <book id="WIRE009" file="T">
+      <name>右前车门线束</name>
+    </book>
+    <book id="WIRE010" file="T">
+      <name>左前车门线束</name>
+    </book>
+    <book id="WIRE011" file="T">
+      <name>地板线束</name>
+    </book>
+    <book id="WIRE012" file="T">
+      <name>车顶 1 号线束</name>
+    </book>
+    <book id="WIRE013" file="T">
+      <name>立体声部件 1 号线束</name>
+    </book>
+    <book id="WIRE014" file="T">
+      <name>仪表板线束总成</name>
+    </book>
+    <book id="WIRE015" file="T">
+      <name>其他</name>
+    </book>
+  </book>
+  <book id="C-BODY">
+    <name>车身</name>
+    <book id="WIRE016" file="T">
+      <name>右前车门线束</name>
+    </book>
+    <book id="WIRE017" file="T">
+      <name>左前车门线束</name>
+    </book>
+    <book id="WIRE018" file="T">
+      <name>后门 1 号线束</name>
+    </book>
+    <book id="WIRE019" file="T">
+      <name>后门 2 号线束</name>
+    </book>
+    <book id="WIRE020" file="T">
+      <name>地板线束</name>
+    </book>
+    <book id="WIRE021" file="T">
+      <name>车顶 1 号线束</name>
+    </book>
+    <book id="WIRE022" file="T">
+      <name>行李厢 2 号线束</name>
+    </book>
+    <book id="WIRE023" file="T">
+      <name>后窗 2 号线束</name>
+    </book>
+    <book id="WIRE024" file="T">
+      <name>中央刹车灯芯线总成　</name>
+    </book>
+    <book id="WIRE025" file="T">
+      <name>右侧防滑控制传感器线束</name>
+    </book>
+    <book id="WIRE026" file="T">
+      <name>左侧防滑控制传感器线束</name>
+    </book>
+  </book>
+  <book id="C-SEAT">
+    <name>座椅</name>
+    <book id="WIRE027" file="T">
+      <name>地板线束</name>
+    </book>
+    <book id="WIRE028" file="T">
+      <name>前排左侧座椅线束</name>
+    </book>
+    <book id="WIRE029" file="T">
+      <name>前排左侧 2 号座椅线束</name>
+    </book>
+    <book id="WIRE030" file="T">
+      <name>前排左侧座椅空气囊总成</name>
+    </book>
+    <book id="WIRE031" file="T">
+      <name>前排右侧座椅空气囊总成</name>
+    </book>
+  </book>
+</EwdTree>

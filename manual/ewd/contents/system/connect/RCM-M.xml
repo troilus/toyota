@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <connector type="conn" code="E71" figID="4">
+    <pin no="12">
+      <line id="1" color="W-B">
+        <connector type="gp" code="ED" figID="13">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E71" figID="4">
+    <pin no="17">
+      <line id="2" color="W-B">
+        <connector type="conn" code="E75" figID="1">
+          <pin no="18"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="HE1" sex="female" figID="7">
+    <pin no="2">
+      <line id="3" color="P">
+        <connector type="conn" code="H2" figID="3">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E75" figID="1">
+    <pin no="16">
+      <line id="4" color="P">
+        <connector type="w2w" code="HE1" sex="male" figID="7">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="HE1" sex="female" figID="8">
+    <pin no="3">
+      <line id="5" color="L">
+        <connector type="conn" code="H2" figID="3">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="HE1" sex="male" figID="8">
+    <pin no="3">
+      <line id="6" color="L">
+        <connector type="conn" code="E75" figID="1">
+          <pin no="15"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="GE1" sex="female" figID="9">
+    <pin no="2">
+      <line id="7" color="P">
+        <connector type="conn" code="G2" figID="2">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="GE1" sex="male" figID="9">
+    <pin no="2">
+      <line id="8" color="LG">
+        <connector type="conn" code="E75" figID="1">
+          <pin no="13"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E75" figID="1">
+    <pin no="19">
+      <line id="9" color="GR">
+        <connector type="jbc" code="3D" figID="5">
+          <pin no="32"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="GE1" sex="female" figID="10">
+    <pin no="3">
+      <line id="10" color="L">
+        <connector type="conn" code="G2" figID="2">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E75" figID="1">
+    <pin no="14">
+      <line id="11" color="L">
+        <connector type="w2w" code="GE1" sex="male" figID="10">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="GE1" sex="female" figID="11">
+    <pin no="12">
+      <line id="12" color="Y">
+        <connector type="conn" code="G2" figID="2">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3C" figID="6">
+    <pin no="33">
+      <line id="13" color="Y">
+        <connector type="w2w" code="GE1" sex="male" figID="11">
+          <pin no="12"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E75" figID="1">
+    <pin no="17">
+      <line id="14" color="Y">
+        <connector type="jbc" code="3C" figID="6">
+          <pin no="32"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="HE1" sex="female" figID="12">
+    <pin no="12">
+      <line id="15" color="Y">
+        <connector type="conn" code="H2" figID="3">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3C" figID="6">
+    <pin no="34">
+      <line id="16" color="Y">
+        <connector type="w2w" code="HE1" sex="male" figID="12">
+          <pin no="12"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

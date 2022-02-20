@@ -1,0 +1,1366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'NSimSun';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st11 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st12 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st19 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st20 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED
+		ewd:horAlign CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 2052.259 710.000" viewBox="0 0 2048.594 710.000" height="710.000" width="2048.594" xml:space="preserve" ewd:ver="2.1.2.6F" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+	<script type="text/javascript" xlink:href="../../../../../system/js/ewd/fig/svgfig.js" xmlns:xlink="http://www.w3.org/1999/xlink" />
+<g id="ewd_top">
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="O4" ewd:figID="1">
+		<path style="&st5;" d=" M   331.44,   282.24  L   331.44,   409.72  L   492.92,   409.72  L   492.92,   282.24  L   331.44,   282.24 "/>
+		<title ewd:textID="12">阅读灯总成</title>
+	</a>
+	<a ewd:figtype="rb" style="cursor:pointer;" ewd:code="FUSE5" ewd:figID="2">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:0; stroke-linecap:round;stroke-linejoin:round; " d=" M   667.14,    35.78  L   667.14,    78.27  L   692.63,    78.27  L   692.63,    35.78  L   667.14,    35.78 "/>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="L1" ewd:figID="3">
+		<path style="&st5;" d=" M  1130.31,   358.73  L  1130.31,   324.73  L  1113.31,   324.73  L  1113.31,   358.73  L  1130.31,   358.73 "/>
+		<title ewd:textID="9">左前车门门控灯开关总成</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="E36" ewd:figID="4">
+		<path style="&st5;" d=" M   790.37,    35.78  L   790.37,    86.77  L  1410.76,    86.77  L  1410.76,    35.78  L   790.37,    35.78 "/>
+		<title ewd:textID="11">主车身 ECU</title>
+	</a>
+	<a ewd:figtype="rb" style="cursor:pointer;" ewd:code="FUSE6" ewd:figID="5">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:0; stroke-linecap:round;stroke-linejoin:round; " d=" M  1992.92,    35.78  L  1992.92,    78.27  L  2018.41,    78.27  L  2018.41,    35.78  L  1992.92,    35.78 "/>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="A39" ewd:figID="6">
+		<path style="&st5;" d=" M  1325.78,   341.73  L  1325.78,   324.73  L  1274.79,   324.73  L  1274.79,   341.73  L  1325.78,   341.73 "/>
+		<title ewd:textID="13">1 号 CAN 接线连接器</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="L41" ewd:figID="7">
+		<path style="&st5;" d=" M  1215.30,   358.73  L  1215.30,   324.73  L  1198.30,   324.73  L  1198.30,   358.73  L  1215.30,   358.73 "/>
+		<title ewd:textID="10">右前车门门控灯开关总成</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="O3" ewd:figID="8">
+		<path style="&st5;" d=" M   152.97,   103.77  L   628.89,   103.77  L   628.89,    10.28  L   543.91,    10.28  L   543.91,    44.28  L   152.97,    44.28  L   152.97,   103.77 "/>
+		<title ewd:textID="16">滑动天窗控制 ECU（滑动天窗主动齿轮分总成）</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="E74" ewd:figID="9">
+		<path style="&st5;" d=" M  1274.79,   520.20  L  1325.78,   520.20  L  1325.78,   537.20  L  1274.79,   537.20  L  1274.79,   520.20 "/>
+		<title ewd:textID="14">2 号 CAN 接线连接器</title>
+	</a>
+	<a ewd:figtype="rb" style="cursor:pointer;" ewd:code="FUSE6" ewd:figID="10">
+		<path style="fill:#CCECF4;stroke:#000000; stroke-width:0; stroke-linecap:round;stroke-linejoin:round; " d=" M  1618.98,    35.78  L  1618.98,    78.27  L  1644.48,    78.27  L  1644.48,    35.78  L  1618.98,    35.78 "/>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="E55" ewd:figID="11">
+		<path style="&st5;" d=" M  1852.69,   299.24  L  1852.69,   503.20  L  2039.66,   503.20  L  2039.66,   299.24  L  1852.69,   299.24 "/>
+		<title ewd:textID="6">组合仪表总成</title>
+	</a>
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="E55" ewd:figID="12">
+		<path style="&st5;" d=" M  1580.74,   273.74  L  1580.74,   503.20  L  1818.70,   503.20  L  1818.70,   273.74  L  1580.74,   273.74 "/>
+		<title ewd:textID="6">组合仪表总成</title>
+	</a>
+	<a ewd:figtype="jb" style="cursor:pointer;" ewd:code="3" ewd:figID="16">
+		<path style="&st4; " d=" M   722.38,   129.26  L   985.84,   129.26  L   985.84,    86.77  L   781.87,    86.77  L   781.87,    35.78  L   722.38,    35.78  L   722.38,   129.26  "/>
+	</a>
+	<a ewd:figtype="jb" style="cursor:pointer;" ewd:code="3" ewd:figID="17">
+		<path style="&st4; " d=" M     8.50,    35.78  L     8.50,   103.77  L   135.98,   103.77  L   135.98,    35.78  L     8.50,    35.78  "/>
+	</a>
+	<a ewd:figtype="jb" style="cursor:pointer;" ewd:code="3" ewd:figID="18">
+		<path style="&st4; " d=" M  1104.82,   129.26  L  1130.31,   129.26  L  1130.31,    86.77  L  1104.82,    86.77  L  1104.82,   129.26  "/>
+	</a>
+	<a ewd:figtype="jb" style="cursor:pointer;" ewd:code="3" ewd:figID="19">
+		<path style="&st4; " d=" M  1912.18,    35.78  L  1912.18,   103.77  L  1971.67,   103.77  L  1971.67,    35.78  L  1912.18,    35.78  "/>
+	</a>
+	<a ewd:figtype="jb" style="cursor:pointer;" ewd:code="3" ewd:figID="20">
+		<path style="&st4; " d=" M  1988.67,   171.76  L  1988.67,   214.25  L  2014.16,   214.25  L  2014.16,   171.76  L  1988.67,   171.76  "/>
+	</a>
+	<a ewd:figtype="jb" style="cursor:pointer;" ewd:code="3" ewd:figID="21">
+		<path style="&st4; " d=" M  1444.76,   112.27  L  1512.75,   112.27  L  1512.75,    35.78  L  1444.76,    35.78  L  1444.76,   112.27  "/>
+	</a>
+	<a ewd:figtype="jb" style="cursor:pointer;" ewd:code="3" ewd:figID="22">
+		<path style="&st4; " d=" M  1376.77,   129.26  L  1402.27,   129.26  L  1402.27,    86.77  L  1376.77,    86.77  L  1376.77,   129.26  "/>
+	</a>
+	<a ewd:figtype="jb" style="cursor:pointer;" ewd:code="3" ewd:figID="23">
+		<path style="&st4; " d=" M  1614.73,   171.76  L  1614.73,   214.25  L  1640.23,   214.25  L  1640.23,   171.76  L  1614.73,   171.76  "/>
+	</a>
+	<a ewd:figtype="jb" style="cursor:pointer;" ewd:code="3" ewd:figID="24">
+		<path style="&st4; " d=" M  1691.22,    35.78  L  1691.22,   103.77  L  1759.21,   103.77  L  1759.21,    35.78  L  1691.22,    35.78  "/>
+	</a>
+	<a ewd:figtype="fuse" style="cursor:pointer;" ewd:code="FUSE64" ewd:figID="42">
+		<path style="&st7; stroke-width:0;" d=" M    12.75,    35.78  L    12.75,    78.27  L    38.24,    78.27  L    38.24,    35.78  L    12.75,    35.78 "/>
+	</a>
+	<a ewd:figtype="fuse" style="cursor:pointer;" ewd:code="FUSE46" ewd:figID="43">
+		<path style="&st7; stroke-width:0;" d=" M    80.74,    35.78  L    80.74,    78.27  L   106.23,    78.27  L   106.23,    35.78  L    80.74,    35.78 "/>
+	</a>
+	<a ewd:figtype="fuse" style="cursor:pointer;" ewd:code="FUSE5" ewd:figID="44">
+		<path style="&st7; stroke-width:0;" d=" M   667.14,    35.78  L   667.14,    78.27  L   692.63,    78.27  L   692.63,    35.78  L   667.14,    35.78 "/>
+	</a>
+	<a ewd:figtype="fuse" style="cursor:pointer;" ewd:code="FUSE43" ewd:figID="45">
+		<path style="&st7; stroke-width:0;" d=" M   726.63,    35.78  L   726.63,    78.27  L   752.12,    78.27  L   752.12,    35.78  L   726.63,    35.78 "/>
+	</a>
+	<a ewd:figtype="fuse" style="cursor:pointer;" ewd:code="FUSE47" ewd:figID="46">
+		<path style="&st7; stroke-width:0;" d=" M  1449.01,    35.78  L  1449.01,    78.27  L  1474.50,    78.27  L  1474.50,    35.78  L  1449.01,    35.78 "/>
+	</a>
+	<a ewd:figtype="fuse" style="cursor:pointer;" ewd:code="FUSE6" ewd:figID="47">
+		<path style="&st7; stroke-width:0;" d=" M  1618.98,    35.78  L  1618.98,    78.27  L  1644.48,    78.27  L  1644.48,    35.78  L  1618.98,    35.78 "/>
+	</a>
+	<a ewd:figtype="fuse" style="cursor:pointer;" ewd:code="FUSE39" ewd:figID="48">
+		<path style="&st7; stroke-width:0;" d=" M  1695.47,    35.78  L  1695.47,    78.27  L  1720.96,    78.27  L  1720.96,    35.78  L  1695.47,    35.78 "/>
+	</a>
+	<a ewd:figtype="fuse" style="cursor:pointer;" ewd:code="FUSE39" ewd:figID="49">
+		<path style="&st7; stroke-width:0;" d=" M  1916.43,    35.78  L  1916.43,    78.27  L  1941.93,    78.27  L  1941.93,    35.78  L  1916.43,    35.78 "/>
+	</a>
+	<a ewd:figtype="fuse" style="cursor:pointer;" ewd:code="FUSE6" ewd:figID="50">
+		<path style="&st7; stroke-width:0;" d=" M  1992.92,    35.78  L  1992.92,    78.27  L  2018.41,    78.27  L  2018.41,    35.78  L  1992.92,    35.78 "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="1">
+		<path style="stroke:#008837;stroke-width: 5.10 ;&st6;" d=" M    93.48,   103.77  L    93.48,   316.23  L   169.97,   316.23  L   169.97,   279.97  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="2">
+		<path style="stroke:#008837;stroke-width: 5.10 ;&st6;" d=" M   169.97,   103.77  L   169.97,   265.24  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="3">
+		<path style="stroke:#00A0C6;stroke-width: 5.10 ;&st6;" d=" M   220.96,   279.97  L   220.96,   341.73  L    25.50,   341.73  L    25.50,   103.77  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="4">
+		<path style="stroke:#00A0C6;stroke-width: 5.10 ;&st6;" d=" M   220.96,   103.77  L   220.96,   265.24  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="5">
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M   271.95,   279.97  L   271.95,   681.67  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M   271.95,   279.97  L   271.95,   681.67  "/>
+		<path style="stroke:#000000;stroke-width: 1.13 ;&st6;" d=" M   271.95,   279.97  L   271.95,   681.67  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="6">
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M   271.95,   103.77  L   271.95,   265.24  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M   271.95,   103.77  L   271.95,   265.24  "/>
+		<path style="stroke:#000000;stroke-width: 1.13 ;&st6;" d=" M   271.95,   103.77  L   271.95,   265.24  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="7">
+		<path style="stroke:#7FC97F;stroke-width: 5.10 ;&st6;" d=" M   356.94,   103.77  L   356.94,   282.24  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="8">
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M   390.93,   585.92  L   390.93,   681.67  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M   390.93,   585.92  L   390.93,   681.67  "/>
+		<path style="stroke:#000000;stroke-width: 1.13 ;&st6;" d=" M   390.93,   585.92  L   390.93,   681.67  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="9">
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M   390.93,   571.19  L   390.93,   503.20  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M   390.93,   571.19  L   390.93,   503.20  "/>
+		<path style="stroke:#000000;stroke-width: 1.13 ;&st6;" d=" M   390.93,   571.19  L   390.93,   503.20  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="10">
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M   390.93,   409.72  L   390.93,   486.20  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M   390.93,   409.72  L   390.93,   486.20  "/>
+		<path style="stroke:#000000;stroke-width: 1.13 ;&st6;" d=" M   390.93,   409.72  L   390.93,   486.20  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="11">
+		<path style="stroke:#FF0000;stroke-width: 5.10 ;&st6;" d=" M   390.93,   103.77  L   390.93,   282.24  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="12"> d=" M   424.93,   103.77  L   424.93,   282.24 
+	
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M   424.93,   103.77  L   424.93,   282.24  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M   424.93,   103.77  L   424.93,   282.24  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="13">
+		<path style="stroke:#F668B2;stroke-width: 5.10 ;&st6;" d=" M   458.92,   103.77  L   458.92,   282.24  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="14">
+		<path style="stroke:#999999;stroke-width: 5.10 ;&st6;" d=" M   611.90,   186.49  L   611.90,   256.74  L   892.35,   256.74  L   892.35,   129.26  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="15">
+		<path style="stroke:#999999;stroke-width: 5.10 ;&st6;" d=" M   611.90,   103.77  L   611.90,   171.76  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="16">
+		<path style="stroke:#008837;stroke-width: 5.10 ;&st6;" d=" M   679.89,   103.77  L   679.89,   231.25  L   849.86,   231.25  L   849.86,   129.26  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="17">
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M   934.84,   129.26  L   934.84,   681.67  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M   934.84,   129.26  L   934.84,   681.67  "/>
+		<path style="stroke:#000000;stroke-width: 1.13 ;&st6;" d=" M   934.84,   129.26  L   934.84,   681.67  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="18">
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M   977.34,   129.26  L   977.34,   681.67  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M   977.34,   129.26  L   977.34,   681.67  "/>
+		<path style="stroke:#000000;stroke-width: 1.13 ;&st6;" d=" M   977.34,   129.26  L   977.34,   681.67  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="19"> d=" M  1121.81,   129.26  L  1121.81,   324.73 
+	
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M  1121.81,   129.26  L  1121.81,   324.73  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M  1121.81,   129.26  L  1121.81,   324.73  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="20">
+		<path style="stroke:#56077D;stroke-width: 5.10 ;&st6;" d=" M  1206.80,   245.98  L  1206.80,   324.73  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="21">
+		<path style="stroke:#56077D;stroke-width: 5.10 ;&st6;" d=" M  1206.80,    95.84  L  1206.80,   231.25  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="22">
+		<path style="stroke:#00A0C6;stroke-width: 5.10 ;&st6;" d=" M  1283.29,   520.20  L  1283.29,   441.44  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="23">
+		<path style="stroke:#00A0C6;stroke-width: 5.10 ;&st6;" d=" M  1283.29,   426.71  L  1283.29,   341.73  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="24">
+		<path style="stroke:#008837;stroke-width: 5.10 ;&st6;" d=" M  1283.29,   239.75  L  1283.29,   324.73  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="25">
+		<path style="stroke:#008837;stroke-width: 5.10 ;&st6;" d=" M  1283.29,    95.84  L  1283.29,   225.01  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="26"> d=" M  1317.28,   520.20  L  1317.28,   441.73 
+	
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M  1317.28,   520.20  L  1317.28,   441.73  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M  1317.28,   520.20  L  1317.28,   441.73  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="27"> d=" M  1317.28,   341.73  L  1317.28,   426.71 
+	
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M  1317.28,   341.73  L  1317.28,   426.71  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M  1317.28,   341.73  L  1317.28,   426.71  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="28"> d=" M  1317.28,   324.73  L  1317.28,   239.75 
+	
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M  1317.28,   324.73  L  1317.28,   239.75  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M  1317.28,   324.73  L  1317.28,   239.75  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="29"> d=" M  1317.28,   224.73  L  1317.28,    95.84 
+	
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M  1317.28,   224.73  L  1317.28,    95.84  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M  1317.28,   224.73  L  1317.28,    95.84  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="30">
+		<path style="stroke:#00A0C6;stroke-width: 5.10 ;&st6;" d=" M  1393.77,   129.26  L  1393.77,   171.76  L  1461.76,   171.76  L  1461.76,   112.27  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="31"> d=" M  1631.73,   512.27  L  1631.73,   605.18  L  1334.28,   605.18  L  1334.28,   562.69  L  1317.28,   545.69  L  1317.28,   537.20 
+	
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M  1631.73,   512.27  L  1631.73,   605.18  L  1334.28,   605.18  L  1334.28,   562.69  L  1317.28,   545.69  L  1317.28,   537.20  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M  1631.73,   512.27  L  1631.73,   605.18  L  1334.28,   605.18  L  1334.28,   562.69  L  1317.28,   545.69  L  1317.28,   537.20  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="32"> d=" M  1631.73,   264.67  L  1631.73,   214.25 
+	
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M  1631.73,   264.67  L  1631.73,   214.25  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M  1631.73,   264.67  L  1631.73,   214.25  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="33"> d=" M  1631.73,   103.77  L  1631.73,   171.76 
+	
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M  1631.73,   103.77  L  1631.73,   171.76  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M  1631.73,   103.77  L  1631.73,   171.76  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="34">
+		<path style="stroke:#7FC97F;stroke-width: 5.10 ;&st6;" d=" M  1699.72,   512.27  L  1699.72,   622.18  L  1300.28,   622.18  L  1300.28,   562.69  L  1283.29,   545.69  L  1283.29,   537.20  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="35">
+		<path style="stroke:#F668B2;stroke-width: 5.10 ;&st6;" d=" M  1708.21,   103.77  L  1708.21,   264.67  "/>
+	</a>
+	<a ewd:comment="2" style="cursor:pointer;" ewd:lineID="36">
+		<path style="stroke:#992903;stroke-width: 5.10 ;&st6;" d=" M  1750.71,   512.27  L  1750.71,   681.67  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="37">
+		<path style="stroke:#F668B2;stroke-width: 5.10 ;&st6;" d=" M  1929.18,   103.77  L  1929.18,   290.17  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="38"> d=" M  1937.68,   512.27  L  1937.68,   639.18  L  1317.28,   639.18  L  1317.28,   537.20 
+	
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M  1937.68,   512.27  L  1937.68,   639.18  L  1317.28,   639.18  L  1317.28,   537.20  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M  1937.68,   512.27  L  1937.68,   639.18  L  1317.28,   639.18  L  1317.28,   537.20  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="39">
+		<path style="stroke:#7FC97F;stroke-width: 5.10 ;&st6;" d=" M  1971.67,   512.27  L  1971.67,   656.18  L  1283.29,   656.18  L  1283.29,   537.20  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="40"> d=" M  2005.66,   214.25  L  2005.66,   290.17 
+	
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M  2005.66,   214.25  L  2005.66,   290.17  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M  2005.66,   214.25  L  2005.66,   290.17  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="41"> d=" M  2005.66,   103.77  L  2005.66,   171.76 
+	
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M  2005.66,   103.77  L  2005.66,   171.76  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M  2005.66,   103.77  L  2005.66,   171.76  "/>
+	</a>
+	<a ewd:comment="1" style="cursor:pointer;" ewd:lineID="42">
+		<path style="stroke:#992903;stroke-width: 5.10 ;&st6;" d=" M  2014.16,   512.27  L  2014.16,   681.67  "/>
+	</a>
+	<g ewd:figtype="conn" ewd:figID="1" ewd:code="O4">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   331.44,   282.24  L   331.44,   409.72  L   492.92,   409.72  L   492.92,   282.24  L   331.44,   282.24  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  483.56  365.64 )" ewd:textID="17">滑动天窗开关</text>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   339.94,   375.72  L   475.92,   375.72  L   475.92,   307.73  L   339.94,   307.73  L   339.94,   375.72  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   423.74,   391.72  L   423.46,   392.19  L   423.37,   392.72  L   423.46,   393.25  L   423.74,   393.72  L   424.15,   394.07  L   424.66,   394.26  L   425.20,   394.26  L   425.71,   394.07  L   426.12,   393.72  L   426.39,   393.25  L   426.49,   392.72  L   426.39,   392.19  L   426.12,   391.72  L   425.71,   391.37  L   425.20,   391.18  L   424.66,   391.18  L   424.15,   391.37  L   423.74,   391.72  L   424.13,   392.43  L   424.13,   393.01  L   424.50,   393.46  L   425.08,   393.56  L   425.58,   393.27  L   425.78,   392.72  L   425.58,   392.17  L   425.08,   391.88  L   424.50,   391.98  L   424.93,   392.72  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  393.52  406.03 )">GND</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  461.51  290.43 )">OPN</text>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   424.93,   392.72  L   424.93,   358.73  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   390.93,   392.72  L   390.93,   358.72  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   424.93,   282.24  L   424.93,   324.73  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  427.51  290.43 )">DOWN</text>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   426.35,   353.06  C   426.35    352.28    425.71    351.64    424.93    351.64  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   424.93,   351.64  C   424.15    351.64    423.51    352.28    423.51    353.06  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   423.51,   353.06  C   423.51    353.84    424.15    354.48    424.93    354.48  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   424.93,   354.48  C   425.71    354.48    426.35    353.84    426.35    353.06  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   392.35,   330.40  C   392.35    329.61    391.72    328.98    390.93    328.98  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   390.93,   328.98  C   390.15    328.98    389.52    329.61    389.52    330.40  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   389.52,   330.40  C   389.52    331.18    390.15    331.81    390.93    331.81  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   390.93,   331.81  C   391.72    331.81    392.35    331.18    392.35    330.40  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   392.35,   353.06  C   392.35    352.28    391.72    351.64    390.93    351.64  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   390.93,   351.64  C   390.15    351.64    389.52    352.28    389.52    353.06  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   389.52,   353.06  C   389.52    353.84    390.15    354.48    390.93    354.48  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   390.93,   354.48  C   391.72    354.48    392.35    353.84    392.35    353.06  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   390.93,   328.98  L   390.93,   324.73  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  385.82  345.16 )" ewd:textID="18">上</text>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   390.93,   358.72  L   390.93,   354.48  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   390.93,   351.64  L   396.60,   328.98  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   424.93,   328.98  L   424.93,   324.73  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   426.35,   330.40  C   426.35    329.61    425.71    328.98    424.93    328.98  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   424.93,   328.98  C   424.15    328.98    423.51    329.61    423.51    330.40  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   423.51,   330.40  C   423.51    331.18    424.15    331.81    424.93    331.81  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   424.93,   331.81  C   425.71    331.81    426.35    331.18    426.35    330.40  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  393.52  290.43 )">UP</text>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   390.93,   282.24  L   390.93,   324.73  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   424.93,   351.64  L   430.59,   328.98  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   424.93,   358.73  L   424.93,   354.48  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   356.94,   351.64  L   362.61,   328.98  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   356.94,   358.73  L   356.94,   354.48  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   356.94,   328.98  L   356.94,   324.73  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   358.36,   353.06  C   358.36    352.28    357.72    351.64    356.94    351.64  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   356.94,   351.64  C   356.16    351.64    355.52    352.28    355.52    353.06  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   355.52,   353.06  C   355.52    353.84    356.16    354.48    356.94    354.48  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   356.94,   354.48  C   357.72    354.48    358.36    353.84    358.36    353.06  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   358.36,   330.40  C   358.36    329.61    357.72    328.98    356.94    328.98  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   356.94,   328.98  C   356.16    328.98    355.52    329.61    355.52    330.40  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   355.52,   330.40  C   355.52    331.18    356.16    331.81    356.94    331.81  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   356.94,   331.81  C   357.72    331.81    358.36    331.18    358.36    330.40  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  351.83  348.69 )" ewd:textID="5">闭合</text>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   458.92,   351.64  L   464.59,   328.98  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   458.92,   358.73  L   458.92,   354.48  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   458.92,   328.98  L   458.92,   324.73  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   460.34,   353.06  C   460.34    352.28    459.71    351.64    458.92    351.64  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   458.92,   351.64  C   458.14    351.64    457.51    352.28    457.51    353.06  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   457.51,   353.06  C   457.51    353.84    458.14    354.48    458.92    354.48  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   458.92,   354.48  C   459.71    354.48    460.34    353.84    460.34    353.06  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   460.34,   330.40  C   460.34    329.61    459.71    328.98    458.92    328.98  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   458.92,   328.98  C   458.14    328.98    457.51    329.61    457.51    330.40  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   457.51,   330.40  C   457.51    331.18    458.14    331.81    458.92    331.81  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   458.92,   331.81  C   459.71    331.81    460.34    331.18    460.34    330.40  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   390.93,   392.72  L   390.93,   409.72  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  453.81  348.42 )" ewd:textID="15">断开</text>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   356.94,   358.73  L   356.94,   392.72  L   458.92,   392.72  L   458.92,   358.73  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   389.74,   391.72  L   389.47,   392.19  L   389.38,   392.72  L   389.47,   393.25  L   389.74,   393.72  L   390.16,   394.07  L   390.66,   394.26  L   391.21,   394.26  L   391.71,   394.07  L   392.13,   393.72  L   392.40,   393.25  L   392.49,   392.72  L   392.40,   392.19  L   392.13,   391.72  L   391.71,   391.37  L   391.21,   391.18  L   390.66,   391.18  L   390.16,   391.37  L   389.74,   391.72  L   390.14,   392.43  L   390.14,   393.01  L   390.51,   393.46  L   391.08,   393.56  L   391.59,   393.27  L   391.78,   392.72  L   391.59,   392.17  L   391.08,   391.88  L   390.51,   391.98  L   390.93,   392.72  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   458.92,   282.24  L   458.92,   324.73  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   356.94,   282.24  L   356.94,   324.73  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  359.52  290.43 )">CLS</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  419.82  348.57 )" ewd:textID="8">下</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  384.75  417.91 )">7</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  384.75  278.55 )">5</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  418.74  278.55 )">4</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  452.74  278.55 )">8</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  350.76  278.55 )">9</text>
+		<g ewd:figtype="title">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  320.64  412.62 )">O4</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  327.75  412.62 )" ewd:textID="12">阅读灯总成</text>
+		</g>
+	</g>
+	<g ewd:figtype="rb" ewd:figID="2" ewd:code="FUSE5">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   682.01,    95.27  L   677.76,    95.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   682.01,   103.77  L   677.76,   103.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   677.76,    95.27  C   675.41     95.27    673.51     97.17    673.51     99.52  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   673.51,    99.52  C   673.51    101.87    675.41    103.77    677.76    103.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   682.01,   103.77  C   684.36    103.77    686.26    101.87    686.26     99.52  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   686.26,    99.52  C   686.26     97.17    684.36     95.27    682.01     95.27  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M   679.89,    90.37  L   677.05,    87.54  L   677.05,    91.79  L   679.89,    94.62  L   682.72,    91.79  L   682.72,    87.54  L   679.89,    90.37  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   679.89,    69.77  L   679.89,    95.27  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  701.69  74.26 )">10A <tspan x="0 " dy="6.0">ECU-B NO.1</tspan></text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  671.84  32.08 )">(BAT)</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  678.09  101.49 )">1</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  673.7  86.47 )">2</text>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   679.89,    47.11  C   677.15     48.72    676.24     52.25    677.85     54.99  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   677.85,    54.99  C   678.37     55.87    679.00     56.51    679.89     57.03  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   679.89,    66.94  C   682.62     65.33    683.54     61.80    681.92     59.06  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   681.92,    59.06  C   681.40     58.18    680.77     57.55    679.89     57.03  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   681.30,    45.69  C   681.30     44.91    680.67     44.28    679.89     44.28  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   679.89,    44.28  C   679.10     44.28    678.47     44.91    678.47     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   678.47,    45.69  C   678.47     46.48    679.10     47.11    679.89     47.11  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   679.89,    47.11  C   680.67     47.11    681.30     46.48    681.30     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   681.30,    68.36  C   681.30     67.57    680.67     66.94    679.89     66.94  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   679.89,    66.94  C   679.10     66.94    678.47     67.57    678.47     68.36  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   678.47,    68.36  C   678.47     69.14    679.10     69.77    679.89     69.77  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   679.89,    69.77  C   680.67     69.77    681.30     69.14    681.30     68.36  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   667.14,    35.78  L   667.14,    78.27  L   692.63,    78.27  L   692.63,    35.78  L   667.14,    35.78  "/>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="3" ewd:code="L1">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1130.31,   358.73  L  1130.31,   324.73  L  1113.31,   324.73  L  1113.31,   358.73  L  1130.31,   358.73  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1123.23,   330.40  C  1123.23    329.61   1122.59    328.98   1121.81    328.98  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1121.81,   328.98  C  1121.03    328.98   1120.40    329.61   1120.40    330.40  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1120.40,   330.40  C  1120.40    331.18   1121.03    331.81   1121.81    331.81  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1121.81,   331.81  C  1122.59    331.81   1123.23    331.18   1123.23    330.40  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1123.23,   353.06  C  1123.23    352.28   1122.59    351.64   1121.81    351.64  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1121.81,   351.64  C  1121.03    351.64   1120.40    352.28   1120.40    353.06  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1120.40,   353.06  C  1120.40    353.84   1121.03    354.48   1121.81    354.48  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1121.81,   354.48  C  1122.59    354.48   1123.23    353.84   1123.23    353.06  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1121.81,   328.98  L  1121.81,   324.73  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1121.81,   358.73  L  1121.81,   354.48  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1121.81,   351.64  L  1127.48,   328.98  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1115.63  321.04 )">1</text>
+		<g ewd:figtype="title">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1138.21  361.62 )">L1</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1145.03  361.63 )" ewd:textID="9">左前车门门控灯开关总成<tspan x="0 " dy="6.0"></tspan></text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="4" ewd:code="E36">
+		<g ewd:lineID="21">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1195.0  93.27 )">19</text>
+			<path style="stroke-width: 1.42 ;&st7;   " d=" M  1211.33,    91.30  C  1211.33     88.80   1209.30     86.77   1206.80     86.77  "/>
+			<path style="stroke-width: 1.42 ;&st7;   " d=" M  1206.80,    86.77  C  1204.30     86.77   1202.27     88.80   1202.27     91.30  "/>
+			<path style="stroke-width: 1.42 ;&st7;   " d=" M  1202.27,    91.30  C  1202.27     93.81   1204.30     95.84   1206.80     95.84  "/>
+			<path style="stroke-width: 1.42 ;&st7;   " d=" M  1206.80,    95.84  C  1209.30     95.84   1211.33     93.81   1211.33     91.30  "/>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1204.49  93.27 )">A</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1198.72  83.07 )">FRCY</text>
+		</g>
+		<g ewd:lineID="25">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1271.49  93.27 )">14</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1280.98  93.27 )">A</text>
+			<path style="stroke-width: 1.42 ;&st7;   " d=" M  1287.82,    91.30  C  1287.82     88.80   1285.79     86.77   1283.29     86.77  "/>
+			<path style="stroke-width: 1.42 ;&st7;   " d=" M  1283.29,    86.77  C  1280.78     86.77   1278.75     88.80   1278.75     91.30  "/>
+			<path style="stroke-width: 1.42 ;&st7;   " d=" M  1278.75,    91.30  C  1278.75     93.81   1280.78     95.84   1283.29     95.84  "/>
+			<path style="stroke-width: 1.42 ;&st7;   " d=" M  1283.29,    95.84  C  1285.79     95.84   1287.82     93.81   1287.82     91.30  "/>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1274.51  83.07 )">CANH</text>
+		</g>
+		<g ewd:lineID="29">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1305.48  93.27 )">13</text>
+			<path style="stroke-width: 1.42 ;&st7;   " d=" M  1321.81,    91.30  C  1321.81     88.80   1319.78     86.77   1317.28     86.77  "/>
+			<path style="stroke-width: 1.42 ;&st7;   " d=" M  1317.28,    86.77  C  1314.78     86.77   1312.75     88.80   1312.75     91.30  "/>
+			<path style="stroke-width: 1.42 ;&st7;   " d=" M  1312.75,    91.30  C  1312.75     93.81   1314.78     95.84   1317.28     95.84  "/>
+			<path style="stroke-width: 1.42 ;&st7;   " d=" M  1317.28,    95.84  C  1319.78     95.84   1321.81     93.81   1321.81     91.30  "/>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1314.98  93.27 )">A</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1308.93  83.07 )">CANL</text>
+		</g>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   790.37,    35.78  L   790.37,    86.77  L  1410.76,    86.77  L  1410.76,    35.78  L   790.37,    35.78  "/>
+		<g ewd:figtype="title">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  795.45  24.98 )">E36(A)</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  795.46  32.08 )" ewd:textID="11">主车身 ECU</text>
+		</g>
+		<g ewd:lineID="46">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  800.72  83.07 )">ACC</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  841.5  83.07 )">BECU</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  885.78  83.07 )">LIN2</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  926.65  83.07 )">GND1</text>
+		</g>
+		<g ewd:lineID="44">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1113.77  83.07 )">FLCY</text>
+		</g>
+		<g ewd:lineID="45">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1390.42  83.07 )">IG</text>
+		</g>
+	</g>
+	<g ewd:figtype="rb" ewd:figID="5" ewd:code="FUSE6">
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  2005.66,    69.77  L  2005.66,    95.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  2007.79,    95.27  L  2003.54,    95.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  2007.79,   103.77  L  2003.54,   103.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2003.54,    95.27  C  2001.19     95.27   1999.29     97.17   1999.29     99.52  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1999.29,    99.52  C  1999.29    101.87   2001.19    103.77   2003.54    103.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2007.79,   103.77  C  2010.14    103.77   2012.04    101.87   2012.04     99.52  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2012.04,    99.52  C  2012.04     97.17   2010.14     95.27   2007.79     95.27  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M  2005.66,    90.37  L  2002.83,    87.54  L  2002.83,    91.79  L  2005.66,    94.62  L  2008.50,    91.79  L  2008.50,    87.54  L  2005.66,    90.37  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  2022.09  53.34 )">10A <tspan x="0 " dy="6.0">ECU-B </tspan><tspan x="0 " dy="6.0">NO.2</tspan></text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  2003.86  101.49 )">1</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1999.48  86.47 )">2</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1997.62  32.08 )">(BAT)</text>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2005.66,    47.11  C  2002.93     48.72   2002.02     52.25   2003.63     54.99  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2003.63,    54.99  C  2004.15     55.87   2004.78     56.51   2005.66     57.03  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2005.66,    66.94  C  2008.40     65.33   2009.31     61.80   2007.70     59.06  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2007.70,    59.06  C  2007.18     58.18   2006.55     57.55   2005.66     57.03  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  2007.08,    45.69  C  2007.08     44.91   2006.45     44.28   2005.66     44.28  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  2005.66,    44.28  C  2004.88     44.28   2004.25     44.91   2004.25     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  2004.25,    45.69  C  2004.25     46.48   2004.88     47.11   2005.66     47.11  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  2005.66,    47.11  C  2006.45     47.11   2007.08     46.48   2007.08     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  2007.08,    68.36  C  2007.08     67.57   2006.45     66.94   2005.66     66.94  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  2005.66,    66.94  C  2004.88     66.94   2004.25     67.57   2004.25     68.36  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  2004.25,    68.36  C  2004.25     69.14   2004.88     69.77   2005.66     69.77  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  2005.66,    69.77  C  2006.45     69.77   2007.08     69.14   2007.08     68.36  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1992.92,    35.78  L  1992.92,    78.27  L  2018.41,    78.27  L  2018.41,    35.78  L  1992.92,    35.78  "/>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="6" ewd:code="A39">
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1283.29,   341.73  L  1283.29,   324.73  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1317.28,   341.73  L  1317.28,   324.73  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1325.78,   341.73  L  1325.78,   324.73  L  1274.79,   324.73  L  1274.79,   341.73  L  1325.78,   341.73  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1277.1  349.92 )">1</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1277.1  321.04 )">3</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1307.99  349.92 )">12</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1307.99  321.04 )">14</text>
+		<g ewd:figtype="title">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1340.5  344.63 )" ewd:textID="13">1 号 CAN 接线连接器</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1333.39  344.63 )">A39</text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="7" ewd:code="L41">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1206.80,   351.64  L  1212.46,   328.98  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1206.80,   358.73  L  1206.80,   354.48  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1206.80,   328.98  L  1206.80,   324.73  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1208.21,   353.06  C  1208.21    352.28   1207.58    351.64   1206.80    351.64  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1206.80,   351.64  C  1206.02    351.64   1205.38    352.28   1205.38    353.06  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1205.38,   353.06  C  1205.38    353.84   1206.02    354.48   1206.80    354.48  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1206.80,   354.48  C  1207.58    354.48   1208.21    353.84   1208.21    353.06  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1208.21,   330.40  C  1208.21    329.61   1207.58    328.98   1206.80    328.98  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1206.80,   328.98  C  1206.02    328.98   1205.38    329.61   1205.38    330.40  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1205.38,   330.40  C  1205.38    331.18   1206.02    331.81   1206.80    331.81  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1206.80,   331.81  C  1207.58    331.81   1208.21    331.18   1208.21    330.40  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1215.30,   358.73  L  1215.30,   324.73  L  1198.30,   324.73  L  1198.30,   358.73  L  1215.30,   358.73  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1200.61  321.04 )">1</text>
+		<g ewd:figtype="title">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1222.91  361.62 )">L41</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1230.01  361.63 )" ewd:textID="10">右前车门门控灯开关总成<tspan x="0 " dy="6.0"></tspan></text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="8" ewd:code="O3">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   543.91,    44.28  L   628.89,    44.28  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  417.78  100.07 )">DWN</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  386.81  100.07 )">UP</text>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   597.73,    31.53  L   597.73,    23.03  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   593.77,    31.53  L   597.73,    31.53  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   597.73,    23.03  L   593.77,    23.03  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   575.07,    31.53  L   575.07,    23.03  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   579.04,    31.53  L   575.07,    31.53  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   575.07,    23.03  L   579.04,    23.03  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   586.40,    35.78  C   591.10     35.78    594.90     31.97    594.90     27.28  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   594.90,    27.28  C   594.90     22.59    591.10     18.78    586.40     18.78  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   586.40,    18.78  C   581.71     18.78    577.90     22.59    577.90     27.28  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   577.90,    27.28  C   577.90     31.97    581.71     35.78    586.40     35.78  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  583.67  29.25 )">M</text>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   575.07,    27.28  L   560.91,    27.28  L   560.91,    44.28  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   597.73,    27.28  L   611.90,    27.28  L   611.90,    44.28  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  166.62  100.07 )">IG</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  218.77  100.07 )">B</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  269.84  100.07 )">E</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  351.15  100.07 )">CLS</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  452.51  100.07 )">OPN</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  603.82  100.07 )">MPX1</text>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   152.97,   103.77  L   628.89,   103.77  L   628.89,    10.28  L   543.91,    10.28  L   543.91,    44.28  L   152.97,    44.28  L   152.97,   103.77  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  384.75  111.96 )">4</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  418.74  111.96 )">6</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  452.74  111.96 )">7</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  602.61  111.96 )">11</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  163.79  111.96 )">1</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  214.78  111.96 )">8</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  262.67  111.96 )">12</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  350.76  111.96 )">5</text>
+		<g ewd:figtype="title">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  158.06  33.47 )">O3</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  158.07  40.58 )" ewd:textID="16">滑动天窗控制 ECU（滑动天窗主动齿轮分总成）</text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="9" ewd:code="E74">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1274.79,   520.20  L  1325.78,   520.20  L  1325.78,   537.20  L  1274.79,   537.20  L  1274.79,   520.20  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1283.29,   520.20  L  1283.29,   537.20  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1317.28,   520.20  L  1317.28,   537.20  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1277.1  516.51 )">5</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1307.99  516.51 )">16</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1307.99  545.39 )">15</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1277.1  545.39 )">4</text>
+		<g ewd:figtype="title">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1333.67  540.09 )">E74</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1340.5  540.1 )" ewd:textID="14">2 号 CAN 接线连接器</text>
+		</g>
+	</g>
+	<g ewd:figtype="rb" ewd:figID="10" ewd:code="FUSE6">
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1631.73,    69.77  L  1631.73,    95.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1633.85,    95.27  L  1629.60,    95.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1633.85,   103.77  L  1629.60,   103.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1629.60,    95.27  C  1627.26     95.27   1625.35     97.17   1625.35     99.52  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1625.35,    99.52  C  1625.35    101.87   1627.26    103.77   1629.60    103.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1633.85,   103.77  C  1636.20    103.77   1638.10    101.87   1638.10     99.52  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1638.10,    99.52  C  1638.10     97.17   1636.20     95.27   1633.85     95.27  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M  1631.73,    90.37  L  1628.89,    87.54  L  1628.89,    91.79  L  1631.73,    94.62  L  1634.56,    91.79  L  1634.56,    87.54  L  1631.73,    90.37  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1648.15  53.34 )">10A <tspan x="0 " dy="6.0">ECU-B </tspan><tspan x="0 " dy="6.0">NO.2</tspan></text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1629.93  101.49 )">1</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1625.54  86.47 )">2</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1623.68  32.08 )">(BAT)</text>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1631.73,    66.94  C  1634.47     65.33   1635.38     61.80   1633.76     59.06  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1633.76,    59.06  C  1633.24     58.18   1632.61     57.55   1631.73     57.03  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1633.14,    45.69  C  1633.14     44.91   1632.51     44.28   1631.73     44.28  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1631.73,    44.28  C  1630.95     44.28   1630.31     44.91   1630.31     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1630.31,    45.69  C  1630.31     46.48   1630.95     47.11   1631.73     47.11  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1631.73,    47.11  C  1632.51     47.11   1633.14     46.48   1633.14     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1633.14,    68.36  C  1633.14     67.57   1632.51     66.94   1631.73     66.94  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1631.73,    66.94  C  1630.95     66.94   1630.31     67.57   1630.31     68.36  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1630.31,    68.36  C  1630.31     69.14   1630.95     69.77   1631.73     69.77  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1631.73,    69.77  C  1632.51     69.77   1633.14     69.14   1633.14     68.36  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1631.73,    47.11  C  1628.99     48.72   1628.08     52.25   1629.69     54.99  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1629.69,    54.99  C  1630.21     55.87   1630.85     56.51   1631.73     57.03  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1618.98,    35.78  L  1618.98,    78.27  L  1644.47,    78.27  L  1644.47,    35.78  L  1618.98,    35.78  "/>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="11" ewd:code="E55">
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  2009.91,   324.73  L  2001.42,   324.73  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1933.43,   324.73  L  1924.93,   324.73  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1852.69,   299.24  L  1852.69,   503.20  L  2039.66,   503.20  L  2039.66,   299.24  L  1852.69,   299.24  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1937.68,   460.71  L  1937.68,   503.20  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1971.67,   460.71  L  1971.67,   503.20  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  2014.16,   426.71  L  2014.16,   503.20  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M  2005.66,   324.73  L  2000.00,   316.23  L  2011.33,   316.23  L  2005.66,   324.73  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M  1929.18,   324.73  L  1923.51,   316.23  L  1934.84,   316.23  L  1929.18,   324.73  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  2005.66,   341.73  L  2005.66,   350.23  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  2004.47,   340.73  L  2004.20,   341.20  L  2004.11,   341.73  L  2004.20,   342.26  L  2004.47,   342.73  L  2004.89,   343.08  L  2005.39,   343.26  L  2005.94,   343.26  L  2006.44,   343.08  L  2006.86,   342.73  L  2007.13,   342.26  L  2007.22,   341.73  L  2007.13,   341.20  L  2006.86,   340.73  L  2006.44,   340.38  L  2005.94,   340.19  L  2005.39,   340.19  L  2004.89,   340.38  L  2004.47,   340.73  L  2004.87,   341.44  L  2004.87,   342.02  L  2005.24,   342.46  L  2005.81,   342.56  L  2006.32,   342.28  L  2006.51,   341.73  L  2006.32,   341.18  L  2005.81,   340.89  L  2005.24,   340.99  L  2005.66,   341.73  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1988.67,   350.23  L  1988.67,   367.22  L  2022.66,   367.22  L  2022.66,   350.23  L  1988.67,   350.23  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1971.67,   367.22  L  1971.67,   358.73  L  1988.67,   358.73  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1963.17,   367.22  L  1980.17,   367.22  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1967.42,   370.06  L  1975.92,   370.06  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1968.84,   372.89  L  1974.50,   372.89  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1970.25,   375.72  L  1973.09,   375.72  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1920.68,   443.71  L  1920.68,   460.71  L  1988.67,   460.71  L  1988.67,   443.71  L  1920.68,   443.71  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1869.69,   401.22  L  1869.69,   426.71  L  2022.66,   426.71  L  2022.66,   401.22  L  1869.69,   401.22  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1920.68,   426.71  L  1920.68,   409.72  L  1988.67,   409.72  L  1988.67,   426.71  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1895.18,   443.71  L  1895.18,   452.21  L  1920.68,   452.21  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1899.43,   443.71  L  1890.93,   443.71  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1971.67,   426.71  L  1971.67,   443.71  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1937.68,   426.71  L  1937.68,   443.71  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  2005.66,   367.22  L  2005.66,   401.22  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  2008.25  375.42 )">5V+B</text>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  2005.66,   299.24  L  2005.66,   341.73  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  2005.66,   341.73  L  1929.18,   341.73  L  1929.18,   299.24  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  2008.25  307.43 )">B</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1931.76  307.43 )">IG+</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1997.82  360.69 )">5V IC</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16; 1939.28 420.47)" ewd:textID="4" ewd:horAlign="center">CAN 控制器</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1887.84  440.3 )">5V+B</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1940.26  499.51 )">CANL</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1974.25  499.51 )">CANH</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1942.91  454.46 )">CAN I/F</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  2016.75  499.51 )">ET</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1888.89  416.22 )">CPU</text>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1869.69,   384.22  L  1937.68,   384.22  L  1937.68,   350.23  L  1869.69,   350.23  L  1869.69,   384.22  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1878.19,   384.22  L  1878.19,   401.22  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1886.68,   384.22  L  1886.68,   401.22  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1903.68,   384.22  L  1903.68,   401.22  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1920.68,   384.22  L  1920.68,   401.22  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1929.18,   384.22  L  1929.18,   401.22  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1912.18,   384.22  L  1912.18,   401.22  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1895.18,   384.22  L  1895.18,   401.22  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16; 1886.80 369.37)" ewd:textID="7" ewd:horAlign="center">显示屏驱动器<tspan x="0 " dy="6.0"></tspan></text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1917.38  296.67 )">39</text>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1933.71,   294.70  C  1933.71    292.20   1931.68    290.17   1929.18    290.17  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1929.18,   290.17  C  1926.67    290.17   1924.65    292.20   1924.65    294.70  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1924.65,   294.70  C  1924.65    297.21   1926.67    299.24   1929.18    299.24  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1929.18,   299.24  C  1931.68    299.24   1933.71    297.21   1933.71    294.70  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1926.87  296.67 )">A</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1925.88  509.7 )">31</text>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1942.21,   507.73  C  1942.21    505.23   1940.18    503.20   1937.68    503.20  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1937.68,   503.20  C  1935.17    503.20   1933.14    505.23   1933.14    507.73  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1933.14,   507.73  C  1933.14    510.24   1935.17    512.27   1937.68    512.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1937.68,   512.27  C  1940.18    512.27   1942.21    510.24   1942.21    507.73  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1935.37  509.7 )">A</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1959.87  509.7 )">32</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1969.37  509.7 )">A</text>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1976.20,   507.73  C  1976.20    505.23   1974.17    503.20   1971.67    503.20  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1971.67,   503.20  C  1969.17    503.20   1967.14    505.23   1967.14    507.73  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1967.14,   507.73  C  1967.14    510.24   1969.17    512.27   1971.67    512.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1971.67,   512.27  C  1974.17    512.27   1976.20    510.24   1976.20    507.73  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1993.87  296.67 )">40</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  2003.36  296.67 )">A</text>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2010.20,   294.70  C  2010.20    292.20   2008.17    290.17   2005.66    290.17  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2005.66,   290.17  C  2003.16    290.17   2001.13    292.20   2001.13    294.70  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2001.13,   294.70  C  2001.13    297.21   2003.16    299.24   2005.66    299.24  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2005.66,   299.24  C  2008.17    299.24   2010.20    297.21   2010.20    294.70  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  2002.37  509.7 )">21</text>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2018.70,   507.73  C  2018.70    505.23   2016.67    503.20   2014.16    503.20  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2014.16,   503.20  C  2011.66    503.20   2009.63    505.23   2009.63    507.73  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2009.63,   507.73  C  2009.63    510.24   2011.66    512.27   2014.16    512.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2014.16,   512.27  C  2016.67    512.27   2018.70    510.24   2018.70    507.73  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  2011.86  509.7 )">A</text>
+		<g ewd:figtype="title">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1849.28  510.81 )">E55(A)</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1849.28  517.92 )" ewd:textID="6">组合仪表总成<tspan x="0 " dy="6.0"></tspan></text>
+		</g>
+	</g>
+	<g ewd:figtype="conn" ewd:figID="12" ewd:code="E55">
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1719.55,   375.72  L  1725.21,   367.22  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1708.21,   367.22  L  1713.50,   375.16  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1716.71,   375.72  L  1716.71,   384.22  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1708.21,   375.72  L  1725.21,   375.72  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1669.97,   467.08  L  1661.47,   467.08  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1669.97,   462.83  L  1661.47,   462.83  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1665.72,   462.83  L  1665.72,   452.21  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1712.46,   307.73  L  1703.97,   307.73  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1635.98,   307.73  L  1627.48,   307.73  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1589.23,   426.71  L  1606.23,   426.71  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1614.73,   435.21  L  1597.73,   435.21  L  1597.73,   426.71  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1699.72,   426.71  L  1699.72,   409.72  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1631.73,   426.71  L  1631.73,   409.72  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1699.72,   443.71  L  1699.72,   503.20  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1631.73,   443.71  L  1631.73,   503.20  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1614.73,   426.71  L  1614.73,   443.71  L  1716.71,   443.71  L  1716.71,   426.71  L  1614.73,   426.71  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1750.71,   409.72  L  1750.71,   503.20  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1784.70,   435.21  L  1784.70,   443.71  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1784.70,   409.72  L  1784.70,   418.22  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1767.70,   443.71  L  1767.70,   460.71  L  1801.70,   460.71  L  1801.70,   443.71  L  1767.70,   443.71  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1767.70,   418.22  L  1767.70,   435.21  L  1801.70,   435.21  L  1801.70,   418.22  L  1767.70,   418.22  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1725.21,   367.22  L  1725.21,   350.23  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1699.72,   367.22  L  1699.72,   350.23  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1656.03,   315.23  L  1655.76,   315.70  L  1655.66,   316.23  L  1655.76,   316.77  L  1656.03,   317.24  L  1656.44,   317.58  L  1656.95,   317.77  L  1657.49,   317.77  L  1658.00,   317.58  L  1658.42,   317.24  L  1658.69,   316.77  L  1658.78,   316.23  L  1658.69,   315.70  L  1658.42,   315.23  L  1658.00,   314.88  L  1657.49,   314.70  L  1656.95,   314.70  L  1656.44,   314.88  L  1656.03,   315.23  L  1656.42,   315.94  L  1656.42,   316.52  L  1656.80,   316.97  L  1657.37,   317.07  L  1657.87,   316.78  L  1658.07,   316.23  L  1657.87,   315.69  L  1657.37,   315.40  L  1656.80,   315.50  L  1657.22,   316.23  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1631.73,   273.74  L  1631.73,   316.23  L  1708.21,   316.23  L  1708.21,   273.74  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1657.22,   350.23  L  1657.22,   384.22  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1640.23,   333.23  L  1640.23,   350.23  L  1674.22,   350.23  L  1674.22,   333.23  L  1640.23,   333.23  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1606.23,   384.22  L  1606.23,   409.72  L  1801.70,   409.72  L  1801.70,   384.22  L  1606.23,   384.22  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1580.74,   273.74  L  1580.74,   503.20  L  1818.70,   503.20  L  1818.70,   273.74  L  1580.74,   273.74  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1631.73,   452.21  L  1640.23,   452.21  L  1641.64,   449.38  L  1644.47,   455.04  L  1647.31,   449.38  L  1650.14,   455.04  L  1652.97,   449.38  L  1655.81,   455.04  L  1657.22,   452.21  L  1665.72,   452.21  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1713.50,   375.16  L  1710.32,   373.02  L  1712.76,   371.40  L  1713.50,   375.16  L  1712.68,   373.92  L  1711.34,   373.03  L  1712.37,   372.34  L  1712.68,   373.92  L  1712.27,   373.31  L  1711.85,   373.03  L  1712.17,   372.81  L  1712.27,   373.31  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1657.22,   367.22  L  1708.21,   367.22  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1657.22,   316.23  L  1657.22,   333.23  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1665.72,   452.21  L  1674.22,   452.21  L  1675.64,   449.38  L  1678.47,   455.04  L  1681.30,   449.38  L  1684.13,   455.04  L  1686.97,   449.38  L  1689.80,   455.04  L  1691.22,   452.21  L  1699.72,   452.21  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1698.52,   451.21  L  1698.25,   451.68  L  1698.16,   452.21  L  1698.25,   452.74  L  1698.52,   453.21  L  1698.94,   453.56  L  1699.44,   453.75  L  1699.99,   453.75  L  1700.49,   453.56  L  1700.91,   453.21  L  1701.18,   452.74  L  1701.27,   452.21  L  1701.18,   451.68  L  1700.91,   451.21  L  1700.49,   450.86  L  1699.99,   450.67  L  1699.44,   450.67  L  1698.94,   450.86  L  1698.52,   451.21  L  1698.92,   451.92  L  1698.92,   452.50  L  1699.29,   452.95  L  1699.86,   453.05  L  1700.37,   452.76  L  1700.57,   452.21  L  1700.37,   451.66  L  1699.86,   451.37  L  1699.29,   451.47  L  1699.72,   452.21  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1630.53,   451.21  L  1630.26,   451.68  L  1630.17,   452.21  L  1630.26,   452.74  L  1630.53,   453.21  L  1630.95,   453.56  L  1631.45,   453.75  L  1632.00,   453.75  L  1632.51,   453.56  L  1632.92,   453.21  L  1633.19,   452.74  L  1633.28,   452.21  L  1633.19,   451.68  L  1632.92,   451.21  L  1632.51,   450.86  L  1632.00,   450.67  L  1631.45,   450.67  L  1630.95,   450.86  L  1630.53,   451.21  L  1630.93,   451.92  L  1630.93,   452.50  L  1631.30,   452.95  L  1631.87,   453.05  L  1632.38,   452.76  L  1632.58,   452.21  L  1632.38,   451.66  L  1631.87,   451.37  L  1631.30,   451.47  L  1631.73,   452.21  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1665.72,   467.08  L  1665.72,   477.71  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1657.22,   477.71  L  1674.22,   477.71  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1661.47,   480.54  L  1669.97,   480.54  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1662.89,   483.37  L  1668.55,   483.37  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1664.30,   486.20  L  1667.14,   486.20  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1664.53,   451.21  L  1664.26,   451.68  L  1664.16,   452.21  L  1664.26,   452.74  L  1664.53,   453.21  L  1664.94,   453.56  L  1665.45,   453.75  L  1665.99,   453.75  L  1666.50,   453.56  L  1666.91,   453.21  L  1667.19,   452.74  L  1667.28,   452.21  L  1667.19,   451.68  L  1666.91,   451.21  L  1666.50,   450.86  L  1665.99,   450.67  L  1665.45,   450.67  L  1664.94,   450.86  L  1664.53,   451.21  L  1664.92,   451.92  L  1664.92,   452.50  L  1665.30,   452.95  L  1665.87,   453.05  L  1666.37,   452.76  L  1666.57,   452.21  L  1666.37,   451.66  L  1665.87,   451.37  L  1665.30,   451.47  L  1665.72,   452.21  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M  1708.21,   307.73  L  1702.55,   299.24  L  1713.88,   299.24  L  1708.21,   307.73  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1623.23,   409.72  L  1623.23,   392.72  L  1708.21,   392.72  L  1708.21,   409.72  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1691.22,   350.23  L  1708.21,   350.23  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1716.71,   350.23  L  1733.71,   350.23  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1698.52,   366.22  L  1698.25,   366.69  L  1698.16,   367.22  L  1698.25,   367.76  L  1698.52,   368.23  L  1698.94,   368.57  L  1699.44,   368.76  L  1699.99,   368.76  L  1700.49,   368.57  L  1700.91,   368.23  L  1701.18,   367.76  L  1701.27,   367.22  L  1701.18,   366.69  L  1700.91,   366.22  L  1700.49,   365.88  L  1699.99,   365.69  L  1699.44,   365.69  L  1698.94,   365.88  L  1698.52,   366.22  L  1698.92,   366.93  L  1698.92,   367.52  L  1699.29,   367.96  L  1699.86,   368.06  L  1700.37,   367.77  L  1700.57,   367.22  L  1700.37,   366.68  L  1699.86,   366.39  L  1699.29,   366.49  L  1699.72,   367.22  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1656.03,   366.22  L  1655.76,   366.69  L  1655.66,   367.22  L  1655.76,   367.76  L  1656.03,   368.23  L  1656.44,   368.57  L  1656.95,   368.76  L  1657.49,   368.76  L  1658.00,   368.57  L  1658.42,   368.23  L  1658.69,   367.76  L  1658.78,   367.22  L  1658.69,   366.69  L  1658.42,   366.22  L  1658.00,   365.88  L  1657.49,   365.69  L  1656.95,   365.69  L  1656.44,   365.88  L  1656.03,   366.22  L  1656.42,   366.93  L  1656.42,   367.52  L  1656.80,   367.96  L  1657.37,   368.06  L  1657.87,   367.77  L  1658.07,   367.22  L  1657.87,   366.68  L  1657.37,   366.39  L  1656.80,   366.49  L  1657.22,   367.22  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M  1631.73,   307.73  L  1626.06,   299.24  L  1637.39,   299.24  L  1631.73,   307.73  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1744.41  398.94 )">CPU</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1589.46  423.02 )">5V +B</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1653.96  437.18 )">CAN I/F</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16; 1775.91 454.18)" ewd:textID="3" ewd:horAlign="center">蜂鸣器</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1780.15  428.68 )">I/F</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1649.37  343.7 )">5V IC</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1634.31  281.93 )">B</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1710.8  281.93 )">IG+</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1753.29  499.51 )">ET</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1634.31  499.51 )">CANL</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1702.3  499.51 )">CANH</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16; 1650.32 403.19)" ewd:textID="4" ewd:horAlign="center">CAN 控制器</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1721.36  346.53 )">5V</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1691.44  346.53 )">5V +B</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1619.93  509.7 )">31</text>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1636.26,   507.73  C  1636.26    505.23   1634.23    503.20   1631.73    503.20  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1631.73,   503.20  C  1629.22    503.20   1627.19    505.23   1627.19    507.73  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1627.19,   507.73  C  1627.19    510.24   1629.22    512.27   1631.73    512.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1631.73,   512.27  C  1634.23    512.27   1636.26    510.24   1636.26    507.73  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1629.42  509.7 )">A</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1619.93  271.18 )">40</text>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1636.26,   269.21  C  1636.26    266.70   1634.23    264.67   1631.73    264.67  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1631.73,   264.67  C  1629.22    264.67   1627.19    266.70   1627.19    269.21  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1627.19,   269.21  C  1627.19    271.71   1629.22    273.74   1631.73    273.74  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1631.73,   273.74  C  1634.23    273.74   1636.26    271.71   1636.26    269.21  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1629.42  271.18 )">A</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1687.92  509.7 )">32</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1697.41  509.7 )">A</text>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1704.25,   507.73  C  1704.25    505.23   1702.22    503.20   1699.72    503.20  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1699.72,   503.20  C  1697.21    503.20   1695.18    505.23   1695.18    507.73  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1695.18,   507.73  C  1695.18    510.24   1697.21    512.27   1699.72    512.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1699.72,   512.27  C  1702.22    512.27   1704.25    510.24   1704.25    507.73  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1696.42  271.18 )">39</text>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1712.75,   269.21  C  1712.75    266.70   1710.72    264.67   1708.21    264.67  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1708.21,   264.67  C  1705.71    264.67   1703.68    266.70   1703.68    269.21  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1703.68,   269.21  C  1703.68    271.71   1705.71    273.74   1708.21    273.74  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1708.21,   273.74  C  1710.72    273.74   1712.75    271.71   1712.75    269.21  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1705.91  271.18 )">A</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1738.91  509.7 )">21</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1748.4  509.7 )">A</text>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1755.24,   507.73  C  1755.24    505.23   1753.21    503.20   1750.71    503.20  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1750.71,   503.20  C  1748.20    503.20   1746.17    505.23   1746.17    507.73  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1746.17,   507.73  C  1746.17    510.24   1748.20    512.27   1750.71    512.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1750.71,   512.27  C  1753.21    512.27   1755.24    510.24   1755.24    507.73  "/>
+		<g ewd:figtype="title">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1833.41  506.11 )" ewd:textID="6">组合仪表总成</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1826.59  506.1 )">E55(A)</text>
+		</g>
+	</g>
+	<g ewd:figtype="jb" ewd:figID="16" ewd:code="3">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   851.98,   120.77  L   847.73,   120.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   851.98,   129.26  L   847.73,   129.26  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   936.97,   129.26  L   932.72,   129.26  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   936.97,   120.77  L   932.72,   120.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   979.46,   129.26  L   975.21,   129.26  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   979.46,   120.77  L   975.21,   120.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   894.48,   120.77  L   890.23,   120.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   894.48,   129.26  L   890.23,   129.26  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   739.38,    47.11  C   736.64     48.72    735.73     52.25    737.34     54.99  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   737.34,    54.99  C   737.86     55.87    738.49     56.51    739.38     57.03  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   739.38,    66.94  C   742.11     65.33    743.03     61.80    741.41     59.06  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   741.41,    59.06  C   740.89     58.18    740.26     57.55    739.38     57.03  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   740.79,    45.69  C   740.79     44.91    740.16     44.28    739.38     44.28  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   739.38,    44.28  C   738.59     44.28    737.96     44.91    737.96     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   737.96,    45.69  C   737.96     46.48    738.59     47.11    739.38     47.11  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   739.38,    47.11  C   740.16     47.11    740.79     46.48    740.79     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   740.79,    68.36  C   740.79     67.57    740.16     66.94    739.38     66.94  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   739.38,    66.94  C   738.59     66.94    737.96     67.57    737.96     68.36  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   737.96,    68.36  C   737.96     69.14    738.59     69.77    739.38     69.77  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   739.38,    69.77  C   740.16     69.77    740.79     69.14    740.79     68.36  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   847.73,   120.77  C   845.39    120.77    843.48    122.67    843.48    125.01  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   843.48,   125.01  C   843.48    127.36    845.39    129.26    847.73    129.26  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   851.98,   129.26  C   854.33    129.26    856.23    127.36    856.23    125.01  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   856.23,   125.01  C   856.23    122.67    854.33    120.77    851.98    120.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   941.22,   125.01  C   941.22    122.67    939.32    120.77    936.97    120.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   928.47,   125.01  C   928.47    127.36    930.37    129.26    932.72    129.26  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   932.72,   120.77  C   930.37    120.77    928.47    122.67    928.47    125.01  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   975.21,   120.77  C   972.87    120.77    970.96    122.67    970.96    125.01  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   936.97,   129.26  C   939.32    129.26    941.22    127.36    941.22    125.01  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   970.96,   125.01  C   970.96    127.36    972.87    129.26    975.21    129.26  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   979.46,   129.26  C   981.81    129.26    983.71    127.36    983.71    125.01  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   983.71,   125.01  C   983.71    122.67    981.81    120.77    979.46    120.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   890.23,   120.77  C   887.88    120.77    885.98    122.67    885.98    125.01  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   885.98,   125.01  C   885.98    127.36    887.88    129.26    890.23    129.26  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   894.48,   129.26  C   896.82    129.26    898.72    127.36    898.72    125.01  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   898.72,   125.01  C   898.72    122.67    896.82    120.77    894.48    120.77  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   739.38,    69.77  L   739.38,   120.77  L   807.36,   120.77  L   807.36,    86.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   726.63,    35.78  L   726.63,    78.27  L   752.12,    78.27  L   752.12,    35.78  L   726.63,    35.78  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M   849.86,   115.87  L   847.02,   113.04  L   847.02,   117.29  L   849.86,   120.12  L   852.69,   117.29  L   852.69,   113.04  L   849.86,   115.87  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   849.86,    86.77  L   849.86,   120.77  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   933.65,   102.77  L   933.38,   103.24  L   933.29,   103.77  L   933.38,   104.30  L   933.65,   104.77  L   934.06,   105.12  L   934.57,   105.30  L   935.12,   105.30  L   935.62,   105.12  L   936.04,   104.77  L   936.31,   104.30  L   936.40,   103.77  L   936.31,   103.24  L   936.04,   102.77  L   935.62,   102.42  L   935.12,   102.23  L   934.57,   102.23  L   934.06,   102.42  L   933.65,   102.77  L   934.04,   103.48  L   934.04,   104.06  L   934.42,   104.50  L   934.99,   104.60  L   935.49,   104.31  L   935.69,   103.77  L   935.49,   103.22  L   934.99,   102.93  L   934.42,   103.03  L   934.84,   103.77  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   977.34,   120.77  L   977.34,   103.77  L   934.84,   103.77  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M   977.34,   115.87  L   974.50,   113.04  L   974.50,   117.29  L   977.34,   120.12  L   980.17,   117.29  L   980.17,   113.04  L   977.34,   115.87  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M   934.84,   115.87  L   932.01,   113.04  L   932.01,   117.29  L   934.84,   120.12  L   937.68,   117.29  L   937.68,   113.04  L   934.84,   115.87  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   934.84,    86.77  L   934.84,   120.77  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M   892.35,   115.87  L   889.52,   113.04  L   889.52,   117.29  L   892.35,   120.12  L   895.18,   117.29  L   895.18,   113.04  L   892.35,   115.87  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   892.35,    86.77  L   892.35,   120.77  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  755.8  56.17 )">7.5A <tspan x="0 " dy="6.0">ACC</tspan></text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  730.87  32.08 )">(ACC)</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  798.08  94.96 )">29</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  840.57  94.96 )">30</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  846.0  126.98 )">3A</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  836.25  126.98 )">43</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  973.36  126.98 )">3C</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  966.83  126.98 )">9</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  930.91  126.98 )">3D</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  921.23  126.98 )">12</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  925.56  94.96 )">11</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  883.06  94.96 )">16</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  888.38  126.98 )">3C</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  878.74  126.98 )">22</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  733.19  86.47 )">2</text>
+	</g>
+	<g ewd:figtype="jb" ewd:figID="17" ewd:code="3">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M    95.61,    95.27  L    91.36,    95.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M    95.61,   103.77  L    91.36,   103.77  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M    25.50,    69.77  L    25.50,    78.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M    27.62,   103.77  L    23.37,   103.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M    27.62,    95.27  L    23.37,    95.27  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M    93.48,    69.77  L    93.48,    78.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M    87.11,    99.52  C    87.11    101.87     89.01    103.77     91.36    103.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M    95.61,   103.77  C    97.96    103.77     99.86    101.87     99.86     99.52  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M    99.86,    99.52  C    99.86     97.17     97.96     95.27     95.61     95.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M    25.50,    66.94  C    28.23     65.33     29.15     61.80     27.53     59.06  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M    27.53,    59.06  C    27.01     58.18     26.38     57.55     25.50     57.03  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M    26.91,    68.36  C    26.91     67.57     26.28     66.94     25.50     66.94  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M    25.50,    66.94  C    24.71     66.94     24.08     67.57     24.08     68.36  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M    24.08,    68.36  C    24.08     69.14     24.71     69.77     25.50     69.77  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M    25.50,    69.77  C    26.28     69.77     26.91     69.14     26.91     68.36  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M    26.91,    45.69  C    26.91     44.91     26.28     44.28     25.50     44.28  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M    25.50,    44.28  C    24.71     44.28     24.08     44.91     24.08     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M    24.08,    45.69  C    24.08     46.48     24.71     47.11     25.50     47.11  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M    25.50,    47.11  C    26.28     47.11     26.91     46.48     26.91     45.69  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M    23.37,    95.27  C    21.02     95.27     19.12     97.17     19.12     99.52  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M    31.87,    99.52  C    31.87     97.17     29.97     95.27     27.62     95.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M    27.62,   103.77  C    29.97    103.77     31.87    101.87     31.87     99.52  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M    19.12,    99.52  C    19.12    101.87     21.02    103.77     23.37    103.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M    25.50,    47.11  C    22.76     48.72     21.85     52.25     23.46     54.99  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M    23.46,    54.99  C    23.98     55.87     24.61     56.51     25.50     57.03  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M    91.36,    95.27  C    89.01     95.27     87.11     97.17     87.11     99.52  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M    94.90,    45.69  C    94.90     44.91     94.27     44.28     93.48     44.28  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M    93.48,    44.28  C    92.70     44.28     92.07     44.91     92.07     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M    92.07,    45.69  C    92.07     46.48     92.70     47.11     93.48     47.11  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M    93.48,    47.11  C    94.27     47.11     94.90     46.48     94.90     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M    94.90,    68.36  C    94.90     67.57     94.27     66.94     93.48     66.94  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M    93.48,    66.94  C    92.70     66.94     92.07     67.57     92.07     68.36  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M    92.07,    68.36  C    92.07     69.14     92.70     69.77     93.48     69.77  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M    93.48,    69.77  C    94.27     69.77     94.90     69.14     94.90     68.36  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M    93.48,    66.94  C    96.22     65.33     97.13     61.80     95.52     59.06  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M    95.52,    59.06  C    95.00     58.18     94.37     57.55     93.48     57.03  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M    93.48,    47.11  C    90.75     48.72     89.83     52.25     91.45     54.99  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M    91.45,    54.99  C    91.97     55.87     92.60     56.51     93.48     57.03  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M    80.74,    35.78  L    80.74,    78.27  L   106.23,    78.27  L   106.23,    35.78  L    80.74,    35.78  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M    25.50,    90.37  L    22.66,    87.54  L    22.66,    91.79  L    25.50,    94.62  L    28.33,    91.79  L    28.33,    87.54  L    25.50,    90.37  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M    25.50,    78.27  L    25.50,    95.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M    12.75,    35.78  L    12.75,    78.27  L    38.24,    78.27  L    38.24,    35.78  L    12.75,    35.78  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M    93.48,    78.27  L    93.48,    95.27  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M    93.48,    90.37  L    90.65,    87.54  L    90.65,    91.79  L    93.48,    94.62  L    96.32,    91.79  L    96.32,    87.54  L    93.48,    90.37  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  109.91  53.34 )">7.5A <tspan x="0 " dy="6.0">ECU-IG </tspan><tspan x="0 " dy="6.0">NO.3</tspan></text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  88.27  32.08 )">(IG)</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  21.56  101.49 )">3D</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  14.99  101.49 )">9</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  17.45  32.08 )">(BAT)</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  41.92  56.17 )">20A <tspan x="0 " dy="6.0">S/ROOF</tspan></text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  79.88  101.49 )">19</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  89.51  101.49 )">3C</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  19.31  86.47 )">2</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  87.3  86.47 )">2</text>
+	</g>
+	<g ewd:figtype="jb" ewd:figID="18" ewd:code="3">
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1108.2  126.98 )">25</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1118.15  126.98 )">3E</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1115.63  94.96 )">2</text>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1121.81,    86.77  L  1121.81,   120.77  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M  1121.81,   115.87  L  1118.98,   113.04  L  1118.98,   117.29  L  1121.81,   120.12  L  1124.64,   117.29  L  1124.64,   113.04  L  1121.81,   115.87  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1128.19,   125.01  C  1128.19    122.67   1126.28    120.77   1123.94    120.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1123.94,   129.26  C  1126.28    129.26   1128.19    127.36   1128.19    125.01  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1115.44,   125.01  C  1115.44    127.36   1117.34    129.26   1119.69    129.26  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1119.69,   120.77  C  1117.34    120.77   1115.44    122.67   1115.44    125.01  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1123.94,   129.26  L  1119.69,   129.26  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1123.94,   120.77  L  1119.69,   120.77  "/>
+	</g>
+	<g ewd:figtype="jb" ewd:figID="19" ewd:code="3">
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1929.18,    69.77  L  1929.18,    95.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1931.30,    95.27  L  1927.05,    95.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1931.30,   103.77  L  1927.05,   103.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1929.18,    47.11  C  1926.44     48.72   1925.53     52.25   1927.14     54.99  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1927.14,    54.99  C  1927.66     55.87   1928.30     56.51   1929.18     57.03  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1929.18,    66.94  C  1931.92     65.33   1932.83     61.80   1931.21     59.06  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1931.21,    59.06  C  1930.69     58.18   1930.06     57.55   1929.18     57.03  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1930.59,    45.69  C  1930.59     44.91   1929.96     44.28   1929.18     44.28  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1929.18,    44.28  C  1928.40     44.28   1927.76     44.91   1927.76     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1927.76,    45.69  C  1927.76     46.48   1928.40     47.11   1929.18     47.11  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1929.18,    47.11  C  1929.96     47.11   1930.59     46.48   1930.59     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1930.59,    68.36  C  1930.59     67.57   1929.96     66.94   1929.18     66.94  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1929.18,    66.94  C  1928.40     66.94   1927.76     67.57   1927.76     68.36  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1927.76,    68.36  C  1927.76     69.14   1928.40     69.77   1929.18     69.77  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1929.18,    69.77  C  1929.96     69.77   1930.59     69.14   1930.59     68.36  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1927.05,    95.27  C  1924.71     95.27   1922.80     97.17   1922.80     99.52  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1922.80,    99.52  C  1922.80    101.87   1924.71    103.77   1927.05    103.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1931.30,   103.77  C  1933.65    103.77   1935.55    101.87   1935.55     99.52  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1935.55,    99.52  C  1935.55     97.17   1933.65     95.27   1931.30     95.27  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M  1929.18,    90.37  L  1926.34,    87.54  L  1926.34,    91.79  L  1929.18,    94.62  L  1932.01,    91.79  L  1932.01,    87.54  L  1929.18,    90.37  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1916.43,    35.78  L  1916.43,    78.27  L  1941.92,    78.27  L  1941.92,    35.78  L  1916.43,    35.78  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1923.97  32.08 )">(IG)</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1922.99  86.47 )">2</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1945.6  56.17 )">5A <tspan x="0 " dy="6.0">MET</tspan></text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1925.21  101.49 )">3C</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1915.57  101.49 )">55</text>
+	</g>
+	<g ewd:figtype="jb" ewd:figID="20" ewd:code="3">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  2007.79,   171.76  L  2003.54,   171.76  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  2007.79,   180.26  L  2003.54,   180.26  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  2007.79,   205.75  L  2003.54,   205.75  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  2007.79,   214.25  L  2003.54,   214.25  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2003.54,   171.76  C  2001.19    171.76   1999.29    173.66   1999.29    176.01  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1999.29,   176.01  C  1999.29    178.35   2001.19    180.26   2003.54    180.26  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2007.79,   180.26  C  2010.14    180.26   2012.04    178.35   2012.04    176.01  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2012.04,   176.01  C  2012.04    173.66   2010.14    171.76   2007.79    171.76  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2003.54,   205.75  C  2001.19    205.75   1999.29    207.65   1999.29    210.00  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1999.29,   210.00  C  1999.29    212.35   2001.19    214.25   2003.54    214.25  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2007.79,   214.25  C  2010.14    214.25   2012.04    212.35   2012.04    210.00  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  2012.04,   210.00  C  2012.04    207.65   2010.14    205.75   2007.79    205.75  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M  2005.66,   185.15  L  2008.50,   187.98  L  2008.50,   183.73  L  2005.66,   180.90  L  2002.83,   183.73  L  2002.83,   187.98  L  2005.66,   185.15  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M  2005.66,   200.86  L  2002.83,   198.02  L  2002.83,   202.27  L  2005.66,   205.11  L  2008.50,   202.27  L  2008.50,   198.02  L  2005.66,   200.86  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  2005.66,   205.75  L  2005.66,   180.26  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1992.06  177.98 )">44</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  2001.73  211.97 )">3D</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1992.06  211.97 )">34</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  2001.81  177.98 )">3A</text>
+	</g>
+	<g ewd:figtype="jb" ewd:figID="21" ewd:code="3">
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1463.17,    68.36  C  1463.17     67.57   1462.54     66.94   1461.76     66.94  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1461.76,    66.94  C  1460.97     66.94   1460.34     67.57   1460.34     68.36  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1460.34,    68.36  C  1460.34     69.14   1460.97     69.77   1461.76     69.77  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1461.76,    69.77  C  1462.54     69.77   1463.17     69.14   1463.17     68.36  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1463.17,    45.69  C  1463.17     44.91   1462.54     44.28   1461.76     44.28  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1461.76,    44.28  C  1460.97     44.28   1460.34     44.91   1460.34     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1460.34,    45.69  C  1460.34     46.48   1460.97     47.11   1461.76     47.11  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1461.76,    47.11  C  1462.54     47.11   1463.17     46.48   1463.17     45.69  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1461.76,    66.94  C  1464.49     65.33   1465.41     61.80   1463.79     59.06  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1463.79,    59.06  C  1463.27     58.18   1462.64     57.55   1461.76     57.03  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1461.76,    47.11  C  1459.02     48.72   1458.11     52.25   1459.72     54.99  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1459.72,    54.99  C  1460.24     55.87   1460.87     56.51   1461.76     57.03  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1449.01,    35.78  L  1449.01,    78.27  L  1474.50,    78.27  L  1474.50,    35.78  L  1449.01,    35.78  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1455.57  86.47 )">2</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1456.54  32.08 )">(IG)</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1478.18  53.34 )">7.5A <tspan x="0 " dy="6.0">ECU-IG </tspan><tspan x="0 " dy="6.0">NO.4</tspan></text>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1463.88,   103.77  L  1459.63,   103.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1463.88,   112.27  L  1459.63,   112.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1459.63,   103.77  C  1457.28    103.77   1455.38    105.67   1455.38    108.02  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1455.38,   108.02  C  1455.38    110.36   1457.28    112.27   1459.63    112.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1463.88,   112.27  C  1466.23    112.27   1468.13    110.36   1468.13    108.02  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1468.13,   108.02  C  1468.13    105.67   1466.23    103.77   1463.88    103.77  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M  1461.76,    98.87  L  1458.92,    96.04  L  1458.92,   100.29  L  1461.76,   103.12  L  1464.59,   100.29  L  1464.59,    96.04  L  1461.76,    98.87  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1457.78  109.99 )">3C</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1448.15  109.99 )">17</text>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1461.76,    69.77  L  1461.76,   103.77  "/>
+	</g>
+	<g ewd:figtype="jb" ewd:figID="22" ewd:code="3">
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1384.48  94.96 )">32</text>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1395.89,   120.77  L  1391.64,   120.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1395.89,   129.26  L  1391.64,   129.26  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1391.64,   120.77  C  1389.30    120.77   1387.39    122.67   1387.39    125.01  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1387.39,   125.01  C  1387.39    127.36   1389.30    129.26   1391.64    129.26  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1395.89,   129.26  C  1398.24    129.26   1400.14    127.36   1400.14    125.01  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1400.14,   125.01  C  1400.14    122.67   1398.24    120.77   1395.89    120.77  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M  1393.77,   115.87  L  1390.93,   113.04  L  1390.93,   117.29  L  1393.77,   120.12  L  1396.60,   117.29  L  1396.60,   113.04  L  1393.77,   115.87  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1389.8  126.98 )">3C</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1380.16  126.98 )">51</text>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1393.77,    86.77  L  1393.77,   120.77  "/>
+	</g>
+	<g ewd:figtype="jb" ewd:figID="23" ewd:code="3">
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1627.87  177.98 )">3A</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1618.12  211.97 )">34</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1627.79  211.97 )">3D</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1618.12  177.98 )">44</text>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1631.73,   205.75  L  1631.73,   180.26  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M  1631.73,   200.86  L  1628.89,   198.02  L  1628.89,   202.27  L  1631.73,   205.11  L  1634.56,   202.27  L  1634.56,   198.02  L  1631.73,   200.86  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M  1631.73,   185.15  L  1634.56,   187.98  L  1634.56,   183.73  L  1631.73,   180.90  L  1628.89,   183.73  L  1628.89,   187.98  L  1631.73,   185.15  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1638.10,   210.00  C  1638.10    207.65   1636.20    205.75   1633.85    205.75  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1633.85,   214.25  C  1636.20    214.25   1638.10    212.35   1638.10    210.00  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1625.35,   210.00  C  1625.35    212.35   1627.26    214.25   1629.60    214.25  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1629.60,   205.75  C  1627.26    205.75   1625.35    207.65   1625.35    210.00  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1638.10,   176.01  C  1638.10    173.66   1636.20    171.76   1633.85    171.76  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1633.85,   180.26  C  1636.20    180.26   1638.10    178.35   1638.10    176.01  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1625.35,   176.01  C  1625.35    178.35   1627.26    180.26   1629.60    180.26  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1629.60,   171.76  C  1627.26    171.76   1625.35    173.66   1625.35    176.01  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1633.85,   214.25  L  1629.60,   214.25  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1633.85,   205.75  L  1629.60,   205.75  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1633.85,   180.26  L  1629.60,   180.26  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1633.85,   171.76  L  1629.60,   171.76  "/>
+	</g>
+	<g ewd:figtype="jb" ewd:figID="24" ewd:code="3">
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1708.21,    69.77  L  1708.21,    95.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1710.34,    95.27  L  1706.09,    95.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1710.34,   103.77  L  1706.09,   103.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1708.21,    47.11  C  1705.48     48.72   1704.56     52.25   1706.18     54.99  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1706.18,    54.99  C  1706.70     55.87   1707.33     56.51   1708.21     57.03  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1708.21,    66.94  C  1710.95     65.33   1711.86     61.80   1710.25     59.06  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1710.25,    59.06  C  1709.73     58.18   1709.10     57.55   1708.21     57.03  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1709.63,    45.69  C  1709.63     44.91   1709.00     44.28   1708.21     44.28  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1708.21,    44.28  C  1707.43     44.28   1706.80     44.91   1706.80     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1706.80,    45.69  C  1706.80     46.48   1707.43     47.11   1708.21     47.11  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1708.21,    47.11  C  1709.00     47.11   1709.63     46.48   1709.63     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1709.63,    68.36  C  1709.63     67.57   1709.00     66.94   1708.21     66.94  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1708.21,    66.94  C  1707.43     66.94   1706.80     67.57   1706.80     68.36  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1706.80,    68.36  C  1706.80     69.14   1707.43     69.77   1708.21     69.77  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M  1708.21,    69.77  C  1709.00     69.77   1709.63     69.14   1709.63     68.36  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1706.09,    95.27  C  1703.74     95.27   1701.84     97.17   1701.84     99.52  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1710.34,   103.77  C  1712.69    103.77   1714.59    101.87   1714.59     99.52  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1701.84,    99.52  C  1701.84    101.87   1703.74    103.77   1706.09    103.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M  1714.59,    99.52  C  1714.59     97.17   1712.69     95.27   1710.34     95.27  "/>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M  1708.21,    90.37  L  1705.38,    87.54  L  1705.38,    91.79  L  1708.21,    94.62  L  1711.05,    91.79  L  1711.05,    87.54  L  1708.21,    90.37  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1695.47,    35.78  L  1695.47,    78.27  L  1720.96,    78.27  L  1720.96,    35.78  L  1695.47,    35.78  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1702.03  86.47 )">2</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1704.24  101.49 )">3C</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1694.61  101.49 )">55</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1703.0  32.08 )">(IG)</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1724.64  56.17 )">5A <tspan x="0 " dy="6.0">MET</tspan></text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="25" ewd:code="OE1">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   174.22,   282.80  L   169.97,   278.56  L   165.72,   282.80  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   174.22,   279.41  L   169.97,   275.16  L   165.72,   279.41  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  154.24  271.46 )">10</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="26" ewd:code="OE1">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   225.21,   279.41  L   220.96,   275.16  L   216.71,   279.41  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   225.21,   282.80  L   220.96,   278.56  L   216.71,   282.80  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  205.23  271.46 )">26</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="27" ewd:code="OE1">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   276.20,   282.80  L   271.95,   278.56  L   267.71,   282.80  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   276.20,   279.41  L   271.95,   275.16  L   267.71,   279.41  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  256.22  271.46 )">15</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="28" ewd:code="OE1">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   395.18,   588.75  L   390.93,   584.50  L   386.69,   588.75  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   395.18,   585.35  L   390.93,   581.10  L   386.69,   585.35  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  378.3  577.41 )">1</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="29" ewd:code="OE1">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   616.15,   189.32  L   611.90,   185.07  L   607.65,   189.32  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   616.15,   185.92  L   611.90,   181.67  L   607.65,   185.92  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  596.16  177.98 )">11</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="30" ewd:code="EL4">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1211.05,   245.41  L  1206.80,   241.16  L  1202.55,   245.41  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1211.05,   248.81  L  1206.80,   244.56  L  1202.55,   248.81  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1191.06  237.47 )">10</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="31" ewd:code="AE4">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1287.53,   444.28  L  1283.29,   440.03  L  1279.04,   444.28  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1287.53,   440.88  L  1283.29,   436.63  L  1279.04,   440.88  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1270.65  432.93 )">4</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="32" ewd:code="AE2">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1279.04,   222.18  L  1283.29,   226.43  L  1287.53,   222.18  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1287.53,   225.58  L  1283.29,   229.83  L  1279.04,   225.58  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1270.65  237.47 )">4</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="33" ewd:code="AE4">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1321.53,   444.28  L  1317.28,   440.03  L  1313.03,   444.28  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1321.53,   440.88  L  1317.28,   436.63  L  1313.03,   440.88  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1304.65  432.93 )">3</text>
+	</g>
+	<g ewd:figtype="w2w" ewd:figID="34" ewd:code="AE2">
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1313.03,   222.18  L  1317.28,   226.43  L  1321.53,   222.18  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M  1321.53,   225.58  L  1317.28,   229.83  L  1313.03,   225.58  "/>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1304.65  237.47 )">5</text>
+	</g>
+	<g ewd:figtype="gp" ewd:figID="35" ewd:code="EA">
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   271.95,   697.25  L   271.95,   701.50  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   263.46,   701.50  L   280.45,   701.50  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   267.71,   704.33  L   276.20,   704.33  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   269.12,   707.17  L   274.79,   707.17  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   270.54,   710.00  L   273.37,   710.00  "/>
+	</g>
+	<g ewd:figtype="gp" ewd:figID="36" ewd:code="EB">
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   389.52,   710.00  L   392.35,   710.00  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   388.10,   707.17  L   393.77,   707.17  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   386.69,   704.33  L   395.18,   704.33  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   382.44,   701.50  L   399.43,   701.50  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   390.93,   697.25  L   390.93,   701.50  "/>
+	</g>
+	<g ewd:figtype="gp" ewd:figID="37" ewd:code="EB">
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   926.34,   701.50  L   943.34,   701.50  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   932.01,   707.17  L   937.68,   707.17  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   930.59,   704.33  L   939.09,   704.33  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   933.43,   710.00  L   936.26,   710.00  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   934.84,   697.25  L   934.84,   701.50  "/>
+	</g>
+	<g ewd:figtype="gp" ewd:figID="38" ewd:code="EA">
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   975.92,   710.00  L   978.75,   710.00  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   973.09,   704.33  L   981.59,   704.33  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   974.50,   707.17  L   980.17,   707.17  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   968.84,   701.50  L   985.83,   701.50  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   977.34,   697.25  L   977.34,   701.50  "/>
+	</g>
+	<g ewd:figtype="gp" ewd:figID="39" ewd:code="ED">
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1746.46,   704.33  L  1754.96,   704.33  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1749.29,   710.00  L  1752.12,   710.00  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1747.87,   707.17  L  1753.54,   707.17  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1742.21,   701.50  L  1759.21,   701.50  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1750.71,   697.25  L  1750.71,   701.50  "/>
+	</g>
+	<g ewd:figtype="gp" ewd:figID="40" ewd:code="ED">
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  2014.16,   697.25  L  2014.16,   701.50  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  2005.66,   701.50  L  2022.66,   701.50  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  2009.91,   704.33  L  2018.41,   704.33  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  2011.33,   707.17  L  2017.00,   707.17  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  2012.75,   710.00  L  2015.58,   710.00  "/>
+	</g>
+	<g ewd:figtype="annex" ewd:figID="51" ewd:code=" ">
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1121.81,   358.73  L  1121.81,   367.22  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1120.40,   375.72  L  1123.23,   375.72  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1117.56,   370.06  L  1126.06,   370.06  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1118.98,   372.89  L  1124.64,   372.89  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1113.31,   367.22  L  1130.31,   367.22  "/>
+	</g>
+	<g ewd:figtype="annex" ewd:figID="52" ewd:code=" ">
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1202.55,   370.06  L  1211.05,   370.06  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1198.30,   367.22  L  1215.30,   367.22  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1205.38,   375.72  L  1208.21,   375.72  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1206.80,   358.73  L  1206.80,   367.22  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M  1203.96,   372.89  L  1209.63,   372.89  "/>
+	</g>
+	<g ewd:code="1" ewd:figID="53" ewd:comment="" ewd:figtype="comment">
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1109.91  556.16 )" ewd:textID="1">* 1 : 带 TFT 显示屏</text>
+	</g>
+	<g ewd:code="2" ewd:figID="54" ewd:comment="" ewd:figtype="comment">
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1109.91  564.66 )" ewd:textID="2">* 2 : 不带 TFT 显示屏</text>
+	</g>
+	<path style="stroke-width: 1.42 ;&st7;  " d=" M   178.47,   273.74  L   169.97,   273.74  "/>
+	<path style="stroke-width: 1.42 ;&st7;  " d=" M   229.46,   273.74  L   220.96,   273.74  "/>
+	<path style="stroke-width: 1.42 ;&st7;  " d=" M   280.45,   273.74  L   271.95,   273.74  "/>
+	<path style="stroke-width: 1.42 ;&st7;  " d=" M   399.43,   579.69  L   390.93,   579.69  "/>
+	<path style="stroke-width: 1.42 ;&st7;  " d=" M   620.40,   180.26  L   611.90,   180.26  "/>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  268.26  636.63 )">W-B</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  608.2  141.58 )">GR</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  387.24  636.63 )">W-B</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  387.24  543.15 )">W-B</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  387.24  458.16 )">W-B</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  455.23  139.26 )">P</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  21.8  139.33 )">L</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  89.79  139.72 )">G</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  166.28  301.2 )">G</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  217.27  300.81 )">L</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  268.26  305.19 )">W-B</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  421.23  140.23 )">W</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  353.24  141.55 )">LG</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  268.26  143.72 )">W-B</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  217.27  139.33 )">L</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  166.28  139.72 )">G</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  608.2  226.57 )">GR</text>
+	<path style="stroke-width: 1.42 ;&st7;  " d=" M   399.43,   491.18  L   394.46,   486.20  "/>
+	<path style="stroke-width: 1.42 ;&st7;  " d=" M   382.44,   498.23  L   387.40,   503.20  "/>
+	<path style="stroke-width: 1.42 ;&st7;  " d=" M   394.46,   503.20  L   399.43,   498.23  "/>
+	<path style="stroke-width: 1.42 ;&st7;  " d=" M   387.40,   486.20  L   382.44,   491.18  "/>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  846.16  190.71 )">G</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  676.19  148.22 )">G</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  973.64  194.71 )">W-B</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  931.15  194.71 )">W-B</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  888.66  192.58 )">GR</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17; 635.79 104.67)">O3</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17; 642.61 104.67)" ewd:textID="16">滑动天窗控制<tspan x="0 " dy="6.0">ECU（滑动天窗主动齿轮分总成）</tspan><tspan x="0 " dy="6.0"></tspan></text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  387.24  139.37 )">R</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1279.59  377.3 )">L</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1313.58  378.19 )">W</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1521.82  635.48 )">W(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1520.5  652.48 )">LG(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1572.81  635.48 )">W(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1571.49  652.48 )">LG(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1279.59  190.71 )">G</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1313.58  191.22 )">W</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  2010.47  549.24 )">BR</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  2001.97  254.96 )">W</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  2001.97  135.98 )">W</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1925.48  135.01 )">P</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1186.39  24.98 )">E36(A)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1186.4  32.08 )" ewd:textID="11">主车身 ECU</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1933.98  548.16 )">W</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1967.97  549.48 )">LG</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1458.06  147.83 )">L</text>
+	<path style="stroke-width: 1.42 ;&st7;  " d=" M  1215.30,   239.75  L  1206.80,   239.75  "/>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1203.1  258.55 )">V</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1324.92  286.95 )">(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1290.92  286.95 )">(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1324.92  193.47 )">(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1324.92  584.4 )">(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1290.92  584.4 )">(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1324.92  482.42 )">(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1290.92  482.42 )">(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1290.92  193.47 )">(*1)</text>
+	<path style="stroke-width: 1.42 ;&st7;  " d=" M  1274.79,   231.25  L  1283.29,   231.25  "/>
+	<path style="stroke-width: 1.42 ;&st7;  " d=" M  1308.78,   231.25  L  1317.28,   231.25  "/>
+	<path style="stroke-width: 1.42 ;&st7;  " d=" M  1291.78,   435.21  L  1283.29,   435.21  "/>
+	<path style="stroke-width: 1.42 ;&st7;  " d=" M  1325.78,   435.21  L  1317.28,   435.21  "/>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  2013.3  138.23 )">(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1324.92  380.44 )">(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1290.92  380.44 )">(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1118.12  233.71 )">W</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1203.1  165.06 )">V</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1936.81  138.23 )">(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1279.59  284.2 )">G</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1313.58  284.7 )">W</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1279.59  583.47 )">LG</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1313.58  582.15 )">W</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1279.59  479.28 )">L</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1313.58  480.17 )">W</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  2013.3  257.21 )">(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1945.31  550.41 )">(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1979.31  550.41 )">(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  2021.8  550.41 )">(*1)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1707.35  558.91 )">(*2)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1758.34  558.91 )">(*2)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1639.36  558.91 )">(*2)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1715.85  244.46 )">(*2)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1639.36  244.46 )">(*2)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1639.36  138.23 )">(*2)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1696.02  557.98 )">LG</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1628.03  556.66 )">W</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1628.03  135.98 )">W</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1747.01  557.74 )">BR</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1628.03  242.21 )">W</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1704.52  241.24 )">P</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1520.5  618.48 )">LG(*2)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1521.82  601.49 )">W(*2)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1572.81  601.49 )">W(*2)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1571.49  618.48 )">LG(*2)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1350.53  618.48 )">LG(*2)</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1351.85  601.49 )">W(*2)</text>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="10" ewd:code="OE1" ewd:figID="25">
+		<path style="&st2;" d=" M   178.47,   265.24  L   161.47,   265.24  L   161.47,   273.74  L   178.47,   273.74  L   178.47,   265.24 "/>
+		<text style="&st8;" transform="matrix(&st16;  164.37  271.61 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">OE1</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="26" ewd:code="OE1" ewd:figID="26">
+		<path style="&st2;" d=" M   229.46,   265.24  L   212.46,   265.24  L   212.46,   273.74  L   229.46,   273.74  L   229.46,   265.24 "/>
+		<text style="&st8;" transform="matrix(&st16;  215.36  271.61 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">OE1</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="15" ewd:code="OE1" ewd:figID="27">
+		<path style="&st2;" d=" M   280.45,   265.24  L   263.46,   265.24  L   263.46,   273.74  L   280.45,   273.74  L   280.45,   265.24 "/>
+		<text style="&st8;" transform="matrix(&st16;  266.35  271.61 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">OE1</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="1" ewd:code="OE1" ewd:figID="28">
+		<path style="&st2;" d=" M   399.43,   571.19  L   382.44,   571.19  L   382.44,   579.69  L   399.43,   579.69  L   399.43,   571.19 "/>
+		<text style="&st8;" transform="matrix(&st16;  385.33  577.56 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">OE1</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="11" ewd:code="OE1" ewd:figID="29">
+		<path style="&st2;" d=" M   620.40,   171.76  L   603.40,   171.76  L   603.40,   180.26  L   620.40,   180.26  L   620.40,   171.76 "/>
+		<text style="&st8;" transform="matrix(&st16;  606.29  178.13 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">OE1</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="10" ewd:code="EL4" ewd:figID="30">
+		<path style="&st2;" d=" M  1215.30,   231.25  L  1198.30,   231.25  L  1198.30,   239.75  L  1215.30,   239.75  L  1215.30,   231.25 "/>
+		<text style="&st8;" transform="matrix(&st16;  1201.72  237.62 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">EL4</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="4" ewd:code="AE4" ewd:figID="31">
+		<path style="&st2;" d=" M  1291.78,   426.71  L  1274.79,   426.71  L  1274.79,   435.21  L  1291.78,   435.21  L  1291.78,   426.71 "/>
+		<text style="&st8;" transform="matrix(&st16;  1277.98  433.08 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">AE4</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="4" ewd:code="AE2" ewd:figID="32">
+		<path style="&st2;" d=" M  1291.78,   231.25  L  1274.79,   231.25  L  1274.79,   239.75  L  1291.78,   239.75  L  1291.78,   231.25 "/>
+		<text style="&st8;" transform="matrix(&st16;  1277.98  237.62 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">AE2</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="3" ewd:code="AE4" ewd:figID="33">
+		<path style="&st2;" d=" M  1325.78,   426.71  L  1308.78,   426.71  L  1308.78,   435.21  L  1325.78,   435.21  L  1325.78,   426.71 "/>
+		<text style="&st8;" transform="matrix(&st16;  1311.97  433.08 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">AE4</tspan></text>
+	</a>
+	<a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="5" ewd:code="AE2" ewd:figID="34">
+		<path style="&st2;" d=" M  1325.78,   231.25  L  1308.78,   231.25  L  1308.78,   239.75  L  1325.78,   239.75  L  1325.78,   231.25 "/>
+		<text style="&st8;" transform="matrix(&st16;  1311.97  237.62 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">AE2</tspan></text>
+	</a>
+	<a ewd:figtype="gp" style="cursor:pointer;" ewd:code="EA" ewd:figID="35">
+		<path style="&st2;" d=" M   261.33,   681.67  L   282.58,   681.67  L   271.95,   697.25  L   261.33,   681.67 "/>
+		<text style="&st8;" transform="matrix(&st16;  268.15  689.46 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">EA</tspan></text>
+	</a>
+	<a ewd:figtype="gp" style="cursor:pointer;" ewd:code="EB" ewd:figID="36">
+		<path style="&st2;" d=" M   380.31,   681.67  L   401.56,   681.67  L   390.93,   697.25  L   380.31,   681.67 "/>
+		<text style="&st8;" transform="matrix(&st16;  387.25  689.46 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">EB</tspan></text>
+	</a>
+	<a ewd:figtype="gp" style="cursor:pointer;" ewd:code="EB" ewd:figID="37">
+		<path style="&st2;" d=" M   924.22,   681.67  L   945.47,   681.67  L   934.84,   697.25  L   924.22,   681.67 "/>
+		<text style="&st8;" transform="matrix(&st16;  931.16  689.46 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">EB</tspan></text>
+	</a>
+	<a ewd:figtype="gp" style="cursor:pointer;" ewd:code="EA" ewd:figID="38">
+		<path style="&st2;" d=" M   966.71,   681.67  L   987.96,   681.67  L   977.34,   697.25  L   966.71,   681.67 "/>
+		<text style="&st8;" transform="matrix(&st16;  973.54  689.46 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">EA</tspan></text>
+	</a>
+	<a ewd:figtype="gp" style="cursor:pointer;" ewd:code="ED" ewd:figID="39">
+		<path style="&st2;" d=" M  1740.08,   681.67  L  1761.33,   681.67  L  1750.71,   697.25  L  1740.08,   681.67 "/>
+		<text style="&st8;" transform="matrix(&st16;  1746.83  689.46 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">ED</tspan></text>
+	</a>
+	<a ewd:figtype="gp" style="cursor:pointer;" ewd:code="ED" ewd:figID="40">
+		<path style="&st2;" d=" M  2003.54,   681.67  L  2024.79,   681.67  L  2014.16,   697.25  L  2003.54,   681.67 "/>
+		<text style="&st8;" transform="matrix(&st16;  2010.29  689.46 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">ED</tspan></text>
+	</a>
+	<a ewd:figtype="sp" style="cursor:pointer;" ewd:code="SP31" ewd:figID="41">
+		<path style="&st2;" d=" M   386.69,   486.20  L   395.18,   486.20  L   399.43,   490.45  L   399.43,   498.95  L   395.18,   503.20  L   386.69,   503.20  L   382.44,   498.95  L   382.44,   490.45  L   386.69,   486.20 "/>
+	</a>
+</g>
+</svg>

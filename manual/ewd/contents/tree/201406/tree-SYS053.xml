@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS053" code="E55,E59" type="conn" figID="7">
+    <name>组合仪表总成</name>
+  </text>
+  <text ewd="SYS053" code="E15" type="conn" figID="10">
+    <name>大灯变光器开关总成</name>
+  </text>
+  <text ewd="SYS053" code="E36" type="conn" figID="1">
+    <name>主车身 ECU</name>
+  </text>
+  <text ewd="SYS053" code="E71" type="conn" figID="5">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS053" code="L54,L55" type="conn" figID="2">
+    <name>7 号接线连接器</name>
+  </text>
+  <text ewd="SYS053" code="L28" type="conn" figID="11">
+    <name>左后灯总成</name>
+  </text>
+  <text ewd="SYS053" code="FUSE5" type="fuse" figID="33">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS053" code="FUSE56" type="fuse" figID="37">
+    <name>10A TAIL</name>
+  </text>
+  <text ewd="SYS053" code="FUSE36" type="fuse" figID="38">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS053" code="FUSE29" type="fuse" figID="32">
+    <name>40A H-LP-MAIN</name>
+  </text>
+  <text ewd="SYS053" code="FUSE43" type="fuse" figID="35">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS053" code="FUSE47" type="fuse" figID="34">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS053" code="FUSE48" type="fuse" figID="36">
+    <name>7.5A FR FOG</name>
+  </text>
+  <text ewd="SYS053" code="FUSE53" type="fuse" figID="39">
+    <name>7.5A RR FOG</name>
+  </text>
+  <text ewd="SYS053" code="EA" type="gp" figID="28">
+    <name />
+  </text>
+  <text ewd="SYS053" code="EB" type="gp" figID="27">
+    <name />
+  </text>
+  <text ewd="SYS053" code="ED" type="gp" figID="24,25">
+    <name />
+  </text>
+  <text ewd="SYS053" code="LA" type="gp" figID="26">
+    <name />
+  </text>
+  <text ewd="SYS053" code="1" type="jb" figID="20">
+    <name />
+  </text>
+  <text ewd="SYS053" code="3" type="jb" figID="17,18,19,21,22,23">
+    <name />
+  </text>
+  <text ewd="SYS053" code="1" type="rb" figID="4">
+    <name />
+  </text>
+  <text ewd="SYS053" code="4" type="rb" figID="3">
+    <name />
+  </text>
+  <text ewd="SYS053" code="FUSE5" type="rb" figID="6">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS053" code="FUSE36" type="rb" figID="9">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS053" code="FUSE29" type="rb" figID="8">
+    <name>40A H-LP-MAIN</name>
+  </text>
+  <text ewd="SYS053" code="SP19" type="sp" figID="29">
+    <name />
+  </text>
+  <text ewd="SYS053" code="SP21" type="sp" figID="30">
+    <name />
+  </text>
+  <text ewd="SYS053" code="SP37" type="sp" figID="31">
+    <name />
+  </text>
+</EwdTree>

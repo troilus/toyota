@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <root id="intro">
+    <name>概述</name>
+  </root>
+  <root id="system">
+    <name>系统电路</name>
+  </root>
+  <root id="routing">
+    <name>位置和线路</name>
+  </root>
+  <root id="fuselist">
+    <name>保险丝列表</name>
+  </root>
+  <root id="connlist">
+    <name>连接器列表</name>
+  </root>
+  <root id="overall">
+    <name>总体电路图</name>
+  </root>
+</EwdTree>

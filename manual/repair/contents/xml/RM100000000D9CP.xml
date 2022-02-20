@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024007">
+<name>仪表/显示屏</name>
+<ttl id="_0116345">
+<name>仪表系统</name>
+<para category="C" id="RM100000000D9CP">
+<dtccode>U0100</dtccode>
+<dtcname>与 ECM/PCM“A”失去通信</dtcname>
+<dtccode>U0129</dtccode>
+<dtcname>与制动系统控制模块失去通信</dtcname>
+<dtccode>U0131</dtccode>
+<dtcname>与动力转向控制模块失去通信</dtcname>
+<dtccode>U0151</dtccode>
+<dtcname>与约束系统控制模块失去通信</dtcname>
+<dtccode>U0163</dtccode>
+<dtcname>与导航控制模块失去通信</dtcname>
+<subpara category="03" id="RM100000000D9CP_01">
+<name>描述</name>
+<content5>
+<ptxt>组合仪表总成通过 CAN 通信系统与 ECM、制动执行器总成（防滑控制 ECU）、动力转向 ECU 总成、空气囊传感器总成和导航接收器总成通信。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="6">
+<colspec colname="1" colwidth="1.18in"/>
+<colspec colname="2" colwidth="1.18in"/>
+<colspec colname="3" colwidth="1.18in"/>
+<colspec colname="4" colwidth="1.18in"/>
+<colspec colname="5" colwidth="1.18in"/>
+<colspec colname="6" colwidth="1.18in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>U0100</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与 ECM/PCM“A”失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>IG 电压为 9.5 V 或更高且检测到以下条件时：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>与 ECM 无通信持续 2 秒或更长时间</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>ECM</ptxt>
+</item>
+<item>
+<ptxt>CAN 通信系统</ptxt>
+</item>
+<item>
+<ptxt>组合仪表总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>U0129</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与制动系统控制模块失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>IG 电压为 9.5 V 或更高且检测到以下条件时：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>与制动执行器总成（防滑控制 ECU）无通信持续 2 秒或更长时间</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>制动执行器总成（防滑控制 ECU）</ptxt>
+</item>
+<item>
+<ptxt>CAN 通信系统</ptxt>
+</item>
+<item>
+<ptxt>组合仪表总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>U0131</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与动力转向控制模块失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>IG 电压为 9.5 V 或更高且检测到以下条件时：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>与动力转向 ECU 总成无通信持续 3 秒或更长时间</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>动力转向 ECU 总成</ptxt>
+</item>
+<item>
+<ptxt>CAN 通信系统</ptxt>
+</item>
+<item>
+<ptxt>组合仪表总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>U0151</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与约束系统控制模块失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>IG 电压为 9.5 V 或更高且检测到以下条件时：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>与空气囊传感器总成无通信持续 10 秒或更长时间</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>空气囊传感器总成</ptxt>
+</item>
+<item>
+<ptxt>CAN 通信系统</ptxt>
+</item>
+<item>
+<ptxt>组合仪表总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>U0163</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与导航控制模块失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>IG 电压为 9.5 V 或更高且检测到以下条件时：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>与导航接收器总成无通信持续 3 秒或更长时间</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>导航接收器总成</ptxt>
+</item>
+<item>
+<ptxt>CAN 通信系统</ptxt>
+</item>
+<item>
+<ptxt>组合仪表总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="remark">
+<ptxt>多信息显示屏（彩色型）</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D9CP_07">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D9CP_07_0001">
+<testtitle>检查 CAN 通信系统</testtitle>
+<content6>
+<test1>
+<ptxt>检查是否输出 CAN 通信系统 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UU" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Combination Meter &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="122"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">122</app-param>
+<app-param name="ecu-name">Combination Meter</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>输出 CAN 通信系统 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>未输出 CAN 通信系统 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>转至 CAN 通信系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="end" cellposition="2-2">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

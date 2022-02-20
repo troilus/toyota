@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS124" code="E70" type="conn" figID="1">
+    <name>3 号接线连接器</name>
+  </text>
+  <text ewd="SYS124" code="E71" type="conn" figID="2,4">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS124" code="L56" type="conn" figID="3">
+    <name>8 号接线连接器</name>
+  </text>
+  <text ewd="SYS124" code="AA" type="gp" figID="19">
+    <name />
+  </text>
+  <text ewd="SYS124" code="AB" type="gp" figID="20">
+    <name />
+  </text>
+  <text ewd="SYS124" code="AC" type="gp" figID="22">
+    <name />
+  </text>
+  <text ewd="SYS124" code="AD" type="gp" figID="25">
+    <name />
+  </text>
+  <text ewd="SYS124" code="AE" type="gp" figID="27">
+    <name />
+  </text>
+  <text ewd="SYS124" code="AF" type="gp" figID="26">
+    <name />
+  </text>
+  <text ewd="SYS124" code="BA" type="gp" figID="28">
+    <name />
+  </text>
+  <text ewd="SYS124" code="BB" type="gp" figID="29">
+    <name />
+  </text>
+  <text ewd="SYS124" code="CA" type="gp" figID="21">
+    <name />
+  </text>
+  <text ewd="SYS124" code="CB" type="gp" figID="24">
+    <name />
+  </text>
+  <text ewd="SYS124" code="EA" type="gp" figID="30">
+    <name />
+  </text>
+  <text ewd="SYS124" code="EB" type="gp" figID="31">
+    <name />
+  </text>
+  <text ewd="SYS124" code="EC" type="gp" figID="32">
+    <name />
+  </text>
+  <text ewd="SYS124" code="ED" type="gp" figID="33">
+    <name />
+  </text>
+  <text ewd="SYS124" code="LA" type="gp" figID="34">
+    <name />
+  </text>
+  <text ewd="SYS124" code="LB" type="gp" figID="38">
+    <name />
+  </text>
+  <text ewd="SYS124" code="LC" type="gp" figID="35">
+    <name />
+  </text>
+  <text ewd="SYS124" code="LD" type="gp" figID="36">
+    <name />
+  </text>
+  <text ewd="SYS124" code="LE" type="gp" figID="37">
+    <name />
+  </text>
+  <text ewd="SYS124" code="LF" type="gp" figID="39">
+    <name />
+  </text>
+  <text ewd="SYS124" code="QA" type="gp" figID="23">
+    <name />
+  </text>
+  <text ewd="SYS124" code="3" type="jb" figID="6">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP2" type="sp" figID="41,42,43,44">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP3" type="sp" figID="46,47,48,49,50">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP4" type="sp" figID="52,53,54">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP6" type="sp" figID="45">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP7" type="sp" figID="40">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP8" type="sp" figID="51">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP9" type="sp" figID="55">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP10" type="sp" figID="67,68">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP23" type="sp" figID="58">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP24" type="sp" figID="56,57">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP29" type="sp" figID="69,70">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP30" type="sp" figID="61,62,63,64">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP31" type="sp" figID="65">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP34" type="sp" figID="66">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP37" type="sp" figID="71,72,73">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP44" type="sp" figID="59">
+    <name />
+  </text>
+  <text ewd="SYS124" code="SP45" type="sp" figID="60">
+    <name />
+  </text>
+  <text ewd="SYS124" code="gL1" type="w2w" figID="15">
+    <name>中央刹车灯芯线总成和地板线束</name>
+  </text>
+  <text ewd="SYS124" code="AE3" type="w2w" figID="7">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS124" code="AE4" type="w2w" figID="12">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS124" code="BA2" type="w2w" figID="8">
+    <name>发动机线束和发动机室主线束</name>
+  </text>
+  <text ewd="SYS124" code="LT1" type="w2w" figID="17">
+    <name>地板线束和前排左侧座椅线束</name>
+  </text>
+  <text ewd="SYS124" code="HE3" type="w2w" figID="10">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS124" code="GE3" type="w2w" figID="13">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS124" code="EF1" type="w2w" figID="14">
+    <name>仪表板线束和立体声部件 2 号线束</name>
+  </text>
+  <text ewd="SYS124" code="JL1" type="w2w" figID="16">
+    <name>后门 1 号线束和地板线束</name>
+  </text>
+  <text ewd="SYS124" code="OE1" type="w2w" figID="9,11">
+    <name>车顶 1 号线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS124" code="KL1" type="w2w" figID="18">
+    <name>后门 2 号线束和地板线束</name>
+  </text>
+</EwdTree>

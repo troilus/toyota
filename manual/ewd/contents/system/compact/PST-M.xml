@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE compact-defs SYSTEM "../../../dtd/compact.dtd">
+<compact-defs pubno="EM3140CG" ver="2.1.2.6F">
+    <part code="T4" figID="1" type="conn">
+        <path d="M 577.90, 231.91 L 688.38, 231.91 L 688.38, 315.88 L 577.90, 315.88 L 577.90, 231.91 "/>
+    </part>
+    <part code="T3" figID="2" type="conn">
+        <path d="M 33.99, 231.89 L 492.92, 231.89 L 492.92, 383.87 L 33.99, 383.87 L 33.99, 231.89 "/>
+    </part>
+    <part code="W2" figID="3" type="conn">
+        <path d="M 620.18, 424.71 L 653.70, 424.71 L 653.70, 445.71 L 620.18, 445.71 L 620.18, 424.71 "/>
+    </part>
+    <part code="T2" figID="4" type="conn">
+        <path d="M 416.21, 424.71 L 449.73, 424.71 L 449.73, 445.71 L 416.21, 445.71 L 416.21, 424.71 "/>
+    </part>
+    <part code="T1" figID="5" type="conn">
+        <path d="M 314.61, 424.71 L 348.15, 424.71 L 348.15, 445.71 L 314.61, 445.71 L 314.61, 424.71 "/>
+    </part>
+    <part code="W1" figID="6" type="conn">
+        <path d="M 93.65, 526.70 L 127.19, 526.70 L 127.19, 547.69 L 93.65, 547.69 L 93.65, 526.70 "/>
+    </part>
+    <part code="T6" figID="7" type="conn">
+        <path d="M 220.96, 435.87 L 237.96, 435.87 L 237.96, 468.85 L 220.96, 468.85 L 220.96, 435.87 "/>
+    </part>
+    <part code="3" figID="8" type="jb">
+        <path d="M 42.49, 27.25 L 101.98, 27.25 L 101.98, 105.77 L 42.49, 105.77 L 42.49, 27.25 "/>
+    </part>
+    <part code="LT1" figID="9" type="w2w">
+        <path d="M 47.54, 161.26 L 67.99, 161.26 L 67.99, 180.82 L 47.54, 180.82 L 47.54, 161.26 "/>
+    </part>
+    <part code="WT1" figID="10" type="w2w">
+        <path d="M 55.66, 417.65 L 76.49, 417.65 L 76.49, 437.21 L 55.66, 437.21 L 55.66, 417.65 "/>
+    </part>
+    <part code="WT1" figID="11" type="w2w">
+        <path d="M 132.19, 417.65 L 152.97, 417.65 L 152.97, 437.21 L 132.19, 437.21 L 132.19, 417.65 "/>
+    </part>
+    <part code="LT1" figID="12" type="w2w">
+        <path d="M 217.18, 528.13 L 237.96, 528.13 L 237.96, 547.69 L 217.18, 547.69 L 217.18, 528.13 "/>
+    </part>
+    <part code="WT1" figID="13" type="w2w">
+        <path d="M 590.98, 358.16 L 611.90, 358.16 L 611.90, 377.72 L 590.98, 377.72 L 590.98, 358.16 "/>
+    </part>
+    <part code="WT1" figID="14" type="w2w">
+        <path d="M 659.44, 358.16 L 679.89, 358.16 L 679.89, 377.72 L 659.44, 377.72 L 659.44, 358.16 "/>
+    </part>
+    <part code="LB" figID="15" type="gp">
+        <path d="M 218.84, 679.67 L 240.08, 679.67 L 240.08, 710.00 L 218.84, 710.00 L 218.84, 679.67 "/>
+    </part>
+</compact-defs>

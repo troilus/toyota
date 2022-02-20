@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <note ewd="WIRE006" code="A3" type="conn">
+    <name>加速踏板传感器总成</name>
+  </note>
+  <note ewd="WIRE006" code="A4" type="conn">
+    <name>离合器起动开关总成</name>
+  </note>
+  <note ewd="WIRE006" code="A5" type="conn">
+    <name>离合器起动开关总成</name>
+  </note>
+  <note ewd="WIRE006" code="A39" type="conn">
+    <name>1 号 CAN 接线连接器</name>
+  </note>
+  <note ewd="WIRE006" code="A37" type="conn">
+    <name>1 号接线连接器</name>
+  </note>
+  <note ewd="WIRE006" code="A38" type="conn">
+    <name>2 号接线连接器</name>
+  </note>
+  <note ewd="WIRE006" code="A27" type="conn">
+    <name>动力转向 ECU 总成</name>
+  </note>
+  <note ewd="WIRE006" code="A28" type="conn">
+    <name>动力转向 ECU 总成</name>
+  </note>
+  <note ewd="WIRE006" code="A11" type="conn">
+    <name>快速加热器总成</name>
+  </note>
+  <note ewd="WIRE006" code="A12" type="conn">
+    <name>快速加热器总成</name>
+  </note>
+  <note ewd="WIRE006" code="A1" type="conn">
+    <name>刹车灯开关总成</name>
+  </note>
+  <note ewd="WIRE006" code="A2" type="conn">
+    <name>刹车灯开关总成</name>
+  </note>
+  <note ewd="WIRE006" code="3A" type="jbc">
+    <name>发动机室主线束和仪表板接线盒总成</name>
+  </note>
+  <note ewd="WIRE006" code="3B" type="jbc">
+    <name>发动机室主线束和仪表板接线盒总成</name>
+  </note>
+  <note ewd="WIRE006" code="AL1" type="w2w">
+    <name>发动机室主线束和地板线束</name>
+  </note>
+  <note ewd="WIRE006" code="AL2" type="w2w">
+    <name>发动机室主线束和地板线束</name>
+  </note>
+  <note ewd="WIRE006" code="AL3" type="w2w">
+    <name>发动机室主线束和地板线束</name>
+  </note>
+  <note ewd="WIRE006" code="AE1" type="w2w">
+    <name>发动机室主线束和仪表板线束</name>
+  </note>
+  <note ewd="WIRE006" code="AE2" type="w2w">
+    <name>发动机室主线束和仪表板线束</name>
+  </note>
+  <note ewd="WIRE006" code="AE3" type="w2w">
+    <name>发动机室主线束和仪表板线束</name>
+  </note>
+  <note ewd="WIRE006" code="AE4" type="w2w">
+    <name>发动机室主线束和仪表板线束</name>
+  </note>
+  <note ewd="WIRE006" code="AE5" type="w2w">
+    <name>发动机室主线束和仪表板线束</name>
+  </note>
+  <note ewd="WIRE006" code="AE6" type="w2w">
+    <name>发动机室主线束和仪表板线束</name>
+  </note>
+  <note ewd="WIRE006" code="AE7" type="w2w">
+    <name>发动机室主线束和仪表板线束</name>
+  </note>
+  <note ewd="WIRE006" code="AE8" type="w2w">
+    <name>发动机室主线束和仪表板线束</name>
+  </note>
+</EwdTree>

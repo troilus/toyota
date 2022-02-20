@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS018" code="E12" type="conn" figID="1">
+    <name>钥匙互锁电磁阀</name>
+  </text>
+  <text ewd="SYS018" code="A38" type="conn" figID="2">
+    <name>2 号接线连接器</name>
+  </text>
+  <text ewd="SYS018" code="E7,E8" type="conn" figID="5">
+    <name>换档锁止控制 ECU（变速器地板式换档总成）</name>
+  </text>
+  <text ewd="SYS018" code="A1" type="conn" figID="4">
+    <name>刹车灯开关总成</name>
+  </text>
+  <text ewd="SYS018" code="A2" type="conn" figID="3">
+    <name>刹车灯开关总成</name>
+  </text>
+  <text ewd="SYS018" code="FUSE40" type="fuse" figID="14">
+    <name>5A SFT LOCK-ACC</name>
+  </text>
+  <text ewd="SYS018" code="FUSE46" type="fuse" figID="15">
+    <name>7.5A ECU-IG NO.3</name>
+  </text>
+  <text ewd="SYS018" code="FUSE54" type="fuse" figID="16">
+    <name>7.5A STOP</name>
+  </text>
+  <text ewd="SYS018" code="EB" type="gp" figID="11,12">
+    <name />
+  </text>
+  <text ewd="SYS018" code="3" type="jb" figID="6,7,8">
+    <name />
+  </text>
+  <text ewd="SYS018" code="SP11" type="sp" figID="13">
+    <name />
+  </text>
+  <text ewd="SYS018" code="AE4" type="w2w" figID="10">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS018" code="AE5" type="w2w" figID="9">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+</EwdTree>

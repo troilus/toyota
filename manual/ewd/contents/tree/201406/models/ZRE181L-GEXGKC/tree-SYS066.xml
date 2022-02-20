@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS066" code="E55,E59" type="conn" figID="1,2">
+    <name>组合仪表总成</name>
+  </text>
+  <text ewd="SYS066" code="E53" type="conn" figID="8">
+    <name>危险警告信号开关总成</name>
+  </text>
+  <text ewd="SYS066" code="A7" type="conn" figID="4">
+    <name>左侧大灯总成</name>
+  </text>
+  <text ewd="SYS066" code="A17" type="conn" figID="5">
+    <name>右侧大灯总成</name>
+  </text>
+  <text ewd="SYS066" code="E15" type="conn" figID="7">
+    <name>大灯变光器开关总成</name>
+  </text>
+  <text ewd="SYS066" code="E71" type="conn" figID="3">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS066" code="L56" type="conn" figID="6">
+    <name>8 号接线连接器</name>
+  </text>
+  <text ewd="SYS066" code="H2,H3" type="conn" figID="11">
+    <name>左侧车外后视镜总成</name>
+  </text>
+  <text ewd="SYS066" code="G2,G3" type="conn" figID="12">
+    <name>右侧车外后视镜总成</name>
+  </text>
+  <text ewd="SYS066" code="L9" type="conn" figID="10">
+    <name>左后组合灯总成</name>
+  </text>
+  <text ewd="SYS066" code="L5" type="conn" figID="9">
+    <name>右后组合灯总成</name>
+  </text>
+  <text ewd="SYS066" code="FUSE6" type="fuse" figID="46,49">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS066" code="FUSE17" type="fuse" figID="44,47">
+    <name>10A TURN&amp;HAZ</name>
+  </text>
+  <text ewd="SYS066" code="FUSE39" type="fuse" figID="45,48">
+    <name>5A MET</name>
+  </text>
+  <text ewd="SYS066" code="AA" type="gp" figID="34">
+    <name />
+  </text>
+  <text ewd="SYS066" code="AC" type="gp" figID="35">
+    <name />
+  </text>
+  <text ewd="SYS066" code="EA" type="gp" figID="33">
+    <name />
+  </text>
+  <text ewd="SYS066" code="EC" type="gp" figID="32">
+    <name />
+  </text>
+  <text ewd="SYS066" code="ED" type="gp" figID="37,38,39">
+    <name />
+  </text>
+  <text ewd="SYS066" code="LA" type="gp" figID="36">
+    <name />
+  </text>
+  <text ewd="SYS066" code="3" type="jb" figID="21,22,23,24,25">
+    <name />
+  </text>
+  <text ewd="SYS066" code="FUSE6" type="rb" figID="13,16">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS066" code="FUSE17" type="rb" figID="14,15">
+    <name>10A TURN&amp;HAZ</name>
+  </text>
+  <text ewd="SYS066" code="SP2" type="sp" figID="42">
+    <name />
+  </text>
+  <text ewd="SYS066" code="SP4" type="sp" figID="43">
+    <name />
+  </text>
+  <text ewd="SYS066" code="SP29" type="sp" figID="40">
+    <name />
+  </text>
+  <text ewd="SYS066" code="SP30" type="sp" figID="41">
+    <name />
+  </text>
+  <text ewd="SYS066" code="AE3" type="w2w" figID="28,31">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS066" code="HE1" type="w2w" figID="29">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS066" code="HE3" type="w2w" figID="30">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS066" code="GE1" type="w2w" figID="26">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS066" code="GE3" type="w2w" figID="27">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+</EwdTree>

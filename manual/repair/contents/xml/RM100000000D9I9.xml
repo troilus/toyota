@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_56">
+<name>音频/视频/车载通信系统</name>
+<section id="_023998">
+<name>音频/视频系统</name>
+<ttl id="_0116391">
+<name>音频和视频系统（无线电收音机和显示屏型）</name>
+<para category="J" id="RM100000000D9I9">
+<dtccode/>
+<dtcname>‎‎‎‏‏‏无法听到 MirrorLink 声‏‏音</dtcname>
+<subpara category="01" id="RM100000000D9I9_01">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D9I9_01_0001">
+<testtitle>检查智能手机设定</testtitle>
+<content6>
+<test1>
+<ptxt>检查“MirrorLink”兼容的智能手机设定。</ptxt>
+<test2>
+<ptxt>检查并确认音量未设定为“0”。</ptxt>
+</test2>
+<test2>
+<ptxt>检查并确认静音开关关闭。</ptxt>
+</test2>
+<test2>
+<ptxt>检查并确认静音模式关闭。</ptxt>
+</test2>
+</test1>
+<test1>
+<ptxt>检查并确认可听到“MirrorLink”兼容的智能手机的声音。</ptxt>
+<atten4>
+<ptxt>重启智能手机可能会使应用操作恢复正常。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>可听到“MirrorLink”兼容的智能手机的声音。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D9I9_01_0002"/>
+</result>
+<result cellposition="1-4" label="2">
+<action actiontype="end" cellposition="2-4">
+<actiontitle>维修或更换智能手机</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D9I9_01_0002">
+<testtitle>检查智能手机</testtitle>
+<content6>
+<test1>
+<ptxt>“MirrorLink”兼容的应用正在运行时和从主机上断开时，检查是否可听到“MirrorLink”兼容的智能手机的声音。</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>可以听到声音。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>无法听到声音。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>重启智能手机可能会使应用操作恢复正常。</ptxt>
+</atten4>
+</test1>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D9I9_01_0005"/>
+</result>
+<result cellposition="2-3" label="2">
+<action actiontype="end" cellposition="3-3">
+<actiontitle>重启“MirrorLink”兼容的应用</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D9I9_01_0005">
+<testtitle>检查应用运行状态</testtitle>
+<content6>
+<test1>
+<ptxt>在“MirrorLink”兼容的应用运行的情况下，将智能手机连接至主机，并检查是否可使用“MirrorLink”功能且是否可听到声音。</ptxt>
+<atten4>
+<ptxt>如果应用未运行，则可能无法启动“MirrorLink”功能。</ptxt>
+</atten4>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>可以听到声音。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>无法听到声音。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="end" cellposition="4-1">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="3-2" label="2">
+<action actiontype="end" cellposition="4-2">
+<actiontitle>更换无线电收音机和显示屏接收器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD8R" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

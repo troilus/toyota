@@ -1,0 +1,4380 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">发动机/混合动力系统</span>
+<span class="globalSection">_023958</span>
+<span class="globalSectionName">2ZR-FE 发动机控制系统</span>
+<span class="globalTitle">_0117858</span>
+<span class="globalTitleName">SFI 系统</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>2ZR-FE 发动机控制系统&nbsp;&nbsp;SFI 系统&nbsp;&nbsp;P0300&nbsp;&nbsp;检测到任意/多个气缸缺火&nbsp;&nbsp;P0301&nbsp;&nbsp;检测到 1 号气缸缺火&nbsp;&nbsp;P0302&nbsp;&nbsp;检测到 2 号气缸缺火&nbsp;&nbsp;P0303&nbsp;&nbsp;检测到 3 号气缸缺火&nbsp;&nbsp;P0304&nbsp;&nbsp;检测到 4 号气缸缺火&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DERX_01" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<p>发动机缺火时，高浓度碳氢化合物 (HC) 进入废气中。极高浓度的碳氢化合物会导致废气排放量增加。极高浓度的碳氢化合物也可能使三元催化转化器的温度升高，从而导致其损坏。为了避免排放量的增加以及高温造成的损坏，ECM 将监测发动机缺火数。三元催化转化器的温度达到热衰退点时，ECM 会使 MIL 闪烁。ECM 利用凸轮轴位置传感器和曲轴位置传感器监测缺火情况。凸轮轴位置传感器用于识别缺火的气缸，而曲轴位置传感器则用于测量曲轴转速的变化。曲轴转速变化超出预定阈值时，将统计缺火数。如果缺火数超过了阈值，并可能导致排放控制系统性能恶化，ECM 将点亮 MIL 并存储 DTC。
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:14%">
+<col style="width:25%">
+<col style="width:29%">
+<col style="width:10%">
+<col style="width:10%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">存储器
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P0300
+</td>
+<td class="alleft">检测到任意/多个气缸缺火
+</td>
+<td class="alleft">多个气缸同时出现缺火，并满足以下任一条件（双程检测逻辑）：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发生可能损坏三元催化转化器的缺火（立即检测时 MIL 闪烁）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发生排放恶化缺火（MIL 点亮）。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机线束开路或短路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>连接器连接
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>真空软管连接
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>喷油器总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>燃油压力
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>质量空气流量计分总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机冷却液温度传感器
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>压缩压力
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>气门正时
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>PCV 阀和软管
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>PCV 软管连接
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进气系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">点亮/闪烁*
+<br>
+*：检测到催化剂损坏缺火时，MIL 闪烁。
+</td>
+<td class="alleft">存储 DTC
+</td>
+</tr>
+<tr>
+<td class="alleft">P0301
+</td>
+<td class="alleft">检测到 1 号气缸缺火
+</td>
+<td class="alleft">1 号气缸出现缺火，并满足以下任一条件（双程检测逻辑）：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发生可能损坏三元催化转化器的缺火（立即检测时 MIL 闪烁）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发生排放恶化缺火（MIL 点亮）。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机线束开路或短路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>连接器连接
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>真空软管连接
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>喷油器总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>燃油压力
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>质量空气流量计分总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机冷却液温度传感器
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>压缩压力
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>气门正时
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>PCV 阀和软管
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>PCV 软管连接
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进气系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">点亮/闪烁*
+<br>
+*：检测到催化剂损坏缺火时，MIL 闪烁。
+</td>
+<td class="alleft">存储 DTC
+</td>
+</tr>
+<tr>
+<td class="alleft">P0302
+</td>
+<td class="alleft">检测到 2 号气缸缺火
+</td>
+<td class="alleft">2 号气缸出现缺火，并满足以下任一条件（双程检测逻辑）：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发生可能损坏三元催化转化器的缺火（立即检测时 MIL 闪烁）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发生排放恶化缺火（MIL 点亮）。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机线束开路或短路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>连接器连接
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>真空软管连接
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>喷油器总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>燃油压力
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>质量空气流量计分总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机冷却液温度传感器
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>压缩压力
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>气门正时
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>PCV 阀和软管
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>PCV 软管连接
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进气系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">点亮/闪烁*
+<br>
+*：检测到催化剂损坏缺火时，MIL 闪烁。
+</td>
+<td class="alleft">存储 DTC
+</td>
+</tr>
+<tr>
+<td class="alleft">P0303
+</td>
+<td class="alleft">检测到 3 号气缸缺火
+</td>
+<td class="alleft">3 号气缸出现缺火，并满足以下任一条件（双程检测逻辑）：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发生可能损坏三元催化转化器的缺火（立即检测时 MIL 闪烁）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发生排放恶化缺火（MIL 点亮）。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机线束开路或短路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>连接器连接
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>真空软管连接
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>喷油器总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>燃油压力
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>质量空气流量计分总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机冷却液温度传感器
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>压缩压力
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>气门正时
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>PCV 阀和软管
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>PCV 软管连接
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进气系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">点亮/闪烁*
+<br>
+*：检测到催化剂损坏缺火时，MIL 闪烁。
+</td>
+<td class="alleft">存储 DTC
+</td>
+</tr>
+<tr>
+<td class="alleft">P0304
+</td>
+<td class="alleft">检测到 4 号气缸缺火
+</td>
+<td class="alleft">4 号气缸出现缺火，并满足以下任一条件（双程检测逻辑）：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发生可能损坏三元催化转化器的缺火（立即检测时 MIL 闪烁）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发生排放恶化缺火（MIL 点亮）。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机线束开路或短路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>连接器连接
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>真空软管连接
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>喷油器总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>燃油压力
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>质量空气流量计分总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机冷却液温度传感器
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>压缩压力
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>气门正时
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>PCV 阀和软管
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>PCV 软管连接
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进气系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">点亮/闪烁*
+<br>
+*：检测到催化剂损坏缺火时，MIL 闪烁。
+</td>
+<td class="alleft">存储 DTC
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>如果气缸缺火 DTC 是随机存储的，但未存储 DTC P0300，则表示在不同时间、不同气缸中检测到缺火。只有同时检测到多个气缸缺火才会存储 DTC P0300。
+</p>
+</div>
+</div>
+<div id="RM100000000DERX_02" class="category no03">
+<h2>监视描述</h2>
+<div class="content5">
+<p>检测到可能导致排放恶化的以下条件时，ECM 点亮 MIL 并存储 DTC（双程检测逻辑）。
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>共出现 4 次过度缺火（曲轴每转动 1,000 转约 60 至 80 次缺火）。
+</p>
+</div>
+</div>
+</div>
+<br>
+<p>检测到可能导致三元催化转化器损坏的以下条件时，ECM 将使 MIL 闪烁（实时检测逻辑）并存储 DTC（双程检测逻辑）。
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>曲轴转动 200 转内，检测到损坏催化剂的缺火足量 3 次。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000DERX_03" class="category no03">
+<h2>监视策略</h2>
+<div class="content5">
+<table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>所需传感器/零部件（主要）
+</td>
+<td>曲轴位置传感器
+<br>
+凸轮轴位置传感器
+</td>
+</tr>
+<tr>
+<td>所需传感器/零部件（相关）
+</td>
+<td>发动机冷却液温度
+<br>
+进气温度传感器
+<br>
+质量空气流量计分总成
+</td>
+</tr>
+<tr>
+<td>工作频率
+</td>
+<td>持续
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000DERX_04" class="category no03">
+<h2>典型启动条件</h2>
+<div class="content5">
+<table summary="">
+<caption>缺火</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>进气温度
+</td>
+<td>高于 -10&deg;C (14&deg;F)
+</td>
+</tr>
+<tr>
+<td>满足下列任一条件
+</td>
+<td>(a) 或 (b)
+</td>
+</tr>
+<tr>
+<td>(a) 发动机起动时的发动机冷却液温度
+</td>
+<td>高于 -7&deg;C (19&deg;F)
+</td>
+</tr>
+<tr>
+<td>(b) 发动机冷却液温度
+</td>
+<td>高于 20&deg;C (68&deg;F)
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table summary="">
+<caption>排放相关缺火监视时间</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>持续时间
+</td>
+<td>曲轴转动 1,000 转 x 4
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table summary="">
+<caption>催化剂损坏缺火监视时间（MIL 闪烁）</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>持续时间
+</td>
+<td>曲轴转动 200 转 x 3
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000DERX_08" class="category no03">
+<h2>确认行驶模式</h2>
+<div class="content5">
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>打开 GTS。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>记录 DTC 和定格数据。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">5.</div>
+<div class="list1Body"><p>清除 DTC（即使未存储 DTC，也应执行清除 DTC 程序）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">6.</div>
+<div class="list1Body"><p>将 ECM 从正常模式切换至检查模式。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;检查模式程序<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DER0,</span></a>
+
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">7.</div>
+<div class="list1Body"><p>在发动机怠速运转状态下，读取各气缸缺火数（Cylinder #1 Misfire Count 至 Cylinder #4 Misfire Count）。如果显示了缺火数，则跳过以下确认行驶模式。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">8.</div>
+<div class="list1Body"><p>驾驶车辆以使数据表中的缺火转数和缺火负载项显示的车辆状况与定格数据相同。执行该步骤数次。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>为了存储缺火 DTC，必须使用数据表中的 Misfire RPM 和 Misfire Load，按下表中所示的时间操作车辆。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+<dd class="atten4"><table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">发动机转速 (rpm)
+</th>
+<th class="alcenter">持续时间
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">怠速运转
+</td>
+<td class="alcenter">8.0 分钟或更长时间
+</td>
+</tr>
+<tr>
+<td class="alcenter">1,000
+</td>
+<td class="alcenter">4.5 分钟或更长时间
+</td>
+</tr>
+<tr>
+<td class="alcenter">2,000
+</td>
+<td class="alcenter">2.5 分钟或更长时间
+</td>
+</tr>
+<tr>
+<td class="alcenter">3,000
+</td>
+<td class="alcenter">1.5 分钟或更长时间
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">9.</div>
+<div class="list1Body"><p>通过检查 DTC 和定格数据，检查是否发生缺火。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>记录存储的 DTC 和定格数据前，不要将发动机开关置于 OFF 位置。ECM 恢复到正常模式（默认）时，将清除存储的 DTC、定格数据和其他数据。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">10.</div>
+<div class="list1Body"><p>记录 DTC、定格数据和缺火数。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">11.</div>
+<div class="list1Body"><p>将发动机开关置于 OFF 位置，并至少等待 30 秒。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">12.</div>
+<div class="list1Body"><p>清除 DTC（即使未存储 DTC，也应执行清除 DTC 程序）。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000DERX_07" class="category no03">
+<h2>电路图</h2>
+<div class="content5">
+<p>有关质量空气流量计分总成电路，请参考 DTC P0102。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;P0102<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQ7_07,P0102</span></a>
+
+</p>
+<p>请参考喷油器电路。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;喷油器电路<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DERH_02,</span></a>
+
+</p>
+</div>
+</div>
+<div id="RM100000000DERX_09" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>进行下列程序前，先检查与此系统相关电路的保险丝。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检查数据表或定格数据中的&ldquo;Fuel Cut Elps Time&rdquo;。
+</p>
+<p>如果经过的时间超过 0 秒，则表示发动机转速高（出现燃油切断时的发动机转速为 +500 rpm）。
+</p>
+<p>发生此情况时，可能是 1 号气门摇臂分总成松动且可能失火，检查并确认 1 号气门摇臂分总成正确安装。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机机械部分&gt;发动机单元&gt;零部件<span class="invisible">201406,999999,_51,_023959,_0116818,RM100000000DBNT,</span></a>
+
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>通过清除 DTC 将清除&ldquo;Fuel Cut Elps Time&rdquo;。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果除缺火 DTC 外还输出了其他 DTC，应首先对其他 DTC 进行故障排除。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用 GTS 读取定格数据。存储 DTC 时，ECM 将车辆和驾驶条件信息记录为定格数据。进行故障排除时，定格数据有助于确定故障出现时车辆是运行还是停止，发动机是暖机还是未暖机，空燃比是浓还是稀，以及其他数据。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车辆送入修理车间后，如果缺火不再出现，则再现 ECM 中作为定格数据而存储的条件。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果即使再现 ECM 中作为定格数据存储的条件后仍无法再现缺火，故障原因可能为下列之一：
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">1.</div>
+<div class="list2Body"><p>油箱中燃油不足。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">2.</div>
+<div class="list2Body"><p>使用的燃油不当。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">3.</div>
+<div class="list2Body"><p>火花塞脏污。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">4.</div>
+<div class="list2Body"><p>该故障需要进一步诊断。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>维修完成后，检查各气缸缺火数（1 号至 4 号气缸缺火数）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>完成维修后务必执行确认行驶模式，以确认没有再次存储缺火气缸 DTC。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果定格数据 Short FT #1 或 Long FT #1 中的一个超出了 +/-15% 范围，则空燃比可能偏浓（-15% 或更低）或偏稀（15% 或更高）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果定格数据中的 Coolant Temp 低于 75&deg;C (167&deg;F)，仅在发动机暖机过程中发生过缺火。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>极度失衡的驱动轮可能导致车身振动，并可能导致存储缺火 DTC。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000DERX_16" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000DERX_16_0001">
+<div class="testtitle"><span class="titleText">1.检查其他 DTC 输出（除缺火 DTC 外）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>读取 DTC。
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0001_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">输出 DTC P0300、P0301、P0302、P0303 和/或 P0304
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">输出 DTC P0300、P0301、P0302、P0303 和/或 P0304 和其他 DTC
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果除 P0300、P0301、P0302、P0303 或 P0304 外还输出了其他 DTC，应首先对其他 DTC 进行故障排除。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.检查 PCV 软管连接情况</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至 DTC 表</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;诊断故障码表<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DERO,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0002">
+<div class="testtitle"><span class="titleText">2.检查 PCV 软管连接情况</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查 PCV 软管连接情况。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 排放控制系统&gt;PCV 阀&gt;零部件<span class="invisible">201406,999999,_51,_023961,_0117189,RM100000000DCOL,</span></a>
+
+</p>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>PCV 阀和软管连接正确且无损坏。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0002_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">3.使用 GTS 读取值（缺火转速和缺火负载）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换 PCV 软管</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0005">
+<div class="testtitle"><span class="titleText">3.使用 GTS 读取值（缺火转速和缺火负载）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / Misfire RPM and Misfire Load。
+</p>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Misfire RPM
+</td>
+</tr>
+<tr>
+<td class="alleft">Misfire Load
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">234</span>
+<span class="gtsPid">319,320</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>读取并记录缺火转速和缺火负载值。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>缺火转速和缺火负载值显示了缺火发生时的车辆状况。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0005_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">4.使用 GTS 读取值（气缸缺火数）</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0006">
+<div class="testtitle"><span class="titleText">4.使用 GTS 读取值（气缸缺火数）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / Cylinder #1 Misfire Count、Cylinder #2 Misfire Count、Cylinder #3 Misfire Count and Cylinder #4 Misfire Count。
+</p>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Cylinder #1 Misfire Count
+</td>
+</tr>
+<tr>
+<td class="alleft">Cylinder #2 Misfire Count
+</td>
+</tr>
+<tr>
+<td class="alleft">Cylinder #3 Misfire Count
+</td>
+</tr>
+<tr>
+<td class="alleft">Cylinder #4 Misfire Count
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">234</span>
+<span class="gtsPid">321,322,323,324</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>起动发动机并使发动机怠速运转。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>读取显示在 GTS 上的 1 号至 4 号各气缸缺火数的值。如果所有气缸中无缺火数发生，则执行程序 [A] 和 [B]，然后再次检查缺火数。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>按照上述程序&ldquo;使用 GTS 读取值（缺火转速和缺火负载）&rdquo;中记录的缺火转速和缺火负载值驾驶车辆 [A]。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">h.</div>
+<div class="test1Body">
+<p>读取显示在 GTS 上的 1 号至 4 号气缸缺火数或 DTC [B]。
+</p>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0006_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">只在 1 个或 2 个气缸中出现缺火
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">3 个或更多个气缸有相等的缺火数
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果很难重现各气缸的缺火次数，则检查&ldquo;数据表&rdquo;中的&ldquo;缺火极限&rdquo;项。尝试查找降低缺火极限值的车辆驾驶条件。大于 30% 的值视为正常。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果定格数据记录的发动机冷却液温度低于 75&deg;C (167&deg;F)，则仅在发动机冷机时检测到缺火。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果定格数据记录的发动机运转时间小于 120 秒，则可在发动机起动后立即检测到缺火。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">5.检查火花塞</span></div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">16.检查进气系统</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0007">
+<div class="testtitle"><span class="titleText">5.检查火花塞</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查缺火气缸的火花塞。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;点火系统&gt;车上检查<span class="invisible">201406,999999,_51,_023958,_0129802,RM100000000ETKA_01_0005,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>更换火花塞后，执行&ldquo;维修后检查&rdquo;。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQX,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0007_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">6.检查火花（火花测试）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换火花塞</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;点火线圈和火花塞&gt;拆卸<span class="invisible">201406,999999,_51,_023958,_0129810,RM100000000ETL6,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0009">
+<div class="testtitle"><span class="titleText">6.检查火花（火花测试）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>进行火花测试。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;点火系统&gt;车上检查<span class="invisible">201406,999999,_51,_023958,_0129802,RM100000000ETKA_01_0003,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果火花测试结果正常，则转至下一步。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>维修或更换点火系统后，执行&ldquo;维修后检查&rdquo;。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQX,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0009_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">7.检查气缸压缩压力</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0010">
+<div class="testtitle"><span class="titleText">7.检查气缸压缩压力</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>测量缺火气缸的压缩压力。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机机械部分&gt;发动机&gt;车上检查<span class="invisible">201406,999999,_51,_023959,_0116811,RM100000000DBN7_01_0010,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>维修或更换发动机总成后，执行&ldquo;维修后检查&rdquo;。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQX,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0010_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">8.检查端子电压（#10、#20、#30 和/或 #40）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">检查发动机以确定压缩压力低的原因</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0011">
+<div class="testtitle"><span class="titleText">8.检查端子电压（#10、#20、#30 和/或 #40）</span></div>
+<div class="content6">
+<div class="contentPartition"></div>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A255689.png" alt="A255689" title="A255689">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.594,0.125 0.979,0.365</span>
+<span class="rectangleSize">0.385,0.24</span>
+</span>
+<span class="line">
+<span class="points">2.542,1.344 2.917,1.885</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.125,1.438 2.417,1.885</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.01,1.448 1.719,1.885</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.073,1.438 2.115,1.885</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.958,1.448 1.396,1.885</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.135,0.083 0.5,0.302</span>
+<span class="captionSize">0.365,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.656,0.146 1.146,0.417</span>
+<span class="captionSize">0.49,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B39</span>
+</span>
+<span class="caption">
+<span class="points">1.156,1.917 1.563,2.073</span>
+<span class="captionSize">0.406,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">#20</span>
+</span>
+<span class="caption">
+<span class="points">2.844,1.917 3.313,2.063</span>
+<span class="captionSize">0.469,0.146</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E01</span>
+</span>
+<span class="caption">
+<span class="points">1.573,1.927 1.979,2.083</span>
+<span class="captionSize">0.406,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">#30</span>
+</span>
+<span class="caption">
+<span class="points">1.99,1.938 2.396,2.094</span>
+<span class="captionSize">0.406,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">#40</span>
+</span>
+<span class="caption">
+<span class="points">2.344,1.927 2.75,2.083</span>
+<span class="captionSize">0.406,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">#10</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">线束连接器前视图
+<br>
+（至 ECM）
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开 ECM 连接器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:32%">
+<col style="width:32%">
+<col style="width:34%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">B39-98 (#10) - B39-57 (E01)
+</td>
+<td class="alcenter">发动机开关 ON (IG)
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">B39-95 (#20) - B39-57 (E01)
+</td>
+<td class="alcenter">发动机开关 ON (IG)
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">B39-96 (#30) - B39-57 (E01)
+</td>
+<td class="alcenter">发动机开关 ON (IG)
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">B39-97 (#40) - B39-57 (E01)
+</td>
+<td class="alcenter">发动机开关 ON (IG)
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0011_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">9.检查缺火气缸的喷油器总成</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">检查喷油器电路</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;喷油器电路<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DERH,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0012">
+<div class="testtitle"><span class="titleText">9.检查缺火气缸的喷油器总成</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查喷油器总成的喷油情况（喷油量是高还是低，喷油方式是否不良）。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 燃油系统&gt;喷油器&gt;检查<span class="invisible">201406,999999,_51,_023960,_0117307,RM100000000DD0P,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>更换喷油器总成后，执行&ldquo;维修后检查&rdquo;。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQX,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0012_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">10.检查进气系统</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换喷油器总成</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 燃油系统&gt;喷油器&gt;拆卸<span class="invisible">201406,999999,_51,_023960,_0117307,RM100000000DD0O,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0013">
+<div class="testtitle"><span class="titleText">10.检查进气系统</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查进气系统是否存在真空泄漏。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 进气/排气系统&gt;进气系统&gt;车上检查<span class="invisible">201406,999999,_51,_023962,_0117179,RM100000000DCNM,</span></a>
+
+</p>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>进气系统无泄漏。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>维修或更换进气系统后，执行&ldquo;维修后检查&rdquo;。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQX,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0013_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">11.检查燃油压力</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换进气系统</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0014">
+<div class="testtitle"><span class="titleText">11.检查燃油压力</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查燃油压力。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 燃油系统&gt;燃油系统&gt;车上检查<span class="invisible">201406,999999,_51,_023960,_0124341,RM100000000E8FT_01_0002,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0014_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">12.使用 GTS 读取值（冷却液温度）</span></div>
+<div class="judgeValueNext"><p>异常
+</p></div>
+<div class="nextAction"><span class="titleText">32.检查燃油管路</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0015">
+<div class="testtitle"><span class="titleText">12.使用 GTS 读取值（冷却液温度）</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;P0171<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DERW_12_0005,P0171</span></a>
+
+</p>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0015_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">13.使用 GTS 读取值 (MAF)</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换发动机冷却液温度传感器</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;发动机冷却液温度传感器&gt;拆卸<span class="invisible">201406,999999,_51,_023958,_0129811,RM100000000ETLA,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0016">
+<div class="testtitle"><span class="titleText">13.使用 GTS 读取值 (MAF)</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;P0171<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DERW_12_0006,P0171</span></a>
+
+</p>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0016_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">14.检查发动机机械系统</span></div>
+<div class="judgeValueNext"><p>异常
+</p></div>
+<div class="nextAction"><span class="titleText">27.检查线束和连接器（质量空气流量计分总成连接器连接情况）</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0059">
+<div class="testtitle"><span class="titleText">14.检查发动机机械系统</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查影响气门正时的机械故障，如正时链条跳齿或伸长。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0059_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">15.检查是否再次输出 DTC（DTC P0300、P0301、P0302、P0303 或 P0304）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换故障零件、零部件和部位</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0018">
+<div class="testtitle"><span class="titleText">15.检查是否再次输出 DTC（DTC P0300、P0301、P0302、P0303 或 P0304）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>将发动机开关置于 OFF 位置，并至少等待 30 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">h.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">i.</div>
+<div class="test1Body">
+<p>使发动机暖机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">j.</div>
+<div class="test1Body">
+<p>按照确认行驶模式中所述的行驶模式驾驶车辆。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">k.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Powertrain &gt; Engine and ECT &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">All Readiness
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">234</span>
+<span class="gtsUtil">20</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">l.</div>
+<div class="test1Body">
+<p>输入 DTC：P0300、P0301、P0302、P0303 或 P0304。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">m.</div>
+<div class="test1Body">
+<p>检查 DTC 判断结果。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0018_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL
+<br>
+（未输出 DTC）
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL
+<br>
+（输出 DTC P0300、P0301、P0302、P0303 或 P0304）
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">检查是否存在间歇性故障</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;检查是否存在间歇性故障<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQV,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">27.检查线束和连接器（质量空气流量计分总成连接器连接情况）</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0028">
+<div class="testtitle"><span class="titleText">16.检查进气系统</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查进气系统是否存在真空泄漏。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 进气/排气系统&gt;进气系统&gt;车上检查<span class="invisible">201406,999999,_51,_023962,_0117179,RM100000000DCNM,</span></a>
+
+</p>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>进气系统无泄漏。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>维修或更换进气系统后，执行&ldquo;维修后检查&rdquo;。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQX,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0028_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">17.检查燃油压力</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换进气系统</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0029">
+<div class="testtitle"><span class="titleText">17.检查燃油压力</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查燃油压力。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 燃油系统&gt;燃油系统&gt;车上检查<span class="invisible">201406,999999,_51,_023960,_0124341,RM100000000E8FT_01_0002,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0029_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">18.使用 GTS 读取值（冷却液温度）</span></div>
+<div class="judgeValueNext"><p>异常
+</p></div>
+<div class="nextAction"><span class="titleText">32.检查燃油管路</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0030">
+<div class="testtitle"><span class="titleText">18.使用 GTS 读取值（冷却液温度）</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;P0171<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DERW_12_0005,P0171</span></a>
+
+</p>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0030_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">19.使用 GTS 读取值 (MAF)</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换发动机冷却液温度传感器</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;发动机冷却液温度传感器&gt;拆卸<span class="invisible">201406,999999,_51,_023958,_0129811,RM100000000ETLA,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0031">
+<div class="testtitle"><span class="titleText">19.使用 GTS 读取值 (MAF)</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;P0171<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DERW_12_0006,P0171</span></a>
+
+</p>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0031_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">20.检查火花塞</span></div>
+<div class="judgeValueNext"><p>异常
+</p></div>
+<div class="nextAction"><span class="titleText">27.检查线束和连接器（质量空气流量计分总成连接器连接情况）</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0032">
+<div class="testtitle"><span class="titleText">20.检查火花塞</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查缺火气缸的火花塞。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;点火系统&gt;车上检查<span class="invisible">201406,999999,_51,_023958,_0129802,RM100000000ETKA_01_0005,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>更换火花塞后，执行&ldquo;维修后检查&rdquo;。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQX,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0032_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">21.检查火花（火花测试）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换火花塞</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;点火线圈和火花塞&gt;拆卸<span class="invisible">201406,999999,_51,_023958,_0129810,RM100000000ETL6,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0033">
+<div class="testtitle"><span class="titleText">21.检查火花（火花测试）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>进行火花测试。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;点火系统&gt;车上检查<span class="invisible">201406,999999,_51,_023958,_0129802,RM100000000ETKA_01_0003,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果火花测试结果正常，则转至下一步。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>维修或更换点火系统后，执行&ldquo;维修后检查&rdquo;。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQX,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0033_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">22.检查气缸压缩压力</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0034">
+<div class="testtitle"><span class="titleText">22.检查气缸压缩压力</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>测量缺火气缸的压缩压力。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机机械部分&gt;发动机&gt;车上检查<span class="invisible">201406,999999,_51,_023959,_0116811,RM100000000DBN7_01_0010,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>维修或更换发动机总成后，执行&ldquo;维修后检查&rdquo;。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQX,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0034_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">23.检查端子电压（#10、#20、#30 和/或 #40）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">检查发动机以确定压缩压力低的原因</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0035">
+<div class="testtitle"><span class="titleText">23.检查端子电压（#10、#20、#30 和/或 #40）</span></div>
+<div class="content6">
+<div class="contentPartition"></div>
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/A255689.png" alt="A255689" title="A255689">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.594,0.125 0.979,0.365</span>
+<span class="rectangleSize">0.385,0.24</span>
+</span>
+<span class="line">
+<span class="points">2.542,1.344 2.917,1.885</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.125,1.438 2.417,1.885</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.01,1.448 1.719,1.885</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.073,1.438 2.115,1.885</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.958,1.448 1.396,1.885</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.135,0.083 0.5,0.302</span>
+<span class="captionSize">0.365,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.656,0.146 1.146,0.417</span>
+<span class="captionSize">0.49,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B39</span>
+</span>
+<span class="caption">
+<span class="points">1.156,1.917 1.563,2.073</span>
+<span class="captionSize">0.406,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">#20</span>
+</span>
+<span class="caption">
+<span class="points">2.844,1.917 3.313,2.063</span>
+<span class="captionSize">0.469,0.146</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E01</span>
+</span>
+<span class="caption">
+<span class="points">1.573,1.927 1.979,2.083</span>
+<span class="captionSize">0.406,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">#30</span>
+</span>
+<span class="caption">
+<span class="points">1.99,1.938 2.396,2.094</span>
+<span class="captionSize">0.406,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">#40</span>
+</span>
+<span class="caption">
+<span class="points">2.344,1.927 2.75,2.083</span>
+<span class="captionSize">0.406,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">#10</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">线束连接器前视图
+<br>
+（至 ECM）
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开 ECM 连接器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:32%">
+<col style="width:32%">
+<col style="width:34%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">B39-98 (#10) - B39-57 (E01)
+</td>
+<td class="alcenter">发动机开关 ON (IG)
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">B39-95 (#20) - B39-57 (E01)
+</td>
+<td class="alcenter">发动机开关 ON (IG)
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">B39-96 (#30) - B39-57 (E01)
+</td>
+<td class="alcenter">发动机开关 ON (IG)
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">B39-97 (#40) - B39-57 (E01)
+</td>
+<td class="alcenter">发动机开关 ON (IG)
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0035_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">24.检查缺火气缸的喷油器总成</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">检查喷油器电路</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;喷油器电路<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DERH,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0036">
+<div class="testtitle"><span class="titleText">24.检查缺火气缸的喷油器总成</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查喷油器总成的喷油情况（喷油量是高还是低，喷油方式是否不良）。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 燃油系统&gt;喷油器&gt;检查<span class="invisible">201406,999999,_51,_023960,_0117307,RM100000000DD0P,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>更换喷油器总成后，执行&ldquo;维修后检查&rdquo;。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQX,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0036_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">25.检查发动机机械系统</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换喷油器总成</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 燃油系统&gt;喷油器&gt;拆卸<span class="invisible">201406,999999,_51,_023960,_0117307,RM100000000DD0O,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0061">
+<div class="testtitle"><span class="titleText">25.检查发动机机械系统</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查影响气门正时的机械故障，如正时链条跳齿或伸长。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0061_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">26.检查是否再次输出 DTC（DTC P0300、P0301、P0302、P0303 或 P0304）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换故障零件、零部件和部位</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0038">
+<div class="testtitle"><span class="titleText">26.检查是否再次输出 DTC（DTC P0300、P0301、P0302、P0303 或 P0304）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>将发动机开关置于 OFF 位置，并至少等待 30 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">h.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">i.</div>
+<div class="test1Body">
+<p>使发动机暖机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">j.</div>
+<div class="test1Body">
+<p>按照确认行驶模式中所述的行驶模式驾驶车辆。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">k.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Powertrain &gt; Engine and ECT &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">All Readiness
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">234</span>
+<span class="gtsUtil">20</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">l.</div>
+<div class="test1Body">
+<p>输入 DTC：P0300、P0301、P0302、P0303 或 P0304。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">m.</div>
+<div class="test1Body">
+<p>检查 DTC 判断结果。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0038_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">ABNORMAL
+<br>
+（输出 DTC P0300、P0301、P0302、P0303 或 P0304）
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">NORMAL
+<br>
+（未输出 DTC）
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">27.检查线束和连接器（质量空气流量计分总成连接器连接情况）</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">检查是否存在间歇性故障</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;检查是否存在间歇性故障<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQV,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0039">
+<div class="testtitle"><span class="titleText">27.检查线束和连接器（质量空气流量计分总成连接器连接情况）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查质量空气流量计分总成和 ECM 之间连接器和线束的连接情况和端子接触压力。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;如何对 ECU 控制系统进行故障排除&gt;电路检查程序<span class="invisible">201406,999999,_V1,_023977,_0116737,RM100000000DB85,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>维修任何故障。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0039_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">28.检查是否再次输出 DTC（缺火 DTC）</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0040">
+<div class="testtitle"><span class="titleText">28.检查是否再次输出 DTC（缺火 DTC）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>将发动机开关置于 OFF 位置，并至少等待 30 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">h.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">i.</div>
+<div class="test1Body">
+<p>使发动机暖机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">j.</div>
+<div class="test1Body">
+<p>按照确认行驶模式中所述的行驶模式驾驶车辆。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">k.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Powertrain &gt; Engine and ECT &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">All Readiness
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">234</span>
+<span class="gtsUtil">20</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">l.</div>
+<div class="test1Body">
+<p>输入 DTC：P0300、P0301、P0302、P0303 或 P0304。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">m.</div>
+<div class="test1Body">
+<p>检查 DTC 判断结果。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0040_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">ABNORMAL
+<br>
+（输出 DTC P0300、P0301、P0302、P0303 或 P0304）
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">NORMAL
+<br>
+（未输出 DTC）
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">29.检查线束和连接器（质量空气流量计分总成 - ECM）</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">结束</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0041">
+<div class="testtitle"><span class="titleText">29.检查线束和连接器（质量空气流量计分总成 - ECM）</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;P0102<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQ7_11_0003,P0102</span></a>
+
+</p>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0041_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">30.更换质量空气流量计分总成</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0042">
+<div class="testtitle"><span class="titleText">30.更换质量空气流量计分总成</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>更换质量空气流量计分总成。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;质量空气流量计&gt;拆卸<span class="invisible">201406,999999,_51,_023958,_0129807,RM100000000ETKV,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果步骤 13 和 19 中的检查结果未出现故障，则转至下一步，无需更换质量空气流量计分总成。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>更换质量空气流量计分总成后，执行&ldquo;维修后检查&rdquo;。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQX,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0042_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">31.确认故障是否已成功排除</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0043">
+<div class="testtitle"><span class="titleText">31.确认故障是否已成功排除</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>将发动机开关置于 OFF 位置，并至少等待 30 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">h.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">i.</div>
+<div class="test1Body">
+<p>使发动机暖机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">j.</div>
+<div class="test1Body">
+<p>按照确认行驶模式中所述的行驶模式驾驶车辆。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">k.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Powertrain &gt; Engine and ECT &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">All Readiness
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">234</span>
+<span class="gtsUtil">20</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">l.</div>
+<div class="test1Body">
+<p>输入 DTC：P0300、P0301、P0302、P0303 或 P0304。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">m.</div>
+<div class="test1Body">
+<p>检查 DTC 判断结果。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0043_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL
+<br>
+（未输出 DTC）
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL
+<br>
+（输出 DTC P0300、P0301、P0302、P0303 或 P0304）
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">结束</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换 ECM</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;ECM&gt;拆卸<span class="invisible">201406,999999,_51,_023958,_0129805,RM100000000ETKN,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DERX_16_0055">
+<div class="testtitle"><span class="titleText">32.检查燃油管路</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查燃油管路是否泄漏或堵塞。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>更换燃油泵后，执行&ldquo;维修后检查&rdquo;。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQX,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DERX_16_0055_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>正常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换燃油泵</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 燃油系统&gt;燃油泵&gt;拆卸<span class="invisible">201406,999999,_51,_023960,_0124343,RM100000000E8G1,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换燃油管路</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

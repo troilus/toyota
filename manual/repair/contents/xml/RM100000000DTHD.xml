@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_51">
+<name>发动机/混合动力系统</name>
+<section id="_025035">
+<name>7ZR-FE 发动机控制系统</name>
+<ttl id="_0120895">
+<name>SFI 系统</name>
+<para category="C" id="RM100000000DTHD">
+<dtccode>P0197</dtccode>
+<dtcname>发动机机油温度传感器低电位</dtcname>
+<dtccode>P0198</dtccode>
+<dtcname>发动机机油温度传感器高电位</dtcname>
+<subpara category="03" id="RM100000000DTHD_01">
+<name>描述</name>
+<content5>
+<ptxt>热敏电阻内置于发动机机油温度传感器，其电阻值随着发动机机油温度的变化而变化。 发动机机油温度降低时，热敏电阻值增大；发动机机油温度升高时，热敏电阻值减小。 发动机机油温度传感器连接至 ECM。 通过 ECM 端子 THEO 经由电阻器 R 施加 5 V 电压。 由于电阻器 R 和发动机机油温度传感器是串联的，THEO 的电阻和电压会随着发动机机油温度的变化而变化。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="6">
+<colspec colname="1" colwidth="0.71in"/>
+<colspec colname="2" colwidth="1.06in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="2.12in"/>
+<colspec colname="5" colwidth="0.71in"/>
+<colspec colname="6" colwidth="0.71in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>MIL</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P0197</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>发动机机油温度传感器低电位</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>发动机机油温度传感器电路短路（单程检测逻辑）。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>发动机机油温度传感器电路短路</ptxt>
+</item>
+<item>
+<ptxt>发动机机油温度传感器</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P0198</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>发动机机油温度传感器高电位</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>发动机机油温度传感器电路开路（单程检测逻辑）。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>发动机机油温度传感器电路开路</ptxt>
+</item>
+<item>
+<ptxt>发动机机油温度传感器</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DTHD_02">
+<name>监视描述</name>
+<content5>
+<ptxt>ECM 监视发动机机油温度传感器并利用传感器电压计算发动机机油温度。 如果传感器的输出电压偏离标准范围，则 ECM 判定发动机机油温度传感器有故障并存储 DTC。</ptxt>
+<ptxt>示例：</ptxt>
+<ptxt>如果发动机机油温度传感器的输出电压低于 0.05 V 持续 3 秒或更长时间，则 ECM 判定发动机机油温度传感器电路内存在短路，并存储 DTC P0197。 如果发动机机油温度传感器的输出电压高于 4.95 V 持续 3 秒或更长时间，则 ECM 判定发动机机油温度传感器电路内存在开路，并存储 DTC P0198。</ptxt>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DTHD_03">
+<name>监视策略</name>
+<content5>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>工作频率</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>持续</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DTHD_07">
+<name>确认行驶模式</name>
+<content5>
+<list1 type="ordered">
+<item>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</item>
+<item>
+<ptxt>将点火开关置于 ON 位置并打开 GTS。</ptxt>
+</item>
+<item>
+<ptxt>清除 DTC（即使未存储 DTC，也应执行清除 DTC 程序）。</ptxt>
+</item>
+<item>
+<ptxt>将点火开关置于 OFF 位置并等待至少 30 秒。</ptxt>
+</item>
+<item>
+<ptxt>将点火开关置于 ON 位置并打开 GTS。</ptxt>
+</item>
+<item>
+<ptxt>等待 10 秒或更长时间。</ptxt>
+</item>
+<item>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。</ptxt>
+</item>
+<item>
+<ptxt>读取待定 DTC。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果输出待定 DTC，则系统发生故障。</ptxt>
+</item>
+<item>
+<ptxt>如果未输出待定 DTC，则执行以下程序。</ptxt>
+</item>
+</list1>
+</atten4>
+</item>
+<item>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。</ptxt>
+</item>
+<item>
+<ptxt>输入 DTC：P0197 或 P0198。</ptxt>
+</item>
+<item>
+<ptxt>检查 DTC 判断结果。</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>GTS 显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>描述</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>NORMAL</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断完成</ptxt>
+</item>
+<item>
+<ptxt>系统正常</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>ABNORMAL</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断完成</ptxt>
+</item>
+<item>
+<ptxt>系统异常</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>INCOMPLETE</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>DTC 判断未完成</ptxt>
+</item>
+<item>
+<ptxt>确认 DTC 启动条件后，执行行驶模式</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>N/A</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>无法执行 DTC 判断</ptxt>
+</item>
+<item>
+<ptxt>不满足 DTC 前提条件的 DTC 数量达到 ECU 存储器极限</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果判断结果显示 NORMAL，则系统正常。</ptxt>
+</item>
+<item>
+<ptxt>如果判断结果显示 ABNORMAL，则系统存在故障。</ptxt>
+</item>
+<item>
+<ptxt>如果判断结果显示为 INCOMPLETE 或 N/A，则执行确认行驶模式并再次检查 DTC 判断结果。</ptxt>
+</item>
+</list1>
+</atten4>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DTHD_08">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="A256089E97" height="3.812598425in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DTHD_09">
+<name>注意/小心/提示</name>
+<content5>
+<atten4>
+<ptxt>使用 GTS 读取定格数据。存储 DTC 时，ECM 将车辆和驾驶条件信息记录为定格数据。进行故障排除时，定格数据有助于确定故障出现时车辆是运行还是停止，发动机是暖机还是未暖机，空燃比是浓还是稀，以及其他数据。</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DTHD_11">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DTHD_11_0001">
+<testtitle>使用 GTS 读取值（发动机机油温度传感器）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机并暖机。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / Engine Oil Temperature Sensor。</ptxt>
+<gts-info category="data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="710" name="item-name">
+<ptxt>Engine Oil Temperature Sensor</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="234">
+<gts-pid pid-id="710"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">710</app-param>
+<app-param name="data-list-item-name">Engine Oil Temperature Sensor</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>读取 GTS 上显示的值。</ptxt>
+<spec type="other">
+<title>标准值</title>
+<specitem>
+<ptxt>发动机暖机和怠速运转时在 80 和 110°C（176 和 230°F）之间</ptxt>
+</specitem>
+</spec>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>-40°C (-40°F)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>高于 180°C (356°F)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>80 和 110°C（176 和 230°F）之间</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果存在开路，则 GTS 显示 -40°C (-40°F)。</ptxt>
+</item>
+<item>
+<ptxt>如果存在短路，则 GTS 显示高于 180°C (356°F)。</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DTHD_11_0002"/>
+</result>
+<result cellposition="1-4" label="2">
+<action actiontype="next" cellposition="2-4" childid="RM100000000DTHD_11_0013"/>
+</result>
+<result cellposition="1-6" label="3">
+<action actiontype="end" cellposition="2-6">
+<actiontitle>检查是否存在间歇性故障</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DTGK" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DTHD_11_0002">
+<testtitle>使用 GTS 读取值（检查线束是否开路）</testtitle>
+<content6>
+<test1>
+<ptxt>断开发动机机油温度传感器连接器。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="A207455C46" height="2.799876969in" width="7.168479331in"/>
+<callout>
+<table pgwide="1" type="caption-table">
+<tgroup cols="4">
+<colspec colname="col1" colnum="1" colwidth="0.72in"/>
+<colspec colname="col2" colnum="2" colwidth="2.87in"/>
+<colspec colname="col3" colnum="3" colwidth="0.72in"/>
+<colspec colname="col4" colnum="4" colwidth="2.87in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>发动机机油温度传感器</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*2</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>ECM</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至发动机机油温度传感器）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>连接发动机机油温度传感器线束侧连接器的端子 1 和 2。</ptxt>
+</test1>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / Engine Oil Temperature Sensor。</ptxt>
+<gts-info category="data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="710" name="item-name">
+<ptxt>Engine Oil Temperature Sensor</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="234">
+<gts-pid pid-id="710"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">710</app-param>
+<app-param name="data-list-item-name">Engine Oil Temperature Sensor</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>读取 GTS 上显示的值。</ptxt>
+<spec type="other">
+<title>标准值</title>
+<specitem>
+<ptxt>高于 180°C (356°F)</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="end" cellposition="3-1">
+<actiontitle>更换发动机机油温度传感器</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETOH" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="2-2" label="2">
+<action actiontype="next" cellposition="3-2" childid="RM100000000DTHD_11_0003"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-2" id="RM100000000DTHD_11_0003">
+<testtitle>检查线束和连接器（发动机机油温度传感器 - ECM）</testtitle>
+<content6>
+<test1>
+<ptxt>断开发动机机油温度传感器连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>断开 ECM 连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.36in"/>
+<colspec colname="col2" colwidth="2.36in"/>
+<colspec colname="col3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B19-2 - B39-89 (THEO)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B19-1 - B39-90 (ETHE)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-2" label="1">
+<action actiontype="end" cellposition="4-2">
+<actiontitle>更换 ECM</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETNS" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-3" label="2">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-4" id="RM100000000DTHD_11_0013">
+<testtitle>使用 GTS 读取值（检查线束是否短路）</testtitle>
+<content6>
+<figure translate="C" type="1">
+<graphic graphicname="A255925C19" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>发动机机油温度传感器</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*2</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>ECM</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<test1>
+<ptxt>断开发动机机油温度传感器连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / Engine Oil Temperature Sensor。</ptxt>
+<gts-info category="data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="710" name="item-name">
+<ptxt>Engine Oil Temperature Sensor</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="234">
+<gts-pid pid-id="710"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">710</app-param>
+<app-param name="data-list-item-name">Engine Oil Temperature Sensor</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>读取 GTS 上显示的值。</ptxt>
+<spec type="other">
+<title>标准值</title>
+<specitem>
+<ptxt>-40°C (-40°F)</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-4" label="1">
+<action actiontype="end" cellposition="3-4">
+<actiontitle>更换发动机机油温度传感器</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETOH" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="2-5" label="2">
+<action actiontype="next" cellposition="3-5" childid="RM100000000DTHD_11_0005"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-5" id="RM100000000DTHD_11_0005">
+<testtitle>检查线束和连接器（发动机机油温度传感器 - ECM）</testtitle>
+<content6>
+<test1>
+<ptxt>断开发动机机油温度传感器连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>断开 ECM 连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.36in"/>
+<colspec colname="col2" colwidth="2.36in"/>
+<colspec colname="col3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B39-89 (THEO) 或 B19-2 - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-5" label="1">
+<action actiontype="end" cellposition="4-5">
+<actiontitle>更换 ECM</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETNS" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-6" label="2">
+<action actiontype="end" cellposition="4-6">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

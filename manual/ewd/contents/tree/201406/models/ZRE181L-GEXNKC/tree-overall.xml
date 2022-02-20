@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <book id="O-EG">
+    <name>发动机/混合动力系统</name>
+    <note id="OV019">
+      <name>冷却风扇（GTMC 制造）</name>
+    </note>
+    <note id="OV020">
+      <name>冷却风扇（TFTM 制造）</name>
+    </note>
+    <note id="OV021">
+      <name>巡航控制（GTMC 制造）</name>
+    </note>
+    <note id="OV022">
+      <name>巡航控制（TFTM 制造）</name>
+    </note>
+    <note id="OV023">
+      <name>发动机控制（GTMC 制造）</name>
+    </note>
+    <note id="OV024">
+      <name>发动机控制（TFTM 制造）</name>
+    </note>
+    <note id="OV025">
+      <name>点火（GTMC 制造）</name>
+    </note>
+    <note id="OV026">
+      <name>点火（TFTM 制造）</name>
+    </note>
+    <note id="OV027">
+      <name>起动（带智能进入和起动系统）（GTMC 制造）</name>
+    </note>
+    <note id="OV028">
+      <name>起动（带智能进入和起动系统）（TFTM 制造）</name>
+    </note>
+    <note id="OV029">
+      <name>起动（不带智能进入和起动系统）（GTMC 制造）</name>
+    </note>
+    <note id="OV030">
+      <name>起动（不带智能进入和起动系统）（TFTM 制造）</name>
+    </note>
+  </book>
+  <book id="O-DR">
+    <name>动力传动系</name>
+    <note id="OV015">
+      <name>CVT 和换档指示灯（GTMC 制造）</name>
+    </note>
+    <note id="OV016">
+      <name>CVT 和换档指示灯（TFTM 制造）</name>
+    </note>
+    <note id="OV017">
+      <name>换档锁止（GTMC 制造）</name>
+    </note>
+    <note id="OV018">
+      <name>换档锁止（TFTM 制造）</name>
+    </note>
+  </book>
+  <book id="O-BK">
+    <name>制动器</name>
+    <note id="OV009">
+      <name>ABS（GTMC 制造）</name>
+    </note>
+    <note id="OV010">
+      <name>ABS（TFTM 制造）</name>
+    </note>
+    <note id="OV011">
+      <name>TRC（GTMC 制造）</name>
+    </note>
+    <note id="OV012">
+      <name>TRC（TFTM 制造）</name>
+    </note>
+    <note id="OV013">
+      <name>VSC（GTMC 制造）</name>
+    </note>
+    <note id="OV014">
+      <name>VSC（TFTM 制造）</name>
+    </note>
+  </book>
+  <book id="O-ST">
+    <name>转向</name>
+    <note id="OV115">
+      <name>EPS (1ZR-FE)（TFTM 制造）</name>
+    </note>
+    <note id="OV116">
+      <name>EPS (2ZR-FE)（TFTM 制造）</name>
+    </note>
+    <note id="OV117">
+      <name>EPS (4ZR-FE)（GTMC 制造）</name>
+    </note>
+    <note id="OV118">
+      <name>EPS (7ZR-FE)（GTMC 制造）</name>
+    </note>
+    <note id="OV119">
+      <name>转向锁（GTMC 制造）</name>
+    </note>
+    <note id="OV120">
+      <name>转向锁（TFTM 制造）</name>
+    </note>
+  </book>
+  <book id="O-AV">
+    <name>音频/视频/车载通信系统</name>
+    <note id="OV001">
+      <name>音响系统（GTMC 制造）</name>
+    </note>
+    <note id="OV002">
+      <name>音响系统（TFTM 制造）</name>
+    </note>
+    <note id="OV003">
+      <name>导航系统（GTMC 制造）</name>
+    </note>
+    <note id="OV004">
+      <name>导航系统（TFTM 制造）</name>
+    </note>
+    <note id="OV005">
+      <name>后视野监视系统（GTMC 制造）</name>
+    </note>
+    <note id="OV006">
+      <name>后视野监视系统（TFTM 制造）</name>
+    </note>
+    <note id="OV007">
+      <name>丰田驻车辅助传感器系统（GTMC 制造）</name>
+    </note>
+    <note id="OV008">
+      <name>丰田驻车辅助传感器系统（TFTM 制造）</name>
+    </note>
+  </book>
+  <book id="O-PS">
+    <name>电源/网络</name>
+    <note id="OV107">
+      <name>充电（GTMC 制造）</name>
+    </note>
+    <note id="OV108">
+      <name>充电（TFTM 制造）</name>
+    </note>
+    <note id="OV109">
+      <name>DLC3（GTMC 制造）</name>
+    </note>
+    <note id="OV110">
+      <name>DLC3（TFTM 制造）</name>
+    </note>
+    <note id="OV111">
+      <name>多路通信系统 (CAN)（GTMC 制造）</name>
+    </note>
+    <note id="OV112">
+      <name>多路通信系统 (CAN)（TFTM 制造）</name>
+    </note>
+    <note id="OV113">
+      <name>电源（GTMC 制造）</name>
+    </note>
+    <note id="OV114">
+      <name>电源（TFTM 制造）</name>
+    </note>
+  </book>
+  <book id="O-IN">
+    <name>车辆内饰</name>
+    <note id="OV067">
+      <name>自动空调（GTMC 制造）</name>
+    </note>
+    <note id="OV068">
+      <name>自动空调（TFTM 制造）</name>
+    </note>
+    <note id="OV069">
+      <name>点烟器（GTMC 制造）</name>
+    </note>
+    <note id="OV070">
+      <name>点烟器（TFTM 制造）</name>
+    </note>
+    <note id="OV071">
+      <name>时钟（GTMC 制造）</name>
+    </note>
+    <note id="OV072">
+      <name>时钟（TFTM 制造）</name>
+    </note>
+    <note id="OV073">
+      <name>组合仪表（带 TFT 显示屏）（GTMC 制造）</name>
+    </note>
+    <note id="OV074">
+      <name>组合仪表（带 TFT 显示屏）（TFTM 制造）</name>
+    </note>
+    <note id="OV075">
+      <name>组合仪表（不带 TFT 显示屏）（GTMC 制造）</name>
+    </note>
+    <note id="OV076">
+      <name>组合仪表（不带 TFT 显示屏）（TFTM 制造）</name>
+    </note>
+    <note id="OV077">
+      <name>门锁控制（GTMC 制造）</name>
+    </note>
+    <note id="OV078">
+      <name>门锁控制（TFTM 制造）</name>
+    </note>
+    <note id="OV079">
+      <name>照明（GTMC 制造）</name>
+    </note>
+    <note id="OV080">
+      <name>照明（TFTM 制造）</name>
+    </note>
+    <note id="OV081">
+      <name>停机系统（带智能进入和起动系统）（GTMC 制造）</name>
+    </note>
+    <note id="OV082">
+      <name>停机系统（带智能进入和起动系统）（TFTM 制造）</name>
+    </note>
+    <note id="OV083">
+      <name>停机系统（不带智能进入和起动系统）（GTMC 制造）</name>
+    </note>
+    <note id="OV084">
+      <name>停机系统（不带智能进入和起动系统）（TFTM 制造）</name>
+    </note>
+    <note id="OV085">
+      <name>车内照明灯（GTMC 制造）</name>
+    </note>
+    <note id="OV086">
+      <name>车内照明灯（TFTM 制造）</name>
+    </note>
+    <note id="OV087">
+      <name>钥匙提醒（不带智能进入和起动系统）（GTMC 制造）</name>
+    </note>
+    <note id="OV088">
+      <name>钥匙提醒（不带智能进入和起动系统）（TFTM 制造）</name>
+    </note>
+    <note id="OV089">
+      <name>手动空调（GTMC 制造）</name>
+    </note>
+    <note id="OV090">
+      <name>手动空调（TFTM 制造）</name>
+    </note>
+    <note id="OV091">
+      <name>电动座椅（GTMC 制造）</name>
+    </note>
+    <note id="OV092">
+      <name>电动座椅（TFTM 制造）</name>
+    </note>
+    <note id="OV093">
+      <name>PTC 加热器（GTMC 制造）</name>
+    </note>
+    <note id="OV094">
+      <name>PTC 加热器（TFTM 制造）</name>
+    </note>
+    <note id="OV095">
+      <name>座椅安全带警告（GTMC 制造）</name>
+    </note>
+    <note id="OV096">
+      <name>座椅安全带警告（TFTM 制造）</name>
+    </note>
+    <note id="OV097">
+      <name>座椅加热器（TFTM 制造）</name>
+    </note>
+    <note id="OV098">
+      <name>智能进入和起动系统（GTMC 制造）</name>
+    </note>
+    <note id="OV099">
+      <name>智能进入和起动系统（TFTM 制造）</name>
+    </note>
+    <note id="OV100">
+      <name>SRS（GTMC 制造）</name>
+    </note>
+    <note id="OV101">
+      <name>SRS（TFTM 制造）</name>
+    </note>
+    <note id="OV102">
+      <name>防盗（TFTM 制造）</name>
+    </note>
+    <note id="OV103">
+      <name>无线门锁控制（带智能进入和起动系统）（GTMC 制造）</name>
+    </note>
+    <note id="OV104">
+      <name>无线门锁控制（带智能进入和起动系统）（TFTM 制造）</name>
+    </note>
+    <note id="OV105">
+      <name>无线门锁控制（不带智能进入和起动系统）（GTMC 制造）</name>
+    </note>
+    <note id="OV106">
+      <name>无线门锁控制（不带智能进入和起动系统）（TFTM 制造）</name>
+    </note>
+  </book>
+  <book id="O-EX">
+    <name>车辆外饰</name>
+    <note id="OV031">
+      <name>自动灯光控制（GTMC 制造）</name>
+    </note>
+    <note id="OV032">
+      <name>自动灯光控制（TFTM 制造）</name>
+    </note>
+    <note id="OV033">
+      <name>倒车灯（GTMC 制造）</name>
+    </note>
+    <note id="OV034">
+      <name>倒车灯（TFTM 制造）</name>
+    </note>
+    <note id="OV035">
+      <name>前雾灯（GTMC 制造）</name>
+    </note>
+    <note id="OV036">
+      <name>前雾灯（TFTM 制造）</name>
+    </note>
+    <note id="OV037">
+      <name>前刮水器和清洗器（GTMC 制造）</name>
+    </note>
+    <note id="OV038">
+      <name>前刮水器和清洗器（TFTM 制造）</name>
+    </note>
+    <note id="OV039">
+      <name>大灯（GTMC 制造）</name>
+    </note>
+    <note id="OV040">
+      <name>大灯（TFTM 制造）</name>
+    </note>
+    <note id="OV041">
+      <name>大灯光束高度控制（GTMC 制造）</name>
+    </note>
+    <note id="OV042">
+      <name>大灯光束高度控制（TFTM 制造）</name>
+    </note>
+    <note id="OV043">
+      <name>喇叭（GTMC 制造）</name>
+    </note>
+    <note id="OV044">
+      <name>喇叭（TFTM 制造）</name>
+    </note>
+    <note id="OV045">
+      <name>车灯自动熄灭系统（GTMC 制造）</name>
+    </note>
+    <note id="OV046">
+      <name>车灯自动熄灭系统（TFTM 制造）</name>
+    </note>
+    <note id="OV047">
+      <name>车灯提醒器（GTMC 制造）</name>
+    </note>
+    <note id="OV048">
+      <name>车灯提醒器（TFTM 制造）</name>
+    </note>
+    <note id="OV049">
+      <name>后视镜加热器（TFTM 制造）</name>
+    </note>
+    <note id="OV050">
+      <name>电动车窗（GTMC 制造）</name>
+    </note>
+    <note id="OV051">
+      <name>电动车窗（TFTM 制造）</name>
+    </note>
+    <note id="OV052">
+      <name>后雾灯（GTMC 制造）</name>
+    </note>
+    <note id="OV053">
+      <name>后雾灯（TFTM 制造）</name>
+    </note>
+    <note id="OV054">
+      <name>后窗除雾器（GTMC 制造）</name>
+    </note>
+    <note id="OV055">
+      <name>后窗除雾器（TFTM 制造）</name>
+    </note>
+    <note id="OV056">
+      <name>遥控后视镜（GTMC 制造）</name>
+    </note>
+    <note id="OV057">
+      <name>遥控后视镜（带卷收器）（TFTM 制造）</name>
+    </note>
+    <note id="OV058">
+      <name>遥控后视镜（不带卷收器）（TFTM 制造）</name>
+    </note>
+    <note id="OV059">
+      <name>滑动天窗（GTMC 制造）</name>
+    </note>
+    <note id="OV060">
+      <name>滑动天窗（TFTM 制造）</name>
+    </note>
+    <note id="OV061">
+      <name>刹车灯（GTMC 制造）</name>
+    </note>
+    <note id="OV062">
+      <name>刹车灯（TFTM 制造）</name>
+    </note>
+    <note id="OV063">
+      <name>尾灯（GTMC 制造）</name>
+    </note>
+    <note id="OV064">
+      <name>尾灯（TFTM 制造）</name>
+    </note>
+    <note id="OV065">
+      <name>转向信号和危险警告灯（GTMC 制造）</name>
+    </note>
+    <note id="OV066">
+      <name>转向信号和危险警告灯（TFTM 制造）</name>
+    </note>
+  </book>
+</EwdTree>

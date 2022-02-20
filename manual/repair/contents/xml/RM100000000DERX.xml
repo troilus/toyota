@@ -1,0 +1,3389 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_51">
+<name>发动机/混合动力系统</name>
+<section id="_023958">
+<name>2ZR-FE 发动机控制系统</name>
+<ttl id="_0117858">
+<name>SFI 系统</name>
+<para category="C" id="RM100000000DERX">
+<dtccode>P0300</dtccode>
+<dtcname>检测到任意/多个气缸缺火</dtcname>
+<dtccode>P0301</dtccode>
+<dtcname>检测到 1 号气缸缺火</dtcname>
+<dtccode>P0302</dtccode>
+<dtcname>检测到 2 号气缸缺火</dtcname>
+<dtccode>P0303</dtccode>
+<dtcname>检测到 3 号气缸缺火</dtcname>
+<dtccode>P0304</dtccode>
+<dtcname>检测到 4 号气缸缺火</dtcname>
+<subpara category="03" id="RM100000000DERX_01">
+<name>描述</name>
+<content5>
+<ptxt>发动机缺火时，高浓度碳氢化合物 (HC) 进入废气中。极高浓度的碳氢化合物会导致废气排放量增加。极高浓度的碳氢化合物也可能使三元催化转化器的温度升高，从而导致其损坏。为了避免排放量的增加以及高温造成的损坏，ECM 将监测发动机缺火数。三元催化转化器的温度达到热衰退点时，ECM 会使 MIL 闪烁。ECM 利用凸轮轴位置传感器和曲轴位置传感器监测缺火情况。凸轮轴位置传感器用于识别缺火的气缸，而曲轴位置传感器则用于测量曲轴转速的变化。曲轴转速变化超出预定阈值时，将统计缺火数。如果缺火数超过了阈值，并可能导致排放控制系统性能恶化，ECM 将点亮 MIL 并存储 DTC。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="6">
+<colspec colname="1" colwidth="0.71in"/>
+<colspec colname="2" colwidth="1.06in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="2.12in"/>
+<colspec colname="5" colwidth="0.71in"/>
+<colspec colname="6" colwidth="0.71in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>MIL</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P0300</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>检测到任意/多个气缸缺火</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>多个气缸同时出现缺火，并满足以下任一条件（双程检测逻辑）：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>发生可能损坏三元催化转化器的缺火（立即检测时 MIL 闪烁）。</ptxt>
+</item>
+<item>
+<ptxt>发生排放恶化缺火（MIL 点亮）。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>发动机线束开路或短路</ptxt>
+</item>
+<item>
+<ptxt>连接器连接</ptxt>
+</item>
+<item>
+<ptxt>真空软管连接</ptxt>
+</item>
+<item>
+<ptxt>点火系统</ptxt>
+</item>
+<item>
+<ptxt>喷油器总成</ptxt>
+</item>
+<item>
+<ptxt>燃油压力</ptxt>
+</item>
+<item>
+<ptxt>质量空气流量计分总成</ptxt>
+</item>
+<item>
+<ptxt>发动机冷却液温度传感器</ptxt>
+</item>
+<item>
+<ptxt>压缩压力</ptxt>
+</item>
+<item>
+<ptxt>气门正时</ptxt>
+</item>
+<item>
+<ptxt>PCV 阀和软管</ptxt>
+</item>
+<item>
+<ptxt>PCV 软管连接</ptxt>
+</item>
+<item>
+<ptxt>进气系统</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮/闪烁*</ptxt>
+<ptxt>*：检测到催化剂损坏缺火时，MIL 闪烁。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P0301</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>检测到 1 号气缸缺火</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>1 号气缸出现缺火，并满足以下任一条件（双程检测逻辑）：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>发生可能损坏三元催化转化器的缺火（立即检测时 MIL 闪烁）。</ptxt>
+</item>
+<item>
+<ptxt>发生排放恶化缺火（MIL 点亮）。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>发动机线束开路或短路</ptxt>
+</item>
+<item>
+<ptxt>连接器连接</ptxt>
+</item>
+<item>
+<ptxt>真空软管连接</ptxt>
+</item>
+<item>
+<ptxt>点火系统</ptxt>
+</item>
+<item>
+<ptxt>喷油器总成</ptxt>
+</item>
+<item>
+<ptxt>燃油压力</ptxt>
+</item>
+<item>
+<ptxt>质量空气流量计分总成</ptxt>
+</item>
+<item>
+<ptxt>发动机冷却液温度传感器</ptxt>
+</item>
+<item>
+<ptxt>压缩压力</ptxt>
+</item>
+<item>
+<ptxt>气门正时</ptxt>
+</item>
+<item>
+<ptxt>PCV 阀和软管</ptxt>
+</item>
+<item>
+<ptxt>PCV 软管连接</ptxt>
+</item>
+<item>
+<ptxt>进气系统</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮/闪烁*</ptxt>
+<ptxt>*：检测到催化剂损坏缺火时，MIL 闪烁。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P0302</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>检测到 2 号气缸缺火</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>2 号气缸出现缺火，并满足以下任一条件（双程检测逻辑）：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>发生可能损坏三元催化转化器的缺火（立即检测时 MIL 闪烁）。</ptxt>
+</item>
+<item>
+<ptxt>发生排放恶化缺火（MIL 点亮）。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>发动机线束开路或短路</ptxt>
+</item>
+<item>
+<ptxt>连接器连接</ptxt>
+</item>
+<item>
+<ptxt>真空软管连接</ptxt>
+</item>
+<item>
+<ptxt>点火系统</ptxt>
+</item>
+<item>
+<ptxt>喷油器总成</ptxt>
+</item>
+<item>
+<ptxt>燃油压力</ptxt>
+</item>
+<item>
+<ptxt>质量空气流量计分总成</ptxt>
+</item>
+<item>
+<ptxt>发动机冷却液温度传感器</ptxt>
+</item>
+<item>
+<ptxt>压缩压力</ptxt>
+</item>
+<item>
+<ptxt>气门正时</ptxt>
+</item>
+<item>
+<ptxt>PCV 阀和软管</ptxt>
+</item>
+<item>
+<ptxt>PCV 软管连接</ptxt>
+</item>
+<item>
+<ptxt>进气系统</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮/闪烁*</ptxt>
+<ptxt>*：检测到催化剂损坏缺火时，MIL 闪烁。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P0303</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>检测到 3 号气缸缺火</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>3 号气缸出现缺火，并满足以下任一条件（双程检测逻辑）：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>发生可能损坏三元催化转化器的缺火（立即检测时 MIL 闪烁）。</ptxt>
+</item>
+<item>
+<ptxt>发生排放恶化缺火（MIL 点亮）。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>发动机线束开路或短路</ptxt>
+</item>
+<item>
+<ptxt>连接器连接</ptxt>
+</item>
+<item>
+<ptxt>真空软管连接</ptxt>
+</item>
+<item>
+<ptxt>点火系统</ptxt>
+</item>
+<item>
+<ptxt>喷油器总成</ptxt>
+</item>
+<item>
+<ptxt>燃油压力</ptxt>
+</item>
+<item>
+<ptxt>质量空气流量计分总成</ptxt>
+</item>
+<item>
+<ptxt>发动机冷却液温度传感器</ptxt>
+</item>
+<item>
+<ptxt>压缩压力</ptxt>
+</item>
+<item>
+<ptxt>气门正时</ptxt>
+</item>
+<item>
+<ptxt>PCV 阀和软管</ptxt>
+</item>
+<item>
+<ptxt>PCV 软管连接</ptxt>
+</item>
+<item>
+<ptxt>进气系统</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮/闪烁*</ptxt>
+<ptxt>*：检测到催化剂损坏缺火时，MIL 闪烁。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P0304</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>检测到 4 号气缸缺火</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>4 号气缸出现缺火，并满足以下任一条件（双程检测逻辑）：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>发生可能损坏三元催化转化器的缺火（立即检测时 MIL 闪烁）。</ptxt>
+</item>
+<item>
+<ptxt>发生排放恶化缺火（MIL 点亮）。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>发动机线束开路或短路</ptxt>
+</item>
+<item>
+<ptxt>连接器连接</ptxt>
+</item>
+<item>
+<ptxt>真空软管连接</ptxt>
+</item>
+<item>
+<ptxt>点火系统</ptxt>
+</item>
+<item>
+<ptxt>喷油器总成</ptxt>
+</item>
+<item>
+<ptxt>燃油压力</ptxt>
+</item>
+<item>
+<ptxt>质量空气流量计分总成</ptxt>
+</item>
+<item>
+<ptxt>发动机冷却液温度传感器</ptxt>
+</item>
+<item>
+<ptxt>压缩压力</ptxt>
+</item>
+<item>
+<ptxt>气门正时</ptxt>
+</item>
+<item>
+<ptxt>PCV 阀和软管</ptxt>
+</item>
+<item>
+<ptxt>PCV 软管连接</ptxt>
+</item>
+<item>
+<ptxt>进气系统</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮/闪烁*</ptxt>
+<ptxt>*：检测到催化剂损坏缺火时，MIL 闪烁。</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>如果气缸缺火 DTC 是随机存储的，但未存储 DTC P0300，则表示在不同时间、不同气缸中检测到缺火。只有同时检测到多个气缸缺火才会存储 DTC P0300。</ptxt>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DERX_02">
+<name>监视描述</name>
+<content5>
+<ptxt>检测到可能导致排放恶化的以下条件时，ECM 点亮 MIL 并存储 DTC（双程检测逻辑）。</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>共出现 4 次过度缺火（曲轴每转动 1,000 转约 60 至 80 次缺火）。</ptxt>
+</item>
+</list1>
+<ptxt>检测到可能导致三元催化转化器损坏的以下条件时，ECM 将使 MIL 闪烁（实时检测逻辑）并存储 DTC（双程检测逻辑）。</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>曲轴转动 200 转内，检测到损坏催化剂的缺火足量 3 次。</ptxt>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DERX_03">
+<name>监视策略</name>
+<content5>
+<table pgwide="1">
+<tgroup align="left" cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>所需传感器/零部件（主要）</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>曲轴位置传感器</ptxt>
+<ptxt>凸轮轴位置传感器</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>所需传感器/零部件（相关）</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>发动机冷却液温度</ptxt>
+<ptxt>进气温度传感器</ptxt>
+<ptxt>质量空气流量计分总成</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>工作频率</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>持续</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DERX_04">
+<name>典型启动条件</name>
+<content5>
+<table pgwide="1">
+<title>缺火</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>进气温度</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>高于 -10°C (14°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>满足下列任一条件</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>(a) 或 (b)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>(a) 发动机起动时的发动机冷却液温度</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>高于 -7°C (19°F)</ptxt>
+</entry>
+</row>
+<row>
+<?PubTbl row rht="0.26in"?>
+<entry valign="middle">
+<ptxt>(b) 发动机冷却液温度</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>高于 20°C (68°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>排放相关缺火监视时间</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>持续时间</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>曲轴转动 1,000 转 x 4</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>催化剂损坏缺火监视时间（MIL 闪烁）</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>持续时间</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>曲轴转动 200 转 x 3</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DERX_08">
+<name>确认行驶模式</name>
+<content5>
+<list1 type="ordered">
+<item>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</item>
+<item>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</item>
+<item>
+<ptxt>打开 GTS。</ptxt>
+</item>
+<item>
+<ptxt>记录 DTC 和定格数据。</ptxt>
+</item>
+<item>
+<ptxt>清除 DTC（即使未存储 DTC，也应执行清除 DTC 程序）。</ptxt>
+</item>
+<item>
+<ptxt>将 ECM 从正常模式切换至检查模式。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DER0" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>在发动机怠速运转状态下，读取各气缸缺火数（Cylinder #1 Misfire Count 至 Cylinder #4 Misfire Count）。如果显示了缺火数，则跳过以下确认行驶模式。</ptxt>
+</item>
+<item>
+<ptxt>驾驶车辆以使数据表中的缺火转数和缺火负载项显示的车辆状况与定格数据相同。执行该步骤数次。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>为了存储缺火 DTC，必须使用数据表中的 Misfire RPM 和 Misfire Load，按下表中所示的时间操作车辆。</ptxt>
+</item>
+</list1>
+<table pgwide="1">
+<tgroup align="center" cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>发动机转速 (rpm)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>持续时间</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>怠速运转</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>8.0 分钟或更长时间</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>1,000</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>4.5 分钟或更长时间</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>2,000</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>2.5 分钟或更长时间</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>3,000</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>1.5 分钟或更长时间</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</atten4>
+</item>
+<item>
+<ptxt>通过检查 DTC 和定格数据，检查是否发生缺火。</ptxt>
+<atten4>
+<ptxt>记录存储的 DTC 和定格数据前，不要将发动机开关置于 OFF 位置。ECM 恢复到正常模式（默认）时，将清除存储的 DTC、定格数据和其他数据。</ptxt>
+</atten4>
+</item>
+<item>
+<ptxt>记录 DTC、定格数据和缺火数。</ptxt>
+</item>
+<item>
+<ptxt>将发动机开关置于 OFF 位置，并至少等待 30 秒。</ptxt>
+</item>
+<item>
+<ptxt>清除 DTC（即使未存储 DTC，也应执行清除 DTC 程序）。</ptxt>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DERX_07">
+<name>电路图</name>
+<content5>
+<ptxt>有关质量空气流量计分总成电路，请参考 DTC P0102。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQ7_07" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>请参考喷油器电路。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DERH_02" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DERX_09">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>进行下列程序前，先检查与此系统相关电路的保险丝。</ptxt>
+</atten3>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>检查数据表或定格数据中的“Fuel Cut Elps Time”。</ptxt>
+<ptxt>如果经过的时间超过 0 秒，则表示发动机转速高（出现燃油切断时的发动机转速为 +500 rpm）。</ptxt>
+<ptxt>发生此情况时，可能是 1 号气门摇臂分总成松动且可能失火，检查并确认 1 号气门摇臂分总成正确安装。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBNT" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>通过清除 DTC 将清除“Fuel Cut Elps Time”。</ptxt>
+</item>
+<item>
+<ptxt>如果除缺火 DTC 外还输出了其他 DTC，应首先对其他 DTC 进行故障排除。</ptxt>
+</item>
+<item>
+<ptxt>使用 GTS 读取定格数据。存储 DTC 时，ECM 将车辆和驾驶条件信息记录为定格数据。进行故障排除时，定格数据有助于确定故障出现时车辆是运行还是停止，发动机是暖机还是未暖机，空燃比是浓还是稀，以及其他数据。</ptxt>
+</item>
+<item>
+<ptxt>车辆送入修理车间后，如果缺火不再出现，则再现 ECM 中作为定格数据而存储的条件。</ptxt>
+</item>
+<item>
+<ptxt>如果即使再现 ECM 中作为定格数据存储的条件后仍无法再现缺火，故障原因可能为下列之一：</ptxt>
+</item>
+<list2 type="ordered">
+<item>
+<ptxt>油箱中燃油不足。</ptxt>
+</item>
+<item>
+<ptxt>使用的燃油不当。</ptxt>
+</item>
+<item>
+<ptxt>火花塞脏污。</ptxt>
+</item>
+<item>
+<ptxt>该故障需要进一步诊断。</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>维修完成后，检查各气缸缺火数（1 号至 4 号气缸缺火数）。</ptxt>
+</item>
+<item>
+<ptxt>完成维修后务必执行确认行驶模式，以确认没有再次存储缺火气缸 DTC。</ptxt>
+</item>
+<item>
+<ptxt>如果定格数据 Short FT #1 或 Long FT #1 中的一个超出了 +/-15% 范围，则空燃比可能偏浓（-15% 或更低）或偏稀（15% 或更高）。</ptxt>
+</item>
+<item>
+<ptxt>如果定格数据中的 Coolant Temp 低于 75°C (167°F)，仅在发动机暖机过程中发生过缺火。</ptxt>
+</item>
+<item>
+<ptxt>极度失衡的驱动轮可能导致车身振动，并可能导致存储缺火 DTC。</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DERX_16">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DERX_16_0001">
+<testtitle>检查其他 DTC 输出（除缺火 DTC 外）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。</ptxt>
+</test1>
+<test1>
+<ptxt>读取 DTC。</ptxt>
+<gts-info category="dtc-read">
+<title>Powertrain &gt; Engine and ECT &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出 DTC P0300、P0301、P0302、P0303 和/或 P0304</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出 DTC P0300、P0301、P0302、P0303 和/或 P0304 和其他 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>如果除 P0300、P0301、P0302、P0303 或 P0304 外还输出了其他 DTC，应首先对其他 DTC 进行故障排除。</ptxt>
+</atten4>
+</test1>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DERX_16_0002"/>
+</result>
+<result cellposition="1-3" label="2">
+<action actiontype="end" cellposition="2-3">
+<actiontitle>转至 DTC 表</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DERO" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DERX_16_0002">
+<testtitle>检查 PCV 软管连接情况</testtitle>
+<content6>
+<test1>
+<ptxt>检查 PCV 软管连接情况。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCOL" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>PCV 阀和软管连接正确且无损坏。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000DERX_16_0005"/>
+</result>
+<result cellposition="2-2" label="2">
+<action actiontype="end" cellposition="3-2">
+<actiontitle>维修或更换 PCV 软管</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000DERX_16_0005">
+<testtitle>使用 GTS 读取值（缺火转速和缺火负载）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / Misfire RPM and Misfire Load。</ptxt>
+<gts-info category="data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="319" name="item-name">
+<ptxt>Misfire RPM</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="320" name="item-name">
+<ptxt>Misfire Load</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="234">
+<gts-pid pid-id="319"/>
+<gts-pid pid-id="320"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">319</app-param>
+<app-param name="data-list-item-name">Misfire RPM</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">320</app-param>
+<app-param name="data-list-item-name">Misfire Load</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>读取并记录缺火转速和缺火负载值。</ptxt>
+<atten4>
+<ptxt>缺火转速和缺火负载值显示了缺火发生时的车辆状况。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000DERX_16_0006"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000DERX_16_0006">
+<testtitle>使用 GTS 读取值（气缸缺火数）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / Cylinder #1 Misfire Count、Cylinder #2 Misfire Count、Cylinder #3 Misfire Count and Cylinder #4 Misfire Count。</ptxt>
+<gts-info category="data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="321" name="item-name">
+<ptxt>Cylinder #1 Misfire Count</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="322" name="item-name">
+<ptxt>Cylinder #2 Misfire Count</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="323" name="item-name">
+<ptxt>Cylinder #3 Misfire Count</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="324" name="item-name">
+<ptxt>Cylinder #4 Misfire Count</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="234">
+<gts-pid pid-id="321"/>
+<gts-pid pid-id="322"/>
+<gts-pid pid-id="323"/>
+<gts-pid pid-id="324"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">321</app-param>
+<app-param name="data-list-item-name">Cylinder #1 Misfire Count</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">322</app-param>
+<app-param name="data-list-item-name">Cylinder #2 Misfire Count</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">323</app-param>
+<app-param name="data-list-item-name">Cylinder #3 Misfire Count</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">324</app-param>
+<app-param name="data-list-item-name">Cylinder #4 Misfire Count</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>起动发动机并使发动机怠速运转。</ptxt>
+</test1>
+<test1>
+<ptxt>读取显示在 GTS 上的 1 号至 4 号各气缸缺火数的值。如果所有气缸中无缺火数发生，则执行程序 [A] 和 [B]，然后再次检查缺火数。</ptxt>
+</test1>
+<test1>
+<ptxt>按照上述程序“使用 GTS 读取值（缺火转速和缺火负载）”中记录的缺火转速和缺火负载值驾驶车辆 [A]。</ptxt>
+</test1>
+<test1>
+<ptxt>读取显示在 GTS 上的 1 号至 4 号气缸缺火数或 DTC [B]。</ptxt>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>只在 1 个或 2 个气缸中出现缺火</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>3 个或更多个气缸有相等的缺火数</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果很难重现各气缸的缺火次数，则检查“数据表”中的“缺火极限”项。尝试查找降低缺火极限值的车辆驾驶条件。大于 30% 的值视为正常。</ptxt>
+</item>
+<item>
+<ptxt>如果定格数据记录的发动机冷却液温度低于 75°C (167°F)，则仅在发动机冷机时检测到缺火。</ptxt>
+</item>
+<item>
+<ptxt>如果定格数据记录的发动机运转时间小于 120 秒，则可在发动机起动后立即检测到缺火。</ptxt>
+</item>
+</list1>
+</atten4>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000DERX_16_0007"/>
+</result>
+<result cellposition="4-11" label="2">
+<action actiontype="next" cellposition="5-11" childid="RM100000000DERX_16_0028"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000DERX_16_0007">
+<testtitle>检查火花塞</testtitle>
+<content6>
+<test1>
+<ptxt>检查缺火气缸的火花塞。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETKA_01_0005" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>更换火花塞后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQX" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="next" cellposition="6-1" childid="RM100000000DERX_16_0009"/>
+</result>
+<result cellposition="5-2" label="2">
+<action actiontype="end" cellposition="6-2">
+<actiontitle>更换火花塞</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETL6" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-1" id="RM100000000DERX_16_0009">
+<testtitle>检查火花（火花测试）</testtitle>
+<content6>
+<test1>
+<ptxt>进行火花测试。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETKA_01_0003" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果火花测试结果正常，则转至下一步。</ptxt>
+</item>
+<item>
+<ptxt>维修或更换点火系统后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQX" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-1" label="1">
+<action actiontype="next" cellposition="7-1" childid="RM100000000DERX_16_0010"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-1" id="RM100000000DERX_16_0010">
+<testtitle>检查气缸压缩压力</testtitle>
+<content6>
+<test1>
+<ptxt>测量缺火气缸的压缩压力。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBN7_01_0010" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>维修或更换发动机总成后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQX" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-1" label="1">
+<action actiontype="next" cellposition="8-1" childid="RM100000000DERX_16_0011"/>
+</result>
+<result cellposition="7-10" label="2">
+<action actiontype="end" cellposition="8-10">
+<actiontitle>检查发动机以确定压缩压力低的原因</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-1" id="RM100000000DERX_16_0011">
+<testtitle>检查端子电压（#10、#20、#30 和/或 #40）</testtitle>
+<content6>
+<figure translate="C" type="1">
+<graphic graphicname="A255689C81" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至 ECM）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<test1>
+<ptxt>断开 ECM 连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.36in"/>
+<colspec colname="col2" colwidth="1.36in"/>
+<colspec colname="col3" colwidth="1.41in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B39-98 (#10) - B39-57 (E01)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>发动机开关 ON (IG)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B39-95 (#20) - B39-57 (E01)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>发动机开关 ON (IG)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B39-96 (#30) - B39-57 (E01)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>发动机开关 ON (IG)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B39-97 (#40) - B39-57 (E01)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>发动机开关 ON (IG)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-1" label="1">
+<action actiontype="next" cellposition="9-1" childid="RM100000000DERX_16_0012"/>
+</result>
+<result cellposition="8-9" label="2">
+<action actiontype="end" cellposition="9-9">
+<actiontitle>检查喷油器电路</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DERH" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-1" id="RM100000000DERX_16_0012">
+<testtitle>检查缺火气缸的喷油器总成</testtitle>
+<content6>
+<test1>
+<ptxt>检查喷油器总成的喷油情况（喷油量是高还是低，喷油方式是否不良）。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD0P" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>更换喷油器总成后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQX" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-1" label="1">
+<action actiontype="next" cellposition="10-1" childid="RM100000000DERX_16_0013"/>
+</result>
+<result cellposition="9-8" label="2">
+<action actiontype="end" cellposition="10-8">
+<actiontitle>更换喷油器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD0O" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="10-1" id="RM100000000DERX_16_0013">
+<testtitle>检查进气系统</testtitle>
+<content6>
+<test1>
+<ptxt>检查进气系统是否存在真空泄漏。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCNM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>进气系统无泄漏。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>维修或更换进气系统后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQX" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="10-1" label="1">
+<action actiontype="next" cellposition="11-1" childid="RM100000000DERX_16_0014"/>
+</result>
+<result cellposition="10-7" label="2">
+<action actiontype="end" cellposition="11-7">
+<actiontitle>维修或更换进气系统</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="11-1" id="RM100000000DERX_16_0014">
+<testtitle>检查燃油压力</testtitle>
+<content6>
+<test1>
+<ptxt>检查燃油压力。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000E8FT_01_0002" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="11-1" label="1">
+<action actiontype="next" cellposition="12-1" childid="RM100000000DERX_16_0015"/>
+</result>
+<result cellposition="11-6" label="2">
+<action actiontype="jump" cellposition="12-6" childid="RM100000000DERX_16_0055">
+<actiontitle>转至步骤 32</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="12-1" id="RM100000000DERX_16_0015">
+<testtitle>使用 GTS 读取值（冷却液温度）</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DERW_12_0005" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="12-1" label="1">
+<action actiontype="next" cellposition="13-1" childid="RM100000000DERX_16_0016"/>
+</result>
+<result cellposition="12-5" label="2">
+<action actiontype="end" cellposition="13-5">
+<actiontitle>更换发动机冷却液温度传感器</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETLA" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="13-1" id="RM100000000DERX_16_0016">
+<testtitle>使用 GTS 读取值 (MAF)</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DERW_12_0006" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="13-1" label="1">
+<action actiontype="next" cellposition="14-1" childid="RM100000000DERX_16_0059"/>
+</result>
+<result cellposition="13-4" label="2">
+<action actiontype="jump" cellposition="14-4" childid="RM100000000DERX_16_0039">
+<actiontitle>转至步骤 27</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="14-1" id="RM100000000DERX_16_0059">
+<testtitle>检查发动机机械系统</testtitle>
+<content6>
+<test1>
+<ptxt>检查影响气门正时的机械故障，如正时链条跳齿或伸长。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="14-1" label="1">
+<action actiontype="next" cellposition="15-1" childid="RM100000000DERX_16_0018"/>
+</result>
+<result cellposition="14-3" label="2">
+<action actiontype="end" cellposition="15-3">
+<actiontitle>维修或更换故障零件、零部件和部位</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="15-1" id="RM100000000DERX_16_0018">
+<testtitle>检查是否再次输出 DTC（DTC P0300、P0301、P0302、P0303 或 P0304）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Powertrain &gt; Engine and ECT &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 OFF 位置，并至少等待 30 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>使发动机暖机。</ptxt>
+</test1>
+<test1>
+<ptxt>按照确认行驶模式中所述的行驶模式驾驶车辆。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。</ptxt>
+<gts-info category="utility-normal">
+<title>Powertrain &gt; Engine and ECT &gt; Utility</title>
+<table type="utility">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="20" name="item-name">
+<ptxt>All Readiness</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50005">
+<gts-ecu ecu-id="234">
+<gts-util util-id="20"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">4</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="utility-id">20</app-param>
+<app-param name="function-name">All Readiness</app-param>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>输入 DTC：P0300、P0301、P0302、P0303 或 P0304。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC 判断结果。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>NORMAL</ptxt>
+<ptxt>（未输出 DTC）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>ABNORMAL</ptxt>
+<ptxt>（输出 DTC P0300、P0301、P0302、P0303 或 P0304）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="15-1" label="1">
+<action actiontype="end" cellposition="16-1">
+<actiontitle>检查是否存在间歇性故障</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQV" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="15-2" label="2">
+<action actiontype="jump" cellposition="16-2" childid="RM100000000DERX_16_0039">
+<actiontitle>转至步骤 27</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-11" id="RM100000000DERX_16_0028">
+<testtitle>检查进气系统</testtitle>
+<content6>
+<test1>
+<ptxt>检查进气系统是否存在真空泄漏。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCNM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>进气系统无泄漏。</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>维修或更换进气系统后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQX" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-11" label="1">
+<action actiontype="next" cellposition="6-11" childid="RM100000000DERX_16_0029"/>
+</result>
+<result cellposition="5-16" label="2">
+<action actiontype="end" cellposition="6-16">
+<actiontitle>维修或更换进气系统</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-11" id="RM100000000DERX_16_0029">
+<testtitle>检查燃油压力</testtitle>
+<content6>
+<test1>
+<ptxt>检查燃油压力。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000E8FT_01_0002" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-11" label="1">
+<action actiontype="next" cellposition="7-11" childid="RM100000000DERX_16_0030"/>
+</result>
+<result cellposition="6-15" label="2">
+<action actiontype="next" cellposition="7-15" childid="RM100000000DERX_16_0055"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-11" id="RM100000000DERX_16_0030">
+<testtitle>使用 GTS 读取值（冷却液温度）</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DERW_12_0005" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-11" label="1">
+<action actiontype="next" cellposition="8-11" childid="RM100000000DERX_16_0031"/>
+</result>
+<result cellposition="7-14" label="2">
+<action actiontype="end" cellposition="8-14">
+<actiontitle>更换发动机冷却液温度传感器</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETLA" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-11" id="RM100000000DERX_16_0031">
+<testtitle>使用 GTS 读取值 (MAF)</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DERW_12_0006" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-11" label="1">
+<action actiontype="next" cellposition="9-11" childid="RM100000000DERX_16_0032"/>
+</result>
+<result cellposition="8-13" label="2">
+<action actiontype="jump" cellposition="9-13" childid="RM100000000DERX_16_0039">
+<actiontitle>转至步骤 27</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-11" id="RM100000000DERX_16_0032">
+<testtitle>检查火花塞</testtitle>
+<content6>
+<test1>
+<ptxt>检查缺火气缸的火花塞。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETKA_01_0005" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>更换火花塞后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQX" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-11" label="1">
+<action actiontype="next" cellposition="10-11" childid="RM100000000DERX_16_0033"/>
+</result>
+<result cellposition="9-12" label="2">
+<action actiontype="end" cellposition="10-12">
+<actiontitle>更换火花塞</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETL6" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="10-11" id="RM100000000DERX_16_0033">
+<testtitle>检查火花（火花测试）</testtitle>
+<content6>
+<test1>
+<ptxt>进行火花测试。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETKA_01_0003" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果火花测试结果正常，则转至下一步。</ptxt>
+</item>
+<item>
+<ptxt>维修或更换点火系统后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQX" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="10-11" label="1">
+<action actiontype="next" cellposition="11-11" childid="RM100000000DERX_16_0034"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="11-11" id="RM100000000DERX_16_0034">
+<testtitle>检查气缸压缩压力</testtitle>
+<content6>
+<test1>
+<ptxt>测量缺火气缸的压缩压力。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBN7_01_0010" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>维修或更换发动机总成后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQX" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="11-11" label="1">
+<action actiontype="next" cellposition="12-11" childid="RM100000000DERX_16_0035"/>
+</result>
+<result cellposition="11-16" label="2">
+<action actiontype="end" cellposition="12-16">
+<actiontitle>检查发动机以确定压缩压力低的原因</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="12-11" id="RM100000000DERX_16_0035">
+<testtitle>检查端子电压（#10、#20、#30 和/或 #40）</testtitle>
+<content6>
+<figure translate="C" type="1">
+<graphic graphicname="A255689C81" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至 ECM）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<test1>
+<ptxt>断开 ECM 连接器。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.36in"/>
+<colspec colname="col2" colwidth="1.36in"/>
+<colspec colname="col3" colwidth="1.41in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B39-98 (#10) - B39-57 (E01)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>发动机开关 ON (IG)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B39-95 (#20) - B39-57 (E01)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>发动机开关 ON (IG)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B39-96 (#30) - B39-57 (E01)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>发动机开关 ON (IG)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>B39-97 (#40) - B39-57 (E01)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>发动机开关 ON (IG)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="12-11" label="1">
+<action actiontype="next" cellposition="13-11" childid="RM100000000DERX_16_0036"/>
+</result>
+<result cellposition="12-15" label="2">
+<action actiontype="end" cellposition="13-15">
+<actiontitle>检查喷油器电路</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DERH" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="13-11" id="RM100000000DERX_16_0036">
+<testtitle>检查缺火气缸的喷油器总成</testtitle>
+<content6>
+<test1>
+<ptxt>检查喷油器总成的喷油情况（喷油量是高还是低，喷油方式是否不良）。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD0P" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>更换喷油器总成后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQX" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="13-11" label="1">
+<action actiontype="next" cellposition="14-11" childid="RM100000000DERX_16_0061"/>
+</result>
+<result cellposition="13-14" label="2">
+<action actiontype="end" cellposition="14-14">
+<actiontitle>更换喷油器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD0O" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="14-11" id="RM100000000DERX_16_0061">
+<testtitle>检查发动机机械系统</testtitle>
+<content6>
+<test1>
+<ptxt>检查影响气门正时的机械故障，如正时链条跳齿或伸长。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="14-11" label="1">
+<action actiontype="next" cellposition="15-11" childid="RM100000000DERX_16_0038"/>
+</result>
+<result cellposition="14-13" label="2">
+<action actiontype="end" cellposition="15-13">
+<actiontitle>维修或更换故障零件、零部件和部位</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="15-11" id="RM100000000DERX_16_0038">
+<testtitle>检查是否再次输出 DTC（DTC P0300、P0301、P0302、P0303 或 P0304）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Powertrain &gt; Engine and ECT &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 OFF 位置，并至少等待 30 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>使发动机暖机。</ptxt>
+</test1>
+<test1>
+<ptxt>按照确认行驶模式中所述的行驶模式驾驶车辆。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。</ptxt>
+<gts-info category="utility-normal">
+<title>Powertrain &gt; Engine and ECT &gt; Utility</title>
+<table type="utility">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="20" name="item-name">
+<ptxt>All Readiness</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50005">
+<gts-ecu ecu-id="234">
+<gts-util util-id="20"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">4</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="utility-id">20</app-param>
+<app-param name="function-name">All Readiness</app-param>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>输入 DTC：P0300、P0301、P0302、P0303 或 P0304。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC 判断结果。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>ABNORMAL</ptxt>
+<ptxt>（输出 DTC P0300、P0301、P0302、P0303 或 P0304）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>NORMAL</ptxt>
+<ptxt>（未输出 DTC）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="15-11" label="1">
+<action actiontype="next" cellposition="16-11" childid="RM100000000DERX_16_0039"/>
+</result>
+<result cellposition="15-12" label="2">
+<action actiontype="end" cellposition="16-12">
+<actiontitle>检查是否存在间歇性故障</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQV" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="16-11" id="RM100000000DERX_16_0039">
+<testtitle>检查线束和连接器（质量空气流量计分总成连接器连接情况）</testtitle>
+<content6>
+<test1>
+<ptxt>检查质量空气流量计分总成和 ECM 之间连接器和线束的连接情况和端子接触压力。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB85" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>维修任何故障。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="16-11" label="1">
+<action actiontype="next" cellposition="17-11" childid="RM100000000DERX_16_0040"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="17-11" id="RM100000000DERX_16_0040">
+<testtitle>检查是否再次输出 DTC（缺火 DTC）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Powertrain &gt; Engine and ECT &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 OFF 位置，并至少等待 30 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>使发动机暖机。</ptxt>
+</test1>
+<test1>
+<ptxt>按照确认行驶模式中所述的行驶模式驾驶车辆。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。</ptxt>
+<gts-info category="utility-normal">
+<title>Powertrain &gt; Engine and ECT &gt; Utility</title>
+<table type="utility">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="20" name="item-name">
+<ptxt>All Readiness</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50005">
+<gts-ecu ecu-id="234">
+<gts-util util-id="20"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">4</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="utility-id">20</app-param>
+<app-param name="function-name">All Readiness</app-param>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>输入 DTC：P0300、P0301、P0302、P0303 或 P0304。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC 判断结果。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>ABNORMAL</ptxt>
+<ptxt>（输出 DTC P0300、P0301、P0302、P0303 或 P0304）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>NORMAL</ptxt>
+<ptxt>（未输出 DTC）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="17-11" label="1">
+<action actiontype="next" cellposition="18-11" childid="RM100000000DERX_16_0041"/>
+</result>
+<result cellposition="17-13" label="2">
+<action actiontype="end" cellposition="18-13">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="18-11" id="RM100000000DERX_16_0041">
+<testtitle>检查线束和连接器（质量空气流量计分总成 - ECM）</testtitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQ7_11_0003" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="18-11" label="1">
+<action actiontype="next" cellposition="19-11" childid="RM100000000DERX_16_0042"/>
+</result>
+<result cellposition="18-12" label="2">
+<action actiontype="end" cellposition="19-12">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="19-11" id="RM100000000DERX_16_0042">
+<testtitle>更换质量空气流量计分总成</testtitle>
+<content6>
+<test1>
+<ptxt>更换质量空气流量计分总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETKV" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>如果步骤 13 和 19 中的检查结果未出现故障，则转至下一步，无需更换质量空气流量计分总成。</ptxt>
+</item>
+<item>
+<ptxt>更换质量空气流量计分总成后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQX" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="19-11" label="1">
+<action actiontype="next" cellposition="20-11" childid="RM100000000DERX_16_0043"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="20-11" id="RM100000000DERX_16_0043">
+<testtitle>确认故障是否已成功排除</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Powertrain &gt; Engine and ECT &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 OFF 位置，并至少等待 30 秒。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>使发动机暖机。</ptxt>
+</test1>
+<test1>
+<ptxt>按照确认行驶模式中所述的行驶模式驾驶车辆。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。</ptxt>
+<gts-info category="utility-normal">
+<title>Powertrain &gt; Engine and ECT &gt; Utility</title>
+<table type="utility">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="20" name="item-name">
+<ptxt>All Readiness</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50005">
+<gts-ecu ecu-id="234">
+<gts-util util-id="20"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">4</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="utility-id">20</app-param>
+<app-param name="function-name">All Readiness</app-param>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>输入 DTC：P0300、P0301、P0302、P0303 或 P0304。</ptxt>
+</test1>
+<test1>
+<ptxt>检查 DTC 判断结果。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>NORMAL</ptxt>
+<ptxt>（未输出 DTC）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>ABNORMAL</ptxt>
+<ptxt>（输出 DTC P0300、P0301、P0302、P0303 或 P0304）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="20-11" label="1">
+<action actiontype="end" cellposition="21-11">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="20-12" label="2">
+<action actiontype="end" cellposition="21-12">
+<actiontitle>更换 ECM</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000ETKN" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-15" id="RM100000000DERX_16_0055">
+<testtitle>检查燃油管路</testtitle>
+<content6>
+<test1>
+<ptxt>检查燃油管路是否泄漏或堵塞。</ptxt>
+<atten4>
+<ptxt>更换燃油泵后，执行“维修后检查”。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DEQX" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-15" label="1">
+<action actiontype="end" cellposition="8-15">
+<actiontitle>更换燃油泵</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000E8G1" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="7-16" label="2">
+<action actiontype="end" cellposition="8-16">
+<actiontitle>维修或更换燃油管路</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

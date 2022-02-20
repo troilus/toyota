@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024004">
+<name>门锁</name>
+<ttl id="_0116197">
+<name>无线门锁控制系统（带智能进入和起动系统）</name>
+<para category="J" id="RM100000000D8MS">
+<dtccode/>
+<dtcname>无应答</dtcname>
+<subpara category="03" id="RM100000000D8MS_01">
+<name>描述</name>
+<content5>
+<ptxt>在某些情况下，无线门锁控制功能正常，但危险警告灯应答功能不工作。 在这种情况下，来自主车身 ECU（多路网络车身 ECU）的危险警告灯信号输出可能存在故障。</ptxt>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D8MS_02">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="B372222E01" height="3.812598425in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D8MS_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>无线门锁控制系统和钥匙提醒警告系统使用 CAN 通信系统。根据“如何进行故障排除”检查通信功能。确认通信系统工作正常后对无线门锁控制系统进行故障排除。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8MN" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D8MS_07">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8MS_07_0001">
+<testtitle>使用 GTS 读取值（危险应答）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Customize Setting / Wireless Door Lock。</ptxt>
+</test1>
+<test1>
+<ptxt>请参考下表选择设定。</ptxt>
+<gts-info category="customize">
+<title>Wireless Door Lock</title>
+<table pgwide="1" type="customize">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>描述</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>默认</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>设定</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>ECU</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="73" name="item-name">
+<ptxt>Hazard Answer Back</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="73" name="description">
+<ptxt>该功能可在通过遥控操作锁止车门时使危险警告灯闪烁一次，通过遥控操作开锁车门时使危险警告灯闪烁两次。</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="73" name="initial-setting">
+<ptxt>ON</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="73" name="setting">
+<ptxt>0：OFF、1：ON</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="73" name="ecu">
+<ptxt>主车身 ECU（多路网络车身 ECU）</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50006">
+<gts-cust cust-id="1"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">5</app-param>
+<app-param name="category-div"/>
+<app-param name="category-div-name"/>
+<app-param name="ecu-id"/>
+<app-param name="ecu-name"/>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="customize-div">1</app-param>
+<app-param name="customize-name">Wireless Door Lock</app-param>
+<app-param name="customize-item-id">73</app-param>
+<app-param name="customize-item-name">Hazard Answer Back</app-param>
+<app-param name="customize-div-except-id"/>
+<app-param name="customize-div-except-div"/>
+<app-param name="customize-item-except-id"/>
+<app-param name="customize-item-except-div"/>
+<app-param name="ecu-id">123</app-param>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>危险应答 ON</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>危险应答 OFF</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D8MS_07_0002"/>
+</result>
+<result cellposition="1-5" label="2">
+<action actiontype="end" cellposition="2-5">
+<actiontitle>执行定制功能</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8MO" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D8MS_07_0002">
+<testtitle>检查无线门锁控制功能</testtitle>
+<content6>
+<test1>
+<ptxt>使用电子钥匙发射器分总成检查无线门锁控制功能。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>遥控车门锁止/开锁工作正常</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>遥控车门锁止/开锁工作不正常</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D8MS_07_0003"/>
+</result>
+<result cellposition="2-4" label="2">
+<action actiontype="end" cellposition="3-4">
+<actiontitle>转至故障症状表</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8MH" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D8MS_07_0003">
+<testtitle>使用 GTS 读取值（右前车门锁止位置、左前车门锁止位置、右后车门锁止位置、左后车门锁止位置）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Body Electrical / Main Body / Data List。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Main Body &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="196" name="item-name">
+<ptxt>FR Door Lock Pos</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="196" name="description">
+<ptxt>右前车门开锁检测开关信号</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="196" name="range">
+<ptxt>LOCK 或 UNLOCK</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="196" name="standard-value">
+<ptxt>LOCK：右前车门锁止</ptxt>
+<ptxt>UNLOCK：右前车门开锁</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="196" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="198" name="item-name">
+<ptxt>FL Door Lock Pos</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="198" name="description">
+<ptxt>左前车门开锁检测开关信号</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="198" name="range">
+<ptxt>LOCK 或 UNLOCK</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="198" name="standard-value">
+<ptxt>LOCK：左前车门锁止</ptxt>
+<ptxt>UNLOCK：左前车门开锁</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="198" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="51" name="item-name">
+<ptxt>RR-Door Lock Pos SW</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="51" name="description">
+<ptxt>右后车门和左后车门开锁检测开关信号</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="51" name="range">
+<ptxt>OFF 或 ON</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="51" name="standard-value">
+<ptxt>OFF：右后车门和左后车门锁止</ptxt>
+<ptxt>ON：右后车门或左后车门开锁</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="51" name="remark">
+<ptxt>*1</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="52" name="item-name">
+<ptxt>RL-Door Lock Pos SW</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="52" name="description">
+<ptxt>右后车门和左后车门开锁检测开关信号</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="52" name="range">
+<ptxt>OFF 或 ON</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="52" name="standard-value">
+<ptxt>OFF：右后车门和左后车门锁止</ptxt>
+<ptxt>ON：右后车门或左后车门开锁</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="52" name="remark">
+<ptxt>*2</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">123</app-param>
+<app-param name="ecu-name">Main Body</app-param>
+<app-param name="gts-order">2</app-param>
+<app-param-unit>
+<app-param name="pid-id">196</app-param>
+<app-param name="data-list-item-name">FR Door Lock Pos</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">198</app-param>
+<app-param name="data-list-item-name">FL Door Lock Pos</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">51</app-param>
+<app-param name="data-list-item-name">RR-Door Lock Pos SW</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">52</app-param>
+<app-param name="data-list-item-name">RL-Door Lock Pos SW</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<list1 type="unordered">
+<item>
+<ptxt>*1：确保在左后车门锁止时检查此项目。</ptxt>
+</item>
+<item>
+<ptxt>*2：确保在右后车门锁止时检查此项目。</ptxt>
+</item>
+</list1>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Main Body &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="196" name="item-name">
+<ptxt>FR Door Lock Pos</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="198" name="item-name">
+<ptxt>FL Door Lock Pos</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="51" name="item-name">
+<ptxt>RR-Door Lock Pos SW</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="52" name="item-name">
+<ptxt>RL-Door Lock Pos SW</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="123">
+<gts-pid pid-id="196"/>
+<gts-pid pid-id="198"/>
+<gts-pid pid-id="51"/>
+<gts-pid pid-id="52"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">123</app-param>
+<app-param name="ecu-name">Main Body</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">196</app-param>
+<app-param name="data-list-item-name">FR Door Lock Pos</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">198</app-param>
+<app-param name="data-list-item-name">FL Door Lock Pos</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">51</app-param>
+<app-param name="data-list-item-name">RR-Door Lock Pos SW</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">52</app-param>
+<app-param name="data-list-item-name">RL-Door Lock Pos SW</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>GTS 显示根据锁止/开锁操作正确地发生变化。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D8MS_07_0028"/>
+</result>
+<result cellposition="3-3" label="2">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>转至照明系统（转至车门开锁检测开关电路）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8EL" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D8MS_07_0028">
+<testtitle>检查危险警告灯工作情况</testtitle>
+<content6>
+<test1>
+<ptxt>按下危险警告信号开关时，检查并确认危险警告灯闪烁。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>危险警告灯闪烁。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="end" cellposition="5-1">
+<actiontitle>更换主车身 ECU（多路网络车身 ECU）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="4-2" label="2">
+<action actiontype="end" cellposition="5-2">
+<actiontitle>转至照明系统（转至危险警告开关电路）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9Z9" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

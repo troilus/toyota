@@ -1,0 +1,264 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_54</span>
+<span class="globalServcatName">制动</span>
+<span class="globalSection">_023990</span>
+<span class="globalSectionName">制动控制/动态控制系统</span>
+<span class="globalTitle">_0116082</span>
+<span class="globalTitleName">车辆稳定性控制系统</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>制动控制/动态控制系统&nbsp;&nbsp;车辆稳定性控制系统&nbsp;&nbsp;C1224&nbsp;&nbsp;NE 信号&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D7ZE_01" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<p>防滑控制 ECU（制动执行器总成）通过 CAN 通信接收来自 ECM 的发动机转速信号。
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:25%">
+<col style="width:39%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">C1224
+</td>
+<td class="alleft">NE 信号
+</td>
+<td class="alleft">车速为 6 km/h (4 mph) 或更高、+BS 端子电压在 9.6 和 16.5 V 之间且发动机转速信号高于 12,800 rpm 2.5 秒或更长时间。
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>CAN 通信系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000D7ZE_06" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000D7ZE_06_0001">
+<div class="testtitle"><span class="titleText">1.检查 CAN 通信系统</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查是否输出 CAN 通信系统 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;诊断系统<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UU,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7ZE_06_0001_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">未输出 DTC。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">输出 DTC。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.检查 SFI 系统</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">检查 CAN 通信系统</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;如何进行故障排除<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UM,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7ZE_06_0004">
+<div class="testtitle"><span class="titleText">2.检查 SFI 系统</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查是否输出 SFI 系统 DTC。
+</p>
+<p>2ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQY,</span></a>
+
+</p>
+<p>7ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;7ZR-FE 发动机控制系统&gt;SFI 系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_51,_025035,_0120895,RM100000000DTGO,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7ZE_06_0004_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">未输出 DTC。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">输出 DTC。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换 ECM</span></div>
+<div class="content6">
+<p>2ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;ECM&gt;拆卸<span class="invisible">201406,999999,_51,_023958,_0129805,RM100000000ETKN,</span></a>
+
+</p>
+<p>7ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;7ZR-FE 发动机控制系统&gt;ECM&gt;拆卸<span class="invisible">201406,999999,_51,_025035,_0129835,RM100000000ETNS,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">检查 SFI 系统</span></div>
+<div class="content6">
+<p>2ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;如何进行故障排除<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DEQU,</span></a>
+
+</p>
+<p>7ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;7ZR-FE 发动机控制系统&gt;SFI 系统&gt;如何进行故障排除<span class="invisible">201406,999999,_51,_025035,_0120895,RM100000000DTGJ,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

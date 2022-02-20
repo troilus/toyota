@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts ver="2.1.2.6F" lang="zh" pubno="EM3140CG" style="font-size:6px;font-family:'NSimSun'">
+  <text textID="1">* 1 : 带 TFT 显示屏</text>
+  <text textID="2">* 2 : 不带 TFT 显示屏</text>
+  <text textID="3">* 7 : 带帘式空气囊</text>
+  <text textID="4">* 8 : 不带帘式空气囊</text>
+  <text textID="5">* SRS 修理工作完成后，检查 SRS 警告灯。</text>
+  <text textID="6">* 如果在修理过程中可能会碰撞到传感器，则应在修理前拆下空气囊传感器。</text>
+  <text textID="7">* 中央空气囊传感器总成</text>
+  <text textID="8">* 帘式空气囊总成</text>
+  <text textID="9">* 请勿将以下部件直接暴露于热空气或明火中；</text>
+  <text textID="10">* 车门侧空气囊传感器总成</text>
+  <text textID="11">* 如果发生了轻微碰撞而 SRS 未展开，则应检查以下部件；</text>
+  <text textID="12">* 需要重复使用时，切勿拆解和修理以下部件。</text>
+  <text textID="13">* 前空气囊传感器总成</text>
+  <text textID="14">* 前排乘客空气囊总成</text>
+  <text textID="15">* 如果以下部件掉落或其壳体、支架和连接器上出现破裂、凹痕和其他缺陷时，则用新的更换。</text>
+  <text textID="16">* 如果车辆配备有移动通信系统，则请参考修理手册概述章节的注意事项。</text>
+  <text textID="17">* SRS 组件的外围贴有信息标签。 请遵照注意事项中的说明。</text>
+  <text textID="18">* 由于很难确认 SRS 的故障症状，因此 DTC 就成了故障排除时最重要的信息来源。 在对 SRS 进行故障排除时，断开蓄电池前务必检查 DTC。</text>
+  <text textID="19">* 切勿使用其他车辆上拆下的 SRS 部件。 如需更换，须使用新部件。</text>
+  <text textID="20">* 座椅安全带预紧器</text>
+  <text textID="21">* 侧空气囊总成</text>
+  <text textID="22">* 侧空气囊传感器总成</text>
+  <text textID="23">* 方向盘衬垫</text>
+  <text textID="24">* 对系统的电路进行故障排除时，使用高阻抗（最小 10 kΩ/V）的伏特表/欧姆表。</text>
+  <text textID="25">* 断开蓄电池负极 (-) 电缆时，将清除时钟和音响系统的存储。 因此开始工作前，对音响存储系统的内容做记录。 完成工作时，重新设定音响系统并调节时钟。 某些车辆配备带存储功能的电动倾斜转向、电动伸缩转向、电动座椅和电动车外后视镜。 然而，不能记录这些存储的内容。 因此完成工作时，必须向您的客户解释，并询问客户是否调节功能并重新设定存储。 为避免清除各系统的存储内容，切勿使用车外的备用电源。</text>
+  <text textID="26">* 将点火或起动开关总成置于“LOCK”位置（点火开关型）或将发动机开关置于“OFF”位置（发动机开关型）且断开蓄电池负极 (-) 端子电缆 90 秒后才能开始工作。 （SRS 配备一个备用电源，因此如果在断开蓄电池负极 (-) 端子电缆后 90 秒钟内开始操作，可能会使 SRS 展开。）</text>
+  <text textID="27">空气囊 ECU 总成</text>
+  <text textID="28">CAN 控制器</text>
+  <text textID="29">组合仪表总成</text>
+  <text textID="30">左侧帘式空气囊总成</text>
+  <text textID="31">右侧帘式空气囊总成</text>
+  <text textID="32">驾驶员侧点火管（喇叭按钮总成）</text>
+  <text textID="33">左前空气囊传感器</text>
+  <text textID="34">右前空气囊传感器</text>
+  <text textID="35">前排左侧座椅空气囊总成</text>
+  <text textID="36">前排右侧座椅空气囊总成</text>
+  <text textID="37">前排左侧座椅外安全带总成</text>
+  <text textID="38">前排右侧座椅外安全带总成</text>
+  <text textID="39">不带车门空气囊的仪表板乘客空气囊总成</text>
+  <text textID="40">LED 驱动器</text>
+  <text textID="41">备注 : 检查或修理 SRS 时，根据以下注意事项说明和程序，和修理手册所适用车型年款的注意事项进行维修。</text>
+  <text textID="42">1 号 CAN 接线连接器</text>
+  <text textID="43">2 号 CAN 接线连接器</text>
+  <text textID="44">预紧器</text>
+  <text textID="45">左后空气囊传感器</text>
+  <text textID="46">右后空气囊传感器</text>
+  <text textID="47">后排左侧座椅外安全带总成</text>
+  <text textID="48">后排右侧座椅外安全带总成</text>
+  <text textID="49">左侧侧空气囊传感器总成</text>
+  <text textID="50">右侧侧空气囊传感器总成</text>
+  <text textID="51">螺旋电缆分总成</text>
+  <text textID="52">螺旋电缆分总成、驾驶员侧点火管（喇叭按钮总成）</text>
+</texts>

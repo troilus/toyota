@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024004">
+<name>门锁</name>
+<ttl id="_0116198">
+<name>无线门锁控制系统（不带智能进入和起动系统）</name>
+<para category="J" id="RM100000000D8N6">
+<dtccode/>
+<dtcname>仅遥控功能不工作</dtcname>
+<subpara category="03" id="RM100000000D8N6_01">
+<name>描述</name>
+<content5>
+<ptxt>车门控制接收器接收来自车门控制发射器总成的信号并将这些信号发送至主车身 ECU（多路网络车身 ECU）。主车身 ECU（多路网络车身 ECU）通过将锁止/开锁信号发送至各车门来控制所有车门，并将危险警告闪光灯信号发送至组合仪表总成。</ptxt>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D8N6_02">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="B290776E15" height="5.838041339in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D8N6_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>进行下列程序前，先检查与此系统相关电路的保险丝。</ptxt>
+</item>
+<item>
+<ptxt>更换或检查车门控制接收器和线束时，不要改变线束的位置或长度。如果线束距离车门控制接收器太近，则遥控功能的性能可能会受到影响。</ptxt>
+</item>
+</list1>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D8N6_05">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8N6_05_0001">
+<testtitle>检查电动门锁工作情况</testtitle>
+<content6>
+<test1>
+<ptxt>检查电动门锁的工作情况。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8LX" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>锁止的车门开锁。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D8N6_05_0003"/>
+</result>
+<result cellposition="1-5" label="2">
+<action actiontype="end" cellposition="2-5">
+<actiontitle>转至电动门锁控制系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8LY" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D8N6_05_0003">
+<testtitle>检查钥匙提醒警告系统</testtitle>
+<content6>
+<test1>
+<ptxt>检查并确认钥匙提醒警告蜂鸣器工作正常。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000EUAT" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>钥匙提醒警告蜂鸣器工作正常。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D8N6_05_0005"/>
+</result>
+<result cellposition="2-4" label="2">
+<action actiontype="end" cellposition="3-4">
+<actiontitle>转至钥匙提醒警告系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000EUAT" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D8N6_05_0005">
+<testtitle>检查车门控制发射器总成</testtitle>
+<content6>
+<test1>
+<ptxt>使用确认正常的车门控制发射器总成时，检查并确认遥控功能工作正常。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>带确认正常的车门控制发射器总成的遥控车门锁止/开锁功能工作正常</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>遥控车门锁止/开锁功能不工作</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D8N6_05_0006"/>
+</result>
+<result cellposition="3-3" label="2">
+<action actiontype="next" cellposition="4-3" childid="RM100000000D8N6_05_0009"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D8N6_05_0006">
+<testtitle>检查发射器电池（电压）</testtitle>
+<content6>
+<test1>
+<ptxt>检查发射器电池容量。（A 型）</ptxt>
+<test2>
+<ptxt>从不工作的车门控制发射器总成上拆下发射器电池。用胶带或同等产品将一条引线（包括引线外皮在内直径为 0.6 mm (0.0236 in.) 或更小）连接到负极 (-) 端子。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8JE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten3>
+<ptxt>不要围绕端子缠绕引线，或将引线楔入端子间或对其进行焊接。否则端子可能变形或损坏，并且无法正确安装发射器电池。</ptxt>
+</atten3>
+</test2>
+</test1>
+<test1>
+<ptxt>小心地将引线从图中所示的位置拉出，并安装以前拆下的发射器电池。（A 型）</ptxt>
+<atten3>
+<ptxt>更换发射器电池时，在开始操作前，应通过触摸车辆等消除身体上的静电以防止车门控制发射器总成损坏。</ptxt>
+</atten3>
+<figure translate="I" type="1">
+<graphic graphicname="B330067" height="2.192421260in" width="3.434793307in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>检查发射器电池电压。（A 型）</ptxt>
+<atten4>
+<ptxt>按下车门控制发射器总成上的锁止或开锁开关时，测量发射器电池电压。</ptxt>
+</atten4>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>发射器电池正极 (+) - 发射器电池负极 (-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关置于 OFF 位置、所有车门关闭且锁止或开锁开关按下</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>2.5 至 3.2 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<figure translate="I" type="1">
+<graphic graphicname="B330068" height="3.434793307in" width="3.434793307in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>检查发射器电池容量。（B 型）</ptxt>
+<test2>
+<ptxt>从不工作的车门控制发射器总成上拆下发射器电池。用胶带或同等产品将一条引线（包括引线外皮在内直径为 0.6 mm (0.0236 in.) 或更小）连接到负极端子上。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8JE" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<atten3>
+<ptxt>不要围绕端子缠绕引线，或将引线楔入端子间或对其进行焊接。否则端子可能变形或损坏，并且无法正确安装发射器电池。</ptxt>
+</atten3>
+</test2>
+</test1>
+<test1>
+<ptxt>小心地将引线从图中所示的位置拉出，并安装以前拆下的发射器电池。（B 型）</ptxt>
+<atten3>
+<ptxt>更换发射器电池时，在开始操作前，应通过触摸车辆等消除身体上的静电以防止车门控制发射器总成损坏。</ptxt>
+</atten3>
+<figure translate="I" type="1">
+<graphic graphicname="B372075" height="2.192421260in" width="3.434793307in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>检查发射器电池电压。（B 型）</ptxt>
+<atten4>
+<ptxt>按下车门控制发射器总成上的锁止或开锁开关时，测量发射器电池电压。</ptxt>
+</atten4>
+<figure translate="I" type="1">
+<graphic graphicname="B372076" height="3.434793307in" width="3.434793307in"/>
+</figure>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>发射器电池正极 (+) - 发射器电池负极 (-)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关置于 OFF 位置、所有车门关闭且锁止或开锁开关按下</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>2.5 至 3.2 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="end" cellposition="5-1">
+<actiontitle>更换车门控制发射器总成</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="4-2" label="2">
+<action actiontype="end" cellposition="5-2">
+<actiontitle>更换发射器电池</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8JE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-3" id="RM100000000D8N6_05_0009">
+<testtitle>检查波环境</testtitle>
+<content6>
+<test1>
+<ptxt>将车门控制发射器总成带到车门控制接收器附近，并进行遥控工作情况检查。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>将车门控制发射器总成带到车门控制接收器附近时，波干扰的可能性减小，并且可以确定是否为波干扰导致故障症状。</ptxt>
+</item>
+<item>
+<ptxt>如果检查结果为故障仅出现在特定位置或特定时间，则波干扰的可能性大。同样，附加的车辆零部件也可能引起波干扰。如果安装了附加车辆零部件，则将其拆下并进行工作情况检查。</ptxt>
+</item>
+</list1>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>遥控功能工作正常。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-3" label="1">
+<action actiontype="end" cellposition="5-3">
+<actiontitle>结束（受波干扰影响）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="4-4" label="2">
+<action actiontype="next" cellposition="5-4" childid="RM100000000D8N6_05_0011"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-4" id="RM100000000D8N6_05_0011">
+<testtitle>切换至自诊断模式（使用 GTS）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Body Electrical / Main Body / Utility / Wireless Door Lock Diagnosis Mode。</ptxt>
+<gts-info category="utility-normal">
+<title>Body Electrical &gt; Main Body &gt; Utility</title>
+<table type="utility">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="2164" name="item-name">
+<ptxt>Wireless Door Lock Diagnosis Mode</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50005">
+<gts-ecu ecu-id="123">
+<gts-util util-id="2164"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">4</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">123</app-param>
+<app-param name="ecu-name">Main Body</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="utility-id">2164</app-param>
+<app-param name="function-name">Wireless Door Lock Diagnosis Mode</app-param>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>按照 GTS 屏幕上的提示转到下一步。</ptxt>
+</test1>
+<test1>
+<ptxt>通过检查车内灯输出模式，检查并确认系统已切换至自诊断模式。</ptxt>
+<figure translate="E" type="1">
+<graphic graphicname="B220865E44" height="3.434793307in" width="3.434793307in">
+
+</graphic>
+</figure>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-4" label="3">
+<action actiontype="next" cellposition="6-4" childid="RM100000000D8N6_05_0012"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-4" id="RM100000000D8N6_05_0012">
+<testtitle>检查自诊断模式</testtitle>
+<content6>
+<test1>
+<ptxt>按下车门控制发射器总成开关时，检查诊断输出。可通过车内灯闪烁模式检查诊断输出。</ptxt>
+<figure translate="E" type="1">
+<graphic graphicname="B357193E04" height="4.825319882in" width="7.168479331in">
+
+</graphic>
+</figure>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出正常波形（照明灯闪烁模式）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出不匹配的识别码</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="4">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>无诊断输出</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="5">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-4" label="3">
+<action actiontype="end" cellposition="7-4">
+<actiontitle>更换主车身 ECU（多路网络车身 ECU）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="6-5" label="4">
+<action actiontype="next" cellposition="7-5" childid="RM100000000D8N6_05_0014"/>
+</result>
+<result cellposition="6-7" label="5">
+<action actiontype="next" cellposition="7-7" childid="RM100000000D8N6_05_0016"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-5" id="RM100000000D8N6_05_0014">
+<testtitle>检查注册识别码</testtitle>
+<content6>
+<test1>
+<ptxt>检查并确认系统可切换至改写模式或添加模式，且可注册识别码。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8MW" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>可注册识别码。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-5" label="1">
+<action actiontype="end" cellposition="8-5">
+<actiontitle>结束（转至工作情况检查）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="7-6" label="2">
+<action actiontype="jump" cellposition="8-6" childid="RM100000000D8N6_05_0023">
+<actiontitle>转至步骤 13</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-7" id="RM100000000D8N6_05_0016">
+<testtitle>检查车门控制接收器（响应）</testtitle>
+<content6>
+<test1>
+<ptxt>准备其他车辆的车门控制发射器总成。</ptxt>
+</test1>
+<test1>
+<ptxt>按住车门控制发射器总成开关。</ptxt>
+</test1>
+<test1>
+<ptxt>检查并确认输出不匹配的识别码。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>输出不匹配的识别码。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-7" label="1">
+<action actiontype="end" cellposition="8-7">
+<actiontitle>更换车门控制发射器总成</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="7-8" label="2">
+<action actiontype="next" cellposition="8-8" childid="RM100000000D8N6_05_0018"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-8" id="RM100000000D8N6_05_0018">
+<testtitle>检查车门控制接收器 (+B, GND)</testtitle>
+<content6>
+<test1>
+<ptxt>断开车门控制接收器连接器 L51。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="B281165C15" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至车门控制接收器）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L51-1 (GND) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L51-5 (+B) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-8" label="1">
+<action actiontype="next" cellposition="9-8" childid="RM100000000D8N6_05_0019"/>
+</result>
+<result cellposition="8-11" label="2">
+<action actiontype="end" cellposition="9-11">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-8" id="RM100000000D8N6_05_0019">
+<testtitle>检查车门控制接收器（输出）</testtitle>
+<content6>
+<test1>
+<ptxt>重新连接车门控制接收器连接器 L51。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电压。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="B281169C09" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>连接线束的零部件</ptxt>
+<ptxt>（车门控制接收器）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="voltage">
+<title>标准电压</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L51-2 (RDA) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关置于 OFF 位置，所有车门关闭且车门控制发射器总成开关未按下</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>11 至 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L51-2 (RDA) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>点火开关置于 OFF 位置，所有车门关闭且车门控制发射器总成开关按下</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>产生脉冲</ptxt>
+<ptxt>(0 至 12 V)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-8" label="1">
+<action actiontype="next" cellposition="10-8" childid="RM100000000D8N6_05_0020"/>
+</result>
+<result cellposition="9-10" label="2">
+<action actiontype="end" cellposition="10-10">
+<actiontitle>更换车门控制接收器</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8ID" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="10-8" id="RM100000000D8N6_05_0020">
+<testtitle>检查线束和连接器（主车身 ECU（多路网络车身 ECU）- 车门控制接收器）</testtitle>
+<content6>
+<test1>
+<ptxt>断开主车身 ECU（多路网络车身 ECU）连接器 E36。</ptxt>
+</test1>
+<test1>
+<ptxt>断开车门控制接收器连接器 L51。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L51-2 (RDA) - E36-16 (RDA)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L51-3 (PRG) - E36-4 (PRG)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L51-2 (RDA) 或 E36-16 (RDA) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L51-3 (PRG) 或 E36-4 (PRG) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="10-8" label="1">
+<action actiontype="next" cellposition="11-8" childid="RM100000000D8N6_05_0023"/>
+</result>
+<result cellposition="10-9" label="2">
+<action actiontype="end" cellposition="11-9">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="11-8" id="RM100000000D8N6_05_0023">
+<testtitle>更换车门控制接收器</testtitle>
+<content6>
+<test1>
+<ptxt>暂时用新的或确认正常的车门控制接收器更换。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8ID" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="11-8" label="3">
+<action actiontype="next" cellposition="12-8" childid="RM100000000D8N6_05_0024"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="12-8" id="RM100000000D8N6_05_0024">
+<testtitle>注册识别码</testtitle>
+<content6>
+<test1>
+<ptxt>执行注册程序。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8MW" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="12-8" label="3">
+<action actiontype="next" cellposition="13-8" childid="RM100000000D8N6_05_0025"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="13-8" id="RM100000000D8N6_05_0025">
+<testtitle>检查车门控制接收器（工作情况）</testtitle>
+<content6>
+<test1>
+<ptxt>检查并确认可通过车门控制发射器总成锁止和开锁开关锁止和开锁车门。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>通过车门控制发射器总成可锁止和开锁车门。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="13-8" label="1">
+<action actiontype="end" cellposition="14-8">
+<actiontitle>结束（车门控制接收器故障）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="13-9" label="2">
+<action actiontype="end" cellposition="14-9">
+<actiontitle>更换主车身 ECU（多路网络车身 ECU）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DCTE" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

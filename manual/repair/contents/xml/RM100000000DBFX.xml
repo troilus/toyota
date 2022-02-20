@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_52">
+<name>动力传动系</name>
+<section id="_023983">
+<name>K313 CVT</name>
+<ttl id="_0116779">
+<name>无级变速传动桥系统</name>
+<para category="C" id="RM100000000DBFX">
+<dtccode>P0741</dtccode>
+<dtcname>变矩器离合器电磁阀性能（换档电磁阀 SL）</dtcname>
+<dtccode>P075B</dtccode>
+<dtcname>换档电磁阀“G”性能或卡滞</dtcname>
+<dtccode>P2757</dtccode>
+<dtcname>变矩器离合器压力控制电磁阀性能（换档电磁阀 SLU）</dtcname>
+<subpara category="03" id="RM100000000DBFX_02">
+<name>描述</name>
+<content5>
+<ptxt>通过换档电磁阀 SC 和 SL，ECM 根据行驶条件在前进档和倒档离合器控制和锁止控制之间切换换档电磁阀 SLU 的控制。</ptxt>
+<atten4>
+<ptxt>如果发动机熄火后存储 DTC P0741，则锁止换档电磁阀（换档电磁阀 SL）可能故障。</ptxt>
+</atten4>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="6">
+<colspec colname="1" colwidth="0.71in"/>
+<colspec colname="2" colwidth="1.06in"/>
+<colspec colname="3" colwidth="2.12in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<colspec colname="5" colwidth="0.71in"/>
+<colspec colname="6" colwidth="0.71in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>MIL</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>存储器</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P0741</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>变矩器离合器电磁阀性能（换档电磁阀 SL）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>1. 诊断条件 2. 故障状况 3. 故障时间 4. 其他</ptxt>
+<ptxt>DTC 检测条件 1：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>ECM 发送锁止打开指令并切断换档电磁阀 SC 和 SL。</ptxt>
+</item>
+<item>
+<ptxt>发动机转速 (NE) 和变速器转速传感器 (NT) 转速之间的差值为 25 rpm 或更小。</ptxt>
+</item>
+<item>
+<ptxt>1 秒或更长时间</ptxt>
+</item>
+<item>
+<ptxt>双程检测逻辑</ptxt>
+</item>
+</list1>
+<ptxt>DTC 检测条件 2：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>ECM 接通换档电磁阀 SC 和 SL。</ptxt>
+</item>
+<item>
+<ptxt>变速器转速传感器 (NT) 转速和变速器转速传感器 (NIN) 转速之间的差值为 300 rpm 或更大。</ptxt>
+</item>
+<item>
+<ptxt>1 秒或更长时间</ptxt>
+</item>
+<item>
+<ptxt>双程检测逻辑</ptxt>
+</item>
+</list1>
+<ptxt>DTC 检测条件 3：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>车辆行驶过程中。</ptxt>
+</item>
+<item>
+<ptxt>发送锁止打开指令，但未执行锁止控制。</ptxt>
+</item>
+<item>
+<ptxt>1 秒或更长时间</ptxt>
+</item>
+<item>
+<ptxt>双程检测逻辑</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>变矩器总成</ptxt>
+</item>
+<item>
+<ptxt>无级变速传动桥总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P075B</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>换档电磁阀“G”性能或卡滞</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>1. 诊断条件 2. 故障状况 3. 故障时间 4. 其他</ptxt>
+<ptxt>DTC 检测条件 1：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>ECM 切断换档电磁阀 SC 和 SL。</ptxt>
+</item>
+<item>
+<ptxt>变速器转速传感器 (NT) 转速和变速器转速传感器 (NIN) 转速之间的差值为 300 rpm 或更大。</ptxt>
+</item>
+<item>
+<ptxt>1 秒或更长时间</ptxt>
+</item>
+<item>
+<ptxt>双程检测逻辑</ptxt>
+</item>
+</list1>
+<ptxt>DTC 检测条件 2：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>车辆行驶过程中。</ptxt>
+</item>
+<item>
+<ptxt>发送锁止打开指令，但未执行锁止控制。</ptxt>
+</item>
+<item>
+<ptxt>1 秒或更长时间</ptxt>
+</item>
+<item>
+<ptxt>双程检测逻辑</ptxt>
+</item>
+</list1>
+<ptxt>DTC 检测条件 3：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>ECM 发送锁止打开指令并接通换档电磁阀 SC 和 SL。</ptxt>
+</item>
+<item>
+<ptxt>发动机转速 (NE) 和变速器转速传感器 (NT) 转速之间的差值为 25 rpm 或更小。</ptxt>
+</item>
+<item>
+<ptxt>1 秒或更长时间</ptxt>
+</item>
+<item>
+<ptxt>双程检测逻辑</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>变矩器总成</ptxt>
+</item>
+<item>
+<ptxt>无级变速传动桥总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P2757</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>变矩器离合器压力控制电磁阀性能（换档电磁阀 SLU）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>1. 诊断条件 2. 故障状况 3. 故障时间 4. 其他</ptxt>
+<ptxt>DTC 检测条件 1：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>ECM 发送锁止打开指令，切断换档电磁阀 SC 和 SLU 并接通 SL。</ptxt>
+</item>
+<item>
+<ptxt>发动机转速 (NE) 和变速器转速传感器 (NT) 转速之间的差值为 25 rpm 或更小。</ptxt>
+</item>
+<item>
+<ptxt>1 秒或更长时间</ptxt>
+</item>
+<item>
+<ptxt>双程检测逻辑</ptxt>
+</item>
+</list1>
+<ptxt>DTC 检测条件 2：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>车辆行驶过程中。</ptxt>
+</item>
+<item>
+<ptxt>锁止信号为 ON，但是锁止关闭。</ptxt>
+</item>
+<item>
+<ptxt>1 秒或更长时间</ptxt>
+</item>
+<item>
+<ptxt>双程检测逻辑</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<list1 type="unordered">
+<item>
+<ptxt>变矩器总成</ptxt>
+</item>
+<item>
+<ptxt>无级变速传动桥总成</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="mil">
+<ptxt>点亮</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="memory">
+<ptxt>存储 DTC</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DBFX_03">
+<name>监视描述</name>
+<content5>
+<ptxt>执行变矩器的锁止控制 (ON/OFF) 时，ECM 对变速器转速传感器 (NT) 转速和发动机转速 (NE) 进行比较，以检测换档电磁阀 SL 和 SC 的机械故障。</ptxt>
+<ptxt>如果发送锁止打开指令时变矩器未锁止，则 ECM 检测到换档电磁阀 SLU 存在机械故障。</ptxt>
+<ptxt>转速不同时，ECM 检测故障、点亮 MIL 并存储 DTC。</ptxt>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DBFX_09">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>更换无级变速传动桥相关零件时进行初始化。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>检查并确认进行初始化后未存储 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFE" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+</list1>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DBFX_01">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DBFX_01_0002">
+<testtitle>检查 DTC 输出（除 DTC P0741、P075B 和 P2757 外）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。</ptxt>
+<gts-info category="dtc-read">
+<title>Powertrain &gt; Engine and ECT &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>使用 GTS 读取 DTC。</ptxt>
+<atten4>
+<ptxt>如果除 P0741、P075B 或 P2757 外还输出了其他 DTC，则首先对其他 DTC 进行故障排除。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="3.30in"/>
+<colspec colname="col2" colwidth="0.83in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>仅输出 DTC P0741、P075B 和/或 P2757</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>输出 P0741、P075B 和/或 P2757 和其他 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DBFX_01_0004"/>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="end" cellposition="2-2">
+<actiontitle>转至 DTC 表</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFR" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DBFX_01_0004">
+<testtitle>清除 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Powertrain &gt; Engine and ECT &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="234"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000DBFX_01_0005"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000DBFX_01_0005">
+<testtitle>执行行驶测试</testtitle>
+<content6>
+<atten2>
+<ptxt>执行路试时，严格遵守交通标志上标明的车速限制、交通法规和路况。</ptxt>
+</atten2>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>本测试必须在检查并确认发动机运转正常后再进行。</ptxt>
+</item>
+<item>
+<ptxt>CVT 油温度在 50 和 100°C（122 和 212°F）之间时执行此测试。</ptxt>
+</item>
+<item>
+<ptxt>空调关闭的情况下进行测试。</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>CVT 油温度为 40°C (104°F) 或更低且车速为 60 km/h (37 mph) 或更低时，或 CVT 油温度为 5°C (41°F) 或更低时，锁止控制不工作。</ptxt>
+</item>
+<item>
+<ptxt>发动机冷却液温度为 30°C (86°F) 或更低时，锁止控制不工作。</ptxt>
+</item>
+<item>
+<ptxt>锁止关闭车速可能会根据电气负载、空调和制动器工作情况而变化。</ptxt>
+</item>
+</list1>
+</atten4>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>起动发动机。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Powertrain / Engine and ECT / Data List / Engine Speed, SPD (NT), SPD (NIN), Lock Up, SL Solenoid Status and Solenoid (SC)。</ptxt>
+<gts-info category="data-list-table">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="9" name="item-name">
+<ptxt>Engine Speed</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="9" name="description">
+<ptxt>发动机转速</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="9" name="range">
+<ptxt>最低：0 rpm</ptxt>
+<ptxt>最高：16,383 rpm</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="9" name="standard-value">
+<ptxt>680 至 780 rpm：怠速运转</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="9" name="remark">
+<ptxt>曲轴位置传感器出现故障时，“发动机转速”约为 0 rpm 或与实际发动机转速差异很大。</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="390" name="item-name">
+<ptxt>SPD (NT)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="390" name="description">
+<ptxt>输入涡轮转速</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="390" name="range">
+<ptxt>最低：0 rpm</ptxt>
+<ptxt>最高：12,750 rpm</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="390" name="standard-value">
+<list1 type="unordered">
+<item>
+<ptxt>输入涡轮转速 (NT) 与发动机转速 (NE) 相等：锁止打开（发动机暖机后）</ptxt>
+</item>
+<item>
+<ptxt>输入涡轮转速 (NT) 与发动机转速 (NE) 几乎相等：锁止关闭（换档杆置于 P 或 N 时怠速运转）</ptxt>
+</item>
+<item>
+<ptxt>0 rpm：车辆停止且换档杆置于 R</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="390" name="remark">
+<ptxt>数据按 50 rpm 的增量显示。</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="400" name="item-name">
+<ptxt>SPD (NIN)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="400" name="description">
+<ptxt>主动带轮转速 (NIN)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="400" name="range">
+<ptxt>最低：0 rpm</ptxt>
+<ptxt>最高：12,750 rpm</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="400" name="standard-value">
+<list1 type="unordered">
+<item>
+<ptxt>0 rpm：车辆停止</ptxt>
+</item>
+<item>
+<ptxt>主动带轮转速 (NIN) 与发动机转速 (NE) 相等：锁止打开（发动机暖机后）</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="400" name="remark">
+<ptxt>数据按 50 rpm 的增量显示。</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="417" name="item-name">
+<ptxt>Lock Up</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="417" name="description">
+<ptxt>锁止</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="417" name="range">
+<ptxt>OFF 或 ON</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="417" name="standard-value">
+<list1 type="unordered">
+<item>
+<ptxt>ON：锁止工作</ptxt>
+</item>
+<item>
+<ptxt>OFF：锁止不工作</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="417" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="419" name="item-name">
+<ptxt>SL Solenoid Status</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="419" name="description">
+<ptxt>换档电磁阀 SL 状态</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="419" name="range">
+<ptxt>OFF 或 ON</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="419" name="standard-value">
+<list1 type="unordered">
+<item>
+<ptxt>ON：锁止工作</ptxt>
+</item>
+<item>
+<ptxt>OFF：锁止不工作</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="419" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="1002" name="item-name">
+<ptxt>Solenoid(SC)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="1002" name="description">
+<ptxt>换档电磁阀 SC 状态</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="1002" name="range">
+<ptxt>OFF 或 ON</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="1002" name="standard-value">
+<list1 type="unordered">
+<item>
+<ptxt>ON：将换档杆从 P 切换至 D 或 R，或从 N 切换至 D 或 R 1 秒</ptxt>
+</item>
+<item>
+<ptxt>ON：锁止打开至关闭</ptxt>
+</item>
+<item>
+<ptxt>OFF：发动机怠速运转</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="1002" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">9</app-param>
+<app-param name="data-list-item-name">Engine Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">390</app-param>
+<app-param name="data-list-item-name">SPD (NT)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">400</app-param>
+<app-param name="data-list-item-name">SPD (NIN)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">417</app-param>
+<app-param name="data-list-item-name">Lock Up</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">419</app-param>
+<app-param name="data-list-item-name">SL Solenoid Status</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">1002</app-param>
+<app-param name="data-list-item-name">Solenoid(SC)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Powertrain &gt; Engine and ECT &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="9" name="item-name">
+<ptxt>Engine Speed</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="390" name="item-name">
+<ptxt>SPD (NT)</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="400" name="item-name">
+<ptxt>SPD (NIN)</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="417" name="item-name">
+<ptxt>Lock Up</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="419" name="item-name">
+<ptxt>SL Solenoid Status</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="1002" name="item-name">
+<ptxt>Solenoid(SC)</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="234">
+<gts-pid pid-id="9"/>
+<gts-pid pid-id="390"/>
+<gts-pid pid-id="400"/>
+<gts-pid pid-id="417"/>
+<gts-pid pid-id="419"/>
+<gts-pid pid-id="1002"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">234</app-param>
+<app-param name="ecu-name">Engine and ECT</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">9</app-param>
+<app-param name="data-list-item-name">Engine Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">390</app-param>
+<app-param name="data-list-item-name">SPD (NT)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">400</app-param>
+<app-param name="data-list-item-name">SPD (NIN)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">417</app-param>
+<app-param name="data-list-item-name">Lock Up</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">419</app-param>
+<app-param name="data-list-item-name">SL Solenoid Status</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">1002</app-param>
+<app-param name="data-list-item-name">Solenoid(SC)</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>行驶时检查数据表。</ptxt>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="5.66in"/>
+<colspec colname="col2" colwidth="1.42in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>锁止条件为 ON 时，输入涡轮转速 (NT) 比发动机转速 (NE) 低。</ptxt>
+</entry>
+<entry align="center" morerows="2" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>换档电磁阀 SC 和 SL 切断时，输入涡轮转速 (NT) 与发动机转速 (NE) 相等。</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>换档电磁阀 SC 和 SL 接通时，输入涡轮转速 (NT) 与主动带轮转速 (NIN) 存在较大差异。</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>锁止条件为 ON 时，输入涡轮转速 (NT) 与发动机转速 (NE) 相等。</ptxt>
+</entry>
+<entry align="center" morerows="2" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>换档电磁阀 SC 和 SL 切断时，输入涡轮转速 (NT) 小于发动机转速 (NE)。</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>换档电磁阀 SC 和 SL 接通时，输入涡轮转速 (NT) 与主动带轮转速 (NIN) 相等。</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000DBFX_01_0007"/>
+</result>
+<result cellposition="3-2" label="2">
+<action actiontype="end" cellposition="4-2">
+<actiontitle>检查是否存在间歇性故障</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFA" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000DBFX_01_0007">
+<testtitle>更换无级变速传动桥总成</testtitle>
+<content6>
+<test1>
+<ptxt>更换无级变速传动桥总成和变矩器总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DA1Y" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="end" cellposition="5-1">
+<actiontitle>进行初始化</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBFM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

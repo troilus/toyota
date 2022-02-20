@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <note ewd="WIRE028" code="T4" type="conn">
+    <name>前排电动座椅腰部开关</name>
+  </note>
+  <note ewd="WIRE028" code="T2" type="conn">
+    <name>前排电动座椅升降位置电动机</name>
+  </note>
+  <note ewd="WIRE028" code="T1" type="conn">
+    <name>前排电动座椅升降位置电动机</name>
+  </note>
+  <note ewd="WIRE028" code="T3" type="conn">
+    <name>前排电动座椅开关</name>
+  </note>
+  <note ewd="WIRE028" code="T5" type="conn">
+    <name>前排左侧座椅座垫加热器总成</name>
+  </note>
+  <note ewd="WIRE028" code="T6" type="conn">
+    <name>9 号接线连接器</name>
+  </note>
+</EwdTree>

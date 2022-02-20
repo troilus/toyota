@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'NSimSun';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st11 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st12 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st19 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st20 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED
+		ewd:horAlign CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 919.753 710.000" viewBox="0 0 876.464 710.000" height="710.000" width="876.464" xml:space="preserve" ewd:ver="2.1.2.6F" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  574.5  244.55 )">DLC3</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  667.69  216.71 )">W</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  633.7  215.86 )">R</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  574.49  237.44 )">E18</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  625.2  513.19 )">P</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  667.69  515.52 )">GR</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  667.69  345.55 )">GR</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  625.2  343.22 )">P</text><path style="stroke-width: 1.42 ;&st7;  " d=" M   662.89,   469.21  L   671.39,   469.21  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   620.40,   469.21  L   628.89,   469.21  " /><g ewd:figtype="conn" ewd:figID="1" ewd:code="A40"><path style="stroke-width: 1.42 ;&st7;  " d=" M   611.90,   605.18  L   688.38,   605.18  L   688.38,   571.19  L   611.90,   571.19  L   611.90,   605.18  " /><g ewd:lineID="10"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  617.1  568.63 )">33</text><path style="stroke-width: 1.42 ;&st7;   " d=" M   633.43,   566.66  C   633.43    564.15    631.40    562.12    628.89    562.12  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   628.89,   562.12  C   626.39    562.12    624.36    564.15    624.36    566.66  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   624.36,   566.66  C   624.36    569.16    626.39    571.19    628.89    571.19  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   628.89,   571.19  C   631.40    571.19    633.43    569.16    633.43    566.66  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  626.59  568.63 )">A</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  624.54  578.82 )">TC</text></g><g ewd:lineID="13"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  659.59  568.63 )">31</text><path style="stroke-width: 1.42 ;&st7;   " d=" M   675.92,   566.66  C   675.92    564.15    673.89    562.12    671.39    562.12  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   671.39,   562.12  C   668.88    562.12    666.86    564.15    666.86    566.66  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   666.86,   566.66  C   666.86    569.16    668.88    571.19    671.39    571.19  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M   671.39,   571.19  C   673.89    571.19    675.92    569.16    675.92    566.66  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  669.08  568.63 )">A</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  662.72  578.82 )">TACH</text></g><g ewd:figtype="title"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  608.49  613.08 )">A40(A)</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  608.49  619.9 )">ECM</text></g></g><g ewd:figtype="conn" ewd:figID="3" ewd:code="E18"><g ewd:lineID="11"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  619.61  307.43 )">13</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  624.54  295.54 )">TC</text></g><g ewd:lineID="12"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  631.21  244.55 )">6</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  628.61  255.88 )">CANH</text></g><g ewd:lineID="14"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  665.2  307.43 )">9</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  664.97  295.54 )">TAC</text></g><g ewd:lineID="15"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  662.1  244.55 )">14</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  663.03  255.88 )">CANL</text></g></g><g ewd:figtype="w2w" ewd:figID="11" ewd:code="AE2"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  613.16  475.43 )">11</text><path style="stroke-width: 1.42 ;&st7;  " d=" M   633.14,   463.54  L   628.89,   467.79  L   624.65,   463.54  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   624.65,   460.14  L   628.89,   464.39  L   633.14,   460.14  " /></g><g ewd:figtype="w2w" ewd:figID="12" ewd:code="AE2"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  658.76  475.43 )">3</text><path style="stroke-width: 1.42 ;&st7;  " d=" M   667.14,   460.14  L   671.39,   464.39  L   675.64,   460.14  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   675.64,   463.54  L   671.39,   467.79  L   667.14,   463.54  " /></g><g ewd:figtype="annex" ewd:figID="7" ewd:code=" "><path style="stroke-width: 0.85 ;&st7;  " d=" M   675.64,   159.01  L   671.39,   154.76  L   656.52,   154.76  L   654.39,   150.51  L   652.27,   154.76  L   637.39,   154.76  L   633.14,   159.01  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   637.39,   180.26  L   632.33,   168.89  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   671.39,   180.26  L   666.33,   168.89  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   671.39,   180.26  L   676.45,   168.89  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M   637.39,   180.26  L   642.45,   168.89  " /><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  653.53  147.75 )" ewd:textID="2">1 号 CAN<tspan x="0 " dy="6.0">接线连接器</tspan></text></g><g ewd:code="1" ewd:figID="16" ewd:comment="" ewd:figtype="comment"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  786.96  37.75 )">* 1 :1ZR-FE</text></g><g ewd:code="2" ewd:figID="19" ewd:comment="" ewd:figtype="comment"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  786.96  46.25 )">* 2 :2ZR-FE</text></g><g ewd:code="3" ewd:figID="18" ewd:comment="" ewd:figtype="comment"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  786.96  54.75 )" ewd:textID="1">* 3: 不带智能进入和起动系统</text></g></svg>

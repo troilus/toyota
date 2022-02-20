@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS074" code="A41,A42" type="conn" figID="12">
+    <name>制动执行器总成</name>
+  </text>
+  <text ewd="SYS074" code="A10" type="conn" figID="24">
+    <name>制动液液位警告开关（制动总泵储液罐总成）</name>
+  </text>
+  <text ewd="SYS074" code="A4" type="conn" figID="13">
+    <name>离合器起动开关总成</name>
+  </text>
+  <text ewd="SYS074" code="E55,E59" type="conn" figID="34">
+    <name>组合仪表总成</name>
+  </text>
+  <text ewd="SYS074" code="B16" type="conn" figID="14">
+    <name>曲轴位置传感器</name>
+  </text>
+  <text ewd="SYS074" code="B4" type="conn" figID="3">
+    <name>E.F.I. 发动机冷却液温度传感器</name>
+  </text>
+  <text ewd="SYS074" code="A40,B39" type="conn" figID="33">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS074" code="B8" type="conn" figID="23">
+    <name>发动机机油压力开关总成</name>
+  </text>
+  <text ewd="SYS074" code="L1" type="conn" figID="7">
+    <name>左前车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS074" code="L41" type="conn" figID="5">
+    <name>右前车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS074" code="B11" type="conn" figID="30">
+    <name>1 号喷油器总成</name>
+  </text>
+  <text ewd="SYS074" code="L22" type="conn" figID="21">
+    <name>带泵和计量表的燃油吸油管总成</name>
+  </text>
+  <text ewd="SYS074" code="L30" type="conn" figID="9">
+    <name>行李厢门锁总成</name>
+  </text>
+  <text ewd="SYS074" code="E36" type="conn" figID="2">
+    <name>主车身 ECU</name>
+  </text>
+  <text ewd="SYS074" code="E1,E2,E3,E32,E33,E34" type="conn" figID="26">
+    <name>导航接收器总成、无线电收音机和显示屏接收器总成、无线电收音机总成</name>
+  </text>
+  <text ewd="SYS074" code="A39" type="conn" figID="16">
+    <name>1 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS074" code="E74" type="conn" figID="11">
+    <name>2 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS074" code="L54,L55" type="conn" figID="20">
+    <name>7 号接线连接器</name>
+  </text>
+  <text ewd="SYS074" code="A20" type="conn" figID="22">
+    <name>车外温度传感器（热敏电阻总成）</name>
+  </text>
+  <text ewd="SYS074" code="B15" type="conn" figID="15">
+    <name>驻车/空档位置开关总成</name>
+  </text>
+  <text ewd="SYS074" code="L19" type="conn" figID="4">
+    <name>驻车制动开关总成</name>
+  </text>
+  <text ewd="SYS074" code="L2" type="conn" figID="8">
+    <name>左后车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS074" code="L42" type="conn" figID="6">
+    <name>右后车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS074" code="E13,z6" type="conn" figID="28,29">
+    <name>螺旋电缆分总成、方向盘衬垫开关总成</name>
+  </text>
+  <text ewd="SYS074" code="z6" type="conn" figID="25,27">
+    <name>螺旋电缆分总成、方向盘衬垫开关总成</name>
+  </text>
+  <text ewd="SYS074" code="FUSE5" type="fuse" figID="109">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS074" code="FUSE6" type="fuse" figID="101">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS074" code="FUSE7" type="fuse" figID="108">
+    <name>10A EFI NO.1</name>
+  </text>
+  <text ewd="SYS074" code="FUSE10" type="fuse" figID="104">
+    <name>10A H-LP LH-HI</name>
+  </text>
+  <text ewd="SYS074" code="FUSE17" type="fuse" figID="103">
+    <name>10A TURN&amp;HAZ</name>
+  </text>
+  <text ewd="SYS074" code="FUSE19" type="fuse" figID="106">
+    <name>15A IG2</name>
+  </text>
+  <text ewd="SYS074" code="FUSE29" type="fuse" figID="105">
+    <name>40A H-LP-MAIN</name>
+  </text>
+  <text ewd="SYS074" code="FUSE39" type="fuse" figID="102">
+    <name>5A MET</name>
+  </text>
+  <text ewd="SYS074" code="FUSE43" type="fuse" figID="111">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS074" code="FUSE45" type="fuse" figID="107">
+    <name>7.5A ECU-IG NO.2</name>
+  </text>
+  <text ewd="SYS074" code="FUSE47" type="fuse" figID="110">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS074" code="AB" type="gp" figID="84">
+    <name />
+  </text>
+  <text ewd="SYS074" code="BA" type="gp" figID="86">
+    <name />
+  </text>
+  <text ewd="SYS074" code="EA" type="gp" figID="89">
+    <name />
+  </text>
+  <text ewd="SYS074" code="EB" type="gp" figID="85,88">
+    <name />
+  </text>
+  <text ewd="SYS074" code="ED" type="gp" figID="82,83">
+    <name />
+  </text>
+  <text ewd="SYS074" code="LA" type="gp" figID="87">
+    <name />
+  </text>
+  <text ewd="SYS074" code="3" type="jb" figID="55,56,57,58,59,60,61">
+    <name />
+  </text>
+  <text ewd="SYS074" code="1" type="rb" figID="31,35,37">
+    <name />
+  </text>
+  <text ewd="SYS074" code="FUSE5" type="rb" figID="10">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS074" code="FUSE6" type="rb" figID="17">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS074" code="FUSE7" type="rb" figID="19">
+    <name>10A EFI NO.1</name>
+  </text>
+  <text ewd="SYS074" code="FUSE10" type="rb" figID="1">
+    <name>10A H-LP LH-HI</name>
+  </text>
+  <text ewd="SYS074" code="FUSE17" type="rb" figID="18">
+    <name>10A TURN&amp;HAZ</name>
+  </text>
+  <text ewd="SYS074" code="FUSE19" type="rb" figID="32">
+    <name>15A IG2</name>
+  </text>
+  <text ewd="SYS074" code="FUSE29" type="rb" figID="36">
+    <name>40A H-LP-MAIN</name>
+  </text>
+  <text ewd="SYS074" code="SP1" type="sp" figID="97">
+    <name />
+  </text>
+  <text ewd="SYS074" code="SP3" type="sp" figID="90">
+    <name />
+  </text>
+  <text ewd="SYS074" code="SP5" type="sp" figID="91">
+    <name />
+  </text>
+  <text ewd="SYS074" code="SP16" type="sp" figID="99">
+    <name />
+  </text>
+  <text ewd="SYS074" code="SP23" type="sp" figID="96">
+    <name />
+  </text>
+  <text ewd="SYS074" code="SP28" type="sp" figID="92">
+    <name />
+  </text>
+  <text ewd="SYS074" code="SP36" type="sp" figID="98">
+    <name />
+  </text>
+  <text ewd="SYS074" code="SP37" type="sp" figID="100">
+    <name />
+  </text>
+  <text ewd="SYS074" code="SP42" type="sp" figID="93">
+    <name />
+  </text>
+  <text ewd="SYS074" code="SP43" type="sp" figID="94">
+    <name />
+  </text>
+  <text ewd="SYS074" code="SP44" type="sp" figID="95">
+    <name />
+  </text>
+  <text ewd="SYS074" code="AE2" type="w2w" figID="77,78">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS074" code="AE3" type="w2w" figID="70">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS074" code="AE4" type="w2w" figID="64,65,66,68,69,71,72,73">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS074" code="BA2" type="w2w" figID="67,74,75,76">
+    <name>发动机线束和发动机室主线束</name>
+  </text>
+  <text ewd="SYS074" code="EL2" type="w2w" figID="81">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS074" code="EL3" type="w2w" figID="62,63">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS074" code="EL4" type="w2w" figID="79,80">
+    <name>仪表板线束和地板线束</name>
+  </text>
+</EwdTree>

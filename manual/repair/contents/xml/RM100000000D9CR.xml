@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024007">
+<name>仪表/显示屏</name>
+<ttl id="_0116345">
+<name>仪表系统</name>
+<para category="J" id="RM100000000D9CR">
+<dtccode/>
+<dtcname>车速表故障</dtcname>
+<subpara category="03" id="RM100000000D9CR_04">
+<name>描述</name>
+<content5>
+<ptxt>组合仪表总成通过 CAN 通信系统接收来自制动执行器总成（防滑控制 ECU）的车速信号。转速传感器检测车轮转速并将相应信号发送至制动执行器总成（防滑控制 ECU）。制动执行器总成（防滑控制 ECU）向车速传感器提供电源。制动执行器总成（防滑控制 ECU）根据电压脉冲计算检测车速信号。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>对显示的车速有影响的因素包括：轮胎尺寸、轮胎气压和轮胎磨损情况。允许车速表上显示的车速在一定范围内有误差。 可使用 GTS 进行测试。有关测试和误差范围的详情，请参见参考表。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9CM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>如果车速传感器电路存在故障，则制动执行器总成（防滑控制 ECU）存储这些 DTC。 对防抱死制动系统或车辆稳定性控制系统进行故障排除。</ptxt>
+<ptxt>防抱死制动系统：单击此处 <mlink><xref href="RM100000000D7XC" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>车辆稳定性控制系统：单击此处 <mlink><xref href="RM100000000D7YE" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D9CR_01">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="E143765E87" height="3.812598425in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D9CR_02">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>测试时如果车速超出允许范围，则进行车上检查。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9CM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten3>
+<atten4>
+<ptxt>开始下列检查前，检查轮胎尺寸和轮胎压力。</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D9CR_06">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D9CR_06_0001">
+<testtitle>检查 CAN 通信系统</testtitle>
+<content6>
+<test1>
+<ptxt>检查是否输出 CAN 通信系统 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UU" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Combination Meter &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="122"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">122</app-param>
+<app-param name="ecu-name">Combination Meter</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>未输出 CAN 通信系统 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>输出 CAN 通信系统 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D9CR_06_0002"/>
+</result>
+<result cellposition="1-6" label="2">
+<action actiontype="end" cellposition="2-6">
+<actiontitle>转至 CAN 通信系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D9CR_06_0002">
+<testtitle>使用 GTS 进行主动测试（车速表工作情况）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Body Electrical / Combination Meter / Active Test。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，进行主动测试。</ptxt>
+<gts-info category="active-test-table">
+<title>Body Electrical &gt; Combination Meter &gt; Active Test</title>
+<table pgwide="1" type="active-test-table">
+<tgroup cols="4">
+<colspec colname="1" colwidth="1.77in"/>
+<colspec colname="2" colwidth="1.77in"/>
+<colspec colname="3" colwidth="1.77in"/>
+<colspec colname="4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>控制范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="1" name="item-name">
+<ptxt>Speed Meter Operation</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="1" name="description">
+<ptxt>车速表</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="1" name="drive-range">
+<ptxt>OFF、0、40、80、120、160、200、240</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="1" name="remark">
+<ptxt>车速表显示的值存在误差（控制范围 → 车速表显示）</ptxt>
+<list1 type="unordered">
+<title>参考 km/h：</title>
+<item>
+<ptxt>40 → 41.7 至 46.2</ptxt>
+</item>
+<item>
+<ptxt>80 → 83.4 至 88.4</ptxt>
+</item>
+<item>
+<ptxt>120 → 125.1 至 130.6</ptxt>
+</item>
+<item>
+<ptxt>160 → 166.2 至 173.2</ptxt>
+</item>
+<item>
+<ptxt>200 → 207.7 至 215.7</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">122</app-param>
+<app-param name="ecu-name">Combination Meter</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="did-id">1</app-param>
+<app-param name="active-test-item-name">Speed Meter Operation</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="active-test">
+<title>Body Electrical &gt; Combination Meter &gt; Active Test</title>
+<table type="active-test">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="1" name="item-name">
+<ptxt>Speed Meter Operation</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50004">
+<gts-ecu ecu-id="122">
+<gts-did did-id="1"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">3</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">122</app-param>
+<app-param name="ecu-name">Combination Meter</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="use-datalist">0</app-param>
+<app-param-unit>
+<app-param name="did-id">1</app-param>
+<app-param name="active-test-item-name">Speed Meter Operation</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>车速表读数正常。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D9CR_06_0004"/>
+</result>
+<result cellposition="2-5" label="3">
+<action actiontype="end" cellposition="3-5">
+<actiontitle>更换组合仪表总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DDU4" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D9CR_06_0004">
+<testtitle>检查 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>检查防抱死制动系统或车辆稳定性控制系统是否输出 DTC。</ptxt>
+<ptxt>防抱死制动系统：单击此处 <mlink><xref href="RM100000000D7XC" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>车辆稳定性控制系统：单击此处 <mlink><xref href="RM100000000D7YE" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="105"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>未输出 DTC。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>输出 DTC（防抱死制动系统）。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>输出 DTC（车辆稳定性控制系统）。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D9CR_06_0005"/>
+</result>
+<result cellposition="3-3" label="2">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>转至防抱死制动系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7X6" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-4" label="3">
+<action actiontype="end" cellposition="4-4">
+<actiontitle>转至车辆稳定性控制系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7Z9" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D9CR_06_0005">
+<testtitle>使用 GTS 读取值（车速、车速表）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：</ptxt>
+<test2>
+<ptxt>ABS/VSC/TRC：Chassis / ABS/VSC/TRC / Data List。</ptxt>
+</test2>
+<test2>
+<ptxt>组合仪表：Body Electrical / Combination Meter / Data List。</ptxt>
+</test2>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="42" name="item-name">
+<ptxt>Vehicle Speed</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="42" name="description">
+<ptxt>车轮转速传感器最高读数</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="42" name="range">
+<ptxt>最低：0 km/h (0 mph)，最高：326 km/h (202 mph)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="42" name="standard-value">
+<ptxt>车辆停止：0 km/h (0 mph)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="42" name="remark">
+<ptxt>定速行驶时：无较大的波动</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">42</app-param>
+<app-param name="data-list-item-name">Vehicle Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Chassis &gt; ABS/VSC/TRC &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="42" name="item-name">
+<ptxt>Vehicle Speed</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="105">
+<gts-pid pid-id="42"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">2</app-param>
+<app-param name="category-div-name">Chassis</app-param>
+<app-param name="ecu-id">105</app-param>
+<app-param name="ecu-name">ABS/VSC/TRC</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">42</app-param>
+<app-param name="data-list-item-name">Vehicle Speed</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Combination Meter &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="8" name="item-name">
+<ptxt>Vehicle Speed Meter</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="8" name="description">
+<ptxt>车速</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="8" name="range">
+<ptxt>最低：0 km/h (0 mph)，最高：255 km/h (158 mph)</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="8" name="standard-value">
+<ptxt>与实际车速几乎相同</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="8" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">122</app-param>
+<app-param name="ecu-name">Combination Meter</app-param>
+<app-param name="gts-order">2</app-param>
+<app-param-unit>
+<app-param name="pid-id">8</app-param>
+<app-param name="data-list-item-name">Vehicle Speed Meter</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Combination Meter &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="8" name="item-name">
+<ptxt>Vehicle Speed Meter</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="122">
+<gts-pid pid-id="8"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">122</app-param>
+<app-param name="ecu-name">Combination Meter</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">8</app-param>
+<app-param name="data-list-item-name">Vehicle Speed Meter</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>各 ECU 数据表的值相符。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>各 ECU 数据表的值不符。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>各 ECU 数据表的值相符时，在组合仪表总成中可能存在内部故障。</ptxt>
+</item>
+<item>
+<ptxt>各 ECU 数据表的值不符时，可能是制动执行器总成（防滑控制 ECU）信号输出故障或组合仪表总成中可能存在内部故障。</ptxt>
+</item>
+</list1>
+</atten4>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="end" cellposition="5-1">
+<actiontitle>更换组合仪表总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DDU4" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="4-2" label="2">
+<action actiontype="next" cellposition="5-2" childid="RM100000000D9CR_06_0009"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-2" id="RM100000000D9CR_06_0009">
+<testtitle>更换组合仪表总成</testtitle>
+<content6>
+<test1>
+<ptxt>用新的或确认正常的组合仪表总成更换。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DDU4" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>车速表的工作情况恢复正常。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-2" label="1">
+<action actiontype="end" cellposition="6-2">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="5-3" label="2">
+<action actiontype="end" cellposition="6-3">
+<actiontitle>更换制动执行器总成（防滑控制 ECU）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9DF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

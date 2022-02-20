@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <note ewd="WIRE017" code="H4" type="conn">
+    <name>左侧门控灯总成</name>
+  </note>
+  <note ewd="WIRE017" code="H9" type="conn">
+    <name>带电动机的左前门锁总成</name>
+  </note>
+  <note ewd="WIRE017" code="H8" type="conn">
+    <name>左前车门外把手总成</name>
+  </note>
+  <note ewd="WIRE017" code="H1" type="conn">
+    <name>左前 1 号扬声器总成</name>
+  </note>
+  <note ewd="WIRE017" code="H7" type="conn">
+    <name>左前 2 号扬声器总成</name>
+  </note>
+  <note ewd="WIRE017" code="H5" type="conn">
+    <name>左前电动车窗升降器电动机总成</name>
+  </note>
+  <note ewd="WIRE017" code="H10" type="conn">
+    <name>左前电动车窗升降器电动机总成</name>
+  </note>
+  <note ewd="WIRE017" code="H2" type="conn">
+    <name>左侧车外后视镜总成</name>
+  </note>
+  <note ewd="WIRE017" code="H3" type="conn">
+    <name>左侧车外后视镜总成</name>
+  </note>
+  <note ewd="WIRE017" code="H11" type="conn">
+    <name>左侧车外后视镜总成</name>
+  </note>
+  <note ewd="WIRE017" code="H6" type="conn">
+    <name>电动窗升降器主开关总成</name>
+  </note>
+</EwdTree>

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="RM3140CG"><servcat id="_56"><name>音频/视频/车载通信系统</name><section id="_023998">
+<name>音频/视频系统</name>
+<ttl id="_0116083">
+<name>音频和视频系统（无线电收音机型）</name>
+<para category="L" id="RM100000000D80J" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="R" id="RM100000000D80C" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000D80D" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="D" id="RM100000000D80E" term-id-from="001">
+<name>系统描述</name>
+</para>
+<para category="Y" id="RM100000000D800" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="T" id="RM100000000D80F" term-id-from="001">
+<name>故障症状表</name>
+</para>
+<para category="U" id="RM100000000D80G" term-id-from="001">
+<name>ECU 端子</name>
+</para>
+<para category="J" id="RM100000000D801" term-id-from="001">
+<name>出现噪音</name>
+</para>
+<para category="J" id="RM100000000D802" term-id-from="001">
+<name>听不到扬声器的声音</name>
+</para>
+<para category="J" id="RM100000000D803" term-id-from="001">
+<name>仅播放 CD 时音质差（音量过低）</name>
+</para>
+<para category="J" id="RM100000000D804" term-id-from="001">
+<name>CD 无法弹出</name>
+</para>
+<para category="J" id="RM100000000D805" term-id-from="001">
+<name>无法插入/播放 CD，或者 CD 插入后立即弹出</name>
+</para>
+<para category="J" id="RM100000000D806" term-id-from="001">
+<name>CD 声音跳跃</name>
+</para>
+<para category="J" id="RM100000000D80K" term-id-from="001">
+<name>无法接收到无线电广播或接收效果差</name>
+</para>
+<para category="J" id="RM100000000D807" term-id-from="001">
+<name>面板开关不起作用</name>
+</para>
+<para category="J" id="RM100000000D808" term-id-from="001">
+<name>所有模式下音质差（音量低）</name>
+</para>
+<para category="J" id="RM100000000D809" term-id-from="001">
+<name>USB 音响系统识别/播放故障</name>
+</para>
+<para category="J" id="RM100000000D80H" term-id-from="001">
+<name>方向盘衬垫开关电路</name>
+</para>
+<para category="J" id="RM100000000D80I" term-id-from="001">
+<name>照明电路</name>
+</para>
+<para category="J" id="RM100000000D80B" term-id-from="001">
+<name>扬声器电路</name>
+</para>
+<para category="J" id="RM100000000D80A" term-id-from="001">
+<name>无线电收音机电源电路</name>
+</para>
+</ttl>
+<ttl id="_0116391">
+<name>音频和视频系统（无线电收音机和显示屏型）</name><para category="C" dtccode="B1579" id="RM100000000D9HG" term-id-from="001"><dtccode>
+<name>B1579</name>
+<subpara id="RM100000000D9HG_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D9HG_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B1585" id="RM100000000D9HF" term-id-from="001"><dtccode>
+<name>B1585</name>
+<subpara id="RM100000000D9HF_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B158D" id="RM100000000D9HI" term-id-from="001"><dtccode>
+<name>B158D</name>
+<subpara id="RM100000000D9HI_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B158F" id="RM100000000D9HM" term-id-from="001"><dtccode>
+<name>B158F</name>
+<subpara id="RM100000000D9HM_02">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D9HM_03">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B15A0" id="RM100000000D9HI" term-id-from="001"><dtccode>
+<name>B15A0</name>
+<subpara id="RM100000000D9HI_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B15B0" id="RM100000000D9HI" term-id-from="001"><dtccode>
+<name>B15B0</name>
+<subpara id="RM100000000D9HI_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B15B3" id="RM100000000D9HI" term-id-from="001"><dtccode>
+<name>B15B3</name>
+<subpara id="RM100000000D9HI_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B15B4" id="RM100000000D9HI" term-id-from="001"><dtccode>
+<name>B15B4</name>
+<subpara id="RM100000000D9HI_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B15B7" id="RM100000000D9HI" term-id-from="001"><dtccode>
+<name>B15B7</name>
+<subpara id="RM100000000D9HI_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B15C3" id="RM100000000D9HW" term-id-from="001"><dtccode>
+<name>B15C3</name>
+<subpara id="RM100000000D9HW_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D9HW_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B15F6" id="RM100000000D9HL" term-id-from="001"><dtccode>
+<name>B15F6</name>
+<subpara id="RM100000000D9HL_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B15F7" id="RM100000000D9I3" term-id-from="001"><dtccode>
+<name>B15F7</name>
+<subpara id="RM100000000D9I3_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="U0073" id="RM100000000D9HH" term-id-from="001"><dtccode>
+<name>U0073</name>
+<subpara id="RM100000000D9HH_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="U0100" id="RM100000000D9HH" term-id-from="001"><dtccode>
+<name>U0100</name>
+<subpara id="RM100000000D9HH_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="U0129" id="RM100000000D9HH" term-id-from="001"><dtccode>
+<name>U0129</name>
+<subpara id="RM100000000D9HH_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="U0140" id="RM100000000D9HH" term-id-from="001"><dtccode>
+<name>U0140</name>
+<subpara id="RM100000000D9HH_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="U0155" id="RM100000000D9HH" term-id-from="001"><dtccode>
+<name>U0155</name>
+<subpara id="RM100000000D9HH_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="U0164" id="RM100000000D9HH" term-id-from="001"><dtccode>
+<name>U0164</name>
+<subpara id="RM100000000D9HH_01">
+<name>描述</name>
+</subpara>
+</dtccode></para>
+<para category="L" id="RM100000000D9GM" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="R" id="RM100000000D9HY" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000D9GX" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="D" id="RM100000000D9GU" term-id-from="001">
+<name>系统描述</name>
+</para>
+<para category="Y" id="RM100000000D9HK" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="D" id="RM100000000D9GW" term-id-from="001">
+<name>工作情况检查</name>
+</para>
+<para category="T" id="RM100000000D9GO" term-id-from="001">
+<name>故障症状表</name>
+</para>
+<para category="U" id="RM100000000D9HX" term-id-from="001">
+<name>ECU 端子</name>
+</para>
+<para category="D" id="RM100000000D9GV" term-id-from="001">
+<name>DTC 检查/清除</name>
+</para>
+<para category="D" id="RM100000000D9H2" term-id-from="001">
+<name>定格数据</name>
+</para>
+<para category="U" id="RM100000000D9GY" term-id-from="001">
+<name>数据表/主动测试</name>
+</para>
+<para category="S" id="RM100000000D9GN" term-id-from="001">
+<name>诊断故障码表</name>
+</para>
+
+
+
+
+
+
+
+
+<para category="J" id="RM100000000D9GP" term-id-from="001">
+<name>出现噪音</name>
+</para>
+<para category="J" id="RM100000000D9H4" term-id-from="001">
+<name>听不到扬声器的声音</name>
+</para>
+<para category="J" id="RM100000000D9HP" term-id-from="001">
+<name>仅播放 CD 时音质差（音量过低）</name>
+</para>
+<para category="J" id="RM100000000D9HQ" term-id-from="001">
+<name>CD 无法弹出</name>
+</para>
+<para category="J" id="RM100000000D9HR" term-id-from="001">
+<name>无法插入/播放 CD，或者 CD 插入后立即弹出</name>
+</para>
+<para category="J" id="RM100000000D9HS" term-id-from="001">
+<name>CD 声音跳跃</name>
+</para>
+<para category="J" id="RM100000000D9H1" term-id-from="001">
+<name>无法接收到无线电广播或接收效果差</name>
+</para>
+<para category="J" id="RM100000000D9GZ" term-id-from="001">
+<name>尾灯开关打开时面板开关照明不亮</name>
+</para>
+<para category="J" id="RM100000000D9H0" term-id-from="001">
+<name>灯光控制开关置于 ON 位置时显示屏不变暗</name>
+</para>
+<para category="J" id="RM100000000D9GQ" term-id-from="001">
+<name>面板开关不起作用</name>
+</para>
+<para category="J" id="RM100000000D9HT" term-id-from="001">
+<name>触摸式面板开关不起作用</name>
+</para>
+<para category="J" id="RM100000000D9H3" term-id-from="001">
+<name>屏幕闪烁或色彩失真</name>
+</para>
+<para category="J" id="RM100000000D9H5" term-id-from="001">
+<name>所有模式下音质差（音量低）</name>
+</para>
+<para category="J" id="RM100000000D9HN" term-id-from="001">
+<name>蜂窝电话注册失败</name>
+</para>
+<para category="J" id="RM100000000D9HO" term-id-from="001">
+<name>蜂窝电话检查</name>
+</para>
+<para category="J" id="RM100000000D9HC" term-id-from="001">
+<name>无法从扬声器听到便携式播放机的声音，或声音很小</name>
+</para>
+<para category="J" id="RM100000000D9H8" term-id-from="001">
+<name>即使在选择蓝牙音响模式后也不播放</name>
+</para>
+<para category="J" id="RM100000000D9HD" term-id-from="001">
+<name>无法使用车内设备操作便携式播放机或车内设备不显示曲目信息</name>
+</para>
+<para category="J" id="RM100000000D9HE" term-id-from="001">
+<name>便携式播放机播放时出现噪音或声音跳跃</name>
+</para>
+<para category="J" id="RM100000000D9H9" term-id-from="001">
+<name>无法手动/自动连接便携式播放机</name>
+</para>
+<para category="J" id="RM100000000D9HA" term-id-from="001">
+<name>无法删除已注册的设备</name>
+</para>
+<para category="J" id="RM100000000D9HB" term-id-from="001">
+<name>无法注册便携式播放机</name>
+</para>
+<para category="J" id="RM100000000D9I7" term-id-from="001">
+<name>无法启动 MirrorLink 功能</name>
+</para>
+<para category="J" id="RM100000000D9I8" term-id-from="001">
+<name>不显示 MirrorLink 图像</name>
+</para>
+<para category="J" id="RM100000000D9I9" term-id-from="001">
+<name>无法听到 MirrorLink 声音</name>
+</para>
+<para category="J" id="RM100000000D9IA" term-id-from="001">
+<name>MirrorLink 不工作</name>
+</para>
+<para category="J" id="RM100000000D9IB" term-id-from="001">
+<name>无法启动应用链接功能</name>
+</para>
+<para category="J" id="RM100000000D9IC" term-id-from="001">
+<name>不显示应用链接功能图像</name>
+</para>
+<para category="J" id="RM100000000D9ID" term-id-from="001">
+<name>无法听到应用链接功能声音</name>
+</para>
+<para category="J" id="RM100000000D9IE" term-id-from="001">
+<name>应用链接功能不工作</name>
+</para>
+<para category="J" id="RM100000000D9HV" term-id-from="001">
+<name>USB 音响系统识别/播放故障</name>
+</para>
+<para category="J" id="RM100000000D9GR" term-id-from="001">
+<name>黑屏</name>
+</para>
+<para category="J" id="RM100000000D9HZ" term-id-from="001">
+<name>无线电收音机和组合仪表之间的车速信号电路</name>
+</para>
+<para category="J" id="RM100000000D9I0" term-id-from="001">
+<name>方向盘衬垫开关电路</name>
+</para>
+<para category="J" id="RM100000000D9I1" term-id-from="001">
+<name>照明电路</name>
+</para>
+<para category="J" id="RM100000000D9GS" term-id-from="001">
+<name>驻车制动开关电路</name>
+</para>
+<para category="J" id="RM100000000D9GT" term-id-from="001">
+<name>扬声器电路</name>
+</para>
+<para category="J" id="RM100000000D9H6" term-id-from="001">
+<name>无线电收音机和立体声插座适配器之间的声音信号电路</name>
+</para>
+<para category="J" id="RM100000000D9HJ" term-id-from="001">
+<name>无线电收音机和立体声插座适配器之间的数据信号电路</name>
+</para>
+<para category="J" id="RM100000000D9HU" term-id-from="001">
+<name>倒档信号电路</name>
+</para>
+<para category="J" id="RM100000000D9H7" term-id-from="001">
+<name>话筒和无线电收音机之间的话筒电路</name>
+</para>
+<para category="J" id="RM100000000D9I2" term-id-from="001">
+<name>无线电收音机电源电路</name>
+</para>
+</ttl>
+<ttl id="_0117386">
+<name>无线电收音机</name>
+<para category="K" id="RM100000000DD8Q" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DD8R" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DD8S" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117387">
+<name>前门扬声器</name>
+<para category="K" id="RM100000000DFDE" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DFDG" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DED8" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DFDF" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117388">
+<name>后窗台板扬声器</name>
+<para category="K" id="RM100000000DD8X" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DD8Y" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000DED9" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000DD90" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117389">
+<name>无线电收音机天线芯线</name>
+<para category="K" id="RM100000000DD91" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DD92" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DD93" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117395">
+<name>放大器天线（TFTM 制造）</name>
+<para category="K" id="RM100000000DD9P" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DD9Q" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DD9R" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117390">
+<name>放大器天线（GTMC 制造）</name>
+<para category="K" id="RM100000000DD94" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DD95" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DD96" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0118030">
+<name>立体声插座适配器总成（TFTM 制造）</name>
+<para category="K" id="RM100000000DFHE" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DFHF" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DFHG" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117391">
+<name>立体声插座适配器总成（GTMC 制造）</name>
+<para category="K" id="RM100000000DD97" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DD98" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DD99" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0118126">
+<name>话筒</name>
+<para category="K" id="RM100000000DFTN" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DFTO" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DFTP" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117393">
+<name>车窗玻璃天线引线</name>
+<para category="G" id="RM100000000DD9D" term-id-from="001">
+<name>车上检查</name>
+</para>
+<para category="A" id="RM100000000DD9E" term-id-from="001">
+<name>维修</name>
+</para>
+</ttl>
+<ttl id="_0117394">
+<name>静噪滤波器</name>
+<para category="K" id="RM100000000DD9F" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="G" id="RM100000000DEDA" term-id-from="001">
+<name>车上检查</name>
+</para>
+<para category="A" id="RM100000000DD9G" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DD9I" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

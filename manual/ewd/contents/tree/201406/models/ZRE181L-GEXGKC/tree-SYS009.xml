@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS009" code="E19" type="conn" figID="8">
+    <name>空气囊 ECU 总成</name>
+  </text>
+  <text ewd="SYS009" code="A41,A42" type="conn" figID="25">
+    <name>制动执行器总成</name>
+  </text>
+  <text ewd="SYS009" code="E55" type="conn" figID="24,26">
+    <name>组合仪表总成</name>
+  </text>
+  <text ewd="SYS009" code="B16" type="conn" figID="18">
+    <name>曲轴位置传感器</name>
+  </text>
+  <text ewd="SYS009" code="A40,B39" type="conn" figID="22">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS009" code="A26" type="conn" figID="12">
+    <name>左前轮转速传感器</name>
+  </text>
+  <text ewd="SYS009" code="A25" type="conn" figID="10">
+    <name>右前轮转速传感器</name>
+  </text>
+  <text ewd="SYS009" code="E36" type="conn" figID="7">
+    <name>主车身 ECU</name>
+  </text>
+  <text ewd="SYS009" code="A39" type="conn" figID="15">
+    <name>1 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS009" code="E74" type="conn" figID="27">
+    <name>2 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS009" code="E71" type="conn" figID="16">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS009" code="B15" type="conn" figID="17">
+    <name>驻车/空档位置开关总成</name>
+  </text>
+  <text ewd="SYS009" code="L19" type="conn" figID="14">
+    <name>驻车制动开关总成</name>
+  </text>
+  <text ewd="SYS009" code="j1" type="conn" figID="1">
+    <name>左后轮转速传感器（左侧防滑控制传感器线束）</name>
+  </text>
+  <text ewd="SYS009" code="h1" type="conn" figID="4">
+    <name>右后轮转速传感器（右侧防滑控制传感器线束）</name>
+  </text>
+  <text ewd="SYS009" code="E62" type="conn" figID="9">
+    <name>转向传感器</name>
+  </text>
+  <text ewd="SYS009" code="A1" type="conn" figID="21">
+    <name>刹车灯开关总成</name>
+  </text>
+  <text ewd="SYS009" code="A2" type="conn" figID="19">
+    <name>刹车灯开关总成</name>
+  </text>
+  <text ewd="SYS009" code="B28" type="conn" figID="20">
+    <name>节气门体总成</name>
+  </text>
+  <text ewd="SYS009" code="E60" type="conn" figID="3">
+    <name>VSC OFF 开关</name>
+  </text>
+  <text ewd="SYS009" code="FUSE5" type="fuse" figID="81,88">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS009" code="FUSE6" type="fuse" figID="84,86">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS009" code="FUSE23" type="fuse" figID="78">
+    <name>30A ABS NO.2</name>
+  </text>
+  <text ewd="SYS009" code="FUSE31" type="fuse" figID="77">
+    <name>50A ABS NO.1</name>
+  </text>
+  <text ewd="SYS009" code="FUSE39" type="fuse" figID="85,87">
+    <name>5A MET</name>
+  </text>
+  <text ewd="SYS009" code="FUSE43" type="fuse" figID="83">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS009" code="FUSE44" type="fuse" figID="79,89">
+    <name>7.5A ECU-IG NO.1</name>
+  </text>
+  <text ewd="SYS009" code="FUSE45" type="fuse" figID="80">
+    <name>7.5A ECU-IG NO.2</name>
+  </text>
+  <text ewd="SYS009" code="FUSE47" type="fuse" figID="82">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS009" code="FUSE54" type="fuse" figID="76">
+    <name>7.5A STOP</name>
+  </text>
+  <text ewd="SYS009" code="AA" type="gp" figID="64">
+    <name />
+  </text>
+  <text ewd="SYS009" code="BA" type="gp" figID="65">
+    <name />
+  </text>
+  <text ewd="SYS009" code="EA" type="gp" figID="66">
+    <name />
+  </text>
+  <text ewd="SYS009" code="EB" type="gp" figID="62,67">
+    <name />
+  </text>
+  <text ewd="SYS009" code="ED" type="gp" figID="63,68,69,70">
+    <name />
+  </text>
+  <text ewd="SYS009" code="3" type="jb" figID="34,35,36,37,38,39,40,41,42,43,44,45,46">
+    <name />
+  </text>
+  <text ewd="SYS009" code="FUSE5" type="rb" figID="6,13">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS009" code="FUSE6" type="rb" figID="11,23">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS009" code="FUSE23" type="rb" figID="2">
+    <name>30A ABS NO.2</name>
+  </text>
+  <text ewd="SYS009" code="FUSE31" type="rb" figID="5">
+    <name>50A ABS NO.1</name>
+  </text>
+  <text ewd="SYS009" code="SP6" type="sp" figID="72">
+    <name />
+  </text>
+  <text ewd="SYS009" code="SP7" type="sp" figID="71">
+    <name />
+  </text>
+  <text ewd="SYS009" code="SP23" type="sp" figID="75">
+    <name />
+  </text>
+  <text ewd="SYS009" code="SP44" type="sp" figID="73">
+    <name />
+  </text>
+  <text ewd="SYS009" code="SP48" type="sp" figID="74">
+    <name />
+  </text>
+  <text ewd="SYS009" code="AL1" type="w2w" figID="54,56">
+    <name>发动机室主线束和地板线束</name>
+  </text>
+  <text ewd="SYS009" code="AL3" type="w2w" figID="50,52">
+    <name>发动机室主线束和地板线束</name>
+  </text>
+  <text ewd="SYS009" code="AE2" type="w2w" figID="48,58,59">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS009" code="AE4" type="w2w" figID="47,60,61">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS009" code="BA2" type="w2w" figID="57">
+    <name>发动机线束和发动机室主线束</name>
+  </text>
+  <text ewd="SYS009" code="jL1" type="w2w" figID="53,55">
+    <name>左侧防滑控制传感器线束和地板线束</name>
+  </text>
+  <text ewd="SYS009" code="hL1" type="w2w" figID="49,51">
+    <name>右侧防滑控制传感器线束和地板线束</name>
+  </text>
+</EwdTree>

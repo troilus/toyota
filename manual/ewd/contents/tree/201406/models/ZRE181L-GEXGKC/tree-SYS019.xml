@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS019" code="E11" type="conn" figID="9">
+    <name>空调放大器总成</name>
+  </text>
+  <text ewd="SYS019" code="E43" type="conn" figID="10">
+    <name>空调放大器总成</name>
+  </text>
+  <text ewd="SYS019" code="A13" type="conn" figID="8,11">
+    <name>空调压力传感器</name>
+  </text>
+  <text ewd="SYS019" code="A41,A42" type="conn" figID="4">
+    <name>制动执行器总成</name>
+  </text>
+  <text ewd="SYS019" code="A33,z9" type="conn" figID="1">
+    <name>冷却风扇 ECU、冷却风扇电动机</name>
+  </text>
+  <text ewd="SYS019" code="z9" type="conn" figID="2">
+    <name>冷却风扇电动机、冷却风扇 ECU</name>
+  </text>
+  <text ewd="SYS019" code="B16" type="conn" figID="14">
+    <name>曲轴位置传感器</name>
+  </text>
+  <text ewd="SYS019" code="B4" type="conn" figID="13">
+    <name>E.F.I. 发动机冷却液温度传感器</name>
+  </text>
+  <text ewd="SYS019" code="A40,B39" type="conn" figID="12">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS019" code="A39" type="conn" figID="6">
+    <name>1 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS019" code="E74" type="conn" figID="7">
+    <name>2 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS019" code="FUSE30" type="fuse" figID="33">
+    <name>40A RDI</name>
+  </text>
+  <text ewd="SYS019" code="FUSE44" type="fuse" figID="32">
+    <name>7.5A ECU-IG NO.1</name>
+  </text>
+  <text ewd="SYS019" code="AB" type="gp" figID="26">
+    <name />
+  </text>
+  <text ewd="SYS019" code="BA" type="gp" figID="27">
+    <name />
+  </text>
+  <text ewd="SYS019" code="3" type="jb" figID="17">
+    <name />
+  </text>
+  <text ewd="SYS019" code="1" type="rb" figID="3">
+    <name />
+  </text>
+  <text ewd="SYS019" code="FUSE30" type="rb" figID="5">
+    <name>40A RDI</name>
+  </text>
+  <text ewd="SYS019" code="SP3" type="sp" figID="28">
+    <name />
+  </text>
+  <text ewd="SYS019" code="SP8" type="sp" figID="29">
+    <name />
+  </text>
+  <text ewd="SYS019" code="SP23" type="sp" figID="31">
+    <name />
+  </text>
+  <text ewd="SYS019" code="SP44" type="sp" figID="30">
+    <name />
+  </text>
+  <text ewd="SYS019" code="AE4" type="w2w" figID="18,19">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS019" code="AE8" type="w2w" figID="20,21,22,23,24,25">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+</EwdTree>

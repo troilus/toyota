@@ -1,0 +1,2570 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_58</span>
+<span class="globalServcatName">车辆内饰</span>
+<span class="globalSection">_024005</span>
+<span class="globalSectionName">防盗/无钥匙上车系统</span>
+<span class="globalTitle">_0116338</span>
+<span class="globalTitleName">智能进入和起动系统（起动功能）</span>
+<span class="globalCategory">U</span>
+</div>
+<h1>防盗/无钥匙上车系统&nbsp;&nbsp;智能进入和起动系统（起动功能）&nbsp;&nbsp;数据表/主动测试&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D98Z_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">数据表
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 读取数据表，无需拆下任何零件，即可读取开关、传感器、执行器及其他项目的值或状态。这种非侵入式检查非常有用，可在零件或配线受到干扰之前发现间歇性状况或信号。故障排除时，尽早读取数据表信息是节省诊断时间的一种方法。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>在下表中，&ldquo;正常状态&rdquo;下列出的值为参考值。确定零件是否出现故障时，不要仅仅依赖这些参考值。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>进入以下菜单：Body Electrical /（所需系统）/ Data List。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>根据 GTS 上的显示，读取数据表。
+</p>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Body Electrical &gt; Power Source Control &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Shift P Signal
+</td>
+<td class="alleft">换档杆位置 P*
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：换档杆置于 P
+<br>
+OFF：换档杆未置于 P
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用此项目确定换档杆位置开关是否出现故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>此项目为&ldquo;OFF&rdquo;时，发动机不能起动。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Steering Unlock Switch
+</td>
+<td class="alleft">自转向锁 ECU（转向锁执行器总成）输出的转向开锁传感器信号状态
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：转向开锁
+<br>
+OFF：转向锁止
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>换档杆置于 P* 且发动机开关置于 OFF 位置时，如果打开或关闭任一车门，则转向锁止。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>电子钥匙发射器分总成在车内且发动机开关置于 ON (ACC) 或 ON (IG) 位置时，转向开锁。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向开锁信号为 OFF 时，发动机不能起动。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Stop Light Switch1
+</td>
+<td class="alleft">制动踏板状态*
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：踩下制动踏板
+<br>
+OFF：松开制动踏板
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用此项目可确定刹车灯开关是否出现故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>此项目为&ldquo;OFF&rdquo;时，发动机不能起动。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该项目出现故障时，按住发动机开关一段时间即可起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Start Switch1
+</td>
+<td class="alleft">发动机开关 1 状态
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：发动机开关按下
+<br>
+OFF：发动机开关未按下
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果短时间按下发动机开关，则显示可能不会改变。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用此项目可确定发动机开关输入信号是否出现故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Start Switch2
+</td>
+<td class="alleft">发动机开关 2 状态
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：发动机开关按下
+<br>
+OFF：发动机开关未按下
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>作为发动机开关 1 的备用开关。但是，按住发动机开关时，仅在发动机开关 1 和 2 都正常时控制起作用。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>功能与发动机开关 1 相同。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Neutral SW/ Clutch SW
+</td>
+<td class="alleft"><div class="list1">
+<div class="listTitle">除手动传动桥外：</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>换档杆位置（P 和 N）
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="listTitle">手动传动桥：</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>离合器踏板状态
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft"><div class="list1">
+<div class="listTitle">除手动传动桥外：</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>ON：换档杆置于 P 或 N
+</p>
+<p>OFF：换档杆置于 P 或 N 以外的任何位置
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="listTitle">手动传动桥：</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>ON：踩下离合器踏板
+</p>
+<p>OFF：松开离合器踏板
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="listTitle">除手动传动桥外：</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用此项目可确定驻车/空档位置开关总成是否存在故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>由于驻车/空档位置开关总成故障无法起动发动机时，显示 OFF。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="listTitle">手动传动桥：</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用此项目可确定离合器起动开关总成是否存在故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>此项目为&ldquo;OFF&rdquo;时，发动机不能起动。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Latch Circuit
+</td>
+<td class="alleft">与 IG 有关的备用电路状态
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：发动机开关置于 ON (IG) 位置
+<br>
+OFF：发动机开关置于 OFF 位置
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>以与 IG1 和 IG2 继电器几乎相同的方式显示。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关置于 ON (ACC) 位置时，显示 OFF。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">IG1 Relay Monitor(Outside)
+</td>
+<td class="alleft">IG1 继电器线圈电压监视状态
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：发动机开关置于 ON (IG) 位置
+<br>
+OFF：发动机开关置于 OFF 位置
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用此项目确定 IG1 继电器是否存在故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关置于 ON (ACC) 位置时，显示 OFF。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">IG1 Relay Monitor(Inside)
+</td>
+<td class="alleft">IG1 继电器激活
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：发动机开关置于 ON (IG) 位置
+<br>
+OFF：发动机开关置于 OFF 位置
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用此项目确定 IG1 继电器是否存在故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关置于 ON (ACC) 位置时，显示 OFF。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">IG2 Relay Monitor(Outside)
+</td>
+<td class="alleft">IG2 继电器线圈电压监视状态
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：发动机开关置于 ON (IG) 位置
+<br>
+OFF：发动机开关置于 OFF 位置
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用此项目确定 IG2 继电器是否存在故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关置于 ON (ACC) 位置时，显示 OFF。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">IG2 Relay Monitor(Inside)
+</td>
+<td class="alleft">IG2 继电器激活
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：发动机开关置于 ON (IG) 位置
+<br>
+OFF：发动机开关置于 OFF 位置
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用此项目确定 IG2 继电器是否存在故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关置于 ON (ACC) 位置时，显示 OFF。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Starter Request Signal
+</td>
+<td class="alleft">发动机起动请求信号状态
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft"><div class="list1">
+<div class="listTitle">除手动传动桥外：</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>ON：换档杆置于 P 且踩下制动踏板的情况下，按住发动机开关
+</p>
+<p>OFF：经过约 1 秒后，松开发动机开关
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="listTitle">手动传动桥：</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>ON：踩下离合器踏板，按住发动机开关
+</p>
+<p>OFF：经过约 1 秒后，松开发动机开关
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>由于起动请求信号故障无法起动发动机时，显示 OFF。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>按下发动机开关时，显示 ON 的持续时间非常短。因此，需按住发动机开关一定的时间。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">ACC Relay Monitor
+</td>
+<td class="alleft">ACC 继电器激活
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：发动机开关置于 ON (ACC) 位置
+<br>
+OFF：发动机开关置于 OFF 位置
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关置于 ON (IG) 位置时，显示 ON。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机起动时，显示 OFF。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Condition
+</td>
+<td class="alleft">发动机状态
+</td>
+<td class="alcenter">Stop 或 Run
+</td>
+<td class="alleft">Stop：发动机停机
+<br>
+Run：发动机运转
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Vehicle Speed Signal
+</td>
+<td class="alleft">车辆行驶或停止
+</td>
+<td class="alcenter">Stop 或 Run
+</td>
+<td class="alleft">Stop：车辆停止
+<br>
+Run：车辆以 5 km/h (3 mph) 或更高的速度行驶
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Power Supply Condition
+</td>
+<td class="alleft">电源状态
+</td>
+<td class="alcenter">All OFF、ACC ON、IG1 ON、IG2 ON 或 ST ON
+</td>
+<td class="alleft">All OFF：发动机开关置于 OFF（ACC 和 IG）位置
+<br>
+ACC ON：发动机开关置于 ON (ACC) 位置
+<br>
+IG1 ON：发动机开关置于 ON (IG) 位置（IG1 继电器接通）
+<br>
+IG2 ON：发动机开关置于 ON (IG) 位置（IG2 继电器接通）
+<br>
+ST ON：发送发动机起动请求信号
+</td>
+<td class="alleft">由于 IG1 和 IG2 继电器几乎同时接通，IG1 ON 可能不显示（IG1 继电器接通的时间非常短）。
+</td>
+</tr>
+<tr>
+<td class="alleft">Powertrain Type
+</td>
+<td class="alleft">车辆认证
+</td>
+<td class="alcenter">HV-AT、Cnv-MT、Cnv-AT、Cnv-MMT、S&amp;S-MT、S&amp;S-AT 或 S&amp;S-MMT
+</td>
+<td class="alleft">Cnv-MT：常规 M/T（未配备混合动力系统的 M/T 车辆）
+<br>
+Cnv-AT：常规 CVT（未配备混合动力系统的 CVT 车辆）
+<br>
+Cnv-MMT：常规 MMT（未配备混合动力系统的 MMT 车辆）
+<br>
+S&amp;S-MT：停止和起动 M/T（未配备混合动力系统的 M/T 车辆）
+<br>
+S&amp;S-AT：停止和起动 CVT（未配备混合动力系统的 CVT 车辆）
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">IG1 Circuit
+</td>
+<td class="alleft">IG1 继电器线圈电路故障
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：电路正常
+<br>
+NG：电路故障
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用此项目确定 IG1 继电器是否存在故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>由于 IG1 继电器故障无法起动发动机时，显示 NG。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">IG2 Circuit
+</td>
+<td class="alleft">IG2 继电器线圈电路故障
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：电路正常
+<br>
+NG：电路故障
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用此项目确定 IG2 继电器是否存在故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>由于 IG2 继电器故障无法起动发动机时，显示 NG。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Starter SW Sig Mismatch
+</td>
+<td class="alleft">发动机开关信号 1 与 2 不匹配
+</td>
+<td class="alcenter">Yes 或 No
+</td>
+<td class="alleft">Yes：开关故障（发动机开关信号 1 与 2 不匹配）
+<br>
+No：开关正常
+</td>
+<td class="alleft">即使结果为 Yes，发动机也可以起动。但是，驾驶时通过按住发动机开关无法进行发动机紧急关闭，制动器存在故障时通过按住发动机开关无法进行发动机紧急起动。
+</td>
+</tr>
+<tr>
+<td class="alleft">Park Signal Mismatch
+</td>
+<td class="alleft">P 位置信号故障*
+</td>
+<td class="alcenter">Yes 或 No
+</td>
+<td class="alleft">Yes：信号故障（CAN 通信和直线连接信号不匹配）
+<br>
+No：信号正常
+</td>
+<td class="alleft">即使显示 Yes 时，也可将发动机开关置于 OFF 位置（在 ON (ACC) 或 ON (IG) 位置时电源模式将不会卡滞）。
+</td>
+</tr>
+<tr>
+<td class="alleft">Str Lock/Unlock Wait T-Out
+</td>
+<td class="alleft">转向锁止或开锁故障
+</td>
+<td class="alcenter">Yes 或 No
+</td>
+<td class="alleft">Yes：锁止或开锁故障（例如转向锁卡滞等）
+<br>
+No：锁止和开锁正常
+</td>
+<td class="alleft">由于转向锁止或开锁故障，无法起动发动机，显示 Yes。
+</td>
+</tr>
+<tr>
+<td class="alleft">Key Certif Wait T-Out
+</td>
+<td class="alleft">钥匙认证故障
+</td>
+<td class="alcenter">Yes 或 No
+</td>
+<td class="alleft">Yes：认证错误（由于电子钥匙发射器分总成识别码与认证 ECU（智能钥匙 ECU 总成）内存储的识别码不匹配而检测到）
+<br>
+No：认证正常
+</td>
+<td class="alleft">由于钥匙认证错误无法起动发动机时，显示 Yes。
+</td>
+</tr>
+<tr>
+<td class="alleft">Number of Diagnosis Code
+</td>
+<td class="alleft">DTC 数量
+</td>
+<td class="alcenter">0 至 255
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*：除手动传动桥外
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B337097.png" alt="B337097" title="B337097">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.063,0.052 2.833,0.74</span>
+<span class="captionSize">2.771,0.688</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">起动发动机时数据表显示变化：（除手动传动桥外）</span>
+</span>
+<span class="caption">
+<span class="points">2.927,0.729 3.24,0.927</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1</span>
+</span>
+<span class="caption">
+<span class="points">3.594,0.729 3.906,0.927</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*2</span>
+</span>
+<span class="caption">
+<span class="points">4.031,0.729 4.344,0.927</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*3</span>
+</span>
+<span class="caption">
+<span class="points">4.396,0.729 4.708,0.927</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*4</span>
+</span>
+<span class="caption">
+<span class="points">5.292,0.729 5.604,0.927</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*5</span>
+</span>
+<span class="caption">
+<span class="points">5.625,0.729 5.938,0.927</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*6</span>
+</span>
+<span class="caption">
+<span class="points">6.385,0.74 6.698,0.938</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*7</span>
+</span>
+<span class="caption">
+<span class="points">2.438,1.115 2.75,1.313</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.438,1.875 2.75,2.073</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.438,2.635 2.75,2.833</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.438,3.375 2.75,3.573</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.438,4.094 2.75,4.292</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.427,5 2.74,5.198</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.427,5.75 2.74,5.948</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.219,8.51 2.792,8.719</span>
+<span class="captionSize">0.573,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG2 ON</span>
+</span>
+<span class="caption">
+<span class="points">2.26,8.333 2.854,8.5</span>
+<span class="captionSize">0.594,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ST ON</span>
+</span>
+<span class="caption">
+<span class="points">2.115,8.167 2.906,8.396</span>
+<span class="captionSize">0.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ALL OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.219,8.021 3.01,8.25</span>
+<span class="captionSize">0.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG1 ON</span>
+</span>
+<span class="caption">
+<span class="points">2.146,7.844 2.938,8.073</span>
+<span class="captionSize">0.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ACC ON</span>
+</span>
+<span class="caption">
+<span class="points">2.365,7.427 3.156,7.656</span>
+<span class="captionSize">0.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Stop</span>
+</span>
+<span class="caption">
+<span class="points">2.406,7.198 3.198,7.427</span>
+<span class="captionSize">0.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Run</span>
+</span>
+<span class="caption">
+<span class="points">2.375,6.708 3.167,6.938</span>
+<span class="captionSize">0.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.438,6.427 3.229,6.656</span>
+<span class="captionSize">0.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.375,5.99 3.167,6.219</span>
+<span class="captionSize">0.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.365,4.323 3.156,4.552</span>
+<span class="captionSize">0.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.365,3.667 3.156,3.896</span>
+<span class="captionSize">0.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.365,2.917 3.156,3.146</span>
+<span class="captionSize">0.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.365,2.146 3.156,2.375</span>
+<span class="captionSize">0.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.375,1.396 3.167,1.625</span>
+<span class="captionSize">0.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.365,5.198 3.156,5.427</span>
+<span class="captionSize">0.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">0.24,1.156 1.448,1.396</span>
+<span class="captionSize">1.208,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">起动开关 1</span>
+</span>
+<span class="caption">
+<span class="points">0.26,1.969 1.948,2.229</span>
+<span class="captionSize">1.688,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">转向开锁开关</span>
+</span>
+<span class="caption">
+<span class="points">0.26,2.74 1.948,3</span>
+<span class="captionSize">1.688,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">刹车灯开关 1</span>
+</span>
+<span class="caption">
+<span class="points">0.26,3.49 1.948,3.75</span>
+<span class="captionSize">1.688,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">空档开关/离合器开关</span>
+</span>
+<span class="caption">
+<span class="points">0.271,4.198 2.094,4.458</span>
+<span class="captionSize">1.823,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG1 继电器监视器（外部）</span>
+</span>
+<span class="caption">
+<span class="points">0.271,5.031 2.188,5.302</span>
+<span class="captionSize">1.917,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG2 继电器监视器（外部）</span>
+</span>
+<span class="caption">
+<span class="points">0.271,5.823 1.958,6.083</span>
+<span class="captionSize">1.688,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ACC 继电器监视器</span>
+</span>
+<span class="caption">
+<span class="points">0.271,6.51 1.958,6.771</span>
+<span class="captionSize">1.688,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">起动机请求信号</span>
+</span>
+<span class="caption">
+<span class="points">0.271,7.271 1.958,7.531</span>
+<span class="captionSize">1.688,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">发动机状态</span>
+</span>
+<span class="caption">
+<span class="points">0.281,8.104 1.969,8.365</span>
+<span class="captionSize">1.688,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">电源状态</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dt class="atten4">要检查数据表显示是否变化，携带电子钥匙发射器分总成进入车内并在发动机开关置于 OFF 位置且换档杆置于 P 的情况下进行以下操作。</dt>
+<dd class="atten4">
+<p>*1：松开制动踏板的情况下，按下发动机开关，检查并确认发动机开关置于 ON (ACC) 位置。
+</p>
+</dd>
+<dd class="atten4">
+<p>*2：松开制动踏板的情况下，按下发动机开关，检查并确认发动机开关置于 ON (IG) 位置。
+</p>
+</dd>
+<dd class="atten4">
+<p>*3：踩下制动踏板（刹车灯开关打开）。
+</p>
+</dd>
+<dd class="atten4">
+<p>*4：踩下制动踏板的情况下，按下发动机开关，检查并确认发动机起动。
+</p>
+</dd>
+<dd class="atten4">
+<p>*5：踩下制动踏板的情况下，按下发动机开关，检查并确认发动机开关置于 OFF 位置。
+</p>
+</dd>
+<dd class="atten4">
+<p>*6：松开制动踏板。
+</p>
+</dd>
+<dd class="atten4">
+<p>*7：打开一扇车门。
+</p>
+</dd>
+</dl>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/C226887.png" alt="C226887" title="C226887">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">2.469,1.542 2.844,1.771</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.469,1.823 2.844,2.052</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">0.073,1.49 1.875,1.688</span>
+<span class="captionSize">1.802,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">转向开锁开关</span>
+</span>
+<span class="caption">
+<span class="points">0.073,0.698 0.938,0.875</span>
+<span class="captionSize">0.865,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">起动开关 1</span>
+</span>
+<span class="caption">
+<span class="points">0.073,2.417 1.969,2.615</span>
+<span class="captionSize">1.896,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">空档开关/离合器开关</span>
+</span>
+<span class="caption">
+<span class="points">0.073,4.917 1.802,5.115</span>
+<span class="captionSize">1.729,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">ACC 继电器监视器</span>
+</span>
+<span class="caption">
+<span class="points">0.073,4.073 2.198,4.302</span>
+<span class="captionSize">2.125,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">IG2 继电器监视器（外部）</span>
+</span>
+<span class="caption">
+<span class="points">0.073,3.146 2.24,3.375</span>
+<span class="captionSize">2.167,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">IG1 继电器监视器（外部）</span>
+</span>
+<span class="caption">
+<span class="points">2.469,0.667 2.844,0.896</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.469,0.938 2.844,1.167</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.469,2.396 2.844,2.625</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.469,2.667 2.844,2.896</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.469,3.271 2.844,3.5</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.469,3.479 2.844,3.708</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.469,4.073 2.844,4.302</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.469,4.281 2.844,4.51</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.469,5.646 2.844,5.875</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.469,5.927 2.844,6.156</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">0.073,5.646 1.802,5.844</span>
+<span class="captionSize">1.729,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">起动机请求信号</span>
+</span>
+<span class="caption">
+<span class="points">0.073,6.448 1.323,6.646</span>
+<span class="captionSize">1.25,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">发动机状态</span>
+</span>
+<span class="caption">
+<span class="points">0.073,7.146 1.948,7.344</span>
+<span class="captionSize">1.875,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">电源状态</span>
+</span>
+<span class="caption">
+<span class="points">2.198,7.365 2.802,7.563</span>
+<span class="captionSize">0.604,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">ACC ON</span>
+</span>
+<span class="caption">
+<span class="points">2.198,7.552 2.802,7.75</span>
+<span class="captionSize">0.604,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">IG1 ON</span>
+</span>
+<span class="caption">
+<span class="points">2.198,7.865 2.802,8.063</span>
+<span class="captionSize">0.604,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">ST ON</span>
+</span>
+<span class="caption">
+<span class="points">2.198,8.031 2.802,8.229</span>
+<span class="captionSize">0.604,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">IG2 ON</span>
+</span>
+<span class="caption">
+<span class="points">2.198,7.698 2.917,7.896</span>
+<span class="captionSize">0.719,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">ALL OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.469,6.531 2.844,6.76</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">Run</span>
+</span>
+<span class="caption">
+<span class="points">2.469,6.76 2.844,6.99</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">Stop</span>
+</span>
+<span class="caption">
+<span class="points">2.469,4.854 2.844,5.083</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.469,5.094 2.844,5.323</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">3,0.417 3.375,0.646</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">*1</span>
+</span>
+<span class="caption">
+<span class="points">3.677,0.417 3.917,0.583</span>
+<span class="captionSize">0.24,0.167</span>
+<span class="fontsize">10</span>
+<span class="captionText">*2</span>
+</span>
+<span class="caption">
+<span class="points">4.073,0.417 4.271,0.594</span>
+<span class="captionSize">0.198,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">*3</span>
+</span>
+<span class="caption">
+<span class="points">4.417,0.417 4.625,0.573</span>
+<span class="captionSize">0.208,0.156</span>
+<span class="fontsize">10</span>
+<span class="captionText">*4</span>
+</span>
+<span class="caption">
+<span class="points">5.354,0.417 5.552,0.594</span>
+<span class="captionSize">0.198,0.177</span>
+<span class="fontsize">10</span>
+<span class="captionText">*5</span>
+</span>
+<span class="caption">
+<span class="points">5.667,0.417 5.865,0.583</span>
+<span class="captionSize">0.198,0.167</span>
+<span class="fontsize">10</span>
+<span class="captionText">*6</span>
+</span>
+<span class="caption">
+<span class="points">6.417,0.417 6.615,0.583</span>
+<span class="captionSize">0.198,0.167</span>
+<span class="fontsize">10</span>
+<span class="captionText">*7</span>
+</span>
+<span class="caption">
+<span class="points">0.031,0.021 2.531,0.521</span>
+<span class="captionSize">2.5,0.5</span>
+<span class="fontsize">10</span>
+<span class="captionText">起动发动机时数据表显示变化：（手动传动桥）</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dt class="atten4">要检查数据表显示是否变化，携带电子钥匙发射器分总成进入车内并在发动机开关置于 OFF 位置且换档杆处于空档的情况下进行以下操作。</dt>
+<dd class="atten4">
+<p>*1：在未踩下离合器踏板的情况下，按下发动机开关，检查并确认电源模式切换至 ON (ACC)。
+</p>
+</dd>
+<dd class="atten4">
+<p>*2：在不踩下离合器踏板的情况下，按下发动机开关，检查并确认电源模式切换至 ON (IG)。
+</p>
+</dd>
+<dd class="atten4">
+<p>*3：踩下离合器踏板（离合器起动开关打开）。
+</p>
+</dd>
+<dd class="atten4">
+<p>*4：踩下离合器踏板的情况下，按下发动机开关，检查并确认发动机起动。
+</p>
+</dd>
+<dd class="atten4">
+<p>*5：按下发动机开关，检查并确认电源模式切换至 OFF。
+</p>
+</dd>
+<dd class="atten4">
+<p>*6：松开离合器踏板。
+</p>
+</dd>
+<dd class="atten4">
+<p>*7：打开一扇车门。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Body Electrical &gt; Entry&amp;Start &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Ignition Switch
+</td>
+<td class="alleft">认证 ECU（智能钥匙 ECU 总成）IG 电源输入状态
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：发动机开关置于 ON (IG) 位置
+<br>
+OFF：发动机开关置于 OFF 位置
+</td>
+<td class="alleft">发动机开关置于 ON (ACC) 位置时，显示 OFF。
+</td>
+</tr>
+<tr>
+<td class="alleft"># Codes
+</td>
+<td class="alleft">DTC 数量
+</td>
+<td class="alcenter">0 至 255
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Immobiliser
+</td>
+<td class="alleft">停机系统由认证 ECU（智能钥匙 ECU 总成）确定
+</td>
+<td class="alcenter">Set 或 Unset
+</td>
+<td class="alleft">Set：停机系统设定（禁止发动机起动）（发动机开关置于 OFF 位置）
+<br>
+Unset：停机系统解除（允许发动机起动）（发动机开关置于 ON (ACC) 或 ON (IG) 位置）
+</td>
+<td class="alleft">显示 Set 时无法起动发动机。
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>显示 Set 时安全指示灯闪烁。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>安全指示灯与停机系统的设定/解除联动，未与转向锁止/开锁联动。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Auto Entry Cancel SW
+</td>
+<td class="alleft">智能进入和起动系统功能
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">显示定制设定
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Steering Lock Sleep Cond
+</td>
+<td class="alleft">转向锁 ECU 休眠可用
+</td>
+<td class="alcenter">Yes 或 No
+</td>
+<td class="alleft">Yes：休眠可用
+<br>
+No：休眠不可用
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Steering Lock Start Cond
+</td>
+<td class="alleft">转向锁 ECU 唤醒信号状态
+</td>
+<td class="alcenter">Yes 或 No
+</td>
+<td class="alleft">Yes：发送唤醒信号
+<br>
+No：未发送唤醒信号
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Start Condition
+</td>
+<td class="alleft">转向锁 ECU（转向锁执行器总成）确定并发送至认证 ECU（智能钥匙 ECU 总成）的发动机起动许可信号状态
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：允许发动机起动
+<br>
+NG：发动机起动禁止
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>显示 OK 时，认证 ECU（智能钥匙 ECU 总成）接收自转向锁 ECU（转向锁执行器总成）的开锁确认信号并使燃油喷射和发动机起动成为可能。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>显示 NG 时无法起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Sensor Value
+</td>
+<td class="alleft">转向锁 ECU（转向锁执行器总成）的位置传感器的故障历史（存储 DTC B2781）
+</td>
+<td class="alcenter">OK 或 NG (Past)
+</td>
+<td class="alleft">OK：转向锁 ECU（转向锁执行器总成）内的锁止或开锁传感器的历史故障不存在。
+<br>
+NG (Past)：转向锁 ECU（转向锁执行器总成）内的锁止和开锁传感器都有历史故障（正常工作状态下，无传感器接通）。
+</td>
+<td class="alleft">显示 NG(Past) 时，转向锁 ECU（转向锁执行器总成）内的位置传感器或总成本身存在故障。
+</td>
+</tr>
+<tr>
+<td class="alleft">Power Supply Short
+</td>
+<td class="alleft">认证 ECU（智能钥匙 ECU 总成）发送至转向锁 ECU（转向锁执行器总成）的信号错误（短路）历史（存储 DTC B2782）
+</td>
+<td class="alcenter">OK 或 NG (Past)
+</td>
+<td class="alleft">OK：不存在马达电源短路历史
+<br>
+NG(Past)：存在马达电源短路历史
+</td>
+<td class="alleft">该项目显示认证 ECU（智能钥匙 ECU 总成）和转向锁 ECU（转向锁执行器总成）之间的电路故障历史。
+</td>
+</tr>
+<tr>
+<td class="alleft">Motor Driver Short
+</td>
+<td class="alleft">转向锁 ECU（转向锁执行器总成）马达电路的故障（短路）历史（存储 DTC B2781）。
+</td>
+<td class="alcenter">OK 或 NG (Past)
+</td>
+<td class="alleft">OK：不存在马达电路短路历史
+<br>
+NG(Past)：存在马达电路短路历史
+</td>
+<td class="alleft">转向锁 ECU（转向锁执行器总成）内的转向锁止马达电路故障历史。
+</td>
+</tr>
+<tr>
+<td class="alleft">Lock/Unlock Receive
+</td>
+<td class="alleft">接收开锁请求信号的历史
+</td>
+<td class="alcenter">Yes 或 No
+</td>
+<td class="alleft">Yes：存在接收开锁请求信号的历史
+<br>
+No：不存在接收开锁请求信号的历史
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Lock Bar Stuck Error
+</td>
+<td class="alleft">转向锁止操作一段时间时，转向无法正确开锁的历史
+</td>
+<td class="alcenter">OK 或 NG (Past)
+</td>
+<td class="alleft">OK：不存在转向锁止卡滞历史
+<br>
+NG(Past)：存在转向锁止卡滞历史
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Push Start Error
+</td>
+<td class="alleft">转向锁 ECU（转向锁执行器总成）的按钮起动故障历史
+</td>
+<td class="alcenter">OK 或 NG (Past)
+</td>
+<td class="alleft">OK：不存在按钮起动故障历史
+<br>
+NG(Past)：存在按钮起动故障历史
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Start Request
+</td>
+<td class="alleft">转向锁 ECU（转向锁执行器总成）确定并发送至认证 ECU（智能钥匙 ECU 总成）的发动机起动许可信号状态
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：接收信号
+<br>
+NG：未接收信号
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>显示 OK 时，认证 ECU（智能钥匙 ECU 总成）接收自转向锁 ECU（转向锁执行器总成）的开锁确认信号并使燃油喷射和发动机起动成为可能。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>显示 NG 时无法起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">S Code Check
+</td>
+<td class="alleft">认证 ECU（智能钥匙 ECU 总成）和 ID 代码箱（停机系统代码 ECU）之间的认证结果
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：认证结果正常
+<br>
+NG：认证结果异常
+</td>
+<td class="alleft">显示 NG 时：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>认证 ECU（智能钥匙 ECU 总成）或 ID 代码箱（停机系统代码 ECU）的识别码未注册或认证 ECU（智能钥匙 ECU 总成）或 ID 代码箱（停机系统代码 ECU）存在故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向不能锁止。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向不能开锁（发动机不能起动）。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">L Code Check
+</td>
+<td class="alleft">ID 代码箱（停机系统代码 ECU）和转向锁 ECU（转向锁执行器总成）之间的认证结果
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：认证结果正常
+<br>
+NG：认证结果异常
+</td>
+<td class="alleft">显示 NG 时：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ID 代码箱（停机系统代码 ECU）或转向锁 ECU（转向锁执行器总成）的识别码未注册或 ID 代码箱（停机系统代码 ECU）或转向锁 ECU（转向锁执行器总成）存在故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向不能锁止。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转向不能开锁（发动机不能起动）。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Unlock Request Receive
+</td>
+<td class="alleft">开锁请求信号接收状态
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：发动机开关置于 ON (IG) 或 ON (ACC) 位置或进行发动机起动操作后 10 秒内
+<br>
+NG：发动机开关置于 ON (IG) 或 ON (ACC) 位置且未进行发动机起动操作
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>无法接收开锁请求信号时，无法起动发动机。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果即使满足转向开锁条件也不显示 OK，则认证 ECU（智能钥匙 ECU 总成）可能存在故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Lock Request Receive
+</td>
+<td class="alleft">锁止请求信号接收状态
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>接收状态持续 10 秒。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>接收信号 10 秒或更长时间后，此项目变为&ldquo;NG&rdquo;。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：换档杆置于 P 且发动机开关置于 OFF 位置的情况下打开任一车门后 10 秒内，接收到锁止请求信号。
+<br>
+NG：除以上情况外
+</td>
+<td class="alleft">如果即使满足转向锁止条件也不显示 OK，则认证 ECU（智能钥匙 ECU 总成）可能存在故障。
+</td>
+</tr>
+<tr>
+<td class="alleft">S Code Check (Past)
+</td>
+<td class="alleft">认证 ECU（智能钥匙 ECU 总成）和 ID 代码箱（停机系统代码 ECU）之间的认证结果历史
+</td>
+<td class="alcenter">OK 或 NG (Past)
+</td>
+<td class="alleft">OK：不存在异常认证结果历史
+<br>
+NG(Past)：存在异常认证结果历史
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">L Code Check (Past)
+</td>
+<td class="alleft">ID 代码箱（停机系统代码 ECU）和转向锁 ECU（转向锁执行器总成）之间的认证结果历史
+</td>
+<td class="alcenter">OK 或 NG (Past)
+</td>
+<td class="alleft">OK：不存在异常认证结果历史
+<br>
+NG(Past)：存在异常认证结果历史
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Steering Lock
+</td>
+<td class="alleft">转向锁 ECU（转向锁执行器总成）锁止信息状态
+</td>
+<td class="alcenter">Set 或 Unset
+</td>
+<td class="alleft">Set：锁止确认
+<br>
+Unset：锁止未确认
+</td>
+<td class="alleft">显示 Unset 时，转向未锁止。
+</td>
+</tr>
+<tr>
+<td class="alleft">Steering Unlock
+</td>
+<td class="alleft">转向锁 ECU（转向锁执行器总成）开锁信息确认状态
+</td>
+<td class="alcenter">Set 或 Unset
+</td>
+<td class="alleft">Set：开锁确认
+<br>
+Unset：开锁未确认
+</td>
+<td class="alleft">显示 Unset 时，转向未锁止（发动机无法起动）。
+</td>
+</tr>
+<tr>
+<td class="alleft">Ignition Available Area
+</td>
+<td class="alleft">点火有效区域
+</td>
+<td class="alcenter">Front 或 All
+</td>
+<td class="alleft">显示定制设定
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Key Low Battery Warning
+</td>
+<td class="alleft">发射器钥匙电量过低警告
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">显示定制设定
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Start Indicator
+</td>
+<td class="alleft">钥匙警告灯
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">显示定制设定
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B279857.png" alt="B279857" title="B279857">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.542,0.979 1.979,1.208</span>
+<span class="captionSize">1.438,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">点火开关</span>
+</span>
+<span class="caption">
+<span class="points">0.542,1.646 2.333,1.875</span>
+<span class="captionSize">1.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">发动机起动状态</span>
+</span>
+<span class="caption">
+<span class="points">0.542,2.521 2.333,2.75</span>
+<span class="captionSize">1.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">发动机起动请求</span>
+</span>
+<span class="caption">
+<span class="points">0.542,3.313 2.333,3.542</span>
+<span class="captionSize">1.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">开锁请求接收</span>
+</span>
+<span class="caption">
+<span class="points">0.542,4.115 2.333,4.344</span>
+<span class="captionSize">1.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">锁止请求接收</span>
+</span>
+<span class="caption">
+<span class="points">0.542,4.781 2.333,5.01</span>
+<span class="captionSize">1.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">转向锁止</span>
+</span>
+<span class="caption">
+<span class="points">0.542,5.406 2.333,5.635</span>
+<span class="captionSize">1.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">转向开锁</span>
+</span>
+<span class="caption">
+<span class="points">2.396,1.552 2.771,1.781</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OK</span>
+</span>
+<span class="caption">
+<span class="points">2.396,1.875 2.771,2.104</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">NG</span>
+</span>
+<span class="caption">
+<span class="points">2.396,0.854 2.771,1.083</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.396,1.156 2.771,1.385</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.396,3.219 2.771,3.448</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">NG</span>
+</span>
+<span class="caption">
+<span class="points">2.396,3.542 2.771,3.771</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OK</span>
+</span>
+<span class="caption">
+<span class="points">2.396,4.01 2.771,4.24</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">NG</span>
+</span>
+<span class="caption">
+<span class="points">2.396,4.313 2.771,4.542</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OK</span>
+</span>
+<span class="caption">
+<span class="points">2.396,2.406 2.771,2.635</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">NG</span>
+</span>
+<span class="caption">
+<span class="points">2.396,2.719 2.771,2.948</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OK</span>
+</span>
+<span class="caption">
+<span class="points">2.396,4.688 2.771,4.917</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Set</span>
+</span>
+<span class="caption">
+<span class="points">2.396,4.948 2.906,5.177</span>
+<span class="captionSize">0.51,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Unset</span>
+</span>
+<span class="caption">
+<span class="points">2.396,5.302 2.771,5.531</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Set</span>
+</span>
+<span class="caption">
+<span class="points">2.396,5.583 2.906,5.813</span>
+<span class="captionSize">0.51,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Unset</span>
+</span>
+<span class="caption">
+<span class="points">3.313,0.427 3.5,0.594</span>
+<span class="captionSize">0.188,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1</span>
+</span>
+<span class="caption">
+<span class="points">3.781,0.427 3.969,0.594</span>
+<span class="captionSize">0.188,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*2</span>
+</span>
+<span class="caption">
+<span class="points">4.844,0.427 5.031,0.594</span>
+<span class="captionSize">0.188,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*3</span>
+</span>
+<span class="caption">
+<span class="points">5.333,0.427 5.521,0.594</span>
+<span class="captionSize">0.188,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*4</span>
+</span>
+<span class="caption">
+<span class="points">0.063,0 2.135,0.51</span>
+<span class="captionSize">2.073,0.51</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">转向锁止/开锁时，数据表显示变化：</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dt class="atten4">要检查数据表显示是否变化，携带电子钥匙发射器分总成进入车内并在发动机开关置于 OFF 位置且换档杆置于 P*5 的情况下进行以下操作。</dt>
+<dd class="atten4">
+<p>*1：松开制动踏板*5 或离合器踏板*6 的情况下，按下发动机开关，检查并确认发动机开关置于 ON (ACC) 位置。
+</p>
+</dd>
+<dd class="atten4">
+<p>*2：松开制动踏板*5 或离合器踏板*6 的情况下，按下发动机开关，检查并确认发动机开关置于 ON (IG) 位置。
+</p>
+</dd>
+<dd class="atten4">
+<p>*3：按下发动机开关，检查并确认发动机开关置于 OFF 位置。
+</p>
+</dd>
+<dd class="atten4">
+<p>*4：松开制动踏板*5 或离合器踏板*6，打开驾驶员车门，检查并确认转向锁止。
+</p>
+</dd>
+<dd class="atten4">
+<p>*5：除手动传动桥外
+</p>
+</dd>
+<dd class="atten4">
+<p>*6：手动传动桥
+</p>
+</dd>
+</dl>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Body Electrical &gt; Starting Control &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Starter SW
+</td>
+<td class="alleft">起动机工作请求
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：请求起动机工作
+<br>
+OFF：未请求起动机工作
+</td>
+<td class="alleft">出现故障时，发动机将不起动。
+</td>
+</tr>
+<tr>
+<td class="alleft">Shift Position P or N
+</td>
+<td class="alleft">驻车/空档位置开关
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：换档杆置于 P 或 N
+<br>
+OFF：换档杆未置于 P 或 N
+</td>
+<td class="alleft">出现故障时，发动机将不起动。
+</td>
+</tr>
+<tr>
+<td class="alleft">Starter Relay
+</td>
+<td class="alleft">起动机继电器电压监视器
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：ST 继电器接通
+<br>
+OFF：ST 继电器断开
+</td>
+<td class="alleft">发动机无法起动时显示 OFF。
+</td>
+</tr>
+<tr>
+<td class="alleft">Starting Control SW
+</td>
+<td class="alleft">起动机请求信号监视器
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：起动控制开关打开
+<br>
+OFF：起动控制开关关闭
+</td>
+<td class="alleft">出现故障时，发动机无法起动。
+</td>
+</tr>
+<tr>
+<td class="alleft">Ignition
+</td>
+<td class="alleft">IG2 状态
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：IG2 继电器接通
+<br>
+OFF：IG2 继电器断开
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Speed
+</td>
+<td class="alleft">发动机转速
+</td>
+<td class="alcenter">0 至 16,383 r/min
+</td>
+<td class="alleft">根据发动机转速波动
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Number of DTCs
+</td>
+<td class="alleft">DTC 数量
+</td>
+<td class="alcenter">0 至 255
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/C222178.png" alt="C222178" title="C222178">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">2.719,1.583 3.094,1.813</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.719,1.302 3.094,1.531</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.719,2.406 3.094,2.635</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.719,2.094 3.094,2.323</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.719,0.833 3.094,1.063</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.719,0.531 3.094,0.76</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">0.656,0.542 1.365,0.771</span>
+<span class="captionSize">0.708,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">起动机开关</span>
+</span>
+<span class="caption">
+<span class="points">0.656,2.052 2.104,2.281</span>
+<span class="captionSize">1.448,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">起动控制开关</span>
+</span>
+<span class="caption">
+<span class="points">0.656,1.208 1.656,1.438</span>
+<span class="captionSize">1,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">起动机继电器</span>
+</span>
+<span class="caption">
+<span class="points">0.656,2.813 2.104,3.042</span>
+<span class="captionSize">1.448,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">发动机转速 [r/min]</span>
+</span>
+<span class="caption">
+<span class="points">2.385,3.125 3.208,3.354</span>
+<span class="captionSize">0.823,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1,000 r/min</span>
+</span>
+<span class="caption">
+<span class="points">2.385,2.844 3.208,3.073</span>
+<span class="captionSize">0.823,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1,500 r/min</span>
+</span>
+<span class="caption">
+<span class="points">4.688,0.167 5.021,0.375</span>
+<span class="captionSize">0.333,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>*：发动机开关置于 ON (IG) 位置、换档杆置于 P 或 N*1 且踩下制动踏板*1 或离合器踏板*2 的情况下，按下发动机开关，检查并确认发动机起动。
+</p>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*1：除手动传动桥外
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*2：手动传动桥
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Body Electrical &gt; Combination Meter &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Vehicle Speed Meter
+</td>
+<td class="alleft">车速
+</td>
+<td class="alcenter">0 至 255
+</td>
+<td class="alleft">与实际车速几乎相同
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">主动测试
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 进行主动测试，无需拆下任何零件即可操作继电器、VSV、执行器及其他项目。这种非侵入式功能检查非常有用，可在零件或配线受到干扰之前发现间歇性工作。故障排除时，尽早进行主动测试是节省诊断时间的一种方法。进行主动测试时可以显示数据表信息。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>进入下列菜单：Body Electrical /（所需系统）/ Active Test。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>根据 GTS 上的显示，进行主动测试。
+</p>
+<dl class="gtsActiveTestTable hasAllTable">
+<dt class="gtsActiveTestTable">Body Electrical &gt; Power Source Control &gt; Active Test</dt>
+<dd class="gtsActiveTestTable">
+<table summary="active-test-table">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">控制范围
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P Supply for Steering Lock
+</td>
+<td class="alleft">认证 ECU（智能钥匙 ECU 总成）
+</td>
+<td class="alcenter">OFF/ON
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>OFF：未提供电源。
+</p>
+</dd>
+<dd class="atten4">
+<p>ON：提供电源。
+</p>
+</dd>
+</dl>
+<br>
+</td>
+<td class="alleft">进行主动测试时，确保满足下列条件：
+<br>
+发动机开关置于 ON (IG) 位置。
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="gtsActiveTestTable hasAllTable">
+<dt class="gtsActiveTestTable">Body Electrical &gt; Entry&amp;Start &gt; Active Test</dt>
+<dd class="gtsActiveTestTable">
+<table summary="active-test-table">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">控制范围
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Power/Engine SW Light
+</td>
+<td class="alleft">发动机开关照明灯
+</td>
+<td class="alcenter">OFF/ON
+</td>
+<td class="alleft">进行主动测试时，确保满足下列条件：
+<br>
+发动机开关照明灯熄灭（将其打开并关闭后 15 秒或更长时间）且发动机开关置于 ON (ACC) 或 ON (IG) 位置，或发动机运转。
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

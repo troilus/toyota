@@ -1,0 +1,680 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_58</span>
+<span class="globalServcatName">车辆内饰</span>
+<span class="globalSection">_024012</span>
+<span class="globalSectionName">暖风/空调</span>
+<span class="globalTitle">_0116102</span>
+<span class="globalTitleName">空调系统（自动空调系统）</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>暖风/空调&nbsp;&nbsp;空调系统（自动空调系统）&nbsp;&nbsp;B14B2&nbsp;&nbsp;与前面板 LIN 失去通信&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D854_01" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<p>空调控制总成通过 LIN 通信与空调放大器总成进行通信。
+</p>
+<p>如果 LIN 通信系统出现故障，则即使操作空调控制总成空调放大器总成也不工作。
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+<th class="alcenter">存储器
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">B14B2
+</td>
+<td class="alleft">与前面板 LIN 失去通信
+</td>
+<td class="alleft">与空调控制总成失去通信
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空调控制总成和 IG 电源之间的线束或连接器
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空调控制总成和车身接地之间的线束或连接器
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>LIN 通信系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空调控制总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空调放大器总成
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">存储
+<br>
+（10 秒或更长时间）*
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*：如果在括号所示的时间内出现故障，则空调放大器总成将存储该 DTC。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000D854_04" class="category no03">
+<h2>电路图</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/E226613.png" alt="E226613" title="E226613">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.802,2.479 1.302,2.854</span>
+<span class="captionSize">0.5,0.375</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E20</span>
+</span>
+<span class="caption">
+<span class="points">0.802,2.635 2.292,3.156</span>
+<span class="captionSize">1.49,0.521</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">空调控制总成</span>
+</span>
+<span class="caption">
+<span class="points">0.927,3.188 2.552,3.354</span>
+<span class="captionSize">1.625,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">：LIN 通信线路</span>
+</span>
+<span class="caption">
+<span class="points">5,2.49 5.406,2.833</span>
+<span class="captionSize">0.406,0.344</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E43</span>
+</span>
+<span class="caption">
+<span class="points">5,2.656 6.583,3.333</span>
+<span class="captionSize">1.583,0.677</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">空调放大器总成</span>
+</span>
+<span class="caption">
+<span class="points">1.625,0.854 1.938,1.01</span>
+<span class="captionSize">0.313,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">LIN1</span>
+</span>
+<span class="caption">
+<span class="points">1.656,1.406 1.938,1.594</span>
+<span class="captionSize">0.281,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG+</span>
+</span>
+<span class="caption">
+<span class="points">1.583,1.927 1.927,2.104</span>
+<span class="captionSize">0.344,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">2.01,0.729 2.115,0.896</span>
+<span class="captionSize">0.104,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">6</span>
+</span>
+<span class="caption">
+<span class="points">2.01,1.292 2.156,1.458</span>
+<span class="captionSize">0.146,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">8</span>
+</span>
+<span class="caption">
+<span class="points">2.021,1.823 2.24,1.979</span>
+<span class="captionSize">0.219,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5</span>
+</span>
+<span class="caption">
+<span class="points">2.823,1.542 3.594,1.74</span>
+<span class="captionSize">0.771,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">HTR-IG</span>
+</span>
+<span class="caption">
+<span class="points">3.917,1.385 4.896,1.729</span>
+<span class="captionSize">0.979,0.344</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">自 1 号 IG1 继电器</span>
+</span>
+<span class="caption">
+<span class="points">4.99,0.719 5.188,0.875</span>
+<span class="captionSize">0.198,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">37</span>
+</span>
+<span class="caption">
+<span class="points">5.26,0.875 5.635,1.052</span>
+<span class="captionSize">0.375,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">LIN1</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000D854_02" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>进行下列程序前，先检查与此系统相关电路的保险丝。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000D854_06" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000D854_06_0001">
+<div class="testtitle"><span class="titleText">1.检查线束和连接器（空调控制总成 - IG 电源）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开空调控制总成连接器 E20。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E20-8 (IG+) - 车身接地
+</td>
+<td class="alcenter">点火开关 OFF
+</td>
+<td class="alcenter">低于 1 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">E20-8 (IG+) - 车身接地
+</td>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D854_06_0001_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">2.检查线束和连接器（空调控制总成 - 车身接地）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D854_06_0003">
+<div class="testtitle"><span class="titleText">2.检查线束和连接器（空调控制总成 - 车身接地）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E20-5 (GND) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D854_06_0003_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">3.检查线束和连接器（空调放大器总成 - 空调控制总成）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D854_06_0004">
+<div class="testtitle"><span class="titleText">3.检查线束和连接器（空调放大器总成 - 空调控制总成）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开空调放大器总成连接器 E43。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E20-6 (LIN1) - E43-37 (LIN1)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">E20-6 (LIN1) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D854_06_0004_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">4.更换空调控制总成</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D854_06_0005">
+<div class="testtitle"><span class="titleText">4.更换空调控制总成</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>更换空调控制总成。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;暖风/空调&gt;空调面板（自动空调系统）&gt;拆卸<span class="invisible">201406,999999,_58,_024012,_0117219,RM100000000DCS6,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>由于从车辆上拆下空调控制总成时不能对其进行检查，因此应使用新的或确认正常的空调控制总成更换，检查并确认状态恢复正常。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>空调控制总成工作恢复正常。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D854_06_0005_1" summary="">
+<colgroup>
+<col style="width:79%">
+<col style="width:20%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">正常
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">异常（根据故障症状表进行故障排除时）
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+<tr>
+<td class="alleft">异常（根据 DTC 进行故障排除时）
+</td>
+<td class="alcenter">C
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">结束（空调控制总成故障）</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至故障症状表中所示的下一个可疑部位</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;暖风/空调&gt;空调系统（自动空调系统）&gt;故障症状表<span class="invisible">201406,999999,_58,_024012,_0116102,RM100000000D85H,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>C
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换空调放大器总成</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;暖风/空调&gt;空调放大器&gt;拆卸<span class="invisible">201406,999999,_58,_024012,_0117221,RM100000000DCSG,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

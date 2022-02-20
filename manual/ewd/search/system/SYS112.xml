@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS112">
+    <part type="conn" code="E18">
+      <text>DLC3 TC CANH TAC CANL CG BAT SG SIL TS</text>
+    </part>
+    <part type="conn" code="A40">
+      <text>ECM TC TACH</text>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="conn" code="E45">
+      <text>TS</text>
+      <name>动力转向 ECU 总成</name>
+    </part>
+    <part type="conn" code="E46">
+      <text>TS</text>
+      <name>动力转向 ECU 总成</name>
+    </part>
+    <part type="conn" code="E29">
+      <text>D</text>
+      <name>应答器钥匙 ECU 总成</name>
+    </part>
+    <part type="fuse" code="FUSE51">
+      <text>OBD</text>
+    </part>
+  </ttl>
+</EWDSearch>

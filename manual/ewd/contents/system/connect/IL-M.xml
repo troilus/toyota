@@ -1,0 +1,985 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <connector type="rb" code="FUSE5" figID="6">
+    <pin>
+      <line id="1" color="G">
+        <connector type="jbc" code="3A" figID="41">
+          <pin no="43"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3C" figID="41">
+    <pin no="51">
+      <line id="2" color="L">
+        <connector type="jbc" code="3C" figID="41">
+          <pin no="17"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A38" figID="9">
+    <pin no="17">
+      <line id="3" color="R" spec="不带智能进入和起动系统" commtxt="(*10)">
+        <connector type="w2w" code="AE4" sex="female" figID="51">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE3" figID="8">
+    <pin>
+      <line id="4" color="R">
+        <connector type="conn" code="A38" figID="9">
+          <pin no="16"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE3" sex="male" figID="42">
+    <pin no="1">
+      <line id="5" color="R">
+        <connector type="rb" code="4" figID="10">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A38" figID="9">
+    <pin no="18">
+      <line id="6" color="R">
+        <connector type="w2w" code="AE3" sex="female" figID="42">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE3" sex="male" figID="43">
+    <pin no="16">
+      <line id="7" color="L" spec="不带车灯自动熄灭系统" commtxt="(*5)">
+        <connector type="rb" code="4" figID="10">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3A" figID="37">
+    <pin no="53">
+      <line id="8" color="L" spec="不带车灯自动熄灭系统" commtxt="(*5)">
+        <connector type="w2w" code="AE3" sex="female" figID="43">
+          <pin no="16"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="4" figID="10">
+    <pin>
+      <line id="9" color="L">
+        <connector type="rb" code="4" figID="10">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E36" figID="7">
+    <pin no="15">
+      <line id="10" color="L" spec="带车灯自动熄灭系统" commtxt="(*4)">
+        <connector type="rb" code="4" figID="10">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP17" figID="76">
+    <pin>
+      <line id="11" color="P">
+        <connector type="rb" code="4" figID="10">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E67" figID="11">
+    <pin no="2">
+      <line id="12" color="W" spec="带门控灯总成" commtxt="(*13)">
+        <connector type="w2w" code="EL2" sex="female" figID="53">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="HE3" sex="male" figID="44">
+    <pin no="12">
+      <line id="13" color="W" spec="带门控灯总成" commtxt="(*13)">
+        <connector type="conn" code="E67" figID="11">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="HE3" sex="female" figID="44">
+    <pin no="12">
+      <line id="14" color="W" spec="带门控灯总成" commtxt="(*13)">
+        <connector type="conn" code="H4" figID="5">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="HE3" sex="female" figID="45">
+    <pin no="3">
+      <line id="15" color="P" spec="带门控灯总成" commtxt="(*13)">
+        <connector type="conn" code="H4" figID="5">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP17" figID="76">
+    <pin>
+      <line id="16" color="P" spec="带门控灯总成" commtxt="(*13)">
+        <connector type="w2w" code="HE3" sex="male" figID="45">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3C" figID="34">
+    <pin no="21">
+      <line id="17" color="P">
+        <connector type="sp" code="SP17" figID="76">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP17" figID="76">
+    <pin>
+      <line id="18" color="P" spec="带门控灯总成" commtxt="(*13)">
+        <connector type="w2w" code="GE3" sex="male" figID="47">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3C" figID="34">
+    <pin no="42">
+      <line id="19" color="R">
+        <connector type="w2w" code="OE1" sex="male" figID="49">
+          <pin no="22"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="GE3" sex="male" figID="46">
+    <pin no="12">
+      <line id="20" color="V" spec="带门控灯总成" commtxt="(*13)">
+        <connector type="conn" code="E68" figID="12">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="G4" figID="4">
+    <pin no="2">
+      <line id="21" color="V" spec="带门控灯总成" commtxt="(*13)">
+        <connector type="w2w" code="GE3" sex="female" figID="46">
+          <pin no="12"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="GE3" sex="female" figID="47">
+    <pin no="3">
+      <line id="22" color="P" spec="带门控灯总成" commtxt="(*13)">
+        <connector type="conn" code="G4" figID="4">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O2" figID="13">
+    <pin no="1">
+      <line id="23" color="W-B" spec="带梳妆灯" commtxt="(*21)">
+        <connector type="sp" code="SP31" figID="78">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP33" figID="77">
+    <pin>
+      <line id="24" color="R" spec="带梳妆灯" commtxt="(*21)">
+        <connector type="conn" code="O2" figID="13">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O1" figID="14">
+    <pin no="1">
+      <line id="25" color="W-B" spec="带梳妆灯" commtxt="(*21)">
+        <connector type="sp" code="SP31" figID="78">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP33" figID="77">
+    <pin>
+      <line id="26" color="R" spec="带梳妆灯" commtxt="(*21)">
+        <connector type="conn" code="O1" figID="14">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OE1" sex="male" figID="48">
+    <pin no="1">
+      <line id="27" color="W-B">
+        <connector type="gp" code="EB" figID="68">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP31" figID="78">
+    <pin>
+      <line id="28" color="W-B">
+        <connector type="w2w" code="OE1" sex="female" figID="48">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP34" figID="79">
+    <pin>
+      <line id="29" color="W-B">
+        <connector type="sp" code="SP31" figID="78">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O5" figID="15">
+    <pin no="3">
+      <line id="30" color="W-B">
+        <connector type="sp" code="SP34" figID="79">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP32" figID="80">
+    <pin>
+      <line id="31" color="R" spec="带梳妆灯" commtxt="(*21)">
+        <connector type="sp" code="SP33" figID="77">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP32" figID="80">
+    <pin>
+      <line id="32" color="R">
+        <connector type="conn" code="O5" figID="15">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OE1" sex="female" figID="49">
+    <pin no="22">
+      <line id="33" color="R">
+        <connector type="sp" code="SP32" figID="80">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP32" figID="80">
+    <pin>
+      <line id="34" color="R">
+        <connector type="conn" code="O4" figID="16">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O5" figID="15">
+    <pin no="2">
+      <line id="35" color="L">
+        <connector type="conn" code="O4" figID="16">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="O4" figID="16">
+    <pin no="7">
+      <line id="36" color="W-B">
+        <connector type="sp" code="SP31" figID="78">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OE1" sex="female" figID="50">
+    <pin no="9">
+      <line id="37" color="L">
+        <connector type="conn" code="O4" figID="16">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="OE1" sex="male" figID="50">
+    <pin no="9">
+      <line id="38" color="W" spec="不带智能进入和起动系统" commtxt="(*10)">
+        <connector type="sp" code="SP18" figID="81">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3C" figID="35">
+    <pin no="54">
+      <line id="39" color="W" spec="带智能进入和起动系统" commtxt="(*9)">
+        <connector type="w2w" code="OE1" sex="male" figID="50">
+          <pin no="9"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3C" figID="35">
+    <pin no="54">
+      <line id="40" color="W" spec="不带智能进入和起动系统" commtxt="(*10)">
+        <connector type="sp" code="SP18" figID="81">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP18" figID="81">
+    <pin>
+      <line id="41" color="W" spec="不带智能进入和起动系统、不带停机系统" commtxt="(*10 *12)">
+        <connector type="conn" code="E41" figID="18">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP18" figID="81">
+    <pin>
+      <line id="42" color="W" spec="不带智能进入和起动系统、带停机系统" commtxt="(*10 *11)">
+        <connector type="conn" code="E27" figID="17">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E27" figID="17">
+    <pin no="2">
+      <line id="43" color="R" spec="不带智能进入和起动系统、带停机系统" commtxt="(*10 *11)">
+        <connector type="w2w" code="AE4" sex="male" figID="51">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E41" figID="18">
+    <pin no="2">
+      <line id="44" color="R" spec="不带智能进入和起动系统、不带停机系统" commtxt="(*10 *12)">
+        <connector type="w2w" code="AE4" sex="male" figID="51">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP16" figID="82">
+    <pin>
+      <line id="45" color="V" spec="带门控灯总成" commtxt="(*13)">
+        <connector type="conn" code="E68" figID="12">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP16" figID="82">
+    <pin>
+      <line id="46" color="V" spec="带门控灯总成" commtxt="(*13)">
+        <connector type="w2w" code="EL4" sex="female" figID="52">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="EL4" sex="male" figID="52">
+    <pin no="10">
+      <line id="47" color="V">
+        <connector type="conn" code="L41" figID="19">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E36" figID="7">
+    <pin no="19">
+      <line id="48" color="V" spec="带门控灯总成" commtxt="(*13)">
+        <connector type="sp" code="SP16" figID="82">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E36" figID="7">
+    <pin no="19">
+      <line id="49" color="V" spec="不带门控灯总成" commtxt="(*14)">
+        <connector type="w2w" code="EL4" sex="female" figID="52">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="EL2" sex="male" figID="53">
+    <pin no="2">
+      <line id="50" color="W" spec="带门控灯总成" commtxt="(*13)">
+        <connector type="sp" code="SP36" figID="83">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP36" figID="83">
+    <pin>
+      <line id="51" color="W" spec="带门控灯总成" commtxt="(*13)">
+        <connector type="conn" code="L1" figID="20">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3E" figID="36">
+    <pin no="25">
+      <line id="52" color="W" spec="带门控灯总成" commtxt="(*13)">
+        <connector type="sp" code="SP36" figID="83">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3E" figID="36">
+    <pin no="25">
+      <line id="53" color="W" spec="不带门控灯总成" commtxt="(*14)">
+        <connector type="conn" code="L1" figID="20">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="EL4" sex="male" figID="54">
+    <pin no="9">
+      <line id="54" color="LG">
+        <connector type="conn" code="L42" figID="21">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E36" figID="7">
+    <pin no="6">
+      <line id="55" color="LG">
+        <connector type="w2w" code="EL4" sex="female" figID="54">
+          <pin no="9"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="EL2" sex="male" figID="55">
+    <pin no="5">
+      <line id="56" color="SB">
+        <connector type="conn" code="L2" figID="22">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E36" figID="7">
+    <pin no="24">
+      <line id="57" color="SB">
+        <connector type="w2w" code="EL2" sex="female" figID="55">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L24" figID="23">
+    <pin no="2">
+      <line id="58" color="LG">
+        <connector type="conn" code="L54" figID="24">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3E" figID="38">
+    <pin no="38">
+      <line id="59" color="P">
+        <connector type="conn" code="L24" figID="23">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP37" figID="84">
+    <pin>
+      <line id="60" color="W-B">
+        <connector type="gp" code="LA" figID="69">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L30" figID="25">
+    <pin no="2">
+      <line id="61" color="W-B">
+        <connector type="sp" code="SP37" figID="84">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L55" figID="24">
+    <pin no="5">
+      <line id="62" color="LG">
+        <connector type="conn" code="L30" figID="25">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3E" figID="38">
+    <pin no="34">
+      <line id="63" color="LG">
+        <connector type="conn" code="L54" figID="24">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3D" figID="39">
+    <pin no="12">
+      <line id="64" color="W-B">
+        <connector type="gp" code="EB" figID="70">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3C" figID="39">
+    <pin no="9">
+      <line id="65" color="W-B">
+        <connector type="gp" code="EA" figID="71">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="GE3" sex="male" figID="56">
+    <pin no="8">
+      <line id="66" color="W-B" spec="带停机系统" commtxt="(*11)">
+        <connector type="gp" code="EC" figID="72">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP29" figID="85">
+    <pin>
+      <line id="67" color="W-B" spec="带停机系统" commtxt="(*11)">
+        <connector type="w2w" code="GE3" sex="female" figID="56">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="G8" figID="26">
+    <pin no="8">
+      <line id="68" color="W-B" spec="带停机系统" commtxt="(*11)">
+        <connector type="sp" code="SP29" figID="85">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="G8" figID="26">
+    <pin no="7">
+      <line id="69" color="Y" spec="带停机系统" commtxt="(*11)">
+        <connector type="w2w" code="GE1" sex="female" figID="57">
+          <pin no="18"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E36" figID="7">
+    <pin no="18">
+      <line id="70" color="LG" spec="带停机系统" commtxt="(*11)">
+        <connector type="w2w" code="GE1" sex="male" figID="57">
+          <pin no="18"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="HE3" sex="male" figID="58">
+    <pin no="8">
+      <line id="71" color="W-B" spec="带停机系统" commtxt="(*11)">
+        <connector type="gp" code="EA" figID="73">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP30" figID="86">
+    <pin>
+      <line id="72" color="W-B" spec="带停机系统" commtxt="(*11)">
+        <connector type="w2w" code="HE3" sex="female" figID="58">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="H9" figID="27">
+    <pin no="7">
+      <line id="73" color="W-B" spec="带停机系统" commtxt="(*11)">
+        <connector type="sp" code="SP30" figID="86">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="H9" figID="27">
+    <pin no="8">
+      <line id="74" color="Y" spec="带停机系统" commtxt="(*11)">
+        <connector type="w2w" code="HE1" sex="female" figID="59">
+          <pin no="18"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E36" figID="7">
+    <pin no="7">
+      <line id="75" color="Y" spec="带停机系统、不带卷收器" commtxt="(*11 *20)">
+        <connector type="w2w" code="HE1" sex="male" figID="59">
+          <pin no="18"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E36" figID="7">
+    <pin no="7">
+      <line id="76" color="Y" spec="带停机系统、带卷收器" commtxt="(*11 *19)">
+        <connector type="sp" code="SP22" figID="87">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP22" figID="87">
+    <pin>
+      <line id="77" color="Y" spec="带停机系统、带卷收器" commtxt="(*11 *19)">
+        <connector type="w2w" code="HE1" sex="male" figID="59">
+          <pin no="18"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="JL1" sex="male" figID="60">
+    <pin no="10">
+      <line id="78" color="W-B" spec="带停机系统" commtxt="(*11)">
+        <connector type="gp" code="LD" figID="74">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="J3" figID="28">
+    <pin no="9">
+      <line id="79" color="W-B" spec="带停机系统" commtxt="(*11)">
+        <connector type="w2w" code="JL1" sex="female" figID="60">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="JL1" sex="female" figID="61">
+    <pin no="3">
+      <line id="80" color="Y" spec="带停机系统" commtxt="(*11)">
+        <connector type="conn" code="J3" figID="28">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3E" figID="40">
+    <pin no="22">
+      <line id="81" color="Y" spec="带停机系统" commtxt="(*11)">
+        <connector type="w2w" code="JL1" sex="male" figID="61">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="KL1" sex="male" figID="62">
+    <pin no="10">
+      <line id="82" color="W-B" spec="带停机系统" commtxt="(*11)">
+        <connector type="gp" code="LB" figID="75">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="K3" figID="29">
+    <pin no="9">
+      <line id="83" color="W-B" spec="带停机系统" commtxt="(*11)">
+        <connector type="w2w" code="KL1" sex="female" figID="62">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="KL1" sex="female" figID="63">
+    <pin no="3">
+      <line id="84" color="Y" spec="带停机系统" commtxt="(*11)">
+        <connector type="conn" code="K3" figID="29">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3E" figID="40">
+    <pin no="37">
+      <line id="85" color="Y" spec="带停机系统" commtxt="(*11)">
+        <connector type="w2w" code="KL1" sex="male" figID="63">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE2" sex="female" figID="64">
+    <pin no="5">
+      <line id="86" color="W" spec="带智能进入和起动系统" commtxt="(*9)">
+        <connector type="conn" code="A39" figID="1">
+          <pin no="14"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E36" figID="7">
+    <pin no="13">
+      <line id="87" color="W" spec="带智能进入和起动系统" commtxt="(*9)">
+        <connector type="w2w" code="AE2" sex="male" figID="64">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE2" sex="female" figID="65">
+    <pin no="4">
+      <line id="88" color="G" spec="带智能进入和起动系统" commtxt="(*9)">
+        <connector type="conn" code="A39" figID="1">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E36" figID="7">
+    <pin no="14">
+      <line id="89" color="G" spec="带智能进入和起动系统" commtxt="(*9)">
+        <connector type="w2w" code="AE2" sex="male" figID="65">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE4" sex="female" figID="66">
+    <pin no="4">
+      <line id="90" color="L" spec="带智能进入和起动系统" commtxt="(*9)">
+        <connector type="conn" code="A39" figID="1">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E74" figID="30">
+    <pin no="5">
+      <line id="91" color="L" spec="带智能进入和起动系统" commtxt="(*9)">
+        <connector type="w2w" code="AE4" sex="male" figID="66">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E49" figID="2">
+    <pin no="14">
+      <line id="92" color="R" spec="带智能进入和起动系统" commtxt="(*9)">
+        <connector type="conn" code="E74" figID="30">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AE4" sex="female" figID="67">
+    <pin no="3">
+      <line id="93" color="W" spec="带智能进入和起动系统" commtxt="(*9)">
+        <connector type="conn" code="A39" figID="1">
+          <pin no="12"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E74" figID="30">
+    <pin no="16">
+      <line id="94" color="W" spec="带智能进入和起动系统" commtxt="(*9)">
+        <connector type="w2w" code="AE4" sex="male" figID="67">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E49" figID="2">
+    <pin no="15">
+      <line id="95" color="W" spec="带智能进入和起动系统" commtxt="(*9)">
+        <connector type="conn" code="E74" figID="30">
+          <pin no="17"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E49" figID="2">
+    <pin no="16">
+      <line id="96" color="G" spec="带智能进入和起动系统" commtxt="(*9)">
+        <connector type="conn" code="E50" figID="3">
+          <pin no="9"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="E49" figID="2">
+    <pin no="24">
+      <line id="97" color="BR" spec="带智能进入和起动系统" commtxt="(*9)">
+        <connector type="conn" code="E50" figID="3">
+          <pin no="6"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="" figID="7">
+    <pin>
+      <line id="110" color="" dir="none">
+        <connector type="jb" code="" figID="41">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jb" code="" figID="37">
+    <pin>
+      <line id="111" color="" dir="none">
+        <connector type="conn" code="" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jb" code="" figID="34">
+    <pin>
+      <line id="112" color="" dir="none">
+        <connector type="conn" code="" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jb" code="" figID="40">
+    <pin>
+      <line id="113" color="" dir="none">
+        <connector type="conn" code="" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jb" code="" figID="39">
+    <pin>
+      <line id="114" color="" dir="none">
+        <connector type="conn" code="" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jb" code="" figID="36">
+    <pin>
+      <line id="115" color="" dir="none">
+        <connector type="conn" code="" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jb" code="" figID="38">
+    <pin>
+      <line id="116" color="" dir="none">
+        <connector type="conn" code="" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jb" code="" figID="35">
+    <pin>
+      <line id="117" color="" dir="none">
+        <connector type="conn" code="" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="94">
+    <pin>
+      <line id="118" color="" dir="none">
+        <connector type="conn" code="" figID="19">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="95">
+    <pin>
+      <line id="119" color="" dir="none">
+        <connector type="conn" code="" figID="20">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="92">
+    <pin>
+      <line id="120" color="" dir="none">
+        <connector type="conn" code="" figID="21">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="93">
+    <pin>
+      <line id="121" color="" dir="none">
+        <connector type="conn" code="" figID="22">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

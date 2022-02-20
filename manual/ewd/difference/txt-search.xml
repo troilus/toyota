@@ -1,0 +1,2864 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE tmc-service-txt-search SYSTEM "./dtd/txt-search.dtd">
+<tmc-service-txt-search>
+  <pub id="EM3140CG" type="EM">
+    <servcat id="_IT" t="概述">
+      <section id="_INTRO" t="-">
+        <ttl id="_INTRO01" t="概述" term-id-from="001">
+          <emlink type="-" code="ewd_type=intro;ewd=INTRO01"/>
+        </ttl>
+        <ttl id="_INTRO02" t="缩略语" term-id-from="001">
+          <emlink type="-" code="ewd_type=intro;ewd=INTRO02"/>
+        </ttl>
+        <ttl id="_INTRO03" t="术语和符号表" term-id-from="001">
+          <emlink type="-" code="ewd_type=intro;ewd=INTRO03"/>
+        </ttl>
+        <ttl id="_INTRO04" t="线束维修概述" term-id-from="001">
+          <emlink type="-" code="ewd_type=intro;ewd=INTRO04"/>
+        </ttl>
+        <ttl id="_INTRO05" t="端子和连接器维修" term-id-from="001">
+          <emlink type="-" code="ewd_type=intro;ewd=INTRO05"/>
+        </ttl>
+      </section>
+    </servcat>
+    <servcat id="_SY" t="系统电路">
+      <section id="_EG" t="发动机/混合动力系统">
+        <ttl id="_SYS019" t="冷却风扇（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS019"/>
+        </ttl>
+        <ttl id="_SYS020" t="冷却风扇（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS020"/>
+        </ttl>
+        <ttl id="_SYS021" t="巡航控制（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS021"/>
+        </ttl>
+        <ttl id="_SYS022" t="巡航控制（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS022"/>
+        </ttl>
+        <ttl id="_SYS023" t="发动机控制（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS023"/>
+        </ttl>
+        <ttl id="_SYS024" t="发动机控制（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS024"/>
+        </ttl>
+        <ttl id="_SYS025" t="点火（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS025"/>
+        </ttl>
+        <ttl id="_SYS026" t="点火（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS026"/>
+        </ttl>
+        <ttl id="_SYS027" t="起动（带智能进入和起动系统）（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS027"/>
+        </ttl>
+        <ttl id="_SYS028" t="起动（带智能进入和起动系统）（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS028"/>
+        </ttl>
+        <ttl id="_SYS029" t="起动（不带智能进入和起动系统）（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS029"/>
+        </ttl>
+        <ttl id="_SYS030" t="起动（不带智能进入和起动系统）（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS030"/>
+        </ttl>
+      </section>
+      <section id="_DR" t="动力传动系">
+        <ttl id="_SYS015" t="CVT 和换档指示灯（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS015"/>
+        </ttl>
+        <ttl id="_SYS016" t="CVT 和换档指示灯（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS016"/>
+        </ttl>
+        <ttl id="_SYS017" t="换档锁止（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS017"/>
+        </ttl>
+        <ttl id="_SYS018" t="换档锁止（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS018"/>
+        </ttl>
+      </section>
+      <section id="_BK" t="制动">
+        <ttl id="_SYS009" t="ABS（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS009"/>
+        </ttl>
+        <ttl id="_SYS010" t="ABS（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS010"/>
+        </ttl>
+        <ttl id="_SYS011" t="TRC（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS011"/>
+        </ttl>
+        <ttl id="_SYS012" t="TRC（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS012"/>
+        </ttl>
+        <ttl id="_SYS013" t="VSC（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS013"/>
+        </ttl>
+        <ttl id="_SYS014" t="VSC（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS014"/>
+        </ttl>
+      </section>
+      <section id="_ST" t="转向">
+        <ttl id="_SYS117" t="EPS (1ZR-FE)（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS117"/>
+        </ttl>
+        <ttl id="_SYS118" t="EPS (2ZR-FE)（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS118"/>
+        </ttl>
+        <ttl id="_SYS119" t="EPS (4ZR-FE)（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS119"/>
+        </ttl>
+        <ttl id="_SYS120" t="EPS (7ZR-FE)（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS120"/>
+        </ttl>
+        <ttl id="_SYS121" t="转向锁止（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS121"/>
+        </ttl>
+        <ttl id="_SYS122" t="转向锁止（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS122"/>
+        </ttl>
+      </section>
+      <section id="_AV" t="音频/视频/车载通信系统">
+        <ttl id="_SYS001" t="音响系统（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS001"/>
+        </ttl>
+        <ttl id="_SYS002" t="音响系统（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS002"/>
+        </ttl>
+        <ttl id="_SYS003" t="导航系统（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS003"/>
+        </ttl>
+        <ttl id="_SYS004" t="导航系统（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS004"/>
+        </ttl>
+        <ttl id="_SYS005" t="后视野监视系统（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS005"/>
+        </ttl>
+        <ttl id="_SYS006" t="后视野监视系统（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS006"/>
+        </ttl>
+        <ttl id="_SYS007" t="丰田驻车辅助传感器系统（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS007"/>
+        </ttl>
+        <ttl id="_SYS008" t="丰田驻车辅助传感器系统（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS008"/>
+        </ttl>
+      </section>
+      <section id="_PS" t="电源/网络">
+        <ttl id="_SYS109" t="充电（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS109"/>
+        </ttl>
+        <ttl id="_SYS110" t="充电（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS110"/>
+        </ttl>
+        <ttl id="_SYS111" t="DLC3（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS111"/>
+        </ttl>
+        <ttl id="_SYS112" t="DLC3（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS112"/>
+        </ttl>
+        <ttl id="_SYS113" t="多路通信系统 (CAN)（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS113"/>
+        </ttl>
+        <ttl id="_SYS114" t="多路通信系统 (CAN)（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS114"/>
+        </ttl>
+        <ttl id="_SYS115" t="电源（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS115"/>
+        </ttl>
+        <ttl id="_SYS116" t="电源（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS116"/>
+        </ttl>
+        <ttl id="_SYS123" t="接地点（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS123"/>
+        </ttl>
+        <ttl id="_SYS124" t="接地点（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS124"/>
+        </ttl>
+      </section>
+      <section id="_IN" t="车辆内饰">
+        <ttl id="_SYS067" t="自动空调（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS067"/>
+        </ttl>
+        <ttl id="_SYS068" t="自动空调（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS068"/>
+        </ttl>
+        <ttl id="_SYS069" t="点烟器（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS069"/>
+        </ttl>
+        <ttl id="_SYS070" t="点烟器（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS070"/>
+        </ttl>
+        <ttl id="_SYS071" t="时钟（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS071"/>
+        </ttl>
+        <ttl id="_SYS072" t="时钟（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS072"/>
+        </ttl>
+        <ttl id="_SYS073" t="组合仪表（带 TFT 显示屏）（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS073"/>
+        </ttl>
+        <ttl id="_SYS074" t="组合仪表（带 TFT 显示屏）（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS074"/>
+        </ttl>
+        <ttl id="_SYS075" t="组合仪表（不带 TFT 显示屏）（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS075"/>
+        </ttl>
+        <ttl id="_SYS076" t="组合仪表（不带 TFT 显示屏）（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS076"/>
+        </ttl>
+        <ttl id="_SYS077" t="门锁控制（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS077"/>
+        </ttl>
+        <ttl id="_SYS078" t="门锁控制（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS078"/>
+        </ttl>
+        <ttl id="_SYS079" t="照明（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS079"/>
+        </ttl>
+        <ttl id="_SYS080" t="照明（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS080"/>
+        </ttl>
+        <ttl id="_SYS081" t="停机系统（带智能进入和起动系统）（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS081"/>
+        </ttl>
+        <ttl id="_SYS082" t="停机系统（带智能进入和起动系统）（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS082"/>
+        </ttl>
+        <ttl id="_SYS083" t="停机系统（不带智能进入和起动系统）（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS083"/>
+        </ttl>
+        <ttl id="_SYS084" t="停机系统（不带智能进入和起动系统）（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS084"/>
+        </ttl>
+        <ttl id="_SYS085" t="车内灯（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS085"/>
+        </ttl>
+        <ttl id="_SYS086" t="车内灯（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS086"/>
+        </ttl>
+        <ttl id="_SYS087" t="钥匙提醒器（不带智能进入和起动系统）（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS087"/>
+        </ttl>
+        <ttl id="_SYS088" t="钥匙提醒器（不带智能进入和起动系统）（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS088"/>
+        </ttl>
+        <ttl id="_SYS089" t="手动空调（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS089"/>
+        </ttl>
+        <ttl id="_SYS090" t="手动空调（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS090"/>
+        </ttl>
+        <ttl id="_SYS091" t="电动座椅（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS091"/>
+        </ttl>
+        <ttl id="_SYS092" t="电动座椅（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS092"/>
+        </ttl>
+        <ttl id="_SYS093" t="PTC 加热器（带自动空调）（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS093"/>
+        </ttl>
+        <ttl id="_SYS094" t="PTC 加热器（带自动空调）（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS094"/>
+        </ttl>
+        <ttl id="_SYS095" t="PTC 加热器（带手动空调）（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS095"/>
+        </ttl>
+        <ttl id="_SYS096" t="PTC 加热器（带手动空调）（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS096"/>
+        </ttl>
+        <ttl id="_SYS097" t="座椅安全带警告（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS097"/>
+        </ttl>
+        <ttl id="_SYS098" t="座椅安全带警告（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS098"/>
+        </ttl>
+        <ttl id="_SYS099" t="座椅加热器（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS099"/>
+        </ttl>
+        <ttl id="_SYS100" t="智能进入和起动系统（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS100"/>
+        </ttl>
+        <ttl id="_SYS101" t="智能进入和起动系统（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS101"/>
+        </ttl>
+        <ttl id="_SYS102" t="SRS（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS102"/>
+        </ttl>
+        <ttl id="_SYS103" t="SRS（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS103"/>
+        </ttl>
+        <ttl id="_SYS104" t="防盗（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS104"/>
+        </ttl>
+        <ttl id="_SYS105" t="无线门锁控制（带智能进入和起动系统）（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS105"/>
+        </ttl>
+        <ttl id="_SYS106" t="无线门锁控制（带智能进入和起动系统）（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS106"/>
+        </ttl>
+        <ttl id="_SYS107" t="无线门锁控制（不带智能进入和起动系统）（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS107"/>
+        </ttl>
+        <ttl id="_SYS108" t="无线门锁控制（不带智能进入和起动系统）（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS108"/>
+        </ttl>
+      </section>
+      <section id="_EX" t="车辆外饰">
+        <ttl id="_SYS031" t="自动灯光控制（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS031"/>
+        </ttl>
+        <ttl id="_SYS032" t="自动灯光控制（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS032"/>
+        </ttl>
+        <ttl id="_SYS033" t="倒车灯（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS033"/>
+        </ttl>
+        <ttl id="_SYS034" t="倒车灯（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS034"/>
+        </ttl>
+        <ttl id="_SYS035" t="前雾灯（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS035"/>
+        </ttl>
+        <ttl id="_SYS036" t="前雾灯（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS036"/>
+        </ttl>
+        <ttl id="_SYS037" t="前刮水器和清洗器（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS037"/>
+        </ttl>
+        <ttl id="_SYS038" t="前刮水器和清洗器（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS038"/>
+        </ttl>
+        <ttl id="_SYS039" t="大灯（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS039"/>
+        </ttl>
+        <ttl id="_SYS040" t="大灯（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS040"/>
+        </ttl>
+        <ttl id="_SYS041" t="大灯光束高度控制（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS041"/>
+        </ttl>
+        <ttl id="_SYS042" t="大灯光束高度控制（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS042"/>
+        </ttl>
+        <ttl id="_SYS043" t="喇叭（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS043"/>
+        </ttl>
+        <ttl id="_SYS044" t="喇叭（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS044"/>
+        </ttl>
+        <ttl id="_SYS045" t="车灯自动熄灭系统（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS045"/>
+        </ttl>
+        <ttl id="_SYS046" t="车灯自动熄灭系统（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS046"/>
+        </ttl>
+        <ttl id="_SYS047" t="车灯提醒器（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS047"/>
+        </ttl>
+        <ttl id="_SYS048" t="车灯提醒器（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS048"/>
+        </ttl>
+        <ttl id="_SYS049" t="后视镜加热器（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS049"/>
+        </ttl>
+        <ttl id="_SYS050" t="电动车窗（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS050"/>
+        </ttl>
+        <ttl id="_SYS051" t="电动车窗（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS051"/>
+        </ttl>
+        <ttl id="_SYS052" t="后雾灯（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS052"/>
+        </ttl>
+        <ttl id="_SYS053" t="后雾灯（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS053"/>
+        </ttl>
+        <ttl id="_SYS054" t="后窗除雾器（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS054"/>
+        </ttl>
+        <ttl id="_SYS055" t="后窗除雾器（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS055"/>
+        </ttl>
+        <ttl id="_SYS056" t="遥控后视镜（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS056"/>
+        </ttl>
+        <ttl id="_SYS057" t="遥控后视镜（带卷收器）（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS057"/>
+        </ttl>
+        <ttl id="_SYS058" t="遥控后视镜（不带卷收器）（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS058"/>
+        </ttl>
+        <ttl id="_SYS059" t="滑动天窗（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS059"/>
+        </ttl>
+        <ttl id="_SYS060" t="滑动天窗（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS060"/>
+        </ttl>
+        <ttl id="_SYS061" t="刹车灯（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS061"/>
+        </ttl>
+        <ttl id="_SYS062" t="刹车灯（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS062"/>
+        </ttl>
+        <ttl id="_SYS063" t="尾灯（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS063"/>
+        </ttl>
+        <ttl id="_SYS064" t="尾灯（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS064"/>
+        </ttl>
+        <ttl id="_SYS065" t="转向信号和危险警告灯（GTMC 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS065"/>
+        </ttl>
+        <ttl id="_SYS066" t="转向信号和危险警告灯（TFTM 制造）" term-id-from="001">
+          <emlink type="-" code="ewd_type=system;ewd=SYS066"/>
+        </ttl>
+      </section>
+    </servcat>
+    <servcat id="_LO" t="位置和线路">
+      <section id="_L-EG" t="发动机室">
+        <ttl id="_WR001" t="部件位置 (1ZR-FE)" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR001"/>
+          <para id="WR001_WIRE002" category="w" term-id-from="001">
+            <name>发动机线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR002" t="部件位置 (1ZR-FE)" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR002"/>
+          <para id="WR002_WIRE001" category="w" term-id-from="001">
+            <name>发动机室主线束</name>
+          </para>
+          <para id="WR002_WIRE003" category="w" term-id-from="001">
+            <name>发动机 3 号线束</name>
+          </para>
+          <para id="WR002_WIRE004" category="w" term-id-from="001">
+            <name>发动机 4 号线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR003" t="部件位置 (2ZR-FE)" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR003"/>
+          <para id="WR003_WIRE002" category="w" term-id-from="001">
+            <name>发动机线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR004" t="部件位置 (2ZR-FE)" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR004"/>
+          <para id="WR004_WIRE001" category="w" term-id-from="001">
+            <name>发动机室主线束</name>
+          </para>
+          <para id="WR004_WIRE003" category="w" term-id-from="001">
+            <name>发动机 3 号线束</name>
+          </para>
+          <para id="WR004_WIRE004" category="w" term-id-from="001">
+            <name>发动机 4 号线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR005" t="部件位置 (4ZR-FE)" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR005"/>
+          <para id="WR005_WIRE002" category="w" term-id-from="001">
+            <name>发动机线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR006" t="部件位置 (4ZR-FE)" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR006"/>
+          <para id="WR006_WIRE001" category="w" term-id-from="001">
+            <name>发动机室主线束</name>
+          </para>
+          <para id="WR006_WIRE003" category="w" term-id-from="001">
+            <name>发动机 3 号线束</name>
+          </para>
+          <para id="WR006_WIRE004" category="w" term-id-from="001">
+            <name>发动机 4 号线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR007" t="部件位置 (7ZR-FE)" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR007"/>
+          <para id="WR007_WIRE002" category="w" term-id-from="001">
+            <name>发动机线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR008" t="部件位置 (7ZR-FE)" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR008"/>
+          <para id="WR008_WIRE001" category="w" term-id-from="001">
+            <name>发动机室主线束</name>
+          </para>
+          <para id="WR008_WIRE004" category="w" term-id-from="001">
+            <name>发动机 4 号线束</name>
+          </para>
+          <para id="WR008_WIRE003" category="w" term-id-from="001">
+            <name>发动机 3 号线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR019" t="配线和线束 (1ZR-FE)" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR019"/>
+          <para id="WR019_WIRE002" category="w" term-id-from="001">
+            <name>发动机线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR020" t="接地点 (1ZR-FE)" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR020"/>
+          <para id="WR020_WIRE001" category="w" term-id-from="001">
+            <name>发动机室主线束</name>
+          </para>
+          <para id="WR020_WIRE002" category="w" term-id-from="001">
+            <name>发动机线束</name>
+          </para>
+          <para id="WR020_WIRE003" category="w" term-id-from="001">
+            <name>发动机 3 号线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR021" t="配线和线束 (2ZR-FE)" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR021"/>
+          <para id="WR021_WIRE002" category="w" term-id-from="001">
+            <name>发动机线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR022" t="接地点 (2ZR-FE)" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR022"/>
+          <para id="WR022_WIRE001" category="w" term-id-from="001">
+            <name>发动机室主线束</name>
+          </para>
+          <para id="WR022_WIRE002" category="w" term-id-from="001">
+            <name>发动机线束</name>
+          </para>
+          <para id="WR022_WIRE003" category="w" term-id-from="001">
+            <name>发动机 3 号线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR023" t="配线和线束 (4ZR-FE)" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR023"/>
+          <para id="WR023_WIRE002" category="w" term-id-from="001">
+            <name>发动机线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR024" t="接地点 (4ZR-FE)" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR024"/>
+          <para id="WR024_WIRE001" category="w" term-id-from="001">
+            <name>发动机室主线束</name>
+          </para>
+          <para id="WR024_WIRE002" category="w" term-id-from="001">
+            <name>发动机线束</name>
+          </para>
+          <para id="WR024_WIRE003" category="w" term-id-from="001">
+            <name>发动机 3 号线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR025" t="配线和线束 (7ZR-FE)" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR025"/>
+          <para id="WR025_WIRE002" category="w" term-id-from="001">
+            <name>发动机线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR026" t="接地点 (7ZR-FE)" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR026"/>
+          <para id="WR026_WIRE001" category="w" term-id-from="001">
+            <name>发动机室主线束</name>
+          </para>
+          <para id="WR026_WIRE002" category="w" term-id-from="001">
+            <name>发动机线束</name>
+          </para>
+          <para id="WR026_WIRE003" category="w" term-id-from="001">
+            <name>发动机 3 号线束</name>
+          </para>
+        </ttl>
+        <ttl id="_RL001" t="继电器位置" term-id-from="001">
+          <para id="RL001_RL004" category="j" term-id-from="001">
+            <emlink type="-" code="ewd_type=relay;ewd=RL001_RL004"/>
+            <name>发动机室继电器盒和发动机室接线盒</name>
+            <parts parts-id="RL001_RL004" t="发动机室继电器盒和发动机室接线盒"/>
+          </para>
+        </ttl>
+      </section>
+      <section id="_L-INPA" t="仪表板">
+        <ttl id="_WR009" t="部件位置" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR009"/>
+          <para id="WR009_WIRE007" category="w" term-id-from="001">
+            <name>仪表板线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR010" t="部件位置" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR010"/>
+          <para id="WR010_WIRE007" category="w" term-id-from="001">
+            <name>仪表板线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR011" t="部件位置" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR011"/>
+          <para id="WR011_WIRE007" category="w" term-id-from="001">
+            <name>仪表板线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR012" t="部件位置" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR012"/>
+          <para id="WR012_WIRE006" category="w" term-id-from="001">
+            <name>发动机室主线束</name>
+          </para>
+          <para id="WR012_WIRE008" category="w" term-id-from="001">
+            <name>仪表板 2 号线束</name>
+          </para>
+          <para id="WR012_WIRE011" category="w" term-id-from="001">
+            <name>地板线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR013" t="部件位置" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR013"/>
+          <para id="WR013_WIRE013" category="w" term-id-from="001">
+            <name>1 号立体声部件线束</name>
+          </para>
+          <para id="WR013_WIRE014" category="w" term-id-from="001">
+            <name>仪表板线束总成</name>
+          </para>
+        </ttl>
+        <ttl id="_WR027" t="配线和线束" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR027"/>
+          <para id="WR027_WIRE006" category="w" term-id-from="001">
+            <name>发动机室主线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR028" t="配线和线束" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR028"/>
+          <para id="WR028_WIRE010" category="w" term-id-from="001">
+            <name>左前车门线束</name>
+          </para>
+          <para id="WR028_WIRE012" category="w" term-id-from="001">
+            <name>车顶 1 号线束</name>
+          </para>
+          <para id="WR028_WIRE007" category="w" term-id-from="001">
+            <name>仪表板线束</name>
+          </para>
+          <para id="WR028_WIRE009" category="w" term-id-from="001">
+            <name>右前车门线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR029" t="接地点" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR029"/>
+          <para id="WR029_WIRE007" category="w" term-id-from="001">
+            <name>仪表板线束</name>
+          </para>
+          <para id="WR029_WIRE006" category="w" term-id-from="001">
+            <name>发动机室主线束</name>
+          </para>
+        </ttl>
+        <ttl id="_RL002" t="继电器位置" term-id-from="001">
+          <para id="RL002_RL005" category="j" term-id-from="001">
+            <emlink type="-" code="ewd_type=relay;ewd=RL002_RL005"/>
+            <name>4 号继电器盒</name>
+            <parts parts-id="RL002_RL005" t="4 号继电器盒"/>
+          </para>
+          <para id="RL002_RL006" category="j" term-id-from="001">
+            <emlink type="-" code="ewd_type=relay;ewd=RL002_RL006"/>
+            <name>仪表板接线盒总成</name>
+            <parts parts-id="RL002_RL006" t="仪表板接线盒总成"/>
+          </para>
+        </ttl>
+      </section>
+      <section id="_L-BODY" t="车身">
+        <ttl id="_WR014" t="部件位置" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR014"/>
+          <para id="WR014_WIRE020" category="w" term-id-from="001">
+            <name>地板线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR015" t="部件位置" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR015"/>
+          <para id="WR015_WIRE020" category="w" term-id-from="001">
+            <name>地板线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR016" t="部件位置" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR016"/>
+          <para id="WR016_WIRE017" category="w" term-id-from="001">
+            <name>左前车门线束</name>
+          </para>
+          <para id="WR016_WIRE016" category="w" term-id-from="001">
+            <name>右前车门线束</name>
+          </para>
+          <para id="WR016_WIRE018" category="w" term-id-from="001">
+            <name>后门 1 号线束</name>
+          </para>
+          <para id="WR016_WIRE019" category="w" term-id-from="001">
+            <name>后门 2 号线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR017" t="部件位置" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR017"/>
+          <para id="WR017_WIRE023" category="w" term-id-from="001">
+            <name>后窗 2 号线束</name>
+          </para>
+          <para id="WR017_WIRE022" category="w" term-id-from="001">
+            <name>行李厢 2 号线束</name>
+          </para>
+          <para id="WR017_WIRE025" category="w" term-id-from="001">
+            <name>右侧防滑控制传感器线束</name>
+          </para>
+          <para id="WR017_WIRE021" category="w" term-id-from="001">
+            <name>车顶 1 号线束</name>
+          </para>
+          <para id="WR017_WIRE026" category="w" term-id-from="001">
+            <name>左侧防滑控制传感器线束</name>
+          </para>
+          <para id="WR017_WIRE024" category="w" term-id-from="001">
+            <name>中央刹车灯导线总成　</name>
+          </para>
+        </ttl>
+        <ttl id="_WR030" t="配线和线束" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR030"/>
+          <para id="WR030_WIRE019" category="w" term-id-from="001">
+            <name>后门 2 号线束</name>
+          </para>
+          <para id="WR030_WIRE024" category="w" term-id-from="001">
+            <name>中央刹车灯导线总成　</name>
+          </para>
+          <para id="WR030_WIRE018" category="w" term-id-from="001">
+            <name>后门 1 号线束</name>
+          </para>
+          <para id="WR030_WIRE025" category="w" term-id-from="001">
+            <name>右侧防滑控制传感器线束</name>
+          </para>
+          <para id="WR030_WIRE026" category="w" term-id-from="001">
+            <name>左侧防滑控制传感器线束</name>
+          </para>
+          <para id="WR030_WIRE022" category="w" term-id-from="001">
+            <name>行李厢 2 号线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR031" t="接地点" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR031"/>
+          <para id="WR031_WIRE020" category="w" term-id-from="001">
+            <name>地板线束</name>
+          </para>
+          <para id="WR031_WIRE023" category="w" term-id-from="001">
+            <name>后窗 2 号线束</name>
+          </para>
+        </ttl>
+      </section>
+      <section id="_L-SEAT" t="座椅">
+        <ttl id="_WR018" t="部件位置" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR018"/>
+          <para id="WR018_WIRE031" category="w" term-id-from="001">
+            <name>前排右侧座椅空气囊总成</name>
+          </para>
+          <para id="WR018_WIRE028" category="w" term-id-from="001">
+            <name>前排左侧座椅线束</name>
+          </para>
+          <para id="WR018_WIRE027" category="w" term-id-from="001">
+            <name>地板线束</name>
+          </para>
+          <para id="WR018_WIRE030" category="w" term-id-from="001">
+            <name>前排左侧座椅空气囊总成</name>
+          </para>
+          <para id="WR018_WIRE029" category="w" term-id-from="001">
+            <name>前排左侧座椅 2 号线束</name>
+          </para>
+        </ttl>
+        <ttl id="_WR032" t="配线和线束" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR032"/>
+          <para id="WR032_WIRE027" category="w" term-id-from="001">
+            <name>地板线束</name>
+          </para>
+          <para id="WR032_WIRE029" category="w" term-id-from="001">
+            <name>前排左侧座椅 2 号线束</name>
+          </para>
+        </ttl>
+      </section>
+      <section id="_L-ANTE" t="天线">
+        <ttl id="_WR033" t="天线" term-id-from="001">
+          <emlink type="-" code="ewd_type=routing;ewd=WR033"/>
+        </ttl>
+      </section>
+    </servcat>
+    <servcat id="_FU" t="保险丝列表">
+      <section id="_F-EG" t="发动机室">
+        <ttl id="_F-RL004" t="发动机室继电器盒和发动机室接线盒" term-id-from="001">
+          <emlink type="-" code="ewd_type=fuselist;ewd=F-RL004"/>
+          <para id="F-RL004_FUSE1" category="f" term-id-from="001">
+            <name>3 号 ECU-B</name>
+            <parts parts-id="FUSE1" t="3 号 ECU-B"/>
+          </para>
+          <para id="F-RL004_FUSE2" category="f" term-id-from="001">
+            <name>AM2</name>
+            <parts parts-id="FUSE2" t="AM2"/>
+          </para>
+          <para id="F-RL004_FUSE3" category="f" term-id-from="001">
+            <name>DOME</name>
+            <parts parts-id="FUSE3" t="DOME"/>
+          </para>
+          <para id="F-RL004_FUSE4" category="f" term-id-from="001">
+            <name>DRL</name>
+            <parts parts-id="FUSE4" t="DRL"/>
+          </para>
+          <para id="F-RL004_FUSE5" category="f" term-id-from="001">
+            <name>1 号 ECU-B</name>
+            <parts parts-id="FUSE5" t="1 号 ECU-B"/>
+          </para>
+          <para id="F-RL004_FUSE6" category="f" term-id-from="001">
+            <name>2 号 ECU-B</name>
+            <parts parts-id="FUSE6" t="2 号 ECU-B"/>
+          </para>
+          <para id="F-RL004_FUSE7" category="f" term-id-from="001">
+            <name>1 号 EFI</name>
+            <parts parts-id="FUSE7" t="1 号 EFI"/>
+          </para>
+          <para id="F-RL004_FUSE8" category="f" term-id-from="001">
+            <name>2 号 EFI</name>
+            <parts parts-id="FUSE8" t="2 号 EFI"/>
+          </para>
+          <para id="F-RL004_FUSE9" category="f" term-id-from="001">
+            <name>ETCS</name>
+            <parts parts-id="FUSE9" t="ETCS"/>
+          </para>
+          <para id="F-RL004_FUSE10" category="f" term-id-from="001">
+            <name>H-LP LH-HI</name>
+            <parts parts-id="FUSE10" t="H-LP LH-HI"/>
+          </para>
+          <para id="F-RL004_FUSE11" category="f" term-id-from="001">
+            <name>H-LP LH-LO</name>
+            <parts parts-id="FUSE11" t="H-LP LH-LO"/>
+          </para>
+          <para id="F-RL004_FUSE12" category="f" term-id-from="001">
+            <name>H-LP RH-HI</name>
+            <parts parts-id="FUSE12" t="H-LP RH-HI"/>
+          </para>
+          <para id="F-RL004_FUSE13" category="f" term-id-from="001">
+            <name>H-LP RH-LO</name>
+            <parts parts-id="FUSE13" t="H-LP RH-LO"/>
+          </para>
+          <para id="F-RL004_FUSE14" category="f" term-id-from="001">
+            <name>HORN</name>
+            <parts parts-id="FUSE14" t="HORN"/>
+          </para>
+          <para id="F-RL004_FUSE15" category="f" term-id-from="001">
+            <name>MIR HTR</name>
+            <parts parts-id="FUSE15" t="MIR HTR"/>
+          </para>
+          <para id="F-RL004_FUSE16" category="f" term-id-from="001">
+            <name>S-HORN</name>
+            <parts parts-id="FUSE16" t="S-HORN"/>
+          </para>
+          <para id="F-RL004_FUSE17" category="f" term-id-from="001">
+            <name>TURN&amp;HAZ</name>
+            <parts parts-id="FUSE17" t="TURN&amp;HAZ"/>
+          </para>
+          <para id="F-RL004_FUSE18" category="f" term-id-from="001">
+            <name>EFI-B</name>
+            <parts parts-id="FUSE18" t="EFI-B"/>
+          </para>
+          <para id="F-RL004_FUSE19" category="f" term-id-from="001">
+            <name>IG2</name>
+            <parts parts-id="FUSE19" t="IG2"/>
+          </para>
+          <para id="F-RL004_FUSE20" category="f" term-id-from="001">
+            <name>RADIO</name>
+            <parts parts-id="FUSE20" t="RADIO"/>
+          </para>
+          <para id="F-RL004_FUSE21" category="f" term-id-from="001">
+            <name>STRG LOCK</name>
+            <parts parts-id="FUSE21" t="STRG LOCK"/>
+          </para>
+          <para id="F-RL004_FUSE22" category="f" term-id-from="001">
+            <name>EFI-MAIN</name>
+            <parts parts-id="FUSE22" t="EFI-MAIN"/>
+          </para>
+          <para id="F-RL004_FUSE23" category="f" term-id-from="001">
+            <name>2 号 ABS</name>
+            <parts parts-id="FUSE23" t="2 号 ABS"/>
+          </para>
+          <para id="F-RL004_FUSE24" category="f" term-id-from="001">
+            <name>D/C CUT</name>
+            <parts parts-id="FUSE24" t="D/C CUT"/>
+          </para>
+          <para id="F-RL004_FUSE25" category="f" term-id-from="001">
+            <name>1 号 PTC HTR</name>
+            <parts parts-id="FUSE25" t="1 号 PTC HTR"/>
+          </para>
+          <para id="F-RL004_FUSE26" category="f" term-id-from="001">
+            <name>2 号 PTC HTR</name>
+            <parts parts-id="FUSE26" t="2 号 PTC HTR"/>
+          </para>
+          <para id="F-RL004_FUSE27" category="f" term-id-from="001">
+            <name>3 号 PTC HTR</name>
+            <parts parts-id="FUSE27" t="3 号 PTC HTR"/>
+          </para>
+          <para id="F-RL004_FUSE28" category="f" term-id-from="001">
+            <name>ST</name>
+            <parts parts-id="FUSE28" t="ST"/>
+          </para>
+          <para id="F-RL004_FUSE29" category="f" term-id-from="001">
+            <name>H-LP-MAIN</name>
+            <parts parts-id="FUSE29" t="H-LP-MAIN"/>
+          </para>
+          <para id="F-RL004_FUSE30" category="f" term-id-from="001">
+            <name>RDI</name>
+            <parts parts-id="FUSE30" t="RDI"/>
+          </para>
+          <para id="F-RL004_FUSE31" category="f" term-id-from="001">
+            <name>1 号 ABS</name>
+            <parts parts-id="FUSE31" t="1 号 ABS"/>
+          </para>
+          <para id="F-RL004_FUSE32" category="f" term-id-from="001">
+            <name>DEF</name>
+            <parts parts-id="FUSE32" t="DEF"/>
+          </para>
+          <para id="F-RL004_FUSE33" category="f" term-id-from="001">
+            <name>HTR</name>
+            <parts parts-id="FUSE33" t="HTR"/>
+          </para>
+          <para id="F-RL004_FUSE34" category="f" term-id-from="001">
+            <name>EPS</name>
+            <parts parts-id="FUSE34" t="EPS"/>
+          </para>
+          <para id="F-RL004_FUSE35" category="f" term-id-from="001">
+            <name>EPS</name>
+            <parts parts-id="FUSE35" t="EPS"/>
+          </para>
+          <para id="F-RL004_FUSE36" category="f" term-id-from="001">
+            <name>ALT</name>
+            <parts parts-id="FUSE36" t="ALT"/>
+          </para>
+        </ttl>
+      </section>
+      <section id="_F-INPA" t="仪表板">
+        <ttl id="_F-RL006" t="仪表板接线盒总成" term-id-from="001">
+          <emlink type="-" code="ewd_type=fuselist;ewd=F-RL006"/>
+          <para id="F-RL006_FUSE37" category="f" term-id-from="001">
+            <name>AM1</name>
+            <parts parts-id="FUSE37" t="AM1"/>
+          </para>
+          <para id="F-RL006_FUSE38" category="f" term-id-from="001">
+            <name>5 号 ECU-IG</name>
+            <parts parts-id="FUSE38" t="5 号 ECU-IG"/>
+          </para>
+          <para id="F-RL006_FUSE39" category="f" term-id-from="001">
+            <name>MET</name>
+            <parts parts-id="FUSE39" t="MET"/>
+          </para>
+          <para id="F-RL006_FUSE40" category="f" term-id-from="001">
+            <name>SFT LOCK-ACC</name>
+            <parts parts-id="FUSE40" t="SFT LOCK-ACC"/>
+          </para>
+          <para id="F-RL006_FUSE41" category="f" term-id-from="001">
+            <name>WIP-S</name>
+            <parts parts-id="FUSE41" t="WIP-S"/>
+          </para>
+          <para id="F-RL006_FUSE42" category="f" term-id-from="001">
+            <name>A/B</name>
+            <parts parts-id="FUSE42" t="A/B"/>
+          </para>
+          <para id="F-RL006_FUSE43" category="f" term-id-from="001">
+            <name>ACC</name>
+            <parts parts-id="FUSE43" t="ACC"/>
+          </para>
+          <para id="F-RL006_FUSE44" category="f" term-id-from="001">
+            <name>1 号 ECU-IG</name>
+            <parts parts-id="FUSE44" t="1 号 ECU-IG"/>
+          </para>
+          <para id="F-RL006_FUSE45" category="f" term-id-from="001">
+            <name>2 号 ECU-IG</name>
+            <parts parts-id="FUSE45" t="2 号 ECU-IG"/>
+          </para>
+          <para id="F-RL006_FUSE46" category="f" term-id-from="001">
+            <name>3 号 ECU-IG</name>
+            <parts parts-id="FUSE46" t="3 号 ECU-IG"/>
+          </para>
+          <para id="F-RL006_FUSE47" category="f" term-id-from="001">
+            <name>4 号 ECU-IG</name>
+            <parts parts-id="FUSE47" t="4 号 ECU-IG"/>
+          </para>
+          <para id="F-RL006_FUSE48" category="f" term-id-from="001">
+            <name>FR FOG</name>
+            <parts parts-id="FUSE48" t="FR FOG"/>
+          </para>
+          <para id="F-RL006_FUSE49" category="f" term-id-from="001">
+            <name>HTR-IG</name>
+            <parts parts-id="FUSE49" t="HTR-IG"/>
+          </para>
+          <para id="F-RL006_FUSE50" category="f" term-id-from="001">
+            <name>IGN</name>
+            <parts parts-id="FUSE50" t="IGN"/>
+          </para>
+          <para id="F-RL006_FUSE51" category="f" term-id-from="001">
+            <name>OBD</name>
+            <parts parts-id="FUSE51" t="OBD"/>
+          </para>
+          <para id="F-RL006_FUSE52" category="f" term-id-from="001">
+            <name>PANEL</name>
+            <parts parts-id="FUSE52" t="PANEL"/>
+          </para>
+          <para id="F-RL006_FUSE53" category="f" term-id-from="001">
+            <name>RR FOG</name>
+            <parts parts-id="FUSE53" t="RR FOG"/>
+          </para>
+          <para id="F-RL006_FUSE54" category="f" term-id-from="001">
+            <name>STOP</name>
+            <parts parts-id="FUSE54" t="STOP"/>
+          </para>
+          <para id="F-RL006_FUSE55" category="f" term-id-from="001">
+            <name>DOOR BACK</name>
+            <parts parts-id="FUSE55" t="DOOR BACK"/>
+          </para>
+          <para id="F-RL006_FUSE56" category="f" term-id-from="001">
+            <name>TAIL</name>
+            <parts parts-id="FUSE56" t="TAIL"/>
+          </para>
+          <para id="F-RL006_FUSE57" category="f" term-id-from="001">
+            <name>CIG</name>
+            <parts parts-id="FUSE57" t="CIG"/>
+          </para>
+          <para id="F-RL006_FUSE58" category="f" term-id-from="001">
+            <name>SEAT HTR</name>
+            <parts parts-id="FUSE58" t="SEAT HTR"/>
+          </para>
+          <para id="F-RL006_FUSE59" category="f" term-id-from="001">
+            <name>WASHER</name>
+            <parts parts-id="FUSE59" t="WASHER"/>
+          </para>
+          <para id="F-RL006_FUSE60" category="f" term-id-from="001">
+            <name>2 号 D/L</name>
+            <parts parts-id="FUSE60" t="2 号 D/L"/>
+          </para>
+          <para id="F-RL006_FUSE61" category="f" term-id-from="001">
+            <name>FR DOOR</name>
+            <parts parts-id="FUSE61" t="FR DOOR"/>
+          </para>
+          <para id="F-RL006_FUSE62" category="f" term-id-from="001">
+            <name>RL DOOR</name>
+            <parts parts-id="FUSE62" t="RL DOOR"/>
+          </para>
+          <para id="F-RL006_FUSE63" category="f" term-id-from="001">
+            <name>RR DOOR</name>
+            <parts parts-id="FUSE63" t="RR DOOR"/>
+          </para>
+          <para id="F-RL006_FUSE64" category="f" term-id-from="001">
+            <name>S/ROOF</name>
+            <parts parts-id="FUSE64" t="S/ROOF"/>
+          </para>
+          <para id="F-RL006_FUSE65" category="f" term-id-from="001">
+            <name>WIP FR</name>
+            <parts parts-id="FUSE65" t="WIP FR"/>
+          </para>
+          <para id="F-RL006_FUSE66" category="f" term-id-from="001">
+            <name>P-SEAT</name>
+            <parts parts-id="FUSE66" t="P-SEAT"/>
+          </para>
+          <para id="F-RL006_FUSE67" category="f" term-id-from="001">
+            <name>POWER</name>
+            <parts parts-id="FUSE67" t="POWER"/>
+          </para>
+        </ttl>
+      </section>
+    </servcat>
+    <servcat id="_CO" t="连接器列表">
+      <section id="_C-EG" t="发动机室">
+        <ttl id="_WIRE001" t="发动机室主线束" term-id-from="001">
+          <para id="WIRE001_A13" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A13"/>
+            <name>空调压力传感器</name>
+            <parts parts-id="A13" t="A13 90980-10845"/>
+          </para>
+          <para id="WIRE001_A41" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A41"/>
+            <name>制动执行器总成</name>
+            <parts parts-id="A41" t="A41 90980-WA064"/>
+          </para>
+          <para id="WIRE001_A42" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A42"/>
+            <name>制动执行器总成</name>
+            <parts parts-id="A42" t="A42 90980-WA065"/>
+          </para>
+          <para id="WIRE001_A10" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A10"/>
+            <name>制动液液位警告开关（制动总泵储液罐总成）</name>
+            <parts parts-id="A10" t="A10 90980-11207"/>
+          </para>
+          <para id="WIRE001_A33" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A33"/>
+            <name>冷却风扇 ECU</name>
+            <parts parts-id="A33" t="A33 90980-10841"/>
+          </para>
+          <para id="WIRE001_A40" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A40"/>
+            <name>ECM</name>
+            <parts parts-id="A40" t="A40 90980-12931"/>
+          </para>
+          <para id="WIRE001_A23" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A23"/>
+            <name>左侧雾灯总成</name>
+            <parts parts-id="A23" t="A23 82824-60460"/>
+          </para>
+          <para id="WIRE001_A19" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A19"/>
+            <name>右侧雾灯总成</name>
+            <parts parts-id="A19" t="A19 82824-60460"/>
+          </para>
+          <para id="WIRE001_A8" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A8"/>
+            <name>左前空气囊传感器</name>
+            <parts parts-id="A8" t="A8 90980-12490"/>
+          </para>
+          <para id="WIRE001_A18" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A18"/>
+            <name>右前空气囊传感器</name>
+            <parts parts-id="A18" t="A18 90980-12490"/>
+          </para>
+          <para id="WIRE001_A36" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A36"/>
+            <name>左前 1 号超声波传感器</name>
+            <parts parts-id="A36" t="A36 90980-12382"/>
+          </para>
+          <para id="WIRE001_A35" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A35"/>
+            <name>右前 1 号超声波传感器</name>
+            <parts parts-id="A35" t="A35 90980-12382"/>
+          </para>
+          <para id="WIRE001_A26" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A26"/>
+            <name>左前轮转速传感器</name>
+            <parts parts-id="A26" t="A26 90980-12416"/>
+          </para>
+          <para id="WIRE001_A25" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A25"/>
+            <name>右前轮转速传感器</name>
+            <parts parts-id="A25" t="A25 90980-12416"/>
+          </para>
+          <para id="WIRE001_A7" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A7"/>
+            <name>左侧大灯总成</name>
+            <parts parts-id="A7" t="A7 90980-10942"/>
+          </para>
+          <para id="WIRE001_A9" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A9"/>
+            <name>左侧大灯总成</name>
+            <parts parts-id="A9" t="A9 90980-11016"/>
+          </para>
+          <para id="WIRE001_A30" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A30"/>
+            <name>左侧大灯总成</name>
+            <parts parts-id="A30" t="A30 90980-11659"/>
+          </para>
+          <para id="WIRE001_A32" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A32"/>
+            <name>左侧大灯总成</name>
+            <parts parts-id="A32" t="A32 82824-60460"/>
+          </para>
+          <para id="WIRE001_A43" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A43"/>
+            <name>左侧大灯总成</name>
+            <parts parts-id="A43" t="A43 90980-11019"/>
+          </para>
+          <para id="WIRE001_A44" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A44"/>
+            <name>左侧大灯总成</name>
+            <parts parts-id="A44" t="A44 90980-11156"/>
+          </para>
+          <para id="WIRE001_A48" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A48"/>
+            <name>左侧大灯总成</name>
+            <parts parts-id="A48" t="A48 90980-11255"/>
+          </para>
+          <para id="WIRE001_A50" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A50"/>
+            <name>左侧大灯总成</name>
+            <parts parts-id="A50" t="A50 90980-11660"/>
+          </para>
+          <para id="WIRE001_A16" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A16"/>
+            <name>右侧大灯总成</name>
+            <parts parts-id="A16" t="A16 90980-11016"/>
+          </para>
+          <para id="WIRE001_A17" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A17"/>
+            <name>右侧大灯总成</name>
+            <parts parts-id="A17" t="A17 90980-10942"/>
+          </para>
+          <para id="WIRE001_A29" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A29"/>
+            <name>右侧大灯总成</name>
+            <parts parts-id="A29" t="A29 90980-11659"/>
+          </para>
+          <para id="WIRE001_A31" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A31"/>
+            <name>右侧大灯总成</name>
+            <parts parts-id="A31" t="A31 82824-60460"/>
+          </para>
+          <para id="WIRE001_A45" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A45"/>
+            <name>右侧大灯总成</name>
+            <parts parts-id="A45" t="A45 90980-11019"/>
+          </para>
+          <para id="WIRE001_A46" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A46"/>
+            <name>右侧大灯总成</name>
+            <parts parts-id="A46" t="A46 90980-11156"/>
+          </para>
+          <para id="WIRE001_A47" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A47"/>
+            <name>右侧大灯总成</name>
+            <parts parts-id="A47" t="A47 90980-11255"/>
+          </para>
+          <para id="WIRE001_A49" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A49"/>
+            <name>右侧大灯总成</name>
+            <parts parts-id="A49" t="A49 90980-11660"/>
+          </para>
+          <para id="WIRE001_A24" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A24"/>
+            <name>高音喇叭总成</name>
+            <parts parts-id="A24" t="A24 90980-10619"/>
+          </para>
+          <para id="WIRE001_A34" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A34"/>
+            <name>发动机罩门控灯开关（发动机罩锁总成）</name>
+            <parts parts-id="A34" t="A34 90980-11003"/>
+          </para>
+          <para id="WIRE001_A21" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A21"/>
+            <name>低音喇叭总成</name>
+            <parts parts-id="A21" t="A21 90980-10619"/>
+          </para>
+          <para id="WIRE001_A20" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A20"/>
+            <name>车外温度传感器（热敏电阻总成）</name>
+            <parts parts-id="A20" t="A20 90980-11070"/>
+          </para>
+          <para id="WIRE001_A22" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A22"/>
+            <name>警报喇叭总成</name>
+            <parts parts-id="A22" t="A22 90980-10619"/>
+          </para>
+          <para id="WIRE001_A14" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A14"/>
+            <name>VSV（喷射器）</name>
+            <parts parts-id="A14" t="A14 90980-11156"/>
+          </para>
+          <para id="WIRE001_A15" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A15"/>
+            <name>风挡玻璃清洗器马达和泵总成</name>
+            <parts parts-id="A15" t="A15 90980-11019"/>
+          </para>
+          <para id="WIRE001_A6" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=c;code=A6"/>
+            <name>风挡玻璃刮水器马达总成</name>
+            <parts parts-id="A6" t="A6 90980-11599"/>
+          </para>
+          <para id="WIRE001_1B" category="b" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=b;code=1B"/>
+            <name>发动机室主线束和发动机室接线盒</name>
+            <parts parts-id="1B" t="1B 90980-12796"/>
+          </para>
+          <para id="WIRE001_1D" category="b" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=b;code=1D"/>
+            <name>发动机室主线束和发动机室接线盒</name>
+            <parts parts-id="1D" t="1D 90980-12796"/>
+          </para>
+          <para id="WIRE001_1E" category="b" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE001;type=b;code=1E"/>
+            <name>发动机室主线束和发动机室接线盒</name>
+            <parts parts-id="1E" t="1E 82824-74010"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE002" t="发动机线束" term-id-from="001">
+          <para id="WIRE002_B18" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B18"/>
+            <name>空燃比传感器 (B1 S1)</name>
+            <parts parts-id="B18" t="B18 90980-10869"/>
+          </para>
+          <para id="WIRE002_B6" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B6"/>
+            <name>倒车灯开关总成</name>
+            <parts parts-id="B6" t="B6 90980-11051"/>
+          </para>
+          <para id="WIRE002_B7" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B7"/>
+            <name>倒车灯开关总成</name>
+            <parts parts-id="B7" t="B7 90980-10576"/>
+          </para>
+          <para id="WIRE002_B3" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B3"/>
+            <name>蓄电池</name>
+            <parts parts-id="B3" t="B3 -"/>
+          </para>
+          <para id="WIRE002_B38" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B38"/>
+            <name>蓄电池</name>
+            <parts parts-id="B38" t="B38 -"/>
+          </para>
+          <para id="WIRE002_B36" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B36"/>
+            <name>蓄电池电流传感器总成</name>
+            <parts parts-id="B36" t="B36 90980-12495"/>
+          </para>
+          <para id="WIRE002_B25" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B25"/>
+            <name>凸轮轴正时机油控制阀总成（排气侧）</name>
+            <parts parts-id="B25" t="B25 90980-11162"/>
+          </para>
+          <para id="WIRE002_B26" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B26"/>
+            <name>凸轮轴正时机油控制阀总成（进气侧）</name>
+            <parts parts-id="B26" t="B26 90980-11162"/>
+          </para>
+          <para id="WIRE002_B9" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B9"/>
+            <name>带皮带轮的压缩机总成</name>
+            <parts parts-id="B9" t="B9 90980-11156"/>
+          </para>
+          <para id="WIRE002_B16" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B16"/>
+            <name>曲轴位置传感器</name>
+            <parts parts-id="B16" t="B16 90980-12611"/>
+          </para>
+          <para id="WIRE002_B21" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B21"/>
+            <name>CVT 电磁阀（变速器线束）</name>
+            <parts parts-id="B21" t="B21 90980-12326"/>
+          </para>
+          <para id="WIRE002_B4" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B4"/>
+            <name>E.F.I. 发动机冷却液温度传感器</name>
+            <parts parts-id="B4" t="B4 90980-10735"/>
+          </para>
+          <para id="WIRE002_B20" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B20"/>
+            <name>E.F.I. 真空传感器总成</name>
+            <parts parts-id="B20" t="B20 90980-10845"/>
+          </para>
+          <para id="WIRE002_B39" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B39"/>
+            <name>ECM</name>
+            <parts parts-id="B39" t="B39 90980-12A38"/>
+          </para>
+          <para id="WIRE002_B8" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B8"/>
+            <name>发动机机油压力开关总成</name>
+            <parts parts-id="B8" t="B8 90980-11363"/>
+          </para>
+          <para id="WIRE002_B11" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B11"/>
+            <name>1 号喷油器总成</name>
+            <parts parts-id="B11" t="B11 90980-11875"/>
+          </para>
+          <para id="WIRE002_B12" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B12"/>
+            <name>2 号喷油器总成</name>
+            <parts parts-id="B12" t="B12 90980-11875"/>
+          </para>
+          <para id="WIRE002_B13" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B13"/>
+            <name>3 号喷油器总成</name>
+            <parts parts-id="B13" t="B13 90980-11875"/>
+          </para>
+          <para id="WIRE002_B14" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B14"/>
+            <name>4 号喷油器总成</name>
+            <parts parts-id="B14" t="B14 90980-11875"/>
+          </para>
+          <para id="WIRE002_B1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B1"/>
+            <name>发电机总成</name>
+            <parts parts-id="B1" t="B1 -"/>
+          </para>
+          <para id="WIRE002_B17" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B17"/>
+            <name>发电机总成</name>
+            <parts parts-id="B17" t="B17 90980-12A88"/>
+          </para>
+          <para id="WIRE002_B29" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B29"/>
+            <name>1 号点火线圈</name>
+            <parts parts-id="B29" t="B29 90980-11885"/>
+          </para>
+          <para id="WIRE002_B30" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B30"/>
+            <name>2 号点火线圈</name>
+            <parts parts-id="B30" t="B30 90980-11885"/>
+          </para>
+          <para id="WIRE002_B31" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B31"/>
+            <name>3 号点火线圈</name>
+            <parts parts-id="B31" t="B31 90980-11885"/>
+          </para>
+          <para id="WIRE002_B32" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B32"/>
+            <name>4 号点火线圈</name>
+            <parts parts-id="B32" t="B32 90980-11885"/>
+          </para>
+          <para id="WIRE002_B2" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B2"/>
+            <name>进气质量空气流量计分总成</name>
+            <parts parts-id="B2" t="B2 90980-12292"/>
+          </para>
+          <para id="WIRE002_B33" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B33"/>
+            <name>机油压力传感器</name>
+            <parts parts-id="B33" t="B33 90980-10845"/>
+          </para>
+          <para id="WIRE002_B19" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B19"/>
+            <name>油温传感器</name>
+            <parts parts-id="B19" t="B19 90980-11025"/>
+          </para>
+          <para id="WIRE002_B27" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B27"/>
+            <name>氧传感器 (B1 S2)</name>
+            <parts parts-id="B27" t="B27 90980-11930"/>
+          </para>
+          <para id="WIRE002_B15" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B15"/>
+            <name>驻车/空档位置开关总成</name>
+            <parts parts-id="B15" t="B15 90980-12A23"/>
+          </para>
+          <para id="WIRE002_B22" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B22"/>
+            <name>净化 VSV</name>
+            <parts parts-id="B22" t="B22 90980-11156"/>
+          </para>
+          <para id="WIRE002_B5" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B5"/>
+            <name>起动机总成</name>
+            <parts parts-id="B5" t="B5 -"/>
+          </para>
+          <para id="WIRE002_B10" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B10"/>
+            <name>起动机总成</name>
+            <parts parts-id="B10" t="B10 90980-11400"/>
+          </para>
+          <para id="WIRE002_B28" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B28"/>
+            <name>节气门体总成</name>
+            <parts parts-id="B28" t="B28 90980-11858"/>
+          </para>
+          <para id="WIRE002_B34" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B34"/>
+            <name>变速器转速传感器（主）</name>
+            <parts parts-id="B34" t="B34 90980-11156"/>
+          </para>
+          <para id="WIRE002_B35" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B35"/>
+            <name>变速器转速传感器（副）</name>
+            <parts parts-id="B35" t="B35 90980-11156"/>
+          </para>
+          <para id="WIRE002_B37" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B37"/>
+            <name>VSV (ACIS)</name>
+            <parts parts-id="B37" t="B37 90980-11156"/>
+          </para>
+          <para id="WIRE002_B23" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B23"/>
+            <name>VVT 传感器（排气侧）</name>
+            <parts parts-id="B23" t="B23 90980-12353"/>
+          </para>
+          <para id="WIRE002_B24" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=c;code=B24"/>
+            <name>VVT 传感器（进气侧）</name>
+            <parts parts-id="B24" t="B24 90980-12353"/>
+          </para>
+          <para id="WIRE002_1G" category="b" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=b;code=1G"/>
+            <name>发动机线束和发动机室接线盒</name>
+            <parts parts-id="1G" t="1G -"/>
+          </para>
+          <para id="WIRE002_1H" category="b" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=b;code=1H"/>
+            <name>发动机线束和发动机室接线盒</name>
+            <parts parts-id="1H" t="1H -"/>
+          </para>
+          <para id="WIRE002_BA1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=w;code=BA1"/>
+            <name>发动机线束和发动机室主线束</name>
+            <parts parts-id="BA1" t="BA1 90980-12771 90980-12770"/>
+          </para>
+          <para id="WIRE002_BA2" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=w;code=BA2"/>
+            <name>发动机线束和发动机室主线束</name>
+            <parts parts-id="BA2" t="BA2 90980-12745 90980-12744"/>
+          </para>
+          <para id="WIRE002_BA3" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=w;code=BA3"/>
+            <name>发动机线束和发动机室主线束</name>
+            <parts parts-id="BA3" t="BA3 90980-10916 90980-10915"/>
+          </para>
+          <para id="WIRE002_BD1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE002;type=w;code=BD1"/>
+            <name>发动机线束和发动机 4 号线束</name>
+            <parts parts-id="BD1" t="BD1 90980-11156 90980-11155"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE003" t="发动机 3 号线束" term-id-from="001">
+          <para id="WIRE003_C1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE003;type=c;code=C1"/>
+            <name>蓄电池</name>
+            <parts parts-id="C1" t="C1 -"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE004" t="发动机 4 号线束" term-id-from="001">
+          <para id="WIRE004_D1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE004;type=c;code=D1"/>
+            <name>爆震控制传感器 (B1)</name>
+            <parts parts-id="D1" t="D1 90980-11875"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE005" t="其他" term-id-from="001">
+          <para id="WIRE005_z9" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE005;type=c;code=z9"/>
+            <name>冷却风扇 ECU、冷却风扇马达</name>
+            <parts parts-id="z9" t="Z9 90980-10928"/>
+          </para>
+        </ttl>
+      </section>
+      <section id="_C-INPA" t="仪表板">
+        <ttl id="_WIRE006" t="发动机室主线束" term-id-from="001">
+          <para id="WIRE006_A3" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=c;code=A3"/>
+            <name>加速踏板传感器总成</name>
+            <parts parts-id="A3" t="A3 90980-12831"/>
+          </para>
+          <para id="WIRE006_A4" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=c;code=A4"/>
+            <name>离合器起动开关总成</name>
+            <parts parts-id="A4" t="A4 90980-10825"/>
+          </para>
+          <para id="WIRE006_A5" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=c;code=A5"/>
+            <name>离合器起动开关总成</name>
+            <parts parts-id="A5" t="A5 90980-10825"/>
+          </para>
+          <para id="WIRE006_A39" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=c;code=A39"/>
+            <name>1 号 CAN 接线连接器</name>
+            <parts parts-id="A39" t="A39 90980-12372"/>
+          </para>
+          <para id="WIRE006_A37" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=c;code=A37"/>
+            <name>1 号接线连接器</name>
+            <parts parts-id="A37" t="A37 90980-12372"/>
+          </para>
+          <para id="WIRE006_A38" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=c;code=A38"/>
+            <name>2 号接线连接器</name>
+            <parts parts-id="A38" t="A38 90980-12372"/>
+          </para>
+          <para id="WIRE006_A27" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=c;code=A27"/>
+            <name>动力转向 ECU 总成</name>
+            <parts parts-id="A27" t="A27 90980-12900"/>
+          </para>
+          <para id="WIRE006_A28" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=c;code=A28"/>
+            <name>动力转向 ECU 总成</name>
+            <parts parts-id="A28" t="A28 90980-12A31"/>
+          </para>
+          <para id="WIRE006_A11" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=c;code=A11"/>
+            <name>快速加热器总成</name>
+            <parts parts-id="A11" t="A11 90980-10956"/>
+          </para>
+          <para id="WIRE006_A12" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=c;code=A12"/>
+            <name>快速加热器总成</name>
+            <parts parts-id="A12" t="A12 90980-10903"/>
+          </para>
+          <para id="WIRE006_A1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=c;code=A1"/>
+            <name>刹车灯开关总成</name>
+            <parts parts-id="A1" t="A1 90980-11118"/>
+          </para>
+          <para id="WIRE006_A2" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=c;code=A2"/>
+            <name>刹车灯开关总成</name>
+            <parts parts-id="A2" t="A2 90980-12954"/>
+          </para>
+          <para id="WIRE006_3A" category="b" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=b;code=3A"/>
+            <name>发动机室主线束和仪表板接线盒总成</name>
+            <parts parts-id="3A" t="3A 90980-12A15"/>
+          </para>
+          <para id="WIRE006_3B" category="b" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=b;code=3B"/>
+            <name>发动机室主线束和仪表板接线盒总成</name>
+            <parts parts-id="3B" t="3B 90980-12756"/>
+          </para>
+          <para id="WIRE006_AL1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=w;code=AL1"/>
+            <name>发动机室主线束和地板线束</name>
+            <parts parts-id="AL1" t="AL1 90980-12743 90980-12742"/>
+          </para>
+          <para id="WIRE006_AL2" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=w;code=AL2"/>
+            <name>发动机室主线束和地板线束</name>
+            <parts parts-id="AL2" t="AL2 90980-11799 90980-11809"/>
+          </para>
+          <para id="WIRE006_AL3" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=w;code=AL3"/>
+            <name>发动机室主线束和地板线束</name>
+            <parts parts-id="AL3" t="AL3 90980-12412 90980-12411"/>
+          </para>
+          <para id="WIRE006_AE1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=w;code=AE1"/>
+            <name>发动机室主线束和仪表板线束</name>
+            <parts parts-id="AE1" t="AE1 90980-10916 90980-10915"/>
+          </para>
+          <para id="WIRE006_AE2" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=w;code=AE2"/>
+            <name>发动机室主线束和仪表板线束</name>
+            <parts parts-id="AE2" t="AE2 90980-12412 90980-12411"/>
+          </para>
+          <para id="WIRE006_AE3" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=w;code=AE3"/>
+            <name>发动机室主线束和仪表板线束</name>
+            <parts parts-id="AE3" t="AE3 90980-12743 90980-12742"/>
+          </para>
+          <para id="WIRE006_AE4" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=w;code=AE4"/>
+            <name>发动机室主线束和仪表板线束</name>
+            <parts parts-id="AE4" t="AE4 90980-12741 90980-12740"/>
+          </para>
+          <para id="WIRE006_AE5" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=w;code=AE5"/>
+            <name>发动机室主线束和仪表板线束</name>
+            <parts parts-id="AE5" t="AE5 90980-12372 90980-12371"/>
+          </para>
+          <para id="WIRE006_AE6" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=w;code=AE6"/>
+            <name>发动机室主线束和仪表板线束</name>
+            <parts parts-id="AE6" t="AE6 90980-12737 90980-12736"/>
+          </para>
+          <para id="WIRE006_AE7" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=w;code=AE7"/>
+            <name>发动机室主线束和仪表板线束</name>
+            <parts parts-id="AE7" t="AE7 90980-12989 90980-12988"/>
+          </para>
+          <para id="WIRE006_AE8" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE006;type=w;code=AE8"/>
+            <name>发动机室主线束和仪表板线束</name>
+            <parts parts-id="AE8" t="AE8 90980-12372 90980-12371"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE007" t="仪表板线束" term-id-from="001">
+          <para id="WIRE007_E11" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E11"/>
+            <name>空调放大器总成</name>
+            <parts parts-id="E11" t="E11 90980-12912"/>
+          </para>
+          <para id="WIRE007_E43" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E43"/>
+            <name>空调放大器总成</name>
+            <parts parts-id="E43" t="E43 90980-12557"/>
+          </para>
+          <para id="WIRE007_E20" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E20"/>
+            <name>空调控制总成</name>
+            <parts parts-id="E20" t="E20 90980-12551"/>
+          </para>
+          <para id="WIRE007_E19" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E19"/>
+            <name>空气囊 ECU 总成</name>
+            <parts parts-id="E19" t="E19 90980-12391"/>
+          </para>
+          <para id="WIRE007_E65" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E65"/>
+            <name>后声纳或侦测声纳开关总成</name>
+            <parts parts-id="E65" t="E65 90980-12368"/>
+          </para>
+          <para id="WIRE007_E21" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E21"/>
+            <name>带风扇的鼓风机马达分总成</name>
+            <parts parts-id="E21" t="E21 90980-11579"/>
+          </para>
+          <para id="WIRE007_E30" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E30"/>
+            <name>带风扇的鼓风机马达分总成</name>
+            <parts parts-id="E30" t="E30 90980-11667"/>
+          </para>
+          <para id="WIRE007_E23" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E23"/>
+            <name>鼓风机电阻器</name>
+            <parts parts-id="E23" t="E23 90980-11136"/>
+          </para>
+          <para id="WIRE007_E47" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E47"/>
+            <name>认证 ECU</name>
+            <parts parts-id="E47" t="E47 82824-52390"/>
+          </para>
+          <para id="WIRE007_E48" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E48"/>
+            <name>认证 ECU</name>
+            <parts parts-id="E48" t="E48 82824-52380"/>
+          </para>
+          <para id="WIRE007_E49" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E49"/>
+            <name>认证 ECU</name>
+            <parts parts-id="E49" t="E49 82824-52370"/>
+          </para>
+          <para id="WIRE007_E26" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E26"/>
+            <name>点烟器总成</name>
+            <parts parts-id="E26" t="E26 90980-12498"/>
+          </para>
+          <para id="WIRE007_E63" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E63"/>
+            <name>间隙警告 ECU 总成</name>
+            <parts parts-id="E63" t="E63 90980-12924"/>
+          </para>
+          <para id="WIRE007_E55" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E55"/>
+            <name>组合仪表总成</name>
+            <parts parts-id="E55" t="E55 90980-12557"/>
+          </para>
+          <para id="WIRE007_E59" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E59"/>
+            <name>组合仪表总成</name>
+            <parts parts-id="E59" t="E59 90980-12767"/>
+          </para>
+          <para id="WIRE007_E31" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E31"/>
+            <name>冷却器（车内温度传感器）热敏电阻</name>
+            <parts parts-id="E31" t="E31 90980-11918"/>
+          </para>
+          <para id="WIRE007_E67" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E67"/>
+            <name>二极管（左侧门控灯总成）</name>
+            <parts parts-id="E67" t="E67 90980-10962"/>
+          </para>
+          <para id="WIRE007_E68" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E68"/>
+            <name>二极管（右侧门控灯总成）</name>
+            <parts parts-id="E68" t="E68 90980-10962"/>
+          </para>
+          <para id="WIRE007_E18" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E18"/>
+            <name>DLC3</name>
+            <parts parts-id="E18" t="E18 90980-11665"/>
+          </para>
+          <para id="WIRE007_E50" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E50"/>
+            <name>发动机开关</name>
+            <parts parts-id="E50" t="E50 90980-12368"/>
+          </para>
+          <para id="WIRE007_E53" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E53"/>
+            <name>危险警告信号开关总成</name>
+            <parts parts-id="E53" t="E53 90980-12876"/>
+          </para>
+          <para id="WIRE007_E15" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E15"/>
+            <name>大灯变光器开关总成</name>
+            <parts parts-id="E15" t="E15 90980-12460"/>
+          </para>
+          <para id="WIRE007_E54" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E54"/>
+            <name>大灯水平开关</name>
+            <parts parts-id="E54" t="E54 90980-11950"/>
+          </para>
+          <para id="WIRE007_E28" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E28"/>
+            <name>ID 代码箱</name>
+            <parts parts-id="E28" t="E28 90980-12366"/>
+          </para>
+          <para id="WIRE007_E9" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E9"/>
+            <name>点火或起动开关总成</name>
+            <parts parts-id="E9" t="E9 90980-11615"/>
+          </para>
+          <para id="WIRE007_E66" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E66"/>
+            <name>车内照明灯总成</name>
+            <parts parts-id="E66" t="E66 90980-10962"/>
+          </para>
+          <para id="WIRE007_E41" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E41"/>
+            <name>锁芯照明灯总成</name>
+            <parts parts-id="E41" t="E41 90980-11148"/>
+          </para>
+          <para id="WIRE007_E12" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E12"/>
+            <name>钥匙互锁电磁阀</name>
+            <parts parts-id="E12" t="E12 90980-12063"/>
+          </para>
+          <para id="WIRE007_E36" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E36"/>
+            <name>主车身 ECU</name>
+            <parts parts-id="E36" t="E36 90980-12909"/>
+          </para>
+          <para id="WIRE007_E37" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E37"/>
+            <name>主车身 ECU</name>
+            <parts parts-id="E37" t="E37 90980-12908"/>
+          </para>
+          <para id="WIRE007_E1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E1"/>
+            <name>导航接收器总成</name>
+            <parts parts-id="E1" t="E1 90980-10997"/>
+          </para>
+          <para id="WIRE007_E4" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E4"/>
+            <name>导航接收器总成</name>
+            <parts parts-id="E4" t="E4 90980-10996"/>
+          </para>
+          <para id="WIRE007_E32" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E32"/>
+            <name>导航接收器总成</name>
+            <parts parts-id="E32" t="E32 90980-12555"/>
+          </para>
+          <para id="WIRE007_E34" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E34"/>
+            <name>导航接收器总成</name>
+            <parts parts-id="E34" t="E34 90980-12554"/>
+          </para>
+          <para id="WIRE007_E64" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E64"/>
+            <name>1 号间隙警告蜂鸣器</name>
+            <parts parts-id="E64" t="E64 90980-10825"/>
+          </para>
+          <para id="WIRE007_E40" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E40"/>
+            <name>1 号冷却器热敏电阻</name>
+            <parts parts-id="E40" t="E40 90980-11918"/>
+          </para>
+          <para id="WIRE007_E56" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E56"/>
+            <name>1 号风门伺服机构分总成</name>
+            <parts parts-id="E56" t="E56 90980-11909"/>
+          </para>
+          <para id="WIRE007_E57" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E57"/>
+            <name>1 号加热器控制分总成</name>
+            <parts parts-id="E57" t="E57 90980-12550"/>
+          </para>
+          <para id="WIRE007_E74" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E74"/>
+            <name>2 号 CAN 接线连接器</name>
+            <parts parts-id="E74" t="E74 90980-12372"/>
+          </para>
+          <para id="WIRE007_E58" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E58"/>
+            <name>2 号加热器控制分总成</name>
+            <parts parts-id="E58" t="E58 90980-10993"/>
+          </para>
+          <para id="WIRE007_E22" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E22"/>
+            <name>3 号加热器控制分总成</name>
+            <parts parts-id="E22" t="E22 90980-12558"/>
+          </para>
+          <para id="WIRE007_E70" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E70"/>
+            <name>3 号接线连接器</name>
+            <parts parts-id="E70" t="E70 90980-12372"/>
+          </para>
+          <para id="WIRE007_E71" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E71"/>
+            <name>4 号接线连接器</name>
+            <parts parts-id="E71" t="E71 90980-12372"/>
+          </para>
+          <para id="WIRE007_E72" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E72"/>
+            <name>5 号接线连接器</name>
+            <parts parts-id="E72" t="E72 90980-12372"/>
+          </para>
+          <para id="WIRE007_E73" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E73"/>
+            <name>6 号接线连接器</name>
+            <parts parts-id="E73" t="E73 90980-12372"/>
+          </para>
+          <para id="WIRE007_E25" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E25"/>
+            <name>车外后视镜开关总成</name>
+            <parts parts-id="E25" t="E25 90980-12330"/>
+          </para>
+          <para id="WIRE007_E75" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E75"/>
+            <name>车外后视镜开关总成</name>
+            <parts parts-id="E75" t="E75 90980-12372"/>
+          </para>
+          <para id="WIRE007_E52" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E52"/>
+            <name>模式选择开关总成</name>
+            <parts parts-id="E52" t="E52 90980-12558"/>
+          </para>
+          <para id="WIRE007_E76" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E76"/>
+            <name>模式选择开关总成</name>
+            <parts parts-id="E76" t="E76 90980-12876"/>
+          </para>
+          <para id="WIRE007_E45" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E45"/>
+            <name>动力转向 ECU 总成</name>
+            <parts parts-id="E45" t="E45 90980-12898"/>
+          </para>
+          <para id="WIRE007_E46" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E46"/>
+            <name>动力转向 ECU 总成</name>
+            <parts parts-id="E46" t="E46 90980-12520"/>
+          </para>
+          <para id="WIRE007_E2" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E2"/>
+            <name>无线电收音机和显示屏接收器总成</name>
+            <parts parts-id="E2" t="E2 90980-10997"/>
+          </para>
+          <para id="WIRE007_E5" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E5"/>
+            <name>无线电收音机和显示屏接收器总成</name>
+            <parts parts-id="E5" t="E5 90980-10996"/>
+          </para>
+          <para id="WIRE007_E33" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E33"/>
+            <name>无线电收音机和显示屏接收器总成</name>
+            <parts parts-id="E33" t="E33 90980-12555"/>
+          </para>
+          <para id="WIRE007_E35" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E35"/>
+            <name>无线电收音机和显示屏接收器总成</name>
+            <parts parts-id="E35" t="E35 90980-12554"/>
+          </para>
+          <para id="WIRE007_E3" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E3"/>
+            <name>无线电收音机总成</name>
+            <parts parts-id="E3" t="E3 90980-10997"/>
+          </para>
+          <para id="WIRE007_E6" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E6"/>
+            <name>无线电收音机总成</name>
+            <parts parts-id="E6" t="E6 90980-10996"/>
+          </para>
+          <para id="WIRE007_E39" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E39"/>
+            <name>左侧座椅加热器开关</name>
+            <parts parts-id="E39" t="E39 90980-12012"/>
+          </para>
+          <para id="WIRE007_E38" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E38"/>
+            <name>右侧座椅加热器开关</name>
+            <parts parts-id="E38" t="E38 90980-12135"/>
+          </para>
+          <para id="WIRE007_E7" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E7"/>
+            <name>换档锁止控制 ECU（变速器地板式换档总成）</name>
+            <parts parts-id="E7" t="E7 90980-12366"/>
+          </para>
+          <para id="WIRE007_E8" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E8"/>
+            <name>换档锁止控制 ECU（变速器地板式换档总成）</name>
+            <parts parts-id="E8" t="E8 90980-12551"/>
+          </para>
+          <para id="WIRE007_E42" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E42"/>
+            <name>换档杆位置指示灯</name>
+            <parts parts-id="E42" t="E42 90980-12370"/>
+          </para>
+          <para id="WIRE007_E13" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E13"/>
+            <name>螺旋电缆分总成</name>
+            <parts parts-id="E13" t="E13 90980-12370"/>
+          </para>
+          <para id="WIRE007_E14" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E14"/>
+            <name>螺旋电缆分总成</name>
+            <parts parts-id="E14" t="E14 90980-12160"/>
+          </para>
+          <para id="WIRE007_E51" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E51"/>
+            <name>转向锁执行器总成</name>
+            <parts parts-id="E51" t="E51 90980-12092"/>
+          </para>
+          <para id="WIRE007_E62" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E62"/>
+            <name>转向传感器</name>
+            <parts parts-id="E62" t="E62 90980-12366"/>
+          </para>
+          <para id="WIRE007_E61" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E61"/>
+            <name>警告灯总成</name>
+            <parts parts-id="E61" t="E61 90980-12162"/>
+          </para>
+          <para id="WIRE007_E44" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E44"/>
+            <name>变速器控制开关（变速器地板式换档总成）</name>
+            <parts parts-id="E44" t="E44 90980-12954"/>
+          </para>
+          <para id="WIRE007_E27" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E27"/>
+            <name>应答器钥匙线圈</name>
+            <parts parts-id="E27" t="E27 90980-12954"/>
+          </para>
+          <para id="WIRE007_E29" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E29"/>
+            <name>应答器钥匙 ECU 总成</name>
+            <parts parts-id="E29" t="E29 90980-12423"/>
+          </para>
+          <para id="WIRE007_E10" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E10"/>
+            <name>未锁警告开关总成</name>
+            <parts parts-id="E10" t="E10 90980-12063"/>
+          </para>
+          <para id="WIRE007_E60" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E60"/>
+            <name>VSC OFF 开关</name>
+            <parts parts-id="E60" t="E60 90980-12550"/>
+          </para>
+          <para id="WIRE007_E16" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E16"/>
+            <name>风挡玻璃刮水器开关总成</name>
+            <parts parts-id="E16" t="E16 90980-12359"/>
+          </para>
+          <para id="WIRE007_E17" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=c;code=E17"/>
+            <name>风挡玻璃刮水器开关总成</name>
+            <parts parts-id="E17" t="E17 90980-12358"/>
+          </para>
+          <para id="WIRE007_3C" category="b" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=b;code=3C"/>
+            <name>仪表板线束和仪表板接线盒总成</name>
+            <parts parts-id="3C" t="3C 90980-12890"/>
+          </para>
+          <para id="WIRE007_3D" category="b" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=b;code=3D"/>
+            <name>仪表板线束和仪表板接线盒总成</name>
+            <parts parts-id="3D" t="3D 90980-12887"/>
+          </para>
+          <para id="WIRE007_EL1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=w;code=EL1"/>
+            <name>仪表板线束和地板线束</name>
+            <parts parts-id="EL1" t="EL1 90980-12739 90980-12738"/>
+          </para>
+          <para id="WIRE007_EL2" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=w;code=EL2"/>
+            <name>仪表板线束和地板线束</name>
+            <parts parts-id="EL2" t="EL2 90980-12741 90980-12740"/>
+          </para>
+          <para id="WIRE007_EL3" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=w;code=EL3"/>
+            <name>仪表板线束和地板线束</name>
+            <parts parts-id="EL3" t="EL3 90980-12372 90980-12371"/>
+          </para>
+          <para id="WIRE007_EL4" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=w;code=EL4"/>
+            <name>仪表板线束和地板线束</name>
+            <parts parts-id="EL4" t="EL4 90980-12737 90980-12736"/>
+          </para>
+          <para id="WIRE007_EL5" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=w;code=EL5"/>
+            <name>仪表板线束和地板线束</name>
+            <parts parts-id="EL5" t="EL5 90980-12741 90980-12740"/>
+          </para>
+          <para id="WIRE007_EL6" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=w;code=EL6"/>
+            <name>仪表板线束和地板线束</name>
+            <parts parts-id="EL6" t="EL6 90980-12372 90980-12371"/>
+          </para>
+          <para id="WIRE007_EL7" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=w;code=EL7"/>
+            <name>仪表板线束和地板线束</name>
+            <parts parts-id="EL7" t="EL7 90980-12698 90980-12697"/>
+          </para>
+          <para id="WIRE007_EL8" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=w;code=EL8"/>
+            <name>仪表板线束和地板线束</name>
+            <parts parts-id="EL8" t="EL8 90980-12698 90980-12697"/>
+          </para>
+          <para id="WIRE007_Ed1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=w;code=Ed1"/>
+            <name>仪表板线束和仪表板线束总成</name>
+            <parts parts-id="Ed1" t="ED1 90980-11886 90980-11992"/>
+          </para>
+          <para id="WIRE007_EX1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=w;code=EX1"/>
+            <name>仪表板线束和 1 号立体声部件线束</name>
+            <parts parts-id="EX1" t="EX1 90980-12366 90980-12419"/>
+          </para>
+          <para id="WIRE007_EF1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE007;type=w;code=EF1"/>
+            <name>仪表板线束和仪表板 2 号线束</name>
+            <parts parts-id="EF1" t="EF1 90980-12368 90980-12367"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE008" t="仪表板 2 号线束" term-id-from="001">
+          <para id="WIRE008_F2" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE008;type=c;code=F2"/>
+            <name>自动灯光控制传感器</name>
+            <parts parts-id="F2" t="F2 90980-11107"/>
+          </para>
+          <para id="WIRE008_F3" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE008;type=c;code=F3"/>
+            <name>时钟总成</name>
+            <parts parts-id="F3" t="F3 90980-12092"/>
+          </para>
+          <para id="WIRE008_F1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE008;type=c;code=F1"/>
+            <name>冷却器（阳光传感器）热敏电阻</name>
+            <parts parts-id="F1" t="F1 90980-11918"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE009" t="右前车门线束" term-id-from="001">
+          <para id="WIRE009_GE1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE009;type=w;code=GE1"/>
+            <name>右前车门线束和仪表板线束</name>
+            <parts parts-id="GE1" t="GE1 90980-12A22 90980-12638"/>
+          </para>
+          <para id="WIRE009_GE2" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE009;type=w;code=GE2"/>
+            <name>右前车门线束和仪表板线束</name>
+            <parts parts-id="GE2" t="GE2 90980-12478 90980-12A20"/>
+          </para>
+          <para id="WIRE009_GE3" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE009;type=w;code=GE3"/>
+            <name>右前车门线束和仪表板线束</name>
+            <parts parts-id="GE3" t="GE3 90980-12A21 90980-12546"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE010" t="左前车门线束" term-id-from="001">
+          <para id="WIRE010_HE1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE010;type=w;code=HE1"/>
+            <name>左前车门线束和仪表板线束</name>
+            <parts parts-id="HE1" t="HE1 90980-12A22 90980-12638"/>
+          </para>
+          <para id="WIRE010_HE2" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE010;type=w;code=HE2"/>
+            <name>左前车门线束和仪表板线束</name>
+            <parts parts-id="HE2" t="HE2 90980-12478 90980-12A20"/>
+          </para>
+          <para id="WIRE010_HE3" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE010;type=w;code=HE3"/>
+            <name>左前车门线束和仪表板线束</name>
+            <parts parts-id="HE3" t="HE3 90980-12A21 90980-12546"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE011" t="地板线束" term-id-from="001">
+          <para id="WIRE011_L15" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE011;type=c;code=L15"/>
+            <name>空气囊 ECU 总成</name>
+            <parts parts-id="L15" t="L15 90980-12449"/>
+          </para>
+          <para id="WIRE011_L49" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE011;type=c;code=L49"/>
+            <name>空气囊 ECU 总成</name>
+            <parts parts-id="L49" t="L49 90980-12450"/>
+          </para>
+          <para id="WIRE011_L21" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE011;type=c;code=L21"/>
+            <name>车内 1 号电子钥匙天线总成</name>
+            <parts parts-id="L21" t="L21 90980-12795"/>
+          </para>
+          <para id="WIRE011_L19" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE011;type=c;code=L19"/>
+            <name>驻车制动开关总成</name>
+            <parts parts-id="L19" t="L19 90980-10871"/>
+          </para>
+          <para id="WIRE011_3E" category="b" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE011;type=b;code=3E"/>
+            <name>地板线束和仪表板接线盒总成</name>
+            <parts parts-id="3E" t="3E 90980-12884"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE012" t="车顶 1 号线束" term-id-from="001">
+          <para id="WIRE012_OE1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE012;type=w;code=OE1"/>
+            <name>车顶 1 号线束和仪表板线束</name>
+            <parts parts-id="OE1" t="OE1 90980-12771 90980-12770"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE013" t="1 号立体声部件线束" term-id-from="001">
+          <para id="WIRE013_X2" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE013;type=c;code=X2"/>
+            <name>导航接收器总成</name>
+            <parts parts-id="X2" t="X2 90980-12A52"/>
+          </para>
+          <para id="WIRE013_X1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE013;type=c;code=X1"/>
+            <name>1 号立体声插座适配器总成</name>
+            <parts parts-id="X1" t="X1 90980-12849"/>
+          </para>
+          <para id="WIRE013_X3" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE013;type=c;code=X3"/>
+            <name>无线电收音机和显示屏接收器总成</name>
+            <parts parts-id="X3" t="X3 90980-12A52"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE014" t="仪表板线束总成" term-id-from="001">
+          <para id="WIRE014_d1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE014;type=c;code=d1"/>
+            <name>不带车门空气囊的仪表板乘客空气囊总成</name>
+            <parts parts-id="d1" t="D1 90980-12576"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE015" t="其他" term-id-from="001">
+          <para id="WIRE015_z1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE015;type=c;code=z1"/>
+            <name>空调放大器总成、空调线束总成</name>
+            <parts parts-id="z1" t="Z1 90980-12264"/>
+          </para>
+          <para id="WIRE015_z10" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE015;type=c;code=z10"/>
+            <name>巡航控制主开关、巡航控制开关线束</name>
+            <parts parts-id="z10" t="Z10 90980-12296"/>
+          </para>
+          <para id="WIRE015_z4" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE015;type=c;code=z4"/>
+            <name>巡航控制开关线束、螺旋电缆分总成</name>
+            <parts parts-id="z4" t="Z4 90980-12360"/>
+          </para>
+          <para id="WIRE015_z2" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE015;type=c;code=z2"/>
+            <name>驾驶员侧点火管（喇叭按钮总成）、螺旋电缆分总成</name>
+            <parts parts-id="z2" t="Z2 90980-12224"/>
+          </para>
+          <para id="WIRE015_z11" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE015;type=c;code=z11"/>
+            <name>喇叭按钮线束分总成、螺旋电缆分总成</name>
+            <parts parts-id="z11" t="Z11 90980-12360"/>
+          </para>
+          <para id="WIRE015_z8" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE015;type=c;code=z8"/>
+            <name>动力转向 ECU 总成、动力转向马达总成</name>
+            <parts parts-id="z8" t="Z8 90980-12918"/>
+          </para>
+          <para id="WIRE015_z7" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE015;type=c;code=z7"/>
+            <name>动力转向 ECU 总成、动力转向扭矩传感器（电动转向柱分总成）</name>
+            <parts parts-id="z7" t="Z7 90980-12899"/>
+          </para>
+          <para id="WIRE015_z12" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE015;type=c;code=z12"/>
+            <name>动力转向 ECU 总成、动力转向扭矩传感器（电动转向柱分总成）</name>
+            <parts parts-id="z12" t="Z12 90980-12366"/>
+          </para>
+          <para id="WIRE015_z6" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE015;type=c;code=z6"/>
+            <name>螺旋电缆分总成、方向盘衬垫开关总成</name>
+            <parts parts-id="z6" t="Z6 90980-12559"/>
+          </para>
+          <para id="WIRE015_z5" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE015;type=c;code=z5"/>
+            <name>方向盘衬垫开关总成、变速器换档开关总成</name>
+            <parts parts-id="z5" t="Z5 90980-12221"/>
+          </para>
+        </ttl>
+      </section>
+      <section id="_C-BODY" t="车身">
+        <ttl id="_WIRE016" t="右前车门线束" term-id-from="001">
+          <para id="WIRE016_G4" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE016;type=c;code=G4"/>
+            <name>右侧门控灯总成</name>
+            <parts parts-id="G4" t="G4 90980-11148"/>
+          </para>
+          <para id="WIRE016_G8" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE016;type=c;code=G8"/>
+            <name>带马达的右前车门门锁总成</name>
+            <parts parts-id="G8" t="G8 90980-12226"/>
+          </para>
+          <para id="WIRE016_G7" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE016;type=c;code=G7"/>
+            <name>右前车门外把手总成</name>
+            <parts parts-id="G7" t="G7 90980-12790"/>
+          </para>
+          <para id="WIRE016_G1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE016;type=c;code=G1"/>
+            <name>右前 1 号扬声器总成</name>
+            <parts parts-id="G1" t="G1 90980-10935"/>
+          </para>
+          <para id="WIRE016_G6" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE016;type=c;code=G6"/>
+            <name>右前 2 号扬声器总成</name>
+            <parts parts-id="G6" t="G6 90980-12304"/>
+          </para>
+          <para id="WIRE016_G9" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE016;type=c;code=G9"/>
+            <name>右前电动窗升降器马达总成</name>
+            <parts parts-id="G9" t="G9 90980-10797"/>
+          </para>
+          <para id="WIRE016_G5" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE016;type=c;code=G5"/>
+            <name>右前电动窗升降器开关总成</name>
+            <parts parts-id="G5" t="G5 90980-10789"/>
+          </para>
+          <para id="WIRE016_G2" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE016;type=c;code=G2"/>
+            <name>右侧车外后视镜总成</name>
+            <parts parts-id="G2" t="G2 90980-12059"/>
+          </para>
+          <para id="WIRE016_G3" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE016;type=c;code=G3"/>
+            <name>右侧车外后视镜总成</name>
+            <parts parts-id="G3" t="G3 90980-12610"/>
+          </para>
+          <para id="WIRE016_G10" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE016;type=c;code=G10"/>
+            <name>右侧车外后视镜总成</name>
+            <parts parts-id="G10" t="G10 90980-12189"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE017" t="左前车门线束" term-id-from="001">
+          <para id="WIRE017_H4" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE017;type=c;code=H4"/>
+            <name>左侧门控灯总成</name>
+            <parts parts-id="H4" t="H4 90980-11148"/>
+          </para>
+          <para id="WIRE017_H9" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE017;type=c;code=H9"/>
+            <name>带马达的左前车门门锁总成</name>
+            <parts parts-id="H9" t="H9 90980-12226"/>
+          </para>
+          <para id="WIRE017_H8" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE017;type=c;code=H8"/>
+            <name>左前车门外把手总成</name>
+            <parts parts-id="H8" t="H8 90980-12790"/>
+          </para>
+          <para id="WIRE017_H1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE017;type=c;code=H1"/>
+            <name>左前 1 号扬声器总成</name>
+            <parts parts-id="H1" t="H1 90980-10935"/>
+          </para>
+          <para id="WIRE017_H7" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE017;type=c;code=H7"/>
+            <name>左前 2 号扬声器总成</name>
+            <parts parts-id="H7" t="H7 90980-12304"/>
+          </para>
+          <para id="WIRE017_H5" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE017;type=c;code=H5"/>
+            <name>左前电动窗升降器马达总成</name>
+            <parts parts-id="H5" t="H5 90980-10797"/>
+          </para>
+          <para id="WIRE017_H10" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE017;type=c;code=H10"/>
+            <name>左前电动窗升降器马达总成</name>
+            <parts parts-id="H10" t="H10 90980-12328"/>
+          </para>
+          <para id="WIRE017_H2" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE017;type=c;code=H2"/>
+            <name>左侧车外后视镜总成</name>
+            <parts parts-id="H2" t="H2 90980-12059"/>
+          </para>
+          <para id="WIRE017_H3" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE017;type=c;code=H3"/>
+            <name>左侧车外后视镜总成</name>
+            <parts parts-id="H3" t="H3 90980-12610"/>
+          </para>
+          <para id="WIRE017_H11" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE017;type=c;code=H11"/>
+            <name>左侧车外后视镜总成</name>
+            <parts parts-id="H11" t="H11 90980-12189"/>
+          </para>
+          <para id="WIRE017_H6" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE017;type=c;code=H6"/>
+            <name>电动窗升降器主开关总成</name>
+            <parts parts-id="H6" t="H6 90980-12122"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE018" t="后门 1 号线束" term-id-from="001">
+          <para id="WIRE018_J3" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE018;type=c;code=J3"/>
+            <name>带马达的右后车门门锁总成</name>
+            <parts parts-id="J3" t="J3 90980-12226"/>
+          </para>
+          <para id="WIRE018_J2" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE018;type=c;code=J2"/>
+            <name>右后电动窗升降器马达总成</name>
+            <parts parts-id="J2" t="J2 90980-10797"/>
+          </para>
+          <para id="WIRE018_J1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE018;type=c;code=J1"/>
+            <name>右后电动窗升降器开关总成</name>
+            <parts parts-id="J1" t="J1 90980-10789"/>
+          </para>
+          <para id="WIRE018_JL1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE018;type=w;code=JL1"/>
+            <name>后门 1 号线束和地板线束</name>
+            <parts parts-id="JL1" t="JL1 90980-12A01 90980-12A00"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE019" t="后门 2 号线束" term-id-from="001">
+          <para id="WIRE019_K3" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE019;type=c;code=K3"/>
+            <name>带马达的左后车门门锁总成</name>
+            <parts parts-id="K3" t="K3 90980-12226"/>
+          </para>
+          <para id="WIRE019_K2" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE019;type=c;code=K2"/>
+            <name>左后电动窗升降器马达总成</name>
+            <parts parts-id="K2" t="K2 90980-10797"/>
+          </para>
+          <para id="WIRE019_K1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE019;type=c;code=K1"/>
+            <name>左后电动窗升降器开关总成</name>
+            <parts parts-id="K1" t="K1 90980-10789"/>
+          </para>
+          <para id="WIRE019_KL1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE019;type=w;code=KL1"/>
+            <name>后门 2 号线束和地板线束</name>
+            <parts parts-id="KL1" t="KL1 90980-12A01 90980-12A00"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE020" t="地板线束" term-id-from="001">
+          <para id="WIRE020_L14" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L14"/>
+            <name>左侧帘式空气囊总成</name>
+            <parts parts-id="L14" t="L14 90980-12575"/>
+          </para>
+          <para id="WIRE020_L48" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L48"/>
+            <name>右侧帘式空气囊总成</name>
+            <parts parts-id="L48" t="L48 90980-12575"/>
+          </para>
+          <para id="WIRE020_L51" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L51"/>
+            <name>车门控制接收器</name>
+            <parts parts-id="L51" t="L51 90980-12366"/>
+          </para>
+          <para id="WIRE020_L1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L1"/>
+            <name>左前车门门控灯开关总成</name>
+            <parts parts-id="L1" t="L1 90980-10871"/>
+          </para>
+          <para id="WIRE020_L41" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L41"/>
+            <name>右前车门门控灯开关总成</name>
+            <parts parts-id="L41" t="L41 90980-10871"/>
+          </para>
+          <para id="WIRE020_L10" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L10"/>
+            <name>前排左侧座椅外安全带总成</name>
+            <parts parts-id="L10" t="L10 90980-12452"/>
+          </para>
+          <para id="WIRE020_L44" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L44"/>
+            <name>前排右侧座椅外安全带总成</name>
+            <parts parts-id="L44" t="L44 90980-12452"/>
+          </para>
+          <para id="WIRE020_L23" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L23"/>
+            <name>燃油泵控制 ECU 总成</name>
+            <parts parts-id="L23" t="L23 90980-10957"/>
+          </para>
+          <para id="WIRE020_L22" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L22"/>
+            <name>带泵和仪表的燃油吸油管总成</name>
+            <parts parts-id="L22" t="L22 90980-11077"/>
+          </para>
+          <para id="WIRE020_L6" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L6"/>
+            <name>左侧牌照灯总成</name>
+            <parts parts-id="L6" t="L6 90980-WA051"/>
+          </para>
+          <para id="WIRE020_L7" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L7"/>
+            <name>右侧牌照灯总成</name>
+            <parts parts-id="L7" t="L7 90980-WA051"/>
+          </para>
+          <para id="WIRE020_L30" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L30"/>
+            <name>行李厢门锁总成</name>
+            <parts parts-id="L30" t="L30 90980-10908"/>
+          </para>
+          <para id="WIRE020_L39" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L39"/>
+            <name>行李厢电子钥匙开关</name>
+            <parts parts-id="L39" t="L39 90980-12695"/>
+          </para>
+          <para id="WIRE020_L24" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L24"/>
+            <name>1 号行李厢灯总成</name>
+            <parts parts-id="L24" t="L24 90980-11148"/>
+          </para>
+          <para id="WIRE020_L20" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L20"/>
+            <name>车内 2 号电子钥匙天线总成</name>
+            <parts parts-id="L20" t="L20 90980-12795"/>
+          </para>
+          <para id="WIRE020_L43" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L43"/>
+            <name>车内 3 号电子钥匙天线总成</name>
+            <parts parts-id="L43" t="L43 90980-12795"/>
+          </para>
+          <para id="WIRE020_L54" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L54"/>
+            <name>7 号接线连接器</name>
+            <parts parts-id="L54" t="L54 90980-12372"/>
+          </para>
+          <para id="WIRE020_L55" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L55"/>
+            <name>7 号接线连接器</name>
+            <parts parts-id="L55" t="L55 90980-12372"/>
+          </para>
+          <para id="WIRE020_L56" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L56"/>
+            <name>8 号接线连接器</name>
+            <parts parts-id="L56" t="L56 90980-12773"/>
+          </para>
+          <para id="WIRE020_L25" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L25"/>
+            <name>静噪滤波器（无线电设定电容器）</name>
+            <parts parts-id="L25" t="L25 -"/>
+          </para>
+          <para id="WIRE020_L13" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L13"/>
+            <name>左后空气囊传感器</name>
+            <parts parts-id="L13" t="L13 90980-12717"/>
+          </para>
+          <para id="WIRE020_L47" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L47"/>
+            <name>右后空气囊传感器</name>
+            <parts parts-id="L47" t="L47 90980-12717"/>
+          </para>
+          <para id="WIRE020_L3" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L3"/>
+            <name>左后组合灯总成</name>
+            <parts parts-id="L3" t="L3 90980-10908"/>
+          </para>
+          <para id="WIRE020_L9" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L9"/>
+            <name>左后组合灯总成</name>
+            <parts parts-id="L9" t="L9 90980-10906"/>
+          </para>
+          <para id="WIRE020_L27" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L27"/>
+            <name>左后组合灯总成</name>
+            <parts parts-id="L27" t="L27 90980-10795"/>
+          </para>
+          <para id="WIRE020_L4" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L4"/>
+            <name>右后组合灯总成</name>
+            <parts parts-id="L4" t="L4 90980-10908"/>
+          </para>
+          <para id="WIRE020_L5" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L5"/>
+            <name>右后组合灯总成</name>
+            <parts parts-id="L5" t="L5 90980-10906"/>
+          </para>
+          <para id="WIRE020_L26" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L26"/>
+            <name>右后组合灯总成</name>
+            <parts parts-id="L26" t="L26 90980-10795"/>
+          </para>
+          <para id="WIRE020_L2" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L2"/>
+            <name>左后车门门控灯开关总成</name>
+            <parts parts-id="L2" t="L2 90980-10871"/>
+          </para>
+          <para id="WIRE020_L42" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L42"/>
+            <name>右后车门门控灯开关总成</name>
+            <parts parts-id="L42" t="L42 90980-10871"/>
+          </para>
+          <para id="WIRE020_L18" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L18"/>
+            <name>后电子钥匙天线</name>
+            <parts parts-id="L18" t="L18 90980-12381"/>
+          </para>
+          <para id="WIRE020_L28" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L28"/>
+            <name>左后灯总成</name>
+            <parts parts-id="L28" t="L28 90980-10825"/>
+          </para>
+          <para id="WIRE020_L31" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L31"/>
+            <name>左后灯总成</name>
+            <parts parts-id="L31" t="L31 90980-11162"/>
+          </para>
+          <para id="WIRE020_L34" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L34"/>
+            <name>左后灯总成</name>
+            <parts parts-id="L34" t="L34 90980-11156"/>
+          </para>
+          <para id="WIRE020_L37" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L37"/>
+            <name>左后灯总成</name>
+            <parts parts-id="L37" t="L37 90980-11148"/>
+          </para>
+          <para id="WIRE020_L57" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L57"/>
+            <name>左后灯总成</name>
+            <parts parts-id="L57" t="L57 90980-10795"/>
+          </para>
+          <para id="WIRE020_L32" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L32"/>
+            <name>右后灯总成</name>
+            <parts parts-id="L32" t="L32 90980-11162"/>
+          </para>
+          <para id="WIRE020_L33" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L33"/>
+            <name>右后灯总成</name>
+            <parts parts-id="L33" t="L33 90980-11156"/>
+          </para>
+          <para id="WIRE020_L38" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L38"/>
+            <name>右后灯总成</name>
+            <parts parts-id="L38" t="L38 90980-11148"/>
+          </para>
+          <para id="WIRE020_L58" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L58"/>
+            <name>右后灯总成</name>
+            <parts parts-id="L58" t="L58 90980-10795"/>
+          </para>
+          <para id="WIRE020_L40" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L40"/>
+            <name>后排左侧座椅外安全带总成</name>
+            <parts parts-id="L40" t="L40 90980-12452"/>
+          </para>
+          <para id="WIRE020_L53" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L53"/>
+            <name>后排右侧座椅外安全带总成</name>
+            <parts parts-id="L53" t="L53 90980-12452"/>
+          </para>
+          <para id="WIRE020_L36" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L36"/>
+            <name>左后扬声器总成</name>
+            <parts parts-id="L36" t="L36 90980-10935"/>
+          </para>
+          <para id="WIRE020_L35" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L35"/>
+            <name>右后扬声器总成</name>
+            <parts parts-id="L35" t="L35 90980-10935"/>
+          </para>
+          <para id="WIRE020_L29" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L29"/>
+            <name>后电视摄像机总成</name>
+            <parts parts-id="L29" t="L29 90980-12790"/>
+          </para>
+          <para id="WIRE020_L8" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L8"/>
+            <name>后窗除雾器（背窗玻璃）</name>
+            <parts parts-id="L8" t="L8 90980-10914"/>
+          </para>
+          <para id="WIRE020_L11" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L11"/>
+            <name>左侧侧空气囊传感器总成</name>
+            <parts parts-id="L11" t="L11 90980-12699"/>
+          </para>
+          <para id="WIRE020_L12" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L12"/>
+            <name>左侧侧空气囊传感器总成</name>
+            <parts parts-id="L12" t="L12 90980-12717"/>
+          </para>
+          <para id="WIRE020_L45" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L45"/>
+            <name>右侧侧空气囊传感器总成</name>
+            <parts parts-id="L45" t="L45 90980-12699"/>
+          </para>
+          <para id="WIRE020_L46" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L46"/>
+            <name>右侧侧空气囊传感器总成</name>
+            <parts parts-id="L46" t="L46 90980-12717"/>
+          </para>
+          <para id="WIRE020_L52" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE020;type=c;code=L52"/>
+            <name>智能车门控制接收器总成</name>
+            <parts parts-id="L52" t="L52 90980-12366"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE021" t="车顶 1 号线束" term-id-from="001">
+          <para id="WIRE021_O4" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE021;type=c;code=O4"/>
+            <name>阅读灯总成</name>
+            <parts parts-id="O4" t="O4 90980-12559"/>
+          </para>
+          <para id="WIRE021_O5" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE021;type=c;code=O5"/>
+            <name>1 号车厢照明灯总成</name>
+            <parts parts-id="O5" t="O5 90980-11950"/>
+          </para>
+          <para id="WIRE021_O6" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE021;type=c;code=O6"/>
+            <name>1 号车厢照明灯总成</name>
+            <parts parts-id="O6" t="O6 -"/>
+          </para>
+          <para id="WIRE021_O3" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE021;type=c;code=O3"/>
+            <name>滑动天窗控制 ECU（滑动天窗主动齿轮分总成）</name>
+            <parts parts-id="O3" t="O3 90980-12812"/>
+          </para>
+          <para id="WIRE021_O2" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE021;type=c;code=O2"/>
+            <name>左侧梳妆灯总成</name>
+            <parts parts-id="O2" t="O2 90980-10935"/>
+          </para>
+          <para id="WIRE021_O1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE021;type=c;code=O1"/>
+            <name>右侧梳妆灯总成</name>
+            <parts parts-id="O1" t="O1 90980-10935"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE022" t="行李厢 2 号线束" term-id-from="001">
+          <para id="WIRE022_P3" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE022;type=c;code=P3"/>
+            <name>左侧中央 1 号超声波传感器</name>
+            <parts parts-id="P3" t="P3 90980-12382"/>
+          </para>
+          <para id="WIRE022_P7" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE022;type=c;code=P7"/>
+            <name>左侧中央 1 号超声波传感器</name>
+            <parts parts-id="P7" t="P7 90980-11246"/>
+          </para>
+          <para id="WIRE022_P2" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE022;type=c;code=P2"/>
+            <name>右侧中央 1 号超声波传感器</name>
+            <parts parts-id="P2" t="P2 90980-12382"/>
+          </para>
+          <para id="WIRE022_P6" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE022;type=c;code=P6"/>
+            <name>右侧中央 1 号超声波传感器</name>
+            <parts parts-id="P6" t="P6 90980-11246"/>
+          </para>
+          <para id="WIRE022_P4" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE022;type=c;code=P4"/>
+            <name>左侧 1 号超声波传感器</name>
+            <parts parts-id="P4" t="P4 90980-12382"/>
+          </para>
+          <para id="WIRE022_P8" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE022;type=c;code=P8"/>
+            <name>左侧 1 号超声波传感器</name>
+            <parts parts-id="P8" t="P8 90980-11246"/>
+          </para>
+          <para id="WIRE022_P1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE022;type=c;code=P1"/>
+            <name>右侧 1 号超声波传感器</name>
+            <parts parts-id="P1" t="P1 90980-12382"/>
+          </para>
+          <para id="WIRE022_P5" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE022;type=c;code=P5"/>
+            <name>右侧 1 号超声波传感器</name>
+            <parts parts-id="P5" t="P5 90980-11246"/>
+          </para>
+          <para id="WIRE022_PL1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE022;type=w;code=PL1"/>
+            <name>行李厢 2 号线束和地板线束</name>
+            <parts parts-id="PL1" t="PL1 90980-12520 90980-12519"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE023" t="后窗 2 号线束" term-id-from="001">
+          <para id="WIRE023_Q1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE023;type=c;code=Q1"/>
+            <name>后窗除雾器（背窗玻璃）</name>
+            <parts parts-id="Q1" t="Q1 90980-10913"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE024" t="中央刹车灯导线总成　" term-id-from="001">
+          <para id="WIRE024_g1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE024;type=c;code=g1"/>
+            <name>中央刹车灯总成</name>
+            <parts parts-id="g1" t="G1 90980-10860"/>
+          </para>
+          <para id="WIRE024_gL1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE024;type=w;code=gL1"/>
+            <name>中央刹车灯导线总成和地板线束</name>
+            <parts parts-id="gL1" t="GL1 90980-10860 90980-11060"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE025" t="右侧防滑控制传感器线束" term-id-from="001">
+          <para id="WIRE025_h1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE025;type=c;code=h1"/>
+            <name>右后轮转速传感器（右侧防滑控制传感器线束）</name>
+            <parts parts-id="h1" t="H1 90980-12416"/>
+          </para>
+          <para id="WIRE025_hL1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE025;type=w;code=hL1"/>
+            <name>右侧防滑控制传感器线束和地板线束</name>
+            <parts parts-id="hL1" t="HL1 90980-12342 90980-11060"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE026" t="左侧防滑控制传感器线束" term-id-from="001">
+          <para id="WIRE026_j1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE026;type=c;code=j1"/>
+            <name>左后轮转速传感器（左侧防滑控制传感器线束）</name>
+            <parts parts-id="j1" t="J1 90980-12416"/>
+          </para>
+          <para id="WIRE026_jL1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE026;type=w;code=jL1"/>
+            <name>左侧防滑控制传感器线束和地板线束</name>
+            <parts parts-id="jL1" t="JL1 90980-12342 90980-11060"/>
+          </para>
+        </ttl>
+      </section>
+      <section id="_C-SEAT" t="座椅">
+        <ttl id="_WIRE027" t="地板线束" term-id-from="001">
+          <para id="WIRE027_L50" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE027;type=c;code=L50"/>
+            <name>前排右侧座椅座垫加热器总成</name>
+            <parts parts-id="L50" t="L50 90980-10795"/>
+          </para>
+          <para id="WIRE027_L16" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE027;type=c;code=L16"/>
+            <name>前排左侧座椅内安全带总成</name>
+            <parts parts-id="L16" t="L16 90980-12366"/>
+          </para>
+          <para id="WIRE027_L17" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE027;type=c;code=L17"/>
+            <name>前排右侧座椅内安全带总成</name>
+            <parts parts-id="L17" t="L17 90980-12366"/>
+          </para>
+          <para id="WIRE027_Le1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE027;type=w;code=Le1"/>
+            <name>地板线束和前排左侧座椅空气囊总成</name>
+            <parts parts-id="Le1" t="LE1 90980-12698 90980-12697"/>
+          </para>
+          <para id="WIRE027_Lf1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE027;type=w;code=Lf1"/>
+            <name>地板线束和前排右侧座椅空气囊总成</name>
+            <parts parts-id="Lf1" t="LF1 90980-12698 90980-12697"/>
+          </para>
+          <para id="WIRE027_LT1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE027;type=w;code=LT1"/>
+            <name>地板线束和前排左侧座椅线束</name>
+            <parts parts-id="LT1" t="LT1 90980-12374 90980-12373"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE028" t="前排左侧座椅线束" term-id-from="001">
+          <para id="WIRE028_T4" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE028;type=c;code=T4"/>
+            <name>前排电动座椅腰部开关</name>
+            <parts parts-id="T4" t="T4 90980-10933"/>
+          </para>
+          <para id="WIRE028_T2" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE028;type=c;code=T2"/>
+            <name>前排电动座椅升降位置马达</name>
+            <parts parts-id="T2" t="T2 90980-12341"/>
+          </para>
+          <para id="WIRE028_T1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE028;type=c;code=T1"/>
+            <name>前排电动座椅滑动位置马达</name>
+            <parts parts-id="T1" t="T1 90980-12335"/>
+          </para>
+          <para id="WIRE028_T3" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE028;type=c;code=T3"/>
+            <name>前排电动座椅开关</name>
+            <parts parts-id="T3" t="T3 90980-10807"/>
+          </para>
+          <para id="WIRE028_T5" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE028;type=c;code=T5"/>
+            <name>前排左侧座椅座垫加热器总成</name>
+            <parts parts-id="T5" t="T5 90980-11763"/>
+          </para>
+          <para id="WIRE028_T6" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE028;type=c;code=T6"/>
+            <name>9 号接线连接器</name>
+            <parts parts-id="T6" t="T6 90980-12346"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE029" t="前排左侧座椅 2 号线束" term-id-from="001">
+          <para id="WIRE029_W2" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE029;type=c;code=W2"/>
+            <name>前排电动座椅腰部支撑马达</name>
+            <parts parts-id="W2" t="W2 90980-12341"/>
+          </para>
+          <para id="WIRE029_W1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE029;type=c;code=W1"/>
+            <name>前排电动座椅靠背倾角位置马达</name>
+            <parts parts-id="W1" t="W1 90980-12335"/>
+          </para>
+          <para id="WIRE029_WT1" category="w" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE029;type=w;code=WT1"/>
+            <name>前排左侧座椅 2 号线束和前排左侧座椅线束</name>
+            <parts parts-id="WT1" t="WT1 90980-12733 90980-12732"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE030" t="前排左侧座椅空气囊总成" term-id-from="001">
+          <para id="WIRE030_e1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE030;type=c;code=e1"/>
+            <name>前排左侧座椅空气囊总成</name>
+            <parts parts-id="e1" t="E1 90980-12452"/>
+          </para>
+        </ttl>
+        <ttl id="_WIRE031" t="前排右侧座椅空气囊总成" term-id-from="001">
+          <para id="WIRE031_f1" category="c" term-id-from="001">
+            <emlink type="-" code="ewd_type=connlist;ewd=WIRE031;type=c;code=f1"/>
+            <name>前排右侧座椅空气囊总成</name>
+            <parts parts-id="f1" t="F1 90980-12452"/>
+          </para>
+        </ttl>
+      </section>
+    </servcat>
+  </pub>
+</tmc-service-txt-search>

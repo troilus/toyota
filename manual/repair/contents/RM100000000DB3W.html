@@ -1,0 +1,1154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_58</span>
+<span class="globalServcatName">车辆内饰</span>
+<span class="globalSection">_024005</span>
+<span class="globalSectionName">防盗/无钥匙上车系统</span>
+<span class="globalTitle">_0116716</span>
+<span class="globalTitleName">停机系统（不带智能进入和起动系统）</span>
+<span class="globalCategory">U</span>
+</div>
+<h1>防盗/无钥匙上车系统&nbsp;&nbsp;停机系统（不带智能进入和起动系统）&nbsp;&nbsp;ECU 端子&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DB3W_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">检查应答器钥匙 ECU 总成
+</span></p>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B271269.png" alt="B271269" title="B271269">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">3.24,0.667 3.656,0.938</span>
+<span class="rectangleSize">0.417,0.271</span>
+</span>
+<span class="caption">
+<span class="points">3.333,0.719 3.792,0.917</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E29</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>断开应答器钥匙 ECU 总成连接器 E29。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>根据下表中的值测量电阻和电压。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>在连接器断开的情况下，测量线束侧的值。
+</p>
+</dd>
+</dl>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:13%">
+<col style="width:13%">
+<col style="width:13%">
+<col style="width:13%">
+<col style="width:13%">
+<col style="width:15%">
+<col style="width:16%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">输入/输出
+</th>
+<th class="alcenter">配线颜色
+</th>
+<th class="alcenter">端子描述
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+<th class="alcenter">相关数据表项目/DTC
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E29-1 (+B) - E29-5 (GND)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">W - BR
+</td>
+<td class="alcenter">蓄电池
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+<td class="alcenter">+B
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">E29-2 (IG) - E29-5 (GND)
+</td>
+<td class="alcenter" rowspan="2">输入
+</td>
+<td class="alcenter" rowspan="2">B - BR
+</td>
+<td class="alcenter" rowspan="2">点火开关信号
+</td>
+<td class="alcenter">点火开关 OFF
+</td>
+<td class="alcenter">低于 1 V
+</td>
+<td class="alcenter" rowspan="2">IG SW
+</td>
+</tr>
+<tr>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">E29-3 (KSW) - E29-5 (GND)
+</td>
+<td class="alcenter" rowspan="2">输入
+</td>
+<td class="alcenter" rowspan="2">V - BR
+</td>
+<td class="alcenter" rowspan="2">未锁警告开关信号
+</td>
+<td class="alcenter">点火锁芯内无车门控制发射器总成
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+<td class="alcenter" rowspan="2"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>B2780
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Key SW
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">点火锁芯内有车门控制发射器总成
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">E29-5 (GND) - 车身接地
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">BR - 车身接地
+</td>
+<td class="alcenter">接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>重新连接应答器钥匙 ECU 总成连接器 E29。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>根据下表中的值测量电压并检查脉冲。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:13%">
+<col style="width:13%">
+<col style="width:13%">
+<col style="width:13%">
+<col style="width:13%">
+<col style="width:14%">
+<col style="width:15%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">输入/输出
+</th>
+<th class="alcenter">配线颜色
+</th>
+<th class="alcenter">端子描述
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+<th class="alcenter">相关数据表项目/DTC
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter" rowspan="2">E29-8 (IND) - E29-5 (GND)
+</td>
+<td class="alcenter" rowspan="2">输出
+</td>
+<td class="alcenter" rowspan="2">Y - BR
+</td>
+<td class="alcenter" rowspan="2">安全指示灯信号
+</td>
+<td class="alcenter">车门控制发射器总成未插入点火锁芯，或点火开关切换至 ACC 或 OFF 位置后经过 20 秒（停机系统设定）
+</td>
+<td class="alcenter">产生脉冲
+</td>
+<td class="alcenter" rowspan="2">Immobiliser
+</td>
+</tr>
+<tr>
+<td class="alcenter">点火锁芯内有车门控制发射器总成（停机系统解除）
+</td>
+<td class="alcenter">低于 1 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">E29-9 (D) - E29-5 (GND)
+</td>
+<td class="alcenter" rowspan="2">输入/输出
+</td>
+<td class="alcenter" rowspan="2">LG - BR
+</td>
+<td class="alcenter" rowspan="2">DLC3 通信
+</td>
+<td class="alcenter">未通信
+</td>
+<td class="alcenter">低于 1 V
+</td>
+<td class="alcenter" rowspan="2">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">通信期间
+</td>
+<td class="alcenter">产生脉冲
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">E29-4 (ANT1) - E29-5 (GND)
+</td>
+<td class="alcenter" rowspan="2">输入/输出
+</td>
+<td class="alcenter" rowspan="2">V - BR
+</td>
+<td class="alcenter" rowspan="2">应答器钥匙放大器电源
+</td>
+<td class="alcenter">点火锁芯内无车门控制发射器总成
+</td>
+<td class="alcenter">4 至 6 V
+</td>
+<td class="alcenter" rowspan="2">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">将车门控制发射器总成插入点火锁芯后 3 秒内
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 1）
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">E29-15 (ANT2) - E29-5 (GND)
+</td>
+<td class="alcenter" rowspan="2">输入/输出
+</td>
+<td class="alcenter" rowspan="2">W - BR
+</td>
+<td class="alcenter" rowspan="2">应答器钥匙放大器通信信号
+</td>
+<td class="alcenter">点火锁芯内无车门控制发射器总成
+</td>
+<td class="alcenter">4 至 6 V
+</td>
+<td class="alcenter" rowspan="2">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">将车门控制发射器总成插入点火锁芯后 3 秒内
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 2）
+</td>
+</tr>
+<tr>
+<td class="alcenter">E29-12 (EFII) - E29-5 (GND)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">LG - BR
+</td>
+<td class="alcenter">ECM 输入信号
+</td>
+<td class="alcenter">起动机操作和初始燃烧 3 秒内或断开并重新连接蓄电池负极 (-) 端子电缆后首次将点火开关置于 ON 位置 3 秒内
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 3）
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">E29-13 (EFIO) - E29-5 (GND)
+</td>
+<td class="alcenter" rowspan="2">输出
+</td>
+<td class="alcenter" rowspan="2">P - BR
+</td>
+<td class="alcenter" rowspan="2">ECM 输出信号
+</td>
+<td class="alcenter">点火开关 OFF
+</td>
+<td class="alcenter">低于 1 V
+</td>
+<td class="alcenter" rowspan="2">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 4）
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>使用示波器检查波形。
+</p>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>波形 1（参考）
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B329909.png" alt="B329909" title="B329909">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">5.76,0.854 6.219,1.052</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:36%">
+<col style="width:63%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td>E29-4 (ANT1) - E29-5 (GND)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，500 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>将车门控制发射器总成插入点火锁芯后 3 秒内
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>波形 2（参考）
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B329910.png" alt="B329910" title="B329910">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">5.75,0.854 6.208,1.052</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:35%">
+<col style="width:64%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td>E29-15 (ANT2) - E29-5 (GND)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，500 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>将车门控制发射器总成插入点火锁芯后 3 秒内
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>波形 3（参考）
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B325134.png" alt="B325134" title="B325134">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.906,1.25 1.365,1.448</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">2.719,1.354 3.177,1.552</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">2.906,1.354 3.365,1.552</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">*b</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>约 160 ms
+</td>
+<td class="alcenter">*b
+</td>
+<td>约 270 ms
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:35%">
+<col style="width:64%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td>E29-12 (EFII) - E29-5 (GND)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，500 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>起动机操作和初始燃烧 3 秒内或断开并重新连接蓄电池负极 (-) 端子电缆后首次将点火开关置于 ON 位置 3 秒内
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">iv.</div>
+<div class="step3Body">
+<p>波形 4（参考）
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B333259.png" alt="B333259" title="B333259">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.844,1.24 1.302,1.438</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">3.115,1.323 3.344,1.531</span>
+<span class="captionSize">0.229,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">3.313,1.323 3.542,1.531</span>
+<span class="captionSize">0.229,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">*b</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>约 160 ms
+</td>
+<td class="alcenter">*b
+</td>
+<td>约 270 ms
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:35%">
+<col style="width:64%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td>E29-13 (EFIO) - E29-5 (GND)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，500 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>点火开关 ON
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">检查 ECM
+</span></p>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B318518.png" alt="B318518" title="B318518">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">2.438,0.229 2.813,0.448</span>
+<span class="rectangleSize">0.375,0.219</span>
+</span>
+<span class="rectangle">
+<span class="points">5.854,0.24 6.208,0.458</span>
+<span class="rectangleSize">0.354,0.219</span>
+</span>
+<span class="caption">
+<span class="points">2.5,0.25 2.865,0.51</span>
+<span class="captionSize">0.365,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B39</span>
+</span>
+<span class="caption">
+<span class="points">5.896,0.26 6.448,0.552</span>
+<span class="captionSize">0.552,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A40</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>根据下表中的值测量电压和电阻并检查脉冲。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:13%">
+<col style="width:13%">
+<col style="width:13%">
+<col style="width:13%">
+<col style="width:13%">
+<col style="width:14%">
+<col style="width:15%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">输入/输出
+</th>
+<th class="alcenter">配线颜色
+</th>
+<th class="alcenter">端子描述
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+<th class="alcenter">相关数据表项目/DTC
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">B39-59 (E1) - 车身接地
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">BR - 车身接地
+</td>
+<td class="alcenter">接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">B39-57 (E01) - 车身接地
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">W-B - 车身接地
+</td>
+<td class="alcenter">接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">B39-58 (E02) - 车身接地
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">W-B - 车身接地
+</td>
+<td class="alcenter">接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">A40-1 (BATT) - B39-59 (E1)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">P - BR
+</td>
+<td class="alcenter">蓄电池（测量蓄电池电压和 ECM 存储器）
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">A40-3 (+B2) - B39-59 (E1)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">B - BR
+</td>
+<td class="alcenter">ECM 电源
+</td>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">A40-2 (+B) - B39-59 (E1)
+</td>
+<td class="alcenter">输入
+</td>
+<td class="alcenter">B - BR
+</td>
+<td class="alcenter">ECM 电源
+</td>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">A40-45 (IMO) - B39-59 (E1)
+</td>
+<td class="alcenter">输出
+</td>
+<td class="alcenter">LG - BR
+</td>
+<td class="alcenter">应答器钥匙 ECU 总成通信输出
+</td>
+<td class="alcenter">起动机操作和初始燃烧 3 秒内或断开并重新连接蓄电池负极 (-) 端子电缆后首次将点火开关置于 ON 位置 3 秒内
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 1）
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">A40-28 (IMI) - B39-59 (E1)
+</td>
+<td class="alcenter" rowspan="2">输入
+</td>
+<td class="alcenter" rowspan="2">P - BR
+</td>
+<td class="alcenter" rowspan="2">应答器钥匙 ECU 总成通信输入
+</td>
+<td class="alcenter">点火开关 OFF
+</td>
+<td class="alcenter">低于 1 V
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">产生脉冲
+<br>
+（参见波形 2）
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>使用示波器检查波形。
+</p>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>波形 1（参考）
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B333258.png" alt="B333258" title="B333258">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.865,1.271 1.323,1.469</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">2.719,1.354 2.885,1.521</span>
+<span class="captionSize">0.167,0.167</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">2.906,1.354 3.073,1.521</span>
+<span class="captionSize">0.167,0.167</span>
+<span class="fontsize">10</span>
+<span class="captionText">*b</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>约 160 ms
+</td>
+<td class="alcenter">*b
+</td>
+<td>约 270 ms
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:36%">
+<col style="width:63%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td class="alleft">A40-45 (IMO) - B39-59 (E1)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，500 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>起动机操作和初始燃烧 3 秒内或断开并重新连接蓄电池负极 (-) 端子电缆后首次将点火开关置于 ON 位置 3 秒内
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>波形 2（参考）
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B333259.png" alt="B333259" title="B333259">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.844,1.24 1.302,1.438</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">3.115,1.323 3.344,1.531</span>
+<span class="captionSize">0.229,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">3.313,1.323 3.542,1.531</span>
+<span class="captionSize">0.229,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">*b</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>约 160 ms
+</td>
+<td class="alcenter">*b
+</td>
+<td>约 270 ms
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<table summary="" class="half">
+<caption>测量条件</caption>
+<colgroup>
+<col style="width:36%">
+<col style="width:63%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">项目
+</th>
+<th class="alcenter">内容
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>检测仪连接
+</td>
+<td class="alleft">A40-28 (IMI) - B39-59 (E1)
+</td>
+</tr>
+<tr>
+<td>工具设定
+</td>
+<td>2 V/格，500 ms/格
+</td>
+</tr>
+<tr>
+<td>条件
+</td>
+<td>点火开关 ON
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

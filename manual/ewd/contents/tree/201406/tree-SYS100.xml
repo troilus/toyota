@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS100" code="B3,C1" type="conn" figID="10">
+    <name>蓄电池</name>
+  </text>
+  <text ewd="SYS100" code="A42" type="conn" figID="38">
+    <name>制动执行器总成</name>
+  </text>
+  <text ewd="SYS100" code="E47,E48,E49" type="conn" figID="37">
+    <name>认证 ECU</name>
+  </text>
+  <text ewd="SYS100" code="E55,E59" type="conn" figID="49">
+    <name>组合仪表总成</name>
+  </text>
+  <text ewd="SYS100" code="A40" type="conn" figID="13">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS100" code="E50" type="conn" figID="24">
+    <name>发动机开关</name>
+  </text>
+  <text ewd="SYS100" code="L1" type="conn" figID="41">
+    <name>左前车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS100" code="L41" type="conn" figID="45">
+    <name>右前车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS100" code="H9" type="conn" figID="42">
+    <name>带电动机的左前门锁总成</name>
+  </text>
+  <text ewd="SYS100" code="G8" type="conn" figID="44">
+    <name>带电动机的右前门锁总成</name>
+  </text>
+  <text ewd="SYS100" code="H8" type="conn" figID="29">
+    <name>左前车门外把手总成</name>
+  </text>
+  <text ewd="SYS100" code="G7" type="conn" figID="27">
+    <name>右前车门外把手总成</name>
+  </text>
+  <text ewd="SYS100" code="E28" type="conn" figID="19">
+    <name>ID 代码箱</name>
+  </text>
+  <text ewd="SYS100" code="L30" type="conn" figID="50">
+    <name>行李厢门锁总成</name>
+  </text>
+  <text ewd="SYS100" code="L39" type="conn" figID="4">
+    <name>行李厢电子钥匙开关</name>
+  </text>
+  <text ewd="SYS100" code="E36" type="conn" figID="35">
+    <name>主车身 ECU</name>
+  </text>
+  <text ewd="SYS100" code="A39" type="conn" figID="52">
+    <name>1 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS100" code="L21" type="conn" figID="31">
+    <name>车内 1 号电子钥匙天线总成</name>
+  </text>
+  <text ewd="SYS100" code="A37" type="conn" figID="8,12">
+    <name>1 号接线连接器</name>
+  </text>
+  <text ewd="SYS100" code="E74" type="conn" figID="47">
+    <name>2 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS100" code="L20" type="conn" figID="28">
+    <name>车内 2 号电子钥匙天线总成</name>
+  </text>
+  <text ewd="SYS100" code="A38" type="conn" figID="33">
+    <name>2 号接线连接器</name>
+  </text>
+  <text ewd="SYS100" code="L43" type="conn" figID="30">
+    <name>车内 3 号电子钥匙天线总成</name>
+  </text>
+  <text ewd="SYS100" code="E71" type="conn" figID="21">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS100" code="E73" type="conn" figID="18">
+    <name>6 号接线连接器</name>
+  </text>
+  <text ewd="SYS100" code="L54,L55" type="conn" figID="34,36">
+    <name>7 号接线连接器</name>
+  </text>
+  <text ewd="SYS100" code="B15" type="conn" figID="11">
+    <name>驻车/空档位置开关总成</name>
+  </text>
+  <text ewd="SYS100" code="L2" type="conn" figID="39">
+    <name>左后车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS100" code="L42" type="conn" figID="40">
+    <name>右后车门门控灯开关总成</name>
+  </text>
+  <text ewd="SYS100" code="K3" type="conn" figID="51">
+    <name>带电动机的左后门锁总成</name>
+  </text>
+  <text ewd="SYS100" code="J3" type="conn" figID="5">
+    <name>带电动机的右后门锁总成</name>
+  </text>
+  <text ewd="SYS100" code="L18" type="conn" figID="26">
+    <name>后电子钥匙天线</name>
+  </text>
+  <text ewd="SYS100" code="E7" type="conn" figID="2">
+    <name>换档锁止控制 ECU（变速器地板式换档总成）</name>
+  </text>
+  <text ewd="SYS100" code="L52" type="conn" figID="3">
+    <name>智能车门控制接收器总成</name>
+  </text>
+  <text ewd="SYS100" code="B5,B10" type="conn" figID="9">
+    <name>起动机总成</name>
+  </text>
+  <text ewd="SYS100" code="E51" type="conn" figID="20">
+    <name>转向锁执行器总成</name>
+  </text>
+  <text ewd="SYS100" code="A2" type="conn" figID="32">
+    <name>刹车灯开关总成</name>
+  </text>
+  <text ewd="SYS100" code="E61" type="conn" figID="1">
+    <name>警告灯总成</name>
+  </text>
+  <text ewd="SYS100" code="FUSE55" type="fuse" figID="188">
+    <name>10A DOOR BACK</name>
+  </text>
+  <text ewd="SYS100" code="FUSE5" type="fuse" figID="176,184">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS100" code="FUSE6" type="fuse" figID="173,182">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS100" code="FUSE17" type="fuse" figID="181">
+    <name>10A TURN&amp;HAZ</name>
+  </text>
+  <text ewd="SYS100" code="FUSE36" type="fuse" figID="179">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS100" code="FUSE19" type="fuse" figID="178">
+    <name>15A IG2</name>
+  </text>
+  <text ewd="SYS100" code="FUSE60" type="fuse" figID="187">
+    <name>20A D/L NO.2</name>
+  </text>
+  <text ewd="SYS100" code="FUSE21" type="fuse" figID="174">
+    <name>20A STRG LOCK</name>
+  </text>
+  <text ewd="SYS100" code="FUSE28" type="fuse" figID="172">
+    <name>30A ST</name>
+  </text>
+  <text ewd="SYS100" code="FUSE39" type="fuse" figID="183">
+    <name>5A MET</name>
+  </text>
+  <text ewd="SYS100" code="FUSE43" type="fuse" figID="186">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS100" code="FUSE2" type="fuse" figID="177">
+    <name>7.5A AM2</name>
+  </text>
+  <text ewd="SYS100" code="FUSE47" type="fuse" figID="185">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS100" code="FUSE50" type="fuse" figID="175">
+    <name>7.5A IGN</name>
+  </text>
+  <text ewd="SYS100" code="FUSE54" type="fuse" figID="180">
+    <name>7.5A STOP</name>
+  </text>
+  <text ewd="SYS100" code="AB" type="gp" figID="145,147">
+    <name />
+  </text>
+  <text ewd="SYS100" code="CA" type="gp" figID="144">
+    <name />
+  </text>
+  <text ewd="SYS100" code="CB" type="gp" figID="143">
+    <name />
+  </text>
+  <text ewd="SYS100" code="EA" type="gp" figID="149,151,159">
+    <name />
+  </text>
+  <text ewd="SYS100" code="EB" type="gp" figID="146,155,158">
+    <name />
+  </text>
+  <text ewd="SYS100" code="EC" type="gp" figID="150,160">
+    <name />
+  </text>
+  <text ewd="SYS100" code="ED" type="gp" figID="148,153,156">
+    <name />
+  </text>
+  <text ewd="SYS100" code="LA" type="gp" figID="152,157">
+    <name />
+  </text>
+  <text ewd="SYS100" code="LB" type="gp" figID="161">
+    <name />
+  </text>
+  <text ewd="SYS100" code="LC" type="gp" figID="154">
+    <name />
+  </text>
+  <text ewd="SYS100" code="LD" type="gp" figID="162">
+    <name />
+  </text>
+  <text ewd="SYS100" code="1" type="jb" figID="69">
+    <name />
+  </text>
+  <text ewd="SYS100" code="3" type="jb" figID="66,67,68,70,71,72,73,74,75,76,77,78,79,80">
+    <name />
+  </text>
+  <text ewd="SYS100" code="1" type="rb" figID="7,23">
+    <name />
+  </text>
+  <text ewd="SYS100" code="FUSE5" type="rb" figID="16,48">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS100" code="FUSE6" type="rb" figID="14,43">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS100" code="FUSE17" type="rb" figID="46">
+    <name>10A TURN&amp;HAZ</name>
+  </text>
+  <text ewd="SYS100" code="FUSE36" type="rb" figID="25">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS100" code="FUSE19" type="rb" figID="22">
+    <name>15A IG2</name>
+  </text>
+  <text ewd="SYS100" code="FUSE21" type="rb" figID="15">
+    <name>20A STRG LOCK</name>
+  </text>
+  <text ewd="SYS100" code="FUSE28" type="rb" figID="6">
+    <name>30A ST</name>
+  </text>
+  <text ewd="SYS100" code="FUSE2" type="rb" figID="17">
+    <name>7.5A AM2</name>
+  </text>
+  <text ewd="SYS100" code="SP3" type="sp" figID="163,165">
+    <name />
+  </text>
+  <text ewd="SYS100" code="SP14" type="sp" figID="164">
+    <name />
+  </text>
+  <text ewd="SYS100" code="SP29" type="sp" figID="166,171">
+    <name />
+  </text>
+  <text ewd="SYS100" code="SP30" type="sp" figID="167,170">
+    <name />
+  </text>
+  <text ewd="SYS100" code="SP37" type="sp" figID="168,169">
+    <name />
+  </text>
+  <text ewd="SYS100" code="AE2" type="w2w" figID="84,85,89,90,117,121,123">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS100" code="AE3" type="w2w" figID="88,91,119">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS100" code="AE4" type="w2w" figID="86,116,118,120,122">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS100" code="AE8" type="w2w" figID="87">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS100" code="BA1" type="w2w" figID="82,83">
+    <name>发动机线束和发动机室主线束</name>
+  </text>
+  <text ewd="SYS100" code="BA3" type="w2w" figID="81">
+    <name>发动机线束和发动机室主线束</name>
+  </text>
+  <text ewd="SYS100" code="HE1" type="w2w" figID="128,129,141">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS100" code="HE2" type="w2w" figID="98,99,100,101,103">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS100" code="HE3" type="w2w" figID="102,127">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS100" code="GE1" type="w2w" figID="131,132,142">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS100" code="GE2" type="w2w" figID="92,93,94,95,97">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS100" code="GE3" type="w2w" figID="96,130">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS100" code="EL1" type="w2w" figID="112">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS100" code="EL2" type="w2w" figID="106,107,113,114,115,125">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS100" code="EL4" type="w2w" figID="104,105,124,126">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS100" code="EL5" type="w2w" figID="108,109,110,111">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS100" code="JL1" type="w2w" figID="137,138,139,140">
+    <name>后门 1 号线束和地板线束</name>
+  </text>
+  <text ewd="SYS100" code="KL1" type="w2w" figID="133,134,135,136">
+    <name>后门 2 号线束和地板线束</name>
+  </text>
+</EwdTree>

@@ -1,0 +1,969 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_54</span>
+<span class="globalServcatName">制动</span>
+<span class="globalSection">_023990</span>
+<span class="globalSectionName">制动控制/动态控制系统</span>
+<span class="globalTitle">_0116082</span>
+<span class="globalTitleName">车辆稳定性控制系统</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>制动控制/动态控制系统&nbsp;&nbsp;车辆稳定性控制系统&nbsp;&nbsp;C146C&nbsp;&nbsp;ABS 马达继电器电路开路&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D7Z4_01" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<p>ABS 马达继电器向泵马达供电。 激活 ABS 时，防滑控制 ECU 接通 ABS 马达继电器以使泵马达运行。
+</p>
+<p>如果因为蓄电池或交流发电机电压低而导致提供给 ABS 马达继电器 (+BM) 的电压过低，则可能会存储该 DTC。
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:25%">
+<col style="width:39%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">C146C
+</td>
+<td class="alleft">ABS 马达继电器电路开路
+</td>
+<td class="alleft">检测到以下任一条件时：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>启动 ABS 马达继电器时，未向泵马达施加电压。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>不启动 ABS 马达继电器时，泵马达中的电压高。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>防滑控制 ECU 判定泵马达工作异常。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>1 号 ABS 保险丝
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ABS 马达继电器电路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ABS 马达继电器（制动执行器总成）
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000D7Z4_08" class="category no03">
+<h2>电路图</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/C278167.png" alt="C278167" title="C278167">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">4.906,1.396 6.271,1.75</span>
+<span class="captionSize">1.365,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ABS 马达继电器</span>
+</span>
+<span class="caption">
+<span class="points">4.896,2.344 6.26,2.698</span>
+<span class="captionSize">1.365,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">防滑控制 ECU</span>
+</span>
+<span class="caption">
+<span class="points">1.896,1.625 2.833,1.875</span>
+<span class="captionSize">0.938,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1 号 ABS</span>
+</span>
+<span class="caption">
+<span class="points">3.802,1.531 4.198,1.938</span>
+<span class="captionSize">0.396,0.406</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+BM</span>
+</span>
+<span class="caption">
+<span class="points">3.615,1.302 3.844,1.521</span>
+<span class="captionSize">0.229,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">1.948,1.281 2.177,1.5</span>
+<span class="captionSize">0.229,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">2.396,1.281 2.625,1.5</span>
+<span class="captionSize">0.229,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">0.76,2.104 1.698,2.354</span>
+<span class="captionSize">0.938,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ALT</span>
+</span>
+<span class="caption">
+<span class="points">0.771,3.083 1.708,3.333</span>
+<span class="captionSize">0.938,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">FL MAIN</span>
+</span>
+<span class="caption">
+<span class="points">0.875,4.115 1.813,4.365</span>
+<span class="captionSize">0.938,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">蓄电池</span>
+</span>
+<span class="caption">
+<span class="points">3.552,3.26 3.781,3.479</span>
+<span class="captionSize">0.229,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">13</span>
+</span>
+<span class="caption">
+<span class="points">3.802,3.5 4.344,3.74</span>
+<span class="captionSize">0.542,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND2</span>
+</span>
+<span class="caption">
+<span class="points">5.292,4.771 6.531,5.042</span>
+<span class="captionSize">1.24,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">泵马达</span>
+</span>
+<span class="caption">
+<span class="points">4.458,5.177 5.698,5.448</span>
+<span class="captionSize">1.24,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A42</span>
+</span>
+<span class="caption">
+<span class="points">4.865,5.177 6.813,5.438</span>
+<span class="captionSize">1.948,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">制动执行器总成</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000D7Z4_09" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>更换防滑控制 ECU（制动执行器总成）时，执行系统校准学习。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;校准<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7YG,</span></a>
+
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进行下列程序前，先检查与此系统相关电路的保险丝。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>C1241 和/或 C1417 与 C146C 同时输出时，应首先检查并维修 C1241 和/或 C1417 指示的故障部位。
+</p>
+</dd>
+<dd class="atten4">
+<p>C1241：单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;C1241<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7ZQ,C1241</span></a>
+
+</p>
+</dd>
+<dd class="atten4">
+<p>C1417：单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;C1417<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7ZI,C1417</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000D7Z4_07" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000D7Z4_07_0001">
+<div class="testtitle"><span class="titleText">1.使用 GTS 进行主动测试（ABS 马达继电器）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>使用 GTS 选择主动测试。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;数据表/主动测试<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7YF,</span></a>
+
+</p>
+<dl class="gtsActiveTestTable hasAllTable">
+<dt class="gtsActiveTestTable">Chassis &gt; ABS/VSC/TRC &gt; Active Test</dt>
+<dd class="gtsActiveTestTable">
+<table summary="active-test-table">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">控制范围
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Motor Relay
+</td>
+<td class="alleft">ABS 马达继电器
+</td>
+<td class="alleft">继电器 ON/OFF
+</td>
+<td class="alleft">可以听到马达的工作声音
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="gtsActiveTest">
+<dt class="gtsActiveTest">Chassis &gt; ABS/VSC/TRC &gt; Active Test</dt>
+<dd class="gtsActiveTest">
+<table summary="active-test" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Motor Relay
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsActiveTest gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50004</span>
+<span class="gtsEcu">105</span>
+<span class="gtsDid">2</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>使用 GTS 操作时，检查泵马达的工作声音。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7Z4_07_0001_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">听到工作声音。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">未听到工作声音。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.重新确认 DTC</span></div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">3.检查线束和连接器（端子 +BM）</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7Z4_07_0002">
+<div class="testtitle"><span class="titleText">2.重新确认 DTC</span></div>
+<div class="content6">
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>确定防滑控制 ECU（制动执行器总成）中出现故障时，将存储该 DTC。
+</p>
+</dd>
+<dd class="atten4">
+<p>ABS 马达继电器位于防滑控制 ECU（制动执行器总成）内。
+</p>
+</dd>
+<dd class="atten4">
+<p>因此，无法进行 ABS 马达继电器检查和 ABS 马达继电器单元检查。更换防滑控制 ECU（制动执行器总成）前，一定要检查是否再次输出该 DTC。
+</p>
+</dd>
+</dl>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7YE,</span></a>
+
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>以 40 km/h (25 mph) 或更高的速度驾驶车辆 30 秒或更长时间。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>检查是否输出相同 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7YE,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7Z4_07_0002_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">未输出 DTC C146C。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">输出 DTC C146C。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火开关置于 ON 位置时，如果防滑控制 ECU（制动执行器总成）接收到 40 km/h (25 mph) 或更高的车速信号，则防滑控制 ECU（制动执行器总成）将执行马达电路的自诊断。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果输出正常系统代码（未输出 DTC），则轻轻晃动防滑控制 ECU（制动执行器总成）的连接器、线束和保险丝。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果在晃动防滑控制 ECU（制动执行器总成）的连接器或线束时输出任何 DTC，则检查并维修连接器或线束。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果重新确认 DTC 时没有 DTC 输出，则有必要检查间歇性故障，因为可能是由于连接器端子连接不良而存储原始 DTC。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">使用模拟法进行检查</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;如何对 ECU 控制系统进行故障排除&gt;如何进行故障排除<span class="invisible">201406,999999,_V1,_023977,_0116737,RM100000000DB86,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换制动执行器总成</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;制动执行器&gt;拆卸<span class="invisible">201406,999999,_54,_023990,_0116355,RM100000000D9DF,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7Z4_07_0005">
+<div class="testtitle"><span class="titleText">3.检查线束和连接器（端子 +BM）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C302056.png" alt="C302056" title="C302056">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.323,0.656 0.75,0.927</span>
+<span class="rectangleSize">0.427,0.271</span>
+</span>
+<span class="line">
+<span class="points">1.031,2.49 0.792,1.906</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.208,0.208 0.521,0.406</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.438,0.708 0.75,0.906</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A42</span>
+</span>
+<span class="caption">
+<span class="points">0.938,2.542 1.365,2.74</span>
+<span class="captionSize">0.427,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+BM</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>线束连接器前视图
+<br>
+（至防滑控制 ECU（制动执行器总成））
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>确保连接器的锁止件和连接部件没有松动。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>断开防滑控制 ECU（制动执行器总成）连接器 A42。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A42-1 (+BM) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7Z4_07_0005_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">4.检查线束和连接器（端子 GND2）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器（+BM 电路）</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7Z4_07_0007">
+<div class="testtitle"><span class="titleText">4.检查线束和连接器（端子 GND2）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C302056.png" alt="C302056" title="C302056">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.323,0.656 0.75,0.927</span>
+<span class="rectangleSize">0.427,0.271</span>
+</span>
+<span class="line">
+<span class="points">2.792,1.896 2.51,2.51</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.208,0.208 0.521,0.406</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.427,0.708 0.74,0.906</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A42</span>
+</span>
+<span class="caption">
+<span class="points">2.344,2.573 2.927,2.823</span>
+<span class="captionSize">0.583,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND2</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>线束连接器前视图
+<br>
+（至防滑控制 ECU（制动执行器总成））
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A42-13 (GND2) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7Z4_07_0007_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>正常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换制动执行器总成</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;制动执行器&gt;拆卸<span class="invisible">201406,999999,_54,_023990,_0116355,RM100000000D9DF,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器（GND2 电路）</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

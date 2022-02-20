@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS030" code="B3,C1" type="conn" figID="4">
+    <name>蓄电池</name>
+  </text>
+  <text ewd="SYS030" code="A5" type="conn" figID="3">
+    <name>离合器起动开关总成</name>
+  </text>
+  <text ewd="SYS030" code="A40" type="conn" figID="7">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS030" code="E9" type="conn" figID="2">
+    <name>点火或起动开关总成</name>
+  </text>
+  <text ewd="SYS030" code="A37" type="conn" figID="10">
+    <name>1 号接线连接器</name>
+  </text>
+  <text ewd="SYS030" code="B15" type="conn" figID="5">
+    <name>驻车/空档位置开关总成</name>
+  </text>
+  <text ewd="SYS030" code="B5,B10" type="conn" figID="6">
+    <name>起动机总成</name>
+  </text>
+  <text ewd="SYS030" code="FUSE28" type="fuse" figID="23">
+    <name>30A ST</name>
+  </text>
+  <text ewd="SYS030" code="FUSE2" type="fuse" figID="24">
+    <name>7.5A AM2</name>
+  </text>
+  <text ewd="SYS030" code="AB" type="gp" figID="21">
+    <name />
+  </text>
+  <text ewd="SYS030" code="CA" type="gp" figID="20">
+    <name />
+  </text>
+  <text ewd="SYS030" code="CB" type="gp" figID="19">
+    <name />
+  </text>
+  <text ewd="SYS030" code="1" type="rb" figID="8">
+    <name />
+  </text>
+  <text ewd="SYS030" code="FUSE28" type="rb" figID="9">
+    <name>30A ST</name>
+  </text>
+  <text ewd="SYS030" code="FUSE2" type="rb" figID="1">
+    <name>7.5A AM2</name>
+  </text>
+  <text ewd="SYS030" code="SP3" type="sp" figID="22">
+    <name />
+  </text>
+  <text ewd="SYS030" code="AE2" type="w2w" figID="18">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS030" code="AE3" type="w2w" figID="16">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS030" code="BA1" type="w2w" figID="15,17">
+    <name>发动机线束和发动机室主线束</name>
+  </text>
+  <text ewd="SYS030" code="BA3" type="w2w" figID="14">
+    <name>发动机线束和发动机室主线束</name>
+  </text>
+</EwdTree>

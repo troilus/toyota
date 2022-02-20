@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024005">
+<name>防盗/无钥匙上车系统</name>
+<ttl id="_0116716">
+<name>停机系统（不带智能进入和起动系统）</name>
+<para category="J" id="RM100000000DB4B">
+<dtccode/>
+<dtcname>无法注册钥匙</dtcname>
+<subpara category="03" id="RM100000000DB4B_02">
+<name>描述</name>
+<content5>
+<ptxt>最多可注册 5 个主钥匙识别码和 3 个副钥匙识别码。</ptxt>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000DB4B_03">
+<name>电路图</name>
+<content5>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB3S" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000DB4B_04">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>如果更换了应答器钥匙 ECU 总成，则请参考《服务快讯》。</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DB4B_01">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DB4B_01_0001">
+<testtitle>检查注册模式</testtitle>
+<content6>
+<test1>
+<ptxt>检查并确认系统进入注册模式。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>系统进入注册模式。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000DB4B_01_0002"/>
+</result>
+<result cellposition="1-6" label="2">
+<action actiontype="next" cellposition="2-6" childid="RM100000000DB4B_01_0012"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000DB4B_01_0002">
+<testtitle>检查安全指示灯的工作情况</testtitle>
+<content6>
+<test1>
+<ptxt>在注册模式下，将车门控制发射器总成插入点火锁芯并检查安全指示灯。</ptxt>
+<atten4>
+<ptxt>如果新钥匙识别码注册失败，则将通过安全指示灯输出代码 2-1。 插入车门控制发射器总成时，尝试重新注册已注册的车门控制发射器总成将会输出代码 2-2。如果已注册的钥匙识别码数量超过最大极限，则将通过安全指示灯输出代码 2-3。输出详情如下图所示。</ptxt>
+</atten4>
+<figure translate="C" type="1">
+<graphic graphicname="B111593C04" height="8.876205709in" width="7.168479331in"/>
+<callout>
+<table pgwide="1" type="caption-table">
+<tgroup cols="4">
+<colspec colname="col1" colnum="1" colwidth="0.72in"/>
+<colspec colname="col2" colnum="2" colwidth="2.87in"/>
+<colspec colname="col3" colnum="3" colwidth="0.72in"/>
+<colspec colname="col4" colnum="4" colwidth="2.87in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>安全指示灯</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>正常（停机系统工作正常）</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*c</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>代码 2-1</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*d</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>代码 2-2</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*e</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>代码 2-3</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出代码 2-1 或代码 2-3</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出代码 2-2</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000DB4B_01_0003"/>
+</result>
+<result cellposition="2-5" label="2">
+<action actiontype="end" cellposition="3-5">
+<actiontitle>结束（使用已注册的车门控制发射器总成）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000DB4B_01_0003">
+<testtitle>使用 GTS 读取值（应答器 S 代码、应答器 M 代码）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将点火开关置于 ON 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>进入以下菜单：Body Electrical / Immobiliser / Data List。</ptxt>
+</test1>
+<test1>
+<ptxt>根据 GTS 上的显示，读取数据表。</ptxt>
+<gts-info category="data-list-table">
+<title>Body Electrical &gt; Immobiliser &gt; Data List</title>
+<table pgwide="1" type="data-list-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>测量项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>范围</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>正常状态</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>诊断备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="20" name="item-name">
+<ptxt>Transponder S-code</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="20" name="description">
+<ptxt>注册的副钥匙数量</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="20" name="range">
+<ptxt>最少：0，最多：15</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="20" name="standard-value">
+<ptxt>显示注册的副钥匙数量</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="20" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="19" name="item-name">
+<ptxt>Transponder M-code</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="19" name="description">
+<ptxt>注册的主钥匙数量</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="19" name="range">
+<ptxt>最少：0，最多：15</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name args1="19" name="standard-value">
+<ptxt>显示注册的主钥匙数量</ptxt>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name args1="19" name="remark">
+<ptxt>-</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">1</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">260</app-param>
+<app-param name="ecu-name">Immobiliser</app-param>
+<app-param name="gts-order">1</app-param>
+<app-param-unit>
+<app-param name="pid-id">20</app-param>
+<app-param name="data-list-item-name">Transponder S-code</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">19</app-param>
+<app-param name="data-list-item-name">Transponder M-code</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<gts-info category="data-list">
+<title>Body Electrical &gt; Immobiliser &gt; Data List</title>
+<table type="data-list">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="20" name="item-name">
+<ptxt>Transponder S-code</ptxt>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="19" name="item-name">
+<ptxt>Transponder M-code</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50003">
+<gts-ecu ecu-id="260">
+<gts-pid pid-id="20"/>
+<gts-pid pid-id="19"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">2</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">260</app-param>
+<app-param name="ecu-name">Immobiliser</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="pid-id">20</app-param>
+<app-param name="data-list-item-name">Transponder S-code</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+<app-param-unit>
+<app-param name="pid-id">19</app-param>
+<app-param name="data-list-item-name">Transponder M-code</app-param>
+<app-param name="exception-process-id"/>
+<app-param name="exception-process-div"/>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>“Transponder M-code”显示 5，“Transponder S-code”显示 0</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>“Transponder M-code”显示 0，“Transponder S-code”显示 3</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>“Transponder M-code”显示 5，“Transponder S-code”显示 3</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>除上述值外</ptxt>
+</entry>
+<entry align="center">
+<judge-value label="4">
+<ptxt>D</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="end" cellposition="4-1">
+<actiontitle>钥匙注册（副钥匙）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="3-2" label="2">
+<action actiontype="end" cellposition="4-2">
+<actiontitle>钥匙注册（主钥匙）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="3-3" label="3">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>已注册车门控制发射器总成的最大数量</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="3-4" label="4">
+<action actiontype="next" cellposition="4-4" childid="RM100000000DB4B_01_0004"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-4" id="RM100000000DB4B_01_0004">
+<testtitle>钥匙注册</testtitle>
+<content6>
+<test1>
+<ptxt>参考下表判定是否可注册其他的车门控制发射器总成。</ptxt>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.07in"/>
+<colspec colname="col2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>已注册的车门控制发射器总成数量（主和副）</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>0</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>新钥匙识别码注册</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>1 至 7</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>其他钥匙识别码注册</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+<test1>
+<ptxt>检查是否可注册其他车门控制发射器总成。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>可注册其他车门控制发射器总成。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-4" label="1">
+<action actiontype="end" cellposition="5-4">
+<actiontitle>结束（车门控制发射器总成故障）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="4-5" label="2">
+<action actiontype="end" cellposition="5-5">
+<actiontitle>更换应答器钥匙 ECU 总成</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-6" id="RM100000000DB4B_01_0012">
+<testtitle>检查未锁警告开关总成</testtitle>
+<content6>
+<test1>
+<ptxt>拆下未锁警告开关总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8I2" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>检查未锁警告开关总成。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8I3" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-6" label="1">
+<action actiontype="next" cellposition="3-6" childid="RM100000000DB4B_01_0014"/>
+</result>
+<result cellposition="2-8" label="2">
+<action actiontype="end" cellposition="3-8">
+<actiontitle>更换未锁警告开关总成</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-6" id="RM100000000DB4B_01_0014">
+<testtitle>检查线束和连接器（应答器钥匙 ECU 总成 - 未锁警告开关总成 - 车身接地）</testtitle>
+<content6>
+<test1>
+<ptxt>断开应答器钥匙 ECU 总成连接器 E29。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E10-1 - E29-3 (KSW)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E10-2 - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E10-1 - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>E29-3 (KSW) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-6" label="1">
+<action actiontype="end" cellposition="4-6">
+<actiontitle>更换应答器钥匙 ECU 总成</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="3-7" label="2">
+<action actiontype="end" cellposition="4-7">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

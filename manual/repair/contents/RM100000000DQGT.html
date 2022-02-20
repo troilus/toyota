@@ -1,0 +1,3876 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">发动机/混合动力系统</span>
+<span class="globalSection">_023966</span>
+<span class="globalSectionName">4ZR-FE 发动机控制系统</span>
+<span class="globalTitle">_0120142</span>
+<span class="globalTitleName">SFI 系统</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>4ZR-FE 发动机控制系统&nbsp;&nbsp;SFI 系统&nbsp;&nbsp;P2195&nbsp;&nbsp;氧 (A/F) 传感器信号始终偏稀 (B1 S1)&nbsp;&nbsp;P2196&nbsp;&nbsp;氧 (A/F) 传感器信号始终偏浓 (B1 S1)&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DQGT_01" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>尽管 DTC 标题中提及氧传感器，但这些 DTC 与空燃比传感器有关。
+</p>
+</dd>
+</dl>
+<br>
+<p>空燃比传感器产生与实际空燃比相对应的电压*。此传感器电压用来向 ECM 提供反馈信号，以便 ECM 能够控制空燃比。ECM 判定与理论空燃比的偏差，然后调节燃油喷射时间。如果空燃比传感器出现故障，则 ECM 将无法对空燃比进行准确控制。
+</p>
+<p>空燃比传感器为平面型，与用来加热固体电解质（氧化锆元件）的加热器集成为一体。此加热器由 ECM 控制。进气量小（废气温度偏低）时，电流流向加热器以加热传感器，从而便于准确检测氧浓度。此外，传感器和加热器部分为窄型。加热器产生的热量通过氧化铝传导至固体电解质，从而加速了传感器的激活。
+</p>
+<p>三元催化转化器用于提高废气中一氧化碳 (CO)、碳氢化合物 (HC) 和氮氧化物 (NOx) 的净化率。为了最有效地利用三元催化转化器，必须精确控制空燃比，使其务必接近理论值。
+</p>
+<p>*：ECM 中的值发生变化。空燃比传感器是电流输出元件，因而电流在 ECM 内转换成电压。在空燃比传感器或 ECM 连接器上测量电压时将始终显示恒定的电压值。
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A234900.png" alt="A234900" title="A234900">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">1.615,2.969 0.979,2.49</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.823,2.969 2.094,2.667</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.927,1.76 3.521,0.729</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">3.052,1.792 3.615,1.427</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">3.208,2.188 3.698,1.781</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.854,2.396 3.583,2.198</span>
+<span class="points">3.583,2.198 3,2.396</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">3.063,2.469 3.49,2.74</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.156,3.271 0.99,3.615</span>
+<span class="captionSize">0.833,0.344</span>
+<span class="fontsize">10</span>
+<span class="captionText">废气</span>
+</span>
+<span class="caption">
+<span class="points">0.438,2.375 0.979,2.708</span>
+<span class="captionSize">0.542,0.333</span>
+<span class="fontsize">10</span>
+<span class="captionText">元件</span>
+</span>
+<span class="caption">
+<span class="points">2.115,2.563 2.51,2.865</span>
+<span class="captionSize">0.396,0.302</span>
+<span class="fontsize">10</span>
+<span class="captionText">盖</span>
+</span>
+<span class="caption">
+<span class="points">1.125,3.406 1.271,3.604</span>
+<span class="captionSize">0.146,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">2.01,3.406 2.156,3.604</span>
+<span class="captionSize">0.146,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">3.552,0.646 4.708,1.292</span>
+<span class="captionSize">1.156,0.646</span>
+<span class="fontsize">10</span>
+<span class="captionText">固体电解质（氧化锆元件）</span>
+</span>
+<span class="caption">
+<span class="points">3.625,1.313 4.448,1.615</span>
+<span class="captionSize">0.823,0.302</span>
+<span class="fontsize">10</span>
+<span class="captionText">氧化铝</span>
+</span>
+<span class="caption">
+<span class="points">3.719,1.708 4.708,1.99</span>
+<span class="captionSize">0.99,0.281</span>
+<span class="fontsize">10</span>
+<span class="captionText">加热器</span>
+</span>
+<span class="caption">
+<span class="points">3.604,2.125 5.021,2.469</span>
+<span class="captionSize">1.417,0.344</span>
+<span class="fontsize">10</span>
+<span class="captionText">铂电极</span>
+</span>
+<span class="caption">
+<span class="points">3.51,2.646 4.521,2.99</span>
+<span class="captionSize">1.01,0.344</span>
+<span class="fontsize">10</span>
+<span class="captionText">大气</span>
+</span>
+<span class="caption">
+<span class="points">2.583,3.167 3.75,3.531</span>
+<span class="captionSize">1.167,0.365</span>
+<span class="fontsize">10</span>
+<span class="captionText">A-A 横截面</span>
+</span>
+<span class="caption">
+<span class="points">5.677,3.125 6.573,3.469</span>
+<span class="captionSize">0.896,0.344</span>
+<span class="fontsize">10</span>
+<span class="captionText">空燃比</span>
+</span>
+<span class="caption">
+<span class="points">5.104,0.667 6.979,1.26</span>
+<span class="captionSize">1.875,0.594</span>
+<span class="fontsize">10</span>
+<span class="captionText">ECM 监视空燃比传感器电压</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:14%">
+<col style="width:25%">
+<col style="width:29%">
+<col style="width:10%">
+<col style="width:10%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">存储器
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P2195
+</td>
+<td class="alleft">氧 (A/F) 传感器信号始终偏稀 (B1 S1)
+</td>
+<td class="alleft">满足下列任一条件：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>满足条件 (a) 和 (b) 持续 5 秒或更长时间（双程检测逻辑）：
+</p>
+<p>(a) 空燃比传感器电压高于 3.8 V。
+</p>
+<p>(b) 加热型氧传感器电压为 0.21 V 或更高。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>进行燃油切断操作（车辆减速过程中）时，空燃比传感器电流为 2.2 mA 或更大持续 3 秒（双程检测逻辑）。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空燃比传感器 (S1) 电路开路或短路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空燃比传感器 (S1)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>废气泄漏
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进气系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>燃油压力
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>喷油器总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">点亮
+</td>
+<td class="alleft">存储 DTC
+</td>
+</tr>
+<tr>
+<td class="alleft">P2196
+</td>
+<td class="alleft">氧 (A/F) 传感器信号始终偏浓 (B1 S1)
+</td>
+<td class="alleft">满足下列任一条件：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>满足条件 (a) 和 (b) 持续 5 秒或更长时间（双程检测逻辑）：
+</p>
+<p>(a) 空燃比传感器电压低于 2.8 V。
+</p>
+<p>(b) 加热型氧传感器电压低于 0.59 V。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>进行燃油切断操作（车辆减速过程中）时，空燃比传感器电流小于 0.7 mA 持续 3 秒（双程检测逻辑）。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空燃比传感器 (S1) 电路开路或短路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空燃比传感器 (S1)
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>废气泄漏
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进气系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>燃油压力
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>喷油器总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">点亮
+</td>
+<td class="alleft">存储 DTC
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>存储这些 DTC 中的任一个时，进入 GTS 上的以下菜单以检查空燃比传感器的输出电压：Powertrain / Engine and ECT / Data List / All Data / AFS Voltage B1S1。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用 GTS 也可读取短期燃油修正值。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM 将其端子 A1A+ 和 A1A- 处的电压调节为一个恒定值。因此，如果不使用 GTS，则无法确认空燃比传感器的输出电压。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果检测到空燃比传感器故障，则 ECM 存储 DTC。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000DQGT_12" class="category no03">
+<h2>监视描述</h2>
+<div class="content5">
+<dl class="topic">
+<dt class="topic">传感器电压检测监视</dt>
+<dd class="topic">
+<p>在空燃比反馈控制下，如果尽管加热型氧传感器输出电压低于 0.59 V，但空燃比传感器输出电压低于 2.8 V（过浓状态）持续 5 秒，则 ECM 存储 DTC P2196。或者，如果尽管加热型氧传感器输出电压为 0.21 V 或更高，但空燃比传感器输出电压高于 3.8 V（过稀状态）持续 5 秒，则存储 DTC P2195。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="topic">
+<dt class="topic">传感器电流检测监视</dt>
+<dd class="topic">
+<p>混合气浓导致空燃比传感器电流小，而混合气稀导致空燃比传感器电流大。因此，节气门全关时，加速期间传感器输出变小，而减速期间变大。ECM 监视燃油切断期间空燃比传感器电流，并检测所有异常电流值。
+</p>
+</dd>
+<dd class="topic">
+<p>如果空燃比传感器输出为 2.2 mA 或更大累计超过 3 秒，则 ECM 将此视为空燃比传感器故障并存储 DTC P2195（卡在高电流侧）。如果空燃比传感器输出小于 0.7 mA 累计超过 3 秒，则 ECM 存储 DTC P2196（卡在低电流侧）。
+</p>
+</dd>
+</dl>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A283591.png" alt="A283591" title="A283591">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">2.333,2.292 2.25,1.646</span>
+<span class="points">2.25,1.646 2.354,1.646</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">5.771,2.292 5.688,1.646</span>
+<span class="points">5.688,1.646 5.792,1.646</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">4.375,2.292 4.292,1.646</span>
+<span class="points">4.292,1.646 4.396,1.646</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.094,0.115 2.5,0.333</span>
+<span class="captionSize">2.406,0.219</span>
+<span class="fontsize">10</span>
+<span class="captionText">空燃比传感器电流监视</span>
+</span>
+<span class="caption">
+<span class="points">2.917,0.417 6.083,0.667</span>
+<span class="captionSize">3.167,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">累计时间&ldquo;t&rdquo; = t1 + t2 = 3 秒或更长时间</span>
+</span>
+<span class="caption">
+<span class="points">0.646,1.063 1.25,1.333</span>
+<span class="captionSize">0.604,0.271</span>
+<span class="fontsize">10</span>
+<span class="captionText">燃油切断</span>
+</span>
+<span class="caption">
+<span class="points">0.406,2.198 1.75,2.417</span>
+<span class="captionSize">1.344,0.219</span>
+<span class="fontsize">10</span>
+<span class="captionText">传感器电流 (mA)</span>
+</span>
+<span class="caption">
+<span class="points">0.438,2.833 1.75,3.083</span>
+<span class="captionSize">1.313,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">高电流侧阈值</span>
+</span>
+<span class="caption">
+<span class="points">0.479,3.49 1.75,3.75</span>
+<span class="captionSize">1.271,0.26</span>
+<span class="fontsize">10</span>
+<span class="captionText">低电流侧阈值</span>
+</span>
+<span class="caption">
+<span class="points">1.469,0.938 1.75,1.167</span>
+<span class="captionSize">0.281,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">1.417,1.25 1.75,1.5</span>
+<span class="captionSize">0.333,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.385,1.573 3.583,1.833</span>
+<span class="captionSize">1.198,0.26</span>
+<span class="fontsize">10</span>
+<span class="captionText">延迟（3 秒）</span>
+</span>
+<span class="caption">
+<span class="points">4.427,1.573 5.583,1.833</span>
+<span class="captionSize">1.156,0.26</span>
+<span class="fontsize">10</span>
+<span class="captionText">延迟（3 秒）</span>
+</span>
+<span class="caption">
+<span class="points">5.823,1.573 7,1.833</span>
+<span class="captionSize">1.177,0.26</span>
+<span class="fontsize">10</span>
+<span class="captionText">延迟（3 秒）</span>
+</span>
+<span class="caption">
+<span class="points">2.417,3.646 3.667,3.917</span>
+<span class="captionSize">1.25,0.271</span>
+<span class="fontsize">10</span>
+<span class="captionText">3 秒或更长时间</span>
+</span>
+<span class="caption">
+<span class="points">2.385,4.292 3.833,4.5</span>
+<span class="captionSize">1.448,0.208</span>
+<span class="fontsize">10</span>
+<span class="captionText">传感器输出正常</span>
+</span>
+<span class="caption">
+<span class="points">4.677,4.281 6.25,4.5</span>
+<span class="captionSize">1.573,0.219</span>
+<span class="fontsize">10</span>
+<span class="captionText">传感器输出异常</span>
+</span>
+<span class="caption">
+<span class="points">4.688,3.865 4.938,4.115</span>
+<span class="captionSize">0.25,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">t1</span>
+</span>
+<span class="caption">
+<span class="points">6.406,4.281 6.833,4.5</span>
+<span class="captionSize">0.427,0.219</span>
+<span class="fontsize">10</span>
+<span class="captionText">时间</span>
+</span>
+<span class="caption">
+<span class="points">6.021,3.865 6.271,4.115</span>
+<span class="captionSize">0.25,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">t2</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000DQGT_13" class="category no03">
+<h2>监视策略</h2>
+<div class="content5">
+<table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>所需传感器/零部件（主要）
+</td>
+<td>空燃比传感器
+</td>
+</tr>
+<tr>
+<td>所需传感器/零部件（相关）
+</td>
+<td>加热型氧传感器
+</td>
+</tr>
+<tr>
+<td>工作频率
+</td>
+<td>连续：传感器电压检测监视
+<br>
+每个驾驶循环一次：传感器电流检测监视
+</td>
+</tr>
+<tr>
+<td>持续时间
+</td>
+<td>5 秒：传感器电压检测监视
+<br>
+3 秒：传感器电流检测监视
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000DQGT_14" class="category no03">
+<h2>典型启动条件</h2>
+<div class="content5">
+<table summary="">
+<caption>传感器电压检测监视</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>发动机起动后的时间
+</td>
+<td>30 秒或更长时间
+</td>
+</tr>
+<tr>
+<td>燃油系统状态
+</td>
+<td>闭环
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table summary="">
+<caption>传感器电流检测监视</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>蓄电池电压
+</td>
+<td>11 V 或更高
+</td>
+</tr>
+<tr>
+<td>大气压力
+</td>
+<td>76 kPa(abs) [570 mmHg(abs)] 或更大
+</td>
+</tr>
+<tr>
+<td>空燃比传感器状态
+</td>
+<td>激活
+</td>
+</tr>
+<tr>
+<td>发动机冷却液温度
+</td>
+<td>75&deg;C (167&deg;F) 或更高
+</td>
+</tr>
+<tr>
+<td>燃油切断持续时间
+</td>
+<td>3 秒或更长时间，且小于 10 秒
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000DQGT_15" class="category no03">
+<h2>典型故障阈值</h2>
+<div class="content5">
+<table summary="">
+<caption>P2195：传感器电压检测监视（偏稀故障）</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>加热型氧传感器电压
+</td>
+<td>0.21 V 或更高
+</td>
+</tr>
+<tr>
+<td>空燃比传感器电压
+</td>
+<td>高于 3.8 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table summary="">
+<caption>P2196：传感器电压检测监视（偏浓故障）</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>加热型氧传感器电压
+</td>
+<td>低于 0.59 V
+</td>
+</tr>
+<tr>
+<td>空燃比传感器电压
+</td>
+<td>低于 2.8 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table summary="">
+<caption>P2195：传感器电流检测监视（高电流侧故障）</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>空燃比传感器电流
+</td>
+<td>2.2 mA 或更大
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table summary="">
+<caption>P2196：传感器电流检测监视（低电流侧故障）</caption>
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<tbody>
+<tr>
+<td>空燃比传感器电流
+</td>
+<td>小于 0.7 mA
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000DQGT_08" class="category no03">
+<h2>确认行驶模式</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A283818.png" alt="A283818" title="A283818">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">2.448,1.51 3.052,0.698</span>
+<span class="points">3.052,0.698 2.833,0.698</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="line">
+<span class="points">5.448,1.667 5.75,0.583</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="line">
+<span class="points">5.021,1.521 4.5,1.521</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">6.333,2.25 5.375,2.25</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">4.052,3.531 3.823,3.354</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="line">
+<span class="points">4.927,1.677 4.5,0.583</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="line">
+<span class="points">5.542,3.167 5.708,3.167</span>
+<span class="points">5.708,3.167 5.5,2.74</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="line">
+<span class="points">4.708,2.958 4.875,2.958</span>
+<span class="points">4.875,2.958 4.99,2.729</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="caption">
+<span class="points">0.073,0.24 3.25,0.5</span>
+<span class="captionSize">3.177,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">发动机冷却液温度：75&deg;C 或更高</span>
+</span>
+<span class="caption">
+<span class="points">0.333,0.865 0.813,1.031</span>
+<span class="captionSize">0.479,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">车速</span>
+</span>
+<span class="caption">
+<span class="points">1.229,0.615 2.833,0.781</span>
+<span class="captionSize">1.604,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">60 和 100 km/h 之间</span>
+</span>
+<span class="caption">
+<span class="points">0.271,2.271 1.104,2.438</span>
+<span class="captionSize">0.833,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">怠速运转</span>
+</span>
+<span class="caption">
+<span class="points">1.25,2.865 2.083,3.083</span>
+<span class="captionSize">0.833,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">暖机</span>
+</span>
+<span class="caption">
+<span class="points">1.99,2.938 3.313,3.104</span>
+<span class="captionSize">1.323,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">10 分钟或更长时间</span>
+</span>
+<span class="caption">
+<span class="points">3.396,1.458 4.552,1.625</span>
+<span class="captionSize">1.156,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">60 km/h 或更高</span>
+</span>
+<span class="caption">
+<span class="points">3.615,0.427 4.698,0.594</span>
+<span class="captionSize">1.083,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">踩下加速踏板</span>
+</span>
+<span class="caption">
+<span class="points">4.74,0.719 5.667,0.885</span>
+<span class="captionSize">0.927,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">至少 3 次</span>
+</span>
+<span class="caption">
+<span class="points">5.313,0.375 7.063,0.542</span>
+<span class="captionSize">1.75,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">松开加速踏板（燃油切断）</span>
+</span>
+<span class="caption">
+<span class="points">6.417,2.146 7.125,2.313</span>
+<span class="captionSize">0.708,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">10 km/h</span>
+</span>
+<span class="caption">
+<span class="points">6.25,2.552 6.667,2.802</span>
+<span class="captionSize">0.417,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">时间</span>
+</span>
+<span class="caption">
+<span class="points">4.375,3.094 5.594,3.26</span>
+<span class="captionSize">1.219,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4 秒或更长时间</span>
+</span>
+<span class="caption">
+<span class="points">4.115,3.469 5.438,3.667</span>
+<span class="captionSize">1.323,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">参考下图</span>
+</span>
+<span class="caption">
+<span class="points">3.417,2.875 4.625,3.042</span>
+<span class="captionSize">1.208,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">10 秒或更长时间</span>
+</span>
+<span class="caption">
+<span class="points">1.552,2.167 1.813,2.385</span>
+<span class="captionSize">0.26,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">[A]</span>
+</span>
+<span class="caption">
+<span class="points">2.708,1.302 2.99,1.469</span>
+<span class="captionSize">0.281,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">[B]</span>
+</span>
+<span class="caption">
+<span class="points">3.844,2.167 4.083,2.417</span>
+<span class="captionSize">0.24,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">[C]</span>
+</span>
+<span class="caption">
+<span class="points">4.99,1.302 5.25,1.521</span>
+<span class="captionSize">0.26,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">[D]</span>
+</span>
+<span class="caption">
+<span class="points">5.5,1.594 5.76,1.813</span>
+<span class="captionSize">0.26,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">[E]</span>
+</span>
+<span class="caption">
+<span class="points">6.073,3.146 6.365,3.323</span>
+<span class="captionSize">0.292,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">[F]</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A234868.png" alt="A234868" title="A234868">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">2.417,0.688 2.229,0.688</span>
+<span class="points">2.229,0.688 3.385,2.625</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">4.052,0.823 3.646,2.625</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.188,2.875 1.323,2.875</span>
+<span class="points">1.323,2.875 1.521,2.5</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.51,1.948 1.333,1.333</span>
+<span class="points">1.333,1.333 1.25,1.333</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.521,2.323 1.333,2</span>
+<span class="points">1.333,2 1.25,2</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.073,0.052 2.583,0.219</span>
+<span class="captionSize">2.51,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">[C] 至 [F] 的行驶模式细节：</span>
+</span>
+<span class="caption">
+<span class="points">2.875,0.198 6.958,0.396</span>
+<span class="captionSize">4.083,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">累计检测时间&ldquo;t&rdquo;= t1 + t2 + t3 = 3 秒或更长时间</span>
+</span>
+<span class="caption">
+<span class="points">0.219,0.479 1.875,0.646</span>
+<span class="captionSize">1.656,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">参考发动机转速或车速</span>
+</span>
+<span class="caption">
+<span class="points">2.479,0.615 3.677,0.781</span>
+<span class="captionSize">1.198,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">延迟（3 秒）</span>
+</span>
+<span class="caption">
+<span class="points">0.396,1.156 1.427,1.323</span>
+<span class="captionSize">1.031,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2,050 rpm*1</span>
+</span>
+<span class="caption">
+<span class="points">0.292,1.958 1.281,2.125</span>
+<span class="captionSize">0.99,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1,050 rpm*1</span>
+</span>
+<span class="caption">
+<span class="points">0.448,2.823 1.229,2.99</span>
+<span class="captionSize">0.781,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">怠速运转</span>
+</span>
+<span class="caption">
+<span class="points">1.917,3.042 2.604,3.208</span>
+<span class="captionSize">0.688,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">怠速运转</span>
+</span>
+<span class="caption">
+<span class="points">3.021,3.156 4.219,3.323</span>
+<span class="captionSize">1.198,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4 秒或更长时间</span>
+</span>
+<span class="caption">
+<span class="points">4.344,3.156 5.51,3.323</span>
+<span class="captionSize">1.167,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4 秒或更长时间</span>
+</span>
+<span class="caption">
+<span class="points">5.583,3.146 6.823,3.313</span>
+<span class="captionSize">1.24,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4 秒或更长时间</span>
+</span>
+<span class="caption">
+<span class="points">2.219,2.552 2.5,2.719</span>
+<span class="captionSize">0.281,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">[C]</span>
+</span>
+<span class="caption">
+<span class="points">4.708,2.417 4.938,2.583</span>
+<span class="captionSize">0.229,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">t2</span>
+</span>
+<span class="caption">
+<span class="points">5.938,2.417 6.156,2.583</span>
+<span class="captionSize">0.219,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">t3</span>
+</span>
+<span class="caption">
+<span class="points">6.5,2.792 6.896,2.958</span>
+<span class="captionSize">0.396,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">时间</span>
+</span>
+<span class="caption">
+<span class="points">2.833,1.177 3.115,1.344</span>
+<span class="captionSize">0.281,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">[D]</span>
+</span>
+<span class="caption">
+<span class="points">3.531,1.667 3.823,1.833</span>
+<span class="captionSize">0.292,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">[E]</span>
+</span>
+<span class="caption">
+<span class="points">4.094,0.76 5.313,0.958</span>
+<span class="captionSize">1.219,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">检测时间 t1</span>
+</span>
+<span class="caption">
+<span class="points">0.021,1.646 1.469,1.813</span>
+<span class="captionSize">1.448,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">950 至 1,400 rpm*2</span>
+</span>
+<span class="caption">
+<span class="points">0.177,2.219 1.406,2.521</span>
+<span class="captionSize">1.229,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">16 km/h 或 1,200  rpm*2</span>
+</span>
+<span class="caption">
+<span class="points">0.156,3.438 1.385,3.604</span>
+<span class="captionSize">1.229,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1：M/T 车型</span>
+</span>
+<span class="caption">
+<span class="points">1.563,3.417 3.156,3.604</span>
+<span class="captionSize">1.594,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*2：CVT 车型</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>打开 GTS。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>清除 DTC（即使未存储 DTC，也应执行清除 DTC 程序）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">5.</div>
+<div class="list1Body"><p>将点火开关置于 OFF 位置并等待至少 30 秒。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">6.</div>
+<div class="list1Body"><p>将点火开关置于 ON 位置并打开 GTS。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">7.</div>
+<div class="list1Body"><p>起动发动机并暖机，直至发动机冷却液温度达到 75&deg;C (167&deg;F) 或更高 [A]。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">8.</div>
+<div class="list1Body"><p>在 GTS 上，进入以下菜单以检查燃油切断状态：Powertrain / Engine and ECT / Data List / All Data / Idle Fuel Cut。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">9.</div>
+<div class="list1Body"><p>以 60 和 100 km/h（37 和 62 mph）之间的速度驾驶车辆至少 10 分钟 [B]。
+</p>
+<dl class="atten2">
+<dt class="atten2">注意事项：</dt>
+<dd class="atten2">
+<p>执行确认行驶模式时，应遵守限速要求和交通法规。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">10.</div>
+<div class="list1Body"><p>换档杆置于 M 或二档 [C] 的情况下，踩下加速踏板至少 10 秒以将车辆加速至 60 km/h (37 mph) 或更高 [D]。
+</p>
+<dl class="atten2">
+<dt class="atten2">注意事项：</dt>
+<dd class="atten2">
+<p>执行确认行驶模式时，应遵守限速要求和交通法规。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">11.</div>
+<div class="list1Body"><p>执行上述步骤 [D] 后不久，松开加速踏板至少 4 秒且不要踩下制动踏板，以执行燃油切断控制 [E]。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>数据表上的&ldquo;Idle Fuel Cut&rdquo;为 ON 时，进行燃油切断控制。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>满足以下条件时，执行燃油切断：
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>完全松开加速踏板。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>发动机转速为 2,050 rpm 或更高（燃油喷射在 1,050 rpm 或 15 km/h (9 mph) 时恢复）（M/T 车型）。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>发动机转速为 1,400 rpm 或更高（燃油喷射在 1,200 rpm 时恢复）（CVT 车型锁止关闭情况下）。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>发动机转速为 950 rpm 或更高（燃油喷射在 16 km/h (10 mph) 时恢复）（CVT 车型锁止打开情况下）。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">12.</div>
+<div class="list1Body"><p>将车辆减速，直到车速降至 10 km/h (6 mph) 以下。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">13.</div>
+<div class="list1Body"><p>在一个行驶循环内，重复上述步骤 [C] 至 [E] 至少 3 次。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">14.</div>
+<div class="list1Body"><p>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes [F]。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">15.</div>
+<div class="list1Body"><p>读取待定 DTC。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果输出待定 DTC，则系统发生故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果未输出待定 DTC，则执行以下程序。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">16.</div>
+<div class="list1Body"><p>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">17.</div>
+<div class="list1Body"><p>输入 DTC：P2195 或 P2196。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">18.</div>
+<div class="list1Body"><p>检查 DTC 判断结果。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:29%">
+<col style="width:70%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS 显示
+</th>
+<th class="alcenter">描述
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>系统正常
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>系统异常
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">INCOMPLETE
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断未完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>确认 DTC 启动条件后，执行行驶模式
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">N/A
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>无法执行 DTC 判断
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>不满足 DTC 前提条件的 DTC 数量达到 ECU 存储器极限
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果判断结果显示 NORMAL，则系统正常。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果判断结果显示 ABNORMAL，则系统存在故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果判断结果显示为 INCOMPLETE 或 N/A，则再次执行步骤 [B] 至 [F]。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000DQGT_07" class="category no03">
+<h2>电路图</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A298566.png" alt="A298566" title="A298566">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.531,1.281 1.76,1.479</span>
+<span class="captionSize">1.229,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">EFI-MAIN</span>
+</span>
+<span class="caption">
+<span class="points">1.427,1.563 2.656,1.76</span>
+<span class="captionSize">1.229,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">EFI-MAIN</span>
+</span>
+<span class="caption">
+<span class="points">0.542,2.677 1.771,2.875</span>
+<span class="captionSize">1.229,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">FL MAIN</span>
+</span>
+<span class="caption">
+<span class="points">0.698,3.948 1.927,4.146</span>
+<span class="captionSize">1.229,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">蓄电池</span>
+</span>
+<span class="caption">
+<span class="points">1.625,4.073 2.854,4.271</span>
+<span class="captionSize">1.229,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*：屏蔽</span>
+</span>
+<span class="caption">
+<span class="points">2.583,0.635 3.813,0.833</span>
+<span class="captionSize">1.229,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2 号 EFI</span>
+</span>
+<span class="caption">
+<span class="points">1.271,0.406 1.5,0.563</span>
+<span class="captionSize">0.229,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5</span>
+</span>
+<span class="caption">
+<span class="points">2.073,0.406 2.302,0.563</span>
+<span class="captionSize">0.229,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">1.302,1.135 1.531,1.292</span>
+<span class="captionSize">0.229,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">2.063,1.125 2.292,1.281</span>
+<span class="captionSize">0.229,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">3.76,0.385 3.99,0.542</span>
+<span class="captionSize">0.229,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">3.75,1.135 3.979,1.292</span>
+<span class="captionSize">0.229,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4</span>
+</span>
+<span class="caption">
+<span class="points">4.906,1.125 5.135,1.281</span>
+<span class="captionSize">0.229,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">4.917,0.385 5.146,0.542</span>
+<span class="captionSize">0.229,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">3.938,0.385 4.219,0.573</span>
+<span class="captionSize">0.281,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+B</span>
+</span>
+<span class="caption">
+<span class="points">4.469,0.385 4.865,0.573</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">HA1A</span>
+</span>
+<span class="caption">
+<span class="points">3.927,1.083 4.323,1.271</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A1A-</span>
+</span>
+<span class="caption">
+<span class="points">4.521,1.083 4.917,1.271</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A1A+</span>
+</span>
+<span class="caption">
+<span class="points">3.76,1.656 4.156,1.844</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B18</span>
+</span>
+<span class="caption">
+<span class="points">3.76,1.802 5.208,2</span>
+<span class="captionSize">1.448,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">空燃比传感器</span>
+</span>
+<span class="caption">
+<span class="points">5.344,0.979 5.573,1.135</span>
+<span class="captionSize">0.229,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*</span>
+</span>
+<span class="caption">
+<span class="points">5.969,0.302 6.365,0.49</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">27</span>
+</span>
+<span class="caption">
+<span class="points">5.948,1.052 6.344,1.24</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">100</span>
+</span>
+<span class="caption">
+<span class="points">5.917,2.458 6.313,2.646</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">132</span>
+</span>
+<span class="caption">
+<span class="points">5.969,3.188 6.365,3.375</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">46</span>
+</span>
+<span class="caption">
+<span class="points">5.927,0.5 6.323,0.688</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B39</span>
+</span>
+<span class="caption">
+<span class="points">5.927,1.24 6.323,1.427</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B39</span>
+</span>
+<span class="caption">
+<span class="points">5.938,2.646 6.333,2.833</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B39</span>
+</span>
+<span class="caption">
+<span class="points">5.927,3.375 6.323,3.563</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A40</span>
+</span>
+<span class="caption">
+<span class="points">6.448,4.063 6.938,4.25</span>
+<span class="captionSize">0.49,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECM</span>
+</span>
+<span class="caption">
+<span class="points">6.26,0.51 6.656,0.698</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">HA1A</span>
+</span>
+<span class="caption">
+<span class="points">6.26,1.229 6.656,1.417</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A1A+</span>
+</span>
+<span class="caption">
+<span class="points">6.271,2.646 6.667,2.833</span>
+<span class="captionSize">0.396,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A1A-</span>
+</span>
+<span class="caption">
+<span class="points">6.26,3.385 6.771,3.573</span>
+<span class="captionSize">0.51,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">MREL</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000DQGT_09" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>进行下列程序前，先检查与此系统相关电路的保险丝。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>S1 指距发动机总成最近的传感器。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>S2 指距发动机总成最远的传感器。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用 GTS 读取定格数据。存储 DTC 时，ECM 将车辆和驾驶条件信息记录为定格数据。进行故障排除时，定格数据有助于确定故障出现时车辆是运行还是停止，发动机是暖机还是未暖机，空燃比是浓还是稀，以及其他数据。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空气燃油混合气过浓可能会导致空燃比传感器电压低。检查是否存在导致发动机在混合气浓的情况下运行的条件。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空气燃油混合气过稀可能会导致空燃比传感器电压高。检查是否存在导致发动机在混合气稀的情况下运行的条件。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000DQGT_17" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000DQGT_17_0001">
+<div class="testtitle"><span class="titleText">1.检查是否输出其他 DTC（除 DTC P2195 或 P2196 外）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>读取 DTC。
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DQGT_17_0001_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">输出 DTC P2195 或 P2196
+</td>
+<td class="alcenter" rowspan="2">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">输出 DTC P2195 或 P2196 和 P0136、P0137 或 P0138
+</td>
+</tr>
+<tr>
+<td class="alcenter">输出 DTC P2195 或 P2196 和其他 DTC
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果输出和空燃比传感器相关的任何 DTC（空燃比传感器加热器或空燃比传感器导纳 DTC），则首先对这些 DTC 进行故障排除。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.确认车辆是否曾耗尽燃油</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至 DTC 表</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 发动机控制系统&gt;SFI 系统&gt;诊断故障码表<span class="invisible">201406,999999,_51,_023966,_0120142,RM100000000DQH3,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DQGT_17_0002">
+<div class="testtitle"><span class="titleText">2.确认车辆是否曾耗尽燃油</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>车辆是否曾耗尽燃油？
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DQGT_17_0002_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">是
+</td>
+</tr>
+<tr>
+<td class="alcenter">否
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>是
+</p></div>
+<div class="nextAction"><span class="titleText">3.检查是否再次输出 DTC（DTC P2195 或 P2196）</span></div>
+<div class="judgeValueNext"><p>否
+</p></div>
+<div class="nextAction"><span class="titleText">4.使用 GTS 读取值（AFS 电流 B1S1）</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DQGT_17_0032">
+<div class="testtitle"><span class="titleText">3.检查是否再次输出 DTC（DTC P2195 或 P2196）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置并等待至少 30 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">h.</div>
+<div class="test1Body">
+<p>起动发动机并暖机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">i.</div>
+<div class="test1Body">
+<p>按照确认行驶模式中所述的行驶模式驾驶车辆。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">j.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Powertrain &gt; Engine and ECT &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">All Readiness
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">234</span>
+<span class="gtsUtil">20</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">k.</div>
+<div class="test1Body">
+<p>输入 DTC：P2195 或 P2196。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">l.</div>
+<div class="test1Body">
+<p>检查 DTC 判断情况。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DQGT_17_0032_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL（未输出 DTC）
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL（输出 DTC P2195 或 P2196）
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">由于燃油耗尽引起的 DTC</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">4.使用 GTS 读取值（AFS 电流 B1S1）</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DQGT_17_0037">
+<div class="testtitle"><span class="titleText">4.使用 GTS 读取值（AFS 电流 B1S1）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / AFS Current B1S1。
+</p>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">AFS Current B1S1
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">234</span>
+<span class="gtsPid">39</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>在燃油切断过程中，检查空燃比传感器输出电流的测试值，请参考确认行驶模式中 [C] 至 [E] 的行驶模式详情。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>为精确测量空燃比传感器电流，应尽可能长时间地进行燃油切断操作。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果很难测量空燃比传感器电流，则使用 GTS 的快照功能。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DQGT_17_0037_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">在正常范围内（0.7 mA 或更大，且小于 2.2 mA）
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">超出正常范围（小于 0.7 mA，或 2.2 mA 或更大）
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">5.使用 GTS 进行主动测试（控制 A/F 传感器的喷油量）</span></div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">15.更换空燃比传感器</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DQGT_17_0038">
+<div class="testtitle"><span class="titleText">5.使用 GTS 进行主动测试（控制 A/F 传感器的喷油量）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>使发动机以 2,500 rpm 转速持续运转 90 秒，预热空燃比传感器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Active Test / Control the Injection Volume for A/F Sensor / All Data / AFS Voltage B1S1 and O2S B1S2。
+</p>
+<dl class="gtsActiveTestDataList">
+<dt class="gtsActiveTestDataList">Powertrain &gt; Engine and ECT &gt; Active Test</dt>
+<dd class="gtsActiveTestDataList">
+<table summary="active-test" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">主动测试显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Control the Injection Volume for A/F Sensor
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsActiveTestDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">数据表显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">AFS Voltage B1S1
+</td>
+</tr>
+<tr>
+<td class="alleft">O2S B1S2
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsActiveTestDataList gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50004</span>
+<span class="gtsEcu">234</span>
+<span class="gtsDid">2</span>
+<span class="gtsPid">35,44</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>发动机怠速运转时，进行控制 A/F 传感器喷油量操作。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>监视 GTS 上显示的空燃比和加热型氧传感器（AFS Voltage B1S1 和 O2S B1S2）的输出电压。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>控制 A/F 传感器喷油量操作可以使燃油喷射量减少 12.5% 或增加 12.5%。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空燃比传感器存在数秒的输出延迟，加热型氧传感器的输出延迟最长可达约 20 秒。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进行主动测试时，如果传感器的输出电压不改变（几乎无反应），则传感器可能有故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS 显示（传感器）
+</th>
+<th class="alcenter">喷油量
+</th>
+<th class="alcenter">状态
+</th>
+<th class="alcenter">电压
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter" rowspan="2">AFS Voltage B1S1
+<br>
+（空燃比）
+</td>
+<td class="alcenter">12.5%
+</td>
+<td class="alcenter">浓
+</td>
+<td class="alcenter">低于 3.1 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">-12.5%
+</td>
+<td class="alcenter">稀
+</td>
+<td class="alcenter">高于 3.4 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">O2S B1S2
+<br>
+（加热型氧）
+</td>
+<td class="alcenter">12.5%
+</td>
+<td class="alcenter">浓
+</td>
+<td class="alcenter">高于 0.55 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">-12.5%
+</td>
+<td class="alcenter">稀
+</td>
+<td class="alcenter">低于 0.4 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DQGT_17_0038_1" summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:37%">
+<col style="width:12%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">&lrm;AFS Voltage B1S1 状态
+</th>
+<th class="alcenter">O2S B1S2 状态
+</th>
+<th class="alcenter">空燃比状态和空燃比传感器状态
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">稀
+</td>
+<td class="alcenter">稀
+</td>
+<td class="alcenter">实际空燃比偏稀
+</td>
+<td class="alcenter" rowspan="2">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">浓
+</td>
+<td class="alcenter">浓
+</td>
+<td class="alcenter">实际空燃比偏浓
+</td>
+</tr>
+<tr>
+<td class="alcenter">稀
+</td>
+<td class="alcenter">稀/浓
+</td>
+<td class="alcenter">空燃比传感器故障
+</td>
+<td class="alcenter" rowspan="3">B
+</td>
+</tr>
+<tr>
+<td class="alcenter">浓
+</td>
+<td class="alcenter">稀/浓
+</td>
+<td class="alcenter">空燃比传感器故障
+</td>
+</tr>
+<tr>
+<td class="alcenter">稀/浓
+</td>
+<td class="alcenter">稀/浓
+</td>
+<td class="alcenter">正常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>稀：控制 A/F 传感器喷油量主动测试期间，空燃比传感器输出电压 (AFS Voltage B1S1) 始终高于 3.4 V，加热型氧传感器输出电压 (O2S B1S2) 始终低于 0.4 V。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>浓：控制 A/F 传感器喷油量主动测试期间，AFS Voltage B1S1 始终低于 3.1 V，O2S B1S2 始终高于 0.55 V。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>稀/浓：控制 A/F 传感器喷油量主动测试期间，空燃比传感器和加热型氧传感器的输出电压正确地交替变化。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>请参考&ldquo;数据表/主动测试&rdquo;[AFS Voltage B1S1 和 O2S B1S2]。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 发动机控制系统&gt;SFI 系统&gt;数据表/主动测试<span class="invisible">201406,999999,_51,_023966,_0120142,RM100000000DQGO,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">6.检查进气系统</span></div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">15.更换空燃比传感器</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DQGT_17_0006">
+<div class="testtitle"><span class="titleText">6.检查进气系统</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查进气系统是否存在真空泄漏。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 进气/排气系统&gt;进气系统&gt;车上检查<span class="invisible">201406,999999,_51,_023970,_0129895,RM100000000ETZL,</span></a>
+
+</p>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>进气系统无泄漏。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>维修或更换进气系统后，执行&ldquo;维修后检查&rdquo;。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023966,_0120142,RM100000000DQGI,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DQGT_17_0006_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">7.检查废气是否泄漏</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换进气系统</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DQGT_17_0008">
+<div class="testtitle"><span class="titleText">7.检查废气是否泄漏</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查废气是否泄漏。
+</p>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>无漏气。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>维修或更换排气系统后，执行&ldquo;维修后检查&rdquo;。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023966,_0120142,RM100000000DQGI,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DQGT_17_0008_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">8.检查燃油压力</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换排气系统</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DQGT_17_0009">
+<div class="testtitle"><span class="titleText">8.检查燃油压力</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查燃油压力。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 燃油系统&gt;燃油系统&gt;车上检查<span class="invisible">201406,999999,_51,_023968,_0124347,RM100000000E8GG_01_0002,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DQGT_17_0009_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">9.检查喷油器总成</span></div>
+<div class="judgeValueNext"><p>异常
+</p></div>
+<div class="nextAction"><span class="titleText">14.检查燃油管路</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DQGT_17_0010">
+<div class="testtitle"><span class="titleText">9.检查喷油器总成</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查喷油器总成的喷油情况（喷油量是高还是低，喷油方式是否不良）。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 燃油系统&gt;喷油器&gt;检查<span class="invisible">201406,999999,_51,_023968,_0124348,RM100000000E8GN,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>更换喷油器总成后，执行&ldquo;维修后检查&rdquo;。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023966,_0120142,RM100000000DQGI,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DQGT_17_0010_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">10.更换空燃比传感器</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换喷油器总成</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 燃油系统&gt;喷油器&gt;拆卸<span class="invisible">201406,999999,_51,_023968,_0124348,RM100000000E8GM,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DQGT_17_0011">
+<div class="testtitle"><span class="titleText">10.更换空燃比传感器</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>更换空燃比传感器。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 发动机控制系统&gt;空燃比传感器&gt;拆卸<span class="invisible">201406,999999,_51,_023966,_0129829,RM100000000ETN6,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>更换空燃比传感器后，执行&ldquo;维修后检查&rdquo;。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023966,_0120142,RM100000000DQGI,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DQGT_17_0011_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">11.检查是否再次输出 DTC（DTC P2195 或 P2196）</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DQGT_17_0034">
+<div class="testtitle"><span class="titleText">11.检查是否再次输出 DTC（DTC P2195 或 P2196）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置并等待至少 30 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">h.</div>
+<div class="test1Body">
+<p>起动发动机并暖机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">i.</div>
+<div class="test1Body">
+<p>按照确认行驶模式中所述的行驶模式驾驶车辆。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">j.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Powertrain &gt; Engine and ECT &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">All Readiness
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">234</span>
+<span class="gtsUtil">20</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">k.</div>
+<div class="test1Body">
+<p>输入 DTC：P2195 或 P2196。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">l.</div>
+<div class="test1Body">
+<p>检查 DTC 判断结果。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DQGT_17_0034_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">ABNORMAL（输出 DTC P2195 或 P2196）
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">NORMAL（未输出 DTC）
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">12.更换 ECM</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">结束</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DQGT_17_0013">
+<div class="testtitle"><span class="titleText">12.更换 ECM</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>更换 ECM。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 发动机控制系统&gt;ECM&gt;拆卸<span class="invisible">201406,999999,_51,_023966,_0129820,RM100000000ETM7,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DQGT_17_0013_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">13.确认故障是否已成功排除</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DQGT_17_0036">
+<div class="testtitle"><span class="titleText">13.确认故障是否已成功排除</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置并等待至少 30 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">h.</div>
+<div class="test1Body">
+<p>起动发动机并暖机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">i.</div>
+<div class="test1Body">
+<p>按照确认行驶模式中所述的行驶模式驾驶车辆。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">j.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Powertrain &gt; Engine and ECT &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">All Readiness
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">234</span>
+<span class="gtsUtil">20</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">k.</div>
+<div class="test1Body">
+<p>输入 DTC：P2195 或 P2196。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">l.</div>
+<div class="test1Body">
+<p>检查 DTC 判断结果。
+</p>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:29%">
+<col style="width:70%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS 显示
+</th>
+<th class="alcenter">描述
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>系统正常
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>系统异常
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">INCOMPLETE
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC 判断未完成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>确认 DTC 启动条件后，执行行驶模式
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">N/A
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>无法执行 DTC 判断
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>不满足 DTC 前提条件的 DTC 数量达到 ECU 存储器极限
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DQGT_17_0036_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>下一步
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">结束</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DQGT_17_0017">
+<div class="testtitle"><span class="titleText">14.检查燃油管路</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查燃油管路是否泄漏或堵塞。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>更换燃油泵后，执行&ldquo;维修后检查&rdquo;。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023966,_0120142,RM100000000DQGI,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DQGT_17_0017_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>正常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换燃油泵</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 燃油系统&gt;燃油泵&gt;拆卸<span class="invisible">201406,999999,_51,_023968,_0124350,RM100000000E8GS,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换燃油管路</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DQGT_17_0015">
+<div class="testtitle"><span class="titleText">15.更换空燃比传感器</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>更换空燃比传感器。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 发动机控制系统&gt;空燃比传感器&gt;拆卸<span class="invisible">201406,999999,_51,_023966,_0129829,RM100000000ETN6,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>更换空燃比传感器后，执行&ldquo;维修后检查&rdquo;。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 发动机控制系统&gt;SFI 系统&gt;初始化<span class="invisible">201406,999999,_51,_023966,_0120142,RM100000000DQGI,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DQGT_17_0015_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">16.检查是否再次输出 DTC（DTC P2195 或 P2196）</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DQGT_17_0035">
+<div class="testtitle"><span class="titleText">16.检查是否再次输出 DTC（DTC P2195 或 P2196）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Powertrain &gt; Engine and ECT &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置并等待至少 30 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">h.</div>
+<div class="test1Body">
+<p>起动发动机并暖机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">i.</div>
+<div class="test1Body">
+<p>按照确认行驶模式中所述的行驶模式驾驶车辆。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">j.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Utility / All Readiness。
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Powertrain &gt; Engine and ECT &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">All Readiness
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">234</span>
+<span class="gtsUtil">20</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">k.</div>
+<div class="test1Body">
+<p>输入 DTC：P2195 或 P2196。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">l.</div>
+<div class="test1Body">
+<p>检查 DTC 判断结果。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DQGT_17_0035_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">NORMAL（未输出 DTC）
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">ABNORMAL（输出 DTC P2195 或 P2196）
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">结束</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换 ECM</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 发动机控制系统&gt;ECM&gt;拆卸<span class="invisible">201406,999999,_51,_023966,_0129820,RM100000000ETM7,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

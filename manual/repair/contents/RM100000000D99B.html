@@ -1,0 +1,2252 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_58</span>
+<span class="globalServcatName">车辆内饰</span>
+<span class="globalSection">_024005</span>
+<span class="globalSectionName">防盗/无钥匙上车系统</span>
+<span class="globalTitle">_0116338</span>
+<span class="globalTitleName">智能进入和起动系统（起动功能）</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>防盗/无钥匙上车系统&nbsp;&nbsp;智能进入和起动系统（起动功能）&nbsp;&nbsp;B2282&nbsp;&nbsp;车速信号故障&nbsp;&nbsp;B2283&nbsp;&nbsp;车速传感器故障&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D99B_01" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<p>组合仪表总成通过直线连接发送的车速信号与通过 CAN 通信发送的车速信号不匹配时，存储 DTC B2282。
+</p>
+<p>检测到车速传感器存在故障时，存储 DTC B2283。
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+<th class="alcenter">备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">B2282
+</td>
+<td class="alleft">车速信号故障
+</td>
+<td class="alleft">组合仪表总成通过直线连接发送的车速信号与通过 CAN 通信发送的车速信号不匹配。（单程检测逻辑*）
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>AM2 保险丝
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>仪表系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>认证 ECU（智能钥匙 ECU 总成）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>线束或连接器
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="listTitle">DTC 输出确认操作</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>以 25 km/h (16 mph) 或更高的车速驾驶车辆 20 秒，然后以低于 5 km/h (3 mph) 的车速驾驶车辆 20 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">B2283
+</td>
+<td class="alleft">车速传感器故障
+</td>
+<td class="alleft">检测到以下任一故障（检测到车速传感器故障）（单程检测逻辑*）
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车速信号故障检测 1：检测到过度减速
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车速信号故障检测 2：发动机转速联动检测
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>AM2 保险丝
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>仪表系统
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>认证 ECU（智能钥匙 ECU 总成）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>线束或连接器
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="listTitle">DTC 输出确认操作</div>
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>以 2,000 或更高发动机转速运行发动机 330 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head"></div>
+<div class="list1Body"><p>*：仅在出现故障且发动机开关置于 ON (IG) 位置时检测出。
+</p>
+</div>
+</div>
+</div>
+<br>
+<table summary="">
+<caption>检测到故障时的车辆状况和失效保护功能</caption>
+<colgroup>
+<col style="width:20%">
+<col style="width:45%">
+<col style="width:34%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 代码
+</th>
+<th class="alcenter">检测到故障时的车辆状况
+</th>
+<th class="alcenter">检测到故障时的失效保护功能
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">B2282
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>直线连接或 CAN 通信发送的信号存在故障且指示车速为 0 km/h (0 mph) 时，对车辆行驶无影响。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>直线连接或 CAN 通信发送的信号存在故障且指示车辆正在移动时，发动机开关无法从 ON (IG) 位置切换至 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alcenter">B2283
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车辆行驶的情况下，通过按下发动机开关将电源模式切换至 OFF（发动机停止运转）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>电子钥匙发射器分总成在车厢内时，即使进行发动机起动操作，发动机也不起动。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">转向锁止马达操作禁止。
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<table summary="">
+<caption>相关数据表和主动测试项目</caption>
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">数据表项目
+</th>
+<th class="alcenter">主动测试项目
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">B2282
+<br>
+B2283
+</td>
+<td><div class="list1">
+<div class="listTitle">电源控制</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Vehicle Speed Signal
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Engine Condition
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Power Supply Condition
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="listTitle">起动控制</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Engine Speed
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="listTitle">组合仪表</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>Vehicle Speed Meter
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000D99B_02" class="category no03">
+<h2>电路图</h2>
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">1ZR-FE
+</span></p>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B371271.png" alt="B371271" title="B371271">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">1.167,1.052 2.75,1.427</span>
+<span class="captionSize">1.583,0.375</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">制动执行器总成（防滑控制 ECU）</span>
+</span>
+<span class="caption">
+<span class="points">1.167,0.896 1.625,1.198</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A41</span>
+</span>
+<span class="caption">
+<span class="points">5.323,2.417 5.823,2.75</span>
+<span class="captionSize">0.5,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E55</span>
+</span>
+<span class="caption">
+<span class="points">5.313,2.594 7.156,2.948</span>
+<span class="captionSize">1.844,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">组合仪表总成</span>
+</span>
+<span class="caption">
+<span class="points">5.427,3.875 7.115,4.271</span>
+<span class="captionSize">1.688,0.396</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">无线电收音机和显示屏接收器总成*1</span>
+</span>
+<span class="caption">
+<span class="points">5.646,5.521 6.917,5.906</span>
+<span class="captionSize">1.271,0.385</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">导航接收器总成*2</span>
+</span>
+<span class="caption">
+<span class="points">3.469,5.677 5.156,6.073</span>
+<span class="captionSize">1.688,0.396</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">驾驶员侧接线盒总成</span>
+</span>
+<span class="caption">
+<span class="points">5.521,7.063 6.792,7.448</span>
+<span class="captionSize">1.271,0.385</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">间隙警告 ECU 总成*3</span>
+</span>
+<span class="caption">
+<span class="points">1.688,3.823 2.146,4.125</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A40</span>
+</span>
+<span class="caption">
+<span class="points">1.677,4 2.135,4.302</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECM</span>
+</span>
+<span class="caption">
+<span class="points">0.427,6.896 0.885,7.198</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E49</span>
+</span>
+<span class="caption">
+<span class="points">0.427,7.073 2.229,7.667</span>
+<span class="captionSize">1.802,0.594</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">认证 ECU（智能钥匙 ECU 总成）</span>
+</span>
+<span class="caption">
+<span class="points">2.406,5.729 2.865,6.031</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">AM2</span>
+</span>
+<span class="caption">
+<span class="points">1.313,5.583 2.24,5.885</span>
+<span class="captionSize">0.927,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">自蓄电池</span>
+</span>
+<span class="caption">
+<span class="points">0.385,6.458 0.844,6.76</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E47</span>
+</span>
+<span class="caption">
+<span class="points">0.438,6.271 0.896,6.573</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">11</span>
+</span>
+<span class="caption">
+<span class="points">1.75,6.271 2.208,6.573</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E47</span>
+</span>
+<span class="caption">
+<span class="points">1.729,6.688 2.188,6.99</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E49</span>
+</span>
+<span class="caption">
+<span class="points">1.823,6.083 2.281,6.385</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">1.781,6.49 2.24,6.792</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">27</span>
+</span>
+<span class="caption">
+<span class="points">0.948,6.229 1.406,6.531</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VC</span>
+</span>
+<span class="caption">
+<span class="points">0.813,6.51 1.271,6.813</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E</span>
+</span>
+<span class="caption">
+<span class="points">1.302,6.573 1.76,6.875</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SPD</span>
+</span>
+<span class="caption">
+<span class="points">1.438,6.271 1.896,6.573</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+B</span>
+</span>
+<span class="caption">
+<span class="points">2.167,0.396 2.625,0.698</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SP1</span>
+</span>
+<span class="caption">
+<span class="points">2.49,0.396 2.948,0.698</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">27</span>
+</span>
+<span class="caption">
+<span class="points">2.344,3.458 2.802,3.76</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">44</span>
+</span>
+<span class="caption">
+<span class="points">1.979,3.469 2.438,3.771</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SPD</span>
+</span>
+<span class="caption">
+<span class="points">5.844,0.49 6.302,0.792</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SI</span>
+</span>
+<span class="caption">
+<span class="points">5.677,0.385 6.135,0.688</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5</span>
+</span>
+<span class="caption">
+<span class="points">5.844,2.167 6.302,2.469</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+S</span>
+</span>
+<span class="caption">
+<span class="points">5.688,2.063 6.146,2.365</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">6</span>
+</span>
+<span class="caption">
+<span class="points">4.74,3.542 5.24,3.875</span>
+<span class="captionSize">0.5,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3D</span>
+</span>
+<span class="caption">
+<span class="points">4.156,3.104 4.656,3.438</span>
+<span class="captionSize">0.5,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3D</span>
+</span>
+<span class="caption">
+<span class="points">3.563,3.552 4.063,3.885</span>
+<span class="captionSize">0.5,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3A</span>
+</span>
+<span class="caption">
+<span class="points">4.76,3.354 5.26,3.688</span>
+<span class="captionSize">0.5,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">19</span>
+</span>
+<span class="caption">
+<span class="points">3.875,3.115 4.375,3.448</span>
+<span class="captionSize">0.5,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">38</span>
+</span>
+<span class="caption">
+<span class="points">3.573,3.365 4.073,3.698</span>
+<span class="captionSize">0.5,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">18</span>
+</span>
+<span class="caption">
+<span class="points">5.813,3.458 6.271,3.76</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SPD</span>
+</span>
+<span class="caption">
+<span class="points">5.604,3.458 6.104,3.792</span>
+<span class="captionSize">0.5,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">17</span>
+</span>
+<span class="caption">
+<span class="points">5.417,3.719 5.917,4.052</span>
+<span class="captionSize">0.5,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E33</span>
+</span>
+<span class="caption">
+<span class="points">5.823,4.99 6.281,5.292</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SPD</span>
+</span>
+<span class="caption">
+<span class="points">5.604,4.99 6.104,5.323</span>
+<span class="captionSize">0.5,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">17</span>
+</span>
+<span class="caption">
+<span class="points">5.646,5.365 6.146,5.698</span>
+<span class="captionSize">0.5,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E32</span>
+</span>
+<span class="caption">
+<span class="points">5.76,6.583 6.219,6.885</span>
+<span class="captionSize">0.458,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SPD</span>
+</span>
+<span class="caption">
+<span class="points">5.552,6.573 6.052,6.906</span>
+<span class="captionSize">0.5,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">17</span>
+</span>
+<span class="caption">
+<span class="points">5.531,6.906 6.031,7.24</span>
+<span class="captionSize">0.5,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E63</span>
+</span>
+<span class="caption">
+<span class="points">0.927,8.427 3.094,8.698</span>
+<span class="captionSize">2.167,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">：CAN 通信线路</span>
+</span>
+<span class="caption">
+<span class="points">0.094,7.771 2.26,8.042</span>
+<span class="captionSize">2.167,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1：无线电收音机和显示屏型</span>
+</span>
+<span class="caption">
+<span class="points">2.104,7.771 4.271,8.042</span>
+<span class="captionSize">2.167,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*2：导航接收器型</span>
+</span>
+<span class="caption">
+<span class="points">4.188,7.771 7.052,8</span>
+<span class="captionSize">2.865,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*3：带丰田驻车辅助传感器系统</span>
+</span>
+<span class="caption">
+<span class="points">3.563,5.323 4.063,5.656</span>
+<span class="captionSize">0.5,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3D</span>
+</span>
+<span class="caption">
+<span class="points">3.563,5.125 4.063,5.458</span>
+<span class="captionSize">0.5,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">20</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">2ZR-FE、7ZR-FE
+</span></p>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B371272.png" alt="B371272" title="B371272">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">1.292,1.24 2.875,1.917</span>
+<span class="captionSize">1.583,0.677</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">制动执行器总成（防滑控制 ECU）</span>
+</span>
+<span class="caption">
+<span class="points">1.302,1.083 2.885,1.76</span>
+<span class="captionSize">1.583,0.677</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A42</span>
+</span>
+<span class="caption">
+<span class="points">2.25,0.448 2.604,0.708</span>
+<span class="captionSize">0.354,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SP1</span>
+</span>
+<span class="caption">
+<span class="points">2.615,0.458 2.969,0.719</span>
+<span class="captionSize">0.354,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">27</span>
+</span>
+<span class="caption">
+<span class="points">2.094,3.51 2.448,3.771</span>
+<span class="captionSize">0.354,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SPD</span>
+</span>
+<span class="caption">
+<span class="points">1.708,3.875 2.25,4.135</span>
+<span class="captionSize">0.542,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A40</span>
+</span>
+<span class="caption">
+<span class="points">1.698,4.031 2.125,4.323</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECM</span>
+</span>
+<span class="caption">
+<span class="points">2.469,3.51 3.01,3.771</span>
+<span class="captionSize">0.542,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">44</span>
+</span>
+<span class="caption">
+<span class="points">1.375,4.302 2.167,4.625</span>
+<span class="captionSize">0.792,0.323</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">自蓄电池</span>
+</span>
+<span class="caption">
+<span class="points">2.51,4.438 2.938,4.729</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">AM2</span>
+</span>
+<span class="caption">
+<span class="points">0.427,5.708 2.229,6.125</span>
+<span class="captionSize">1.802,0.417</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">认证 ECU（智能钥匙 ECU 总成）</span>
+</span>
+<span class="caption">
+<span class="points">0.5,5.188 0.927,5.479</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E47</span>
+</span>
+<span class="caption">
+<span class="points">1.854,4.99 2.281,5.281</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E47</span>
+</span>
+<span class="caption">
+<span class="points">1.854,5.396 2.281,5.688</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E49</span>
+</span>
+<span class="caption">
+<span class="points">1.073,4.958 1.5,5.25</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VC</span>
+</span>
+<span class="caption">
+<span class="points">0.938,5.219 1.365,5.51</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E</span>
+</span>
+<span class="caption">
+<span class="points">1.448,5.292 1.875,5.583</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SPD</span>
+</span>
+<span class="caption">
+<span class="points">1.552,4.99 1.979,5.281</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+B</span>
+</span>
+<span class="caption">
+<span class="points">0.563,4.979 0.99,5.271</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">11</span>
+</span>
+<span class="caption">
+<span class="points">1.927,4.802 2.354,5.094</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">1.896,5.198 2.323,5.49</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">27</span>
+</span>
+<span class="caption">
+<span class="points">3.49,5.76 5.094,6.208</span>
+<span class="captionSize">1.604,0.448</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">驾驶员侧接线盒总成</span>
+</span>
+<span class="caption">
+<span class="points">3.667,5.385 4.094,5.677</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3D</span>
+</span>
+<span class="caption">
+<span class="points">3.677,5.208 4.104,5.5</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">20</span>
+</span>
+<span class="caption">
+<span class="points">3.667,3.615 4.094,3.906</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3A</span>
+</span>
+<span class="caption">
+<span class="points">3.688,3.417 4.115,3.708</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">18</span>
+</span>
+<span class="caption">
+<span class="points">3.969,3.156 4.396,3.448</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">38</span>
+</span>
+<span class="caption">
+<span class="points">4.271,3.177 4.698,3.469</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3D</span>
+</span>
+<span class="caption">
+<span class="points">4.844,3.615 5.271,3.906</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3D</span>
+</span>
+<span class="caption">
+<span class="points">4.844,3.406 5.271,3.698</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">19</span>
+</span>
+<span class="caption">
+<span class="points">5.719,3.51 6.146,3.802</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">17</span>
+</span>
+<span class="caption">
+<span class="points">5.938,3.51 6.292,3.771</span>
+<span class="captionSize">0.354,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SPD</span>
+</span>
+<span class="caption">
+<span class="points">5.438,3.823 5.865,4.115</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E33</span>
+</span>
+<span class="caption">
+<span class="points">5.417,3.979 7.094,4.49</span>
+<span class="captionSize">1.677,0.51</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">无线电收音机和显示屏接收器总成*1</span>
+</span>
+<span class="caption">
+<span class="points">5.781,5.615 7,6.146</span>
+<span class="captionSize">1.219,0.531</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">导航接收器总成*2</span>
+</span>
+<span class="caption">
+<span class="points">5.781,5.458 6.208,5.75</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E32</span>
+</span>
+<span class="caption">
+<span class="points">5.938,5.063 6.292,5.323</span>
+<span class="captionSize">0.354,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SPD</span>
+</span>
+<span class="caption">
+<span class="points">5.708,5.052 6.135,5.344</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">17</span>
+</span>
+<span class="caption">
+<span class="points">5.302,2.74 7.135,3.24</span>
+<span class="captionSize">1.833,0.5</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">组合仪表总成</span>
+</span>
+<span class="caption">
+<span class="points">5.313,2.594 5.74,2.885</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E55</span>
+</span>
+<span class="caption">
+<span class="points">5.948,2.229 6.375,2.521</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">+S</span>
+</span>
+<span class="caption">
+<span class="points">5.781,2.125 6.208,2.417</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">6</span>
+</span>
+<span class="caption">
+<span class="points">5.958,0.542 6.385,0.833</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SI</span>
+</span>
+<span class="caption">
+<span class="points">5.781,0.458 6.208,0.75</span>
+<span class="captionSize">0.427,0.292</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5</span>
+</span>
+<span class="caption">
+<span class="points">0.833,7.427 3.51,7.729</span>
+<span class="captionSize">2.677,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">：CAN 通信线路</span>
+</span>
+<span class="caption">
+<span class="points">0.302,6.896 2.979,7.198</span>
+<span class="captionSize">2.677,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1：无线电收音机和显示屏型</span>
+</span>
+<span class="caption">
+<span class="points">2.448,6.896 5.125,7.198</span>
+<span class="captionSize">2.677,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*2：导航接收器型</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000D99B_03" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关置于 OFF 位置的情况下使用 GTS 时，将 GTS 连接至 DLC3 并以 1.5 秒或更短的间隔打开并关闭门控灯开关，直至 GTS 和车辆之间开始通信。然后在手动模式下选择车型代码&ldquo;KEY REGIST&rdquo;并进入以下菜单：Body Electrical / Entry&amp;Start(CAN)。使用 GTS 时，以 1.5 秒或更短的间隔间歇打开并关闭门控灯开关，以保持 GTS 和车辆间的通信。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>智能进入和起动系统（起动功能）使用 LIN 通信系统和 CAN 通信系统。根据&ldquo;如何进行故障排除&rdquo;检查通信功能。确认通信系统工作正常后，对智能进入和起动系统（起动功能）进行故障排除。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;防盗/无钥匙上车系统&gt;智能进入和起动系统（起动功能）&gt;如何进行故障排除<span class="invisible">201406,999999,_58,_024005,_0116338,RM100000000D990,</span></a>
+
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>更换认证 ECU（智能钥匙 ECU 总成）前，请参考智能进入和起动系统（起动功能）的注意事项。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;防盗/无钥匙上车系统&gt;智能进入和起动系统（起动功能）&gt;注意事项<span class="invisible">201406,999999,_58,_024005,_0116338,RM100000000D98R,</span></a>
+
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进行下列程序前，先检查与此系统相关电路的保险丝。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进行维修后，进行完成 DTC 输出确认操作的操作，然后确认不再输出 DTC。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>断开并重新连接蓄电池负极 (-) 端子电缆后，电源模式将恢复至断开电缆前的模式。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000D99B_10" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000D99B_10_0001">
+<div class="testtitle"><span class="titleText">1.使用 GTS 读取值（车速表）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>进入以下菜单：Body Electrical / Combination Meter / Data List。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>根据 GTS 上的显示，读取数据表。
+</p>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Body Electrical &gt; Combination Meter &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Vehicle Speed Meter
+</td>
+<td class="alleft">车速
+</td>
+<td class="alcenter">0 至 255
+</td>
+<td class="alleft">与实际车速几乎相同
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Body Electrical &gt; Combination Meter &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Vehicle Speed Meter
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">122</span>
+<span class="gtsPid">8</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>GTS 显示根据车辆状态正确变化。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D99B_10_0001_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">2.使用 GTS 读取值（车速信号）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至仪表系统（车速表故障）</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;仪表/显示屏&gt;仪表系统&gt;车速表故障<span class="invisible">201406,999999,_58,_024007,_0116345,RM100000000D9CR,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D99B_10_0002">
+<div class="testtitle"><span class="titleText">2.使用 GTS 读取值（车速信号）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>进入以下菜单：Body Electrical / Power Source Control / Data List。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>根据 GTS 上的显示，读取数据表。
+</p>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Body Electrical &gt; Power Source Control &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Vehicle Speed Signal
+</td>
+<td class="alleft">车辆行驶或停止
+</td>
+<td class="alcenter">Stop 或 Run
+</td>
+<td class="alleft">Stop：车辆停止
+<br>
+Run：车辆以 5 km/h (3 mph) 或更高的速度行驶
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Body Electrical &gt; Power Source Control &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Vehicle Speed Signal
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">223</span>
+<span class="gtsPid">16</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>GTS 显示根据车辆状态正确变化。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D99B_10_0002_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>正常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至仪表系统</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;仪表/显示屏&gt;仪表系统&gt;如何进行故障排除<span class="invisible">201406,999999,_58,_024007,_0116345,RM100000000D9CD,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueNext"><p>异常
+</p></div>
+<div class="nextAction"><span class="titleText">3.检查线束和连接器（电源）</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D99B_10_0004">
+<div class="testtitle"><span class="titleText">3.检查线束和连接器（电源）</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;防盗/无钥匙上车系统&gt;智能进入和起动系统（起动功能）&gt;B2271<span class="invisible">201406,999999,_58,_024005,_0116338,RM100000000D991_08_0001,B2271</span></a>
+
+</p>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D99B_10_0004_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">4.检查线束和连接器（接地）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换连接至电源电路中的线束或连接器</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D99B_10_0005">
+<div class="testtitle"><span class="titleText">4.检查线束和连接器（接地）</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;防盗/无钥匙上车系统&gt;智能进入和起动系统（起动功能）&gt;B2271<span class="invisible">201406,999999,_58,_024005,_0116338,RM100000000D991_08_0002,B2271</span></a>
+
+</p>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D99B_10_0005_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">5.检查线束和连接器（认证 ECU（智能钥匙 ECU 总成）- 组合仪表总成）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D99B_10_0006">
+<div class="testtitle"><span class="titleText">5.检查线束和连接器（认证 ECU（智能钥匙 ECU 总成）- 组合仪表总成）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开认证 ECU（智能钥匙 ECU 总成）连接器 E49。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>断开组合仪表总成连接器 E55。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E49-27 (SPD) - E55-6 (+S)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">E49-27 (SPD) 或 E55-6 (+S) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D99B_10_0006_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">6.检查认证 ECU（智能钥匙 ECU 总成）</span></div>
+<div class="judgeValueNext"><p>异常
+</p></div>
+<div class="nextAction"><span class="titleText">7.检查线束和连接器（组合仪表总成 - 驾驶员侧接线盒总成）</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D99B_10_0007">
+<div class="testtitle"><span class="titleText">6.检查认证 ECU（智能钥匙 ECU 总成）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>重新连接认证 ECU（智能钥匙 ECU 总成）连接器 E47 和 E49。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>重新连接组合仪表总成连接器 E55。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>使用示波器检查波形。
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B274541.png" alt="B274541" title="B274541">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">2.125,0.26 2.521,0.521</span>
+<span class="rectangleSize">0.396,0.26</span>
+</span>
+<span class="rectangle">
+<span class="points">4.771,0.26 5.167,0.521</span>
+<span class="rectangleSize">0.396,0.26</span>
+</span>
+<span class="line">
+<span class="points">2.729,1.198 2.875,1.75</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">4.656,1.219 4.604,1.854</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.104,0 0.333,0.229</span>
+<span class="captionSize">0.229,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">4.49,2.823 4.927,3.052</span>
+<span class="captionSize">0.438,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">2.865,1.813 3.302,2.042</span>
+<span class="captionSize">0.438,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E</span>
+</span>
+<span class="caption">
+<span class="points">4.469,1.896 4.906,2.125</span>
+<span class="captionSize">0.438,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">SPD</span>
+</span>
+<span class="caption">
+<span class="points">2.198,0.313 2.542,0.542</span>
+<span class="captionSize">0.344,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E47</span>
+</span>
+<span class="caption">
+<span class="points">4.854,0.313 5.198,0.542</span>
+<span class="captionSize">0.344,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E49</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">连接线束的零部件
+<br>
+（认证 ECU（智能钥匙 ECU 总成））
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">工具设定
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E49-27 (SPD) - E47-11 (E)
+</td>
+<td>发动机开关置于 ON (IG) 位置，以约 5 km/h (3 mph) 的速度驾驶车辆
+</td>
+<td class="alcenter">5 V/格，20 ms/格
+</td>
+<td class="alcenter">产生脉冲
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>系统正常工作时，车轮转动一圈产生 4 个脉冲。车速提高时，图中 (A) 所示宽度变窄。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>波形与图中所示波形相似。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D99B_10_0007_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>正常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换认证 ECU（智能钥匙 ECU 总成）</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至仪表系统（转速信号电路）</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;仪表/显示屏&gt;仪表系统&gt;转速信号电路<span class="invisible">201406,999999,_58,_024007,_0116345,RM100000000D9CY,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D99B_10_0010">
+<div class="testtitle"><span class="titleText">7.检查线束和连接器（组合仪表总成 - 驾驶员侧接线盒总成）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开驾驶员侧接线盒总成连接器 3D。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E55-6 (+S) - 3D-38
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">E55-6 (+S) 或 3D-38 - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D99B_10_0010_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">8.检查驾驶员侧接线盒总成</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D99B_10_0020">
+<div class="testtitle"><span class="titleText">8.检查驾驶员侧接线盒总成</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>拆下驾驶员侧接线盒总成。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;动力分配系统&gt;主车身 ECU&gt;拆卸<span class="invisible">201406,999999,_57,_024002,_0117228,RM100000000DCTE,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B331658.png" alt="B331658" title="B331658">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">3.271,0.26 3.656,0.49</span>
+<span class="rectangleSize">0.385,0.229</span>
+</span>
+<span class="caption">
+<span class="points">3.396,0.292 3.677,0.552</span>
+<span class="captionSize">0.281,0.26</span>
+<span class="fontsize">10</span>
+<span class="captionText">3D</span>
+</span>
+<span class="caption">
+<span class="points">0.323,0.208 0.604,0.469</span>
+<span class="captionSize">0.281,0.26</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">未连接线束的零部件
+<br>
+（驾驶员侧接线盒总成）
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">3D-38 - 3D-20
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D99B_10_0020_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">9.检查线束和连接器（认证 ECU（智能钥匙 ECU 总成）- 驾驶员侧接线盒总成）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换驾驶员侧接线盒总成</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;动力分配系统&gt;主车身 ECU&gt;拆卸<span class="invisible">201406,999999,_57,_024002,_0117228,RM100000000DCTE,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D99B_10_0027">
+<div class="testtitle"><span class="titleText">9.检查线束和连接器（认证 ECU（智能钥匙 ECU 总成）- 驾驶员侧接线盒总成）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E49-27 (SPD) - 3D-20
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">E49-27 (SPD) 或 3D-20 - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D99B_10_0027_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>正常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换认证 ECU（智能钥匙 ECU 总成）</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024005">
+<name>防盗/无钥匙上车系统</name>
+<ttl id="_0116200">
+<name>智能进入和起动系统（上车功能）</name>
+<para category="J" id="RM100000000D8OA">
+<dtccode/>
+<dtcname>车内振荡器不识别钥匙</dtcname>
+<subpara category="03" id="RM100000000D8OA_01">
+<name>描述</name>
+<content5>
+<ptxt>如果在车内不能进行代码认证，则车辆（车内电子钥匙天线总成（前地板）或（后地板）和电子钥匙发射器分总成之间的通信可能有故障，或认证 ECU（智能钥匙 ECU 总成）可能有故障。电子钥匙发射器分总成带入车内时，对电子钥匙发射器分总成发射的钥匙识别码和存储在认证 ECU（智能钥匙 ECU 总成）内的钥匙识别码进行认证。如果不能进行认证或代码不匹配，则不能将发动机开关置于 ON (IG) 位置且发动机不能起动。</ptxt>
+<ptxt>车门开锁且将电子钥匙发射器分总成带入车内时，认证 ECU（智能钥匙 ECU 总成）激活车内电子钥匙天线总成，以发射无线电波检测电子钥匙发射器分总成。如果电子钥匙发射器分总成识别出其位于检测区域，则以钥匙识别码进行回应。车内电子钥匙天线接收此信息，然后将信息发送至认证 ECU（智能钥匙 ECU 总成）。</ptxt>
+</content5>
+</subpara>
+<subpara category="03" id="RM100000000D8OA_02">
+<name>电路图</name>
+<content5>
+<figure translate="E" type="1">
+<graphic graphicname="B281170E46" height="4.825319882in" width="7.168479331in">
+
+</graphic>
+</figure>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D8OA_03">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>智能进入和起动系统（上车功能）使用 LIN 通信系统和 CAN 通信系统。根据“如何进行故障排除”检查通信功能。确认通信系统功能正常后，对智能进入和起动系统（上车功能）进行故障排除。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8O7" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>发动机开关置于 OFF 位置的情况下使用 GTS 时，将 GTS 连接至 DLC3 并以 1.5 秒或更短的间隔打开并关闭门控灯开关，直至 GTS 和车辆之间开始通信。然后在手动模式下选择车型代码“KEY REGIST”并进入以下菜单：Body Electrical / Entry&amp;Start(CAN)。使用 GTS 时，以 1.5 秒或更短的间隔间歇打开并关闭门控灯开关，以保持 GTS 和车辆间的通信。</ptxt>
+</item>
+<item>
+<ptxt>更换认证 ECU（智能钥匙 ECU 总成）前，请参考智能进入和起动系统（上车功能）的注意事项。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8OB" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>维修后，通过进行“DTC 输出确认操作”确认未输出 DTC。</ptxt>
+</item>
+<item>
+<ptxt>车内电子钥匙天线总成在每两个 CLG 端子之间有一个天线线圈。</ptxt>
+</item>
+<item>
+<ptxt>带接收器的车门控制 ECU 总成也与车辆内部认证有关。</ptxt>
+</item>
+</list1>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D8OA_10">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8OA_10_0001">
+<testtitle>检查上车车门锁止工作情况</testtitle>
+<content6>
+<test1>
+<ptxt>检查并确认各车门上车锁止和开锁功能正常工作。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8OF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>如果带接收器的车门控制 ECU 总成有故障，则代码认证不在车厢内开始且上车锁止和开锁功能不工作。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>所有车门上车锁止和开锁功能正常工作。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D8OA_10_0031"/>
+</result>
+<result cellposition="1-10" label="2">
+<action actiontype="end" cellposition="2-10">
+<actiontitle>转至其他故障（转至故障症状表）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D8OA_10_0031">
+<testtitle>检查按钮起动功能</testtitle>
+<content6>
+<test1>
+<ptxt>拆下电子钥匙发射器分总成的发射器电池。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="B361654C01" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*1</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>发动机开关</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*2</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>电子钥匙发射器分总成</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8IZ" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>在踩下制动踏板*1 或离合器踏板*2 的情况下，手持电子钥匙发射器分总成靠近发动机开关，然后按下发动机开关。</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>*1：除手动传动桥外</ptxt>
+</item>
+<item>
+<ptxt>*2：手动传动桥</ptxt>
+</item>
+</list1>
+</test1>
+<test1>
+<ptxt>操作发动机开关时，检查发动机是否起动。</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>即使电子钥匙发射器分总成在检测区域内也无法认证时，可通过从电子钥匙发射器分总成上拆下发射器电池并手持电子钥匙发射器分总成接近发动机开关检查发动机起动情况。</ptxt>
+</item>
+<item>
+<ptxt>如果进行此项检查时无法起动发动机，则认证 ECU（智能钥匙 ECU 总成）、ID 代码箱（停机系统代码 ECU）可能存在故障。</ptxt>
+</item>
+</list1>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>发动机起动。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D8OA_10_0002"/>
+</result>
+<result cellposition="2-9" label="2">
+<action actiontype="end" cellposition="3-9">
+<actiontitle>转至智能进入和起动系统（起动功能）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8O7" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D8OA_10_0002">
+<testtitle>检查波环境</testtitle>
+<content6>
+<test1>
+<ptxt>将发射器电池安装到电子钥匙发射器分总成上。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8IZ" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>将电子钥匙发射器分总成带到车内 1 号电子钥匙天线总成（前地板）附近并进行智能进入和起动系统检查。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8OF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<atten3>
+<ptxt>如果电子钥匙发射器分总成位于车内 1 号电子钥匙天线总成（前地板）的 0.2 m (0.656 ft.) 范围内，则通信可能无法进行。</ptxt>
+</atten3>
+</test1>
+<test1>
+<ptxt>将电子钥匙发射器分总成带到车内 2 号电子钥匙天线总成（后地板）附近并进行智能进入和起动系统检查。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8OF" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<atten4>
+<ptxt>检查并确认将定制设定“Ignition Available Area”设定为“All”。</ptxt>
+</atten4>
+<atten3>
+<ptxt>如果电子钥匙发射器分总成位于车内 2 号电子钥匙天线总成（后地板）0.2 m (0.656 ft.) 范围内，则通信可能无法进行。</ptxt>
+</atten3>
+</test1>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>通过在各车内电子钥匙天线总成附近移动电子钥匙发射器分总成，波干扰影响减小，可以检查是否为波干扰是导致的故障。</ptxt>
+</item>
+<item>
+<ptxt>如果检查结果为故障仅出现在某些位置或某些时候，则波干扰的可能性大。同样，附加的车辆零部件也可能引起波干扰。如果安装了附加车辆零部件，则将其拆下并进行工作情况检查。</ptxt>
+</item>
+<item>
+<ptxt>如果车辆靠近广播天线、大型视频显示屏、遥控车库门开启器系统、遥控安全摄像机、家庭安全系统等，可能会有波干扰。这种情况下，将车辆移至其他地点并检查是否有所改善。</ptxt>
+</item>
+<item>
+<ptxt>如果有检查无线电波的工具，如信号强度计，则在该区域附近来回走动并观测 LF 波段（用于车辆天线形成检测区域）和 RF 波段（用于电子钥匙发射器分总成传输），以检查存在波干扰的位置。</ptxt>
+</item>
+</list1>
+</atten4>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>系统无法操作</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>系统可操作</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D8OA_10_0003"/>
+</result>
+<result cellposition="3-8" label="2">
+<action actiontype="end" cellposition="4-8">
+<actiontitle>受波干扰影响</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D8OA_10_0003">
+<testtitle>检查钥匙诊断模式</testtitle>
+<content6>
+<test1>
+<ptxt>在钥匙诊断模式下检查以下天线。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8OF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>选择频道 1 或频道 2 并对各频道的钥匙诊断模式进行检查。</ptxt>
+<atten4>
+<ptxt>如果显示 [CH1] 而不是 [CH2] 的情况下组合仪表蜂鸣器鸣响，则由于故障（如波干扰），频道 2 无法检测到电子钥匙发射器分总成。</ptxt>
+</atten4>
+<test2>
+<ptxt>检查车内 1 号电子钥匙天线总成（前地板）。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="B361658C01" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>检查点</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<ptxt>电子钥匙发射器分总成位于任一检测点时，检查并确认组合仪表蜂鸣器鸣响。</ptxt>
+<gts-info category="utility-normal">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Utility</title>
+<table type="utility">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="143" name="item-name">
+<ptxt>Communication Check(Key Diag Mode)</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50005">
+<gts-ecu ecu-id="125">
+<gts-util util-id="143"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">4</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="utility-id">143</app-param>
+<app-param name="function-name">Communication Check(Key Diag Mode)</app-param>
+</app-param-unit>
+</app-communication>
+</gts-info>
+</test2>
+<test2>
+<ptxt>检查车内 2 号电子钥匙天线总成（后地板）。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="B361659C01" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>检查点</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<ptxt>电子钥匙发射器分总成位于任一检测点时，检查并确认组合仪表蜂鸣器鸣响。</ptxt>
+<gts-info category="utility-normal">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Utility</title>
+<table type="utility">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="143" name="item-name">
+<ptxt>Communication Check(Key Diag Mode)</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50005">
+<gts-ecu ecu-id="125">
+<gts-util util-id="143"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">4</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="utility-id">143</app-param>
+<app-param name="function-name">Communication Check(Key Diag Mode)</app-param>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>组合仪表蜂鸣器鸣响。</ptxt>
+</specitem>
+</spec>
+</test2>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>前地板工作情况检查未完成</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>后地板工作情况检查未完成</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>所有工作情况检查正常</ptxt>
+</entry>
+<entry align="center">
+<judge-value label="4">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000D8OA_10_0004"/>
+</result>
+<result cellposition="4-4" label="2">
+<action actiontype="next" cellposition="5-4" childid="RM100000000D8OA_10_0008"/>
+</result>
+<result cellposition="4-7" label="4">
+<action actiontype="end" cellposition="5-7">
+<actiontitle>更换认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000D8OA_10_0004">
+<testtitle>检查线束和连接器（车内 1 号电子钥匙天线总成（前地板）- 认证 ECU（智能钥匙 ECU 总成））</testtitle>
+<content6>
+<test1>
+<ptxt>断开车内 1 号电子钥匙天线总成（前地板）连接器 L21。</ptxt>
+</test1>
+<test1>
+<ptxt>断开认证 ECU（智能钥匙 ECU 总成）连接器 E49。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L21-1 (ANTE5) - E49-3 (CLG5)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L21-3 (CLGB) - E49-2 (CG5B)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L21-1 (ANTE5) 或 E49-3 (CLG5) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L21-3 (CLGB) 或 E49-2 (CG5B) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="next" cellposition="6-1" childid="RM100000000D8OA_10_0005"/>
+</result>
+<result cellposition="5-3" label="2">
+<action actiontype="end" cellposition="6-3">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-1" id="RM100000000D8OA_10_0005">
+<testtitle>检查认证 ECU（(智能钥匙 ECU 总成）（输出至车内 1 号电子钥匙天线总成（前地板））</testtitle>
+<content6>
+<test1>
+<ptxt>断开车内 1 号电子钥匙天线总成（前地板）连接器 L21。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="B250988C32" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至车内 1 号电子钥匙天线总成（前地板））</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry>
+<ptxt>波形</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*c</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>车门打开</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*d</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>车门关闭约 30 秒后</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>连接认证 ECU（智能钥匙 ECU 总成）连接器 E49。</ptxt>
+</test1>
+<test1>
+<ptxt>使用示波器检查波形。</ptxt>
+<spec type="other">
+<title>正常</title>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="col1" colwidth="1.77in"/>
+<colspec colname="col2" colwidth="1.77in"/>
+<colspec colname="col3" colwidth="1.77in"/>
+<colspec colname="col4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>工具设定</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L21-1 (ANTE5) - L21-3 (CLGB)</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>程序：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>发动机开关 OFF</ptxt>
+</item>
+<item>
+<ptxt>电子钥匙发射器分总成不在车内</ptxt>
+</item>
+<item>
+<ptxt>车门打开</ptxt>
+</item>
+<item>
+<ptxt>车门关闭</ptxt>
+</item>
+<item>
+<ptxt>30 秒内</ptxt>
+</item>
+</list1>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>2 V/格，500 ms/格</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>产生脉冲</ptxt>
+<ptxt>（参见波形）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-1" label="1">
+<action actiontype="next" cellposition="7-1" childid="RM100000000D8OA_10_0006"/>
+</result>
+<result cellposition="6-2" label="2">
+<action actiontype="end" cellposition="7-2">
+<actiontitle>更换认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-1" id="RM100000000D8OA_10_0006">
+<testtitle>更换车内 1 号电子钥匙天线总成（前地板）</testtitle>
+<content6>
+<test1>
+<ptxt>暂时用新的或确认正常的车内 1 号电子钥匙天线总成（前地板）更换。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8GT" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-1" label="1">
+<action actiontype="next" cellposition="8-1" childid="RM100000000D8OA_10_0007"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-1" id="RM100000000D8OA_10_0007">
+<testtitle>检查钥匙诊断模式</testtitle>
+<content6>
+<test1>
+<ptxt>在钥匙诊断模式下检查以下天线。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8OF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>选择频道 1 或频道 2 并对各频道的钥匙诊断模式进行检查。</ptxt>
+<gts-info category="utility-normal">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Utility</title>
+<table type="utility">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="143" name="item-name">
+<ptxt>Communication Check(Key Diag Mode)</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50005">
+<gts-ecu ecu-id="125">
+<gts-util util-id="143"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">4</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="utility-id">143</app-param>
+<app-param name="function-name">Communication Check(Key Diag Mode)</app-param>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<figure translate="C" type="1">
+<graphic graphicname="B361658C01" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>检查点</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<atten4>
+<ptxt>如果显示 [CH1] 而不是 [CH2] 的情况下组合仪表蜂鸣器鸣响，则由于故障（如波干扰），频道 2 无法检测到电子钥匙发射器分总成。</ptxt>
+</atten4>
+<test2>
+<ptxt>检查车内 1 号电子钥匙天线总成（前地板）。电子钥匙发射器分总成位于任一检测点时，检查并确认组合仪表蜂鸣器鸣响。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>组合仪表蜂鸣器鸣响。</ptxt>
+</specitem>
+</spec>
+</test2>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-1" label="1">
+<action actiontype="end" cellposition="9-1">
+<actiontitle>结束（车内 1 号电子钥匙天线总成（前地板）故障）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="8-2" label="2">
+<action actiontype="end" cellposition="9-2">
+<actiontitle>更换认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-4" id="RM100000000D8OA_10_0008">
+<testtitle>检查线束和连接器（车内 2 号电子钥匙天线总成（后地板）- 认证 ECU（智能钥匙 ECU 总成））</testtitle>
+<content6>
+<test1>
+<ptxt>断开车内 2 号电子钥匙天线总成（后地板）连接器 L20。</ptxt>
+</test1>
+<test1>
+<ptxt>断开认证 ECU（智能钥匙 ECU 总成）连接器 E48。</ptxt>
+</test1>
+<test1>
+<ptxt>根据下表中的值测量电阻。</ptxt>
+<spec type="resistance">
+<title>标准电阻</title>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.38in"/>
+<colspec colname="col2" colwidth="1.38in"/>
+<colspec colname="col3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L20-1 (ANTE6) - E48-11 (CLG6)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L20-3 (CLGB) - E48-10 (CG6B)</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>小于 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L20-1 (ANTE6) 或 E48-11 (CLG6) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L20-3 (CLGB) 或 E48-10 (CG6B) - 车身接地</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>始终</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>10 kΩ 或更大</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-4" label="1">
+<action actiontype="next" cellposition="6-4" childid="RM100000000D8OA_10_0009"/>
+</result>
+<result cellposition="5-6" label="2">
+<action actiontype="end" cellposition="6-6">
+<actiontitle>维修或更换线束或连接器</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-4" id="RM100000000D8OA_10_0009">
+<testtitle>检查认证 ECU（智能钥匙 ECU 总成）（输出至车内 2 号电子钥匙天线总成（后地板））</testtitle>
+<content6>
+<test1>
+<ptxt>断开车内 2 号电子钥匙天线总成（后地板）连接器 L20。</ptxt>
+<figure translate="C" type="1">
+<graphic graphicname="B250988C33" height="3.434793307in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>线束连接器前视图</ptxt>
+<ptxt>（至车内 2 号电子钥匙天线总成（后地板））</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry>
+<ptxt>波形</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*c</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>车门打开</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*d</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>车门关闭约 30 秒后</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+</test1>
+<test1>
+<ptxt>连接认证 ECU（智能钥匙 ECU 总成）连接器 E48。</ptxt>
+</test1>
+<test1>
+<ptxt>使用示波器检查波形。</ptxt>
+<spec type="other">
+<title>正常</title>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="col1" colwidth="1.77in"/>
+<colspec colname="col2" colwidth="1.77in"/>
+<colspec colname="col3" colwidth="1.77in"/>
+<colspec colname="col4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪连接</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>工具设定</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>规定状态</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>L20-1 (ANTE6) - L20-3 (CLGB)</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>程序：</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>发动机开关 OFF</ptxt>
+</item>
+<item>
+<ptxt>电子钥匙发射器分总成不在车内</ptxt>
+</item>
+<item>
+<ptxt>车门打开</ptxt>
+</item>
+<item>
+<ptxt>车门关闭</ptxt>
+</item>
+<item>
+<ptxt>30 秒内</ptxt>
+</item>
+</list1>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>2 V/格，500 ms/格</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>产生脉冲</ptxt>
+<ptxt>（参见波形）</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-4" label="1">
+<action actiontype="next" cellposition="7-4" childid="RM100000000D8OA_10_0010"/>
+</result>
+<result cellposition="6-5" label="2">
+<action actiontype="end" cellposition="7-5">
+<actiontitle>更换认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-4" id="RM100000000D8OA_10_0010">
+<testtitle>更换车内 2 号电子钥匙天线总成（后地板）</testtitle>
+<content6>
+<test1>
+<ptxt>暂时用新的或确认正常的车内 2 号电子钥匙天线总成（后地板）更换。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8GW" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-4" label="1">
+<action actiontype="next" cellposition="8-4" childid="RM100000000D8OA_10_0011"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-4" id="RM100000000D8OA_10_0011">
+<testtitle>检查钥匙诊断模式</testtitle>
+<content6>
+<test1>
+<ptxt>在钥匙诊断模式下检查以下天线。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8OF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>选择频道 1 或频道 2 并对各频道的钥匙诊断模式进行检查。</ptxt>
+<gts-info category="utility-normal">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Utility</title>
+<table type="utility">
+<tgroup cols="1">
+<colspec colname="1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>检测仪显示</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name args1="143" name="item-name">
+<ptxt>Communication Check(Key Diag Mode)</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<gts-exec function-id="50005">
+<gts-ecu ecu-id="125">
+<gts-util util-id="143"/>
+</gts-ecu>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">4</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param-unit>
+<app-param name="utility-id">143</app-param>
+<app-param name="function-name">Communication Check(Key Diag Mode)</app-param>
+</app-param-unit>
+</app-communication>
+</gts-info>
+<figure translate="C" type="1">
+<graphic graphicname="B361659C01" height="2.192421260in" width="3.434793307in"/>
+<callout>
+<table pgwide="0" type="caption-table">
+<tgroup cols="2">
+<colspec colname="col1" colnum="1" colwidth="0.69in"/>
+<colspec colname="col2" colnum="2" colwidth="2.75in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>检查点</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<atten4>
+<ptxt>如果显示 [CH1] 而不是 [CH2] 的情况下组合仪表蜂鸣器鸣响，则由于故障（如波干扰），频道 2 无法检测到电子钥匙发射器分总成。</ptxt>
+</atten4>
+<test2>
+<ptxt>检查车内 2 号电子钥匙天线总成（后地板）。电子钥匙发射器分总成位于任一检测点时，检查并确认组合仪表蜂鸣器鸣响。</ptxt>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>组合仪表蜂鸣器鸣响。</ptxt>
+</specitem>
+</spec>
+</test2>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-4" label="1">
+<action actiontype="end" cellposition="9-4">
+<actiontitle>结束（车内 2 号电子钥匙天线总成（后地板）故障）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="8-5" label="2">
+<action actiontype="end" cellposition="9-5">
+<actiontitle>更换认证 ECU（智能钥匙 ECU 总成）</actiontitle>
+<content6/>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

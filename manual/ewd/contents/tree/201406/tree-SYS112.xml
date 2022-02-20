@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS112" code="E18" type="conn" figID="3">
+    <name>DLC3</name>
+  </text>
+  <text ewd="SYS112" code="A40" type="conn" figID="1">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS112" code="E71" type="conn" figID="6">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS112" code="E45" type="conn" figID="4">
+    <name>动力转向 ECU 总成</name>
+  </text>
+  <text ewd="SYS112" code="E46" type="conn" figID="2">
+    <name>动力转向 ECU 总成</name>
+  </text>
+  <text ewd="SYS112" code="E29" type="conn" figID="5">
+    <name>应答器钥匙 ECU 总成</name>
+  </text>
+  <text ewd="SYS112" code="FUSE51" type="fuse" figID="15">
+    <name>7.5A OBD</name>
+  </text>
+  <text ewd="SYS112" code="BB" type="gp" figID="14">
+    <name />
+  </text>
+  <text ewd="SYS112" code="ED" type="gp" figID="13">
+    <name />
+  </text>
+  <text ewd="SYS112" code="3" type="jb" figID="8">
+    <name />
+  </text>
+  <text ewd="SYS112" code="AE2" type="w2w" figID="11,12">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS112" code="AE3" type="w2w" figID="10">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS112" code="BA2" type="w2w" figID="9">
+    <name>发动机线束和发动机室主线束</name>
+  </text>
+</EwdTree>

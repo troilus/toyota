@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'NSimSun';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st11 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st12 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st19 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st20 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED
+		ewd:horAlign CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 3526.798 710.000" viewBox="0 0 3518.524 710.000" height="710.000" width="3518.524" xml:space="preserve" ewd:ver="2.1.2.6F" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+<path d=" M   110.48,   401.22  L   110.48,   486.20  L   297.45,   486.20  L   297.45,   401.22  L   110.48,   401.22  " style="stroke-width: 0.85 ;&st7;  " /><text ewd:textID="16" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  81.58  369.19 )">* 如果车辆配备有移动通信系统，则请参考修理手册概述章节的注意事项。</text><text ewd:textID="5" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  81.58  352.2 )">* SRS 修理工作完成后，检查 SRS 警告灯。</text><text ewd:textID="17" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  81.58  335.2 )">* SRS 组件的外围贴有信息标签。 请遵照注意事项中的说明。</text><text ewd:textID="24" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  81.58  318.2 )">* 对系统的电路进行故障排除时，使用高阻抗（最小 10 kΩ/V）的伏特表/欧姆表。</text><text ewd:textID="15" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  81.58  292.71 )">* 如果以下部件掉落或其壳体、支架和连接器上出现破裂、凹痕和其他缺陷时，则用新的更换。</text><text ewd:textID="12" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  81.58  275.71 )">* 需要重复使用时，切勿拆解和修理以下部件。</text><text ewd:textID="19" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  81.58  258.71 )">* 切勿使用其他车辆上拆下的 SRS 部件。 如需更换，须使用新部件。</text><text ewd:textID="11" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  81.58  241.71 )">* 如果发生了轻微碰撞而 SRS 未展开，则应检查以下部件；</text><text ewd:textID="9" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  81.58  224.72 )">* 请勿将以下部件直接暴露于热空气或明火中；</text><text ewd:textID="6" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  81.58  207.72 )">* 如果在修理过程中可能会碰撞到传感器，则应在修理前拆下空气囊传感器。</text><text ewd:textID="26" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  81.57  80.22 )">* 将点火或起动开关总成置于“LOCK”位置（点火开关型）或将发动机开关置于“OFF”位置（发动机开关型）且断开蓄电池负极<tspan dy="8.5" x="0">(-) 端子电缆 90 秒后才能开始工作。 （SRS</tspan><tspan dy="8.49" x="0">配备一个备用电源，因此如果在断开蓄电池负极 (-) 端子电缆后</tspan><tspan dy="8.5" x="0">90 秒钟内开始操作，可能会使 SRS</tspan><tspan dy="8.5" x="0">展开。）</tspan></text><text ewd:textID="18" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  81.58  46.25 )">* 由于很难确认 SRS 的故障症状，因此<tspan dy="8.5" x="0">DTC 就成了故障排除时最重要的信息来源。</tspan><tspan dy="8.49" x="0">在对 SRS 进行故障排除时，断开蓄电池前务必检查DTC。</tspan></text><text ewd:textID="25" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  81.58  131.23 )">* 断开蓄电池负极 (-)<tspan dy="8.5" x="0">电缆时，将清除时钟和音响系统的存储。</tspan><tspan dy="8.5" x="0">因此开始工作前，对音响存储系统的内容做记录。</tspan><tspan dy="8.5" x="0">完成工作时，重新设定音响系统并调节时钟。</tspan><tspan dy="8.5" x="0">某些车辆配备带存储功能的电动倾斜转向、电动伸缩转向、电动座椅和电动车外后视镜。</tspan><tspan dy="8.5" x="0">然而，不能记录这些存储的内容。</tspan><tspan dy="8.49" x="0">因此完成工作时，必须向您的客户解释，并询问客户是否调节功能并重新设定存储。</tspan><tspan dy="8.5" x="0">为避免清除各系统的存储内容，切勿使用车外的备用电源。</tspan></text><text ewd:textID="23" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  115.57  411.69 )">* 方向盘衬垫</text><text ewd:textID="21" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  115.57  428.68 )">* 侧空气囊总成</text><text ewd:textID="14" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  115.57  420.18 )">* 前排乘客空气囊总成</text><text ewd:textID="8" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  115.57  437.18 )">* 帘式空气囊总成</text><text ewd:textID="20" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  115.57  445.68 )">* 座椅安全带预紧器</text><text ewd:textID="7" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  115.57  454.18 )">* 中央空气囊传感器总成</text><text ewd:textID="13" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  115.57  462.68 )">* 前空气囊传感器总成</text><text ewd:textID="22" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  115.57  479.67 )">* 侧空气囊传感器总成</text><text ewd:textID="10" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  115.57  471.18 )">* 车门侧空气囊传感器总成</text><g ewd:code="" ewd:comment="" ewd:figID="88" ewd:figtype="comment"><text ewd:textID="41" style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  81.58  20.75 )">备注 : 检查或修理 SRS<tspan dy="8.5" x="0">时，根据以下注意事项说明和程序，和修理手册所适用车型年款的注意事项进行维修。</tspan></text></g></svg>

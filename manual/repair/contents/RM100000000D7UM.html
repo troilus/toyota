@@ -1,0 +1,1876 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_57</span>
+<span class="globalServcatName">电源/网络</span>
+<span class="globalSection">_024003</span>
+<span class="globalSectionName">网络</span>
+<span class="globalTitle">_0116067</span>
+<span class="globalTitleName">CAN 通信系统</span>
+<span class="globalCategory">Y</span>
+</div>
+<h1>网络&nbsp;&nbsp;CAN 通信系统&nbsp;&nbsp;如何进行故障排除&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D7UM_02" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">故障排除时的注意事项
+</span></p>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>由于诊断顺序对于正确诊断很重要，因此输出与 CAN 通信系统相关的 DTC 时，确保使用如何进行故障排除开始故障排除。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果 CAN 通信系统存在故障，则检查连接器端子的接触压力，端子接触压力不足可能是故障原因。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;如何对 ECU 控制系统进行故障排除&gt;电路检查程序<span class="invisible">201406,999999,_V1,_023977,_0116737,RM100000000DB85,</span></a>
+
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>有关 CAN 通信系统 DTC，请参考诊断系统。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果未输出与 CAN 通信系统相关的 DTC，请参考各系统的故障排除程序。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>测量 CAN 总线电阻之前，将点火开关置于 OFF 位置，并在不操作钥匙或开关，或不打开或关闭车门的情况下使车辆静置 1 分钟或更长时间。随后，断开蓄电池负极 (-) 端子电缆并在测量电阻之前使车辆静置 1 分钟或更长时间。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>将点火开关置于 OFF 位置后，断开蓄电池负极 (-) 端子电缆前，可能需要等待一段时间。因此，继续工作前，确保阅读断开蓄电池负极 (-) 端子电缆的注意事项。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;维修说明&gt;注意事项<span class="invisible">201406,999999,_V1,_023977,_0116736,RM100000000DB82,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>CAN 主总线和 CAN 支线故障以及利用 CAN 通信的系统 ECU 或传感器的内部故障或电源故障时，均输出 CAN 通信 DTC。因此，相应系统的内部故障 DTC 或电源故障 DTC 与 CAN 通信 DTC 同时输出时，根据内部故障和电源故障 DTC 进行故障排除。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>可通过使用电子检测仪检查 DLC3 端子来检查 DLC3 支线和 V 总线主总线电路是否有故障。
+</p>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检查 DLC3 连接器时，不要直接将检测仪连接到端子。而要使用外接线连接。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>不能从 DLC3 上进行 ECU 或传感器支线的开路检查，或除 V 总线外的其他总线检查。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>使用 GTS 进行 CAN 总线检查，可以检查连接至 CAN 主总线的 ECU 或传感器的支线开路。（DLC3 支线和 V 总线主总线正常时才可进行此检查。）
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>如果 V 总线有通信故障，则可通过通信 DTC（以 U 开头的 DTC）组合确定通信可能终止的 ECU 或传感器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>检测到开路时，断开相关连接器进行检查前，按入连接器主体以检查并确认连接器未松动或断开。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">f.</div>
+<div class="step2Body">
+<p>断开连接器时，检查并确认端子和连接器体没有破裂、变形或腐蚀。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000D7UM_01" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000D7UM_01_0001">
+<div class="testtitle"><span class="titleText">1.车辆送入修理车间</span></div>
+<div class="content6">
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车辆送修时，如果可以将点火开关置于 ON 位置（电源模式可切换为 ON），则检查 DTC 并立即检查组合仪表总成中指示灯的照明状态及车辆的基本操作（如转向操作）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>除非车辆检查结束，否则不要将点火开关置于 OFF 位置，因为点火开关置于 OFF 位置时，某些失效保护功能会取消。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车辆送修时，如果不能将点火开关置于 ON 位置（电源模式不能切换为 ON），则测量蓄电池电压。如果电压低于 11 V，则在进行故障排除前对蓄电池再充电或更换蓄电池。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>即使蓄电池电压正常，如果点火开关不能置于 ON 位置，则进行故障排除前维修此故障。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;防盗/无钥匙上车系统&gt;智能进入和起动系统（起动功能）&gt;故障症状表<span class="invisible">201406,999999,_58,_024005,_0116338,RM100000000D98V,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7UM_01_0001_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">2.客户故障分析</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7UM_01_0002">
+<div class="testtitle"><span class="titleText">2.客户故障分析</span></div>
+<div class="content6">
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进行故障排除时，应确认故障症状已准确判明。应摒弃臆断以便作出准确的判断。为了查明故障症状，向客户询问故障发生时的症状和条件非常重要。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>询问客户车辆是否配备其他设备，例如防盗设备或监视器。（若配备，向客户解释由于无法正常检查故障，进行故障排除前需拆下其他设备。）
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>这有助于确认故障发生时车辆行驶时的症状和状态。这有助于缩小故障零件的范围。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>影响何物（系统、零件或仪表警告指示灯）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发生什么（故障详情）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>何时（发生日期和时间、频率及是否再次出现）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>在何种情况下发生故障（发生时的驾驶和操作条件及天气）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>道路类型或路况（城市、郊区、铺砌道路、未铺砌的道路、高速公路等）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>恢复条件（什么使车辆恢复正常，例如，将点火开关置于 OFF 位置）
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<table summary="">
+<caption>需确认事项</caption>
+<colgroup>
+<col style="width:25%">
+<col style="width:75%">
+</colgroup>
+<tbody>
+<tr>
+<td>症状
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>电动转向
+</p>
+<p>- 正常
+</p>
+<p>- 比平时略微沉重
+</p>
+<p>- 没有助力
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空调
+</p>
+<p>- 空调系统是否工作
+</p>
+<p>- 鼓风机风扇是否工作
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>驾驶监视器显示屏
+</p>
+<p>- 多信息显示屏项目是否停止更新
+</p>
+<p>- 可行驶距离的数字部分是否不显示
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>自动锁止和开锁操作
+</p>
+<p>- 驾驶时车速联动自动锁止功能是否工作
+</p>
+<p>- 换档杆移至 P 时，开锁功能是否工作
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>遥控门锁功能和智能进入功能
+</p>
+<p>- 锁止/开锁功能是否有效
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>相关其他系统的工作情况
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td>仪表警告灯
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>警告灯点亮状态及点亮顺序
+</p>
+<p>- 主*1
+</p>
+<p>- 检查发动机 (MIL)
+</p>
+<p>- ABS
+</p>
+<p>- 打滑*2
+</p>
+<p>- 制动
+</p>
+<p>- EPS
+</p>
+<p>- SRS
+</p>
+<p>- 其他
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>指针移动
+</p>
+<p>- 车速表
+</p>
+<p>- 转速表
+</p>
+<p>- 发动机冷却液温度表*1
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>巡航信息显示屏的显示内容
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*1：黑白型和彩色型
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*2：带 VSC
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7UM_01_0002_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">3.检查 GTS 的工作情况</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7UM_01_0003">
+<div class="testtitle"><span class="titleText">3.检查 GTS 的工作情况</span></div>
+<div class="content6">
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用前，请阅读《GTS 操作手册》。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;如何使用本手册&gt;一般信息<span class="invisible">201406,999999,_V1,_023977,_0116734,RM100000000DB7Y,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>检查并确认在点火开关置于 ON 位置时 GTS 和 ECU 可进行通信。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果不能通信，则 GTS 屏幕将显示故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果 GTS 和 ECU 之间不能进行通信，则 GTS 或车辆有故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>GTS 和车辆之间不能进行通信时，但将 GTS 连接到其他车辆时可进行通信，则车辆有故障。检查 DLC3 的支线 CANH 和 CANL 及 ECU 电源电路（在此情况下，首先执行步骤 7 至 9）。此外，检查并确认 DLC3 的 BAT 端子接收蓄电池电压（11 V 或更高）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果将 GTS 连接到其他车辆时，GTS 和 ECU 之间仍不能进行通信，则 GTS 有故障。按照 GTS 操作手册所述，进行自检。（GTS 可能有故障或其电池电量可能耗尽。）
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7UM_01_0003_1" summary="">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>正常（GTS 和车辆之间可进行通信。）
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td>正常（GTS 和本车辆之间不能进行通信，但与其他车辆连接时可进行通信。）
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+<tr>
+<td>异常（GTS 和本车辆之间、GTS 和其他车辆之间也不能进行通信。）
+</td>
+<td class="alcenter">C
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">4.检查 DTC</span></div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">7.检查 DLC3 支线和 V 总线主线 (CANH - CANL)</span></div>
+<div class="judgeValueEnd"><p>C
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">请参考 GTS 操作手册</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7UM_01_0006">
+<div class="testtitle"><span class="titleText">4.检查 DTC</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>使用 GTS，进行 Health Check 以读取当前和历史 DTC 并作记录。
+</p>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>任何通信线路开路或短路时，输出 CAN 通信 DTC。任何与相应 ECU 或传感器的电源相关的故障，或者 ECU 或传感器本身的故障，同样会导致这些 DTC 输出。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>点火开关置于 ON 位置时，如果 CAN 通信线路连接器断开，则相应系统及相关系统的 ECU 将存储 DTC。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果 CAN 主总线开路、CAN 总线（CANH 和 CANL）之间短路或 CAN 总线对 +B 或接地短路，则可能输出 CAN 总线上几乎所有 ECU 和传感器的 DTC（或可能在 GTS 屏幕上显示指示通信故障的信息）。在此情况下，首先检查 CAN 总线的电阻（步骤 7 至 9）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果 CAN 支线中仅一条线路发生开路，则可能输出与故障零件无关的 DTC（DTC 可能随机显示），或在 GTS 上可能显示指示通信故障的信息。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>使用 GTS 读取定格数据并作记录。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7UM_01_0006_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">5.进行通信故障检查（使用 GTS 检查连接状态）</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7UM_01_0007">
+<div class="testtitle"><span class="titleText">5.进行通信故障检查（使用 GTS 检查连接状态）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>从 GTS 屏幕上选择&ldquo;Communication Malfunction Check&rdquo;。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>记录 ECU 和传感器存储的所有 DTC。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7UM_01_0007_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">6.进行 CAN 总线检查（使用 GTS 检查连接状态）</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7UM_01_0008">
+<div class="testtitle"><span class="titleText">6.进行 CAN 总线检查（使用 GTS 检查连接状态）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>根据车辆设备和规格，确认使用 CAN 通信的系统。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;诊断系统<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UU,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>从 GTS 屏幕上选择&ldquo;CAN Bus Check&rdquo;。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="gtsCanbusConnect">
+<dt class="gtsCanbusConnect">CAN 总线检查</dt>
+<dd class="gtsCanbusConnect gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50007</span>
+</dd>
+</dl>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>观察屏幕约 2 分钟以检查屏幕上显示的 ECU 和传感器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7UM_01_0008_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">7.检查 DLC3 支线和 V 总线主线 (CANH - CANL)</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7UM_01_0009">
+<div class="testtitle"><span class="titleText">7.检查 DLC3 支线和 V 总线主线 (CANH - CANL)</span></div>
+<div class="content6">
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>测量 CAN 总线电阻之前，将点火开关置于 OFF 位置，并在不操作钥匙或开关，或不打开或关闭车门的情况下使车辆静置 1 分钟或更长时间。随后，断开蓄电池负极 (-) 端子电缆并在测量电阻之前使车辆静置 1 分钟或更长时间。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果操作点火开关、任何其他开关或车门，则可触发相关的 ECU 和传感器进行 CAN 通信。该通信将导致电阻值发生变化。
+</p>
+</dd>
+</dl>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开蓄电池负极 (-) 端子电缆。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C151827.png" alt="C151827" title="C151827">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">1.5,0.708 2,0.958</span>
+<span class="rectangleSize">0.5,0.25</span>
+</span>
+<span class="line">
+<span class="points">2.052,1.854 2.302,1.271</span>
+<span class="points">2.302,1.271 2.542,1.271</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="line">
+<span class="points">2.052,2.583 1.865,3.042</span>
+<span class="points">1.865,3.042 1.667,3.042</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="caption">
+<span class="points">0.135,0.125 0.552,0.458</span>
+<span class="captionSize">0.417,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1</span>
+</span>
+<span class="caption">
+<span class="points">2.594,1.167 3.167,1.49</span>
+<span class="captionSize">0.573,0.323</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">CANH</span>
+</span>
+<span class="caption">
+<span class="points">1.26,2.938 2.031,3.302</span>
+<span class="captionSize">0.771,0.365</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">CANL</span>
+</span>
+<span class="caption">
+<span class="points">1.625,0.75 2.198,1.188</span>
+<span class="captionSize">0.573,0.438</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E18</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*1
+</td>
+<td class="alleft">DLC3
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E18-6 (CANH) - E18-14 (CANL)
+</td>
+<td class="alcenter">断开蓄电池负极 (-) 端子电缆
+</td>
+<td class="alcenter">54 至 69 Ω
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7UM_01_0009_1" summary="" class="half">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">正常
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">异常（70 Ω 或更大）
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+<tr>
+<td class="alleft">异常（低于 54 Ω）
+</td>
+<td class="alcenter">C
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">8.检查 V 总线是否对接地短路 (CANH, CANL - CG)</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至 CAN 主总线开路</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;CAN 主总线开路<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UW,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>C
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至 CAN 总线短路</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;检查 CAN 总线是否短路<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UX,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7UM_01_0010">
+<div class="testtitle"><span class="titleText">8.检查 V 总线是否对接地短路 (CANH, CANL - CG)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C151827.png" alt="C151827" title="C151827">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">1.5,0.708 2,0.958</span>
+<span class="rectangleSize">0.5,0.25</span>
+</span>
+<span class="line">
+<span class="points">2.052,1.854 2.302,1.271</span>
+<span class="points">2.302,1.271 2.542,1.271</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="line">
+<span class="points">2.052,2.583 1.865,3.042</span>
+<span class="points">1.865,3.042 1.667,3.042</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="line">
+<span class="points">1.594,1.865 1.323,1.281</span>
+<span class="points">1.323,1.281 1.021,1.281</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="caption">
+<span class="points">0.135,0.125 0.552,0.458</span>
+<span class="captionSize">0.417,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1</span>
+</span>
+<span class="caption">
+<span class="points">2.594,1.167 3.167,1.49</span>
+<span class="captionSize">0.573,0.323</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">CANH</span>
+</span>
+<span class="caption">
+<span class="points">1.26,2.938 2.031,3.302</span>
+<span class="captionSize">0.771,0.365</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">CANL</span>
+</span>
+<span class="caption">
+<span class="points">1.625,0.74 2.198,1.177</span>
+<span class="captionSize">0.573,0.438</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E18</span>
+</span>
+<span class="caption">
+<span class="points">0.75,1.188 1.219,1.406</span>
+<span class="captionSize">0.469,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">CG</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*1
+</td>
+<td class="alleft">DLC3
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E18-6 (CANH) - E18-4 (CG)
+</td>
+<td class="alcenter" rowspan="2">断开蓄电池负极 (-) 端子电缆
+</td>
+<td class="alcenter" rowspan="2">200 Ω 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">E18-14 (CANL) - E18-4 (CG)
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7UM_01_0010_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">9.检查 V 总线是否对 +B 短路 (CANH, CANL - BAT)</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至 CAN 总线对接地短路</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;检查 CAN 总线是否对接地短路<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UZ,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7UM_01_0011">
+<div class="testtitle"><span class="titleText">9.检查 V 总线是否对 +B 短路 (CANH, CANL - BAT)</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C151827.png" alt="C151827" title="C151827">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">1.5,0.708 2,0.958</span>
+<span class="rectangleSize">0.5,0.25</span>
+</span>
+<span class="line">
+<span class="points">2.052,1.854 2.302,1.271</span>
+<span class="points">2.302,1.271 2.542,1.271</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="line">
+<span class="points">2.052,2.583 1.865,3.042</span>
+<span class="points">1.865,3.042 1.667,3.042</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="line">
+<span class="points">2.479,2.583 2.583,3.021</span>
+<span class="points">2.583,3.021 2.792,3.021</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="caption">
+<span class="points">0.135,0.125 0.552,0.458</span>
+<span class="captionSize">0.417,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1</span>
+</span>
+<span class="caption">
+<span class="points">2.594,1.167 3.167,1.49</span>
+<span class="captionSize">0.573,0.323</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">CANH</span>
+</span>
+<span class="caption">
+<span class="points">1.26,2.938 2.031,3.302</span>
+<span class="captionSize">0.771,0.365</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">CANL</span>
+</span>
+<span class="caption">
+<span class="points">1.635,0.75 2.208,1.188</span>
+<span class="captionSize">0.573,0.438</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E18</span>
+</span>
+<span class="caption">
+<span class="points">2.844,2.917 3.313,3.135</span>
+<span class="captionSize">0.469,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">BAT</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*1
+</td>
+<td class="alleft">DLC3
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E18-6 (CANH) - E18-16 (BAT)
+</td>
+<td class="alcenter" rowspan="2">断开蓄电池负极 (-) 端子电缆
+</td>
+<td class="alcenter" rowspan="2">6 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">E18-14 (CANL) - E18-16 (BAT)
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7UM_01_0011_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">10.检查 CAN 总线检查结果（使用 GTS 检查连接状态）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至 CAN 总线对 +B 短路</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;检查 CAN 总线是否对 +B 短路<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UY,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7UM_01_0020">
+<div class="testtitle"><span class="titleText">10.检查 CAN 总线检查结果（使用 GTS 检查连接状态）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>根据步骤 6（进行 CAN 总线检查的步骤）的检查结果，检查或维修可能存在故障的零件。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="gtsCanbusConnect">
+<dt class="gtsCanbusConnect">CAN 总线检查</dt>
+<dd class="gtsCanbusConnect gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50007</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">CAN 总线检查结果（使用 GTS 检查连接状态）:</dt>
+<dd class="spec"><table id="RM100000000D7UM_01_0020_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>所有连接到 CAN 通信系统的 ECU 和传感器均显示在屏幕上。
+<br>
+（CAN 总线电路当前正常。）
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td>连接到 V 总线的任一 ECU 和传感器未显示在屏幕上。
+<br>
+（ECU 或传感器支线开路，或通信中断。）
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+<tr>
+<td>除与 CAN 通信系统相连但未显示在屏幕上的 ECU 和传感器外，在检查期间还存在检测状态改变（在检测到和未检测到之间变化）的 ECU 或传感器。
+<br>
+（ECU 或传感器支线一侧开路。）
+</td>
+<td class="alcenter">C
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>不显示未安装的 ECU 或传感器。不要误认为其处于通信终止模式。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>可从 GTS 上的总线选择下拉菜单中选择无 ECU 或传感器的总线。这并非故障。（选装设备不在由配备网关功能的 ECU 监视的分总线上时，发生此情况。）
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>有关 CAN 总线检查，请参考如何判断 CAN 总线检查画面。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;诊断系统<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UU,</span></a>
+
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果在检查期间 ECU 的检测状态改变，则连接 ECU 或传感器的任一支线可能开路。（来自任一支线开路的 ECU 或传感器的信号产生电噪干扰，影响对 GTS 的响应以及是否显示 ECU 和传感器。）
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">11.检查通信故障检查的检查结果</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至通信终止模式表</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;故障症状表<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UN,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>C
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至 CAN 支线一侧开路</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;CAN 支线一侧开路<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7V0,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7UM_01_0023">
+<div class="testtitle"><span class="titleText">11.检查通信故障检查的检查结果</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>根据步骤 5（进行检查通信故障 DTC 的步骤）的检查结果，检查或维修可能存在故障的零件。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检查通信 DTC 时，请参考如何判断通信 DTC（以 U 开头的 DTC）。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;诊断系统<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UU,</span></a>
+
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果存储通信 DTC，且连接至 CAN 通信系统的所有 ECU 和传感器均显示在 GTS 的 CAN Bus Check 画面上，则可能是过去而非现在发生的故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>V 总线的 CAN 支线有故障时，由于其相关 ECU 和传感器检测到该故障，则可通过输出的 DTC 组合确定故障部位。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7UM_01_0023_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">12.DTC 组合表</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7UM_01_0024">
+<div class="testtitle"><span class="titleText">12.DTC 组合表</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>根据与 CAN 通信系统相关的输出 DTC 的组合来确认故障。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;诊断系统<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UU,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7UM_01_0024_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">DTC 组合表中无 DTC 组合。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">DTC 组合表中有 DTC 组合。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果输出 CAN 通信系统 DTC，并且连接至 CAN 通信系统的所有 ECU 和传感器均显示在 GTS 的 CAN Bus Check 画面上，则 CAN 通信系统的历史 DTC 可能指示故障。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">13.故障识别（V 主总线线路的以前故障）</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至通信终止模式表</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;故障症状表<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UN,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7UM_01_0026">
+<div class="testtitle"><span class="titleText">13.故障识别（V 主总线线路的以前故障）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>连接蓄电池负极 (-) 端子电缆。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>使用 GTS 清除 DTC。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>进行症状模拟测试，以检查包括 V 总线主总线的线束和连接器。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;如何对 ECU 控制系统进行故障排除&gt;如何进行故障排除<span class="invisible">201406,999999,_V1,_023977,_0116737,RM100000000DB86,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>根据检查结果，检查输出 DTC 的零件以确定故障部位。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果输出 DTC，则不要将点火开关置于 OFF 位置。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7UM_01_0026_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">14.维修或更换</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7UM_01_0027">
+<div class="testtitle"><span class="titleText">14.维修或更换</span></div>
+<div class="content6">
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7UM_01_0027_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">15.确认测试</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7UM_01_0028">
+<div class="testtitle"><span class="titleText">15.确认测试</span></div>
+<div class="content6">
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7UM_01_0028_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>下一步
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">结束</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

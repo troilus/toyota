@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS117" code="A41" type="conn" figID="7">
+    <name>制动执行器总成</name>
+  </text>
+  <text ewd="SYS117" code="E55" type="conn" figID="9,12">
+    <name>组合仪表总成</name>
+  </text>
+  <text ewd="SYS117" code="B16" type="conn" figID="1">
+    <name>曲轴位置传感器</name>
+  </text>
+  <text ewd="SYS117" code="E18" type="conn" figID="5">
+    <name>DLC3</name>
+  </text>
+  <text ewd="SYS117" code="A40,B39" type="conn" figID="8">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS117" code="A39" type="conn" figID="13">
+    <name>1 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS117" code="E74" type="conn" figID="14">
+    <name>2 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS117" code="z8" type="conn" figID="4">
+    <name>动力转向 ECU 总成、动力转向马达总成</name>
+  </text>
+  <text ewd="SYS117" code="z7" type="conn" figID="3">
+    <name>动力转向 ECU 总成、动力转向扭矩传感器（电动转向柱分总成）</name>
+  </text>
+  <text ewd="SYS117" code="A27,E45,z7,z8" type="conn" figID="10">
+    <name>动力转向 ECU 总成、动力转向扭矩传感器（电动转向柱分总成）、动力转向马达总成</name>
+  </text>
+  <text ewd="SYS117" code="FUSE6" type="fuse" figID="35,37">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS117" code="FUSE38" type="fuse" figID="33">
+    <name>5A ECU-IG NO.5</name>
+  </text>
+  <text ewd="SYS117" code="FUSE39" type="fuse" figID="36,38">
+    <name>5A MET</name>
+  </text>
+  <text ewd="SYS117" code="FUSE34" type="fuse" figID="34">
+    <name>60A EPS</name>
+  </text>
+  <text ewd="SYS117" code="AE" type="gp" figID="27">
+    <name />
+  </text>
+  <text ewd="SYS117" code="BA" type="gp" figID="28">
+    <name />
+  </text>
+  <text ewd="SYS117" code="ED" type="gp" figID="29,30">
+    <name />
+  </text>
+  <text ewd="SYS117" code="3" type="jb" figID="18,19,20,21,22">
+    <name />
+  </text>
+  <text ewd="SYS117" code="FUSE6" type="rb" figID="6,11">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS117" code="FUSE34" type="rb" figID="2">
+    <name>60A EPS</name>
+  </text>
+  <text ewd="SYS117" code="SP23" type="sp" figID="32">
+    <name />
+  </text>
+  <text ewd="SYS117" code="SP44" type="sp" figID="31">
+    <name />
+  </text>
+  <text ewd="SYS117" code="AE3" type="w2w" figID="25,26">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS117" code="AE4" type="w2w" figID="23,24">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+</EwdTree>

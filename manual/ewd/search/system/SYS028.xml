@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS028">
+    <part type="conn" code="B3,C1">
+      <name>蓄电池</name>
+    </part>
+    <part type="conn" code="A41,A42">
+      <text>SP1</text>
+      <name>制动执行器总成</name>
+    </part>
+    <part type="conn" code="E47,E48,E49">
+      <text>CLG7 CG7B CLG8 CG8B TSW5 IND RCO RDAM CSEL P STP1 CANH CANL SPD CUTB NE IG SLP SLR+ LIN DUMY +B STAR STA IG2D E IDW VC5 TXCT CODE SWIL AGND SSW1 SSW2 IG1D ACCD POS2 CLG2 CG2B TSW2 SEN2 POS1 CLG1 CG1B TSW1 SEN1 CLG5 CG5B CLG6 CG6B</text>
+      <name>认证 ECU</name>
+    </part>
+    <part type="conn" code="A5">
+      <name>离合器起动开关总成</name>
+    </part>
+    <part type="conn" code="E55,E59">
+      <text>CPU I/F ET CAN I/F CANL CANH 5V+B 5V IC IG+ B +S SI LR LL</text>
+      <name>组合仪表总成</name>
+      <name type="inner">蜂鸣器</name>
+      <name type="inner">CAN 控制器</name>
+      <name type="inner">显示屏驱动器</name>
+    </part>
+    <part type="conn" code="A40">
+      <text>ECM STA NSW IMI IMO NEO</text>
+    </part>
+    <part type="conn" code="E50">
+      <text>SS2 SS1 AGND SWIL CODE TXCT VC5</text>
+      <name>发动机开关</name>
+      <name type="inner">全开</name>
+      <name type="inner">全接</name>
+      <name type="inner">天线线圈</name>
+    </part>
+    <part type="conn" code="L1">
+      <name>左前车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="L41">
+      <name>右前车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="H9">
+      <text>LSSR UL E M L</text>
+      <name>带电动机的左前门锁总成</name>
+      <name type="inner">开锁检测</name>
+    </part>
+    <part type="conn" code="G8">
+      <text>M UL LSSR E L</text>
+      <name>带电动机的右前门锁总成</name>
+      <name type="inner">开锁检测</name>
+    </part>
+    <part type="conn" code="H8">
+      <text>B ANT1 ANT2 TRG+ GND SENS</text>
+      <name>左前车门外把手总成</name>
+    </part>
+    <part type="conn" code="G7">
+      <text>B ANT1 ANT2 TRG+ GND SENS</text>
+      <name>右前车门外把手总成</name>
+    </part>
+    <part type="conn" code="E28">
+      <text>EFIO EFII LIN1 +B GND</text>
+      <name>ID 代码箱</name>
+    </part>
+    <part type="conn" code="L30">
+      <text>M D+ ACT+ E</text>
+      <name>行李厢门锁总成</name>
+      <name type="inner">门控灯</name>
+    </part>
+    <part type="conn" code="L39">
+      <text>UL E</text>
+      <name>行李厢电子钥匙开关</name>
+    </part>
+    <part type="conn" code="E36">
+      <text>CANH CANL FRCY LCTY RCTY LSFL LSFR ACC IG BECU FLCY LGCY TR+ GND1 ACT+ ACT- LSR</text>
+      <name>主车身 ECU</name>
+    </part>
+    <part type="conn" code="A39">
+      <name>1 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="L21">
+      <text>CLGB ANTE5</text>
+      <name>车内 1 号电子钥匙天线总成</name>
+    </part>
+    <part type="conn" code="A37">
+      <name>1 号接线连接器</name>
+    </part>
+    <part type="conn" code="E74">
+      <name>2 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="L20">
+      <text>CLGB ANTE6</text>
+      <name>车内 2 号电子钥匙天线总成</name>
+    </part>
+    <part type="conn" code="A38">
+      <name>2 号接线连接器</name>
+    </part>
+    <part type="conn" code="L43">
+      <text>CLGB ANTE7</text>
+      <name>车内 3 号电子钥匙天线总成</name>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="conn" code="E73">
+      <name>6 号接线连接器</name>
+    </part>
+    <part type="conn" code="L54,L55">
+      <name>7 号接线连接器</name>
+    </part>
+    <part type="conn" code="B15">
+      <text>L B N P</text>
+      <name>驻车/空档位置开关总成</name>
+    </part>
+    <part type="conn" code="L2">
+      <name>左后车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="L42">
+      <name>右后车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="K3">
+      <text>M E L UL LSSR</text>
+      <name>带电动机的左后门锁总成</name>
+      <name type="inner">开锁检测</name>
+    </part>
+    <part type="conn" code="J3">
+      <text>M L UL LSSR E</text>
+      <name>带电动机的右后门锁总成</name>
+      <name type="inner">开锁检测</name>
+    </part>
+    <part type="conn" code="L18">
+      <text>CLGB ANTE8</text>
+      <name>后电子钥匙天线</name>
+    </part>
+    <part type="conn" code="E7">
+      <text>P2</text>
+      <name>换档锁止控制 ECU（变速器地板式换档总成）</name>
+    </part>
+    <part type="conn" code="L52">
+      <text>+5 DATA GND CSEL</text>
+      <name>智能车门控制接收器总成</name>
+    </part>
+    <part type="conn" code="B5,B10">
+      <text>M</text>
+      <name>起动机总成</name>
+    </part>
+    <part type="conn" code="E51">
+      <text>M B GND IGE SLP1 LIN IG2</text>
+      <name>转向锁执行器总成</name>
+    </part>
+    <part type="conn" code="A2">
+      <text>GND OUT B</text>
+      <name>刹车灯开关总成</name>
+    </part>
+    <part type="conn" code="E61">
+      <text>LP E</text>
+      <name>警告灯总成</name>
+      <name type="inner">安全指示灯</name>
+    </part>
+    <part type="fuse" code="FUSE43">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE36">
+      <text>ALT</text>
+    </part>
+    <part type="fuse" code="FUSE2">
+      <text>AM2</text>
+    </part>
+    <part type="fuse" code="FUSE60">
+      <text>D/L NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE55">
+      <text>DOOR BACK</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>ECU-B NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE47">
+      <text>ECU-IG NO.4</text>
+    </part>
+    <part type="fuse" code="FUSE19">
+      <text>IG2</text>
+    </part>
+    <part type="fuse" code="FUSE50">
+      <text>IGN</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE28">
+      <text>ST</text>
+    </part>
+    <part type="fuse" code="FUSE54">
+      <text>STOP</text>
+    </part>
+    <part type="fuse" code="FUSE21">
+      <text>STRG LOCK</text>
+    </part>
+    <part type="fuse" code="FUSE17">
+      <text>TURN&amp;HAZ</text>
+    </part>
+  </ttl>
+</EWDSearch>

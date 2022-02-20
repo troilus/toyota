@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE compact-defs SYSTEM "../../../dtd/compact.dtd">
+<compact-defs pubno="EM3140CG" ver="2.1.2.6F">
+    <part code="L54,L55" figID="1" type="conn">
+        <path d="M 254.96, 220.75 L 441.93, 220.75 L 441.93, 248.81 L 254.96, 248.81 L 254.96, 220.75 "/>
+    </part>
+    <part code="B6,B7" figID="2" type="conn">
+        <path d="M 42.49, 281.10 L 66.77, 281.10 L 66.77, 351.36 L 42.49, 351.36 L 42.49, 281.10 "/>
+    </part>
+    <part code="B15" figID="3" type="conn">
+        <path d="M 118.98, 299.87 L 169.97, 299.87 L 169.97, 349.83 L 118.98, 349.83 L 118.98, 299.87 "/>
+    </part>
+    <part code="L32" figID="4" type="conn">
+        <path d="M 314.45, 299.89 L 365.44, 299.89 L 365.44, 366.83 L 314.45, 366.83 L 314.45, 299.89 "/>
+    </part>
+    <part code="L31" figID="5" type="conn">
+        <path d="M 407.93, 299.89 L 458.92, 299.89 L 458.92, 366.83 L 407.93, 366.83 L 407.93, 299.89 "/>
+    </part>
+    <part code="3" figID="6" type="jb">
+        <path d="M 127.48, 27.25 L 186.97, 27.25 L 186.97, 105.77 L 127.48, 105.77 L 127.48, 27.25 "/>
+    </part>
+    <part code="3" figID="7" type="jb">
+        <path d="M 246.46, 305.73 L 271.95, 305.73 L 271.95, 360.73 L 246.46, 360.73 L 246.46, 305.73 "/>
+    </part>
+    <part code="BA2" figID="8" type="w2w">
+        <path d="M 129.42, 179.69 L 152.97, 179.69 L 152.97, 199.25 L 129.42, 199.25 L 129.42, 179.69 "/>
+    </part>
+    <part code="BA2" figID="9" type="w2w">
+        <path d="M 146.42, 518.20 L 169.97, 518.20 L 169.97, 537.76 L 146.42, 537.76 L 146.42, 518.20 "/>
+    </part>
+    <part code="LA" figID="10" type="gp">
+        <path d="M 329.32, 679.67 L 350.57, 679.67 L 350.57, 710.00 L 329.32, 710.00 L 329.32, 679.67 "/>
+    </part>
+</compact-defs>

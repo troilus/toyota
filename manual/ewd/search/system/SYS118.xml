@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS118">
+    <part type="conn" code="A42">
+      <text>CANL CANH</text>
+      <name>制动执行器总成</name>
+    </part>
+    <part type="conn" code="E55">
+      <text>B IG+ 5V IC 5V+B CANH CANL CAN I/F ET I/F CPU</text>
+      <name>组合仪表总成</name>
+      <name type="inner">动力转向</name>
+      <name type="inner">CAN 控制器</name>
+      <name type="inner">蜂鸣器</name>
+      <name type="inner">LED 驱动器</name>
+    </part>
+    <part type="conn" code="B16">
+      <name>曲轴位置传感器</name>
+    </part>
+    <part type="conn" code="E18">
+      <text>DLC3 CANL TS CANH</text>
+    </part>
+    <part type="conn" code="A40,B39">
+      <text>ECM NE+ CANL NE- CANH</text>
+    </part>
+    <part type="conn" code="A39">
+      <name>1 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E74">
+      <name>2 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="z12">
+      <text>R W B Y</text>
+      <name>动力转向 ECU 总成、动力转向扭矩传感器（电动转向柱分总成）</name>
+      <name type="inner">扭矩传感器</name>
+      <name type="inner">动力转向</name>
+    </part>
+    <part type="conn" code="A28,E46,z12">
+      <text>M TRQV TRQ1 TRQG TRQ2 CANH CANL TS PIG PGND IG RLY</text>
+      <name>动力转向 ECU 总成、动力转向扭矩传感器（电动转向柱分总成）</name>
+      <name type="inner">动力转向马达</name>
+    </part>
+    <part type="conn" code="E62">
+      <text>CANH CANL</text>
+      <name>转向传感器</name>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE1">
+      <text>ECU-B NO.3</text>
+    </part>
+    <part type="fuse" code="FUSE38">
+      <text>ECU-IG NO.5</text>
+    </part>
+    <part type="fuse" code="FUSE35">
+      <text>EPS</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>MET</text>
+    </part>
+  </ttl>
+</EWDSearch>

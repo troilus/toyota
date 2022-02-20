@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS076">
+    <part type="conn" code="A41">
+      <text>SP1 CANL CANH</text>
+      <name>制动执行器总成</name>
+    </part>
+    <part type="conn" code="A10">
+      <name>制动液液位警告开关（制动总泵储液罐总成）</name>
+    </part>
+    <part type="conn" code="A4">
+      <name>离合器起动开关总成</name>
+    </part>
+    <part type="conn" code="E55,E59">
+      <text>S I/F IG+ 12V P/SB ER EL L HAZ CPU 5V +B CAN I/F SPORT (*6) ABS SRS 5V IC B + FOG ET CANL TX1+ - CHK CANH +S SI E LL 5V SW A/T OIL TEMP (*6) ECO LR ODO/TRIP</text>
+      <name>组合仪表总成</name>
+      <name type="inner">LED 驱动器</name>
+      <name type="inner">短程里程表开关</name>
+      <name type="inner">蜂鸣器</name>
+      <name type="inner">光束</name>
+      <name type="inner">检查发动机</name>
+      <name type="inner">充电</name>
+      <name type="inner">前雾灯</name>
+      <name type="inner">后雾灯</name>
+      <name type="inner">制动器</name>
+      <name type="inner">座椅安全带</name>
+      <name type="inner">动力转向</name>
+      <name type="inner">车速表</name>
+      <name type="inner">转速表</name>
+      <name type="inner">LCD 驱动器</name>
+      <name type="inner">仪表驱动器</name>
+      <name type="inner">水温高</name>
+      <name type="inner">燃油</name>
+      <name type="inner">车门</name>
+      <name type="inner">CAN 控制器</name>
+      <name type="inner">指针照明控制</name>
+      <name type="inner">旋钮照明控制</name>
+      <name type="inner">LCD B/L 照明控制</name>
+      <name type="inner">机油压力</name>
+      <name type="inner">LCD 显示屏</name>
+      <name type="inner">左转向</name>
+      <name type="inner">右转向</name>
+      <name type="inner">闪光灯继电器</name>
+      <name type="inner">换档指示灯</name>
+    </part>
+    <part type="conn" code="B16">
+      <name>曲轴位置传感器</name>
+    </part>
+    <part type="conn" code="B4">
+      <name>E.F.I. 发动机冷却液温度传感器</name>
+    </part>
+    <part type="conn" code="A40,B39">
+      <text>ECM CANL CANH #10 P ETHW THW R NE+ N NE- D</text>
+    </part>
+    <part type="conn" code="B8">
+      <name>发动机机油压力开关总成</name>
+    </part>
+    <part type="conn" code="L1">
+      <name>左前车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="L41">
+      <name>右前车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="B11">
+      <name>1 号喷油器总成</name>
+    </part>
+    <part type="conn" code="L22">
+      <text>FE FS</text>
+      <name>带泵和计量表的燃油吸油管总成</name>
+      <name type="inner">计量表</name>
+    </part>
+    <part type="conn" code="L30">
+      <text>E D+</text>
+      <name>行李厢门锁总成</name>
+      <name type="inner">门控灯</name>
+    </part>
+    <part type="conn" code="E36">
+      <text>CANH CANL FRCY RCTY LCTY ACC IG BECU FLCY LGCY PKB GND1</text>
+      <name>主车身 ECU</name>
+    </part>
+    <part type="conn" code="A39">
+      <name>1 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E74">
+      <name>2 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="L54,L55">
+      <name>7 号接线连接器</name>
+    </part>
+    <part type="conn" code="A20">
+      <name>车外温度传感器（热敏电阻总成）</name>
+    </part>
+    <part type="conn" code="B15">
+      <text>DL NL RL D N PL RB P R</text>
+      <name>驻车/空档位置开关总成</name>
+    </part>
+    <part type="conn" code="L19">
+      <name>驻车制动开关总成</name>
+    </part>
+    <part type="conn" code="L2">
+      <name>左后车门门控灯开关总成</name>
+    </part>
+    <part type="conn" code="L42">
+      <name>右后车门门控灯开关总成</name>
+    </part>
+    <part type="fuse" code="FUSE43">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>ECU-B NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE45">
+      <text>ECU-IG NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE47">
+      <text>ECU-IG NO.4</text>
+    </part>
+    <part type="fuse" code="FUSE7">
+      <text>EFI NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE10">
+      <text>H-LP LH-HI</text>
+    </part>
+    <part type="fuse" code="FUSE29">
+      <text>H-LP-MAIN</text>
+    </part>
+    <part type="fuse" code="FUSE19">
+      <text>IG2</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE17">
+      <text>TURN&amp;HAZ</text>
+    </part>
+  </ttl>
+</EWDSearch>

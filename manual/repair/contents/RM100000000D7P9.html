@@ -1,0 +1,1866 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">发动机/混合动力系统</span>
+<span class="globalSection">_023949</span>
+<span class="globalSectionName">1ZR-FE 发动机控制系统</span>
+<span class="globalTitle">_0116049</span>
+<span class="globalTitleName">SFI 系统</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>1ZR-FE 发动机控制系统&nbsp;&nbsp;SFI 系统&nbsp;&nbsp;P0504&nbsp;&nbsp;制动开关&ldquo;A&rdquo;/&ldquo;B&rdquo;相关性&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D7P9_01" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<p>刹车灯开关总成为双向系统，可以发送两个信号：STP 和 ST1-。ECM 使用这两个信号来监视制动系统是否工作正常。如果同时检测到指示制动踏板已踩下和已松开的信号，则 ECM 将此视为刹车灯开关总成故障并存储该 DTC。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>正常信号状态如下表所示。
+</p>
+</dd>
+<dd class="atten4"><table summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">信号（ECM 端子）
+</th>
+<th class="alcenter">松开制动踏板
+</th>
+<th class="alcenter">转换
+</th>
+<th class="alcenter">踩下制动踏板
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">STP
+</td>
+<td class="alcenter">OFF
+</td>
+<td class="alcenter">ON
+</td>
+<td class="alcenter">ON
+</td>
+</tr>
+<tr>
+<td class="alcenter">ST1-
+</td>
+<td class="alcenter">ON
+</td>
+<td class="alcenter">ON
+</td>
+<td class="alcenter">OFF
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>[OFF] 表示接地电压。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>[ON] 表示蓄电池电压 (+B)。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>踩下制动踏板时，GTS 上的数据表项目 Stop Light Switch 和 ST1 均为 ON，因为 ST1 指示与 Stop Light Switch 指示特性相反。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:14%">
+<col style="width:25%">
+<col style="width:29%">
+<col style="width:10%">
+<col style="width:10%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">存储器
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P0504
+</td>
+<td class="alleft">制动开关&ldquo;A&rdquo;/&ldquo;B&rdquo;相关性
+</td>
+<td class="alleft">条件 (a) 和 (b) 持续 0.5 秒或更长时间（单程检测逻辑）：
+<br>
+(a) 点火开关置于 ON 位置
+<br>
+(b) ST1- 信号为 OFF 时，STP 信号为 OFF
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>刹车灯开关信号电路开路或短路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>刹车灯开关总成
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">不亮
+</td>
+<td class="alleft">存储 DTC
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000D7P9_02" class="category no03">
+<h2>电路图</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A311078.png" alt="A311078" title="A311078">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">5.813,0.74 6.271,0.938</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A40</span>
+</span>
+<span class="caption">
+<span class="points">5.813,1.26 6.271,1.458</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A40</span>
+</span>
+<span class="caption">
+<span class="points">5.802,1.698 6.26,1.896</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A40</span>
+</span>
+<span class="caption">
+<span class="points">5.813,2.51 6.271,2.708</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B39</span>
+</span>
+<span class="caption">
+<span class="points">6.177,0.76 6.635,0.958</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGSW</span>
+</span>
+<span class="caption">
+<span class="points">6.177,1.26 6.635,1.458</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ST1-</span>
+</span>
+<span class="caption">
+<span class="points">6.177,1.708 6.635,1.906</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">STP</span>
+</span>
+<span class="caption">
+<span class="points">6.177,2.51 6.635,2.708</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E1</span>
+</span>
+<span class="caption">
+<span class="points">6.344,3.073 6.802,3.271</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECM</span>
+</span>
+<span class="caption">
+<span class="points">3.698,2.375 4.156,2.573</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A2</span>
+</span>
+<span class="caption">
+<span class="points">3.688,2.531 5.552,2.781</span>
+<span class="captionSize">1.865,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">刹车灯开关总成</span>
+</span>
+<span class="caption">
+<span class="points">2.906,0.927 3.365,1.125</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGN</span>
+</span>
+<span class="caption">
+<span class="points">1.698,1.427 2.156,1.625</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG2</span>
+</span>
+<span class="caption">
+<span class="points">2.208,1 2.667,1.198</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">1.406,0.646 1.865,0.844</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">1.427,1.01 1.885,1.208</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">2.198,0.635 2.656,0.833</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5</span>
+</span>
+<span class="caption">
+<span class="points">0.417,2.104 0.875,2.302</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG2</span>
+</span>
+<span class="caption">
+<span class="points">0.875,3.531 1.333,3.729</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ALT</span>
+</span>
+<span class="caption">
+<span class="points">1.646,3.531 2.104,3.729</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">STOP</span>
+</span>
+<span class="caption">
+<span class="points">0.396,3.875 1.531,4.146</span>
+<span class="captionSize">1.135,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">FL MAIN</span>
+</span>
+<span class="caption">
+<span class="points">0.604,4.573 1.74,4.844</span>
+<span class="captionSize">1.135,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">蓄电池</span>
+</span>
+<span class="caption">
+<span class="points">5.833,2.323 6.208,2.5</span>
+<span class="captionSize">0.375,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">59</span>
+</span>
+<span class="caption">
+<span class="points">5.875,1.531 6.25,1.708</span>
+<span class="captionSize">0.375,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">9</span>
+</span>
+<span class="caption">
+<span class="points">5.844,1.083 6.219,1.26</span>
+<span class="captionSize">0.375,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">10</span>
+</span>
+<span class="caption">
+<span class="points">5.906,0.563 6.281,0.74</span>
+<span class="captionSize">0.375,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">6</span>
+</span>
+<span class="caption">
+<span class="points">4.344,1.708 4.521,1.948</span>
+<span class="captionSize">0.177,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+<span class="caption">
+<span class="points">4.344,1.271 4.521,1.51</span>
+<span class="captionSize">0.177,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+<span class="caption">
+<span class="points">4.99,1.271 5.146,1.51</span>
+<span class="captionSize">0.156,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">L</span>
+</span>
+<span class="caption">
+<span class="points">4.802,1.719 5.229,1.906</span>
+<span class="captionSize">0.427,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OUT</span>
+</span>
+<span class="caption">
+<span class="points">4.792,2.125 5.219,2.313</span>
+<span class="captionSize">0.427,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">GND</span>
+</span>
+<span class="caption">
+<span class="points">4.188,1.177 4.563,1.354</span>
+<span class="captionSize">0.375,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5</span>
+</span>
+<span class="caption">
+<span class="points">4.188,1.615 4.563,1.792</span>
+<span class="captionSize">0.375,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">5.188,1.177 5.563,1.354</span>
+<span class="captionSize">0.375,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4</span>
+</span>
+<span class="caption">
+<span class="points">5.188,1.625 5.563,1.802</span>
+<span class="captionSize">0.375,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">5.188,2.031 5.563,2.208</span>
+<span class="captionSize">0.375,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">0.104,0.073 2.094,0.344</span>
+<span class="captionSize">1.99,0.271</span>
+<span class="fontsize">12</span>
+<span class="filled">false</span>
+<span class="captionText">LED 型：</span>
+</span>
+<span class="caption">
+<span class="points">1.531,4.792 5.521,5.063</span>
+<span class="captionSize">3.99,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1：不带智能进入和起动系统</span>
+</span>
+<span class="caption">
+<span class="points">4,3.854 6.594,4.135</span>
+<span class="captionSize">2.594,0.281</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">自点火开关总成*1</span>
+</span>
+<span class="caption">
+<span class="points">3.99,4.198 6.406,4.635</span>
+<span class="captionSize">2.417,0.438</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">自认证 ECU（智能钥匙 ECU 总成）*2</span>
+</span>
+<span class="caption">
+<span class="points">1.521,5.177 5.51,5.448</span>
+<span class="captionSize">3.99,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*2：带智能进入和起动系统</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A322092.png" alt="A322092" title="A322092">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.146,0.125 2.719,0.365</span>
+<span class="captionSize">2.573,0.24</span>
+<span class="fontsize">12</span>
+<span class="filled">false</span>
+<span class="captionText">灯泡型：</span>
+</span>
+<span class="caption">
+<span class="points">1.448,0.615 1.719,0.813</span>
+<span class="captionSize">0.271,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">2.229,0.969 2.5,1.167</span>
+<span class="captionSize">0.271,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">1.458,0.958 1.729,1.156</span>
+<span class="captionSize">0.271,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">2.24,0.615 2.51,0.813</span>
+<span class="captionSize">0.271,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5</span>
+</span>
+<span class="caption">
+<span class="points">1.75,1.396 2.427,1.615</span>
+<span class="captionSize">0.677,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG2</span>
+</span>
+<span class="caption">
+<span class="points">2.917,0.896 3.594,1.115</span>
+<span class="captionSize">0.677,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGN</span>
+</span>
+<span class="caption">
+<span class="points">0.448,2.083 1.125,2.302</span>
+<span class="captionSize">0.677,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG2</span>
+</span>
+<span class="caption">
+<span class="points">0.906,3.531 1.583,3.75</span>
+<span class="captionSize">0.677,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ALT</span>
+</span>
+<span class="caption">
+<span class="points">1.667,3.531 2.344,3.75</span>
+<span class="captionSize">0.677,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">STOP</span>
+</span>
+<span class="caption">
+<span class="points">0.417,3.833 1.094,4.052</span>
+<span class="captionSize">0.677,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">FL MAIN</span>
+</span>
+<span class="caption">
+<span class="points">0.625,4.552 1.302,4.771</span>
+<span class="captionSize">0.677,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">蓄电池</span>
+</span>
+<span class="caption">
+<span class="points">4.042,1.125 4.313,1.323</span>
+<span class="captionSize">0.271,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4</span>
+</span>
+<span class="caption">
+<span class="points">4.042,1.74 4.313,1.938</span>
+<span class="captionSize">0.271,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">4.885,1.125 5.156,1.323</span>
+<span class="captionSize">0.271,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3</span>
+</span>
+<span class="caption">
+<span class="points">4.885,1.75 5.156,1.948</span>
+<span class="captionSize">0.271,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+<span class="caption">
+<span class="points">3.792,2.042 4.104,2.25</span>
+<span class="captionSize">0.313,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A1</span>
+</span>
+<span class="caption">
+<span class="points">3.781,2.208 5.667,2.531</span>
+<span class="captionSize">1.885,0.323</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">刹车灯开关总成</span>
+</span>
+<span class="caption">
+<span class="points">5.844,0.719 6.156,0.927</span>
+<span class="captionSize">0.313,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A40</span>
+</span>
+<span class="caption">
+<span class="points">5.844,1.24 6.156,1.448</span>
+<span class="captionSize">0.313,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A40</span>
+</span>
+<span class="caption">
+<span class="points">5.844,1.854 6.156,2.063</span>
+<span class="captionSize">0.313,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A40</span>
+</span>
+<span class="caption">
+<span class="points">5.833,2.479 6.146,2.688</span>
+<span class="captionSize">0.313,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B39</span>
+</span>
+<span class="caption">
+<span class="points">5.938,0.531 6.208,0.729</span>
+<span class="captionSize">0.271,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">6</span>
+</span>
+<span class="caption">
+<span class="points">5.875,1.052 6.146,1.25</span>
+<span class="captionSize">0.271,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">10</span>
+</span>
+<span class="caption">
+<span class="points">5.906,1.667 6.177,1.865</span>
+<span class="captionSize">0.271,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">9</span>
+</span>
+<span class="caption">
+<span class="points">5.875,2.292 6.146,2.49</span>
+<span class="captionSize">0.271,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">59</span>
+</span>
+<span class="caption">
+<span class="points">6.229,0.719 6.667,0.917</span>
+<span class="captionSize">0.438,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IGSW</span>
+</span>
+<span class="caption">
+<span class="points">6.229,1.25 6.667,1.448</span>
+<span class="captionSize">0.438,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ST1-</span>
+</span>
+<span class="caption">
+<span class="points">6.229,1.854 6.667,2.052</span>
+<span class="captionSize">0.438,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">STP</span>
+</span>
+<span class="caption">
+<span class="points">6.24,2.469 6.677,2.667</span>
+<span class="captionSize">0.438,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E1</span>
+</span>
+<span class="caption">
+<span class="points">6.417,3.031 6.854,3.229</span>
+<span class="captionSize">0.438,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECM</span>
+</span>
+<span class="caption">
+<span class="points">4,3.823 6.344,4.198</span>
+<span class="captionSize">2.344,0.375</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">自点火开关总成*1</span>
+</span>
+<span class="caption">
+<span class="points">3.99,4.24 6.385,4.76</span>
+<span class="captionSize">2.396,0.521</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">自认证 ECU（智能钥匙 ECU 总成）*2</span>
+</span>
+<span class="caption">
+<span class="points">1.938,5 5.063,5.49</span>
+<span class="captionSize">3.125,0.49</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1：不带智能进入和起动系统</span>
+</span>
+<span class="caption">
+<span class="points">1.938,5.333 5.063,5.823</span>
+<span class="captionSize">3.125,0.49</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*2：带智能进入和起动系统</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000D7P9_03" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>进行下列程序前，先检查与此系统相关电路的保险丝。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用 GTS 读取定格数据。存储 DTC 时，ECM 将车辆和驾驶条件信息记录为定格数据。进行故障排除时，定格数据有助于确定故障出现时车辆是运行还是停止，发动机是暖机还是未暖机，空燃比是浓还是稀，以及其他数据。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用 GTS 可检查刹车灯开关总成状态。
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">1.</div>
+<div class="list2Body"><p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">2.</div>
+<div class="list2Body"><p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">3.</div>
+<div class="list2Body"><p>打开 GTS。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">4.</div>
+<div class="list2Body"><p>进入以下菜单：Powertrain / Engine and ECT / Data List / All Data / Stop Light Switch and ST1。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">5.</div>
+<div class="list2Body"><p>踩下和松开制动踏板时检查数据表指示。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">制动踏板的操作情况
+</th>
+<th class="alcenter">Stop Light Switch
+</th>
+<th class="alcenter">ST1
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">踩下
+</td>
+<td class="alcenter">ON
+</td>
+<td class="alcenter">ON
+</td>
+</tr>
+<tr>
+<td class="alcenter">松开
+</td>
+<td class="alcenter">OFF
+</td>
+<td class="alcenter">OFF
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000D7P9_06" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000D7P9_06_0001">
+<div class="testtitle"><span class="titleText">1.检查端子电压（刹车灯开关总成电源）</span></div>
+<div class="content6">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A321966.png" alt="A321966" title="A321966">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.781,1.073 1.146,1.313</span>
+<span class="rectangleSize">0.365,0.24</span>
+</span>
+<span class="rectangle">
+<span class="points">4.031,1.031 4.396,1.271</span>
+<span class="rectangleSize">0.365,0.24</span>
+</span>
+<span class="line">
+<span class="points">1.063,0.76 1.229,0.76</span>
+<span class="points">1.229,0.76 1.563,1.177</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.677,0.219 0.99,0.417</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*A</span>
+</span>
+<span class="caption">
+<span class="points">3.844,0.219 4.156,0.417</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*B</span>
+</span>
+<span class="caption">
+<span class="points">0.167,0.073 0.479,0.271</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.875,1.104 1.188,1.302</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A2</span>
+</span>
+<span class="caption">
+<span class="points">4.104,1.063 4.417,1.26</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A1</span>
+</span>
+<span class="caption">
+<span class="points">0.938,0.677 1.25,0.875</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*A
+</td>
+<td class="alleft">LED 型
+</td>
+<td class="alcenter">*B
+</td>
+<td class="alleft">灯泡型
+</td>
+</tr>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">线束连接器前视图
+<br>
+（至刹车灯开关总成）
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开刹车灯开关总成连接器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压（灯泡型）:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A1-2 - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">标准电压（LED 型）:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A2-1 (B) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7P9_06_0001_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">2.检查端子电压（刹车灯开关总成电源）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器（刹车灯开关总成 - 蓄电池）</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7P9_06_0002">
+<div class="testtitle"><span class="titleText">2.检查端子电压（刹车灯开关总成电源）</span></div>
+<div class="content6">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A321966.png" alt="A321966" title="A321966">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.781,1.073 1.146,1.313</span>
+<span class="rectangleSize">0.365,0.24</span>
+</span>
+<span class="rectangle">
+<span class="points">4.031,1.031 4.396,1.271</span>
+<span class="rectangleSize">0.365,0.24</span>
+</span>
+<span class="line">
+<span class="points">2.813,0.76 2.625,0.76</span>
+<span class="points">2.625,0.76 2.271,1.177</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.677,0.219 0.99,0.417</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*A</span>
+</span>
+<span class="caption">
+<span class="points">3.844,0.219 4.156,0.417</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*B</span>
+</span>
+<span class="caption">
+<span class="points">0.167,0.073 0.479,0.271</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.875,1.104 1.188,1.302</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A2</span>
+</span>
+<span class="caption">
+<span class="points">4.104,1.063 4.417,1.26</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A1</span>
+</span>
+<span class="caption">
+<span class="points">2.875,0.708 3.188,0.906</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*A
+</td>
+<td>LED 型
+</td>
+<td class="alcenter">*B
+</td>
+<td>灯泡型
+</td>
+</tr>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>线束连接器前视图
+<br>
+（至刹车灯开关总成）
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开刹车灯开关总成连接器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压（灯泡型）:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A1-4 - 车身接地
+</td>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">标准电压（LED 型）:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A2-5 (B) - 车身接地
+</td>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7P9_06_0002_1" summary="">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常（LED 型）
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alcenter">正常（灯泡型）
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+<td class="alcenter">C
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">3.检查线束和连接器（刹车灯开关总成 - 车身接地）</span></div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">4.检查端子电压（STP 和 ST1- 电压）</span></div>
+<div class="judgeValueEnd"><p>C
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器（刹车灯开关总成 - IG2 继电器）</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7P9_06_0003">
+<div class="testtitle"><span class="titleText">3.检查线束和连接器（刹车灯开关总成 - 车身接地）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开刹车灯开关总成连接器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A2-3 (GND) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7P9_06_0003_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">4.检查端子电压（STP 和 ST1- 电压）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7P9_06_0004">
+<div class="testtitle"><span class="titleText">4.检查端子电压（STP 和 ST1- 电压）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开 ECM 连接器。
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A256080.png" alt="A256080" title="A256080">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">4.156,0.844 4.51,1.094</span>
+<span class="rectangleSize">0.354,0.25</span>
+</span>
+<span class="line">
+<span class="points">5.583,1.49 5.875,0.854</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">6.146,1.51 5.958,0.854</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">1.167,1.479 1.479,1.677</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">2.823,1.479 3.135,1.677</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*b</span>
+</span>
+<span class="caption">
+<span class="points">4.438,0.177 4.75,0.375</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*c</span>
+</span>
+<span class="caption">
+<span class="points">4.229,0.906 4.604,1.104</span>
+<span class="captionSize">0.375,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A40</span>
+</span>
+<span class="caption">
+<span class="points">5.438,1.531 5.75,1.729</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">STP</span>
+</span>
+<span class="caption">
+<span class="points">5.99,1.542 6.438,1.729</span>
+<span class="captionSize">0.448,0.188</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ST1-</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">踩下制动踏板
+</td>
+<td class="alcenter">*b
+</td>
+<td class="alleft">松开制动踏板
+</td>
+</tr>
+<tr>
+<td class="alcenter">*c
+</td>
+<td class="alleft">线束连接器前视图
+<br>
+（至 ECM）
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter" rowspan="2">A40-10 (ST1-) - 车身接地
+</td>
+<td class="alcenter">松开制动踏板
+</td>
+<td class="alcenter">7.5 至 14 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">踩下制动踏板
+</td>
+<td class="alcenter">低于 1.5 V
+</td>
+</tr>
+<tr>
+<td class="alcenter" rowspan="2">A40-9 (STP) - 车身接地
+</td>
+<td class="alcenter">松开制动踏板
+</td>
+<td class="alcenter">低于 1.5 V
+</td>
+</tr>
+<tr>
+<td class="alcenter">踩下制动踏板
+</td>
+<td class="alcenter">7.5 至 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7P9_06_0004_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>正常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换 ECM</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;1ZR-FE 发动机控制系统&gt;ECM&gt;拆卸<span class="invisible">201406,999999,_51,_023949,_0117699,RM100000000DE6Z,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueNext"><p>异常
+</p></div>
+<div class="nextAction"><span class="titleText">5.检查线束和连接器（刹车灯开关总成 - ECM）</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7P9_06_0006">
+<div class="testtitle"><span class="titleText">5.检查线束和连接器（刹车灯开关总成 - ECM）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>断开刹车灯开关总成连接器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>断开 ECM 连接器。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻（灯泡型）:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A1-1 - A40-9 (STP)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">A1-3 - A40-10 (ST1-)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">A1-1 或 A40-9 (STP) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">A1-3 或 A40-10 (ST1-) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">标准电阻（LED 型）:</dt>
+<dd class="spec"><table summary="">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A2-2 (OUT) - A40-9 (STP)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">A2-4 (L) - A40-10 (ST1-)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">A2-2 (OUT) 或 A40-9 (STP) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">A2-4 (L) 或 A40-10 (ST1-) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7P9_06_0006_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>正常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换刹车灯开关总成</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆外饰&gt;照明系统（车外）&gt;刹车灯开关&gt;拆卸<span class="invisible">201406,999999,_59,_024020,_0117093,RM100000000DCBZ,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

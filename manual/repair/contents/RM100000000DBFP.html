@@ -1,0 +1,483 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_52</span>
+<span class="globalServcatName">动力传动系</span>
+<span class="globalSection">_023983</span>
+<span class="globalSectionName">K313 CVT</span>
+<span class="globalTitle">_0116779</span>
+<span class="globalTitleName">无级变速传动桥系统</span>
+<span class="globalCategory">D</span>
+</div>
+<h1>K313 CVT&nbsp;&nbsp;无级变速传动桥系统&nbsp;&nbsp;诊断系统&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DBFP_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">EURO-OBD（欧洲技术规范）
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/F102324.png" alt="F102324" title="F102324">
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>对配备欧洲车载诊断系统 (Euro-OBD) 的车辆进行故障排除时，必须将车辆连接到 OBD 扫描工具上（符合 ISO 15765-4 标准）。然后即可读取自车辆 ECM 输出的各种数据。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>Euro-OBD 规范要求车辆的车载计算机在检测到下列部位出现故障时，点亮仪表板上的故障指示灯 (MIL)：
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>排放控制系统/零部件
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>传动系控制零部件（影响车辆排放）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>计算机
+</p>
+</div>
+</div>
+</div>
+<br>
+<p>此外，ISO 15765-4 规定的相应诊断故障码 (DTC) 存储在 ECM 存储器中。如果在 3 个连续行程中故障未重复出现，则 MIL 会自动熄灭，但 DTC 仍存储在 ECM 存储器中。
+</p>
+<p>将 GTS 或 OBD 扫描工具连接到车辆上的数据链路连接器 3 (DLC3)，以检查 DTC。
+</p>
+<p>扫描工具显示 DTC、定格数据和各种发动机数据。
+</p>
+<p>可使用扫描工具清除 DTC 和定格数据。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;K313 CVT&gt;无级变速传动桥系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_52,_023983,_0116779,RM100000000DBFE,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">正常模式和检查模式
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>仅 GTS：
+</p>
+<p>在车辆正常使用过程中，诊断系统以正常模式运行。在正常模式下，使用双程检测逻辑以确保进行准确的故障检测。技术人员还可以选择检查模式。在检查模式下，单程检测逻辑用于再现故障症状以增强系统检测故障（包括间歇性故障）的能力。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">双程检测逻辑
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>首次检测到故障时，该故障暂时存储在 ECM 存储器中（第一程）。如果在接下来的驾驶循环中检测出同样的故障，则 MIL 将会点亮（第二程）。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">定格数据
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>存储 DTC 时，ECM 将车辆和驾驶条件信息记录为定格数据。进行故障排除时，定格数据有助于确定故障出现时车辆是运行还是停止，发动机是暖机还是未暖机，空燃比是浓还是稀，以及其他数据。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C140837.png" alt="C140837" title="C140837">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.375,1.74 3.052,1.969</span>
+<span class="captionSize">2.677,0.229</span>
+<span class="fontsize">10</span>
+<span class="captionText">可以读取的定格数据</span>
+</span>
+<span class="caption">
+<span class="points">0.698,0.656 1.281,0.906</span>
+<span class="captionSize">0.583,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">0.5 s</span>
+</span>
+<span class="caption">
+<span class="points">1.344,0.656 1.938,0.896</span>
+<span class="captionSize">0.594,0.24</span>
+<span class="fontsize">10</span>
+<span class="captionText">0.5 s</span>
+</span>
+<span class="caption">
+<span class="points">1.969,0.667 2.625,0.885</span>
+<span class="captionSize">0.656,0.219</span>
+<span class="fontsize">10</span>
+<span class="captionText">0.5 s</span>
+</span>
+<span class="caption">
+<span class="points">1.865,0.052 2.917,0.292</span>
+<span class="captionSize">1.052,0.24</span>
+<span class="fontsize">10</span>
+<span class="captionText">存储 DTC</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<p>GTS 显示 5 次不同记录点的定格数据：1) 存储 DTC 前进行 3 次，2) 存储 DTC 时进行 1 次，以及 3) 存储 DTC 后进行 1 次。这些数据可以用于再现故障出现前后的车辆状况。该数据可能有助于确定故障原因。还可能有助于确定 DTC 是否由暂时性故障引起。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">定格数据表
+</span></p>
+<br>
+<dl class="gtsFreezeFrame hasAllTable">
+<dt class="gtsFreezeFrame">Powertrain &gt; Engine and ECT</dt>
+<dd class="gtsFreezeFrame">
+<table summary="freeze-frame">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Vehicle Speed
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Speed
+</td>
+</tr>
+<tr>
+<td class="alleft">Calculate Load
+</td>
+</tr>
+<tr>
+<td class="alleft">MAF
+</td>
+</tr>
+<tr>
+<td class="alleft">Coolant Temp
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Motor DUTY
+</td>
+</tr>
+<tr>
+<td class="alleft">Neutral Control
+</td>
+</tr>
+<tr>
+<td class="alleft">N Range Status
+</td>
+</tr>
+<tr>
+<td class="alleft">Starter Signal
+</td>
+</tr>
+<tr>
+<td class="alleft">Neutral Position SW Signal
+</td>
+</tr>
+<tr>
+<td class="alleft">Stop Light Switch
+</td>
+</tr>
+<tr>
+<td class="alleft">A/C Signal
+</td>
+</tr>
+<tr>
+<td class="alleft">Closed Throttle Position SW
+</td>
+</tr>
+<tr>
+<td class="alleft">TC and TE1
+</td>
+</tr>
+<tr>
+<td class="alleft">SPD (NT)
+</td>
+</tr>
+<tr>
+<td class="alleft">Shift SW Status (P Range)
+</td>
+</tr>
+<tr>
+<td class="alleft">Pattern Switch (PWR/M)
+</td>
+</tr>
+<tr>
+<td class="alleft">Shift SW Status (R Range)
+</td>
+</tr>
+<tr>
+<td class="alleft">Shift SW Status (N Range)
+</td>
+</tr>
+<tr>
+<td class="alleft">Shift SW Status (N,P Range) Supported
+</td>
+</tr>
+<tr>
+<td class="alleft">Shift SW Status (N,P Range)
+</td>
+</tr>
+<tr>
+<td class="alleft">Sports Shift Up SW
+</td>
+</tr>
+<tr>
+<td class="alleft">Sports Shift Down SW
+</td>
+</tr>
+<tr>
+<td class="alleft">Sports Mode Selection SW
+</td>
+</tr>
+<tr>
+<td class="alleft">Shift SW Status (D Range)
+</td>
+</tr>
+<tr>
+<td class="alleft">A/T Oil Temperature 1
+</td>
+</tr>
+<tr>
+<td class="alleft">NT Sensor Voltage
+</td>
+</tr>
+<tr>
+<td class="alleft">SPD (NIN)
+</td>
+</tr>
+<tr>
+<td class="alleft">SPD (NOUT)
+</td>
+</tr>
+<tr>
+<td class="alleft">NOUT Sensor Voltage
+</td>
+</tr>
+<tr>
+<td class="alleft">A/T Oil Pressure
+</td>
+</tr>
+<tr>
+<td class="alleft">G sensor
+</td>
+</tr>
+<tr>
+<td class="alleft">Lock Up
+</td>
+</tr>
+<tr>
+<td class="alleft">Shift Status
+</td>
+</tr>
+<tr>
+<td class="alleft">Solenoid (SLS)
+</td>
+</tr>
+<tr>
+<td class="alleft">SLU Solenoid Status
+</td>
+</tr>
+<tr>
+<td class="alleft">SL Solenoid Status
+</td>
+</tr>
+<tr>
+<td class="alleft">Solenoid(SC)
+</td>
+</tr>
+<tr>
+<td class="alleft">Solenoid(SLP)
+</td>
+</tr>
+<tr>
+<td class="alleft">G Sensor Calibration
+</td>
+</tr>
+<tr>
+<td class="alleft">G Sensor Learning Value
+</td>
+</tr>
+<tr>
+<td class="alleft">CVT Oil Press Calibration
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">检查数据链路连接器 3 (DLC3)
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>检查 DLC3。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;如何对 ECU 控制系统进行故障排除&gt;一般信息<span class="invisible">201406,999999,_V1,_023977,_0116737,RM100000000DB84,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">检查蓄电池电压
+</span></p>
+<br>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><p>11 至 14 V
+</p>
+</dd>
+</dl>
+<br>
+<p>如果电压低于 11 V，则在转至下一步前对蓄电池再充电或更换蓄电池。
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">MIL（故障指示灯）
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>将点火开关置于 ON 位置时，检查并确认 MIL 点亮。
+</p>
+<p>如果 MIL 不亮，则 MIL 电路有故障。
+</p>
+<p>1ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;1ZR-FE 发动机控制系统&gt;SFI 系统&gt;MIL 电路<span class="invisible">201406,999999,_51,_023949,_0116049,RM100000000D7QE,</span></a>
+
+</p>
+<p>2ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;MIL 电路<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DER3,</span></a>
+
+</p>
+<p>4ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;4ZR-FE 发动机控制系统&gt;SFI 系统&gt;MIL 电路<span class="invisible">201406,999999,_51,_023966,_0120142,RM100000000DQGS,</span></a>
+
+</p>
+<p>7ZR-FE：单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;7ZR-FE 发动机控制系统&gt;SFI 系统&gt;MIL 电路<span class="invisible">201406,999999,_51,_025035,_0120895,RM100000000DTGW,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>发动机起动时，MIL 熄灭。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

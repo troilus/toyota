@@ -1,0 +1,366 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_52</span>
+<span class="globalServcatName">动力传动系</span>
+<span class="globalSection">_023983</span>
+<span class="globalSectionName">K313 CVT</span>
+<span class="globalTitle">_0116779</span>
+<span class="globalTitleName">无级变速传动桥系统</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>K313 CVT&nbsp;&nbsp;无级变速传动桥系统&nbsp;&nbsp;P2820&nbsp;&nbsp;压力控制电磁阀&ldquo;J&rdquo;性能或卡滞&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DBG8_02" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<p>按照 ECM 的电流控制，换档电磁阀 SLP 根据所需的传动比控制主动带轮压力，以改变传动比。
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:14%">
+<col style="width:29%">
+<col style="width:25%">
+<col style="width:10%">
+<col style="width:10%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+<th class="alcenter">MIL
+</th>
+<th class="alcenter">存储器
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">P2820
+</td>
+<td class="alleft">压力控制电磁阀&ldquo;J&rdquo;性能或卡滞
+</td>
+<td class="alleft">1. 诊断条件 2. 故障状况 3. 故障时间 4. 其他
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>油压传感器输出值为 0.4 MPa (4.1 kgf/cm<sup>2</sup>, 58 psi) 或更大且目标传动比小于 1.0。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>实际传动比为 2.0 或更大。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>2 秒或更长时间
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>单程检测逻辑
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>油压传感器输出值为 0.4 MPa (4.1 kgf/cm<sup>2</sup>, 58 psi) 或更大且目标传动比为 2.0 或更大。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>实际传动比小于 0.5。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>1.5 秒或更长时间
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>单程检测逻辑
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">无级变速传动桥总成（换档电磁阀 SLP）
+</td>
+<td class="alleft">点亮
+</td>
+<td class="alleft">存储 DTC
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000DBG8_03" class="category no03">
+<h2>监视描述</h2>
+<div class="content5">
+<p>ECM 对实际传动比和目标传动比进行比较。实际传动比和目标传动比存在差异时，ECM 检测故障、点亮 MIL 并存储该 DTC。
+</p>
+</div>
+</div>
+<div id="RM100000000DBG8_11" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>更换无级变速传动桥相关零件时进行初始化。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;K313 CVT&gt;无级变速传动桥系统&gt;初始化<span class="invisible">201406,999999,_52,_023983,_0116779,RM100000000DBFM,</span></a>
+
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检查并确认进行初始化后未存储 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;K313 CVT&gt;无级变速传动桥系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_52,_023983,_0116779,RM100000000DBFE,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000DBG8_10" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000DBG8_10_0001">
+<div class="testtitle"><span class="titleText">1.检查 DTC 输出（除 DTC P2820 外）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Trouble Codes。
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Powertrain &gt; Engine and ECT &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">234</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>使用 GTS 读取 DTC。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果除 P2820 外还输出了其他 DTC，则首先对其他 DTC 进行故障排除。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBG8_10_0001_1" summary="" class="half">
+<colgroup>
+<col style="width:79%">
+<col style="width:20%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>仅输出 DTC P2820
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td>输出 DTC P2820 和其他 DTC
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.更换无级变速传动桥总成</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">转至 DTC 表</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;K313 CVT&gt;无级变速传动桥系统&gt;诊断故障码表<span class="invisible">201406,999999,_52,_023983,_0116779,RM100000000DBFR,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000DBG8_10_0003">
+<div class="testtitle"><span class="titleText">2.更换无级变速传动桥总成</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>更换无级变速传动桥总成。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;K313 CVT&gt;无级变速传动桥总成&gt;零部件<span class="invisible">201406,999999,_52,_023983,_0116505,RM100000000DA1Y,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000DBG8_10_0003_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>下一步
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">进行初始化</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;K313 CVT&gt;无级变速传动桥系统&gt;初始化<span class="invisible">201406,999999,_52,_023983,_0116779,RM100000000DBFM,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

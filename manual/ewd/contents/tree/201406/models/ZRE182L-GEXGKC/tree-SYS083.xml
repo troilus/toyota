@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS083" code="E18" type="conn" figID="1">
+    <name>DLC3</name>
+  </text>
+  <text ewd="SYS083" code="A40" type="conn" figID="8">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS083" code="E71" type="conn" figID="6,7">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS083" code="E61" type="conn" figID="4">
+    <name>警告灯总成</name>
+  </text>
+  <text ewd="SYS083" code="E27" type="conn" figID="9">
+    <name>收发器钥匙线圈</name>
+  </text>
+  <text ewd="SYS083" code="E29" type="conn" figID="5">
+    <name>应答器钥匙 ECU 总成</name>
+  </text>
+  <text ewd="SYS083" code="E10" type="conn" figID="2">
+    <name>未锁警告开关总成</name>
+  </text>
+  <text ewd="SYS083" code="FUSE6" type="fuse" figID="20">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS083" code="FUSE50" type="fuse" figID="19">
+    <name>7.5A IGN</name>
+  </text>
+  <text ewd="SYS083" code="EB" type="gp" figID="16">
+    <name />
+  </text>
+  <text ewd="SYS083" code="ED" type="gp" figID="15,17">
+    <name />
+  </text>
+  <text ewd="SYS083" code="3" type="jb" figID="11,12">
+    <name />
+  </text>
+  <text ewd="SYS083" code="FUSE6" type="rb" figID="3">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS083" code="SP10" type="sp" figID="18">
+    <name />
+  </text>
+  <text ewd="SYS083" code="AE2" type="w2w" figID="13,14">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+</EwdTree>

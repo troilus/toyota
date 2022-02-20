@@ -1,0 +1,1355 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_55</span>
+<span class="globalServcatName">转向</span>
+<span class="globalSection">_023995</span>
+<span class="globalSectionName">助力系统</span>
+<span class="globalTitle">_0116094</span>
+<span class="globalTitleName">动力转向系统（电刷型马达）</span>
+<span class="globalCategory">D</span>
+</div>
+<h1>助力系统&nbsp;&nbsp;动力转向系统（电刷型马达）&nbsp;&nbsp;校准&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DEIP_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">扭矩传感器零点校准（使用 GTS）
+</span></p>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>如果出现下列任一情况，则进行扭矩传感器零点校准：
+</p>
+</dd>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>已更换动力转向 ECU 总成。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>已更换电动转向柱分总成。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>向左和向右的转向力矩之间存在偏差。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>校准前进行检查。
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iv.</div>
+<div class="step3Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">v.</div>
+<div class="step3Body">
+<p>校准动力转向 ECU 总成。进入以下菜单：Chassis / EMPS / Data List。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">vi.</div>
+<div class="step3Body">
+<p>请参见下表检查值。
+</p>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Chassis &gt; EMPS &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:25%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">IG Power Supply
+</td>
+<td class="alleft">IG 电源电压
+</td>
+<td class="alleft">最低：0.0000 V
+<br>
+最高：20.1531 V
+</td>
+<td class="alleft">10 至 16 V
+</td>
+<td class="alleft">点火开关 ON
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Chassis &gt; EMPS &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">IG Power Supply
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">142</span>
+<span class="gtsPid">11</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><p>10 至 16 V
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>如果 IG 电源电压为 10 V 或更低，则无法进行校准。在这种情况下，对蓄电池充电或更换蓄电池，然后进行校准。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>进行扭矩传感器零点校准。
+</p>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>如果存储 DTC C1516（扭矩传感器零点调节未完成），则无法校准扭矩传感器零点。开始校准前清除 DTC。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>将方向盘设定至中心点，并使前轮垂直向前对齐。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iv.</div>
+<div class="step3Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">v.</div>
+<div class="step3Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">vi.</div>
+<div class="step3Body">
+<p>进入以下菜单：Chassis / EMPS / Utility / Torque Sensor Adjustment。
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Chassis &gt; EMPS &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Torque Sensor Adjustment
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">142</span>
+<span class="gtsUtil">224</span>
+</dd>
+</dl>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>不要突然转动方向盘。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>扭矩传感器零点校准期间（3 秒），不要触摸方向盘。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">vii.</div>
+<div class="step3Body">
+<p>检查 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">转向&gt;助力系统&gt;动力转向系统（电刷型马达）&gt;DTC 检查/清除<span class="invisible">201406,999999,_55,_023995,_0116094,RM100000000DEIT,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; EMPS &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">142</span>
+</dd>
+</dl>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>如果输出 DTC C1515、C1516、C1534 或 C1581，则对相应的 DTC 进行故障排除。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:79%">
+<col style="width:20%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">参见程序
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>输出 DTC C1515。
+</td>
+<td class="alcenter">
+(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="单击此处" title="单击此处"><span class="invisible">201406,999999,_55,_023995,_0116094,RM100000000DEIZ,C1515</span></a>)
+
+</td>
+</tr>
+<tr>
+<td>输出 DTC C1516。
+</td>
+<td class="alcenter">
+(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="单击此处" title="单击此处"><span class="invisible">201406,999999,_55,_023995,_0116094,RM100000000DEJ0,C1516</span></a>)
+
+</td>
+</tr>
+<tr>
+<td>输出 DTC C1534。
+</td>
+<td class="alcenter">
+(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="单击此处" title="单击此处"><span class="invisible">201406,999999,_55,_023995,_0116094,RM100000000DEJ2,C1531</span></a>)
+
+</td>
+</tr>
+<tr>
+<td>输出 DTC C1581。
+</td>
+<td class="alcenter">
+(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="单击此处" title="单击此处"><span class="invisible">201406,999999,_55,_023995,_0116094,RM100000000DEJ6,C1581</span></a>)
+
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">扭矩传感器零点校准（使用 SST 检查线）
+</span></p>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>如果出现下列任一情况，则进行扭矩传感器零点校准：
+</p>
+</dd>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>已更换动力转向 ECU 总成。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>已更换电动转向柱分总成。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>向左和向右的转向力矩之间存在偏差。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>检查 DTC。
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>检查 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">转向&gt;助力系统&gt;动力转向系统（电刷型马达）&gt;DTC 检查/清除<span class="invisible">201406,999999,_55,_023995,_0116094,RM100000000DEIT,</span></a>
+
+</p>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果存储 DTC 16（扭矩传感器零点调节未完成），则无法校准扭矩传感器零点。开始校准前清除 DTC。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果输出了 16 以外的 DTC，则参见诊断故障码表。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">转向&gt;助力系统&gt;动力转向系统（电刷型马达）&gt;诊断故障码表<span class="invisible">201406,999999,_55,_023995,_0116094,RM100000000DEIX,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>进行预校准检查。
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>断开动力转向 ECU 总成连接器 E45。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">iv.</div>
+<div class="step3Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C261922.png" alt="C261922" title="C261922">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.615,1.75 0.969,2.01</span>
+<span class="rectangleSize">0.354,0.26</span>
+</span>
+<span class="line">
+<span class="points">1.417,2.188 1.073,2.823</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.667,1.781 0.99,2.135</span>
+<span class="captionSize">0.323,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E45</span>
+</span>
+<span class="caption">
+<span class="points">0.198,0.198 0.635,0.625</span>
+<span class="captionSize">0.438,0.427</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">1,2.875 1.438,3.188</span>
+<span class="captionSize">0.438,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">线束连接器前视图
+<br>
+（至动力转向 ECU 总成）
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>根据下表中的值测量电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E45-1 (IG) - 车身接地
+</td>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">10 至 16 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>如果 IG 电源电压为 10 V 或更低，则无法进行校准。在这种情况下，对蓄电池充电或更换蓄电池，然后进行校准。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">v.</div>
+<div class="step3Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">vi.</div>
+<div class="step3Body">
+<p>重新连接动力转向 ECU 总成连接器 E45。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>清除传感器校准值。
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>将方向盘设定至中心点，并使前轮垂直向前对齐。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C248264.png" alt="C248264" title="C248264">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">1.625,0.813 1.625,0.406</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.635,1.51 1.438,1.823</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.885,1.5 2.052,1.833</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">1.49,0.219 1.719,0.365</span>
+<span class="captionSize">0.229,0.146</span>
+<span class="fontsize">10</span>
+<span class="captionText">CG</span>
+</span>
+<span class="caption">
+<span class="points">1.323,1.875 1.521,2.021</span>
+<span class="captionSize">0.198,0.146</span>
+<span class="fontsize">10</span>
+<span class="captionText">TS</span>
+</span>
+<span class="caption">
+<span class="points">1.958,1.875 2.177,2.021</span>
+<span class="captionSize">0.219,0.146</span>
+<span class="fontsize">10</span>
+<span class="captionText">TC</span>
+</span>
+<span class="caption">
+<span class="points">0.156,0.146 0.396,0.448</span>
+<span class="captionSize">0.24,0.302</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">DLC3
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>使用 SST，连接 DLC3 端子 12 (TS) 和 4 (CG)。
+</p>
+<dl class="sst">
+<dt class="sst">SST</dt>
+<dd class="sst">09843-18040&nbsp;&nbsp;<br></dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>将端子连接到正确位置以避免发生故障。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iv.</div>
+<div class="step3Body">
+<p>将点火开关置于 ON 位置，然后在 20 秒内连接和断开端子 13 (TC) 和 4 (CG) 至少 20 次。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">v.</div>
+<div class="step3Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C213288.png" alt="C213288" title="C213288">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.146,0.156 1.344,0.406</span>
+<span class="captionSize">1.198,0.25</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>EPS 警告灯
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>检查并确认 EPS 警告灯闪烁，然后保持点亮。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>EPS 警告灯点亮表示存储了 DTC 15。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">vi.</div>
+<div class="step3Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>如果将点火开关置于 ON 位置，则清除传感器校准值后，无法进行零点校准。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>进行扭矩传感器零点校准。
+</p>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>如果未存储 DTC 15，则不能执行扭矩传感器零点校准，在执行扭矩传感器零点校准前确保清除传感器校准值。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>将方向盘设定至中心点，并使前轮垂直向前对齐。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C248264.png" alt="C248264" title="C248264">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">1.625,0.813 1.625,0.406</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.635,1.51 1.438,1.823</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.885,1.5 2.052,1.833</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">1.49,0.219 1.719,0.365</span>
+<span class="captionSize">0.229,0.146</span>
+<span class="fontsize">10</span>
+<span class="captionText">CG</span>
+</span>
+<span class="caption">
+<span class="points">1.323,1.875 1.521,2.021</span>
+<span class="captionSize">0.198,0.146</span>
+<span class="fontsize">10</span>
+<span class="captionText">TS</span>
+</span>
+<span class="caption">
+<span class="points">1.99,1.875 2.208,2.021</span>
+<span class="captionSize">0.219,0.146</span>
+<span class="fontsize">10</span>
+<span class="captionText">TC</span>
+</span>
+<span class="caption">
+<span class="points">0.125,0.125 0.667,0.5</span>
+<span class="captionSize">0.542,0.375</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>DLC3
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>使用 SST，连接 DLC3 端子 12 (TS) 和 4 (CG)。
+</p>
+<dl class="sst">
+<dt class="sst">SST</dt>
+<dd class="sst">09843-18040&nbsp;&nbsp;<br></dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iv.</div>
+<div class="step3Body">
+<p>将点火开关置于 ON 位置，然后连接端子 13 (TC) 和 4 (CG)。
+</p>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>在校准（3 秒）过程中，不要接触方向盘。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>校准完成后，EPS 警告灯仍会一直亮。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">助力图写入（使用 GTS）
+</span></p>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>如果出现下列任一情况，则执行助力图写入：
+</p>
+</dd>
+<dd class="atten3">
+<p>已更换动力转向 ECU 总成。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>进入以下菜单：Chassis / EMPS / Utility / Signal Check。
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Chassis &gt; EMPS &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Signal Check
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">142</span>
+<span class="gtsUtil">3</span>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>按照 GTS 上的说明进行信号检查。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>输出 DTC C1581 时，进行信号检查将导致动力转向 ECU 总成进入信号检查，助力图将自动写入。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">f.</div>
+<div class="step2Body">
+<p>等待至少 5 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">g.</div>
+<div class="step2Body">
+<p>检查 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">转向&gt;助力系统&gt;动力转向系统（电刷型马达）&gt;DTC 检查/清除<span class="invisible">201406,999999,_55,_023995,_0116094,RM100000000DEIT,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; EMPS &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">142</span>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>写入助力图后，如果输出 DTC C1581，则执行 DTC C1581 的故障排除程序。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">转向&gt;助力系统&gt;动力转向系统（电刷型马达）&gt;C1581<span class="invisible">201406,999999,_55,_023995,_0116094,RM100000000DEJ6,C1581</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">助力图写入（使用 SST 检查线）
+</span></p>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>如果出现下列任一情况，则执行助力图写入：
+</p>
+</dd>
+<dd class="atten3">
+<p>已更换动力转向 ECU 总成。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果扭矩传感器零点校准后输出 DTC 81，则进行助力图写入。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C248264.png" alt="C248264" title="C248264">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">1.604,0.802 1.604,0.406</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.604,1.865 1.604,1.49</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">1.5,0.229 1.729,0.375</span>
+<span class="captionSize">0.229,0.146</span>
+<span class="fontsize">10</span>
+<span class="captionText">CG</span>
+</span>
+<span class="caption">
+<span class="points">1.531,1.885 1.75,2.031</span>
+<span class="captionSize">0.219,0.146</span>
+<span class="fontsize">10</span>
+<span class="captionText">TS</span>
+</span>
+<span class="caption">
+<span class="points">0.177,0.156 0.51,0.49</span>
+<span class="captionSize">0.333,0.333</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>DLC3
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>使用 SST，连接 DLC3 端子 12 (TS) 和 4 (CG)。
+</p>
+<dl class="sst">
+<dt class="sst">SST</dt>
+<dd class="sst">09843-18040&nbsp;&nbsp;<br></dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>正确连接端子，以免发生故障。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>等待 5 秒或更长时间。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>检查 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">转向&gt;助力系统&gt;动力转向系统（电刷型马达）&gt;DTC 检查/清除<span class="invisible">201406,999999,_55,_023995,_0116094,RM100000000DEIT,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>写入助力图后，如果输出 DTC 81，则执行 DTC 81 的故障排除程序。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">转向&gt;助力系统&gt;动力转向系统（电刷型马达）&gt;C1581<span class="invisible">201406,999999,_55,_023995,_0116094,RM100000000DEJ6,C1581</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

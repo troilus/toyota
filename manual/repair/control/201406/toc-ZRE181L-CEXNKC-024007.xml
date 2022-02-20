@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="RM3140CG"><servcat id="_58"><name>车辆内饰</name><section id="_024007">
+<name>仪表/显示屏</name>
+<ttl id="_0116345">
+<name>仪表系统</name><para category="C" dtccode="B1500" id="RM100000000D9CN" term-id-from="001"><dtccode>
+<name>B1500</name>
+<subpara id="RM100000000D9CN_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D9CN_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B1507" id="RM100000000D9CO" term-id-from="001"><dtccode>
+<name>B1507</name>
+<subpara id="RM100000000D9CO_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D9CO_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B1508" id="RM100000000D9CO" term-id-from="001"><dtccode>
+<name>B1508</name>
+<subpara id="RM100000000D9CO_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D9CO_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B150A" id="RM100000000DFZJ" term-id-from="001"><dtccode>
+<name>B150A</name>
+<subpara id="RM100000000DFZJ_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000DFZJ_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="U0100" id="RM100000000D9CP" term-id-from="001"><dtccode>
+<name>U0100</name>
+<subpara id="RM100000000D9CP_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="U0129" id="RM100000000D9CP" term-id-from="001"><dtccode>
+<name>U0129</name>
+<subpara id="RM100000000D9CP_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="U0131" id="RM100000000D9CP" term-id-from="001"><dtccode>
+<name>U0131</name>
+<subpara id="RM100000000D9CP_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="U0151" id="RM100000000D9CP" term-id-from="001"><dtccode>
+<name>U0151</name>
+<subpara id="RM100000000D9CP_01">
+<name>描述</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="U0163" id="RM100000000D9CP" term-id-from="001"><dtccode>
+<name>U0163</name>
+<subpara id="RM100000000D9CP_01">
+<name>描述</name>
+</subpara>
+</dtccode></para>
+<para category="L" id="RM100000000D9C9" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="R" id="RM100000000D9CA" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000D9CB" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="D" id="RM100000000D9CC" term-id-from="001">
+<name>系统描述</name>
+</para>
+<para category="Y" id="RM100000000D9CD" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="W" id="RM100000000D9CE" term-id-from="001">
+<name>定制参数</name>
+</para>
+<para category="T" id="RM100000000D9CF" term-id-from="001">
+<name>故障症状表</name>
+</para>
+<para category="U" id="RM100000000D9CG" term-id-from="001">
+<name>ECU 端子</name>
+</para>
+<para category="D" id="RM100000000D9CH" term-id-from="001">
+<name>诊断系统</name>
+</para>
+<para category="D" id="RM100000000D9CI" term-id-from="001">
+<name>DTC 检查/清除</name>
+</para>
+<para category="D" id="RM100000000D9CJ" term-id-from="001">
+<name>定格数据</name>
+</para>
+<para category="U" id="RM100000000D9CK" term-id-from="001">
+<name>数据表/主动测试</name>
+</para>
+<para category="S" id="RM100000000D9CL" term-id-from="001">
+<name>诊断故障码表</name>
+</para>
+<para category="G" id="RM100000000D9CM" term-id-from="001">
+<name>车上检查</name>
+</para>
+
+
+
+
+<para category="J" id="RM100000000D9CQ" term-id-from="001">
+<name>整个组合仪表不工作</name>
+</para>
+<para category="J" id="RM100000000D9CR" term-id-from="001">
+<name>车速表故障</name>
+</para>
+<para category="J" id="RM100000000D9CS" term-id-from="001">
+<name>转速表故障</name>
+</para>
+<para category="J" id="RM100000000D9CT" term-id-from="001">
+<name>燃油表显示故障</name>
+</para>
+<para category="J" id="RM100000000D9CU" term-id-from="001">
+<name>冷却水温度警告灯故障</name>
+</para>
+<para category="J" id="RM100000000D9CV" term-id-from="001">
+<name>发动机冷却液温度表故障</name>
+</para>
+<para category="J" id="RM100000000D9CW" term-id-from="001">
+<name>仪表照明始终暗</name>
+</para>
+<para category="J" id="RM100000000D9CX" term-id-from="001">
+<name>仪表照明在夜间不变暗</name>
+</para>
+<para category="J" id="RM100000000D9CY" term-id-from="001">
+<name>转速信号电路</name>
+</para>
+</ttl>
+<ttl id="_0116346">
+<name>时钟系统</name>
+<para category="R" id="RM100000000D9CZ" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000D9D0" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="Y" id="RM100000000D9D1" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="T" id="RM100000000D9D2" term-id-from="001">
+<name>故障症状表</name>
+</para>
+</ttl>
+<ttl id="_0117584">
+<name>组合仪表</name>
+<para category="K" id="RM100000000DDU3" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DDU4" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DDU5" term-id-from="001">
+<name>拆解</name>
+</para>
+<para category="A" id="RM100000000DDU6" term-id-from="001">
+<name>重新装配</name>
+</para>
+<para category="A" id="RM100000000DDU7" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0117585">
+<name>时钟</name>
+<para category="K" id="RM100000000DDU8" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000DDU9" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000DDUA" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

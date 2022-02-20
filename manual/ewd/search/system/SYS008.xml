@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS008">
+    <part type="conn" code="E65">
+      <text>ECU E IG</text>
+      <name>后声纳或侦测声纳开关总成</name>
+    </part>
+    <part type="conn" code="B6">
+      <name>倒车灯开关总成</name>
+    </part>
+    <part type="conn" code="A41">
+      <text>SP1</text>
+      <name>制动执行器总成</name>
+    </part>
+    <part type="conn" code="E63">
+      <text>L10 IG L1 L4 CLSW L2 MSDL L5 L3 E5 PL BOF RL SOF ER BBZ E SPD TL EI BOR SOR</text>
+      <name>间隙警告 ECU 总成</name>
+    </part>
+    <part type="conn" code="E55">
+      <text>I/F SI +S 5V+B B IG+ 5V IC ET CPU</text>
+      <name>组合仪表总成</name>
+    </part>
+    <part type="conn" code="A36">
+      <text>EI BI SI</text>
+      <name>左前 1 号超声波传感器</name>
+    </part>
+    <part type="conn" code="A35">
+      <text>EI EO BI BO SI SO</text>
+      <name>右前 1 号超声波传感器</name>
+    </part>
+    <part type="conn" code="E64">
+      <name>1 号间隙警告蜂鸣器</name>
+    </part>
+    <part type="conn" code="P3">
+      <text>BI SI EI EO BO SO</text>
+      <name>左侧中央 1 号超声波传感器</name>
+    </part>
+    <part type="conn" code="P2">
+      <text>SI BI EI BO SO EO</text>
+      <name>右侧中央 1 号超声波传感器</name>
+    </part>
+    <part type="conn" code="P4">
+      <text>EI BI SI</text>
+      <name>左侧 1 号超声波传感器</name>
+    </part>
+    <part type="conn" code="P1">
+      <text>EI BI SI SO BO EO</text>
+      <name>右侧 1 号超声波传感器</name>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="conn" code="E72">
+      <name>5 号接线连接器</name>
+    </part>
+    <part type="conn" code="B15">
+      <text>PL RB R P RL</text>
+      <name>驻车/空档位置开关总成</name>
+    </part>
+    <part type="conn" code="E61">
+      <text>FL RL FR RR OP BK IG+</text>
+      <name>警告灯总成</name>
+      <name type="inner">后声纳和侦测声纳指示灯</name>
+    </part>
+    <part type="fuse" code="FUSE36">
+      <text>ALT</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE45">
+      <text>ECU-IG NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE47">
+      <text>ECU-IG NO.4</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE52">
+      <text>PANEL</text>
+    </part>
+  </ttl>
+</EWDSearch>

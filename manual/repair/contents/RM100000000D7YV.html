@@ -1,0 +1,1041 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_54</span>
+<span class="globalServcatName">制动</span>
+<span class="globalSection">_023990</span>
+<span class="globalSectionName">制动控制/动态控制系统</span>
+<span class="globalTitle">_0116082</span>
+<span class="globalTitleName">车辆稳定性控制系统</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>制动控制/动态控制系统&nbsp;&nbsp;车辆稳定性控制系统&nbsp;&nbsp;C1234&nbsp;&nbsp;横摆率传感器&nbsp;&nbsp;C1472&nbsp;&nbsp;加速度传感器&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D7YV_01" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<p>防滑控制 ECU（制动执行器总成）通过 CAN 通信接收来自横摆率和加速度传感器（空气囊 ECU 总成）的信号。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果横摆率和加速度传感器（空气囊 ECU 总成）和 CAN 通信系统之间的总线出现故障，则输出 DTC U0123（与横摆率传感器模块失去通信）。U0123 与 C1234 和/或 C1472 同时输出时，应首先检查并维修 U0123 指示的故障部位。
+</p>
+</dd>
+</dl>
+<br>
+<p>如果发生以下任一情况时，则可能存储这些 DTC：
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>横摆率和加速度传感器电路故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>横摆率和加速度传感器（空气囊 ECU 总成）安装异常。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>横摆率和加速度传感器信号故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:25%">
+<col style="width:39%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">C1234
+</td>
+<td class="alleft">横摆率传感器
+</td>
+<td class="alleft">检测到以下任一条件时：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>根据车辆停止时进行的偏差矫正估算的横摆率传感器补偿值小于 -5.25 deg/s 或大于 5.25 deg/s，然后车辆起步。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>车辆停止时未完成偏差矫正，根据驾驶车辆时进行的偏差矫正估算的横摆率传感器补偿值小于 -15 deg/s 或大于 15 deg/s。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>车辆停止时完成了偏差矫正且横摆率传感器补偿值小于 -7.5 deg/s 或大于 7.5 deg/s。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>根据车辆行驶时进行的偏差矫正估算的横摆率传感器补偿值小于 -7.5 deg/s 或大于 7.5 deg/s。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">5.</div>
+<div class="list1Body"><p>车辆起步前起动 VSC 系统后，在车辆停止时横摆率传感器值小于 -30 deg/s 或大于 30 deg/s 持续 5 秒或更长时间。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">6.</div>
+<div class="list1Body"><p>车辆起步前起动 VSC 系统后横摆率传感器值小于 -30 deg/s，车辆起步时横摆率传感器值大于 30 deg/s 持续 0.5 秒或更长时间。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">7.</div>
+<div class="list1Body"><p>车辆起步前起动 VSC 系统后，在车辆起步时横摆率传感器值小于 -30 deg/s 或大于 30 deg/s 持续 0.5 秒或更长时间。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">8.</div>
+<div class="list1Body"><p>横摆率传感器值小于 -94.75 deg/s 或大于 94.75 deg/s 持续 0.8 秒或更长时间。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">9.</div>
+<div class="list1Body"><p>横摆率传感器值在 0.04 秒内的变化异常。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">10.</div>
+<div class="list1Body"><p>根据防滑控制 ECU（制动执行器总成）估算，将横摆率传感器值判定为异常。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>传感器安装
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>横摆率传感器（空气囊 ECU 总成）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>横摆率传感器电路
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">C1472
+</td>
+<td class="alleft">加速度传感器
+</td>
+<td class="alleft">检测到以下任一条件时：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>车辆停止时，内部加速度值小于 -7 m/s<sup>2</sup> 或大于 7 m/s<sup>2</sup> 持续 0.4 秒或更长时间。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>根据驾驶车辆时进行的偏差矫正估算的加速度传感器补偿值小于 -2.25 m/s<sup>2</sup> 或大于 2.25 m/s<sup>2</sup>。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>加速度传感器值小于 -14.6 m/s<sup>2</sup> 或大于 14.6 m/s<sup>2</sup> 持续 0.8 秒或更长时间。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>传感器安装
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>加速度传感器（空气囊 ECU 总成）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>加速度传感器电路
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div id="RM100000000D7YV_04" class="category no03">
+<h2>电路图</h2>
+<div class="content5">
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/C275041.png" alt="C275041" title="C275041">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.802,0.719 1.417,0.917</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">CANL</span>
+</span>
+<span class="caption">
+<span class="points">6.052,0.719 6.667,0.917</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">CANL</span>
+</span>
+<span class="caption">
+<span class="points">0.792,1.333 1.406,1.531</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">CANH</span>
+</span>
+<span class="caption">
+<span class="points">6.052,1.323 6.667,1.521</span>
+<span class="captionSize">0.615,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">CANH</span>
+</span>
+<span class="caption">
+<span class="points">0.938,1.938 1.229,2.177</span>
+<span class="captionSize">0.292,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG2</span>
+</span>
+<span class="caption">
+<span class="points">0.979,2.552 1.292,2.75</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E1</span>
+</span>
+<span class="caption">
+<span class="points">0.979,3.167 1.292,3.365</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E2</span>
+</span>
+<span class="caption">
+<span class="points">1.292,0.552 1.604,0.75</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">22</span>
+</span>
+<span class="caption">
+<span class="points">1.292,1.156 1.604,1.354</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">13</span>
+</span>
+<span class="caption">
+<span class="points">1.302,1.844 1.615,2.042</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">9</span>
+<span class="filled">false</span>
+<span class="captionText">21</span>
+</span>
+<span class="caption">
+<span class="points">1.292,2.448 1.604,2.646</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">25</span>
+</span>
+<span class="caption">
+<span class="points">1.302,3.052 1.615,3.25</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">26</span>
+</span>
+<span class="caption">
+<span class="points">5.75,0.542 6.063,0.74</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">14</span>
+</span>
+<span class="caption">
+<span class="points">5.76,1.135 6.073,1.333</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">26</span>
+</span>
+<span class="caption">
+<span class="points">2.344,2.094 2.906,2.292</span>
+<span class="captionSize">0.563,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A/B</span>
+</span>
+<span class="caption">
+<span class="points">3.927,1.958 5.333,2.198</span>
+<span class="captionSize">1.406,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">自 IG2 继电器</span>
+</span>
+<span class="caption">
+<span class="points">0.063,3.854 0.521,4.052</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E19</span>
+</span>
+<span class="caption">
+<span class="points">0.24,4.021 1.656,4.323</span>
+<span class="captionSize">1.417,0.302</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">横摆率和加速度传感器 （空气囊 ECU 总成）</span>
+</span>
+<span class="caption">
+<span class="points">5.042,4.115 7.115,4.281</span>
+<span class="captionSize">2.073,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">防滑控制 ECU（制动执行器总成）</span>
+</span>
+<span class="caption">
+<span class="points">5.583,3.76 6.042,3.958</span>
+<span class="captionSize">0.458,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A42</span>
+</span>
+<span class="caption">
+<span class="points">3.677,3.406 5.479,3.635</span>
+<span class="captionSize">1.802,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">：CAN 通信线路</span>
+</span>
+<span class="caption">
+<span class="points">2.219,1.833 2.427,2.031</span>
+<span class="captionSize">0.208,0.198</span>
+<span class="fontsize">9</span>
+<span class="filled">false</span>
+<span class="captionText">2</span>
+</span>
+<span class="caption">
+<span class="points">2.615,1.833 2.823,2.031</span>
+<span class="captionSize">0.208,0.198</span>
+<span class="fontsize">9</span>
+<span class="filled">false</span>
+<span class="captionText">1</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div id="RM100000000D7YV_02" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>进行下列程序前，先检查与此系统相关电路的保险丝。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>U0123 和/或 U0126 与 C1234 和/或 C1472 同时输出时，先检查并维修 U0123 和/或 U0126 指示的故障部位。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;U0073<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7ZJ,U0073</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000D7YV_06" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000D7YV_06_0001">
+<div class="testtitle"><span class="titleText">1.检查 DTC</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7YE,</span></a>
+
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>以 30 km/h (18 mph) 或更高的速度驾驶车辆，转动方向盘并减速（踩下制动踏板）。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>再次将点火开关置于 ON 位置，检查并确认未输出 CAN 通信系统 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;诊断系统<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UU,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7YV_06_0001_1" summary="">
+<colgroup>
+<col style="width:70%">
+<col style="width:29%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">未输出 CAN 通信系统 DTC。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">输出 CAN 通信系统 DTC。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">2.检查空气囊 ECU 总成的安装情况</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">检查 CAN 通信系统</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">电源/网络&gt;网络&gt;CAN 通信系统&gt;如何进行故障排除<span class="invisible">201406,999999,_57,_024003,_0116067,RM100000000D7UM,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7YV_06_0002">
+<div class="testtitle"><span class="titleText">2.检查空气囊 ECU 总成的安装情况</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>检查并确认横摆率和加速度传感器（空气囊 ECU 总成）已正确安装。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;辅助乘员保护系统&gt;中央空气囊传感器总成&gt;安装<span class="invisible">201406,999999,_58,_024009,_0116306,RM100000000D96F,</span></a>
+
+</p>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>空气囊 ECU 总成已紧固至规定扭矩。
+</p>
+<p>空气囊 ECU 总成不倾斜。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7YV_06_0002_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">3.检查线束和连接器（电源端子）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">正确安装空气囊 ECU 总成</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;辅助乘员保护系统&gt;中央空气囊传感器总成&gt;安装<span class="invisible">201406,999999,_58,_024009,_0116306,RM100000000D96F,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7YV_06_0003">
+<div class="testtitle"><span class="titleText">3.检查线束和连接器（电源端子）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C239271.png" alt="C239271" title="C239271">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.25,0.708 0.729,1</span>
+<span class="rectangleSize">0.479,0.292</span>
+</span>
+<span class="line">
+<span class="points">1.021,2.177 0.563,2.844</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.385,0.771 0.792,0.979</span>
+<span class="captionSize">0.406,0.208</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E19</span>
+</span>
+<span class="caption">
+<span class="points">0.24,0.219 0.458,0.396</span>
+<span class="captionSize">0.219,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.385,2.854 0.969,3.188</span>
+<span class="captionSize">0.583,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">IG2</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>线束连接器前视图
+<br>
+（至横摆率和加速度传感器（空气囊 ECU 总成））
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>确保连接器的锁止件和连接部件没有松动。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>断开横摆率和加速度传感器（空气囊 ECU 总成）连接器 E19。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>将点火开关置于 ON 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电压。
+</p>
+<dl class="spec">
+<dt class="spec">标准电压:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E19-21 (IG2) - 车身接地
+</td>
+<td class="alcenter">点火开关 ON
+</td>
+<td class="alcenter">11 至 14 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7YV_06_0003_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">4.检查线束和连接器（接地端子）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器（电源电路）</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7YV_06_0013">
+<div class="testtitle"><span class="titleText">4.检查线束和连接器（接地端子）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<div class="figureAPatternGroup">
+<div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/C239271.png" alt="C239271" title="C239271">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.25,0.708 0.729,1</span>
+<span class="rectangleSize">0.479,0.292</span>
+</span>
+<span class="line">
+<span class="points">1.635,2.188 1.177,2.854</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.802,2.188 2.26,2.854</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.385,0.771 0.781,0.969</span>
+<span class="captionSize">0.396,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E19</span>
+</span>
+<span class="caption">
+<span class="points">0.24,0.219 0.458,0.396</span>
+<span class="captionSize">0.219,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">1.052,2.875 1.281,3.052</span>
+<span class="captionSize">0.229,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E1</span>
+</span>
+<span class="caption">
+<span class="points">2.208,2.875 2.438,3.052</span>
+<span class="captionSize">0.229,0.177</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">E2</span>
+</span>
+</div>
+</div>
+<table summary="caption-table" class="half">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td>线束连接器前视图
+<br>
+（至横摆率和加速度传感器（空气囊 ECU 总成））
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">E19-25 (E1) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">E19-26 (E2) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果根据故障症状表已进行了故障排除，则在更换零件前请再次参考该表并转至下一步。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;车辆稳定性控制系统&gt;故障症状表<span class="invisible">201406,999999,_54,_023990,_0116082,RM100000000D7ZC,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7YV_06_0013_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>正常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换空气囊 ECU 总成</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;辅助乘员保护系统&gt;中央空气囊传感器总成&gt;拆卸<span class="invisible">201406,999999,_58,_024009,_0116306,RM100000000D96H,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器（接地电路）</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

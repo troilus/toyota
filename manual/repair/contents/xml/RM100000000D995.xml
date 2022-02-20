@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024005">
+<name>防盗/无钥匙上车系统</name>
+<ttl id="_0116338">
+<name>智能进入和起动系统（起动功能）</name>
+<para category="C" id="RM100000000D995">
+<dtccode>U0100</dtccode>
+<dtcname>与 ECM/PCM 失去通信</dtcname>
+<dtccode>U0140</dtccode>
+<dtcname>与主车身 ECU 失去通信</dtcname>
+<dtccode>U0142</dtccode>
+<dtcname>与主车身 ECU 失去通信</dtcname>
+<dtccode>U0155</dtccode>
+<dtcname>与组合仪表失去通信</dtcname>
+<subpara category="03" id="RM100000000D995_01">
+<name>描述</name>
+<content5>
+<ptxt>认证 ECU（智能钥匙 ECU 总成）和 ECM、主车身 ECU（多路网络车身 ECU）或组合仪表总成之间的 CAN 通信存在故障时，存储这些 DTC。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="5">
+<colspec colname="1" colwidth="1.42in"/>
+<colspec colname="2" colwidth="1.42in"/>
+<colspec colname="3" colwidth="1.42in"/>
+<colspec colname="4" colwidth="1.42in"/>
+<colspec colname="5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>备注</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>U0100</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与 ECM/PCM 失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>认证 ECU（智能钥匙 ECU 总成）和 ECM 之间的 CAN 通信故障（单程检测逻辑*）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<ptxt>ECM</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="remark">
+<list1 type="nonmark">
+<title>DTC 输出确认操作</title>
+<item>
+<ptxt>将发动机开关置于 ON (IG) 位置，并等待 10 秒或更长时间。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>U0140</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与主车身 ECU 失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>认证 ECU（智能钥匙 ECU 总成）和主车身 ECU 之间的 CAN 通信故障（单程检测逻辑*）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<ptxt>主车身 ECU（多路网络车身 ECU）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="remark">
+<list1 type="nonmark">
+<title>DTC 输出确认操作</title>
+<item>
+<ptxt>始终</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>U0142</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与主车身 ECU 失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>认证 ECU（智能钥匙 ECU 总成）和主车身 ECU 之间的 CAN 通信故障（单程检测逻辑*）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<ptxt>主车身 ECU（多路网络车身 ECU）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="remark">
+<list1 type="nonmark">
+<title>DTC 输出确认操作</title>
+<item>
+<ptxt>始终</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>U0155</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>与组合仪表失去通信</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>认证 ECU（智能钥匙 ECU 总成）和组合仪表总成之间的 CAN 通信故障（单程检测逻辑*）</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="trouble-area">
+<ptxt>组合仪表总成</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="remark">
+<list1 type="nonmark">
+<title>DTC 输出确认操作</title>
+<item>
+<ptxt>将发动机开关置于 ON (IG) 位置，并等待 10 秒或更长时间。</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*：仅在出现故障且发动机开关置于 ON (IG) 位置时检测出。</ptxt>
+</item>
+</list1>
+<table pgwide="1">
+<title>检测到故障时的车辆状况和失效保护功能</title>
+<tgroup cols="3">
+<colspec colname="COLSPEC0" colwidth="2.36in"/>
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 代码</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测到故障时的车辆状况</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测到故障时的失效保护功能</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>U0100</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>对车辆行驶无影响。</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>如果满足以下条件，则可确定故障不在直线连接 (NE) 中，而是在 CAN 通信中。</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>按下发动机开关时，系统根据发动机转速信号通过直线连接控制发动机，从而使发动机停止运转。</ptxt>
+</item>
+<item>
+<ptxt>按住发动机开关时，系统根据发动机转速信号通过直线连接控制发动机，从而使发动机停止运转。</ptxt>
+</item>
+</list1>
+<ptxt>如果满足以下条件，则可确定 CAN 通信和直线连接 (NE) 均存在故障。</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>按下发动机开关时，6 秒后发动机停止起动。</ptxt>
+</item>
+<item>
+<ptxt>按住发动机开关时，发动机起动持续长达 30 秒。</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>U0140</ptxt>
+<ptxt>U0142</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>车门不能锁止或开锁。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>U0155</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>警告（仪表蜂鸣器）不响且仪表不指示警告。</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>相关数据表和主动测试项目</title>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.33in"/>
+<colspec colname="col2" colwidth="2.33in"/>
+<colspec colname="col3" colwidth="2.42in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>数据表和主动测试</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>主动测试项目</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>U0100</ptxt>
+<ptxt>U0140</ptxt>
+<ptxt>U0142</ptxt>
+<ptxt>U0155</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara category="10" id="RM100000000D995_02">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>发动机开关置于 OFF 位置的情况下使用 GTS 时，将 GTS 连接至 DLC3 并以 1.5 秒或更短的间隔打开并关闭门控灯开关，直至 GTS 和车辆之间开始通信。然后在手动模式下选择车型代码“KEY REGIST”并进入以下菜单：Body Electrical / Entry&amp;Start(CAN)。使用 GTS 时，以 1.5 秒或更短的间隔间歇打开并关闭门控灯开关，以保持 GTS 和车辆间的通信。</ptxt>
+</item>
+<item>
+<ptxt>进行维修后，进行完成 DTC 输出确认操作的操作，然后确认不再输出 DTC。</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<ptxt>断开并重新连接蓄电池负极 (-) 端子电缆后，电源模式将恢复至断开电缆前的模式。</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D995_04">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D995_04_0001">
+<testtitle>检查 DTC</testtitle>
+<content6>
+<test1>
+<ptxt>记录输出的 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D98Y" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>转至 CAN 通信系统（如何进行故障排除）</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

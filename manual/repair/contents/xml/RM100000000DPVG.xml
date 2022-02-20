@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_51">
+<name>发动机/混合动力系统</name>
+<section id="_023981">
+<name>巡航控制系统</name>
+<ttl id="_0119997">
+<name>巡航控制系统</name>
+<para category="C" id="RM100000000DPVG">
+<dtccode>P0575</dtccode>
+<dtcname>巡航控制输入电路</dtcname>
+<subpara category="03" id="RM100000000DPVG_01">
+<name>描述</name>
+<content5>
+<ptxt>该 DTC 表示 ECM 异常。</ptxt>
+<table pgwide="1" type="dtc-explan-table">
+<tgroup cols="4">
+<colspec colname="1" colwidth="1.06in"/>
+<colspec colname="2" colwidth="1.77in"/>
+<colspec colname="3" colwidth="3.19in"/>
+<colspec colname="4" colwidth="1.06in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>DTC 编号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>检测项目</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>DTC 检测条件</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>故障部位</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<data-name name="dtc-code">
+<ptxt>P0575</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="detect-item">
+<ptxt>巡航控制输入电路</ptxt>
+</data-name>
+</entry>
+<entry align="left" valign="middle">
+<data-name name="dtc-detect-cond">
+<ptxt>满足以下两个条件时：</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>输入至 ECM 监管 CPU 和控制 ECU 的 STP 信号不一致达 0.15 秒或更长时间</ptxt>
+</item>
+<item>
+<ptxt>巡航取消输入信号（STP 输入）输入至 ECM 后经过 0.4 秒</ptxt>
+</item>
+</list1>
+</data-name>
+</entry>
+<entry align="center" valign="middle">
+<data-name name="trouble-area">
+<ptxt>ECM</ptxt>
+</data-name>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>ECM 接收来自各传感器的信号以控制巡航控制系统的所有功能。检测到 DTC 时，失效保护功能工作直至将发动机开关置于 OFF 位置。</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000DPVG_05">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000DPVG_05_0001">
+<testtitle>检查 DTC（巡航控制系统）</testtitle>
+<content6>
+<test1>
+<ptxt>将 GTS 连接到 DLC3。</ptxt>
+</test1>
+<test1>
+<ptxt>将发动机开关置于 ON (IG) 位置。</ptxt>
+</test1>
+<test1>
+<ptxt>打开 GTS。</ptxt>
+</test1>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DPV9" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-delete">
+<title>Powertrain &gt; Cruise Control &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="237"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">237</app-param>
+<app-param name="ecu-name">Cruise Control</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>执行以下程序，以确保满足 DTC 的检测条件。</ptxt>
+<atten4>
+<ptxt>如果未满足检测条件，则无法检测到故障。</ptxt>
+</atten4>
+<test2>
+<ptxt>在巡航控制操作可用的速度下驾驶车辆。</ptxt>
+</test2>
+<test2>
+<ptxt>使用巡航控制主开关（ON-OFF 按钮）打开巡航控制系统。</ptxt>
+</test2>
+<test2>
+<ptxt>将巡航控制主开关推至 -/SET 以使用巡航控制系统开启车速控制。</ptxt>
+</test2>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DPV9" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+<gts-info category="dtc-read">
+<title>Powertrain &gt; Cruise Control &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="237"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">0</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">1</app-param>
+<app-param name="category-div-name">Powertrain</app-param>
+<app-param name="ecu-id">237</app-param>
+<app-param name="ecu-name">Cruise Control</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+<spec type="other">
+<title>结果</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="4.96in"/>
+<colspec colname="col2" colwidth="2.12in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>未输出 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>输出 DTC P0575</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>使用模拟法进行检查</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB86" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="end" cellposition="2-2">
+<actiontitle>更换 ECM</actiontitle>
+<content6>
+<ptxt>2ZR-FE：单击此处 <mlink><xref href="RM100000000ETKN" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+<ptxt>7ZR-FE：单击此处 <mlink><xref href="RM100000000ETNS" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

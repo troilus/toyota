@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="RM3140CG"><servcat id="_59"><name>车辆外饰</name><section id="_024015">
+<name>车窗/玻璃</name>
+<ttl id="_0116248">
+<name>电动窗控制系统</name><para category="C" dtccode="B2311" id="RM100000000D8VJ" term-id-from="001"><dtccode>
+<name>B2311</name>
+<subpara id="RM100000000D8VJ_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D8VJ_06">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B2312" id="RM100000000D8VI" term-id-from="001"><dtccode>
+<name>B2312</name>
+<subpara id="RM100000000D8VI_01">
+<name>描述</name>
+</subpara>
+<subpara id="RM100000000D8VI_02">
+<name>电路图</name>
+</subpara>
+</dtccode></para><para category="C" dtccode="B2313" id="RM100000000D8VC" term-id-from="001"><dtccode>
+<name>B2313</name>
+<subpara id="RM100000000D8VC_01">
+<name>描述</name>
+</subpara>
+</dtccode></para>
+<para category="L" id="RM100000000D8UW" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="R" id="RM100000000D8VL" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000D8V6" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="D" id="RM100000000D8V2" term-id-from="001">
+<name>系统描述</name>
+</para>
+<para category="Y" id="RM100000000D8VK" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="D" id="RM100000000D8V5" term-id-from="001">
+<name>工作情况检查</name>
+</para>
+<para category="D" id="RM100000000D8V8" term-id-from="001">
+<name>初始化</name>
+</para>
+<para category="T" id="RM100000000D8UY" term-id-from="001">
+<name>故障症状表</name>
+</para>
+<para category="U" id="RM100000000D8VM" term-id-from="001">
+<name>ECU 端子</name>
+</para>
+<para category="D" id="RM100000000D8V3" term-id-from="001">
+<name>诊断系统</name>
+</para>
+<para category="D" id="RM100000000D8V4" term-id-from="001">
+<name>DTC 检查/清除</name>
+</para>
+<para category="U" id="RM100000000D8V9" term-id-from="001">
+<name>失效保护表</name>
+</para>
+<para category="U" id="RM100000000D8V7" term-id-from="001">
+<name>数据表/主动测试</name>
+</para>
+<para category="S" id="RM100000000D8UX" term-id-from="001">
+<name>诊断故障码表</name>
+</para>
+
+
+
+<para category="J" id="RM100000000D8V0" term-id-from="001">
+<name>遥控升/降功能不工作</name>
+</para>
+<para category="J" id="RM100000000D8VD" term-id-from="001">
+<name>用电动窗主开关无法操作驾驶员侧电动窗</name>
+</para>
+<para category="J" id="RM100000000D8VE" term-id-from="001">
+<name>用前排乘客侧电动窗开关无法操作前排乘客侧电动窗</name>
+</para>
+<para category="J" id="RM100000000D8VF" term-id-from="001">
+<name>用左后电动窗开关无法操作左后电动窗</name>
+</para>
+<para category="J" id="RM100000000D8UZ" term-id-from="001">
+<name>用右后电动窗开关无法操作右后电动窗</name>
+</para>
+<para category="J" id="RM100000000D8VG" term-id-from="001">
+<name>用电动窗主开关无法操作驾驶员侧电动窗自动升/降功能</name>
+</para>
+<para category="J" id="RM100000000D8VH" term-id-from="001">
+<name>即使未能满足工作条件，钥匙关闭操作功能也工作</name>
+</para>
+<para category="J" id="RM100000000D8V1" term-id-from="001">
+<name>自动上升操作不能完全关闭电动窗（防夹功能激活）</name>
+</para>
+<para category="J" id="RM100000000D8VA" term-id-from="001">
+<name>防夹功能不工作</name>
+</para>
+<para category="J" id="RM100000000D8VB" term-id-from="001">
+<name>使用所有车窗开关无法操作电动窗</name>
+</para>
+</ttl>
+<ttl id="_0116252">
+<name>电动窗主开关</name>
+<para category="K" id="RM100000000D8W2" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000D8W3" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000D8W4" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000D8W1" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116253">
+<name>前排乘客侧电动窗开关</name>
+<para category="K" id="RM100000000D8W6" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000D8W7" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000D8W8" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000D8W5" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116254">
+<name>后电动窗开关</name>
+<para category="K" id="RM100000000D8WA" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000D8WB" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000D8WC" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000D8W9" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116255">
+<name>电动窗升降器马达（前门）</name>
+<para category="K" id="RM100000000D8WD" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000D8WE" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000D8WG" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000D8WF" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116256">
+<name>电动窗升降器马达（后门）</name>
+<para category="K" id="RM100000000D8WH" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000D8WI" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="G" id="RM100000000D8WK" term-id-from="001">
+<name>检查</name>
+</para>
+<para category="A" id="RM100000000D8WJ" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116257">
+<name>风挡玻璃</name>
+<para category="K" id="RM100000000D8WL" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000D8WM" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000D8WN" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116258">
+<name>背窗玻璃</name>
+<para category="K" id="RM100000000D8WO" term-id-from="001">
+<name>零部件</name>
+</para>
+<para category="A" id="RM100000000D8WP" term-id-from="001">
+<name>拆卸</name>
+</para>
+<para category="A" id="RM100000000D8WQ" term-id-from="001">
+<name>安装</name>
+</para>
+</ttl>
+<ttl id="_0116249">
+<name>车窗除雾器系统</name>
+<para category="L" id="RM100000000D8VN" term-id-from="001">
+<name>注意事项</name>
+</para>
+<para category="R" id="RM100000000D8VQ" term-id-from="001">
+<name>零件位置</name>
+</para>
+<para category="U" id="RM100000000D8VR" term-id-from="001">
+<name>系统图</name>
+</para>
+<para category="D" id="RM100000000D8VT" term-id-from="001">
+<name>系统描述</name>
+</para>
+<para category="Y" id="RM100000000D8VS" term-id-from="001">
+<name>如何进行故障排除</name>
+</para>
+<para category="D" id="RM100000000D8VU" term-id-from="001">
+<name>工作情况检查</name>
+</para>
+<para category="T" id="RM100000000D8VV" term-id-from="001">
+<name>故障症状表</name>
+</para>
+<para category="U" id="RM100000000D8VW" term-id-from="001">
+<name>ECU 端子</name>
+</para>
+<para category="D" id="RM100000000D8VO" term-id-from="001">
+<name>诊断系统</name>
+</para>
+<para category="U" id="RM100000000D8VP" term-id-from="001">
+<name>数据表/主动测试</name>
+</para>
+<para category="J" id="RM100000000D8VX" term-id-from="001">
+<name>后窗除雾器系统不工作</name>
+</para>
+</ttl>
+<ttl id="_0116250">
+<name>车窗除雾器加热丝</name>
+<para category="G" id="RM100000000D8VY" term-id-from="001">
+<name>车上检查</name>
+</para>
+<para category="A" id="RM100000000D8VZ" term-id-from="001">
+<name>维修</name>
+</para>
+</ttl>
+<ttl id="_0116251">
+<name>继电器</name>
+<para category="G" id="RM100000000D8W0" term-id-from="001">
+<name>车上检查</name>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

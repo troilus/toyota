@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="WR004">
+    <part type="conn" code="A13">
+      <name>空调压力传感器</name>
+    </part>
+    <part type="conn" code="C1">
+      <name>蓄电池</name>
+    </part>
+    <part type="conn" code="A42">
+      <name>制动执行器总成</name>
+    </part>
+    <part type="conn" code="A10">
+      <name>制动液液位警告开关（制动总泵储液罐总成）</name>
+    </part>
+    <part type="conn" code="A33">
+      <name>冷却风扇 ECU</name>
+    </part>
+    <part type="conn" code="z9">
+      <name>冷却风扇 ECU、冷却风扇电动机</name>
+    </part>
+    <part type="conn" code="A40">
+      <text>ECM</text>
+    </part>
+    <part type="conn" code="A23">
+      <name>左侧雾灯总成</name>
+    </part>
+    <part type="conn" code="A19">
+      <name>右侧雾灯总成</name>
+    </part>
+    <part type="conn" code="A8">
+      <name>左前空气囊传感器</name>
+    </part>
+    <part type="conn" code="A18">
+      <name>右前空气囊传感器</name>
+    </part>
+    <part type="conn" code="A36">
+      <name>左前 1 号超声波传感器</name>
+    </part>
+    <part type="conn" code="A35">
+      <name>右前 1 号超声波传感器</name>
+    </part>
+    <part type="conn" code="A26">
+      <name>左前轮转速传感器</name>
+    </part>
+    <part type="conn" code="A25">
+      <name>右前轮转速传感器</name>
+    </part>
+    <part type="conn" code="A32">
+      <name>左侧大灯总成</name>
+    </part>
+    <part type="conn" code="A7">
+      <name>左侧大灯总成</name>
+    </part>
+    <part type="conn" code="A9">
+      <name>左侧大灯总成</name>
+    </part>
+    <part type="conn" code="A30">
+      <name>左侧大灯总成</name>
+    </part>
+    <part type="conn" code="A29">
+      <name>右侧大灯总成</name>
+    </part>
+    <part type="conn" code="A17">
+      <name>右侧大灯总成</name>
+    </part>
+    <part type="conn" code="A31">
+      <name>右侧大灯总成</name>
+    </part>
+    <part type="conn" code="A16">
+      <name>右侧大灯总成</name>
+    </part>
+    <part type="conn" code="A24">
+      <name>高音喇叭总成</name>
+    </part>
+    <part type="conn" code="A34">
+      <name>发动机罩门控灯开关（发动机罩锁总成）</name>
+    </part>
+    <part type="conn" code="D1">
+      <name>爆震控制传感器 (B1)</name>
+    </part>
+    <part type="conn" code="A21">
+      <name>低音喇叭总成</name>
+    </part>
+    <part type="conn" code="A20">
+      <name>车外温度传感器（热敏电阻总成）</name>
+    </part>
+    <part type="conn" code="A22">
+      <name>警报喇叭总成</name>
+    </part>
+    <part type="conn" code="A15">
+      <name>风挡玻璃清洗器马达和泵总成</name>
+    </part>
+    <part type="conn" code="A6">
+      <name>风挡玻璃刮水器马达总成</name>
+    </part>
+  </ttl>
+</EWDSearch>

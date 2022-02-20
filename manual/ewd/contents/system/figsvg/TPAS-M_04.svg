@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'NSimSun';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st11 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st12 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st19 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st20 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED
+		ewd:horAlign CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 2510.453 710.000" viewBox="0 0 2514.571 710.000" height="710.000" width="2514.571" xml:space="preserve" ewd:ver="2.1.2.6F" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1798.0  472.76 )">BR</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1840.5  470.82 )">R</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1882.99  471.67 )">W</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1942.48  471.01 )">V</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1984.97  470.7 )">P</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1619.53  472.45 )">SB</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1670.52  470.7 )">P</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  1721.52  470.9 )">Y</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1636.81  587.3 )">P1</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1636.82  594.41 )" ewd:textID="13">右侧 1 号超声波传感器</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1578.43  643.98 )">V</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1527.44  643.98 )">V</text><g ewd:figtype="conn" ewd:figID="1" ewd:code="P1"><g ewd:lineID="52"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1617.04  533.51 )">4</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1619.06  544.83 )">SO</text></g><g ewd:lineID="53"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1668.04  533.51 )">2</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1669.67  544.83 )">BO</text></g><g ewd:lineID="54"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1719.03  533.51 )">6</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1720.74  544.83 )">EO</text></g></g><g ewd:figtype="conn" ewd:figID="3" ewd:code="P4"><path style="stroke-width: 1.42 ;&st7;  " d=" M  1929.18,   384.22  L  1929.18,   426.71  L  2048.16,   426.71  L  2048.16,   384.22  L  1929.18,   384.22  " /><g ewd:lineID="58"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1939.99  434.91 )">5</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1943.17  423.02 )">EI</text></g><g ewd:lineID="59"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1982.48  434.91 )">1</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1985.59  423.02 )">BI</text></g><g ewd:figtype="title"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1925.77  380.52 )" ewd:textID="12">左侧 1 号超声波传感器</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1925.77  373.42 )">P4</text></g></g><g ewd:figtype="conn" ewd:figID="4" ewd:code="P2"><path style="stroke-width: 1.42 ;&st7;  " d=" M  1606.23,   384.22  L  1606.23,   426.71  L  1903.68,   426.71  L  1903.68,   384.22  L  1606.23,   384.22  " /><g ewd:lineID="52"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1617.04  434.91 )">3</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1620.54  423.02 )">SI</text></g><g ewd:lineID="53"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1668.04  434.91 )">1</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1671.14  423.02 )">BI</text></g><g ewd:lineID="54"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1719.03  434.91 )">5</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1722.21  423.02 )">EI</text></g><g ewd:lineID="55"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1795.51  434.91 )">2</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1797.15  423.02 )">BO</text></g><g ewd:lineID="56"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1838.01  434.91 )">4</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1840.03  423.02 )">SO</text></g><g ewd:lineID="57"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1880.5  434.91 )">6</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1882.21  423.02 )">EO</text></g><g ewd:figtype="title"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1602.82  373.42 )">P2</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1602.83  380.52 )" ewd:textID="11">右侧中央 1 号超声波传感器</text></g></g><g ewd:figtype="conn" ewd:figID="5" ewd:code="P3"><path style="stroke-width: 1.42 ;&st7;  " d=" M  1784.70,   537.20  L  1784.70,   579.69  L  2048.16,   579.69  L  2048.16,   537.20  L  1784.70,   537.20  " /><g ewd:lineID="55"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1795.51  533.51 )">1</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1798.62  544.83 )">BI</text></g><g ewd:lineID="56"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1838.01  533.51 )">3</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1841.5  544.83 )">SI</text></g><g ewd:lineID="57"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1880.5  533.51 )">5</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1883.68  544.83 )">EI</text></g><g ewd:lineID="58"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1939.99  533.51 )">6</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1941.7  544.83 )">EO</text></g><g ewd:lineID="59"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1982.48  533.51 )">2</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1984.11  544.83 )">BO</text></g><g ewd:figtype="title"><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1781.29  587.3 )">P3</text><text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  1781.3  594.41 )" ewd:textID="10">左侧中央 1 号超声波传感器</text></g></g></svg>

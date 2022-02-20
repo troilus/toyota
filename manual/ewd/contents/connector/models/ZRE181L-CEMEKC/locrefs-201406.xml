@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE LocRefs SYSTEM "../../../../dtd/locrefs.dtd">
+<LocRefs ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <connector code="A1" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="A2" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="A3" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="A4" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="A5" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="A6" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A8" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A9" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A10" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A11" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="A12" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="A13" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A14" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A15" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A16" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A18" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A19" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A20" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A21" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A23" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A24" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A25" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A26" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A27" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="A28" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="A33" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A37" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="A38" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="A39" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="A40" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A41" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A43" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A44" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A45" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A46" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A47" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A48" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A49" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="A50" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="B1" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B2" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B3" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B4" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B5" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B6" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B8" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B9" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B10" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B11" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B12" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B13" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B14" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B15" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B16" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B17" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B18" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B19" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B20" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B21" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B22" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B23" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B24" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B25" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B26" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B27" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B28" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B29" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B30" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B31" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B32" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B33" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B34" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B35" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B36" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B38" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="B39" type="conn" subcode="">
+    <location code="WR005" />
+  </connector>
+  <connector code="C1" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="d1" type="conn" subcode="">
+    <location code="WR013" />
+  </connector>
+  <connector code="D1" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="e1" type="conn" subcode="">
+    <location code="WR018" />
+  </connector>
+  <connector code="E1" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E2" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E3" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E4" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E5" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E6" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E7" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E8" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E9" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E10" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E11" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E12" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E13" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E14" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E15" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E16" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E17" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E18" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E19" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E20" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E21" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E22" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E23" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E25" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E26" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E27" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E28" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E29" type="conn" subcode="">
+    <location code="WR009" />
+  </connector>
+  <connector code="E30" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E31" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E32" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E33" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E34" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E35" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E36" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E37" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E38" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E39" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E40" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E41" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E42" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E43" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E44" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E45" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E46" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E47" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E48" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E49" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E50" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E51" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E52" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E53" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E54" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E55" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E56" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E57" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E58" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E59" type="conn" subcode="">
+    <location code="WR010" />
+  </connector>
+  <connector code="E60" type="conn" subcode="">
+    <location code="WR011" />
+  </connector>
+  <connector code="E61" type="conn" subcode="">
+    <location code="WR011" />
+  </connector>
+  <connector code="E62" type="conn" subcode="">
+    <location code="WR011" />
+  </connector>
+  <connector code="E63" type="conn" subcode="">
+    <location code="WR011" />
+  </connector>
+  <connector code="E64" type="conn" subcode="">
+    <location code="WR011" />
+  </connector>
+  <connector code="E65" type="conn" subcode="">
+    <location code="WR011" />
+  </connector>
+  <connector code="E66" type="conn" subcode="">
+    <location code="WR011" />
+  </connector>
+  <connector code="E67" type="conn" subcode="">
+    <location code="WR011" />
+  </connector>
+  <connector code="E68" type="conn" subcode="">
+    <location code="WR011" />
+  </connector>
+  <connector code="E70" type="conn" subcode="">
+    <location code="WR011" />
+  </connector>
+  <connector code="E71" type="conn" subcode="">
+    <location code="WR011" />
+  </connector>
+  <connector code="E72" type="conn" subcode="">
+    <location code="WR011" />
+  </connector>
+  <connector code="E73" type="conn" subcode="">
+    <location code="WR011" />
+  </connector>
+  <connector code="E74" type="conn" subcode="">
+    <location code="WR011" />
+  </connector>
+  <connector code="E75" type="conn" subcode="">
+    <location code="WR011" />
+  </connector>
+  <connector code="E76" type="conn" subcode="">
+    <location code="WR011" />
+  </connector>
+  <connector code="f1" type="conn" subcode="">
+    <location code="WR018" />
+  </connector>
+  <connector code="F1" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="F2" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="F3" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="g1" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="G1" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="G2" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="G3" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="G4" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="G5" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="G6" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="G7" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="G8" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="G9" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="G10" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="h1" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="H1" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="H2" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="H3" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="H4" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="H5" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="H6" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="H7" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="H8" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="H9" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="H10" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="H11" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="j1" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="J1" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="J2" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="J3" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="K1" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="K2" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="K3" type="conn" subcode="">
+    <location code="WR016" />
+  </connector>
+  <connector code="L1" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L2" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L3" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L4" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L5" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L6" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L7" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L8" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L9" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L10" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L11" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L12" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L13" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L14" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L15" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="L16" type="conn" subcode="">
+    <location code="WR018" />
+  </connector>
+  <connector code="L17" type="conn" subcode="">
+    <location code="WR018" />
+  </connector>
+  <connector code="L18" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L19" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="L20" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L21" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="L22" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L23" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L24" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L25" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L26" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L27" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L28" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L29" type="conn" subcode="">
+    <location code="WR014" />
+  </connector>
+  <connector code="L30" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L31" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L32" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L33" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L34" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L35" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L36" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L37" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L38" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L39" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L40" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L41" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L42" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L43" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L44" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L45" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L46" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L47" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L48" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L49" type="conn" subcode="">
+    <location code="WR012" />
+  </connector>
+  <connector code="L50" type="conn" subcode="">
+    <location code="WR018" />
+  </connector>
+  <connector code="L51" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L52" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L53" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L54" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L55" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L56" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L57" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="L58" type="conn" subcode="">
+    <location code="WR015" />
+  </connector>
+  <connector code="O1" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="O2" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="O3" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="O4" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="O5" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="O6" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="P1" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="P2" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="P3" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="P4" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="P5" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="P6" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="P7" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="P8" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="Q1" type="conn" subcode="">
+    <location code="WR017" />
+  </connector>
+  <connector code="T1" type="conn" subcode="">
+    <location code="WR018" />
+  </connector>
+  <connector code="T2" type="conn" subcode="">
+    <location code="WR018" />
+  </connector>
+  <connector code="T3" type="conn" subcode="">
+    <location code="WR018" />
+  </connector>
+  <connector code="T4" type="conn" subcode="">
+    <location code="WR018" />
+  </connector>
+  <connector code="T5" type="conn" subcode="">
+    <location code="WR018" />
+  </connector>
+  <connector code="T6" type="conn" subcode="">
+    <location code="WR018" />
+  </connector>
+  <connector code="W1" type="conn" subcode="">
+    <location code="WR018" />
+  </connector>
+  <connector code="W2" type="conn" subcode="">
+    <location code="WR018" />
+  </connector>
+  <connector code="X1" type="conn" subcode="">
+    <location code="WR013" />
+  </connector>
+  <connector code="X2" type="conn" subcode="">
+    <location code="WR013" />
+  </connector>
+  <connector code="X3" type="conn" subcode="">
+    <location code="WR013" />
+  </connector>
+  <connector code="z1" type="conn" subcode="">
+    <location code="WR013" />
+  </connector>
+  <connector code="z2" type="conn" subcode="">
+    <location code="WR013" />
+  </connector>
+  <connector code="z4" type="conn" subcode="">
+    <location code="WR013" />
+  </connector>
+  <connector code="z5" type="conn" subcode="">
+    <location code="WR013" />
+  </connector>
+  <connector code="z6" type="conn" subcode="">
+    <location code="WR013" />
+  </connector>
+  <connector code="z7" type="conn" subcode="">
+    <location code="WR013" />
+  </connector>
+  <connector code="z8" type="conn" subcode="">
+    <location code="WR013" />
+  </connector>
+  <connector code="z9" type="conn" subcode="">
+    <location code="WR006" />
+  </connector>
+  <connector code="z10" type="conn" subcode="">
+    <location code="WR013" />
+  </connector>
+  <connector code="z11" type="conn" subcode="">
+    <location code="WR013" />
+  </connector>
+  <connector code="z12" type="conn" subcode="">
+    <location code="WR013" />
+  </connector>
+  <connector code="AE1" type="w2w">
+    <location code="WR027" />
+  </connector>
+  <connector code="AE2" type="w2w">
+    <location code="WR027" />
+  </connector>
+  <connector code="AE3" type="w2w">
+    <location code="WR027" />
+  </connector>
+  <connector code="AE4" type="w2w">
+    <location code="WR027" />
+  </connector>
+  <connector code="AE5" type="w2w">
+    <location code="WR027" />
+  </connector>
+  <connector code="AE6" type="w2w">
+    <location code="WR027" />
+  </connector>
+  <connector code="AE7" type="w2w">
+    <location code="WR027" />
+  </connector>
+  <connector code="AE8" type="w2w">
+    <location code="WR027" />
+  </connector>
+  <connector code="AL1" type="w2w">
+    <location code="WR027" />
+  </connector>
+  <connector code="AL2" type="w2w">
+    <location code="WR027" />
+  </connector>
+  <connector code="AL3" type="w2w">
+    <location code="WR027" />
+  </connector>
+  <connector code="BA1" type="w2w">
+    <location code="WR023" />
+  </connector>
+  <connector code="BA2" type="w2w">
+    <location code="WR023" />
+  </connector>
+  <connector code="BA3" type="w2w">
+    <location code="WR023" />
+  </connector>
+  <connector code="BD1" type="w2w">
+    <location code="WR023" />
+  </connector>
+  <connector code="Ed1" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="EF1" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="EL1" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="EL2" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="EL3" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="EL4" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="EL5" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="EL6" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="EL7" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="EL8" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="EX1" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="GE1" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="GE2" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="GE3" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="gL1" type="w2w">
+    <location code="WR030" />
+  </connector>
+  <connector code="HE1" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="HE2" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="HE3" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="hL1" type="w2w">
+    <location code="WR030" />
+  </connector>
+  <connector code="jL1" type="w2w">
+    <location code="WR030" />
+  </connector>
+  <connector code="JL1" type="w2w">
+    <location code="WR030" />
+  </connector>
+  <connector code="KL1" type="w2w">
+    <location code="WR030" />
+  </connector>
+  <connector code="Le1" type="w2w">
+    <location code="WR032" />
+  </connector>
+  <connector code="Lf1" type="w2w">
+    <location code="WR032" />
+  </connector>
+  <connector code="LT1" type="w2w">
+    <location code="WR032" />
+  </connector>
+  <connector code="OE1" type="w2w">
+    <location code="WR028" />
+  </connector>
+  <connector code="PL1" type="w2w">
+    <location code="WR030" />
+  </connector>
+  <connector code="WT1" type="w2w">
+    <location code="WR032" />
+  </connector>
+  <connector code="1" type="jb">
+    <location code="RL001" />
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="3" type="jb">
+    <location code="RL002" />
+  </connector>
+  <connector code="4" type="jb">
+    <location code="RL002" />
+    <location code="RL005" ttl="RL002" />
+  </connector>
+  <connector code="1B" type="jbc">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="1D" type="jbc">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="1E" type="jbc">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="1G" type="jbc">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="1H" type="jbc">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="3A" type="jbc">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="3B" type="jbc">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="3C" type="jbc">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="3D" type="jbc">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="3E" type="jbc">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="AA" type="gp">
+    <location code="WR024" />
+  </connector>
+  <connector code="AB" type="gp">
+    <location code="WR024" />
+  </connector>
+  <connector code="AC" type="gp">
+    <location code="WR024" />
+  </connector>
+  <connector code="AD" type="gp">
+    <location code="WR024" />
+  </connector>
+  <connector code="AE" type="gp">
+    <location code="WR029" />
+  </connector>
+  <connector code="AF" type="gp">
+    <location code="WR029" />
+  </connector>
+  <connector code="BA" type="gp">
+    <location code="WR024" />
+  </connector>
+  <connector code="BB" type="gp">
+    <location code="WR024" />
+  </connector>
+  <connector code="CA" type="gp">
+    <location code="WR024" />
+  </connector>
+  <connector code="CB" type="gp">
+    <location code="WR024" />
+  </connector>
+  <connector code="EA" type="gp">
+    <location code="WR029" />
+  </connector>
+  <connector code="EB" type="gp">
+    <location code="WR029" />
+  </connector>
+  <connector code="EC" type="gp">
+    <location code="WR029" />
+  </connector>
+  <connector code="ED" type="gp">
+    <location code="WR029" />
+  </connector>
+  <connector code="LA" type="gp">
+    <location code="WR031" />
+  </connector>
+  <connector code="LB" type="gp">
+    <location code="WR031" />
+  </connector>
+  <connector code="LC" type="gp">
+    <location code="WR031" />
+  </connector>
+  <connector code="LD" type="gp">
+    <location code="WR031" />
+  </connector>
+  <connector code="LE" type="gp">
+    <location code="WR031" />
+  </connector>
+  <connector code="LF" type="gp">
+    <location code="WR031" />
+  </connector>
+  <connector code="QA" type="gp">
+    <location code="WR031" />
+  </connector>
+  <connector code="FUSE1" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE2" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE3" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE4" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE5" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE6" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE7" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE8" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE9" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE10" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE11" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE12" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE13" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE14" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE15" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE16" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE17" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE18" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE19" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE20" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE21" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE22" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE23" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE24" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE25" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE26" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE27" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE28" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE29" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE30" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE31" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE32" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE33" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE34" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE35" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE36" type="rb" subcode="">
+    <location code="RL004" ttl="RL001" />
+  </connector>
+  <connector code="FUSE37" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE38" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE39" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE40" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE41" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE42" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE43" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE44" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE45" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE46" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE47" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE48" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE49" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE50" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE51" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE52" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE53" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE54" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE55" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE56" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE57" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE58" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE59" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE60" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE61" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE62" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE63" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE64" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE65" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE66" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+  <connector code="FUSE67" type="rb" subcode="">
+    <location code="RL006" ttl="RL002" />
+  </connector>
+</LocRefs>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS021">
+    <part type="conn" code="A3">
+      <text>VCPA VPA EPA VCP2 VPA2 EPA2</text>
+      <name>加速踏板传感器总成</name>
+    </part>
+    <part type="conn" code="B18">
+      <text>+B HA1A A1A- A1A+</text>
+      <name>空燃比传感器 (B1 S1)</name>
+    </part>
+    <part type="conn" code="E19">
+      <text>CANH CANL</text>
+      <name>空气囊 ECU 总成</name>
+    </part>
+    <part type="conn" code="B36">
+      <text>E2 IB VC5 THB</text>
+      <name>蓄电池电流传感器总成</name>
+    </part>
+    <part type="conn" code="A41,A42">
+      <text>SP1</text>
+      <name>制动执行器总成</name>
+    </part>
+    <part type="conn" code="B25">
+      <name>凸轮轴正时机油控制阀总成（排气侧）</name>
+    </part>
+    <part type="conn" code="B26">
+      <name>凸轮轴正时机油控制阀总成（进气侧）</name>
+    </part>
+    <part type="conn" code="E47,E49">
+      <text>+B IG2D NE AGND SSW1 SSW2 STAR STA</text>
+      <name>认证 ECU</name>
+    </part>
+    <part type="conn" code="A4">
+      <name>离合器起动开关总成</name>
+    </part>
+    <part type="conn" code="A5">
+      <name>离合器起动开关总成</name>
+    </part>
+    <part type="conn" code="E55">
+      <text>CANH 5V IC CANL CAN I/F 5V+B CPU ET CHK IG+ B I/F +S SI SPORT (*3) CPU 5V +B CAN I/F 5V IC 12V B IG+ ET CANH CHK CANL +S SI 5V A/T OIL TEMP (*3) SPORT (*3) I/F</text>
+      <name>组合仪表总成</name>
+      <name type="inner">显示屏驱动器</name>
+      <name type="inner">CAN 控制器</name>
+      <name type="inner">蜂鸣器</name>
+      <name type="inner">LED 驱动器</name>
+      <name type="inner">检查发动机</name>
+      <name type="inner">巡航</name>
+      <name type="inner">检查发动机</name>
+      <name type="inner">CAN 控制器</name>
+      <name type="inner">LED 驱动器</name>
+      <name type="inner">蜂鸣器</name>
+      <name type="inner">换档指示灯</name>
+      <name type="inner">LCD 显示屏</name>
+    </part>
+    <part type="conn" code="A33">
+      <text>SI</text>
+      <name>冷却风扇 ECU</name>
+    </part>
+    <part type="conn" code="B16">
+      <name>曲轴位置传感器</name>
+    </part>
+    <part type="conn" code="z10">
+      <text>CANCEL ON-OFF + RES - SET</text>
+      <name>巡航控制主开关、巡航控制开关线束</name>
+    </part>
+    <part type="conn" code="z4,z10">
+      <text>B R</text>
+      <name>巡航控制开关线束、巡航控制主开关、螺旋电缆分总成</name>
+    </part>
+    <part type="conn" code="B21">
+      <text>SLU+ B SLU- O Y BR L NTO NTB W V R SB LG GR SLS- SLS+ E2 THO SL SC SLP- SLP+</text>
+      <name>CVT 电磁阀（变速器线束）</name>
+    </part>
+    <part type="conn" code="E18">
+      <text>DLC3 CANL TC CANH TAC</text>
+    </part>
+    <part type="conn" code="B4">
+      <name>E.F.I. 发动机冷却液温度传感器</name>
+    </part>
+    <part type="conn" code="B20">
+      <text>VC E2 PIM</text>
+      <name>E.F.I. 真空传感器总成</name>
+    </part>
+    <part type="conn" code="A40,B39">
+      <text>ECM THW ETHW NSW EX1B OX1B HT1B RFC ELS2 PRG ACIS ETA VCTA HA1A VTA1 A1A- VTA2 A1A+ M+ M- KNK1 GE01 EKNK NE+ NE- VCPA VPA EPA E1 VCP2 E01 VPA2 E04 E02 EPA2 ME01 EC NTB NIN+ NTO NIN- SLP+ NOTB SLP- NOTO SLS+ SLS- OC1- OC1+ SC SL OE1- OE1+ THO1 ETHO SLU+ SLU- VCPT PTO EPTO VCV1 VV1+ VV1- P R EV1+ N EV1- VCE1 D PWMS ECCS CCS SPD W S CANH CANL SFTU TC TACH SFTD ST1- +B IGSW +B2 STP BATT MREL PBV VC FPC E2 THEO HAC ETHE THB #40 VCIB IB #30 EIB #20 +BM #10 LIN ETHA THA E2G VG NEO IGT1 IGT2 IGT3 IGT4 IGF1 STA IMI IMO</text>
+    </part>
+    <part type="conn" code="E50">
+      <text>SS2 SS1 AGND</text>
+      <name>发动机开关</name>
+      <name type="inner">全开</name>
+      <name type="inner">全接</name>
+    </part>
+    <part type="conn" code="B11">
+      <name>1 号喷油器总成</name>
+    </part>
+    <part type="conn" code="B12">
+      <name>2 号喷油器总成</name>
+    </part>
+    <part type="conn" code="B13">
+      <name>3 号喷油器总成</name>
+    </part>
+    <part type="conn" code="B14">
+      <name>4 号喷油器总成</name>
+    </part>
+    <part type="conn" code="L23">
+      <text>E FP FP- FPC +B</text>
+      <name>燃油泵控制 ECU 总成</name>
+    </part>
+    <part type="conn" code="L22">
+      <text>E B M</text>
+      <name>带泵和计量表的燃油吸油管总成</name>
+      <name type="inner">泵</name>
+    </part>
+    <part type="conn" code="B17">
+      <text>LIN</text>
+      <name>发电机总成</name>
+    </part>
+    <part type="conn" code="E28">
+      <text>EFIO EFII</text>
+      <name>ID 代码箱</name>
+    </part>
+    <part type="conn" code="B29">
+      <text>IGT1 IGF</text>
+      <name>1 号点火线圈</name>
+    </part>
+    <part type="conn" code="B30">
+      <text>IGT2 IGF</text>
+      <name>2 号点火线圈</name>
+    </part>
+    <part type="conn" code="B31">
+      <text>IGT3 IGF</text>
+      <name>3 号点火线圈</name>
+    </part>
+    <part type="conn" code="B32">
+      <text>IGT4 IGF</text>
+      <name>4 号点火线圈</name>
+    </part>
+    <part type="conn" code="E9">
+      <text>ST2 IG2 AM2</text>
+      <name>点火或起动开关总成</name>
+    </part>
+    <part type="conn" code="B2">
+      <text>+B E2 THA E2G VG</text>
+      <name>进气质量空气流量计分总成</name>
+    </part>
+    <part type="conn" code="D1">
+      <name>爆震控制传感器 (B1)</name>
+    </part>
+    <part type="conn" code="A39">
+      <name>1 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="A37">
+      <name>1 号接线连接器</name>
+    </part>
+    <part type="conn" code="E74">
+      <name>2 号 CAN 接线连接器</name>
+    </part>
+    <part type="conn" code="E70">
+      <name>3 号接线连接器</name>
+    </part>
+    <part type="conn" code="B33">
+      <text>VC PTO E2</text>
+      <name>油压传感器</name>
+    </part>
+    <part type="conn" code="B19">
+      <name>油温传感器</name>
+    </part>
+    <part type="conn" code="B27">
+      <text>+B E2 OX1B HT1B</text>
+      <name>氧传感器 (B1 S2)</name>
+    </part>
+    <part type="conn" code="B15">
+      <text>L B N P R P RB PL N D RL NL DL</text>
+      <name>驻车/空档位置开关总成</name>
+    </part>
+    <part type="conn" code="E52">
+      <name>模式选择开关总成</name>
+    </part>
+    <part type="conn" code="B22">
+      <name>净化 VSV</name>
+    </part>
+    <part type="conn" code="E13,z4,z6">
+      <text>CCS ECC SUP SDN</text>
+      <name>螺旋电缆分总成、巡航控制开关线束、方向盘衬垫开关总成</name>
+    </part>
+    <part type="conn" code="z5">
+      <text>+ - B O P W</text>
+      <name>方向盘衬垫开关总成、变速器换档开关总成</name>
+      <name type="inner">左侧换档拨板装置</name>
+      <name type="inner">右侧换档拨板装置</name>
+    </part>
+    <part type="conn" code="A1">
+      <name>刹车灯开关总成</name>
+    </part>
+    <part type="conn" code="A2">
+      <text>GND OUT B L</text>
+      <name>刹车灯开关总成</name>
+    </part>
+    <part type="conn" code="B28">
+      <text>M+ M- VTA2 VTA VC E2 M</text>
+      <name>节气门体总成</name>
+    </part>
+    <part type="conn" code="E44">
+      <text>E SFTD SFTU S IG</text>
+      <name>变速器控制开关（变速器地板式换档总成）</name>
+    </part>
+    <part type="conn" code="B34">
+      <name>变速器转速传感器（初级）</name>
+    </part>
+    <part type="conn" code="B35">
+      <name>变速器转速传感器（次级）</name>
+    </part>
+    <part type="conn" code="z5,z6">
+      <text>GR P-G V</text>
+      <name>变速器换档开关总成、方向盘衬垫开关总成、螺旋电缆分总成</name>
+    </part>
+    <part type="conn" code="E29">
+      <text>EFIO EFII</text>
+      <name>应答器钥匙 ECU 总成</name>
+    </part>
+    <part type="conn" code="B37">
+      <text>VSV (ACIS)</text>
+    </part>
+    <part type="conn" code="A14">
+      <name>VSV (喷射器)</name>
+    </part>
+    <part type="conn" code="B23">
+      <text>VVE+ VVE- VC2</text>
+      <name>VVT 传感器（排气侧）</name>
+    </part>
+    <part type="conn" code="B24">
+      <text>VC VVI+ VVI-</text>
+      <name>VVT 传感器（进气侧）</name>
+    </part>
+    <part type="fuse" code="FUSE2">
+      <text>AM2</text>
+    </part>
+    <part type="fuse" code="FUSE32">
+      <text>DEF</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE45">
+      <text>ECU-IG NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE46">
+      <text>ECU-IG NO.3</text>
+    </part>
+    <part type="fuse" code="FUSE7">
+      <text>EFI NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE8">
+      <text>EFI NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE18">
+      <text>EFI-B</text>
+    </part>
+    <part type="fuse" code="FUSE22">
+      <text>EFI-MAIN</text>
+    </part>
+    <part type="fuse" code="FUSE9">
+      <text>ETCS</text>
+    </part>
+    <part type="fuse" code="FUSE49">
+      <text>HTR-IG</text>
+    </part>
+    <part type="fuse" code="FUSE19">
+      <text>IG2</text>
+    </part>
+    <part type="fuse" code="FUSE50">
+      <text>IGN</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE15">
+      <text>MIR HTR</text>
+    </part>
+    <part type="fuse" code="FUSE54">
+      <text>STOP</text>
+    </part>
+  </ttl>
+</EWDSearch>

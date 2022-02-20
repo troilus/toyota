@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <note ewd="WIRE025" code="h1" type="conn">
+    <name>右后轮转速传感器（右侧防滑控制传感器线束）</name>
+  </note>
+  <note ewd="WIRE025" code="hL1" type="w2w">
+    <name>右侧防滑控制传感器线束和地板线束</name>
+  </note>
+</EwdTree>

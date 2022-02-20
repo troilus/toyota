@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS062" code="g1" type="conn" figID="4">
+    <name>中央刹车灯总成</name>
+  </text>
+  <text ewd="SYS062" code="L56" type="conn" figID="9">
+    <name>8 号接线连接器</name>
+  </text>
+  <text ewd="SYS062" code="L25" type="conn" figID="2">
+    <name>静噪滤波器（收音机设定调相器）</name>
+  </text>
+  <text ewd="SYS062" code="L3" type="conn" figID="6">
+    <name>左后组合灯总成</name>
+  </text>
+  <text ewd="SYS062" code="L27" type="conn" figID="1">
+    <name>左后组合灯总成</name>
+  </text>
+  <text ewd="SYS062" code="L4" type="conn" figID="3">
+    <name>右后组合灯总成</name>
+  </text>
+  <text ewd="SYS062" code="L26" type="conn" figID="7">
+    <name>右后组合灯总成</name>
+  </text>
+  <text ewd="SYS062" code="A1" type="conn" figID="5">
+    <name>刹车灯开关总成</name>
+  </text>
+  <text ewd="SYS062" code="A2" type="conn" figID="8">
+    <name>刹车灯开关总成</name>
+  </text>
+  <text ewd="SYS062" code="FUSE54" type="fuse" figID="19">
+    <name>7.5A STOP</name>
+  </text>
+  <text ewd="SYS062" code="EB" type="gp" figID="15">
+    <name />
+  </text>
+  <text ewd="SYS062" code="LA" type="gp" figID="16">
+    <name />
+  </text>
+  <text ewd="SYS062" code="LC" type="gp" figID="17">
+    <name />
+  </text>
+  <text ewd="SYS062" code="3" type="jb" figID="10,11">
+    <name />
+  </text>
+  <text ewd="SYS062" code="SP35" type="sp" figID="18">
+    <name />
+  </text>
+  <text ewd="SYS062" code="gL1" type="w2w" figID="13,14">
+    <name>中央刹车灯芯线总成和地板线束</name>
+  </text>
+  <text ewd="SYS062" code="AE4" type="w2w" figID="12">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+</EwdTree>

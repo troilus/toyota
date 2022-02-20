@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS099">
+    <part type="conn" code="T5">
+      <text>LO HI E</text>
+      <name>前排左侧座椅座垫加热器总成</name>
+      <name type="inner">座椅靠背元件</name>
+      <name type="inner">座垫元件</name>
+    </part>
+    <part type="conn" code="L50">
+      <text>E HI LO</text>
+      <name>前排右侧座椅座垫加热器总成</name>
+      <name type="inner">座垫元件</name>
+      <name type="inner">座椅靠背元件</name>
+    </part>
+    <part type="conn" code="E70">
+      <name>3 号接线连接器</name>
+    </part>
+    <part type="conn" code="T6">
+      <name>9 号接线连接器</name>
+    </part>
+    <part type="conn" code="E39">
+      <text>E HI LO IG</text>
+      <name>左侧座椅加热器开关</name>
+    </part>
+    <part type="conn" code="E38">
+      <text>HI LO IG E</text>
+      <name>右侧座椅加热器开关</name>
+    </part>
+    <part type="fuse" code="FUSE58">
+      <text>SEAT HTR</text>
+    </part>
+  </ttl>
+</EWDSearch>

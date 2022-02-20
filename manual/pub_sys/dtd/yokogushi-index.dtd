@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #  DTD VERSION 1.5  UPDATE May. 22, 2013    -->
+<!ELEMENT tmc-service-yokogushi (pub)>
+<!ELEMENT pub (dtc+)>
+<!ATTLIST pub
+	id ID #REQUIRED
+>
+<!ELEMENT dtc (location+)>
+<!ATTLIST dtc
+	dtccode CDATA #REQUIRED
+>
+<!ELEMENT prt (parts+)>
+<!ELEMENT parts (#PCDATA)>
+<!ELEMENT location (prt?)>
+<!ATTLIST location
+	ncf-para-category CDATA #IMPLIED
+	para-id CDATA #IMPLIED
+	section-id CDATA #REQUIRED
+	servcat-id CDATA #REQUIRED
+	ttl-id CDATA #REQUIRED
+	type (RM | NM | EM) #REQUIRED
+	linkkey CDATA #IMPLIED
+	dispname CDATA #IMPLIED
+>

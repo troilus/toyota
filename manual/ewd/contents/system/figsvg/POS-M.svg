@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'NSimSun';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st11 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st12 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st19 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st20 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED
+		ewd:horAlign CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 275.327 710.000" viewBox="0 0 280.454 710.000" height="710.000" width="280.454" xml:space="preserve" ewd:ver="2.1.2.6F" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;">
+	<script type="text/javascript" xlink:href="../../../../../system/js/ewd/fig/svgfig.js" xmlns:xlink="http://www.w3.org/1999/xlink" />
+<g id="ewd_top">
+	<a ewd:figtype="conn" style="cursor:pointer;" ewd:code="E26" ewd:figID="1">
+		<path style="&st5;" d=" M   220.96,   333.23  L   220.96,   367.22  L   254.96,   367.22  L   254.96,   333.23  L   220.96,   333.23 "/>
+		<title ewd:textID="1">点烟器总成</title>
+	</a>
+	<a ewd:figtype="jb" style="cursor:pointer;" ewd:code="3" ewd:figID="2">
+		<path style="&st4; " d=" M   220.96,    35.78  L   220.96,   120.77  L   271.95,   120.77  L   271.95,    35.78  L   220.96,    35.78  "/>
+	</a>
+	<a ewd:figtype="fuse" style="cursor:pointer;" ewd:code="FUSE57" ewd:figID="4">
+		<path style="&st7; stroke-width:0;" d=" M   225.21,    35.78  L   225.21,    78.27  L   250.71,    78.27  L   250.71,    35.78  L   225.21,    35.78 "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="1">
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M   237.96,   681.67  L   237.96,   367.22  "/>
+		<path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M   237.96,   681.67  L   237.96,   367.22  "/>
+		<path style="stroke:#000000;stroke-width: 1.13 ;&st6;" d=" M   237.96,   681.67  L   237.96,   367.22  "/>
+	</a>
+	<a style="cursor:pointer;" ewd:lineID="2">
+		<path style="stroke:#999999;stroke-width: 5.10 ;&st6;" d=" M   237.96,   120.77  L   237.96,   333.23  "/>
+	</a>
+	<g ewd:figtype="conn" ewd:figID="1" ewd:code="E26">
+		<g ewd:lineID="1">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  231.78  375.42 )">2</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  235.85  363.53 )">E</text>
+		</g>
+		<g ewd:lineID="2">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  231.78  329.54 )">1</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  231.31  340.86 )">ACC</text>
+		</g>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   220.96,   333.23  L   220.96,   367.22  L   254.96,   367.22  L   254.96,   333.23  L   220.96,   333.23  "/>
+		<g ewd:figtype="title">
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  269.68  370.13 )" ewd:textID="1">点烟器总成</text>
+			<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  262.57  370.12 )">E26</text>
+		</g>
+	</g>
+	<g ewd:figtype="jb" ewd:figID="2" ewd:code="3">
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  231.78  86.47 )">2</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  227.45  118.49 )">5</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  229.45  32.08 )">(ACC)</text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  254.38  56.17 )">15A <tspan x="0 " dy="6.0">CIG</tspan></text>
+		<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st16;  234.03  118.49 )">3D</text>
+		<path style="stroke-width: 0.28 ;&st9;  " d=" M   237.96,   107.37  L   235.13,   104.54  L   235.13,   108.79  L   237.96,   111.62  L   240.79,   108.79  L   240.79,   104.54  L   237.96,   107.37  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   225.21,    35.78  L   225.21,    78.27  L   250.71,    78.27  L   250.71,    35.78  L   225.21,    35.78  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   237.96,    47.11  C   235.22     48.72    234.31     52.25    235.92     54.99  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   235.92,    54.99  C   236.44     55.87    237.08     56.51    237.96     57.03  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   237.96,    66.94  C   240.70     65.33    241.61     61.80    240.00     59.06  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   240.00,    59.06  C   239.48     58.18    238.84     57.55    237.96     57.03  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   239.38,    45.69  C   239.38     44.91    238.74     44.28    237.96     44.28  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   237.96,    44.28  C   237.18     44.28    236.54     44.91    236.54     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   236.54,    45.69  C   236.54     46.48    237.18     47.11    237.96     47.11  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   237.96,    47.11  C   238.74     47.11    239.38     46.48    239.38     45.69  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   239.38,    68.36  C   239.38     67.57    238.74     66.94    237.96     66.94  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   237.96,    66.94  C   237.18     66.94    236.54     67.57    236.54     68.36  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   236.54,    68.36  C   236.54     69.14    237.18     69.77    237.96     69.77  "/>
+		<path style="stroke-width: 0.85 ;&st7;   " d=" M   237.96,    69.77  C   238.74     69.77    239.38     69.14    239.38     68.36  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   235.84,   112.27  C   233.49    112.27    231.59    114.17    231.59    116.52  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   231.59,   116.52  C   231.59    118.86    233.49    120.77    235.84    120.77  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   240.08,   120.77  C   242.43    120.77    244.33    118.86    244.33    116.52  "/>
+		<path style="stroke-width: 1.42 ;&st7;   " d=" M   244.33,   116.52  C   244.33    114.17    242.43    112.27    240.08    112.27  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   237.96,    69.77  L   237.96,   112.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   240.08,   112.27  L   235.84,   112.27  "/>
+		<path style="stroke-width: 1.42 ;&st7;  " d=" M   240.08,   120.77  L   235.84,   120.77  "/>
+	</g>
+	<g ewd:figtype="gp" ewd:figID="3" ewd:code="ED">
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   236.54,   710.00  L   239.38,   710.00  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   235.13,   707.17  L   240.79,   707.17  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   233.71,   704.33  L   242.21,   704.33  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   229.46,   701.50  L   246.46,   701.50  "/>
+		<path style="stroke-width: 0.85 ;&st7;  " d=" M   237.96,   697.25  L   237.96,   701.50  "/>
+	</g>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  234.27  560.15 )">W-B</text>
+	<text style="font-size:6px;font-family:'NSimSun';" transform="matrix(&st17;  234.26  150.08 )">GR</text>
+	<a ewd:figtype="gp" style="cursor:pointer;" ewd:code="ED" ewd:figID="3">
+		<path style="&st2;" d=" M   227.34,   681.67  L   248.58,   681.67  L   237.96,   697.25  L   227.34,   681.67 "/>
+		<text style="&st8;" transform="matrix(&st16;  234.08  689.46 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">ED</tspan></text>
+	</a>
+</g>
+</svg>

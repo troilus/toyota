@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS007" code="E65" type="conn" figID="5">
+    <name>后声纳或侦测声纳开关总成</name>
+  </text>
+  <text ewd="SYS007" code="B6" type="conn" figID="3">
+    <name>倒车灯开关总成</name>
+  </text>
+  <text ewd="SYS007" code="E63" type="conn" figID="6">
+    <name>间隙警告 ECU 总成</name>
+  </text>
+  <text ewd="SYS007" code="E64" type="conn" figID="8">
+    <name>1 号间隙警告蜂鸣器</name>
+  </text>
+  <text ewd="SYS007" code="P7" type="conn" figID="13">
+    <name>左侧中央 1 号超声波传感器</name>
+  </text>
+  <text ewd="SYS007" code="P6" type="conn" figID="12">
+    <name>右侧中央 1 号超声波传感器</name>
+  </text>
+  <text ewd="SYS007" code="P8" type="conn" figID="11">
+    <name>左侧 1 号超声波传感器</name>
+  </text>
+  <text ewd="SYS007" code="P5" type="conn" figID="10">
+    <name>右侧 1 号超声波传感器</name>
+  </text>
+  <text ewd="SYS007" code="E71" type="conn" figID="9">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS007" code="E72" type="conn" figID="2">
+    <name>5 号接线连接器</name>
+  </text>
+  <text ewd="SYS007" code="B15" type="conn" figID="4">
+    <name>驻车/空档位置开关总成</name>
+  </text>
+  <text ewd="SYS007" code="E61" type="conn" figID="7">
+    <name>警告灯总成</name>
+  </text>
+  <text ewd="SYS007" code="FUSE36" type="fuse" figID="37">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS007" code="FUSE45" type="fuse" figID="38">
+    <name>7.5A ECU-IG NO.2</name>
+  </text>
+  <text ewd="SYS007" code="FUSE47" type="fuse" figID="35">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS007" code="FUSE52" type="fuse" figID="36">
+    <name>7.5A PANEL</name>
+  </text>
+  <text ewd="SYS007" code="EB" type="gp" figID="32">
+    <name />
+  </text>
+  <text ewd="SYS007" code="1" type="jb" figID="16">
+    <name />
+  </text>
+  <text ewd="SYS007" code="3" type="jb" figID="15,17,18,19">
+    <name />
+  </text>
+  <text ewd="SYS007" code="FUSE36" type="rb" figID="1">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS007" code="SP40" type="sp" figID="33">
+    <name />
+  </text>
+  <text ewd="SYS007" code="SP43" type="sp" figID="34">
+    <name />
+  </text>
+  <text ewd="SYS007" code="BA2" type="w2w" figID="30,31">
+    <name>发动机线束和发动机室主线束</name>
+  </text>
+  <text ewd="SYS007" code="EL6" type="w2w" figID="20,22,24,26,28">
+    <name>仪表板线束和地板线束</name>
+  </text>
+  <text ewd="SYS007" code="PL1" type="w2w" figID="21,23,25,27,29">
+    <name>行李厢 2 号线束和地板线束</name>
+  </text>
+</EwdTree>

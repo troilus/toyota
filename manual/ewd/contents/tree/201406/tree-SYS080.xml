@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS080" code="E20" type="conn" figID="33">
+    <name>空调控制总成</name>
+  </text>
+  <text ewd="SYS080" code="E65" type="conn" figID="24">
+    <name>后声纳或侦测声纳开关总成</name>
+  </text>
+  <text ewd="SYS080" code="E49" type="conn" figID="43">
+    <name>认证 ECU</name>
+  </text>
+  <text ewd="SYS080" code="F3" type="conn" figID="28">
+    <name>时钟总成</name>
+  </text>
+  <text ewd="SYS080" code="E55" type="conn" figID="36,37">
+    <name>组合仪表总成</name>
+  </text>
+  <text ewd="SYS080" code="E50" type="conn" figID="42">
+    <name>发动机开关</name>
+  </text>
+  <text ewd="SYS080" code="E53" type="conn" figID="35">
+    <name>危险警告信号开关总成</name>
+  </text>
+  <text ewd="SYS080" code="A7" type="conn" figID="10">
+    <name>左侧大灯总成</name>
+  </text>
+  <text ewd="SYS080" code="A17" type="conn" figID="9">
+    <name>右侧大灯总成</name>
+  </text>
+  <text ewd="SYS080" code="E15" type="conn" figID="4">
+    <name>大灯变光器开关总成</name>
+  </text>
+  <text ewd="SYS080" code="E54" type="conn" figID="29">
+    <name>大灯水平开关</name>
+  </text>
+  <text ewd="SYS080" code="E66" type="conn" figID="18">
+    <name>车内照明灯总成</name>
+  </text>
+  <text ewd="SYS080" code="L6" type="conn" figID="16">
+    <name>左侧牌照灯总成</name>
+  </text>
+  <text ewd="SYS080" code="L7" type="conn" figID="17">
+    <name>右侧牌照灯总成</name>
+  </text>
+  <text ewd="SYS080" code="E36" type="conn" figID="40">
+    <name>主车身 ECU</name>
+  </text>
+  <text ewd="SYS080" code="E1,E2,E3,E32,E33" type="conn" figID="27">
+    <name>导航接收器总成、无线电收音机和显示屏接收器总成、无线电收音机总成</name>
+  </text>
+  <text ewd="SYS080" code="A39" type="conn" figID="5">
+    <name>1 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS080" code="E57" type="conn" figID="32">
+    <name>1 号加热器控制装置分总成</name>
+  </text>
+  <text ewd="SYS080" code="E74" type="conn" figID="41">
+    <name>2 号 CAN 接线连接器</name>
+  </text>
+  <text ewd="SYS080" code="E58" type="conn" figID="49">
+    <name>2 号加热器控制装置分总成</name>
+  </text>
+  <text ewd="SYS080" code="E22" type="conn" figID="34">
+    <name>3 号加热器控制装置分总成</name>
+  </text>
+  <text ewd="SYS080" code="E70" type="conn" figID="20">
+    <name>3 号接线连接器</name>
+  </text>
+  <text ewd="SYS080" code="E71" type="conn" figID="12,30">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS080" code="E72" type="conn" figID="48">
+    <name>5 号接线连接器</name>
+  </text>
+  <text ewd="SYS080" code="L54,L55" type="conn" figID="14">
+    <name>7 号接线连接器</name>
+  </text>
+  <text ewd="SYS080" code="L56" type="conn" figID="11">
+    <name>8 号接线连接器</name>
+  </text>
+  <text ewd="SYS080" code="E25" type="conn" figID="47">
+    <name>车外后视镜开关总成</name>
+  </text>
+  <text ewd="SYS080" code="E75" type="conn" figID="46">
+    <name>车外后视镜开关总成</name>
+  </text>
+  <text ewd="SYS080" code="E76" type="conn" figID="23">
+    <name>模式选择开关总成</name>
+  </text>
+  <text ewd="SYS080" code="L3" type="conn" figID="7">
+    <name>左后组合灯总成</name>
+  </text>
+  <text ewd="SYS080" code="L27" type="conn" figID="2">
+    <name>左后组合灯总成</name>
+  </text>
+  <text ewd="SYS080" code="L4" type="conn" figID="6">
+    <name>右后组合灯总成</name>
+  </text>
+  <text ewd="SYS080" code="L26" type="conn" figID="8">
+    <name>右后组合灯总成</name>
+  </text>
+  <text ewd="SYS080" code="L34" type="conn" figID="44">
+    <name>左后灯总成</name>
+  </text>
+  <text ewd="SYS080" code="L37" type="conn" figID="13">
+    <name>左后灯总成</name>
+  </text>
+  <text ewd="SYS080" code="L33" type="conn" figID="45">
+    <name>右后灯总成</name>
+  </text>
+  <text ewd="SYS080" code="L38" type="conn" figID="15">
+    <name>右后灯总成</name>
+  </text>
+  <text ewd="SYS080" code="E39" type="conn" figID="22">
+    <name>左侧座椅加热器开关</name>
+  </text>
+  <text ewd="SYS080" code="E38" type="conn" figID="21">
+    <name>右侧座椅加热器开关</name>
+  </text>
+  <text ewd="SYS080" code="E42" type="conn" figID="19">
+    <name>换档杆位置指示灯</name>
+  </text>
+  <text ewd="SYS080" code="E13,z6" type="conn" figID="25">
+    <name>螺旋电缆分总成、方向盘衬垫开关总成</name>
+  </text>
+  <text ewd="SYS080" code="z6" type="conn" figID="26">
+    <name>螺旋电缆分总成、方向盘衬垫开关总成</name>
+  </text>
+  <text ewd="SYS080" code="E60" type="conn" figID="31">
+    <name>VSC OFF 开关</name>
+  </text>
+  <text ewd="SYS080" code="FUSE5" type="fuse" figID="91">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS080" code="FUSE6" type="fuse" figID="95,97">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS080" code="FUSE56" type="fuse" figID="94">
+    <name>10A TAIL</name>
+  </text>
+  <text ewd="SYS080" code="FUSE36" type="fuse" figID="92">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS080" code="FUSE39" type="fuse" figID="96,98">
+    <name>5A MET</name>
+  </text>
+  <text ewd="SYS080" code="FUSE43" type="fuse" figID="89">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS080" code="FUSE47" type="fuse" figID="90">
+    <name>7.5A ECU-IG NO.4</name>
+  </text>
+  <text ewd="SYS080" code="FUSE52" type="fuse" figID="93">
+    <name>7.5A PANEL</name>
+  </text>
+  <text ewd="SYS080" code="AA" type="gp" figID="71">
+    <name />
+  </text>
+  <text ewd="SYS080" code="AC" type="gp" figID="72">
+    <name />
+  </text>
+  <text ewd="SYS080" code="EA" type="gp" figID="68">
+    <name />
+  </text>
+  <text ewd="SYS080" code="EB" type="gp" figID="69,75,78,79,80,81">
+    <name />
+  </text>
+  <text ewd="SYS080" code="EC" type="gp" figID="76">
+    <name />
+  </text>
+  <text ewd="SYS080" code="ED" type="gp" figID="70,77,82,83">
+    <name />
+  </text>
+  <text ewd="SYS080" code="LA" type="gp" figID="73,74">
+    <name />
+  </text>
+  <text ewd="SYS080" code="1" type="jb" figID="54">
+    <name />
+  </text>
+  <text ewd="SYS080" code="3" type="jb" figID="55,56,57,58,59,60,61">
+    <name />
+  </text>
+  <text ewd="SYS080" code="FUSE5" type="rb" figID="3">
+    <name>10A ECU-B NO.1</name>
+  </text>
+  <text ewd="SYS080" code="FUSE6" type="rb" figID="38,39">
+    <name>10A ECU-B NO.2</name>
+  </text>
+  <text ewd="SYS080" code="FUSE36" type="rb" figID="1">
+    <name>120A ALT</name>
+  </text>
+  <text ewd="SYS080" code="SP2" type="sp" figID="85">
+    <name />
+  </text>
+  <text ewd="SYS080" code="SP4" type="sp" figID="86">
+    <name />
+  </text>
+  <text ewd="SYS080" code="SP10" type="sp" figID="88">
+    <name />
+  </text>
+  <text ewd="SYS080" code="SP21" type="sp" figID="84">
+    <name />
+  </text>
+  <text ewd="SYS080" code="SP37" type="sp" figID="87">
+    <name />
+  </text>
+  <text ewd="SYS080" code="AE2" type="w2w" figID="63,65">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS080" code="AE4" type="w2w" figID="62,64">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS080" code="EF1" type="w2w" figID="66,67">
+    <name>仪表板线束和立体声部件 2 号线束</name>
+  </text>
+</EwdTree>

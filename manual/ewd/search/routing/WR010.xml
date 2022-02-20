@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="WR010">
+    <part type="conn" code="E43">
+      <name>空调放大器总成</name>
+    </part>
+    <part type="conn" code="E30">
+      <name>带风扇的鼓风机马达分总成</name>
+    </part>
+    <part type="conn" code="E49">
+      <name>认证 ECU</name>
+    </part>
+    <part type="conn" code="E47">
+      <name>认证 ECU</name>
+    </part>
+    <part type="conn" code="E48">
+      <name>认证 ECU</name>
+    </part>
+    <part type="conn" code="E59">
+      <name>组合仪表总成</name>
+    </part>
+    <part type="conn" code="E55">
+      <name>组合仪表总成</name>
+    </part>
+    <part type="conn" code="E31">
+      <name>冷却器（车内温度传感器）热敏电阻</name>
+    </part>
+    <part type="conn" code="E50">
+      <name>发动机开关</name>
+    </part>
+    <part type="conn" code="E53">
+      <name>危险警告信号开关总成</name>
+    </part>
+    <part type="conn" code="E54">
+      <name>大灯水平开关</name>
+    </part>
+    <part type="conn" code="E41">
+      <name>钥匙锁芯照明灯总成</name>
+    </part>
+    <part type="conn" code="E36">
+      <name>主车身 ECU</name>
+    </part>
+    <part type="conn" code="E37">
+      <name>主车身 ECU</name>
+    </part>
+    <part type="conn" code="E32">
+      <name>导航接收器总成</name>
+    </part>
+    <part type="conn" code="E34">
+      <name>导航接收器总成</name>
+    </part>
+    <part type="conn" code="E40">
+      <name>1 号冷却器热敏电阻</name>
+    </part>
+    <part type="conn" code="E56">
+      <name>1 号风门伺服机构分总成</name>
+    </part>
+    <part type="conn" code="E57">
+      <name>1 号加热器控制装置分总成</name>
+    </part>
+    <part type="conn" code="E58">
+      <name>2 号加热器控制装置分总成</name>
+    </part>
+    <part type="conn" code="E52">
+      <name>模式选择开关总成</name>
+    </part>
+    <part type="conn" code="E45">
+      <name>动力转向 ECU 总成</name>
+    </part>
+    <part type="conn" code="E46">
+      <name>动力转向 ECU 总成</name>
+    </part>
+    <part type="conn" code="E33">
+      <name>无线电收音机和显示屏接收器总成</name>
+    </part>
+    <part type="conn" code="E35">
+      <name>无线电收音机和显示屏接收器总成</name>
+    </part>
+    <part type="conn" code="E39">
+      <name>左侧座椅加热器开关</name>
+    </part>
+    <part type="conn" code="E38">
+      <name>右侧座椅加热器开关</name>
+    </part>
+    <part type="conn" code="E42">
+      <name>换档杆位置指示灯</name>
+    </part>
+    <part type="conn" code="E51">
+      <name>转向锁执行器总成</name>
+    </part>
+    <part type="conn" code="E44">
+      <name>变速器控制开关（变速器地板式换档总成）</name>
+    </part>
+  </ttl>
+</EWDSearch>

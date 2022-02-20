@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="SYS084">
+    <part type="conn" code="E18">
+      <text>DLC3 SIL</text>
+    </part>
+    <part type="conn" code="A40">
+      <text>ECM IMI IMO</text>
+    </part>
+    <part type="conn" code="E71">
+      <name>4 号接线连接器</name>
+    </part>
+    <part type="conn" code="E61">
+      <text>E LP</text>
+      <name>警告灯总成</name>
+      <name type="inner">安全指示灯</name>
+    </part>
+    <part type="conn" code="E27">
+      <text>ANT1 ANT2</text>
+      <name>收发器钥匙线圈</name>
+    </part>
+    <part type="conn" code="E29">
+      <text>+B KSW ANT2 EFIO EFII D IG IND GND ANT1</text>
+      <name>应答器钥匙 ECU 总成</name>
+    </part>
+    <part type="conn" code="E10">
+      <name>未锁警告开关总成</name>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B NO.2</text>
+    </part>
+    <part type="fuse" code="FUSE50">
+      <text>IGN</text>
+    </part>
+  </ttl>
+</EWDSearch>

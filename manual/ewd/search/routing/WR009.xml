@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <ttl id="WR009">
+    <part type="conn" code="E11">
+      <name>空调放大器总成</name>
+    </part>
+    <part type="conn" code="E20">
+      <name>空调控制总成</name>
+    </part>
+    <part type="conn" code="E19">
+      <name>空气囊 ECU 总成</name>
+    </part>
+    <part type="conn" code="E21">
+      <name>带风扇的鼓风机马达分总成</name>
+    </part>
+    <part type="conn" code="E23">
+      <name>鼓风机电阻器</name>
+    </part>
+    <part type="conn" code="E26">
+      <name>点烟器总成</name>
+    </part>
+    <part type="conn" code="E18">
+      <text>DLC3</text>
+    </part>
+    <part type="conn" code="E15">
+      <name>大灯变光器开关总成</name>
+    </part>
+    <part type="conn" code="E28">
+      <name>ID 代码箱</name>
+    </part>
+    <part type="conn" code="E9">
+      <name>点火或起动开关总成</name>
+    </part>
+    <part type="conn" code="E12">
+      <name>钥匙互锁电磁阀</name>
+    </part>
+    <part type="conn" code="E4">
+      <name>导航接收器总成</name>
+    </part>
+    <part type="conn" code="E1">
+      <name>导航接收器总成</name>
+    </part>
+    <part type="conn" code="E22">
+      <name>3 号加热器控制装置分总成</name>
+    </part>
+    <part type="conn" code="E25">
+      <name>车外后视镜开关总成</name>
+    </part>
+    <part type="conn" code="E2">
+      <name>无线电收音机和显示屏接收器总成</name>
+    </part>
+    <part type="conn" code="E5">
+      <name>无线电收音机和显示屏接收器总成</name>
+    </part>
+    <part type="conn" code="E3">
+      <name>无线电收音机总成</name>
+    </part>
+    <part type="conn" code="E6">
+      <name>无线电收音机总成</name>
+    </part>
+    <part type="conn" code="E7">
+      <name>换档锁止控制 ECU（变速器地板式换档总成）</name>
+    </part>
+    <part type="conn" code="E8">
+      <name>换档锁止控制 ECU（变速器地板式换档总成）</name>
+    </part>
+    <part type="conn" code="E14">
+      <name>螺旋电缆分总成</name>
+    </part>
+    <part type="conn" code="E13">
+      <name>螺旋电缆分总成</name>
+    </part>
+    <part type="conn" code="E27">
+      <name>收发器钥匙线圈</name>
+    </part>
+    <part type="conn" code="E29">
+      <name>应答器钥匙 ECU 总成</name>
+    </part>
+    <part type="conn" code="E10">
+      <name>未锁警告开关总成</name>
+    </part>
+    <part type="conn" code="E16">
+      <name>风挡玻璃刮水器开关总成</name>
+    </part>
+    <part type="conn" code="E17">
+      <name>风挡玻璃刮水器开关总成</name>
+    </part>
+  </ttl>
+</EWDSearch>

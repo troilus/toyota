@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <book id="L-EG">
+    <name>发动机室</name>
+    <note id="WR003" icon="P" file="T">
+      <name>部件位置 (2ZR-FE)</name>
+    </note>
+    <note id="WR021" icon="P" file="T">
+      <name>线束和线束 (2ZR-FE)</name>
+    </note>
+    <note id="WR022" icon="P" file="T">
+      <name>接地点 (2ZR-FE)</name>
+    </note>
+    <book id="RELAY_RL001" file="T">
+      <name>继电器位置</name>
+    </book>
+  </book>
+  <book id="L-INPA">
+    <name>仪表板</name>
+    <note id="WR009" icon="P" file="T">
+      <name>部件位置</name>
+    </note>
+    <note id="WR027" icon="P" file="T">
+      <name>线束和线束</name>
+    </note>
+    <note id="WR029" icon="P" file="T">
+      <name>接地点</name>
+    </note>
+    <book id="RELAY_RL002" file="T">
+      <name>继电器位置</name>
+    </book>
+  </book>
+  <book id="L-BODY">
+    <name>车身</name>
+    <note id="WR014" icon="P" file="T">
+      <name>部件位置</name>
+    </note>
+    <note id="WR030" icon="P" file="T">
+      <name>线束和线束</name>
+    </note>
+    <note id="WR031" icon="P" file="T">
+      <name>接地点</name>
+    </note>
+    <book id="RELAY_RL003" file="T">
+      <name>继电器位置</name>
+    </book>
+  </book>
+  <book id="L-SEAT">
+    <name>座椅</name>
+    <note id="WR018" icon="P" file="T">
+      <name>部件位置</name>
+    </note>
+    <note id="WR032" icon="P" file="T">
+      <name>线束和线束</name>
+    </note>
+  </book>
+  <book id="L-ANTE">
+    <name>天线</name>
+    <note id="WR033" file="T">
+      <name>天线</name>
+    </note>
+  </book>
+</EwdTree>

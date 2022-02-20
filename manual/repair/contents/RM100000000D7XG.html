@@ -1,0 +1,2704 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_54</span>
+<span class="globalServcatName">制动</span>
+<span class="globalSection">_023990</span>
+<span class="globalSectionName">制动控制/动态控制系统</span>
+<span class="globalTitle">_0116081</span>
+<span class="globalTitleName">防抱死制动系统</span>
+<span class="globalCategory">C</span>
+</div>
+<h1>制动控制/动态控制系统&nbsp;&nbsp;防抱死制动系统&nbsp;&nbsp;C1237&nbsp;&nbsp;转速传感器转子故障&nbsp;&nbsp;C1275&nbsp;&nbsp;右前轮转速传感器输出信号变化异常（测试模式 DTC）&nbsp;&nbsp;C1276&nbsp;&nbsp;左前轮转速传感器输出信号变化异常（测试模式 DTC）&nbsp;&nbsp;C1277&nbsp;&nbsp;右后轮转速传感器输出信号变化异常（测试模式 DTC）&nbsp;&nbsp;C1278&nbsp;&nbsp;左后轮转速传感器输出信号变化异常（测试模式 DTC）&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000D7XG_01" class="category no03">
+<h2>描述</h2>
+<div class="content5">
+<p>防滑控制 ECU（制动执行器总成）通过接收来自各转速传感器的信号测量各车轮的转速。
+</p>
+<p>这些信号用于确认 4 个车轮均正常工作。
+</p>
+<p>因此，所有的车轮信号必须相同。
+</p>
+<p>转速传感器发送车速信号或测试模式结束时，将清除 DTC C1275 至 C1278。DTC C1275 至 C1278 仅在测试模式下输出。
+</p>
+<table summary="dtc-explan-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:25%">
+<col style="width:39%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">DTC 编号
+</th>
+<th class="alcenter">检测项目
+</th>
+<th class="alcenter">DTC 检测条件
+</th>
+<th class="alcenter">故障部位
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">C1237
+</td>
+<td class="alleft">转速传感器转子故障
+</td>
+<td class="alleft">检测到以下任一条件时：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>4 个车轮转速传感器输出间的差异。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>自 3 个或更多传感器的异常脉冲信号。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>ABS 控制持续进行 60 秒或更长时间。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>轮胎和车轮尺寸
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>轮胎变形
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转速传感器转子
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转速传感器
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>转速传感器电路
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>防滑控制 ECU（制动执行器总成）
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">C1275
+</td>
+<td class="alleft">右前轮转速传感器输出信号变化异常（测试模式 DTC）
+</td>
+<td class="alleft">仅在测试模式下检测到。
+</td>
+<td class="alleft">右前轮转速传感器转子（右前桥轮毂分总成）
+</td>
+</tr>
+<tr>
+<td class="alleft">C1276
+</td>
+<td class="alleft">左前轮转速传感器输出信号变化异常（测试模式 DTC）
+</td>
+<td class="alleft">仅在测试模式下检测到。
+</td>
+<td class="alleft">左前轮转速传感器转子（左前桥轮毂分总成）
+</td>
+</tr>
+<tr>
+<td class="alleft">C1277
+</td>
+<td class="alleft">右后轮转速传感器输出信号变化异常（测试模式 DTC）
+</td>
+<td class="alleft">仅在测试模式下检测到。
+</td>
+<td class="alleft">右后轮转速传感器转子（右后桥轮毂和轴承总成）
+</td>
+</tr>
+<tr>
+<td class="alleft">C1278
+</td>
+<td class="alleft">左后轮转速传感器输出信号变化异常（测试模式 DTC）
+</td>
+<td class="alleft">仅在测试模式下检测到。
+</td>
+<td class="alleft">左后轮转速传感器转子（左后桥轮毂和轴承总成）
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC C1275 针对右前轮转速传感器。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC C1276 针对左前轮转速传感器。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC C1277 针对右后轮转速传感器。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>DTC C1278 针对左后轮转速传感器。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000D7XG_02" class="category no03">
+<h2>电路图</h2>
+<div class="content5">
+<p>请参见 DTC C1330、C1331、C1332、C1333、C1464、C1465、C1466 和 C1467。
+</p>
+<p>前轮：单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;C1271<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XH,C1271</span></a>
+
+</p>
+<p>后轮：单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;C1273<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XI,C1273</span></a>
+
+</p>
+</div>
+</div>
+<div id="RM100000000D7XG_03" class="category no10">
+<h2>注意/小心/提示</h2>
+<div class="content5">
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>C1330、C1331、C1332、C1333、C1464、C1465、C1466 和/或 C1467 与 C1237 同时输出时，应首先检查并维修 C1330、C1331、C1332、C1333、C1464、C1465、C1466 和/或 C1467 指示的故障部位。
+</p>
+</dd>
+<dd class="atten4">
+<p>C1330、C1331、C1464 和 C1465：单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;C1271<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XH,C1271</span></a>
+
+</p>
+</dd>
+<dd class="atten4">
+<p>C1332、C1333、C1466 和 C1467：单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;C1273<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XI,C1273</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div id="RM100000000D7XG_06" class="category no01">
+<h2>程序</h2>
+<div class="testgrp" id="RM100000000D7XG_06_0010">
+<div class="testtitle"><span class="titleText">1.检查轮胎</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>检查 4 个轮胎的尺寸和状况。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">悬架&gt;轮胎/车轮&gt;轮胎和车轮系统&gt;检查<span class="invisible">201406,999999,_53,_023989,_0116120,RM100000000D88R,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>检测到轮胎变形或轮胎尺寸不同时，输出该 DTC。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>4 个轮胎的直径和气压相同。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XG_06_0010_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">2.使用 GTS 读取值（转速传感器）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换轮胎使 4 个轮胎尺寸相同</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XG_06_0012">
+<div class="testtitle"><span class="titleText">2.使用 GTS 读取值（转速传感器）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>使用 GTS 选择数据表。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XC,</span></a>
+
+</p>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Chassis &gt; ABS/VSC/TRC &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">FR Wheel Speed
+</td>
+<td class="alleft">右前轮转速传感器读数
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：326 km/h (202 mph)
+</td>
+<td class="alleft">车辆停止：0 km/h (0 mph)
+</td>
+<td class="alleft">定速行驶时：无较大的波动
+</td>
+</tr>
+<tr>
+<td class="alleft">FL Wheel Speed
+</td>
+<td class="alleft">左前轮转速传感器读数
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：326 km/h (202 mph)
+</td>
+<td class="alleft">车辆停止：0 km/h (0 mph)
+</td>
+<td class="alleft">定速行驶时：无较大的波动
+</td>
+</tr>
+<tr>
+<td class="alleft">RR Wheel Speed
+</td>
+<td class="alleft">右后轮转速传感器读数
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：326 km/h (202 mph)
+</td>
+<td class="alleft">车辆停止：0 km/h (0 mph)
+</td>
+<td class="alleft">定速行驶时：无较大的波动
+</td>
+</tr>
+<tr>
+<td class="alleft">RL Wheel Speed
+</td>
+<td class="alleft">左后轮转速传感器读数
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：326 km/h (202 mph)
+</td>
+<td class="alleft">车辆停止：0 km/h (0 mph)
+</td>
+<td class="alleft">定速行驶时：无较大的波动
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="gtsDataList">
+<dt class="gtsDataList">Chassis &gt; ABS/VSC/TRC &gt; Data List</dt>
+<dd class="gtsDataList">
+<table summary="data-list" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">FR Wheel Speed
+</td>
+</tr>
+<tr>
+<td class="alleft">FL Wheel Speed
+</td>
+</tr>
+<tr>
+<td class="alleft">RR Wheel Speed
+</td>
+</tr>
+<tr>
+<td class="alleft">RL Wheel Speed
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsDataList gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50003</span>
+<span class="gtsEcu">105</span>
+<span class="gtsPid">1,2,3,4</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>检查 GTS 上显示的转速传感器输出的速度值。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>对显示的车速有影响的因素包括：轮胎尺寸、轮胎压力和轮胎磨损情况。允许车速表上显示的车速在一定范围内有误差。可使用车速表检测台（已校准的底盘测功机）进行测试。有关测试和误差范围的详情，请参见参考表。
+</p>
+</dd>
+<dd class="atten4">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">车辆内饰&gt;仪表/显示屏&gt;仪表系统&gt;车上检查<span class="invisible">201406,999999,_58,_024007,_0116345,RM100000000D9CM,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>GTS 上显示的转速传感器输出的速度值与车速表上显示的速度接近。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XG_06_0012_1" summary="">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">正常
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">异常（前轮）
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+<tr>
+<td class="alleft">异常（后轮）
+</td>
+<td class="alcenter">C
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">3.进行测试模式检查（信号检查）</span></div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">5.检查前轮转速传感器和传感器转子</span></div>
+<div class="judgeValueNext"><p>C
+</p></div>
+<div class="nextAction"><span class="titleText">12.检查防滑控制传感器线束</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XG_06_0013">
+<div class="testtitle"><span class="titleText">3.进行测试模式检查（信号检查）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>使用测试模式程序进行传感器检查。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;测试模式程序<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7X8,</span></a>
+
+</p>
+<dl class="gtsUtilityNormal">
+<dt class="gtsUtilityNormal">Chassis &gt; ABS/VSC/TRC &gt; Utility</dt>
+<dd class="gtsUtilityNormal">
+<table summary="utility" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Signal Check
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+<dd class="gtsUtilityNormal gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50005</span>
+<span class="gtsEcu">105</span>
+<span class="gtsUtil">3</span>
+</dd>
+</dl>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>清除所有测试模式 DTC。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XG_06_0013_1" summary="">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">正常
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">异常（前轮）
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+<tr>
+<td class="alleft">异常（后轮）
+</td>
+<td class="alcenter">C
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">4.重新确认 DTC</span></div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">5.检查前轮转速传感器和传感器转子</span></div>
+<div class="judgeValueNext"><p>C
+</p></div>
+<div class="nextAction"><span class="titleText">12.检查防滑控制传感器线束</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XG_06_0014">
+<div class="testtitle"><span class="titleText">4.重新确认 DTC</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XC,</span></a>
+
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>以 54 km/h (34 mph) 或更高的速度驾驶车辆至少 120 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>检查是否输出相同 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XC,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XG_06_0014_1" summary="">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">未输出 DTC C1237。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">输出 DTC C1237（前轮）。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+<tr>
+<td class="alleft">输出 DTC C1237（后轮）。
+</td>
+<td class="alcenter">C
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">使用模拟法进行检查</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;如何对 ECU 控制系统进行故障排除&gt;如何进行故障排除<span class="invisible">201406,999999,_V1,_023977,_0116737,RM100000000DB86,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueNext"><p>B
+</p></div>
+<div class="nextAction"><span class="titleText">8.更换前轮转速传感器</span></div>
+<div class="judgeValueNext"><p>C
+</p></div>
+<div class="nextAction"><span class="titleText">15.更换后桥轮毂和轴承总成</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XG_06_0016">
+<div class="testtitle"><span class="titleText">5.检查前轮转速传感器和传感器转子</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>拆下前轮转速传感器和带传感器转子的零部件。
+</p>
+<p>转速传感器：单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;前轮转速传感器&gt;拆卸<span class="invisible">201406,999999,_54,_023990,_0116356,RM100000000D9DI,</span></a>
+
+</p>
+<p>传感器转子：单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;车桥和差速器&gt;前桥轮毂&gt;拆卸<span class="invisible">201406,999999,_52,_023985,_0116100,RM100000000D844,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>检查转速传感器端部和转速传感器转子。
+</p>
+<dl class="spec">
+<dt class="spec">正常:</dt>
+<dd class="spec"><p>传感器端部和转子无划痕、油污或异物。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果该检查过程中没有损坏转速传感器端部，则不要更换转速传感器。
+</p>
+<p>如果有任何含铁的金属锉屑粘附在转子上，则会导致发生故障，因此更换传感器前确认没有异物粘附在转子上。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>清洁或更换后，检查转速传感器信号。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;测试模式程序<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7X8,</span></a>
+
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XG_06_0016_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">6.检查线束和连接器（制动执行器总成 - 前轮转速传感器）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">清洁或更换前轮转速传感器或带传感器转子的零部件</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XG_06_0018">
+<div class="testtitle"><span class="titleText">6.检查线束和连接器（制动执行器总成 - 前轮转速传感器）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>安装前轮转速传感器和带传感器转子的零部件。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>确保连接器的锁止件和连接部件没有松动。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>断开防滑控制 ECU（制动执行器总成）连接器 A41 和前轮转速传感器连接器 A25 或 A26。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<caption>右侧</caption>
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A41-16 (FR+) - A25-2 (FR+)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">A41-16 (FR+) 或 A25-2 (FR+) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">A41-4 (FR-) - A25-1 (FR-)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">A41-4 (FR-) 或 A25-1 (FR-) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+<dd class="spec"><table summary="" class="half">
+<caption>左侧</caption>
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A41-19 (FL+) - A26-2 (FL+)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">A41-19 (FL+) 或 A26-2 (FL+) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">A41-8 (FL-) - A26-1 (FL-)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">A41-8 (FL-) 或 A26-1 (FL-) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XG_06_0018_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">7.重新确认 DTC</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XG_06_0020">
+<div class="testtitle"><span class="titleText">7.重新确认 DTC</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>重新连接防滑控制 ECU（制动执行器总成）连接器 A41 和前轮转速传感器连接器 A25 或 A26。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XC,</span></a>
+
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>以 54 km/h (34 mph) 或更高的速度驾驶车辆至少 120 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>检查是否输出相同 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XC,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XG_06_0020_1" summary="">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">输出 DTC C1237。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">未输出 DTC C1237。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">8.更换前轮转速传感器</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">使用模拟法进行检查</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;如何对 ECU 控制系统进行故障排除&gt;如何进行故障排除<span class="invisible">201406,999999,_V1,_023977,_0116737,RM100000000DB86,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XG_06_0021">
+<div class="testtitle"><span class="titleText">8.更换前轮转速传感器</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>更换前轮转速传感器。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;前轮转速传感器&gt;拆卸<span class="invisible">201406,999999,_54,_023990,_0116356,RM100000000D9DI,</span></a>
+
+</p>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>更换后，检查转速传感器信号。
+</p>
+</dd>
+<dd class="atten3">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;测试模式程序<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7X8,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XG_06_0021_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">9.重新确认 DTC</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XG_06_0022">
+<div class="testtitle"><span class="titleText">9.重新确认 DTC</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XC,</span></a>
+
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>以 54 km/h (34 mph) 或更高的速度驾驶车辆至少 120 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>检查是否输出相同 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XC,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XG_06_0022_1" summary="">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">输出 DTC C1237。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">未输出 DTC C1237。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">10.更换前桥轮毂分总成</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">结束</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XG_06_0025">
+<div class="testtitle"><span class="titleText">10.更换前桥轮毂分总成</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>更换前轮转速传感器转子（前桥轮毂分总成）。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;车桥和差速器&gt;前桥轮毂&gt;拆卸<span class="invisible">201406,999999,_52,_023985,_0116100,RM100000000D844,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>前轮转速传感器转子集成在前桥轮毂分总成中。
+</p>
+</dd>
+<dd class="atten4">
+<p>如果需要更换前轮转速传感器转子，则更换前桥轮毂分总成。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>更换后，检查转速传感器信号。
+</p>
+</dd>
+<dd class="atten3">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;测试模式程序<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7X8,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XG_06_0025_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">11.重新确认 DTC</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XG_06_0026">
+<div class="testtitle"><span class="titleText">11.重新确认 DTC</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XC,</span></a>
+
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>以 54 km/h (34 mph) 或更高的速度驾驶车辆至少 120 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>检查是否输出相同 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XC,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XG_06_0026_1" summary="">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">输出 DTC C1237。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">未输出 DTC C1237。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换制动执行器总成</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;制动执行器&gt;拆卸<span class="invisible">201406,999999,_54,_023990,_0116355,RM100000000D9DF,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">结束</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XG_06_0029">
+<div class="testtitle"><span class="titleText">12.检查防滑控制传感器线束</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item test1HasFigure">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>确保连接器的锁止件和连接部件没有松动。
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/C273725.png" alt="C273725" title="C273725">
+<div class="indicateinfo">
+<span class="rectangle">
+<span class="points">0.625,0.917 1,1.177</span>
+<span class="rectangleSize">0.375,0.26</span>
+</span>
+<span class="rectangle">
+<span class="points">4.01,0.917 4.385,1.177</span>
+<span class="rectangleSize">0.375,0.26</span>
+</span>
+<span class="rectangle">
+<span class="points">1.938,0.906 2.313,1.167</span>
+<span class="rectangleSize">0.375,0.26</span>
+</span>
+<span class="rectangle">
+<span class="points">5.427,0.938 5.802,1.198</span>
+<span class="rectangleSize">0.375,0.26</span>
+</span>
+<span class="line">
+<span class="points">1.083,2.313 1.333,1.49</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">1.698,2.302 1.552,1.479</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.292,2.281 2.458,1.698</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">2.844,2.292 2.719,1.708</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">4.656,2.323 4.865,1.49</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">5.219,2.344 5.063,1.49</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">5.875,2.385 6.01,1.708</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">6.417,2.375 6.25,1.698</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.135,0.135 0.448,0.333</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">12</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">0.135,0.375 0.448,0.573</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">12</span>
+<span class="filled">false</span>
+<span class="captionText">*A</span>
+</span>
+<span class="caption">
+<span class="points">4.156,0.479 4.469,0.677</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">12</span>
+<span class="filled">false</span>
+<span class="captionText">*B</span>
+</span>
+<span class="caption">
+<span class="points">0.74,0.969 1.052,1.167</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">h1</span>
+</span>
+<span class="caption">
+<span class="points">2.021,0.958 2.458,1.208</span>
+<span class="captionSize">0.438,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">hL1</span>
+</span>
+<span class="caption">
+<span class="points">4.156,0.969 4.469,1.167</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">j1</span>
+</span>
+<span class="caption">
+<span class="points">5.542,0.99 5.979,1.24</span>
+<span class="captionSize">0.438,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">jL1</span>
+</span>
+<span class="caption">
+<span class="points">0.958,2.333 1.396,2.583</span>
+<span class="captionSize">0.438,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">RR-</span>
+</span>
+<span class="caption">
+<span class="points">1.604,2.333 2.042,2.583</span>
+<span class="captionSize">0.438,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">RR+</span>
+</span>
+<span class="caption">
+<span class="points">2.156,2.344 2.594,2.594</span>
+<span class="captionSize">0.438,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">RR+</span>
+</span>
+<span class="caption">
+<span class="points">2.76,2.344 3.198,2.594</span>
+<span class="captionSize">0.438,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">RR-</span>
+</span>
+<span class="caption">
+<span class="points">4.51,2.375 4.948,2.625</span>
+<span class="captionSize">0.438,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">RL-</span>
+</span>
+<span class="caption">
+<span class="points">5.115,2.375 5.552,2.625</span>
+<span class="captionSize">0.438,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">RL+</span>
+</span>
+<span class="caption">
+<span class="points">5.74,2.396 6.177,2.646</span>
+<span class="captionSize">0.438,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">RL+</span>
+</span>
+<span class="caption">
+<span class="points">6.333,2.406 6.771,2.656</span>
+<span class="captionSize">0.438,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">RL-</span>
+</span>
+<span class="caption">
+<span class="points">1.354,0.813 1.667,1.01</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*b</span>
+</span>
+<span class="caption">
+<span class="points">2.51,0.833 2.823,1.031</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*c</span>
+</span>
+<span class="caption">
+<span class="points">4.854,0.844 5.167,1.042</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*b</span>
+</span>
+<span class="caption">
+<span class="points">6.052,0.844 6.365,1.042</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*c</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*A
+</td>
+<td class="alleft">右侧
+</td>
+<td class="alcenter">*B
+</td>
+<td class="alleft">左侧
+</td>
+</tr>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">防滑控制传感器线束前视图
+</td>
+<td class="alcenter">*b
+</td>
+<td class="alleft">线束连接器前视图
+<br>
+（至传感器侧连接器）
+</td>
+</tr>
+<tr>
+<td class="alcenter">*c
+</td>
+<td class="alleft">线束连接器前视图
+<br>
+（至车辆侧连接器）
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>拆下防滑控制传感器线束。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<caption>右侧</caption>
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">h1-2 (RR+) - hL1-1 (RR+)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">h1-2 (RR+) - hL1-2 (RR-)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">h1-2 (RR+) 或 hL1-1 (RR+) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">h1-1 (RR-) - hL1-2 (RR-)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">h1-1 (RR-) - hL1-1 (RR+)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">h1-1 (RR-) 或 hL1-2 (RR-) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+<dd class="spec"><table summary="" class="half">
+<caption>左侧</caption>
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">j1-2 (RL+) - jL1-1 (RL+)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">j1-2 (RL+) - jL1-2 (RL-)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">j1-2 (RL+) 或 jL1-1 (RL+) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">j1-1 (RL-) - jL1-2 (RL-)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">j1-1 (RL-) - jL1-1 (RL+)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">j1-1 (RL-) 或 jL1-2 (RL-) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>更换后，检查转速传感器信号。
+</p>
+</dd>
+<dd class="atten3">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;测试模式程序<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7X8,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XG_06_0029_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">13.检查线束和连接器（制动执行器总成 - 防滑控制传感器线束）</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换防滑控制传感器线束</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;后轮转速传感器&gt;拆卸<span class="invisible">201406,999999,_54,_023990,_0116357,RM100000000D9DL,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XG_06_0031">
+<div class="testtitle"><span class="titleText">13.检查线束和连接器（制动执行器总成 - 防滑控制传感器线束）</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>确保连接器的锁止件和连接部件没有松动。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>断开防滑控制 ECU（制动执行器总成）连接器 A41。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>根据下表中的值测量电阻。
+</p>
+<dl class="spec">
+<dt class="spec">标准电阻:</dt>
+<dd class="spec"><table summary="" class="half">
+<caption>右侧</caption>
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A41-17 (RR+) - hL1-1 (RR+)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">A41-17 (RR+) 或 hL1-1 (RR+) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">A41-29 (RR-) - hL1-2 (RR-)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">A41-29 (RR-) 或 hL1-2 (RR-) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+<dd class="spec"><table summary="" class="half">
+<caption>左侧</caption>
+<colgroup>
+<col style="width:33%">
+<col style="width:33%">
+<col style="width:33%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪连接
+</th>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">规定状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">A41-31 (RL+) - jL1-1 (RL+)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">A41-31 (RL+) 或 jL1-1 (RL+) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+<tr>
+<td class="alcenter">A41-18 (RL-) - jL1-2 (RL-)
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">小于 1 Ω
+</td>
+</tr>
+<tr>
+<td class="alcenter">A41-18 (RL-) 或 jL1-2 (RL-) - 车身接地
+</td>
+<td class="alcenter">始终
+</td>
+<td class="alcenter">10 kΩ 或更大
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XG_06_0031_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">正常
+</td>
+</tr>
+<tr>
+<td class="alcenter">异常
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>正常
+</p></div>
+<div class="nextAction"><span class="titleText">14.重新确认 DTC</span></div>
+<div class="judgeValueEnd"><p>异常
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">维修或更换线束或连接器</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XG_06_0033">
+<div class="testtitle"><span class="titleText">14.重新确认 DTC</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>安装防滑控制传感器线束。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>重新连接防滑控制 ECU（制动执行器总成）连接器 A41。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XC,</span></a>
+
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">f.</div>
+<div class="test1Body">
+<p>以 54 km/h (34 mph) 或更高的速度驾驶车辆至少 120 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">g.</div>
+<div class="test1Body">
+<p>检查是否输出相同 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XC,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XG_06_0033_1" summary="">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">输出 DTC C1237。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">未输出 DTC C1237。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>A
+</p></div>
+<div class="nextAction"><span class="titleText">15.更换后桥轮毂和轴承总成</span></div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">使用模拟法进行检查</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">概述&gt;导言&gt;如何对 ECU 控制系统进行故障排除&gt;如何进行故障排除<span class="invisible">201406,999999,_V1,_023977,_0116737,RM100000000DB86,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XG_06_0035">
+<div class="testtitle"><span class="titleText">15.更换后桥轮毂和轴承总成</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>更换带后轮转速传感器的后轮转速传感器转子（后桥轮毂和轴承总成）。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">动力传动系&gt;车桥和差速器&gt;后桥轮毂&gt;拆卸<span class="invisible">201406,999999,_52,_023985,_0117167,RM100000000DCM1,</span></a>
+
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>后轮转速传感器转子集成在后桥轮毂和轴承总成中。
+</p>
+</dd>
+<dd class="atten4">
+<p>如果需要更换后轮转速传感器转子，则更换带后轮转速传感器的后桥轮毂和轴承总成。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>更换后，检查转速传感器信号。
+</p>
+</dd>
+<dd class="atten3">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;测试模式程序<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7X8,</span></a>
+
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XG_06_0035_1" summary="" class="half">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alcenter">下一步
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueNext"><p>下一步
+</p></div>
+<div class="nextAction"><span class="titleText">16.重新确认 DTC</span></div>
+<div class="floatClear"></div>
+</div>
+<div class="testgrp" id="RM100000000D7XG_06_0036">
+<div class="testtitle"><span class="titleText">16.重新确认 DTC</span></div>
+<div class="content6">
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">a.</div>
+<div class="test1Body">
+<p>清除 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XC,</span></a>
+
+</p>
+<dl class="gtsDtcDelete">
+<dt class="gtsDtcDelete">Chassis &gt; ABS/VSC/TRC &gt; Clear DTCs</dt>
+<dd class="gtsDtcDelete gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50002</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">b.</div>
+<div class="test1Body">
+<p>将点火开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">c.</div>
+<div class="test1Body">
+<p>起动发动机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">d.</div>
+<div class="test1Body">
+<p>以 54 km/h (34 mph) 或更高的速度驾驶车辆至少 120 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="test1">
+<div class="test1Item">
+<div class="test1Head">e.</div>
+<div class="test1Body">
+<p>检查是否输出相同 DTC。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;防抱死制动系统&gt;DTC 检查/清除<span class="invisible">201406,999999,_54,_023990,_0116081,RM100000000D7XC,</span></a>
+
+</p>
+<dl class="gtsDtcRead">
+<dt class="gtsDtcRead">Chassis &gt; ABS/VSC/TRC &gt; Trouble Codes</dt>
+<dd class="gtsDtcRead gtsExec">
+<input class="gtsBtn" type="button" value="执行">
+<span class="gtsFunction">50001</span>
+<span class="gtsEcu">105</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+<dl class="spec">
+<dt class="spec">结果:</dt>
+<dd class="spec"><table id="RM100000000D7XG_06_0036_1" summary="">
+<colgroup>
+<col style="width:69%">
+<col style="width:30%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">结果
+</th>
+<th class="alcenter">转至
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">输出 DTC C1237。
+</td>
+<td class="alcenter">A
+</td>
+</tr>
+<tr>
+<td class="alleft">未输出 DTC C1237。
+</td>
+<td class="alcenter">B
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+<br>
+<div class="judgeValueEnd"><p>A
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">更换制动执行器总成</span></div>
+<div class="content6">
+<p>单击此处 <a class="mlink" href="javascript:void(0)">制动&gt;制动控制/动态控制系统&gt;制动执行器&gt;拆卸<span class="invisible">201406,999999,_54,_023990,_0116355,RM100000000D9DF,</span></a>
+
+</p>
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="judgeValueEnd"><p>B
+</p></div>
+<div class="endActBox">
+<div class="endAction"><span class="titleText">结束</span></div>
+<div class="content6">
+</div>
+<br>
+<div class="floatClear"></div>
+</div>
+<div class="floatClear"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

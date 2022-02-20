@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'NSimSun';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st11 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st12 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'NSimSun';">
+	<!ENTITY st19 "font-size:9px;font-family:'NSimSun';">
+	<!ENTITY st20 "font-size:6px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'NSimSun';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED
+		ewd:horAlign CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 455.133 710.000" viewBox="0 0 465.534 710.000" height="710.000" width="465.534" xml:space="preserve" ewd:ver="2.1.2.6F" xmlns="&ns_svg;" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:xlink="&ns_xlink;"><script type="text/javascript" xlink:href="../../../../../system/js/ewd/fig/svgfig.js" xmlns:xlink="http://www.w3.org/1999/xlink" />
+<g id="ewd_top"><a ewd:figtype="conn" style="cursor:pointer;" ewd:code="T2" ewd:figID="1"><path style="&st5;" d=" M   383.57,   430.96  L   383.57,   430.96  C   384.36    429.61    385.33    428.64    386.68    427.85  L   386.68,   427.85  C   390.75    425.51    395.94    426.90    398.29    430.96  L   398.29,   430.96  L   402.27,   430.96  L   402.27,   439.46  L   398.29,   439.46  C   397.51    440.82    396.54    441.79    395.18    442.57  L   395.18,   442.57  C   391.12    444.92    385.92    443.53    383.57    439.46  L   383.57,   439.46  L   379.60,   439.46  L   379.60,   430.96 " /><title ewd:textID="3">前排电动座椅升降位置电动机</title></a><a ewd:figtype="conn" style="cursor:pointer;" ewd:code="T1" ewd:figID="2"><path style="&st5;" d=" M   281.59,   430.96  L   281.59,   430.96  C   282.37    429.61    283.35    428.64    284.70    427.85  L   284.70,   427.85  C   288.76    425.51    293.96    426.90    296.31    430.96  L   296.31,   430.96  L   300.28,   430.96  L   300.28,   439.46  L   296.31,   439.46  C   295.53    440.82    294.55    441.79    293.20    442.57  L   293.20,   442.57  C   289.14    444.92    283.94    443.53    281.59    439.46  L   281.59,   439.46  L   277.62,   439.46  L   277.62,   430.96 " /><title ewd:textID="5">前排电动座椅升降位置电动机</title></a><a ewd:figtype="conn" style="cursor:pointer;" ewd:code="W1" ewd:figID="3"><path style="&st5;" d=" M    86.12,   532.95  L    86.12,   532.95  C    86.91    531.59     87.88    530.62     89.23    529.84  L    89.23,   529.84  C    93.30    527.49     98.49    528.88    100.84    532.94  L   100.84,   532.95  L   104.82,   532.95  L   104.82,   541.44  L   100.84,   541.45  C   100.06    542.80     99.09    543.77     97.73    544.55  L    97.73,   544.55  C    93.67    546.90     88.47    545.51     86.12    541.44  L    86.12,   541.44  L    82.15,   541.44  L    82.15,   532.95 " /><title ewd:textID="4">前排电动座椅靠背倾角位置电动机</title></a><a ewd:figtype="conn" style="cursor:pointer;" ewd:code="T3" ewd:figID="4"><path style="&st5;" d=" M    17.00,   239.75  L    17.00,   375.72  L   450.42,   375.72  L   450.42,   239.75  L    17.00,   239.75 " /><title ewd:textID="6">前排电动座椅开关</title></a><a ewd:figtype="jb" style="cursor:pointer;" ewd:code="3" ewd:figID="5"><path style="&st4; " d=" M    25.50,    35.78  L    93.48,    35.78  L    93.48,   103.77  L    25.50,   103.77  L    25.50,    35.78  " /></a><a ewd:figtype="fuse" style="cursor:pointer;" ewd:code="FUSE66" ewd:figID="11"><path style="&st7; stroke-width:0;" d=" M    29.75,    35.78  L    29.75,    78.27  L    55.24,    78.27  L    55.24,    35.78  L    29.75,    35.78 " /></a><a style="cursor:pointer;" ewd:lineID="1"> d=" M    42.49,   239.75  L    42.49,   178.27 
+	
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M    42.49,   239.75  L    42.49,   178.27  " /><path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M    42.49,   239.75  L    42.49,   178.27  " /></a><a style="cursor:pointer;" ewd:lineID="2"><path style="stroke:#56077D;stroke-width: 5.10 ;&st6;" d=" M    42.49,   103.77  L    42.49,   163.26  " /></a><a style="cursor:pointer;" ewd:lineID="3"><path style="stroke:#7FC97F;stroke-width: 5.10 ;&st6;" d=" M    50.99,   435.21  L    50.99,   537.20  L    82.15,   537.20  " /></a><a style="cursor:pointer;" ewd:lineID="4"><path style="stroke:#7FC97F;stroke-width: 5.10 ;&st6;" d=" M    50.99,   375.72  L    50.99,   420.48  " /></a><a style="cursor:pointer;" ewd:lineID="5"><path style="stroke:#F668B2;stroke-width: 5.10 ;&st6;" d=" M   127.48,   435.21  L   127.48,   537.20  L   104.82,   537.20  " /></a><a style="cursor:pointer;" ewd:lineID="6"><path style="stroke:#F668B2;stroke-width: 5.10 ;&st6;" d=" M   127.48,   375.72  L   127.48,   420.48  " /></a><a style="cursor:pointer;" ewd:lineID="7"><path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M   195.47,   435.21  L   195.47,   681.67  " /><path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M   195.47,   435.21  L   195.47,   681.67  " /><path style="stroke:#000000;stroke-width: 1.13 ;&st6;" d=" M   195.47,   435.21  L   195.47,   681.67  " /></a><a style="cursor:pointer;" ewd:lineID="8"><path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M   195.47,   375.72  L   195.47,   420.48  " /><path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M   195.47,   375.72  L   195.47,   420.48  " /><path style="stroke:#000000;stroke-width: 1.13 ;&st6;" d=" M   195.47,   375.72  L   195.47,   420.48  " /></a><a style="cursor:pointer;" ewd:lineID="9"><path style="stroke:#999999;stroke-width: 5.10 ;&st6;" d=" M   254.96,   375.72  L   254.96,   435.21  L   277.62,   435.21  " /></a><a style="cursor:pointer;" ewd:lineID="10"><path style="stroke:#00A0C6;stroke-width: 5.10 ;&st6;" d=" M   322.95,   375.72  L   322.95,   435.21  L   300.28,   435.21  " /></a><a style="cursor:pointer;" ewd:lineID="11"><path style="stroke:#56077D;stroke-width: 5.10 ;&st6;" d=" M   356.94,   375.72  L   356.94,   435.21  L   379.60,   435.21  " /></a><a style="cursor:pointer;" ewd:lineID="12"><path style="stroke:#008837;stroke-width: 5.10 ;&st6;" d=" M   424.93,   375.72  L   424.93,   435.21  L   402.27,   435.21  " /></a><a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="1" ewd:code="LT1" ewd:figID="6"><path style="&st2;" d=" M    50.99,   163.26  L    33.99,   163.26  L    33.99,   171.76  L    50.99,   171.76  L    50.99,   163.26 " /><text style="&st8;" transform="matrix(&st16;  37.34  169.63 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">LT1</tspan></text></a><a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="3" ewd:code="WT1" ewd:figID="7"><path style="&st2;" d=" M    59.49,   426.71  L    42.49,   426.71  L    42.49,   435.21  L    59.49,   435.21  L    59.49,   426.71 " /><text style="&st8;" transform="matrix(&st16;  44.97  433.08 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">WT1</tspan></text></a><a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="1" ewd:code="WT1" ewd:figID="8"><path style="&st2;" d=" M   135.98,   426.71  L   118.98,   426.71  L   118.98,   435.21  L   135.98,   435.21  L   135.98,   426.71 " /><text style="&st8;" transform="matrix(&st16;  121.46  433.08 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">WT1</tspan></text></a><a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="5" ewd:code="LT1" ewd:figID="9"><path style="&st2;" d=" M   203.97,   426.71  L   186.97,   426.71  L   186.97,   435.21  L   203.97,   435.21  L   203.97,   426.71 " /><text style="&st8;" transform="matrix(&st16;  190.31  433.08 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">LT1</tspan></text></a><a ewd:figtype="gp" style="cursor:pointer;" ewd:code="LB" ewd:figID="10"><path style="&st2;" d=" M   184.84,   681.67  L   206.09,   681.67  L   195.47,   697.25  L   184.84,   681.67 " /><text style="&st8;" transform="matrix(&st16;  191.82  689.46 )"><tspan x="0" style="font-size:6px;font-family:'NSimSun';" y="0">LB</tspan></text></a></g></svg>

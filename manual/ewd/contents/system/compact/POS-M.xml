@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE compact-defs SYSTEM "../../../dtd/compact.dtd">
+<compact-defs pubno="EM3140CG" ver="2.1.2.6F">
+    <part code="E26" figID="1" split="h" type="conn">
+        <path d="M 220.96, 331.23 L 254.96, 331.23 L 254.96, 369.22 L 220.96, 369.22 L 220.96, 331.23 "/>
+        <conn lineID="1">
+            <path d="M 231.96, 359.24 L 239.53, 359.24 L 239.53, 375.42 L 231.96, 375.42 L 231.96, 359.24 "/>
+        </conn>
+        <conn lineID="2">
+            <path d="M 231.30, 325.23 L 243.74, 325.23 L 243.74, 340.93 L 231.30, 340.93 L 231.30, 325.23 "/>
+        </conn>
+    </part>
+    <part code="3" figID="2" type="jb">
+        <path d="M 220.96, 27.25 L 271.95, 27.25 L 271.95, 122.77 L 220.96, 122.77 L 220.96, 27.25 "/>
+    </part>
+    <part code="ED" figID="3" type="gp">
+        <path d="M 227.34, 679.67 L 248.58, 679.67 L 248.58, 710.00 L 227.34, 710.00 L 227.34, 679.67 "/>
+    </part>
+</compact-defs>

@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_024005">
+<name>防盗/无钥匙上车系统</name>
+<ttl id="_0116200">
+<name>智能进入和起动系统（上车功能）</name>
+<para category="Y" id="RM100000000D8O7">
+<dtccode/>
+<dtcname>如何进行故障排除</dtcname>
+<subpara category="10" id="RM100000000D8O7_01">
+<name>注意/小心/提示</name>
+<content5>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>按照以下程序对智能进入和起动系统（上车功能）进行故障排除。</ptxt>
+</item>
+<item>
+<ptxt>*：使用 GTS。</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D8O7_02">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8O7_02_0001">
+<testtitle>车辆送入修理车间</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="next" cellposition="2-1" childid="RM100000000D8O7_02_0017"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-1" id="RM100000000D8O7_02_0017">
+<testtitle>客户故障分析</testtitle>
+<content6>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>在故障排除过程中，应确认故障症状已准确判明。应摒弃臆断以便作出准确的判断。为了查明故障症状，向客户询问故障发生时的症状和条件非常重要。</ptxt>
+</item>
+<item>
+<ptxt>收集尽可能多的信息以供参考。过去看似无关的故障可能也会有所帮助。</ptxt>
+</item>
+<item>
+<ptxt>以下 5 项是故障分析的要点：</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.12in"/>
+<colspec colname="col2" colwidth="4.96in"/>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>何物？</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>车型、系统名称</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>何时？</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>日期、时间、发生频率、故障是最近出现还是已出现很长时间</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>何地？</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>故障是否在特定位置出现</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>在什么条件下？</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>车门是锁止还是开锁、发动机开关是否置于 ON 位置、发动机是否正在运转</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>如何发生？</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>故障症状*</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<list2 type="unordered">
+<item>
+<ptxt>*：确保询问客户以下几点关于车辆工作条件、环境和故障的详情，然后检查 DTC。</ptxt>
+</item>
+<list3 type="ordered">
+<item>
+<ptxt>是否上车锁止/开锁功能对所有车门不工作。</ptxt>
+</item>
+<item>
+<ptxt>是否上车锁止功能不工作。</ptxt>
+</item>
+<item>
+<ptxt>是否上车开锁功能不工作。</ptxt>
+</item>
+<item>
+<ptxt>是否上车锁止和开锁功能不工作。</ptxt>
+</item>
+<item>
+<ptxt>是否遥控锁止和开锁功能不工作。</ptxt>
+</item>
+<item>
+<ptxt>是否即使按下发动机开关（未置于 ON (ACC) 位置）时也没有动力。</ptxt>
+</item>
+<item>
+<ptxt>是否使用按钮起动功能不能起动发动机。</ptxt>
+</item>
+<item>
+<ptxt>是否试图通过在手持电子钥匙发射器分总成接近发动机开关然后按下发动机开关起动发动机。</ptxt>
+</item>
+<item>
+<ptxt>是否车内警告蜂鸣器不响。</ptxt>
+</item>
+<item>
+<ptxt>是否转向不开锁。</ptxt>
+</item>
+<item>
+<ptxt>任何其他有关故障的详情。</ptxt>
+</item>
+</list3>
+<item>
+<ptxt>如果怀疑可能是波干扰，则确保询问客户以下几点关于车辆工作条件、环境和故障的详情。</ptxt>
+</item>
+<list3 type="ordered">
+<item>
+<ptxt>系统不工作的具体地点（例如电视塔、大型视频显示屏、遥控车库门开启器系统、遥控安全摄像机、家庭安全系统等附近）。</ptxt>
+</item>
+<item>
+<ptxt>系统不工作的特定时间：故障在刚购车时就出现还是最近才出现。电子钥匙发射器分总成在车辆附近时，故障是否出现（电子钥匙天线）。</ptxt>
+</item>
+<item>
+<ptxt>是否系统仅在靠近特定车辆时不工作（可能来自其他车辆无线系统的波干扰）。</ptxt>
+</item>
+<item>
+<ptxt>系统是否间歇性工作。</ptxt>
+</item>
+<item>
+<ptxt>是否电子钥匙发射器分总成与其他物件捆绑在一起。</ptxt>
+</item>
+<item>
+<ptxt>电子钥匙发射器分总成是否与其他电子设备一同携带，例如蜂窝电话、个人计算机、便携式音乐播放机、其他电子钥匙发射器分总成等（使电子钥匙发射器分总成至少距离这些物体 0.1 m (0.328 ft.)）。</ptxt>
+</item>
+<item>
+<ptxt>电子钥匙发射器分总成不使用时放在何处：电子钥匙发射器分总成是否放在电视机、DVD 刻录机、电磁炉、电饭锅、洗碗机、调制解调器、蜂窝电话、个人计算机、微波炉、台灯或落地灯、无绳电话等 1 m (3.28 ft.) 范围内。</ptxt>
+</item>
+<item>
+<ptxt>车内是否放有发射无线电波的电子设备。</ptxt>
+</item>
+<item>
+<ptxt>刚更换发射器电池时。可以使用数据表中的“Key Low Battery”项目对发射器电池进行粗略检查。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8OI" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</item>
+<item>
+<ptxt>是否转向不开锁。</ptxt>
+</item>
+<item>
+<ptxt>客户是否在车上安装任何选装件（防盗设备、遥控雾灯等）。</ptxt>
+</item>
+</list3>
+</list2>
+</list1>
+</atten4>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-1" label="1">
+<action actiontype="next" cellposition="3-1" childid="RM100000000D8O7_02_0002"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-1" id="RM100000000D8O7_02_0002">
+<testtitle>检查蓄电池电压</testtitle>
+<content6>
+<test1>
+<ptxt>测量车辆蓄电池电压。</ptxt>
+<spec type="voltage">
+<title>标准电压</title>
+<specitem>
+<ptxt>11 至 14 V</ptxt>
+</specitem>
+</spec>
+<ptxt>如果电压低于 11 V，则在转至下一步前对蓄电池再充电或更换蓄电池。</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-1" label="1">
+<action actiontype="next" cellposition="4-1" childid="RM100000000D8O7_02_0003"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="4-1" id="RM100000000D8O7_02_0003">
+<testtitle>检查 CAN 通信系统的通信功能*</testtitle>
+<content6>
+<test1>
+<ptxt>使用 GTS，检查 CAN 通信系统 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UU" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 CAN DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 CAN DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="4-1" label="1">
+<action actiontype="next" cellposition="5-1" childid="RM100000000D8O7_02_0018"/>
+</result>
+<result cellposition="4-9" label="2">
+<action actiontype="end" cellposition="5-9">
+<actiontitle>转至 CAN 通信系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D7UM" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="5-1" id="RM100000000D8O7_02_0018">
+<testtitle>检查仪表系统*</testtitle>
+<content6>
+<test1>
+<ptxt>使用 GTS 检查仪表系统功能是否正常。</ptxt>
+<atten4>
+<ptxt>如果认证 ECU（智能钥匙 ECU 总成）错误接收车速信号，则车辆和 GTS 之间的通信失败。务必检查数据表显示的“Vehicle Speed Meter”以确保车速正常。</ptxt>
+</atten4>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未错误接收车速信号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>错误接收车速信号</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="5-1" label="1">
+<action actiontype="next" cellposition="6-1" childid="RM100000000D8O7_02_0004"/>
+</result>
+<result cellposition="5-8" label="2">
+<action actiontype="end" cellposition="6-8">
+<actiontitle>转至仪表系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D9CD" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="6-1" id="RM100000000D8O7_02_0004">
+<testtitle>检查 LIN 通信系统的通信功能*</testtitle>
+<content6>
+<test1>
+<ptxt>使用 GTS，检查 LIN 通信系统 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBVX" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 LIN DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出 LIN DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="6-1" label="1">
+<action actiontype="next" cellposition="7-1" childid="RM100000000D8O7_02_0024"/>
+</result>
+<result cellposition="6-7" label="2">
+<action actiontype="end" cellposition="7-7">
+<actiontitle>转至 LIN 通信系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DBVU" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="7-1" id="RM100000000D8O7_02_0024">
+<testtitle>检查无线门锁控制系统的功能*</testtitle>
+<content6>
+<test1>
+<ptxt>使用 GTS，检查无线门锁控制系统 DTC。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8ML" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出无线门锁控制系统 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出无线门锁控制系统 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="7-1" label="1">
+<action actiontype="next" cellposition="8-1" childid="RM100000000D8O7_02_0020"/>
+</result>
+<result cellposition="7-6" label="2">
+<action actiontype="end" cellposition="8-6">
+<actiontitle>转至无线门锁控制系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8MN" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="8-1" id="RM100000000D8O7_02_0020">
+<testtitle>检查 DTC*</testtitle>
+<content6>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<gts-info category="dtc-read">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Trouble Codes</title>
+<gts-exec function-id="50001">
+<gts-ecu ecu-id="125"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">0</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出转向锁止系统 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>输出停机系统 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="3">
+<ptxt>C</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>输出智能进入和起动系统（上车功能）DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="4">
+<ptxt>D</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="8-1" label="1">
+<action actiontype="next" cellposition="9-1" childid="RM100000000D8O7_02_0006"/>
+</result>
+<result cellposition="8-3" label="2">
+<action actiontype="end" cellposition="9-3">
+<actiontitle>转至转向锁止系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DF2O" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="8-4" label="3">
+<action actiontype="end" cellposition="9-4">
+<actiontitle>转至停机系统</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DB3B" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="8-5" label="4">
+<action actiontype="end" cellposition="9-5">
+<actiontitle>转至诊断故障码表</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8OJ" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="9-1" id="RM100000000D8O7_02_0006">
+<testtitle>故障症状表</testtitle>
+<content6>
+<test1>
+<ptxt>请参考故障症状表。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8OG" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>故障未列于故障症状表中</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>故障列于故障症状表中</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="9-1" label="1">
+<action actiontype="next" cellposition="10-1" childid="RM100000000D8O7_02_0007"/>
+</result>
+<result cellposition="9-2" label="2">
+<action actiontype="jump" cellposition="10-2" childid="RM100000000D8O7_02_0008">
+<actiontitle>转至步骤 11</actiontitle>
+</action>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="10-1" id="RM100000000D8O7_02_0007">
+<testtitle>总体分析和故障排除*</testtitle>
+<content6>
+<test1>
+<ptxt>工作情况检查</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8OF" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>数据表/主动测试</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8OI" label="Seep00002" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>ECU 端子</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8OH" label="Seep00003" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="10-1" label="1">
+<action actiontype="next" cellposition="11-1" childid="RM100000000D8O7_02_0008"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="11-1" id="RM100000000D8O7_02_0008">
+<testtitle>维修或更换</testtitle>
+<content6>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>下一步</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="11-1" label="1">
+<action actiontype="next" cellposition="12-1" childid="RM100000000D8O7_02_0026"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="12-1" id="RM100000000D8O7_02_0026">
+<testtitle>检查 DTC*</testtitle>
+<content6>
+<test1>
+<ptxt>清除 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="125"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<test1>
+<ptxt>检查 DTC。</ptxt>
+<gts-info category="dtc-delete">
+<title>Body Electrical &gt; Entry&amp;Start &gt; Clear DTCs</title>
+<gts-exec function-id="50002">
+<gts-ecu ecu-id="125"/>
+</gts-exec>
+<app-communication>
+<app-param name="process-mode">1</app-param>
+<app-param name="edit-mode">1</app-param>
+<app-param name="insert-mode">0</app-param>
+<app-param name="function-tab">0</app-param>
+<app-param name="category-div">3</app-param>
+<app-param name="category-div-name">Body Electrical</app-param>
+<app-param name="ecu-id">125</app-param>
+<app-param name="ecu-name">Entry&amp;Start</app-param>
+<app-param name="gts-order">0</app-param>
+<app-param name="selected-state">1</app-param>
+</app-communication>
+</gts-info>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.89in"/>
+<colspec colname="col2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>结果</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="middle">
+<ptxt>未输出 DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>A</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="left" valign="middle">
+<ptxt>输出智能进入和起动系统（上车功能）DTC</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>B</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="12-1" label="1">
+<action actiontype="end" cellposition="13-1">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="12-2" label="2">
+<action actiontype="end" cellposition="13-2">
+<actiontitle>转至诊断故障码表</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8OJ" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

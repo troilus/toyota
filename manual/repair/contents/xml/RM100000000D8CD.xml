@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE tmc-service-paragraph SYSTEM "../dtd/paragraph-contents.dtd">
+<tmc-service-paragraph><pub id="RM3140CG">
+<servcat id="_56">
+<name>音频/视频/车载通信系统</name>
+<section id="_023999">
+<name>导航/多信息显示屏</name>
+<ttl id="_0116139">
+<name>导航系统</name>
+<para category="J" id="RM100000000D8CD">
+<dtccode/>
+<dtcname>不显示 GPS 标记</dtcname>
+<subpara category="10" id="RM100000000D8CD_04">
+<name>注意/小心/提示</name>
+<content5>
+<atten3>
+<ptxt>根据车辆检查或保养期间更换的零件，可能需要执行初始化、注册或校准。 请参考导航系统的注意事项。</ptxt>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D4" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara category="01" id="RM100000000D8CD_03">
+<name>程序</name>
+<testgrp cellposition="1-1" id="RM100000000D8CD_03_0001">
+<testtitle>检查车厢</testtitle>
+<content6>
+<test1>
+<ptxt>检查车厢内是否存在可能会中断无线接收的物体以及仪表板上是否有使用无线电波的其他设备。如果存在此类物体，则将其移开，然后检查是否重新出现 GPS 标记。</ptxt>
+<atten4>
+<ptxt>GPS 利用卫星发射的极其微弱的无线电波进行工作。如果该信号被障碍物或其他无线电波中断，则 GPS 可能无法正常接收该信号。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>出现 GPS 标记。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="1-1" label="1">
+<action actiontype="end" cellposition="2-1">
+<actiontitle>结束</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="1-2" label="2">
+<action actiontype="next" cellposition="2-2" childid="RM100000000D8CD_03_0003"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="2-2" id="RM100000000D8CD_03_0003">
+<testtitle>检查周围环境</testtitle>
+<content6>
+<test1>
+<ptxt>检查车辆是否处于 GPS 信号接收能力差的位置。如果车辆处于此类位置，则将其转移到别处，然后检查 GPS 标记是否重新出现。</ptxt>
+<atten4>
+<ptxt>GPS 利用 6 条轨道内的 24 颗卫星进行工作。在任意时间点，只要 4 颗卫星就足以精确确定您车辆的位置。但是，由于环境、车辆方向和时间的影响，GPS 信号可能无法到达车辆。有关示例，请参见下图。</ptxt>
+</atten4>
+<figure translate="C" type="1">
+<graphic graphicname="I100196C18" height="4.825319882in" width="7.168479331in"/>
+<callout>
+<table pgwide="1" type="caption-table">
+<tgroup cols="4">
+<colspec colname="col1" colnum="1" colwidth="0.72in"/>
+<colspec colname="col2" colnum="2" colwidth="2.87in"/>
+<colspec colname="col3" colnum="3" colwidth="0.72in"/>
+<colspec colname="col4" colnum="4" colwidth="2.87in"/>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*a</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>示例</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*b</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>在隧道内</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*c</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>在建筑物内</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*d</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>天桥下</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*e</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>森林或多树的道路</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>*f</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>高大建筑物之间</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<ptxt>*g</ptxt>
+</entry>
+<entry align="left" valign="middle">
+<ptxt>悬崖下或外伸物下</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center" valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</callout>
+</figure>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>显示 GPS 标记。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="2-2" label="1">
+<action actiontype="end" cellposition="3-2">
+<actiontitle>结束（系统恢复正常）</actiontitle>
+<content6/>
+</action>
+</result>
+<result cellposition="2-3" label="2">
+<action actiontype="next" cellposition="3-3" childid="RM100000000D8CD_03_0004"/>
+</result>
+</results>
+</testgrp>
+<testgrp cellposition="3-3" id="RM100000000D8CD_03_0004">
+<testtitle>检查系统传感器（工作情况检查）</testtitle>
+<content6>
+<test1>
+<ptxt>进入“System Sensors Check”画面。 请参见工作情况检查中的检查系统传感器。</ptxt>
+<figure translate="I" type="1">
+<graphic graphicname="E292287" height="2.192421260in" width="3.434793307in"/>
+</figure>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D6" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</test1>
+<test1>
+<ptxt>检查在“接收数目”中出现多少个下列代码。</ptxt>
+<atten4>
+<ptxt>会出现 T 或 P 代码。</ptxt>
+</atten4>
+<spec type="other">
+<title>正常</title>
+<specitem>
+<ptxt>至少出现 3 个代码。</ptxt>
+</specitem>
+</spec>
+</test1>
+<spec type="other">
+<title>结果</title>
+<table>
+<tgroup cols="1">
+<colspec colname="col1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry align="center" valign="middle">
+<ptxt>转至</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="1">
+<ptxt>正常</ptxt>
+</judge-value>
+</entry>
+</row>
+<row>
+<entry align="center" valign="middle">
+<judge-value label="2">
+<ptxt>异常</ptxt>
+</judge-value>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<results>
+<result cellposition="3-3" label="1">
+<action actiontype="end" cellposition="4-3">
+<actiontitle>更换导航接收器总成</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000DD7X" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+<result cellposition="3-4" label="2">
+<action actiontype="end" cellposition="4-4">
+<actiontitle>转至故障症状表中所示的下一个可疑部位</actiontitle>
+<content6>
+<ptxt>单击此处 <mlink><xref href="RM100000000D8D3" label="Seep00001" term-id-from="001"/></mlink>
+</ptxt>
+</content6>
+</action>
+</result>
+</results>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub></tmc-service-paragraph>

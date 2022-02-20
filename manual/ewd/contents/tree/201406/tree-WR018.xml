@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="WR018" code="T4" type="conn">
+    <name>前排电动座椅腰部开关</name>
+  </text>
+  <text ewd="WR018" code="T2" type="conn">
+    <name>前排电动座椅升降位置电动机</name>
+  </text>
+  <text ewd="WR018" code="W2" type="conn">
+    <name>前排电动座椅腰部支撑电动机</name>
+  </text>
+  <text ewd="WR018" code="W1" type="conn">
+    <name>前排电动座椅靠背倾角位置电动机</name>
+  </text>
+  <text ewd="WR018" code="T1" type="conn">
+    <name>前排电动座椅升降位置电动机</name>
+  </text>
+  <text ewd="WR018" code="T3" type="conn">
+    <name>前排电动座椅开关</name>
+  </text>
+  <text ewd="WR018" code="e1" type="conn">
+    <name>前排左侧座椅空气囊总成</name>
+  </text>
+  <text ewd="WR018" code="f1" type="conn">
+    <name>前排右侧座椅空气囊总成</name>
+  </text>
+  <text ewd="WR018" code="T5" type="conn">
+    <name>前排左侧座椅座垫加热器总成</name>
+  </text>
+  <text ewd="WR018" code="L50" type="conn">
+    <name>前排右侧座椅座垫加热器总成</name>
+  </text>
+  <text ewd="WR018" code="L16" type="conn">
+    <name>前排左侧座椅内安全带总成</name>
+  </text>
+  <text ewd="WR018" code="L17" type="conn">
+    <name>前排右侧座椅内安全带总成</name>
+  </text>
+  <text ewd="WR018" code="T6" type="conn">
+    <name>9 号接线连接器</name>
+  </text>
+</EwdTree>

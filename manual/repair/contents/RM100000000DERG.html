@@ -1,0 +1,7740 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">发动机/混合动力系统</span>
+<span class="globalSection">_023958</span>
+<span class="globalSectionName">2ZR-FE 发动机控制系统</span>
+<span class="globalTitle">_0117858</span>
+<span class="globalTitleName">SFI 系统</span>
+<span class="globalCategory">U</span>
+</div>
+<h1>2ZR-FE 发动机控制系统&nbsp;&nbsp;SFI 系统&nbsp;&nbsp;数据表/主动测试&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DERG_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">数据表
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 读取数据表，无需拆下任何零件，即可读取开关、传感器、执行器及其他项目的值或状态。这种非侵入式检查非常有用，可在零件或配线受到干扰之前发现间歇性状况或信号。故障排除时，尽早读取数据表信息是节省诊断时间的一种方法。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>在下表中，&ldquo;正常状态&rdquo;下列出的值为参考值。确定零件是否出现故障时，不要仅仅依赖这些参考值。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>正常状态：如果没有特别规定&ldquo;怠速运转&rdquo;条件，换档杆应置于 P 或空档，空调开关应关闭且所有附件开关也应关闭。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>使发动机暖机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>关闭空调开关。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>将发动机开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">f.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">g.</div>
+<div class="step2Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Data List。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>要显示列表框，按下 Primary 旁的下拉菜单按钮。然后选择测量组。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>选择测量组时，显示属于该组的 ECU 数据。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>测量组列表/说明
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>All Data/所有数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Primary/-
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Engine Control/发动机控制系统相关数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Ptrl General/-
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Ptrl AF Control/空燃比控制系统相关数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Ptrl AF O2 Sensor/空燃比传感器和加热型氧传感器相关数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Ptrl Throttle/汽油节气门系统相关数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Ptrl Intake Control/进气控制系统相关数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Ptrl Valve Control/阀控制系统相关数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Ptrl Misfire/&ldquo;缺火&rdquo;相关数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Ptrl Starting/&ldquo;起动困难&rdquo;相关数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Ptrl Rough Idle/&ldquo;怠速不稳&rdquo;相关数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Ptrl Evaporative/蒸发系统相关数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Ptrl CAT Converter/催化转化器相关数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Check Mode/检查模式相关数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Monitor Status/监视状态相关数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Ignition/点火系统相关数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Charging Control/充电控制系统相关数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Compression/在&ldquo;检查气缸压缩压力&rdquo;主动测试期间使用的数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>AT/自动传动桥系统相关数据
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Vehicle Information/车辆信息
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">h.</div>
+<div class="step2Body">
+<p>根据 GTS 上的显示，读取数据表。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>本修理手册中数据表项目各组使用的标题不会显示在 GTS 上。然而，标题后面的括号中的名称（测量组）显示在 GTS 上。选择 GTS 上括号内显示的名称时，将显示该组所列的所有数据表项目。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">各种车辆状况 1 (All Data)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Vehicle Speed
+</td>
+<td class="alleft">车速
+</td>
+<td class="alleft">最低：0 km/h (0 mph)，最高：255 km/h (158 mph)
+</td>
+<td class="alleft">实际车速
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是当前车速。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用车轮转速传感器检测车速。
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>显示车速数据时会有延迟。因此，即使定格数据中列出的车速为 0 km/h (0 mph)，也并不总是意味着故障发生在车辆停止时。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Speed
+</td>
+<td class="alleft">发动机转速
+</td>
+<td class="alleft">最低：0 rpm，最高：16,383 rpm
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>600 至 700 rpm：怠速运转（M/T 车型）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>680 至 780 rpm：怠速运转（CVT 车型）
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">曲轴位置传感器出现故障时，&ldquo;Engine Speed&rdquo;约为 0 rpm 或与实际发动机转速差异很大。
+</td>
+</tr>
+<tr>
+<td class="alleft">Calculate Load
+</td>
+<td class="alleft">ECM 计算负载
+</td>
+<td class="alleft">最小：0%，最大：100%
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是根据估算的进气歧管压力计算的发动机负载。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>计算负载 = 估算的进气歧管压力/最大进气歧管压力 x 100 (%)
+</p>
+<p>（例如，估算的进气歧管压力等于大气压力时，计算负载为 100%。）
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Vehicle Load
+</td>
+<td class="alleft">车辆负载
+</td>
+<td class="alleft">最小：0%，最大：25700%
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是发动机进气效率。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车辆负载 = 当前进气流量 (gm/s)/最大进气流量 x 100%
+</p>
+<p>最大进气流量 = 排量 (L)/2 x 1.2 (g/rev.)
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>由于各发动机间的差别、进气温度等，该值可能超过 100%。
+</p>
+</dd>
+<dd class="atten4">
+<p>进气流量 (g/rev.) = 进气流量 (gm/s) x 60/发动机转速 (rpm)
+</p>
+</dd>
+<dd class="atten4">
+<p>（进气流量 (gm/s) 为 MAF）
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">MAF
+</td>
+<td class="alleft">来自质量空气流量计分总成的空气流率
+</td>
+<td class="alleft">最小：0 gm/s，最大：655.35 gm/s
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>1.0 至 3.0 gm/s：怠速运转
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>5.0 至 10.0 gm/s：3,000 rpm（无负载）
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">这是来自质量空气流量计分总成的进气量。
+</td>
+</tr>
+<tr>
+<td class="alleft">Atmosphere Pressure
+</td>
+<td class="alleft">大气压力
+</td>
+<td class="alleft">最低：0 kPa (0 mmHg)，最高：255 kPa (1,912 mmHg)
+</td>
+<td class="alleft">等于大气压力（绝对压力）
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>标准大气压力：101 kPa(abs) [758 mmHg(abs)])
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>海拔每升高 100 m (328 ft)，压力降低 1 kPa (7.5 mmHg)。该值随天气改变。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Oil Temperature Sensor
+</td>
+<td class="alleft">发动机机油温度
+</td>
+<td class="alleft">最低：-40&deg;C (-40&deg;F)，最高：215&deg;C (419&deg;F)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">这是发动机机油温度。
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机暖机后，发动机机油温度为 80 至 110&deg;C（176 至 230&deg;F）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>经过长时间保温静置后，发动机冷却液温度、进气温度、发动机机油温度和环境温度大致相同。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果值为 -40&deg;C (-40&deg;F) 或高于 180&deg;C (356&deg;F)，则传感器电路开路或短路。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Coolant Temp
+</td>
+<td class="alleft">冷却液温度
+</td>
+<td class="alleft">最低：-40&deg;C (-40&deg;F)，最高：140&deg;C (284&deg;F)
+</td>
+<td class="alleft">75 至 100&deg;C（167 至 212&deg;F）：暖机后
+</td>
+<td class="alleft">这是发动机冷却液温度。
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机暖机后，发动机冷却液温度为 75 至 100&deg;C（167 至 212&deg;F）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>经过长时间保温静置后，发动机冷却液温度、进气温度和环境温度大致相同。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果值为 -40&deg;C (-40&deg;F) 或 140&deg;C (284&deg;F)，则传感器电路开路或短路。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>值指示为 140&deg;C (284&deg;F) 时，检查发动机是否过热。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Intake Air
+</td>
+<td class="alleft">进气温度
+</td>
+<td class="alleft">最低：-40&deg;C (-40&deg;F)，最高：140&deg;C (284&deg;F)
+</td>
+<td class="alleft">与质量空气流量计分总成处的温度相等
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>经过长时间保温静置后，发动机冷却液温度、进气温度和环境温度大致相同。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果值为 -40&deg;C (-40&deg;F) 或 140&deg;C (284&deg;F)，则传感器电路开路或短路。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Run Time
+</td>
+<td class="alleft">发动机运行时间
+</td>
+<td class="alleft">最短：0 秒，最长：65,535 秒
+</td>
+<td class="alleft">发动机起动后的时间
+</td>
+<td class="alleft">这是发动机起动后经过的时间。
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>仅在发动机运转时计时。
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Initial Engine Coolant Temp
+</td>
+<td class="alleft">发动机冷却液初始温度
+</td>
+<td class="alleft">最低：-40&deg;C (-40&deg;F)，最高：119.3&deg;C (247&deg;F)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">这是发动机开关置于 ON (IG) 位置时存储的发动机冷却液温度。
+</td>
+</tr>
+<tr>
+<td class="alleft">Initial Intake Air Temp
+</td>
+<td class="alleft">初始进气温度
+</td>
+<td class="alleft">最低：-40&deg;C (-40&deg;F)，最高：119.3&deg;C (247&deg;F)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">这是发动机开关置于 ON (IG) 位置时存储的进气温度。
+</td>
+</tr>
+<tr>
+<td class="alleft">Battery Voltage
+</td>
+<td class="alleft">蓄电池电压
+</td>
+<td class="alleft">最低：0 V，最高：65.535 V
+</td>
+<td class="alleft">11 至 14 V：怠速运转
+</td>
+<td class="alleft">如果电压为 11 V 或更低，则某些电气部件的特性可能会改变。
+</td>
+</tr>
+<tr>
+<td class="alleft">Glow Indicator Supported
+</td>
+<td class="alleft">预热指示灯支持状态
+</td>
+<td class="alleft">Unsupp 或 Supp
+</td>
+<td class="alleft">Unsupp
+</td>
+<td class="alleft">仅 CVT 车型显示该项目。
+</td>
+</tr>
+<tr>
+<td class="alleft">Glow Indicator
+</td>
+<td class="alleft">预热指示灯
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">熄灭
+</td>
+<td class="alleft">仅 CVT 车型显示该项目。
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">节气门控制 1 (Ptrl Throttle)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Accelerator Position
+</td>
+<td class="alleft">加速踏板位置
+</td>
+<td class="alleft">最小：0%，最大：399.9%
+</td>
+<td class="alleft">实际加速踏板位置
+</td>
+<td class="alleft">这是加速踏板位置，使用加速踏板 1 号位置传感器确定，以完全松开位置（传感器输出）学习值为 0%，并以完全踩下位置学习值为 100%。
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Sens.No.1 Volt %
+</td>
+<td class="alleft">加速踏板 1 号绝对位置
+</td>
+<td class="alleft">最小：0%，最大：100%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>10 至 22%：完全松开加速踏板
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>52 至 90%：完全踩下加速踏板
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">使用 5 V = 100% 来换算加速踏板 1 号位置传感器输出。
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果未存储加速踏板位置传感器 DTC，则可以判定加速踏板位置传感器系统正常。
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Sens.No.2 Volt %
+</td>
+<td class="alleft">加速踏板 2 号绝对位置
+</td>
+<td class="alleft">最小：0%，最大：100%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>24 至 40%：完全松开加速踏板
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>68 至 95%：完全踩下加速踏板
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">使用 5 V = 100% 来换算加速踏板 2 号位置传感器输出。
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">节气门控制 2 (All Data)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Accel Sensor Out No.1
+</td>
+<td class="alleft">加速踏板 1 号位置传感器电压
+</td>
+<td class="alleft">最低：0 V，最高：4.98 V
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>0.5 至 1.1 V：完全松开加速踏板
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>2.6 至 4.5 V：完全踩下加速踏板
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">这是来自加速踏板 1 号位置传感器的原始电压。
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Sensor Out No.2
+</td>
+<td class="alleft">加速踏板 2 号位置传感器电压
+</td>
+<td class="alleft">最低：0 V，最高：4.98 V
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>1.2 至 2.0 V：完全松开加速踏板
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>3.4 至 4.75 V：完全踩下加速踏板
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">这是来自加速踏板 2 号位置传感器的原始电压。
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">节气门控制 3 (Ptrl Throttle)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Accelerator Idle Position
+</td>
+<td class="alleft">加速踏板位置传感器是否检测到加速踏板松开
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：完全松开加速踏板
+</td>
+<td class="alleft">这是通过 ECM 计算的参数，表示加速踏板是否处于怠速学习位置。
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Fully Close Learn #1
+</td>
+<td class="alleft">加速踏板完全松开 1 号学习值
+</td>
+<td class="alleft">最小：0 deg，最大：124.5 deg
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">这是加速踏板松开时加速踏板 1 号位置传感器的学习值。
+</td>
+</tr>
+<tr>
+<td class="alleft">Accel Fully Close Learn #2
+</td>
+<td class="alleft">加速踏板完全松开 2 号学习值
+</td>
+<td class="alleft">最小：0 deg，最大：124.5 deg
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">这是加速踏板松开时加速踏板 2 号位置传感器的学习值。
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Sensor Volt %
+</td>
+<td class="alleft">节气门 1 号绝对位置传感器
+</td>
+<td class="alleft">最小：0%，最大：100%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>10 至 22%：完全松开加速踏板
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>64 至 96%：完全踩下加速踏板
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">使用 5 V = 100% 来换算节气门 1 号位置传感器输出。
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果未存储节气门位置传感器 DTC，则可以判定节气门位置传感器系统正常。
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttl Sensor #2 Volt %
+</td>
+<td class="alleft">节气门 2 号绝对位置传感器
+</td>
+<td class="alleft">最小：0%，最大：100%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>42 至 62%：完全松开加速踏板
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>92 至 100%：完全踩下加速踏板
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">使用 5 V = 100% 来换算节气门 2 号位置传感器输出。
+</td>
+</tr>
+<tr>
+<td class="alleft">ST1
+</td>
+<td class="alleft">制动踏板信号
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ON：踩下制动踏板
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OFF：完全松开制动踏板
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">这是刹车灯开关总成信号（端子 ST1-）。
+</td>
+</tr>
+<tr>
+<td class="alleft">System Guard
+</td>
+<td class="alleft">系统防护
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>目标和实际节气门开度不同时，系统防护关闭并停止电子节气门控制系统功能。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OFF：电子节气门控制停止。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Open Side Malfunction
+</td>
+<td class="alleft">开启故障
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">OFF
+</td>
+<td class="alleft">该参数指示节气门开启时电子节气门存在故障。
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Idle Position
+</td>
+<td class="alleft">节气门位置传感器是否检测到怠速
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该参数通过 ECM 计算得出。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>节气门位于怠速位置时该值为 ON，节气门开启时该值为 OFF。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Require Position
+</td>
+<td class="alleft">要求的节气门位置
+</td>
+<td class="alleft">最低：0 V，最高：4.98 V
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">该值由 ECM 计算得出，显示目标节气门位置的电压。除节气门快速移动期间（如车轮打滑控制期间）外，该值与节气门 1 号位置值几乎完全一致。
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Sensor Position
+</td>
+<td class="alleft">节气门传感器位置
+</td>
+<td class="alleft">最小：0%，最大：100%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>0%：完全松开加速踏板
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>50 至 80%：完全踩下加速踏板
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是用于发动机控制的节气门开度。
+</p>
+<p>（100% 表示节气门转动 125&deg;。这不包括怠速期间保持怠速转速的节气门开度。）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关置于 ON (IG) 位置且发动机停止时，该值没有意义。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Position No.1
+</td>
+<td class="alleft">节气门 1 号位置传感器输出电压
+</td>
+<td class="alleft">最低：0 V，最高：4.98 V
+</td>
+<td class="alleft">与&ldquo;节气门请求位置&rdquo;几乎相同
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>0.5 至 1.1 V：完全松开加速踏板
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>3.2 至 4.8 V：完全踩下加速踏板
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>0.6 至 1.4 V：失效保护工作
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">该值为节气门 1 号位置传感器输出电压。
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Position No.2
+</td>
+<td class="alleft">节气门 2 号位置传感器输出电压
+</td>
+<td class="alleft">最低：0 V，最高：4.98 V
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>2.1 至 3.1 V：完全松开加速踏板
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>4.6 至 4.98 V：完全踩下加速踏板
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>2.1 至 3.1 V：失效保护工作
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">该值为节气门 2 号位置传感器输出电压。
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Position Command
+</td>
+<td class="alleft">节气门位置指令值
+</td>
+<td class="alleft">最低：0 V，最高：4.98 V
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">节气门位置指令与节气门请求位置的值相同。
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Sens Open Pos #1
+</td>
+<td class="alleft">节气门 1 号位置传感器
+</td>
+<td class="alleft">最低：0 V，最高：4.98 V
+</td>
+<td class="alleft">0.6 至 1.4 V
+</td>
+<td class="alleft">该值是无电流供应至电子节气门执行器时的节气门 1 号位置传感器输出电压。发动机开关置于 ON (IG) 位置时，加速踏板松开但节气门通过节气门开启器保持开启。
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Sens Open Pos #2
+</td>
+<td class="alleft">节气门 2 号位置传感器
+</td>
+<td class="alleft">最低：0 V，最高：4.98 V
+</td>
+<td class="alleft">1.7 至 2.5 V
+</td>
+<td class="alleft">该值是无电流供应至电子节气门执行器时的节气门 2 号位置传感器输出电压。发动机开关置于 ON (IG) 位置时，加速踏板松开但节气门通过节气门开启器保持开启。
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Motor Current
+</td>
+<td class="alleft">节气门执行器电流
+</td>
+<td class="alleft">最小：0 A，最大：19.9 A
+</td>
+<td class="alleft">0 至 3.0 A：怠速运转
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该值较大但实际开度（节气门 1 号位置）未达到目标开度（节气门请求位置）时，存在&ldquo;无法开启&rdquo;故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>正常情况下，该值在 1 A 上下波动。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Motor DUTY
+</td>
+<td class="alleft">节气门执行器
+</td>
+<td class="alleft">最小：0%，最大：100%
+</td>
+<td class="alleft">10 至 22%：怠速运转
+</td>
+<td class="alleft">这是节气门执行器驱动电路的输出占空比。
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Motor Duty (Open)
+</td>
+<td class="alleft">节气门执行器占空比（打开）
+</td>
+<td class="alleft">最小：0%，最大：255%
+</td>
+<td class="alleft">0 至 40%：怠速运转
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该占空比用于驱动节气门执行器和打开节气门。它是 ECM 指令信号。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>打开节气门时，节气门马达占空比（打开）为 10 至 50%。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Motor Duty (Close)
+</td>
+<td class="alleft">节气门执行器占空比（关闭）
+</td>
+<td class="alleft">最小：0%，最大：255%
+</td>
+<td class="alleft">0 至 40%：怠速运转
+</td>
+<td class="alleft">该占空比用于驱动节气门执行器和关闭节气门。它是 ECM 指令信号。
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>怠速期间，通常使用占空比驱动信号控制节气门开度，该信号用于关闭节气门。但是，积碳增多时，节气门开启器的作用力可能不足以打开节气门。在这种情况下，使用&ldquo;节气门马达占空比（打开）&rdquo;信号控制开度，该信号用于打开节气门。
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Fully Close Learn
+</td>
+<td class="alleft">节气门全关位置（学习值）
+</td>
+<td class="alleft">最低：0 V，最高：4.98 V
+</td>
+<td class="alleft">0.4 至 1.0 V：完全松开加速踏板
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM 使用此学习值判断节气门的全关（和全开）位置。ECM 通过节气门开度（约 4 至 7&deg;，即发动机开关置于 ON (IG) 位置、加速踏板松开且节气门执行器关闭时的位置）计算该学习值。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关置于 ON (IG) 位置后立即进行学习。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">+BM Voltage
+</td>
+<td class="alleft">+BM 电压
+</td>
+<td class="alleft">最低：0 V，最高：79.998 V
+</td>
+<td class="alleft">11 至 14 V：发动机开关置于 ON (IG) 位置且系统正常
+</td>
+<td class="alleft">这是电子节气门执行器的电源。电源中断约 1 秒时，存储 DTC P2118（开路）和 P0657（短路、ECU 故障）且电子节气门控制系统进入失效保护模式（只有将发动机开关置于 OFF 位置后才可恢复正常模式）。
+</td>
+</tr>
+<tr>
+<td class="alleft">Actuator Power Supply
+</td>
+<td class="alleft">执行器电源
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：怠速运转
+</td>
+<td class="alleft">如果 +BM 电源断开，则该项变为 OFF。
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Air Flow Learning Value(Area 1)
+</td>
+<td class="alleft">部位 1 的节气门气流学习值
+</td>
+<td class="alleft">最小：0，最大：1.99
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Air Flow Learning Value(Area 2)
+</td>
+<td class="alleft">部位 2 的节气门气流学习值
+</td>
+<td class="alleft">最小：0，最大：1.99
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Air Flow Learning Value(Area 3)
+</td>
+<td class="alleft">部位 3 的节气门气流学习值
+</td>
+<td class="alleft">最小：0，最大：1.99
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Air Flow Learning Value(Calculated Value)
+</td>
+<td class="alleft">节气门气流学习值（计算值）
+</td>
+<td class="alleft">最小：0，最大：1.99
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Air Flow Learning Value(Atmosphere Pressure Offset Value)
+</td>
+<td class="alleft">节气门气流学习值（大气压力补偿值）
+</td>
+<td class="alleft">最小：0，最大：2.55
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Air Flow Learning Prohibit(Intake Air Pressure Malfunction)
+</td>
+<td class="alleft">节气门气流学习禁止（进气压力故障）
+</td>
+<td class="alleft">OK 或 NG
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Air Flow Learning Prohibit(Air Fuel Ratio Malfunction)
+</td>
+<td class="alleft">节气门气流学习禁止（空燃比故障）
+</td>
+<td class="alleft">OK 或 NG
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Position
+</td>
+<td class="alleft">节气门开度
+</td>
+<td class="alleft">最小：0 deg，最大：499.99 deg
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">发动机开关置于 ON (IG) 位置且发动机停止时，该值没有意义。
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">怠速控制 (Ptrl Rough Idle)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">ISC Position
+</td>
+<td class="alleft">利用 ISC 控制计算的节气门请求开度
+</td>
+<td class="alleft">最小：0 deg，最大：499.99 deg
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">这是发动机怠速时的节气门开度（保持 ISC 空气流量所需的节气门开度）。
+</td>
+</tr>
+<tr>
+<td class="alleft">Low Revolution Control
+</td>
+<td class="alleft">低发动机转速控制工作状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该参数指示发动机转速在起动后是否由于燃烧不充分等立即降低。发动机起动后 1 至 7 秒内发动机转速降至低于以下转速时，该参数变为 ON（空调打开时，以下发动机转速阈值增加 100 至 200 rpm）。
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>900 rpm（发动机冷却液温度为 10&deg;C [50&deg;F] 时）
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>850 rpm（发动机冷却液温度为 30&deg;C [86&deg;F] 时）
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>750 rpm（发动机冷却液温度为 60&deg;C [140&deg;F] 时）
+</p>
+<p>发动机起动后 5 秒内，该参数指示上一行程的状态。
+</p>
+<p>发动机起动 5 秒后，该参数指示当前行程的状态。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>发动机转速达到 400 rpm 时，可视为发动机起动。发动机起动后转速立即降低时，该参数变为 ON 并在剩下的行程中保持 ON。
+</p>
+</dd>
+<dd class="atten4">
+<p>ON：发动机起动后发动机转速立即降低。
+</p>
+</dd>
+<dd class="atten4">
+<p>OFF：发动机起动后发动机转速未立即降低。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机熄火、存在起动故障或怠速不稳时使用。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Neutral Control
+</td>
+<td class="alleft">空档控制状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">N Range Status
+</td>
+<td class="alleft">换档杆置于 N 状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">仅 CVT 车型显示该项目。
+</td>
+</tr>
+<tr>
+<td class="alleft">Eng Stall Control FB Flow
+</td>
+<td class="alleft">进气补偿流率
+</td>
+<td class="alleft">最小：-40 L/s，最大：39.99 L/s
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机转速大幅降低（例如，降至 550 rpm 或更低）时，调节进气量和点火正时以防发动机熄火。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机熄火、存在起动故障或怠速不稳时使用。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Deposit Loss Flow
+</td>
+<td class="alleft">由于沉积物造成流量损失
+</td>
+<td class="alleft">最小：-40 L/s，最大：39.99 L/s
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该值表示对由于节气门上的沉积物造成气流穿过区域减小的补偿量。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机熄火、起动困难或怠速不稳时，检查该值以供参考。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">ISC Feedback Learning Torque
+</td>
+<td class="alleft">ISC 反馈学习扭矩
+</td>
+<td class="alleft">最小：-1024 Nm，最大：1023.96 Nm
+</td>
+<td class="alleft">-4 至 4 Nm：怠速运转
+</td>
+<td class="alleft">补偿值使发动机以目标怠速转速运转。该值表示估算扭矩的差值。例如，ISC 反馈学习扭矩为&ldquo;+&rdquo;时，保持怠速转速需要比估算扭矩更大的扭矩。
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>&ldquo;ISC 反馈扭矩&rdquo;的绝对值超过一定值时，绝对值逐渐考虑在&ldquo;ISC 反馈学习扭矩&rdquo;内。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机接近目标怠速转速且稳定工作时，可得出下列关系表达式。
+</p>
+<p>ISC 扭矩（ISC 总扭矩）=&ldquo;ISC 反馈学习扭矩&rdquo;+&ldquo;ISC 反馈扭矩&rdquo;+&ldquo;ISC 反馈扭矩（最近）&rdquo;+&ldquo;ISC 总 AUXS 扭矩&rdquo;
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">ISC Total AUXS Torque
+</td>
+<td class="alleft">ISC 总 AUXS 扭矩
+</td>
+<td class="alleft">最小：-1024 Nm，最大：1023.96 Nm
+</td>
+<td class="alleft">8 至 14 Nm：怠速运转（空调关闭，空档位置）
+</td>
+<td class="alleft">发动机怠速运转时，各估算的负载扭矩的总和。
+<br>
+（发动机的摩擦力、交流发电机、空调等的总负载扭矩。）
+</td>
+</tr>
+<tr>
+<td class="alleft">ISC Feedback Torque
+</td>
+<td class="alleft">ISC 反馈扭矩
+</td>
+<td class="alleft">最小：-1024 Nm，最大：1023.96 Nm
+</td>
+<td class="alleft">-4 至 4 Nm：怠速运转
+</td>
+<td class="alleft">这表示反馈补偿值（扭矩）使发动机以目标怠速转速运转。
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>发动机未以目标怠速转速运转时，&ldquo;ISC 反馈扭矩&rdquo;增大或减小。
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">ISC Feedback Torque(Recent)
+</td>
+<td class="alleft">ISC 反馈扭矩（最近）
+</td>
+<td class="alleft">最小：-1024 Nm，最大：1023.96 Nm
+</td>
+<td class="alleft">-2 至 2 Nm：怠速运转
+</td>
+<td class="alleft">这表示反馈补偿值（扭矩）首先变化以使发动机以目标怠速转速快速运转。
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>发动机在目标怠速转速下不运转时，&ldquo;ISC 反馈扭矩（最近）&rdquo;先增大或减小，而随后将增大或减小情况传输至&ldquo;ISC 反馈扭矩&rdquo;（控制空气量）。
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">ISC AUXS Torque(Alternator)
+</td>
+<td class="alleft">ISC AUXS 扭矩（交流发电机）
+</td>
+<td class="alleft">最小：-1024 Nm，最大：1023.96 Nm
+</td>
+<td class="alleft">0 至 10 Nm：怠速运转
+</td>
+<td class="alleft">这表示根据交流发电机负载而变化的 ISC 补偿量（估算扭矩）。
+</td>
+</tr>
+<tr>
+<td class="alleft">ISC AUXS Torque(Air Conditioner)
+</td>
+<td class="alleft">ISC AUXS 扭矩（空调）
+</td>
+<td class="alleft">最小：-1024 Nm，最大：1023.96 Nm
+</td>
+<td class="alleft">5 至 12 Nm：怠速运转（空调打开）
+</td>
+<td class="alleft">这表示根据空调压缩机负载而变化的 ISC 补偿扭矩（估算扭矩）。
+</td>
+</tr>
+<tr>
+<td class="alleft">Throttle Air Flow F/B Value
+</td>
+<td class="alleft">节气门气流反馈值
+</td>
+<td class="alleft">最小：-40 L/s，最大：39.99 L/s
+</td>
+<td class="alleft">-0.3 至 0.3 L/s：怠速运转
+</td>
+<td class="alleft">这表示未完成&ldquo;沉积物损失气流&rdquo;学习时的临时补偿量。
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">燃油系统 1 (Ptrl General)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Fuel Pump Duty
+</td>
+<td class="alleft">燃油泵占空比
+</td>
+<td class="alleft">最小：0%，最大：399.9%
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Injector (Port)
+</td>
+<td class="alleft">1 号气缸的喷射时间
+</td>
+<td class="alleft">最短：0 μs，最长：65,535 μs
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">这是 1 号气缸的喷射时间（来自 ECM 的指令值）。
+</td>
+</tr>
+<tr>
+<td class="alleft">Injection Volum (Cylinder1)
+</td>
+<td class="alleft">喷油量（1 号气缸）
+</td>
+<td class="alleft">最小：0 ml，最大：2.047 ml
+</td>
+<td class="alleft">0 至 0.15 ml：怠速运转
+</td>
+<td class="alleft">这是 10 次喷射的燃油喷射量。
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">燃油系统 2 (All Data)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Current Fuel Type
+</td>
+<td class="alleft">当前燃油类型
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">汽油/石油
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">EVAP 系统 (Ptrl Evaporative)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">EVAP (Purge) VSV
+</td>
+<td class="alleft">净化 VSV 控制占空比
+</td>
+<td class="alleft">最小：0%，最大：100%
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是来自 ECM 的指令信号。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是净化 VSV 控制占空比。EVAP（净化）VSV 为除 0% 外的任何值时，进行 EVAP 净化*。
+</p>
+<p>*：来自燃油箱的汽油蒸汽通过净化 VSV 进入进气系统。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机冷机时或发动机刚起动后，EVAP（净化）VSV 为 0%。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Evap Purge Flow
+</td>
+<td class="alleft">净化气流
+</td>
+<td class="alleft">最小：0%，最大：399.9%
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是通过 EVAP 净化操作提供的气流量占发动机总气流量的百分比。
+</p>
+<p>（EVAP 净化气流 = 净化气流量/发动机气流量 x 100 (%)）
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该值基于 MAF 和气流存储值，并通过调节净化 VSV 的占空比进行控制。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Purge Density Learn Value
+</td>
+<td class="alleft">净化气流浓度学习值
+</td>
+<td class="alleft">最小：-200，最大：199.993
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>净化气流浓度学习值是与 1% 净化流率相关的喷油量的减少比例（基于空燃比反馈补偿值的变化）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>净化气流浓度学习值为较大负值时，净化作用较大。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>净化气流浓度根据引入净化气流时空燃比反馈补偿值的变化确定。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进行净化气流浓度学习，以使反馈补偿值为 0 +/-2%。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该值通常约为 +/-1%。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>1%：净化气流中 HC 浓度相对较低。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>0%：净化气流中 HC 的浓度约等于理论空燃比。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>较大负值表示净化气流中 HC 浓度相对较高。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">EVAP Purge VSV
+</td>
+<td class="alleft">EVAP 的 VSV 状态控制
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">EVAP（净化）VSV 约为 30% 或更高时该参数显示 ON，VSV 占空比低于 30% 时显示 OFF。
+</td>
+</tr>
+<tr>
+<td class="alleft">Purge Cut VSV Duty
+</td>
+<td class="alleft">净化 VSV 占空比
+</td>
+<td class="alleft">最小：0%，最大：399.9%
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">空燃比控制 1 (All Data)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Target Air-Fuel Ratio
+</td>
+<td class="alleft">目标空燃比
+</td>
+<td class="alleft">最小：0，最大：1.99
+</td>
+<td class="alleft">0.8 至 1.2：怠速运转期间
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是 ECM 使用的目标空燃比。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>1.0 为理论空燃比。值大于 1 表示系统尝试使空燃比变稀。值小于 1 表示系统尝试使空燃比变浓。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>目标空燃比和空燃比 B1S1 相关。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">空燃比控制 2 (Ptrl AF O2 Sensor)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">AF Lambda B1S1
+</td>
+<td class="alleft">与 B1 S1 相关的空燃比输出
+</td>
+<td class="alleft">最小：0，最大：1.99
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>值小于 1（0.000 至 0.999）= 浓
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>1 = 理论空燃比
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>值大于 1（1.001 至 1.999）= 稀
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">这是根据空燃比传感器输出计算的实际空燃比。
+</td>
+</tr>
+<tr>
+<td class="alleft">AFS Voltage B1S1
+</td>
+<td class="alleft">空燃比传感器 (B1 S1) 输出电压
+</td>
+<td class="alleft">最低：0 V，最高：7.99 V
+</td>
+<td class="alleft">2.6 至 3.8 V：怠速运转
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是空燃比传感器的输出电压（在传感器端子处无法测量该电压）。该值由 ECM 根据空燃比传感器的输出电流计算得出（有关实际传感器输出，请参考下面的 AFS Current B1S1）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>执行主动测试的&ldquo;控制喷油量&rdquo;或&ldquo;控制 A/F 传感器喷油量&rdquo;功能，技师可检查传感器的输出电压。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">AFS Current B1S1
+</td>
+<td class="alleft">空燃比传感器 (B1 S1) 输出电流
+</td>
+<td class="alleft">最小：-128 mA，最大：127.99 mA
+</td>
+<td class="alleft">-0.5 至 0.5 mA：怠速运转
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>在理论空燃比（例如，发动机暖机后怠速运转期间）下，空燃比传感器输出电流约为 -0.5 至 0.5 mA。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进行燃油切断期间该值超出 0.7 至 2.2 mA 范围时，空燃比传感器或传感器电路存在故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">A/F Heater Duty #1
+</td>
+<td class="alleft">空燃比传感器加热器占空比 (B1)
+</td>
+<td class="alleft">最小：0%，最大：399.9%
+</td>
+<td class="alleft">0 至 100%
+</td>
+<td class="alleft">该值为除 0% 外的任何值时，向加热器供应电流。
+</td>
+</tr>
+<tr>
+<td class="alleft">O2S B1S2
+</td>
+<td class="alleft">加热型氧传感器 (B1 S2) 输出电压
+</td>
+<td class="alleft">最低：0 V，最高：1.275 V
+</td>
+<td class="alleft">0 至 1 V
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是加热型氧传感器的输出电压。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>值接近 0 V 表示空燃比与理论空燃比相比偏稀。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>值接近 1 V 表示空燃比与理论空燃相比偏浓。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空燃比反馈控制期间，该值在 0 至 1 V 范围内反复变动。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>执行主动测试的&ldquo;控制喷油量&rdquo;或&ldquo;控制 A/F 传感器喷油量&rdquo;功能，技师可检查传感器的输出电压。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">O2 Heater B1S2
+</td>
+<td class="alleft">加热型氧传感器加热器 (B1 S2)
+</td>
+<td class="alleft">Active 或 Not Act
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">O2 Heater Curr Val B1S2
+</td>
+<td class="alleft">加热型氧传感器电流 (B1 S2)
+</td>
+<td class="alleft">最小：0 A，最大：4.999 A
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">该值为除 0 A 外的任何值时，正向加热器供应电流。
+</td>
+</tr>
+<tr>
+<td class="alleft">Short FT #1
+</td>
+<td class="alleft">短期燃油修正 (B1)
+</td>
+<td class="alleft">最小：-100%，最大：99.2%
+</td>
+<td class="alleft">-15 至 15%
+</td>
+<td class="alleft">此项目是&ldquo;短期燃油喷射量补偿比&rdquo;，通过使用空燃比传感器反馈将空燃比保持在理论空燃比。
+</td>
+</tr>
+<tr>
+<td class="alleft">Long FT #1
+</td>
+<td class="alleft">长期燃油修正 (B1)
+</td>
+<td class="alleft">最小：-100%，最大：99.2%
+</td>
+<td class="alleft">-15 至 15%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ECM 将根据 1 号短期燃油修正学习 1 号长期燃油修正值。目标是将 1 号短期燃油修正保持在 0%，从而将混合气空燃比保持在理论空燃比。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>此值用于判定与空燃比控制相关的系统是否存在故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据 1 号短期燃油修正和 1 号长期燃油修正之和判定系统状况（不包括系统转换时间）。
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>15% 或更大：空燃比可能稀。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>-15 至 15%：可判定空燃比正常。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>-15% 或更小：空燃比可能浓。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>根据发动机工作范围（发动机转速 x 负载）分配空燃比反馈学习，且各工作范围均会存储不同的值。&ldquo;Long FT #1&rdquo;表示当前工作范围的学习值。
+</p>
+<p>[A/F Learn Value Idle #1]、[A/F Learn Value Low #1]、[A/F Learn Value Mid1 #1]、[A/F Learn Value Mid2 #1] 和 [A/F Learn Value High #1] 表示不同工作范围的学习值。与&ldquo;Long FT #1&rdquo;相同的学习值表示当前发动机工作范围。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Total FT #1
+</td>
+<td class="alleft">总燃油修正 (B1)
+</td>
+<td class="alleft">最小：-0.5，最大：0.496
+</td>
+<td class="alleft">-0.28 至 0.2：怠速运转
+</td>
+<td class="alleft">Total FT #1 = Short FT #1 + Long FT #1
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel System Status #1
+</td>
+<td class="alleft">燃油系统状态 (B1)
+</td>
+<td class="alleft">OL、CL、OLDrive、OLFault、CLFault 或 Unused
+</td>
+<td class="alleft">CL：暖机后怠速运转
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OL（开环）：尚不能满足闭环的条件。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>CL（闭环）：使用反馈进行燃油控制。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OLDrive：由于驾驶条件（燃油加浓）造成的开环。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OLFault：由于检测到的系统故障造成的开环。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>CLFault：闭环，但用于燃油控制的空燃比传感器发生故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>CL（闭环）：空燃比反馈控制期间，AF Lambda B1S1 约为 1.0 且 AFS Voltage B1S1 约为 3.3 V。
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel System Status #2
+</td>
+<td class="alleft">燃油系统状态 (B2)
+</td>
+<td class="alleft">OL、CL、OLDrive、OLFault、CLFault 或 Unused
+</td>
+<td class="alleft">Unused
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">A/F Learn Value Idle #1
+</td>
+<td class="alleft">怠速时的空燃比学习值 (B1)
+</td>
+<td class="alleft">最小：-50%，最大：49.6%
+</td>
+<td class="alleft">-15 至 15%
+</td>
+<td class="alleft">在发动机暖机（发动机冷却液温度为 80&deg;C [176&deg;F] 或更高）的情况下怠速运转时，进行学习。
+</td>
+</tr>
+<tr>
+<td class="alleft">A/F Learn Value Low #1
+</td>
+<td class="alleft">低负载时的空燃比学习值 (B1)
+</td>
+<td class="alleft">最小：-50%，最大：49.6%
+</td>
+<td class="alleft">-15 至 15%
+</td>
+<td class="alleft">在发动机暖机（发动机冷却液温度为 80&deg;C [176&deg;F] 或更高）的情况下驾驶且在低负载范围（发动机负载范围分四部分时）内工作时进行学习。
+</td>
+</tr>
+<tr>
+<td class="alleft">A/F Learn Value Mid1 #1
+</td>
+<td class="alleft">中等 1 负载时的空燃比学习值 (B1)
+</td>
+<td class="alleft">最小：-50%，最大：49.6%
+</td>
+<td class="alleft">-15 至 15%
+</td>
+<td class="alleft">在发动机暖机（发动机冷却液温度为 80&deg;C [176&deg;F] 或更高）的情况下驾驶且在接近低负载范围的中等负载范围（发动机负载范围分四部分时）内工作时进行学习。
+</td>
+</tr>
+<tr>
+<td class="alleft">A/F Learn Value Mid2 #1
+</td>
+<td class="alleft">中等 2 负载时的空燃比学习值 (B1)
+</td>
+<td class="alleft">最小：-50%，最大：49.6%
+</td>
+<td class="alleft">-15 至 15%
+</td>
+<td class="alleft">在发动机暖机（发动机冷却液温度为 80&deg;C [176&deg;F] 或更高）的情况下驾驶且在接近高负载范围的中等负载范围（发动机负载范围分四部分时）内工作时进行学习。
+</td>
+</tr>
+<tr>
+<td class="alleft">A/F Learn Value High #1
+</td>
+<td class="alleft">高负载时的空燃比学习值 (B1)
+</td>
+<td class="alleft">最小：-50%，最大：49.6%
+</td>
+<td class="alleft">-15 至 15%
+</td>
+<td class="alleft">在发动机暖机（发动机冷却液温度为 80&deg;C [176&deg;F] 或更高）的情况下驾驶且在高负载范围（发动机负载范围分四部分时）内工作时进行学习。
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">点火系统 (Ignition)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">IGN Advance
+</td>
+<td class="alleft">1 号气缸点火正时提前
+</td>
+<td class="alleft">最小：-64 deg，最大：63.5 deg
+</td>
+<td class="alleft">4 至 12 deg：怠速运转
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Knock Feedback Value
+</td>
+<td class="alleft">爆震反馈值
+</td>
+<td class="alleft">最小：-1,024 deg(CA)，最大：1,023.9 deg(CA)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">这是由有无爆震确定的点火正时延迟补偿量。
+<br>
+点火正时 = 最大延迟正时值*1 + 爆震校正学习值*2 + 爆震反馈值*3 + 各补偿量
+<br>
+示例：21 度 (CA) = 10 度 (CA) + 14 度 (CA) - 3 度 (CA)
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*1：最大延迟正时值是由发动机转速和发动机负载确定的恒定值。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*2：如下所示计算爆震校正学习值，以使爆震反馈值尽可能接近 -3 度 (CA)。
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>爆震反馈值小于 -4 度 (CA) 时，爆震校正学习值缓慢减小。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>爆震反馈值大于 -2 度 (CA) 时，爆震校正学习值缓慢增大。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*3：基础值为 -3 度 (CA) 并根据有无爆震进行调节。无爆震时，值增大，有爆震时，值减小。
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>-1 度 (CA)：无爆震且点火正时提前。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>-6 度 (CA)：有爆震且点火正时延迟。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果即使爆震持续，爆震反馈值也不在爆震发生前后变化（例如，保持在 -3 度 (CA)），则可判定未检测到爆震。
+</p>
+</dd>
+<dd class="atten4"><div class="list1">
+<div class="listTitle">可能原因：</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>爆震控制传感器灵敏度存在故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>爆震控制传感器未正确安装。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>线束存在故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Knock Correct Learn Value
+</td>
+<td class="alleft">爆震校正学习值
+</td>
+<td class="alleft">最小：-1,024 deg(CA)，最大：1,023.9 deg(CA)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>请参考&ldquo;爆震反馈值&rdquo;。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>出现爆震或动力不足时，请将下列值与另一相同车型车辆进行比较。
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Engine Speed
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Calculate Load
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>IGN Advance
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Knock Feedback Value
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>Knock Correct Learn Value
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>爆震校正学习值大：无爆震且点火正时提前。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>爆震校正学习值小：有爆震且点火正时延迟。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>即使爆震校正学习值小于对照车辆的值，爆震仍持续（也就是说，点火正时延迟但爆震不停止）时，可能存在长时间恶化造成的沉积物累积或其他类似故障（机油进入气缸、燃油质量差等）。
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Idle Spark Advn Ctrl #1
+</td>
+<td class="alleft">单个气缸正时提前补偿量（1 号）
+</td>
+<td class="alleft">最小：0 deg(CA)，最大：15.93 deg(CA)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是用于稳定怠速的点火正时提前补偿量（每个气缸都有一个单独的值）。某个气缸的转速降低时，系统提前该气缸的正时以恢复转速并稳定怠速。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>可以使用该项目来帮助确定不正常工作的特定气缸。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Idle Spark Advn Ctrl #2
+</td>
+<td class="alleft">单个气缸正时提前补偿量（2 号）
+</td>
+<td class="alleft">最小：0 deg(CA)，最大：15.93 deg(CA)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是用于稳定怠速的点火正时提前补偿量（每个气缸都有一个单独的值）。某个气缸的转速降低时，系统提前该气缸的正时以恢复转速并稳定怠速。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>可以使用该项目来帮助确定不正常工作的特定气缸。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Idle Spark Advn Ctrl #3
+</td>
+<td class="alleft">单个气缸正时提前补偿量（3 号）
+</td>
+<td class="alleft">最小：0 deg(CA)，最大：15.93 deg(CA)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是用于稳定怠速的点火正时提前补偿量（每个气缸都有一个单独的值）。某个气缸的转速降低时，系统提前该气缸的正时以恢复转速并稳定怠速。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>可以使用该项目来帮助确定不正常工作的特定气缸。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Idle Spark Advn Ctrl #4
+</td>
+<td class="alleft">单个气缸正时提前补偿量（4 号）
+</td>
+<td class="alleft">最小：0 deg(CA)，最大：15.93 deg(CA)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是用于稳定怠速的点火正时提前补偿量（每个气缸都有一个单独的值）。某个气缸的转速降低时，系统提前该气缸的正时以恢复转速并稳定怠速。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>可以使用该项目来帮助确定不正常工作的特定气缸。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">进气控制 (Ptrl Intake Control)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">ACIS VSV
+</td>
+<td class="alleft">占空比控制型真空开关阀（声控进气系统）状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">此为 ECM 控制指令。
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">VVT 控制 (Ptrl Valve Control)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">VVT Control Status #1
+</td>
+<td class="alleft">可变气门正时 (VVT) 控制状态 (B1)
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ON：ECM 发送指令以改变正时（即使提前正时，正时仍保持不变，且既不再延迟也不再提前时，该值变为 OFF）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OFF：系统指令正时变为最大延迟正时。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT Advance Fail
+</td>
+<td class="alleft">VVT 控制故障状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">OFF：正常
+</td>
+<td class="alleft">ON：存在进气 VVT 正时提前故障。
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT Aim Angle #1
+</td>
+<td class="alleft">VVT 保持占空比学习值 (B1)
+</td>
+<td class="alleft">最小：0%，最大：399.9%
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该值表示操作凸轮轴正时机油控制阀总成以封闭凸轮轴正时机油控制阀总成通道并保持 VVT 控制器提前状态所需的占空比。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>仅在主动测试期间可用。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT Change Angle #1
+</td>
+<td class="alleft">VVT 位移角 (B1)
+</td>
+<td class="alleft">最小：0 DegFR，最大：639.9 DegFR
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是强制操作期间的 VVT 位移角。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>仅在主动测试期间可用。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>通过在主动测试期间检查 VVT 变化角度，还可以判定是否输出凸轮轴位置传感器信号。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT OCV Duty #1
+</td>
+<td class="alleft">VVT 凸轮轴正时机油控制阀工作占空比 (B1)
+</td>
+<td class="alleft">最小：0%，最大：399.9%
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是强制操作所要求的占空比值。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>仅在主动测试期间可用。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT Ex Hold Lrn Val #1
+</td>
+<td class="alleft">排气 VVT 保持占空比学习值 (B1)
+</td>
+<td class="alleft">最小：0%，最大：399.9%
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该值表示操作凸轮轴正时机油控制阀总成以封闭凸轮轴正时机油控制阀总成通道并保持 VVT 控制器提前状态所需的占空比。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>仅在主动测试期间可用。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT Ex Chg Angle #1
+</td>
+<td class="alleft">排气 VVT 位移角 (B1)
+</td>
+<td class="alleft">最小：0 DegFR，最大：639.9 DegFR
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">这是强制操作期间的位移角。
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT Ex OCV Duty #1
+</td>
+<td class="alleft">VVT 排气凸轮轴正时机油控制阀占空比 (B1)
+</td>
+<td class="alleft">最小：0%，最大：399.9%
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是强制操作所要求的占空比值。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>仅在主动测试期间可用。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">各种车辆状况 2 (All Data)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">VN Turbo Type
+</td>
+<td class="alleft">VN 涡轮类型
+</td>
+<td class="alleft">Not Avl、Commo、Vacuum、CAN Com 或 DC
+</td>
+<td class="alleft">Not Avl
+</td>
+<td class="alleft">指示 VN 涡轮叶片驱动方法。
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">催化剂 (Ptrl CAT Converter)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Catalyst Temp B1S1
+</td>
+<td class="alleft">催化剂温度 (B1 S1)
+</td>
+<td class="alleft">最低：-40&deg;C (-40&deg;F)，最高：6513.5&deg;C (11756.3&deg;F)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是 ECM 估算的前催化剂温度。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该值包括在检测催化剂恶化 (DTC P0420) 等的条件中，因此在再现故障条件时，应使用其作为参考。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Catalyst Temp B1S2
+</td>
+<td class="alleft">催化剂温度 (B1 S2)
+</td>
+<td class="alleft">最低：-40&deg;C (-40&deg;F)，最高：6513.5&deg;C (11756.3&deg;F)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">这是 ECM 估算的后催化剂温度。
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">各种车辆状况 3 (All Data)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Starter Signal
+</td>
+<td class="alleft">起动机信号
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ON：起动机工作
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OFF：起动机不工作
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Power Steering Signal
+</td>
+<td class="alleft">动力转向开关信号状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：动力转向工作
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Neutral Position SW Signal
+</td>
+<td class="alleft">驻车/空档位置开关状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：换档杆置于 P 或 N
+</td>
+<td class="alleft">仅 CVT 车型显示该项目。
+</td>
+</tr>
+<tr>
+<td class="alleft">Clutch Switch
+</td>
+<td class="alleft">离合器开关状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：踩下离合器踏板
+</td>
+<td class="alleft">仅 M/T 车型显示该项目。
+</td>
+</tr>
+<tr>
+<td class="alleft">Stop Light Switch
+</td>
+<td class="alleft">刹车灯开关状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ON：踩下制动踏板
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OFF：完全松开制动踏板
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">A/C Signal
+</td>
+<td class="alleft">空调开关状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：空调打开
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Closed Throttle Position SW
+</td>
+<td class="alleft">节气门关闭位置开关状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ON：节气门全关
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OFF：节气门打开
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel Cut Condition
+</td>
+<td class="alleft">燃油切断条件
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：燃油切断工作
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Immobiliser Communication
+</td>
+<td class="alleft">停机系统通信
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：正常
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">检查模式 (Check Mode)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Check Mode
+</td>
+<td class="alleft">检查模式
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：检查模式打开
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">SPD Test Result
+</td>
+<td class="alleft">车速传感器的检查模式结果
+</td>
+<td class="alleft">Compl 或 Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Misfire Test Result
+</td>
+<td class="alleft">缺火监视的检查模式结果
+</td>
+<td class="alleft">Compl 或 Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">OXS1 Test Result
+</td>
+<td class="alleft">加热型氧传感器 (B1) 的检查模式结果
+</td>
+<td class="alleft">Compl 或 Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">A/F Test Results #1
+</td>
+<td class="alleft">空燃比传感器 (B1) 的检查模式结果
+</td>
+<td class="alleft">Compl 或 Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<p>*：请参考检查模式程序。
+</p>
+<p>单击此处 <a class="mlink" href="javascript:void(0)">发动机/混合动力系统&gt;2ZR-FE 发动机控制系统&gt;SFI 系统&gt;检查模式程序<span class="invisible">201406,999999,_51,_023958,_0117858,RM100000000DER0,</span></a>
+
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">测试结果 (Monitor Status)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Complete Parts Monitor
+</td>
+<td class="alleft">全部零部件监视
+</td>
+<td class="alleft">Not Avl 或 Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel System Monitor
+</td>
+<td class="alleft">燃油系统监视
+</td>
+<td class="alleft">Not Avl 或 Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Misfire Monitor
+</td>
+<td class="alleft">缺火监视
+</td>
+<td class="alleft">Not Avl 或 Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">EGR/VVT Monitor
+</td>
+<td class="alleft">EGR/VVT 监视
+</td>
+<td class="alleft">Not Avl 或 Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">EGR/VVT Monitor
+</td>
+<td class="alleft">EGR/VVT 监视
+</td>
+<td class="alleft">Compl 或 Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">O2S (A/FS) Heater Monitor
+</td>
+<td class="alleft">O2S (A/FS) 加热器监视
+</td>
+<td class="alleft">Not Avl 或 Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">O2S (A/FS) Heater Monitor
+</td>
+<td class="alleft">O2S (A/FS) 加热器监视
+</td>
+<td class="alleft">Compl 或 Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">O2S (A/FS) Monitor
+</td>
+<td class="alleft">O2S (A/FS) 监视
+</td>
+<td class="alleft">Not Avl 或 Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">O2S (A/FS) Monitor
+</td>
+<td class="alleft">O2S (A/FS) 监视
+</td>
+<td class="alleft">Compl 或 Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">A/C Monitor
+</td>
+<td class="alleft">空调监视
+</td>
+<td class="alleft">Not Avl 或 Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">A/C Monitor
+</td>
+<td class="alleft">空调监视
+</td>
+<td class="alleft">Compl 或 Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">2nd Air Monitor
+</td>
+<td class="alleft">第二次空气监视
+</td>
+<td class="alleft">Not Avl 或 Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">2nd Air Monitor
+</td>
+<td class="alleft">第二次空气监视
+</td>
+<td class="alleft">Compl 或 Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">EVAP Monitor
+</td>
+<td class="alleft">EVAP 监视
+</td>
+<td class="alleft">Not Avl 或 Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">EVAP Monitor
+</td>
+<td class="alleft">EVAP 监视
+</td>
+<td class="alleft">Compl 或 Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Heated Catalyst Monitor
+</td>
+<td class="alleft">加热型催化剂监视
+</td>
+<td class="alleft">Not Avl 或 Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Heated Catalyst Monitor
+</td>
+<td class="alleft">加热型催化剂监视
+</td>
+<td class="alleft">Compl 或 Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Catalyst Monitor
+</td>
+<td class="alleft">催化剂监视
+</td>
+<td class="alleft">Not Avl 或 Avail
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Catalyst Monitor
+</td>
+<td class="alleft">催化剂监视
+</td>
+<td class="alleft">Compl 或 Incmpl
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<p>*:
+</p>
+<p>Avail：车上监视可用。
+</p>
+<p>Not Avl：车上监视不可用。
+</p>
+<p>Incmpl / Compl：如果监视以前至少完成一次，则该项目从 Incmpl 变为 Compl。发动机开关置于 OFF 位置时，该项目不变化。但是，清除 DTC 或断开蓄电池电缆时，该项目返回 Incmpl。
+</p>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">各种车辆状况 4 (All Data)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">TC Terminal
+</td>
+<td class="alleft">端子 TC 状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft"># Codes(Include History)
+</td>
+<td class="alleft">代码数量
+</td>
+<td class="alleft">最少：0，最多：255
+</td>
+<td class="alleft">0
+</td>
+<td class="alleft">这是存储的 DTC 的数量。
+</td>
+</tr>
+<tr>
+<td class="alleft">MIL
+</td>
+<td class="alleft">MIL 状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">OFF
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">MIL ON Run Distance
+</td>
+<td class="alleft">MIL 点亮后行驶距离
+</td>
+<td class="alleft">最短：0 km (0 mile)，最长：65,535 km (40,723 mile)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">这是 MIL 点亮后行驶的距离。
+</td>
+</tr>
+<tr>
+<td class="alleft">Running Time from MIL ON
+</td>
+<td class="alleft">MIL 点亮后的行驶时间
+</td>
+<td class="alleft">最短：0 分钟，最长：65535 分钟
+</td>
+<td class="alleft">自 MIL 点亮后的行驶时间
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Time after DTC Cleared
+</td>
+<td class="alleft">清除 DTC 后的时间
+</td>
+<td class="alleft">最短：0 分钟，最长：65535 分钟
+</td>
+<td class="alleft">清除 DTC 后的时间
+</td>
+<td class="alleft">这是清除 DTC 后（或车辆出厂后）经过的时间。未计算发动机开关置于 OFF 位置后经过的时间。
+</td>
+</tr>
+<tr>
+<td class="alleft">Distance from DTC Cleared
+</td>
+<td class="alleft">清除 DTC 后的行驶距离
+</td>
+<td class="alleft">最短：0 km (0 mile)，最长：65,535 km (40,723 mile)
+</td>
+<td class="alleft">清除 DTC 后的行驶距离
+</td>
+<td class="alleft">这是清除 DTC 后（或车辆出厂后）的行驶距离。
+</td>
+</tr>
+<tr>
+<td class="alleft">Warmup Cycle Cleared DTC
+</td>
+<td class="alleft">清除 DTC 后的暖机循环
+</td>
+<td class="alleft">最少：0，最多：255
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是清除 DTC 后的暖机循环数。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是清除 DTC 后（或车辆出厂后）发动机暖机*的次数。
+</p>
+<p>*：发动机暖机是指发动机起动后，发动机冷却液温度升高 20&deg;C (36&deg;F) 或更高并达到 70&deg;C (158&deg;F) 或更高。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Dist Batt Cable Disconnect
+</td>
+<td class="alleft">蓄电池电缆断开后的行驶距离
+</td>
+<td class="alleft">最短：0 Km (0 mile)，最长：65,535 Km (40,723 mile)
+</td>
+<td class="alleft">蓄电池电缆断开后车辆行驶的总距离
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">IG OFF Elapsed Time
+</td>
+<td class="alleft">发动机开关置于 OFF 位置后的时间
+</td>
+<td class="alleft">最短：0 分钟，最长：655,350 分钟
+</td>
+<td class="alleft">发动机开关置于 OFF 位置后的累计时间
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">OBD Requirements
+</td>
+<td class="alleft">OBD 要求
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">EOBD (Euro OBD)
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Number of Emission DTC
+</td>
+<td class="alleft">排放相关 DTC
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">这是存储的与排放相关的 DTC 数量。
+</td>
+</tr>
+<tr>
+<td class="alleft">TC and TE1
+</td>
+<td class="alleft">DLC3 的端子 TC 和 CG (TE1)
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Total Distance Traveled
+</td>
+<td class="alleft">总行驶距离
+</td>
+<td class="alleft">最短：0 km (0 mile)，最长：16,777,215 km (10,425,361 mile)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">缺火 (Ptrl Misfire)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Ignition Trig.Count
+</td>
+<td class="alleft">点火计数器
+</td>
+<td class="alleft">最少：0，最多：65,535
+</td>
+<td class="alleft">0 至 400
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是累计点火次数。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>每点火一次，该计数器增加 1（缺火监视停止时停止）。每转动 200 转清除一次该值。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>各气缸的缺火率由各气缸的缺火数除以 Ignition Trig.Count 的值计算得出。 
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>各气缸的缺火率 = 1 号至 4 号气缸缺火数/Ignition Trig.Count
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>对于四缸发动机，该值的范围为 0 至 400。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>对于六缸发动机，该值的范围为 0 至 600。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>对于八缸发动机，该值的范围为 0 至 800。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Cylinder #1 Misfire Count
+</td>
+<td class="alleft">1 号气缸缺火数
+</td>
+<td class="alleft">最少：0，最多：255
+</td>
+<td class="alleft">0
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是各单个气缸的缺火数。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>每缺火一次该计数器的读数增加一次且每转动 200 转清除一次。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检查该项目有助于判定故障气缸。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Cylinder #2 Misfire Count
+</td>
+<td class="alleft">2 号气缸缺火数
+</td>
+<td class="alleft">最少：0，最多：255
+</td>
+<td class="alleft">0
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是各单个气缸的缺火数。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>每缺火一次该计数器的读数增加一次且每转动 200 转清除一次。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检查该项目有助于判定故障气缸。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Cylinder #3 Misfire Count
+</td>
+<td class="alleft">3 号气缸缺火数
+</td>
+<td class="alleft">最少：0，最多：255
+</td>
+<td class="alleft">0
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是各单个气缸的缺火数。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>每缺火一次该计数器的读数增加一次且每转动 200 转清除一次。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检查该项目有助于判定故障气缸。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Cylinder #4 Misfire Count
+</td>
+<td class="alleft">4 号气缸缺火数
+</td>
+<td class="alleft">最少：0，最多：255
+</td>
+<td class="alleft">0
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是各单个气缸的缺火数。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>每缺火一次该计数器的读数增加一次且每转动 200 转清除一次。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检查该项目有助于判定故障气缸。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">All Cylinders Misfire Count
+</td>
+<td class="alleft">所有气缸缺火数
+</td>
+<td class="alleft">最少：0，最多：255
+</td>
+<td class="alleft">0 至 35
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是所有气缸的总缺火数。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>每缺火一次该计数器的读数增加一次，最大值为 255 且每转动 1,000 转清除一次。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Misfire RPM
+</td>
+<td class="alleft">发动机首次缺火时的转速范围
+</td>
+<td class="alleft">最低：0 rpm，最高：6,375 rpm
+</td>
+<td class="alleft">0 rpm：0 次缺火
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是发生缺火时记录的平均发动机转速。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该值比定格数据中存储的发动机转速值和发动机负载值更接近发生缺火时的车辆实际情况。再现故障条件时，使用该值作为参考。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Misfire Load
+</td>
+<td class="alleft">发动机首次缺火时的负载范围
+</td>
+<td class="alleft">最小：0 g/rev，最大：3.98 g/rev
+</td>
+<td class="alleft">0 g/rev：0 次缺火
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是发生缺火时记录的平均发动机负载。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该值比定格数据中存储的发动机转速值和发动机负载值更接近发生缺火时的车辆实际情况。再现故障条件时，使用该值作为参考。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>将 g/rev 转换为 gm/sec：RPM / 60 x g/rev = gm/sec。
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Misfire Margin
+</td>
+<td class="alleft">缺火监视
+</td>
+<td class="alleft">最小：-128%，最大：127%
+</td>
+<td class="alleft">0 至 127%：怠速运转
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是缺火检测极限。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>缺火极限 =（缺火检测阈值 - 最大发动机转速变化）/ 缺火检测阈值 x 100%
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机转速变化大并大于缺火检测阈值时，开始缺火计数。缺火极限是判定发动机缺火前，发动机转速变化相对于阈值可增大的范围度量。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该值大表示判定发动机缺火前发动机转速变化范围较大。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>示例：
+</p>
+<p>判定发动机缺火时，缺火极限 = -128 至 0%。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">各种车辆状况 5 (All Data)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Engine Speed (Starter Off)
+</td>
+<td class="alleft">起动机关闭时的发动机转速
+</td>
+<td class="alleft">最低：0 rpm，最高：51,199 rpm
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">这是起动发动机后瞬间的发动机转速。
+</td>
+</tr>
+<tr>
+<td class="alleft">Starter Count
+</td>
+<td class="alleft">发动机开关置于 ON (IG) 位置后起动机起动的次数
+</td>
+<td class="alleft">最少：0，最多：255
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">这是当前行程期间的起动机起动次数。
+</td>
+</tr>
+<tr>
+<td class="alleft">Run Dist of Previous Trip
+</td>
+<td class="alleft">上一行程期间的行驶距离
+</td>
+<td class="alleft">最短：0 km (0 mile)，最长：655.35 km (407.23 mile)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机起动后 5 秒内，即 DTC P1604（起动故障）检测期间，该参数指示上一行程期间的行驶距离。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机起动 5 秒后，该参数指示根据车速信号计算的当前行程期间的行驶距离。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>出现起动故障（检测到 DTC P1604）时，定格数据中的 Run Dist of Previous Trip 表示上一行程期间的行驶距离，但在其他所有情况下，比如数据表的快照数据（实时测量）或存储除 P1604 以外的其他 DTC 时出现的定格数据，该值表示当前行程期间的行驶距离。
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Starting Time
+</td>
+<td class="alleft">发动机起动前经过的时间（起动机起动后直至发动机转速达到 400 rpm）
+</td>
+<td class="alleft">最短：0 ms，最长：655,350 ms
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是起动机起动后直至发动机转速达到 400 rpm 所经过的时间。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机起动且该值显示 0 ms 5 秒后清除该值。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Previous Trip Coolant Temp
+</td>
+<td class="alleft">上一行程期间的发动机冷却液温度
+</td>
+<td class="alleft">最低：-40&deg;C (-40&deg;F)，最高：215&deg;C (419&deg;F)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机起动后 120 秒内，该参数指示上一行程结束时的发动机冷却液温度。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机起动 120 秒后，该参数指示当前行程期间的发动机冷却液温度。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Previous Trip Intake Temp
+</td>
+<td class="alleft">上一行程期间的进气温度
+</td>
+<td class="alleft">最低：-40&deg;C (-40&deg;F)，最高：215&deg;C (419&deg;F)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机起动后 120 秒内，该参数指示上一行程结束时的进气温度。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机起动 120 秒后，该参数指示当前行程期间的进气温度。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Oil Temperature
+</td>
+<td class="alleft">发动机机油温度（估算温度）
+</td>
+<td class="alleft">最低：-40&deg;C (-40&deg;F)，最高：215&deg;C (419&deg;F)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Previous Trip Eng Oil Temp
+</td>
+<td class="alleft">上一行程期间的发动机机油温度
+</td>
+<td class="alleft">最低：-40&deg;C (-40&deg;F)，最高：215&deg;C (419&deg;F)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Ambient Temp for A/C
+</td>
+<td class="alleft">空调环境温度
+</td>
+<td class="alleft">最低：-40&deg;C (-40&deg;F)，最高：215&deg;C (419&deg;F)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Previous Trip Ambient Temp
+</td>
+<td class="alleft">上一行程期间的环境温度
+</td>
+<td class="alleft">最低：-40&deg;C (-40&deg;F)，最高：215&deg;C (419&deg;F)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Start Hesitation
+</td>
+<td class="alleft">起动发动机时的喘抖历史
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">起动期间发动机转速未达到 500 rpm 时，该值变为 ON。
+</td>
+</tr>
+<tr>
+<td class="alleft">Low Rev for Eng Start
+</td>
+<td class="alleft">起动发动机后的低发动机转速历史
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">起动发动机后约 2 秒内发动机转速降至 200 rpm 或更低时，该项目变为 ON。
+</td>
+</tr>
+<tr>
+<td class="alleft">Minimum Engine Speed
+</td>
+<td class="alleft">最低发动机转速
+</td>
+<td class="alleft">最低：0 rpm，最高：51,199 rpm
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是发动机起动且 ISC 学习完成后的整个行程中检测到的最低发动机转速。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机熄火、存在起动故障或怠速不稳时使用。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Fuel Cut Elps Time
+</td>
+<td class="alleft">发动机高速运转后经过的时间
+</td>
+<td class="alleft">最短：0 秒，最长：68,746 秒
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">发动机高转速情况（高于燃油切断时的转速 + 500 rpm 或更多）出现，燃油切断后经过的时间。
+</td>
+</tr>
+<tr>
+<td class="alleft">Electric Fan Motor
+</td>
+<td class="alleft">电风扇马达工作状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Brake Override System
+</td>
+<td class="alleft">制动优先系统状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：制动优先系统工作
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Idle Fuel Cut
+</td>
+<td class="alleft">怠速燃油切断
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：燃油切断工作
+</td>
+<td class="alleft">节气门全关且发动机转速高时，怠速燃油切断 =&ldquo;ON&rdquo;。
+</td>
+</tr>
+<tr>
+<td class="alleft">FC TAU
+</td>
+<td class="alleft">燃油切断 TAU（轻载时切断燃油）
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">ON：燃油切断工作
+</td>
+<td class="alleft">轻载时进行燃油切断以防止发动机不完全燃烧。
+</td>
+</tr>
+<tr>
+<td class="alleft">Immobiliser Fuel Cut
+</td>
+<td class="alleft">停机系统燃油切断状态
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Immobiliser Fuel Cut History
+</td>
+<td class="alleft">停机系统燃油切断历史
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alleft">OFF
+</td>
+<td class="alleft">输出 DTC P1604 且停机系统燃油切断历史指示 ON 时，由于发动机停机系统操作而导致发动机无法起动。
+</td>
+</tr>
+<tr>
+<td class="alleft">Electrical Load Signal 1
+</td>
+<td class="alleft">电气负载信号
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Electrical Load Signal 2
+</td>
+<td class="alleft">电气负载信号
+</td>
+<td class="alleft">ON 或 OFF
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">各种车辆状况 6 (Vehicle Information)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Model Code
+</td>
+<td class="alleft">车型代码
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">用于识别车型代码：ZRE18#
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Type
+</td>
+<td class="alleft">发动机类型
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">用于识别发动机类型：2ZRFE
+</td>
+</tr>
+<tr>
+<td class="alleft">Cylinder Number
+</td>
+<td class="alleft">气缸数
+</td>
+<td class="alleft">最少：0，最多：255
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">用于识别气缸数：4
+</td>
+</tr>
+<tr>
+<td class="alleft">Transmission Type
+</td>
+<td class="alleft">变速器（传动桥）类型
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">用于识别变速器（传动桥）类型：CVT 或 MT
+</td>
+</tr>
+<tr>
+<td class="alleft">Transmission Type2
+</td>
+<td class="alleft">变速器（传动桥）类型
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">NA
+</td>
+<td class="alleft">Unused
+</td>
+</tr>
+<tr>
+<td class="alleft">Destination
+</td>
+<td class="alleft">目的地
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">用于识别目的地：W
+</td>
+</tr>
+<tr>
+<td class="alleft">Model Year
+</td>
+<td class="alleft">车型年款
+</td>
+<td class="alleft">最早：1900，最晚：2155
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">用于识别车型年款：20##
+</td>
+</tr>
+<tr>
+<td class="alleft">System Identification
+</td>
+<td class="alleft">系统识别
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">用于识别发动机系统：汽油（汽油发动机）
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">压缩压力 (Compression)
+</span></p>
+<br>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Powertrain &gt; Engine and ECT &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:40%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Engine Speed of Cyl #1
+</td>
+<td class="alleft">1 号气缸发动机转速
+</td>
+<td class="alleft">最低：0 rpm，最高：51,199 rpm
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该值仅在使用主动测试检查气缸压缩压力时输出。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是发动机曲轴转动情况下燃油切断期间测量的各气缸发动机转速。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>压缩压力损失时，该气缸的发动机转速增大。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>多个气缸出现压缩压力损失时，多个气缸发动机转速增大，因此无法判断哪个气缸出现压缩压力损失。此时，必须进行压缩压力测量。
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Speed of Cyl #2
+</td>
+<td class="alleft">2 号气缸发动机转速
+</td>
+<td class="alleft">最低：0 rpm，最高：51,199 rpm
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该值仅在使用主动测试检查气缸压缩压力时输出。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是发动机曲轴转动情况下燃油切断期间测量的各气缸发动机转速。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>压缩压力损失时，该气缸的发动机转速增大。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>多个气缸出现压缩压力损失时，多个气缸发动机转速增大，因此无法判断哪个气缸出现压缩压力损失。此时，必须进行压缩压力测量。
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Speed of Cyl #3
+</td>
+<td class="alleft">3 号气缸发动机转速
+</td>
+<td class="alleft">最低：0 rpm，最高：51,199 rpm
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该值仅在使用主动测试检查气缸压缩压力时输出。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是发动机曲轴转动情况下燃油切断期间测量的各气缸发动机转速。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>压缩压力损失时，该气缸的发动机转速增大。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>多个气缸出现压缩压力损失时，多个气缸发动机转速增大，因此无法判断哪个气缸出现压缩压力损失。此时，必须进行压缩压力测量。
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Speed of Cyl #4
+</td>
+<td class="alleft">4 号气缸发动机转速
+</td>
+<td class="alleft">最低：0 rpm，最高：51,199 rpm
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该值仅在使用主动测试检查气缸压缩压力时输出。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>这是发动机曲轴转动情况下燃油切断期间测量的各气缸发动机转速。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>压缩压力损失时，该气缸的发动机转速增大。
+</p>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>多个气缸出现压缩压力损失时，多个气缸发动机转速增大，因此无法判断哪个气缸出现压缩压力损失。此时，必须进行压缩压力测量。
+</p>
+</dd>
+</dl>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Av Engine Speed of All Cyl
+</td>
+<td class="alleft">所有气缸的平均发动机转速
+</td>
+<td class="alleft">最低：0 rpm，最高：51,199 rpm
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">该值仅在使用主动测试检查气缸压缩压力时输出。
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">主动测试
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 进行主动测试，无需拆下任何零件即可操作继电器、VSV、执行器及其他项目。这种非侵入式功能检查非常有用，可在零件或配线受到干扰之前发现间歇性工作。故障排除时，尽早进行主动测试是节省诊断时间的一种方法。进行主动测试时可以显示数据表信息。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>使发动机暖机。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将发动机开关置于 OFF 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">f.</div>
+<div class="step2Body">
+<p>进入以下菜单：Powertrain / Engine and ECT / Active Test。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">g.</div>
+<div class="step2Body">
+<p>根据 GTS 上的显示，进行主动测试。
+</p>
+<dl class="gtsActiveTestTable hasAllTable">
+<dt class="gtsActiveTestTable">Powertrain &gt; Engine and ECT &gt; Active Test</dt>
+<dd class="gtsActiveTestTable">
+<table summary="active-test-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:39%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">控制范围
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Control the Injection Volume
+</td>
+<td class="alleft">改变喷油量
+</td>
+<td class="alleft">在 -12.5% 和 24.8% 之间
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>同时测试所有喷油器总成。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>在 3,000 rpm 或更低时进行测试。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>喷油量可在控制范围内以微小梯度改变。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>控制喷油量可检查空燃比传感器和加热型氧传感器的输出电压，并将其绘制成图表。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>要进行测试，进入以下菜单：Powertrain / Engine and ECT / Active Test / Control the Injection Volume / All Data / AFS Voltage B1S1 and O2S B1S2。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主动测试期间，空燃比反馈控制和反馈学习停止。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the Injection Volume for A/F Sensor
+</td>
+<td class="alleft">改变喷油量
+</td>
+<td class="alleft">-12.5%/0%/12.5%
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>同时测试所有喷油器总成。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>在 3,000 rpm 或更低时进行测试。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>控制 A/F 传感器喷油量可检查空燃比传感器和加热型氧传感器的输出电压，并将其绘制成图表。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>要进行测试，进入以下菜单：Powertrain / Engine and ECT / Active Test / Control the Injection Volume for A/F Sensor / All Data / AFS Voltage B1S1 and O2S B1S2。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主动测试期间，空燃比反馈控制和反馈学习停止。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>参见波形 *2。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Activate the VSV for Intake Control
+</td>
+<td class="alleft">激活占空比控制型真空开关阀（声控进气系统）
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关置于 ON (IG) 位置时，进行该测试。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>该测试激活进气控制阀总成仅 10 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Activate the VSV for Evap Control
+</td>
+<td class="alleft">激活净化 VSV 控制
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>占空比约为 30% 时，净化 VSV 打开。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>参见波形 *4。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the Fuel Pump / Speed
+</td>
+<td class="alleft">激活燃油泵
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alleft">满足以下条件时可进行该测试：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机停止。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>换档杆置于 P 或空档。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the Fuel Pump Duty
+</td>
+<td class="alleft">激活燃油泵占空比
+</td>
+<td class="alleft">25%/80%
+</td>
+<td class="alleft">满足以下条件时可进行该测试：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机怠速运转。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>换档杆置于 P 或空档。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Connect the TC and TE1
+</td>
+<td class="alleft">连接和断开 TC 和 CG (TE1)
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ON：TC 和 CG (TE1) 连接。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>OFF：TC 和 CG (TE1) 断开。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>满足以下条件时可进行该测试：
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>发动机停止。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>换档杆置于 P 或空档。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the Idle Fuel Cut Prohibit
+</td>
+<td class="alleft">禁止怠速燃油切断控制
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alleft">满足以下条件时可进行该测试：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机停止。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>换档杆置于 P 或空档。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the Electric Cooling Fan
+</td>
+<td class="alleft">控制电动冷却风扇
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alleft">满足以下条件时可进行该测试：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机停止。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>换档杆置于 P 或空档。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the ETCS Open/Close Slow Speed
+</td>
+<td class="alleft">节气门执行器
+</td>
+<td class="alleft">Close/Open
+<br>
+Open：节气门缓慢打开
+</td>
+<td class="alleft">满足以下条件时可进行该测试：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机停止。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>完全踩下加速踏板（加速踏板位置：58 度或更大）。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>换档杆置于 P 或空档。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the ETCS Open/Close Fast Speed
+</td>
+<td class="alleft">节气门执行器
+</td>
+<td class="alleft">Close/Open
+<br>
+Open：节气门快速打开
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>同上。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>参见波形 *3。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the VVT Linear (Bank1)
+</td>
+<td class="alleft">控制凸轮轴正时机油控制阀总成（进气凸轮轴）
+</td>
+<td class="alleft">-128 至 127%（该值增加至当前凸轮轴正时机油控制阀控制占空比）
+<br>
+100%：最大提前
+<br>
+-100%：最大延迟
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>设定凸轮轴正时机油控制阀总成 100% 运行时，发动机熄火或怠速不稳。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>满足以下条件时可进行该测试：
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>发动机怠速运转。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>换档杆置于 P 或空档。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>可能因主动测试操作存储与 VVT 系统相关的 DTC，但这并不是故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>参见波形 *5。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the VVT System (Bank1)
+</td>
+<td class="alleft">打开和关闭凸轮轴正时机油控制阀总成（进气凸轮轴）
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>凸轮轴正时机油控制阀总成（进气凸轮轴）打开时，发动机熄火或怠速不稳。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>凸轮轴正时机油控制阀总成（进气凸轮轴）关闭时，发动机运转且怠速正常。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>满足以下条件时可进行该测试：
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>发动机怠速运转。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>换档杆置于 P 或空档。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>可能因主动测试操作存储与 VVT 系统相关的 DTC，但这并不是故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the VVT Exhaust Linear (Bank1)
+</td>
+<td class="alleft">控制凸轮轴正时机油控制阀总成（排气凸轮轴）
+</td>
+<td class="alleft">-128 至 127%（该值增加至当前凸轮轴正时机油控制阀控制占空比）
+<br>
+100%：最大延迟
+<br>
+-100%：最大提前
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>设定凸轮轴正时机油控制阀总成 100% 运行时，发动机熄火或怠速不稳。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>满足以下条件时可进行该测试：
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>发动机怠速运转。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">&middot;</div>
+<div class="list2Body"><p>换档杆置于 P 或空档。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>可能因主动测试操作存储与 VVT 系统相关的 DTC，但这并不是故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>参见波形 *6。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the Select Cylinder Fuel Cut
+</td>
+<td class="alleft">所选气缸（1 号至 4 号气缸）喷油器燃油切断
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>#1/#2/#3/#4
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ON/OFF
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft">满足以下条件时可进行该测试：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车辆停止。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机怠速运转。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>换档杆置于 P 或空档。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Control the All Cylinders Fuel Cut
+</td>
+<td class="alleft">所有气缸燃油切断
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alleft">满足以下条件时可进行该测试：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车辆停止。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机怠速运转。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>换档杆置于 P 或空档。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Check the Cylinder Compression
+</td>
+<td class="alleft">检查气缸压缩压力
+</td>
+<td class="alleft">ON/OFF
+</td>
+<td class="alleft">在所有气缸中，燃油喷射和点火停止。
+<br>
+*1
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>*1:
+</p>
+</dd>
+<dd class="atten4">
+<p>在此主动测试中，所有气缸的燃油和点火切断。然后必须起动发动机约 10 秒。此时，测量各气缸的转速。如果一个气缸的转速高于其他气缸，则可以判定该气缸的压缩压力低于其他气缸。
+</p>
+</dd>
+</dl>
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>使发动机暖机。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>将发动机开关置于 OFF 位置。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">3.</div>
+<div class="list1Body"><p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">4.</div>
+<div class="list1Body"><p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">5.</div>
+<div class="list1Body"><p>打开 GTS。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">6.</div>
+<div class="list1Body"><p>进入以下菜单：Powertrain / Engine and ECT / Active Test / Check the Cylinder Compression。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>要显示全部数据表，按下 Primary 按钮旁的下拉菜单按钮。然后选择 Compression。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">7.</div>
+<div class="list1Body"><p>按下快照按钮以打开快照功能。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用快照功能，可在主动测试期间记录数据。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">8.</div>
+<div class="list1Body"><p>发动机未运转时，按下 ON 或 OFF 按钮以将 Check the Cylinder Compression 切换至 ON。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>执行上述程序后，检查气缸压缩压力将启动。禁止所有气缸的燃油喷射，且各气缸的发动机转速测量将进入备用模式。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">9.</div>
+<div class="list1Body"><p>起动发动机约 10 秒。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>继续起动发动机，直至值从默认值 (51,199 rpm) 改变。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">10.</div>
+<div class="list1Body"><p>监视 GTS 上显示的发动机转速 (Engine Speed of Cyl #1 to #4)。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>首先，GTS 显示极高的气缸发动机转速值。起动发动机约 10 秒后，各气缸发动机转速测量值将变为实际发动机转速。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>不要使发动机起动持续 20 秒或更长时间。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>在检查气缸压缩压力切换至 ON 且发动机起动一次后，如果必须再次起动发动机，则按下 Exit 返回主动测试菜单画面。然后将检查气缸压缩切换至 ON 并起动发动机。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用充足电的蓄电池。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">11.</div>
+<div class="list1Body"><p>停止起动发动机，然后在发动机停止后将&ldquo;检查气缸压缩压力&rdquo;切换至 OFF。
+</p>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>如果起动发动机时将主动测试切换至 OFF，则发动机将起动。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">12.</div>
+<div class="list1Body"><p>按下快照按钮以关闭快照功能。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">13.</div>
+<div class="list1Body"><p>选择 GTS 画面上的&ldquo;Stored Data&rdquo;，选择所记录的数据并以图表形式显示数据。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>如果不能以图表形式显示数据，则无法观察值的变化。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">14.</div>
+<div class="list1Body"><p>检查发动机转速值的变化。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>停止发动机起动时，由于主动测试的数据值返回至其默认值，因此无法观察各气缸的发动机转速值。因此，必须使用快照功能记录的数据，以检查起动过程中记录的发动机转速值。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<dl class="topic">
+<dt class="topic">主动测试的参考波形</dt>
+<dd class="topic"><div class="list1">
+<div class="list1Item list1HasFigure">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*2：控制 A/F 传感器喷油量（暖机后怠速运转）
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A285266.png" alt="A285266" title="A285266">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">1.052,0.76 1.729,1.115</span>
+<span class="captionSize">0.677,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">12.5%</span>
+</span>
+<span class="caption">
+<span class="points">2.542,0.75 3.219,1.104</span>
+<span class="captionSize">0.677,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">-12.5%</span>
+</span>
+<span class="caption">
+<span class="points">5.573,0.75 6.25,1.104</span>
+<span class="captionSize">0.677,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">-12.5%</span>
+</span>
+<span class="caption">
+<span class="points">4.156,0.75 4.833,1.104</span>
+<span class="captionSize">0.677,0.354</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">12.5%</span>
+</span>
+<span class="caption">
+<span class="points">0.167,3.083 1.688,3.396</span>
+<span class="captionSize">1.521,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">AFS 电压 B1S1 [V]</span>
+</span>
+<span class="caption">
+<span class="points">0.167,5.688 1.688,6</span>
+<span class="captionSize">1.521,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">O2S B1S2 [V]</span>
+</span>
+<span class="caption">
+<span class="points">2.729,6 3.583,6.313</span>
+<span class="captionSize">0.854,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">延时</span>
+</span>
+<span class="caption">
+<span class="points">4.417,6 5.271,6.313</span>
+<span class="captionSize">0.854,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">延时</span>
+</span>
+<span class="caption">
+<span class="points">1.729,6.583 2.583,6.896</span>
+<span class="captionSize">0.854,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">浓</span>
+</span>
+<span class="caption">
+<span class="points">1.729,7.417 2.583,7.729</span>
+<span class="captionSize">0.854,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">稀</span>
+</span>
+<span class="caption">
+<span class="points">0.646,7.938 1.5,8.25</span>
+<span class="captionSize">0.854,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">10 秒</span>
+</span>
+<span class="caption">
+<span class="points">3.563,7.854 3.833,8.083</span>
+<span class="captionSize">0.271,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">5.448,7.854 5.719,8.083</span>
+<span class="captionSize">0.271,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+<span class="caption">
+<span class="points">0.25,6.521 0.75,6.75</span>
+<span class="captionSize">0.5,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1.0 V</span>
+</span>
+<span class="caption">
+<span class="points">0.375,7.604 0.813,7.833</span>
+<span class="captionSize">0.438,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0 V</span>
+</span>
+<span class="caption">
+<span class="points">5.438,5.052 5.708,5.281</span>
+<span class="captionSize">0.271,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+<span class="caption">
+<span class="points">3.573,5.052 3.844,5.281</span>
+<span class="captionSize">0.271,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">1.729,4.635 2.583,4.948</span>
+<span class="captionSize">0.854,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">浓</span>
+</span>
+<span class="caption">
+<span class="points">1.729,3.75 2.583,4.063</span>
+<span class="captionSize">0.854,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">稀</span>
+</span>
+<span class="caption">
+<span class="points">0.25,4.802 0.75,5.031</span>
+<span class="captionSize">0.5,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2.5 V</span>
+</span>
+<span class="caption">
+<span class="points">0.25,3.688 0.75,3.917</span>
+<span class="captionSize">0.5,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">4.0 V</span>
+</span>
+<span class="caption">
+<span class="points">0.167,0.188 3.167,0.5</span>
+<span class="captionSize">3,0.313</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">控制 A/F 传感器喷油量</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>主动测试期间，空燃比反馈控制和反馈学习停止。
+</p>
+</dd>
+</dl>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS 显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter" colspan="2">正常状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft" rowspan="4">Control the Injection Volume for A/F Sensor
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">▲A
+</td>
+<td class="alcenter">▲B
+</td>
+</tr>
+<tr>
+<td class="alleft">主动测试操作
+</td>
+<td class="alcenter">-12.5%
+</td>
+<td class="alcenter">12.5%
+</td>
+</tr>
+<tr>
+<td class="alleft">AFS 电压 B1S1
+</td>
+<td class="alcenter">3.908 V
+</td>
+<td class="alcenter">2.868 V
+</td>
+</tr>
+<tr>
+<td class="alleft">O2S B1S2
+</td>
+<td class="alcenter">0.055 V
+</td>
+<td class="alcenter">0.955 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>通常，控制 A/F 传感器喷油量的控制值变为 12.5% 时，AFS 电压 B1S1 的值降至低于 3.1 V。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>通常，控制 A/F 传感器喷油量的控制值变为 -12.5% 时，AFS 电压 B1S1 的值变为 3.4 V 或更高。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>通常，控制 A/F 传感器喷油量的控制值变为 12.5% 时，O2S B1S2 的值变为 0.55 V 或更高。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>通常，控制 A/F 传感器喷油量的控制值变为 -12.5% 时，O2S B1S2 的值降至低于 0.4 V。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>空燃比传感器存在数秒的输出延迟，加热型氧传感器的输出延迟最长可达约 20 秒。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>进行主动测试时，如果传感器的输出电压不改变（几乎无反应），则传感器可能有故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item list1HasFigure">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*3：控制 ETCS 快速打开/关闭 [电子节气门控制系统主动测试]（发动机开关置于 ON (IG) 位置）
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A306376.png" alt="A306376" title="A306376">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">0.427,5.667 0.51,5.667</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">0.427,7.396 0.51,7.396</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.167,0.646 6.896,0.844</span>
+<span class="captionSize">6.729,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">节气门位置指令 [V]（目标值）</span>
+</span>
+<span class="caption">
+<span class="points">0.156,1.25 1.75,1.51</span>
+<span class="captionSize">1.594,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5 V</span>
+</span>
+<span class="caption">
+<span class="points">0.156,1.958 1.75,2.219</span>
+<span class="captionSize">1.594,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0 V</span>
+</span>
+<span class="caption">
+<span class="points">0.146,3.156 1.74,3.417</span>
+<span class="captionSize">1.594,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5 V</span>
+</span>
+<span class="caption">
+<span class="points">0.156,3.802 1.75,4.063</span>
+<span class="captionSize">1.594,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0 V</span>
+</span>
+<span class="caption">
+<span class="points">0.177,2.719 6.906,2.917</span>
+<span class="captionSize">6.729,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1 号节气门位置 [V]（实际值）</span>
+</span>
+<span class="caption">
+<span class="points">4.458,2.208 4.75,2.448</span>
+<span class="captionSize">0.292,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">5.583,2.208 5.875,2.448</span>
+<span class="captionSize">0.292,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+<span class="caption">
+<span class="points">4.448,4.042 4.74,4.281</span>
+<span class="captionSize">0.292,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">5.594,4.052 5.885,4.292</span>
+<span class="captionSize">0.292,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+<span class="caption">
+<span class="points">0.177,4.604 6.906,4.802</span>
+<span class="captionSize">6.729,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">节气门马达占空比（打开）[%]</span>
+</span>
+<span class="caption">
+<span class="points">0.042,4.958 1.635,5.219</span>
+<span class="captionSize">1.594,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">26.0%</span>
+</span>
+<span class="caption">
+<span class="points">0.094,5.594 0.479,5.792</span>
+<span class="captionSize">0.385,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0.0%</span>
+</span>
+<span class="caption">
+<span class="points">4.458,5.875 4.75,6.115</span>
+<span class="captionSize">0.292,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">4.458,7.615 4.75,7.854</span>
+<span class="captionSize">0.292,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">5.594,5.885 5.885,6.125</span>
+<span class="captionSize">0.292,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+<span class="caption">
+<span class="points">5.604,7.625 5.896,7.865</span>
+<span class="captionSize">0.292,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+<span class="caption">
+<span class="points">0.104,7.323 1.698,7.583</span>
+<span class="captionSize">1.594,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0.0%</span>
+</span>
+<span class="caption">
+<span class="points">0.031,6.823 1.625,7.083</span>
+<span class="captionSize">1.594,0.26</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">18.0%</span>
+</span>
+<span class="caption">
+<span class="points">0.281,6.417 7.01,6.615</span>
+<span class="captionSize">6.729,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">节气门马达占空比（关闭）[%]</span>
+</span>
+<span class="caption">
+<span class="points">3.594,0.979 3.979,1.198</span>
+<span class="captionSize">0.385,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">打开</span>
+</span>
+<span class="caption">
+<span class="points">5.865,0.99 6.25,1.208</span>
+<span class="captionSize">0.385,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">打开</span>
+</span>
+<span class="caption">
+<span class="points">1.708,0.979 2.094,1.198</span>
+<span class="captionSize">0.385,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">关闭</span>
+</span>
+<span class="caption">
+<span class="points">4.865,0.979 5.25,1.198</span>
+<span class="captionSize">0.385,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">关闭</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>通常情况下，节气门位置指令（目标值）和 1 号节气门位置（实际值）几乎相同。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果存储了与电子节气门控制系统 (ETCS) 相关的任何 DTC，则该主动测试不工作。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS 显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter" colspan="2">正常状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft" rowspan="6">Control the ETCS Open/Close Fast Speed
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">▲A
+</td>
+<td class="alcenter">▲B
+</td>
+</tr>
+<tr>
+<td class="alleft">主动测试操作
+</td>
+<td class="alcenter">打开
+</td>
+<td class="alcenter">关闭
+</td>
+</tr>
+<tr>
+<td class="alleft">节气门位置指令
+</td>
+<td class="alcenter">2.597 V
+</td>
+<td class="alcenter">0.761 V
+</td>
+</tr>
+<tr>
+<td class="alleft">节气门 1 号位置
+</td>
+<td class="alcenter">2.597 V
+</td>
+<td class="alcenter">0.761 V
+</td>
+</tr>
+<tr>
+<td class="alleft">节气门马达占空比（打开）
+</td>
+<td class="alcenter">14%
+</td>
+<td class="alcenter">0%
+</td>
+</tr>
+<tr>
+<td class="alleft">节气门马达占空比（关闭）
+</td>
+<td class="alcenter">0%
+</td>
+<td class="alcenter">12%
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<div class="list1Item list1HasFigure">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*4：激活 EVAP 的 VSV 控制（暖机后怠速运转）
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A308157.png" alt="A308157" title="A308157">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.146,0.74 3.208,0.938</span>
+<span class="captionSize">3.063,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">EVAP（净化）VSV [%]</span>
+</span>
+<span class="caption">
+<span class="points">0.198,1.573 0.479,1.813</span>
+<span class="captionSize">0.281,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">20</span>
+</span>
+<span class="caption">
+<span class="points">0.292,1.99 0.594,2.188</span>
+<span class="captionSize">0.302,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0</span>
+</span>
+<span class="caption">
+<span class="points">2.156,2.313 2.458,2.51</span>
+<span class="captionSize">0.302,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">3.708,2.302 4.01,2.5</span>
+<span class="captionSize">0.302,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+<span class="caption">
+<span class="points">2.156,4.781 2.458,4.979</span>
+<span class="captionSize">0.302,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">3.719,4.781 4.021,4.979</span>
+<span class="captionSize">0.302,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+<span class="caption">
+<span class="points">0.104,3.854 0.771,4.104</span>
+<span class="captionSize">0.667,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2,600</span>
+</span>
+<span class="caption">
+<span class="points">0.104,4.552 0.771,4.802</span>
+<span class="captionSize">0.667,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">2,200</span>
+</span>
+<span class="caption">
+<span class="points">0.167,3.458 3.229,3.656</span>
+<span class="captionSize">3.063,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">喷油器（喷射口）[μs]</span>
+</span>
+<span class="caption">
+<span class="points">0.146,6.323 3.208,6.521</span>
+<span class="captionSize">3.063,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">AFS 电压 B1S1 [V]</span>
+</span>
+<span class="caption">
+<span class="points">0.188,6.729 0.469,6.969</span>
+<span class="captionSize">0.281,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3.4</span>
+</span>
+<span class="caption">
+<span class="points">0.177,7.302 0.458,7.542</span>
+<span class="captionSize">0.281,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">3.0</span>
+</span>
+<span class="caption">
+<span class="points">2.156,7.542 2.458,7.74</span>
+<span class="captionSize">0.302,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">3.656,7.531 3.958,7.729</span>
+<span class="captionSize">0.302,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+<span class="caption">
+<span class="points">0.542,7.573 3.604,7.771</span>
+<span class="captionSize">3.063,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">6 秒</span>
+</span>
+<span class="caption">
+<span class="points">1.167,1.167 1.479,1.365</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">4.188,1.167 4.5,1.365</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.833,1.167 3.146,1.365</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">5.854,1.167 6.167,1.365</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS 显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter" colspan="2">正常状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft" rowspan="5">Activate the VSV for Evap Control
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">▲A
+</td>
+<td class="alcenter">▲B
+</td>
+</tr>
+<tr>
+<td class="alleft">主动测试操作
+</td>
+<td class="alcenter">ON
+</td>
+<td class="alcenter">OFF
+</td>
+</tr>
+<tr>
+<td class="alleft">EVAP（净化）VSV
+</td>
+<td class="alcenter">29.8%
+</td>
+<td class="alcenter">0%
+</td>
+</tr>
+<tr>
+<td class="alleft">喷油器（喷射口）
+</td>
+<td class="alcenter">2,495 μs
+</td>
+<td class="alcenter">2,541 μs
+</td>
+</tr>
+<tr>
+<td class="alleft">AFS 电压 B1S1
+</td>
+<td class="alcenter">3.249 V
+</td>
+<td class="alcenter">3.205 V
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>即使进行主动测试（净化 VSV 打开约 30%），ECM 执行空燃比反馈以使空燃比保持在理论空燃比。因此，通过观察数据表项目&ldquo;Injector (Port)&rdquo;的变化，可以判定净化 VSV 实际是否打开。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>上图和值仅为参考，因为燃油喷射量（补偿量）根据炭罐中净化气流的 HC 浓度的变化而变化。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item list1HasFigure">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*5：控制 VVT 线 (B1)
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A283607.png" alt="A283607" title="A283607">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">0.719,7.333 0.802,7.333</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">0.719,5.729 0.802,5.729</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">0.719,6.417 0.802,6.417</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.167,0.229 2.25,0.563</span>
+<span class="captionSize">2.083,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">控制 VVT 线 (B1)</span>
+</span>
+<span class="caption">
+<span class="points">0.167,1.885 2.25,2.219</span>
+<span class="captionSize">2.083,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">发动机转速 [rpm]</span>
+</span>
+<span class="caption">
+<span class="points">0.167,3.573 2.25,3.906</span>
+<span class="captionSize">2.083,0.333</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VVT 变化角度 #1 [DegFR]</span>
+</span>
+<span class="caption">
+<span class="points">0.167,5.281 1.75,5.531</span>
+<span class="captionSize">1.583,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VVT OCV 占空比 #1 [%]</span>
+</span>
+<span class="caption">
+<span class="points">0.167,6.896 1.75,7.146</span>
+<span class="captionSize">1.583,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">VVT 目标角度 #1 [%]</span>
+</span>
+<span class="caption">
+<span class="points">1.25,0.75 1.677,0.99</span>
+<span class="captionSize">0.427,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">30%</span>
+</span>
+<span class="caption">
+<span class="points">3.917,0.75 4.344,0.99</span>
+<span class="captionSize">0.427,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">30%</span>
+</span>
+<span class="caption">
+<span class="points">2.656,1.333 3.083,1.573</span>
+<span class="captionSize">0.427,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">-30%</span>
+</span>
+<span class="caption">
+<span class="points">4.823,1.333 5.25,1.573</span>
+<span class="captionSize">0.427,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">-30%</span>
+</span>
+<span class="caption">
+<span class="points">0.385,2.229 0.896,2.479</span>
+<span class="captionSize">0.51,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1,100</span>
+</span>
+<span class="caption">
+<span class="points">0.458,3.219 0.958,3.469</span>
+<span class="captionSize">0.5,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">500</span>
+</span>
+<span class="caption">
+<span class="points">0.406,3.906 0.823,4.156</span>
+<span class="captionSize">0.417,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">55.0</span>
+</span>
+<span class="caption">
+<span class="points">0.5,4.813 0.917,5.063</span>
+<span class="captionSize">0.417,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0.0</span>
+</span>
+<span class="caption">
+<span class="points">0.427,6.344 0.844,6.594</span>
+<span class="captionSize">0.417,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">13.0</span>
+</span>
+<span class="caption">
+<span class="points">0.5,8.083 0.917,8.333</span>
+<span class="captionSize">0.417,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0.0</span>
+</span>
+<span class="caption">
+<span class="points">0.417,7.25 0.833,7.5</span>
+<span class="captionSize">0.417,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">43.0</span>
+</span>
+<span class="caption">
+<span class="points">0.417,5.646 0.833,5.896</span>
+<span class="captionSize">0.417,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">73.0</span>
+</span>
+<span class="caption">
+<span class="points">4.021,8.427 5.104,8.677</span>
+<span class="captionSize">1.083,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">5 秒</span>
+</span>
+<span class="caption">
+<span class="points">1.74,8.396 1.99,8.646</span>
+<span class="captionSize">0.25,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">2.896,8.385 3.146,8.635</span>
+<span class="captionSize">0.25,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+<span class="caption">
+<span class="points">1.74,6.708 1.99,6.958</span>
+<span class="captionSize">0.25,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">1.74,5.125 1.99,5.375</span>
+<span class="captionSize">0.25,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">2.896,6.708 3.146,6.958</span>
+<span class="captionSize">0.25,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+<span class="caption">
+<span class="points">2.896,5.125 3.146,5.375</span>
+<span class="captionSize">0.25,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS 显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter" colspan="2">正常状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft" rowspan="5">Control the VVT Linear (Bank 1)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">▲A
+</td>
+<td class="alcenter">▲B
+</td>
+</tr>
+<tr>
+<td class="alleft">主动测试操作*
+</td>
+<td class="alcenter">30%
+</td>
+<td class="alcenter">-30%
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT 变化角度 #1
+</td>
+<td class="alcenter">53.0 DegFR
+</td>
+<td class="alcenter">0.0 DegFR
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT OCV 占空比 #1
+</td>
+<td class="alcenter">73.0%
+</td>
+<td class="alcenter">13.0%
+</td>
+</tr>
+<tr>
+<td class="alleft">VVT 目标角度 #1
+</td>
+<td class="alcenter">43.0%
+</td>
+<td class="alcenter">43.0%
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*：将控制 VVT 线的控制值改变为 30% 或 -30%。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主动测试的控制 VVT 线确认 VVT 目标角度 #1 为 0 并增大或减小与 VVT 目标角度 #1 相关的占空比。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主动测试的控制 VVT 线的控制值与 VVT 目标角度 #1 值之和约等于 VVT OCV 占空比 #1 的值。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主动测试的控制 VVT 线的控制值变化几次后，系统开始提前或延迟正时时的 VVT OCV 占空比 #1 与 VVT 变化角度 #1 的变化率之间应无较大差异。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+<div class="list1Item list1HasFigure">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*6：控制 VVT 排气线 (B1)
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/A283608.png" alt="A283608" title="A283608">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">0.615,5.75 0.698,5.75</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">0.615,7.385 0.698,7.385</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="line">
+<span class="points">0.604,6.281 0.688,6.281</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">0.167,0.188 2.75,0.438</span>
+<span class="captionSize">2.583,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">控制 VVT 排气线 (B1)</span>
+</span>
+<span class="caption">
+<span class="points">0.167,1.917 1.583,2.167</span>
+<span class="captionSize">1.417,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">发动机转速 [rpm]</span>
+</span>
+<span class="caption">
+<span class="points">0.167,3.594 2.167,3.844</span>
+<span class="captionSize">2,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">排气 VVT 变化角度 #1 [DegFR]</span>
+</span>
+<span class="caption">
+<span class="points">0.167,5.313 2.083,5.563</span>
+<span class="captionSize">1.917,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">排气 VVT OCV 占空比 #1 [%]</span>
+</span>
+<span class="caption">
+<span class="points">0.167,6.917 2.083,7.167</span>
+<span class="captionSize">1.917,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">排气 VVT 保持学习值 #1 [%]</span>
+</span>
+<span class="caption">
+<span class="points">1.115,0.667 1.615,0.917</span>
+<span class="captionSize">0.5,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">30%</span>
+</span>
+<span class="caption">
+<span class="points">2.667,0.667 3.167,0.917</span>
+<span class="captionSize">0.5,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">30%</span>
+</span>
+<span class="caption">
+<span class="points">4.833,0.667 5.333,0.917</span>
+<span class="captionSize">0.5,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">30%</span>
+</span>
+<span class="caption">
+<span class="points">1.854,1.208 2.354,1.458</span>
+<span class="captionSize">0.5,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">-30%</span>
+</span>
+<span class="caption">
+<span class="points">3.625,1.208 4.125,1.458</span>
+<span class="captionSize">0.5,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">-30%</span>
+</span>
+<span class="caption">
+<span class="points">5.865,1.208 6.365,1.458</span>
+<span class="captionSize">0.5,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">-30%</span>
+</span>
+<span class="caption">
+<span class="points">0.302,2.219 0.802,2.469</span>
+<span class="captionSize">0.5,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">1,500</span>
+</span>
+<span class="caption">
+<span class="points">0.385,3.104 0.885,3.354</span>
+<span class="captionSize">0.5,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">400</span>
+</span>
+<span class="caption">
+<span class="points">0.323,3.906 0.75,4.156</span>
+<span class="captionSize">0.427,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">39.0</span>
+</span>
+<span class="caption">
+<span class="points">0.396,4.698 0.729,4.948</span>
+<span class="captionSize">0.333,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0.0</span>
+</span>
+<span class="caption">
+<span class="points">0.313,6.198 0.646,6.448</span>
+<span class="captionSize">0.333,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">12.4</span>
+</span>
+<span class="caption">
+<span class="points">0.406,8.042 0.74,8.292</span>
+<span class="captionSize">0.333,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0.0</span>
+</span>
+<span class="caption">
+<span class="points">0.323,5.667 0.75,5.917</span>
+<span class="captionSize">0.427,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">72.4</span>
+</span>
+<span class="caption">
+<span class="points">0.323,7.302 0.75,7.552</span>
+<span class="captionSize">0.427,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">42.4</span>
+</span>
+<span class="caption">
+<span class="points">2.885,8.333 3.135,8.583</span>
+<span class="captionSize">0.25,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">4.052,8.333 4.302,8.583</span>
+<span class="captionSize">0.25,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+<span class="caption">
+<span class="points">4.052,6.646 4.302,6.896</span>
+<span class="captionSize">0.25,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+<span class="caption">
+<span class="points">4.052,5.01 4.302,5.26</span>
+<span class="captionSize">0.25,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">B</span>
+</span>
+<span class="caption">
+<span class="points">2.885,6.646 3.135,6.896</span>
+<span class="captionSize">0.25,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">2.885,5.01 3.135,5.26</span>
+<span class="captionSize">0.25,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">A</span>
+</span>
+<span class="caption">
+<span class="points">5,8.375 5.75,8.625</span>
+<span class="captionSize">0.75,0.25</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">8 秒</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">GTS 显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter" colspan="2">正常状态
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft" rowspan="5">Control the VVT Exhaust Linear (Bank 1)
+</td>
+<td class="alcenter">-
+</td>
+<td class="alcenter">▲A
+</td>
+<td class="alcenter">▲B
+</td>
+</tr>
+<tr>
+<td class="alleft">主动测试操作*
+</td>
+<td class="alcenter">30%
+</td>
+<td class="alcenter">-30%
+</td>
+</tr>
+<tr>
+<td class="alleft">排气 VVT 变化角度 #1
+</td>
+<td class="alcenter">38.8 DegFR
+</td>
+<td class="alcenter">0.0 DegFR
+</td>
+</tr>
+<tr>
+<td class="alleft">排气 VVT OCV 占空比 #1
+</td>
+<td class="alcenter">72.4%
+</td>
+<td class="alcenter">12.4%
+</td>
+</tr>
+<tr>
+<td class="alleft">排气 VVT 保持学习值 #1
+</td>
+<td class="alcenter">42.4%
+</td>
+<td class="alcenter">42.4%
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*：将控制 VVT 排气线的控制值改变为 30% 或 -30%。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主动测试控制 VVT 排气线确认排气 VVT 保持学习值 #1 的值为 0 并增大或减小与排气 VVT 保持学习值 #1 相关的占空比。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主动测试控制 VVT 排气线的控制值与排气 VVT 保持学习值 #1 的值之和约等于排气 VVT OCV 占空比 #1 的值。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>主动测试的控制 VVT 排气线的控制值变化几次后，系统开始提前或延迟正时时的排气 VVT OCV 占空比 #1 和排气 VVT 变化角度 #1 的变化率之间应无较大差异。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

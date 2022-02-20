@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.1.2.6F" pubno="EM3140CG" xml:lang="zh">
+  <text ewd="SYS049" code="E43" type="conn" figID="6">
+    <name>空调放大器总成</name>
+  </text>
+  <text ewd="SYS049" code="E20" type="conn" figID="2">
+    <name>空调控制总成</name>
+  </text>
+  <text ewd="SYS049" code="A40" type="conn" figID="8">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS049" code="E58" type="conn" figID="10">
+    <name>2 号加热器控制装置分总成</name>
+  </text>
+  <text ewd="SYS049" code="E71" type="conn" figID="9">
+    <name>4 号接线连接器</name>
+  </text>
+  <text ewd="SYS049" code="L25" type="conn" figID="7">
+    <name>静噪滤波器（收音机设定调相器）</name>
+  </text>
+  <text ewd="SYS049" code="H2,H3" type="conn" figID="12">
+    <name>左侧车外后视镜总成</name>
+  </text>
+  <text ewd="SYS049" code="G2,G3" type="conn" figID="11">
+    <name>右侧车外后视镜总成</name>
+  </text>
+  <text ewd="SYS049" code="L8,Q1" type="conn" figID="5">
+    <name>后窗除雾器（背窗玻璃）</name>
+  </text>
+  <text ewd="SYS049" code="FUSE15" type="fuse" figID="35">
+    <name>10A MIR HTR</name>
+  </text>
+  <text ewd="SYS049" code="FUSE32" type="fuse" figID="37">
+    <name>50A DEF</name>
+  </text>
+  <text ewd="SYS049" code="FUSE49" type="fuse" figID="36,38">
+    <name>7.5A HTR-IG</name>
+  </text>
+  <text ewd="SYS049" code="AB" type="gp" figID="27">
+    <name />
+  </text>
+  <text ewd="SYS049" code="EA" type="gp" figID="26">
+    <name />
+  </text>
+  <text ewd="SYS049" code="EB" type="gp" figID="30">
+    <name />
+  </text>
+  <text ewd="SYS049" code="EC" type="gp" figID="25,29">
+    <name />
+  </text>
+  <text ewd="SYS049" code="ED" type="gp" figID="31">
+    <name />
+  </text>
+  <text ewd="SYS049" code="QA" type="gp" figID="28">
+    <name />
+  </text>
+  <text ewd="SYS049" code="3" type="jb" figID="16,17,18">
+    <name />
+  </text>
+  <text ewd="SYS049" code="1" type="rb" figID="1">
+    <name />
+  </text>
+  <text ewd="SYS049" code="FUSE15" type="rb" figID="3">
+    <name>10A MIR HTR</name>
+  </text>
+  <text ewd="SYS049" code="FUSE32" type="rb" figID="4">
+    <name>50A DEF</name>
+  </text>
+  <text ewd="SYS049" code="SP3" type="sp" figID="34">
+    <name />
+  </text>
+  <text ewd="SYS049" code="SP29" type="sp" figID="32">
+    <name />
+  </text>
+  <text ewd="SYS049" code="SP30" type="sp" figID="33">
+    <name />
+  </text>
+  <text ewd="SYS049" code="AL2" type="w2w" figID="23">
+    <name>发动机室主线束和地板线束</name>
+  </text>
+  <text ewd="SYS049" code="AE2" type="w2w" figID="24">
+    <name>发动机室主线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS049" code="HE1" type="w2w" figID="22">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS049" code="HE3" type="w2w" figID="21">
+    <name>左前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS049" code="GE1" type="w2w" figID="20">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+  <text ewd="SYS049" code="GE3" type="w2w" figID="19">
+    <name>右前车门线束和仪表板线束</name>
+  </text>
+</EwdTree>

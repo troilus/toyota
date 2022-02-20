@@ -1,0 +1,1112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">RM3140CG</span>
+<span class="globalServcat">_58</span>
+<span class="globalServcatName">车辆内饰</span>
+<span class="globalSection">_024005</span>
+<span class="globalSectionName">防盗/无钥匙上车系统</span>
+<span class="globalTitle">_0116715</span>
+<span class="globalTitleName">停机系统（带智能进入和起动系统）</span>
+<span class="globalCategory">U</span>
+</div>
+<h1>防盗/无钥匙上车系统&nbsp;&nbsp;停机系统（带智能进入和起动系统）&nbsp;&nbsp;数据表/主动测试&nbsp;&nbsp;</h1>
+<br>
+<div id="RM100000000DB3G_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">数据表
+</span></p>
+<br>
+<dl class="atten3">
+<dt class="atten3">备注：</dt>
+<dd class="atten3">
+<p>在下表中，&ldquo;正常状态&rdquo;下列出的值为参考值。确定零件是否出现故障时，不要仅仅依赖这些参考值。
+</p>
+</dd>
+</dl>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 读取数据表，无需拆下任何零件，即可读取开关、传感器、执行器及其他项目的值或状态。这种非侵入式检查非常有用，可在零件或配线受到干扰之前发现间歇性状况或信号。故障排除时，尽早读取数据表信息是节省诊断时间的一种方法。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>进入以下菜单：Body Electrical / Entry&amp;Start / Data List。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>根据 GTS 上的显示，读取数据表。
+</p>
+<dl class="gtsDataListTable hasAllTable">
+<dt class="gtsDataListTable">Body Electrical &gt; Entry&amp;Start &gt; Data List</dt>
+<dd class="gtsDataListTable">
+<table summary="data-list-table">
+<colgroup>
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:20%">
+<col style="width:19%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">范围
+</th>
+<th class="alcenter">正常状态
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Ignition Switch
+</td>
+<td class="alleft">发动机开关状态*10
+</td>
+<td class="alcenter">ON 或 OFF
+</td>
+<td class="alleft">ON：发动机开关置于 ON (IG) 位置
+<br>
+OFF：发动机开关置于 OFF 位置
+</td>
+<td class="alleft">所有智能进入和起动系统/遥控功能不工作时，使用数据表项目有助于确定故障原因。
+</td>
+</tr>
+<tr>
+<td class="alleft"># Codes
+</td>
+<td class="alleft">DTC 数量
+</td>
+<td class="alcenter">最少：0，最多：255
+</td>
+<td class="alleft">显示存储 DTC 的数量
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Immobilizer when IG=ON
+</td>
+<td class="alleft">发动机开关置于 ON (IG) 位置时停机系统的状态
+</td>
+<td class="alcenter">SET 或 UNSET
+</td>
+<td class="alleft">SET：停机系统设定（发动机开关置于 ON (IG) 位置时打开并关闭驾驶员车门）
+<br>
+UNSET：发动机开关置于 ON (IG) 位置时未设定停机系统或设定停机系统后解除 40 次
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Immobiliser
+</td>
+<td class="alleft">停机系统状态由认证 ECU（智能钥匙 ECU 总成）确定*10
+</td>
+<td class="alcenter">Set 或 Unset
+</td>
+<td class="alleft">Set：停机系统设定（禁止发动机起动）（发动机开关置于 OFF 位置）
+<br>
+Unset：停机系统解除（允许发动机起动）（发动机开关置于 ON (ACC) 或 ON (IG) 位置）
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果显示&ldquo;Set&rdquo;，则发动机起动操作禁用。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>显示&ldquo;Set&rdquo;时，安全指示灯闪烁。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>安全指示灯与转向锁止系统无联动。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Master Key
+</td>
+<td class="alleft">主钥匙识别码与认证 ECU（智能钥匙 ECU 总成）中注册的识别码匹配
+</td>
+<td class="alcenter">Match 或 No Match
+</td>
+<td class="alleft">Match：主钥匙识别码与认证 ECU（智能钥匙 ECU 总成）中注册的识别码匹配
+<br>
+No Match：主钥匙识别码与认证 ECU（智能钥匙 ECU 总成）内注册的识别码不匹配
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Sub Key
+</td>
+<td class="alleft">副钥匙识别码是否与认证 ECU（智能钥匙 ECU 总成）中注册的识别码是否相匹配
+</td>
+<td class="alcenter">Match 或 No Match
+</td>
+<td class="alleft">Match：副钥匙识别码与认证 ECU（智能钥匙 ECU 总成）中注册的识别码匹配
+<br>
+No Match：副钥匙识别码与认证 ECU（智能钥匙 ECU 总成）内注册的识别码不匹配
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">BCC Malfunction
+</td>
+<td class="alleft">应答器芯片 BCC 信号状态*1
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：BCC 信号正常
+<br>
+NG：BCC 信号故障（电子钥匙发射器分总成/认证 ECU（智能钥匙 ECU 总成）中的代码计算故障)
+</td>
+<td class="alleft">故障可能由下列原因引起：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>波干扰 (LF) 导致的通信故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>钥匙或认证 ECU（智能钥匙 ECU 总成）内存在故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Abnormal Status
+</td>
+<td class="alleft">应答器芯片状态信号*1
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：应答器芯片状态信号正常
+<br>
+NG：应答器芯片状态信号故障（电子钥匙发射器分总成/认证 ECU（智能钥匙 ECU 总成）内的代码计算故障）
+</td>
+<td class="alleft">故障可能由下列原因引起：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>波干扰 (LF) 导致的通信故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>电子钥匙发射器分总成或认证 ECU（智能钥匙 ECU 总成）故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Different Encrypt Code
+</td>
+<td class="alleft">应答器芯片与认证 ECU（智能钥匙 ECU 总成）*1 之间的代码状态
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：应答器芯片和认证 ECU（智能钥匙 ECU 总成）代码匹配
+<br>
+NG：应答器芯片和认证 ECU（智能钥匙 ECU 总成）代码不匹配
+</td>
+<td class="alleft">故障可能由下列原因引起：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用了来自不同车辆的电子钥匙发射器分总成。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>电子钥匙发射器分总成或认证 ECU（智能钥匙 ECU 总成）故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Different Serial Number
+</td>
+<td class="alleft">车辆序列号*1
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：来自应答器芯片的信号和认证 ECU（智能钥匙 ECU 总成）中存储的车辆系列号相匹配
+<br>
+NG：来自应答器芯片的信号和认证 ECU（智能钥匙 ECU 总成）中存储的车辆系列号不匹配
+</td>
+<td class="alleft">故障可能由下列原因引起：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用了来自不同车辆的电子钥匙发射器分总成。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>电子钥匙发射器分总成或认证 ECU（智能钥匙 ECU 总成）故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Frame Error
+</td>
+<td class="alleft">电子钥匙发射器分总成发送的数据状态
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：电子钥匙发射器分总成发送的数据无故障
+<br>
+NG：电子钥匙发射器分总成发送的数据有故障
+</td>
+<td class="alleft">故障可能由下列原因引起：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>波干扰导致的通信故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>电子钥匙发射器分总成或认证 ECU（智能钥匙 ECU 总成）故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Response
+</td>
+<td class="alleft">电子钥匙发射器分总成对来自认证 ECU（智能钥匙 ECU 总成）的信号的响应
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：电子钥匙发射器分总成响应来自认证 ECU（智能钥匙 ECU 总成）的信号
+<br>
+NG：电子钥匙发射器分总成不响应来自认证 ECU（智能钥匙 ECU 总成）的信号
+</td>
+<td class="alleft">故障可能由下列原因引起：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用了来自不同车辆的电子钥匙发射器分总成。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>电子钥匙发射器分总成、认证 ECU（智能钥匙 ECU 总成）或发动机开关存在故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Wireless Starter Com ID
+</td>
+<td class="alleft">遥控发动机起动 ECU 和认证 ECU（智能钥匙 ECU 总成）之间的认证
+</td>
+<td class="alcenter">No Regd 或 Regd
+</td>
+<td class="alleft">No Regd：遥控发动机起动 ECU 和认证 ECU（智能钥匙 ECU 总成）之间的认证未完成
+<br>
+Regd：遥控发动机起动 ECU 和认证 ECU（智能钥匙 ECU 总成）之间的认证完成
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Wireless C Code
+</td>
+<td class="alleft">遥控发动机起动 ECU 和认证 ECU（智能钥匙 ECU 总成）之间的注册状态
+</td>
+<td class="alcenter">No Regd 或 Regd
+</td>
+<td class="alleft">No Regd：遥控发动机起动 ECU 和认证 ECU（智能钥匙 ECU 总成）之间未注册 ID
+<br>
+Regd：遥控发动机起动 ECU 和认证 ECU（智能钥匙 ECU 总成）之间注册 ID
+</td>
+<td class="alleft">故障可能由下列原因引起：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>存储 DTC B2779。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>未进行遥控发动机起动 ECU 注册。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>认证 ECU（智能钥匙 ECU 总成）或遥控发动机起动 ECU 存在故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Start Condition
+</td>
+<td class="alleft">来自认证 ECU（智能钥匙 ECU 总成）的发动机起动许可*2
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：认证 ECU（智能钥匙 ECU 总成）允许发动机起动
+<br>
+NG：认证 ECU（智能钥匙 ECU 总成）禁止发动机起动
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">ID-BOX Sleep Condition
+</td>
+<td class="alleft">ID 代码箱（停机系统代码 ECU）休眠模式状态*10
+</td>
+<td class="alcenter">Yes 或 No
+</td>
+<td class="alleft">Yes：ID 代码箱（停机系统代码 ECU）休眠模式可用
+<br>
+No：ID 代码箱（停机系统代码 ECU）休眠模式不可用
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">ID-BOX Start Condition
+</td>
+<td class="alleft">ID 代码箱（停机系统代码 ECU）状态*3
+</td>
+<td class="alcenter">Yes 或 No
+</td>
+<td class="alleft">Yes：ID 代码箱（停机系统代码 ECU）发送唤醒信号
+<br>
+No：ID 代码箱（停机系统代码 ECU）未发送唤醒信号
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">Engine Start Request
+</td>
+<td class="alleft">请求ID 代码箱（停机系统代码 ECU）允许 ECM 起动发动机*4，*10
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：ID 代码箱（停机系统代码 ECU）接收到发动机起动许可请求信号
+<br>
+NG：ID 代码箱（停机系统代码 ECU）未接收到发动机起动许可请求信号
+</td>
+<td class="alleft">如果未显示 OK，则 ECM 无法解除停机系统。
+</td>
+</tr>
+<tr>
+<td class="alleft">3bit Code Request
+</td>
+<td class="alleft">3 位代码请求状态
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：接收到 3 位代码请求状态信号
+<br>
+NG：未接收到 3 位代码请求状态信号
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">S Code Check
+</td>
+<td class="alleft">S 代码认证结果*5
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：S 代码认证结果正常
+<br>
+NG：S 代码认证结果异常
+</td>
+<td class="alleft">故障可能由下列原因引起：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>未进行认证 ECU（智能钥匙 ECU 总成）或 ID 代码箱（停机系统代码 ECU）的注册。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>认证 ECU（智能钥匙 ECU 总成）或 ID 代码箱（停机系统代码 ECU）存在故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">L Code Check
+</td>
+<td class="alleft">L 代码认证结果*6
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：L 代码认证结果正常
+<br>
+NG：L 代码认证结果异常
+</td>
+<td class="alleft">故障可能由下列原因引起：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>未进行 ID 代码箱（停机系统代码 ECU）或转向锁 ECU（转向锁执行器总成）的注册。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>ID 代码箱（停机系统代码 ECU）或转向锁 ECU（转向锁执行器总成）存在故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">Unlock Request Receive
+</td>
+<td class="alleft">自认证 ECU（智能钥匙 ECU 总成）*7、*10 的转向开锁指令状态
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：认证 ECU（智能钥匙 ECU 总成）发送转向开锁指令（发动机开关置于 ON (ACC) 或 ON (IG) 位置或进行发动机起动操作后 10 秒内）
+<br>
+NG：认证 ECU（智能钥匙 ECU 总成）未发送转向开锁指令（发动机开关未置于 ON (ACC) 或 ON (IG) 位置且未进行发动机起动操作）
+</td>
+<td class="alleft">如果即使满足转向开锁条件也不显示 OK，则认证 ECU（智能钥匙 ECU 总成）可能存在故障。
+</td>
+</tr>
+<tr>
+<td class="alleft">Lock Request Receive
+</td>
+<td class="alleft">自认证 ECU（智能钥匙 ECU 总成）*8、*10 的转向锁止指令状态
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：认证 ECU（智能钥匙 ECU 总成）发送转向锁止指令（换档杆置于 P（自动传动桥）且发动机开关置于 OFF 位置时任一车门打开后 10 秒内）
+<br>
+NG：认证 ECU（智能钥匙 ECU 总成）未发送转向锁止指令（换档杆置于 P（自动传动桥）且发动机开关置于 OFF 位置时没有车门打开）
+</td>
+<td class="alleft">如果即使满足转向锁止条件也不显示 OK，则认证 ECU（智能钥匙 ECU 总成）可能存在故障。
+</td>
+</tr>
+<tr>
+<td class="alleft">S Code Check (Past)
+</td>
+<td class="alleft">S 代码认证结果（以前）
+</td>
+<td class="alcenter">OK 或 NG (Past)
+</td>
+<td class="alleft">OK：认证已确认（以前）
+<br>
+NG(Past)：认证未确认（以前）
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">L Code Check (Past)
+</td>
+<td class="alleft">L 代码认证结果信号（以前）
+</td>
+<td class="alcenter">OK 或 NG (Past)
+</td>
+<td class="alleft">OK：认证已确认（以前）
+<br>
+NG(Past)：认证未确认（以前）
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">EFI Code Receive
+</td>
+<td class="alleft">ECM 接收到来自ID 代码箱（停机系统代码 ECU）的发动机起动许可信号时，认证信息自 ECM 发送至 ID 代码箱（停机系统代码 ECU）*9，*10
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：ID 代码箱（停机系统代码 ECU）接收到 ECM 解除停机系统的信号
+<br>
+NG：ID 代码箱（停机系统代码 ECU）未接收到 ECM 解除停机系统的信号
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+<tr>
+<td class="alleft">EFI Communication
+</td>
+<td class="alleft">ID 代码箱（停机系统代码 ECU）和 ECM 之间的解除停机系统通信状态
+</td>
+<td class="alcenter">OK 或 NG
+</td>
+<td class="alleft">OK：ID 代码箱（停机系统代码 ECU）和 ECM 之间的解除停机系统通信已开始
+<br>
+NG：ID 代码箱（停机系统代码 ECU）和 ECM 之间的解除停机系统通信尚未开始
+</td>
+<td class="alleft">如果即使满足解除停机系统的条件且发动机起动请求数据表项目显示&ldquo;OK&rdquo;，此项目也显示&ldquo;NG&rdquo;，则 ECM 可能有故障。发动机不能起动时，故障排除期间使用此数据表项目。
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*1：这表示电子钥匙发射器分总成和认证 ECU（智能钥匙 ECU 总成）之间的通信格式有故障。可能原因为波干扰、电子钥匙发射器分总成或认证 ECU（智能钥匙 ECU 总成）故障、使用另一车辆的电子钥匙发射器分总成等。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*2：确认转向开锁且转向锁止系统无故障时允许发动机起动。如果不允许发动机起动，则故障原因可能为转向锁 ECU（转向锁执行器总成）故障（继电器、驱动器等）、IGE 电路故障（线束或连接器、认证 ECU（智能钥匙 ECU 总成））或转向锁止传感器故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*3：这表示可以传输唤醒信号（&ldquo;Yes&rdquo;表示正在发送开始认证相关 LIN 通信的信号）。转向锁止马达工作且接收到 IGE ON 信号（有转向锁止工作请求）时，或识别码（停机系统代码 ECU）和 ECM 之间的通信正在进行时，显示变为&ldquo;Yes&rdquo;。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*4：这表示 ID 代码箱（停机系统代码 ECU）正在接收 ECM 输出的发动机起动许可请求信号 (EGST)。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*5：这表示认证 ECU（智能钥匙 ECU 总成）和 ID 代码箱（停机系统代码 ECU）认证代码的认证结果。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*6：这表示 ID 代码箱（停机系统代码 ECU）和转向锁 ECU（转向锁执行器总成）认证代码的认证结果。
+</p>
+<p>转向锁 ECU（转向锁执行器总成）接收到来自认证 ECU（智能钥匙 ECU 总成）的开锁请求时，进行 ID 代码箱（停机系统代码 ECU）L 代码的确认。如果 L 代码相匹配，则转向锁 ECU（转向锁执行器总成）开锁转向。 同时，如果 S 代码认证结果不匹配，则转向锁不开锁。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*7：发动机开关置于 ON (ACC) 或 ON (IG) 位置或进行发动机起动操作后 10 秒内，认证 ECU（智能钥匙 ECU 总成）输出转向锁开锁请求。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*8：发动机开关置于 OFF 位置且换档杆置于 P（自动传动桥）的情况下打开任一车门后 10 秒内，认证 ECU（智能钥匙 ECU 总成）输出转向锁锁止请求。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*9：这表示 ID 代码箱（停机系统代码 ECU）正从 ECM 接收认证信息。如果 ECM 可发送信息，则显示变为&ldquo;OK&rdquo;。
+</p>
+</div>
+</div>
+<div class="list1Item list1HasFigure">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>*10：请参考下列实际车辆的数据表。
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/B252755.png" alt="B252755" title="B252755">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.573,0.76 2.01,0.99</span>
+<span class="captionSize">1.438,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">点火开关</span>
+</span>
+<span class="caption">
+<span class="points">0.573,1.427 1.375,1.656</span>
+<span class="captionSize">0.802,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">停机系统</span>
+</span>
+<span class="caption">
+<span class="points">0.573,2.104 2.167,2.333</span>
+<span class="captionSize">1.594,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ID-BOX 休眠状态</span>
+</span>
+<span class="caption">
+<span class="points">0.573,2.896 1.771,3.125</span>
+<span class="captionSize">1.198,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">EFI 代码接收</span>
+</span>
+<span class="caption">
+<span class="points">0.573,3.75 1.979,3.979</span>
+<span class="captionSize">1.406,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">发动机起动请求</span>
+</span>
+<span class="caption">
+<span class="points">0.573,4.542 2.365,4.771</span>
+<span class="captionSize">1.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">开锁请求接收</span>
+</span>
+<span class="caption">
+<span class="points">0.573,5.354 2.365,5.583</span>
+<span class="captionSize">1.792,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">锁止请求接收</span>
+</span>
+<span class="caption">
+<span class="points">2.333,1.427 2.792,1.656</span>
+<span class="captionSize">0.458,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Unset</span>
+</span>
+<span class="caption">
+<span class="points">2.427,1.75 2.802,1.979</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Set</span>
+</span>
+<span class="caption">
+<span class="points">2.427,0.719 2.802,0.948</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ON</span>
+</span>
+<span class="caption">
+<span class="points">2.427,1.031 2.802,1.26</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OFF</span>
+</span>
+<span class="caption">
+<span class="points">2.427,2.104 2.802,2.333</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">Yes</span>
+</span>
+<span class="caption">
+<span class="points">2.427,2.406 2.802,2.635</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">No</span>
+</span>
+<span class="caption">
+<span class="points">2.427,2.875 2.802,3.104</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">NG</span>
+</span>
+<span class="caption">
+<span class="points">2.427,3.167 2.802,3.396</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OK</span>
+</span>
+<span class="caption">
+<span class="points">2.427,4.552 2.802,4.781</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">NG</span>
+</span>
+<span class="caption">
+<span class="points">2.427,4.865 2.802,5.094</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OK</span>
+</span>
+<span class="caption">
+<span class="points">2.427,5.344 2.802,5.573</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">NG</span>
+</span>
+<span class="caption">
+<span class="points">2.427,5.635 2.802,5.865</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OK</span>
+</span>
+<span class="caption">
+<span class="points">2.427,3.74 2.802,3.969</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">NG</span>
+</span>
+<span class="caption">
+<span class="points">2.427,4.052 2.802,4.281</span>
+<span class="captionSize">0.375,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">OK</span>
+</span>
+<span class="caption">
+<span class="points">3.354,0.25 3.542,0.417</span>
+<span class="captionSize">0.188,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1</span>
+</span>
+<span class="caption">
+<span class="points">5.375,0.25 5.563,0.417</span>
+<span class="captionSize">0.188,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*5</span>
+</span>
+<span class="caption">
+<span class="points">4.906,0.25 5.094,0.417</span>
+<span class="captionSize">0.188,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*4</span>
+</span>
+<span class="caption">
+<span class="points">4.323,0.25 4.51,0.417</span>
+<span class="captionSize">0.188,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*3</span>
+</span>
+<span class="caption">
+<span class="points">3.823,0.25 4.01,0.417</span>
+<span class="captionSize">0.188,0.167</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*2</span>
+</span>
+<span class="caption">
+<span class="points">0.156,0.042 2.021,0.521</span>
+<span class="captionSize">1.865,0.479</span>
+<span class="fontsize">12</span>
+<span class="filled">false</span>
+<span class="captionText">发动机开关操作期间的数据表显示：</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+<p>发动机开关置于 OFF 位置且换档杆置于 P 时，执行下列程序并检查电源模式。
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head"></div>
+<div class="list2Body"><p>*1：在未踩下制动踏板*6 或离合器踏板*7 的情况下，按下发动机开关，检查并确认电源模式切换至 ON (ACC)。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head"></div>
+<div class="list2Body"><p>*2：在未踩下制动踏板*6 或离合器踏板*7 的情况下，按下发动机开关，检查并确认电源模式切换至 ON (IG)。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head"></div>
+<div class="list2Body"><p>*3：踩下制动踏板的情况下，按下发动机开关，检查并确认发动机起动。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head"></div>
+<div class="list2Body"><p>*4：按下发动机开关，检查并确认电源模式切换至 OFF。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head"></div>
+<div class="list2Body"><p>*5：车门打开（车门打开时转向锁操作开始）。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head"></div>
+<div class="list2Body"><p>*6：自动传动桥
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head"></div>
+<div class="list2Body"><p>*7：手动传动桥
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">主动测试
+</span></p>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>使用 GTS 进行主动测试，无需拆下任何零件即可操作继电器、VSV、执行器及其他项目。这种非侵入式功能检查非常有用，可在零件或配线受到干扰之前发现间歇性工作。故障排除时，尽早进行主动测试是节省诊断时间的一种方法。进行主动测试时可以显示数据表信息。
+</p>
+</dd>
+</dl>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>将 GTS 连接到 DLC3。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>将发动机开关置于 ON (IG) 位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>打开 GTS。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>进入以下菜单：Body Electrical / Entry&amp;Start / Active Test。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>根据 GTS 上的显示，进行主动测试。
+</p>
+<dl class="gtsActiveTestTable hasAllTable">
+<dt class="gtsActiveTestTable">Body Electrical &gt; Entry&amp;Start &gt; Active Test</dt>
+<dd class="gtsActiveTestTable">
+<table summary="active-test-table">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测仪显示
+</th>
+<th class="alcenter">测量项目
+</th>
+<th class="alcenter">控制范围
+</th>
+<th class="alcenter">诊断备注
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">Immobiliser Indicator
+</td>
+<td class="alcenter">安全指示灯
+</td>
+<td class="alcenter">OFF/ON
+</td>
+<td class="alcenter">-
+</td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>
